@@ -11,27 +11,27 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核195/351初候选，166纳入、29排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余156初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "当前已逐篇审核215/351初候选，184纳入、31排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余136初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 166,
-      "exclude": 29,
+      "include": 184,
+      "exclude": 31,
       "pending": 0,
-      "unreviewed": 156
+      "unreviewed": 136
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "156篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "136篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余156初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续逐篇审核余136初候选；核全Main及其他正式分轨漏采漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:17:51.197141+00:00"
+    "checked_at": "2026-11-19T07:20:54.523693+00:00"
   },
   "catalogue_main_track": {
     "official_count": 5286,
@@ -1800,6 +1800,238 @@
             "偏微分方程求解"
           ],
           "rationale": "Φ-ROM将可微PDE求解器直接纳入潜空间动力学训练，用物理约束保持高低维系统一致，并在未见参数、超训练时域长期预测及稀疏不规则观测下重建/同化物理场。AI实质用于时变参数化微分方程的降阶科学模拟。",
+          "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "count": 20,
+      "decisions": {
+        "include": 18,
+        "exclude": 2
+      },
+      "records": [
+        {
+          "id": "RespmwOoCH",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "语言模型",
+            "自动定理证明"
+          ],
+          "rationale": "Fermat将数学概念发现与定理证明建模为符号动作环境，并用LLM演化算法及函数抽象学习数学对象的有趣性评分，实际在初等数论和有限域发现上优于硬编码基线。AI直接参与数学理论形成。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "ROfYsQ2KNV",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "必要全文§4（PDF pp7–8）确认核心为通用图Transformer的位置编码、表达力、迁移和规模规律。PCQM4Mv2分子性质与COCO图像、代码和CLRS算法图并列用于普适模型设计评测，本文未展开针对分子科学问题的建模或研究结果；领域基准性能演示不足以单独支持纳入。",
+          "location": "正式全文§4–4.1, PDF pp7–8",
+          "pdf_evidence": true
+        },
+        {
+          "id": "RDt0crdC7N",
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "语言模型",
+            "人类出行行为建模"
+          ],
+          "rationale": "ATHENA结合LLM符号效用发现和个体语义适应，基于真实出行方式及疫苗选择研究人类决策差异，实测相对效用模型、ML和其他LLM的预测改进。AI直接用于社会行为/选择机制建模，不是替人执行医疗决策。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "R42O6v84cX",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "图神经网络",
+            "蛋白质逆折叠"
+          ],
+          "rationale": "DualMPNN用结构同源模板、双流消息传递及对齐感知交叉注意力，根据目标三维结构设计蛋白氨基酸序列，并在CATH/TS50/T500验证恢复率与可折叠性。AI实际用于蛋白工程逆折叠。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Quvnn2o17a",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经算子",
+            "流匹配",
+            "科学图像重建"
+          ],
+          "rationale": "必要全文§4（PDF pp7–9）核实OFM不仅学习合成GP，还在Navier–Stokes和昂贵蒙特卡洛黑洞数据上进行函数先验与稀疏观测条件后验回归，黑洞例用32观测点重建64×64场并估计不确定性。AI实质参与物理场重建与概率推断。",
+          "location": "正式全文§4, PDF pp7–9, Figure5",
+          "pdf_evidence": true
+        },
+        {
+          "id": "QqCv9SI0X3",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "蛋白质设计"
+          ],
+          "rationale": "PepBridge以受体表面点云、几何和生化性质为条件，通过去噪扩散桥、结构扩散及表面–骨架对齐，联合设计配体蛋白表面和完整结构，实际验证互补性、稳定性与化学可行性。直接用于蛋白相互作用界面设计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Q3DtkFJ1Ap",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "科学问题推理"
+          ],
+          "rationale": "必要全文§2.3–2.5（PDF pp4–5）明确针对化学与材料假说，将反应机理、组分类别、试剂实例、参数和完整实验配置分层搜索，且在专家标注近期文献假说基准上评测。AI实际用于具体科研假说细化与方法配置，未声称这些新假说已湿实验验证。",
+          "location": "正式全文§2.3–2.5, PDF pp4–5, Figures1–2；输入摘要基准评测",
+          "pdf_evidence": true
+        },
+        {
+          "id": "PluDA8DEar",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "图神经网络",
+            "物理信息学习",
+            "偏微分方程求解"
+          ],
+          "rationale": "高阶GNN神经算子基于离散/有限元外微分及网格高阶相互作用，明确求解电磁学时间无关边值问题，并用物理损失和积分估计器提高结果。AI直接参与电磁PDE科学计算。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "PhnquAa8eV",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "归一化流",
+            "科学模拟参数反演"
+          ],
+          "rationale": "通过小批量最优传输对齐真实和模拟观测，训练条件归一化流进行模型失配下的摊销参数后验推断，实际涵盖复杂医学生物标志物估计。AI直接反演物理/生理隐变量，不是一般分类性能。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "PZaxCfLGLA",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "预训练",
+            "分子相互作用建模"
+          ],
+          "rationale": "3DMRL构建三维虚拟相互作用环境，为二维分子关系模型预训练全局和局部三维几何表示，并在40项实际相互作用任务及域外外推上评测，直接支持催化与药物相关分子作用建模。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "PZ7YLONKiI",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "掩码建模",
+            "分子性质预测"
+          ],
+          "rationale": "3D-GSRD以选择性再掩码避免二维结构泄露，同时利用三维关系Transformer及结构独立解码器学习分子表示，MD17八种分子性质目标中七项达到新最佳。AI实际预测分子动力学相关物性。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "PSvsmbCrGs",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "蛋白质序列优化"
+          ],
+          "rationale": "GPE以条件密度将低性质样本映射到高性质样本，实现无额外判别器的性质增强生成；实际在离线蛋白适应度优化基准验证，并以真实/合成数据迭代扩展性质范围。明确是计算蛋白设计，未声称湿实验成功。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "PNgG4H3q9D",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经算子",
+            "预训练",
+            "偏微分方程求解"
+          ],
+          "rationale": "MoE-POT针对异质方程类型构造路由/共享专家，在六套PDE数据预训练科学算子，动态选择专家捕捉方程特征并降低零样本求解误差。AI直接用于跨方程数值求解预训练。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "PInrbKWnbV",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "半监督学习",
+            "不确定性量化",
+            "偏微分方程求解"
+          ],
+          "rationale": "必要全文§4.1（PDF pp7–8）核实UMPL用于Darcy流、磁场Navier–Stokes、等离子体ICP、黑海实测温度及Ahmed车体气动阻力等稳态/瞬态代理任务。师生不确定性反馈改进少标签物理场和工程性能预测，不是仅泛称科学代理。",
+          "location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "Oir5nKRKVP",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "变分推断",
+            "动力系统建模"
+          ],
+          "rationale": "从观测数据学习随机微分形式的多尺度动力学，以粗网格宏观状态及潜在微观变量表示未解析动力学，借助摊销变分推断和专家乘积似然约束尺度分离，并与直接数值模拟/闭合模型比较。实质学习物理多尺度系统。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "ORsrbGTXQB",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "微调",
+            "蛋白质逆折叠"
+          ],
+          "rationale": "用折叠模型对候选序列的三维结构反馈生成成对偏好标签，再以DPO微调逆折叠模型；实测CATH目标结构TM-score由0.77提高至0.81并迭代优化困难结构。直接改进目标结构约束蛋白序列设计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "NnRQOPzL9P",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "扩散模型",
+            "天气预报"
+          ],
+          "rationale": "ERDM在滚动预测中统一噪声日程、预条件、Heun采样及混合时空架构，实际在二维Navier–Stokes和1.5°ERA5全球天气预测上评估随预报时距增长的不确定性。AI直接用于物理动力学与天气概率预测。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "NfBrMDF0Xi",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "隐式神经表示",
+            "偏微分方程求解"
+          ],
+          "rationale": "PDEfuncta用全局傅里叶调制缓解神经隐式表示对高频物理解场的谱偏差，并以元学习共享多解场低维潜变量，实际评估科学正反问题推断。AI直接建模含细尺度与局部结构的PDE解。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "NWtkmDPAA6",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "必要全文§3–4（PDF pp3–8）确认分子振动/漂移仅是设计通用时序损失的类比，实验将ETT、Weather、电力、Traffic和Solar并列比较多种一般预测器误差，未研究分子动力学或展开特定物理/工程机制分析。按手册领域序列基准的通用性能演示不单独纳入。",
+          "location": "正式全文§3.1–4.4, PDF pp3–8, Figures3–4",
+          "pdf_evidence": true
+        },
+        {
+          "id": "NUaIywqBtK",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经常微分方程",
+            "动力系统建模"
+          ],
+          "rationale": "FADE以可学习历史注意力核替代固定分数阶记忆权重，建立有界/适定/收敛的连续动力模型，实际在流体流动等复杂动力任务评测。AI对具有记忆依赖的物理系统进行建模，不仅使用分数阶术语。",
           "location": "输入摘要；正式论文集Abstract"
         }
       ]

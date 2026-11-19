@@ -19212,5 +19212,2069 @@
         }
       ]
     }
+  },
+  {
+    "id": "RespmwOoCH",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Learning Interestingness in Automated Mathematical Theory Formation",
+    "authors": [
+      "George Tsoukalas",
+      "Rahul Saha",
+      "Amitayush Thakur",
+      "Sabrina Reguyal",
+      "Swarat Chaudhuri"
+    ],
+    "author_ids": [
+      "~George_Tsoukalas1",
+      "~Rahul_Saha1",
+      "~Amitayush_Thakur1",
+      "~Sabrina_Reguyal1",
+      "~Swarat_Chaudhuri2"
+    ],
+    "abstract": "We take two key steps in automating the open-ended discovery of new mathematical theories, a grand challenge in artificial intelligence. First, we introduce Fermat, a reinforcement learning (RL) environment that models concept discovery and theorem-proving using a set of symbolic actions, opening up a range of RL problems relevant to theory discovery. Second, we explore a specific problem through Fermat: automatically scoring the interestingness of mathematical objects. We investigate evolutionary algorithms for synthesizing nontrivial interestingness measures. In particular, we introduce an LLM-based evolutionary algorithm that features function abstraction, leading to notable improvements in discovering elementary number theory and finite fields over hard-coded baselines. We open-source the \\fermat environment at github.com/trishullab/Fermat.",
+    "keywords": [
+      "automated mathematics",
+      "AI for math",
+      "interestingness",
+      "reinforcement learning",
+      "scientific discovery",
+      "theory discovery"
+    ],
+    "tldr": "We design an RL environment for automated mathematical theory formation and present an evolutionary synthesis methodology for interestingness measures to guide exploration in it",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ tsoukalas2025learning, title={Learning Interestingness in Automated Mathematical Theory Formation}, author={George Tsoukalas and Rahul Saha and Amitayush Thakur and Sabrina Reguyal and Swarat Chaudhuri}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=RespmwOoCH} }",
+    "url": "https://openreview.net/forum?id=RespmwOoCH",
+    "pdf_url": "https://openreview.net/pdf?id=RespmwOoCH",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "scientific discovery"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "Fermat将数学概念发现与定理证明建模为符号动作环境，并用LLM演化算法及函数抽象学习数学对象的有趣性评分，实际在初等数论和有限域发现上优于硬编码基线。AI直接参与数学理论形成。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Learning Interestingness in Automated Mathematical Theory Formation",
+        "authors": [
+          "Tsoukalas, George",
+          "Saha, Rahul",
+          "Thakur, Amitayush",
+          "Reguyal, Sabrina",
+          "Chaudhuri, Swarat"
+        ],
+        "doi": "10.52202/085713-1298",
+        "volume": "38",
+        "pages": "38896–38928",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/37678356aa009dd4205c813c02fa4985-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/37678356aa009dd4205c813c02fa4985-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "We take two key steps in automating the open-ended discovery of new mathematical theories, a grand challenge in artificial intelligence. First, we introduce Fermat, a reinforcement learning (RL) environment that models concept discovery and theorem-proving using a set of symbolic actions, opening up a range of RL problems relevant to theory discovery. Second, we explore a specific problem through Fermat: automatically scoring the interestingness of mathematical objects. We investigate evolutionary algorithms for synthesizing nontrivial interestingness measures. In particular, we introduce an LLM-based evolutionary algorithm that features function abstraction, leading to notable improvements in discovering elementary number theory and finite fields over hard-coded baselines. We open-source the \\fermat environment at github.com/trishullab/Fermat.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/37678356aa009dd4205c813c02fa4985-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "Fermat将数学概念发现与定理证明建模为符号动作环境，并用LLM演化算法及函数抽象学习数学对象的有趣性评分，实际在初等数论和有限域发现上优于硬编码基线。AI直接参与数学理论形成。"
+        },
+        {
+          "axis": "method",
+          "label": "语言模型",
+          "label_en": "Language model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "Fermat将数学概念发现与定理证明建模为符号动作环境，并用LLM演化算法及函数抽象学习数学对象的有趣性评分，实际在初等数论和有限域发现上优于硬编码基线。AI直接参与数学理论形成。"
+        },
+        {
+          "axis": "task",
+          "label": "自动定理证明",
+          "label_en": "Automated theorem proving",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "Fermat将数学概念发现与定理证明建模为符号动作环境，并用LLM演化算法及函数抽象学习数学对象的有趣性评分，实际在初等数论和有限域发现上优于硬编码基线。AI直接参与数学理论形成。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ROfYsQ2KNV",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Generalizable Insights for Graph Transformers in Theory and Practice",
+    "authors": [
+      "Timo Stoll",
+      "Luis Müller",
+      "Christopher Morris"
+    ],
+    "author_ids": [
+      "~Timo_Stoll1",
+      "~Luis_Müller1",
+      "~Christopher_Morris1"
+    ],
+    "abstract": "Graph Transformers (GTs) have shown strong empirical performance, yet current architectures vary widely in their use of attention mechanisms, positional embeddings (PEs), and expressivity. Existing expressivity results are often tied to specific design choices and lack comprehensive empirical validation on large-scale data. This leaves a gap between theory and practice, preventing generalizable insights that exceed particular application domains. Here, we propose the Generalized-Distance Transformer (GDT), a GT architecture using standard attention that incorporates many advancements for GTs from recent years, and develop a fine-grained understanding of the GDT's representation power in terms of attention and PEs. Through extensive experiments, we identify design choices that consistently perform well across various applications, tasks, and model scales, demonstrating strong performance in a few-shot transfer setting without fine-tuning. Our evaluation covers over eight million graphs with roughly 270M tokens across diverse domains, including image-based object detection, molecular property prediction, code summarization, and out-of-distribution algorithmic reasoning. We distill our theoretical and practical findings into several generalizable insights about effective GT design, training, and inference.",
+    "keywords": [
+      "graph transformers",
+      "expressivity",
+      "structural encodings",
+      "structural embeddings",
+      "positional encodings"
+    ],
+    "tldr": "We provide a principled, unified graph transformer architecture, study the impact of structural embeddings for expressivity, and do a large-scale experimental study to complement the theory.",
+    "primary_area": "deep_learning",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ stoll2025generalizable, title={Generalizable Insights for Graph Transformers in Theory and Practice}, author={Timo Stoll and Luis M{\\\"u}ller and Christopher Morris}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ROfYsQ2KNV} }",
+    "url": "https://openreview.net/forum?id=ROfYsQ2KNV",
+    "pdf_url": "https://openreview.net/pdf?id=ROfYsQ2KNV",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecular property",
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "必要全文§4（PDF pp7–8）确认核心为通用图Transformer的位置编码、表达力、迁移和规模规律。PCQM4Mv2分子性质与COCO图像、代码和CLRS算法图并列用于普适模型设计评测，本文未展开针对分子科学问题的建模或研究结果；领域基准性能演示不足以单独支持纳入。",
+      "evidence_location": "正式全文§4–4.1, PDF pp7–8",
+      "verified_metadata": {
+        "title": "Generalizable Insights for Graph Transformers in Theory and Practice",
+        "authors": [
+          "Stoll, Timo",
+          "Müller, Luis",
+          "Morris, Christopher"
+        ],
+        "doi": "10.52202/085713-5637",
+        "volume": "38",
+        "pages": "169286–169334",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f79df6cbc6e5f708440004fad7ef64cc-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f79df6cbc6e5f708440004fad7ef64cc-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Graph Transformers (GTs) have shown strong empirical performance, yet current architectures vary widely in their use of attention mechanisms, positional embeddings (PEs), and expressivity. Existing expressivity results are often tied to specific design choices and lack comprehensive empirical validation on large-scale data. This leaves a gap between theory and practice, preventing generalizable insights that exceed particular application domains. Here, we propose the Generalized-Distance Transformer (GDT), a GT architecture using standard attention that incorporates many advancements for GTs from recent years, and develop a fine-grained understanding of the GDT's representation power in terms of attention and PEs. Through extensive experiments, we identify design choices that consistently perform well across various applications, tasks, and model scales, demonstrating strong performance in a few-shot transfer setting without fine-tuning. Our evaluation covers over eight million graphs with roughly 270M tokens across diverse domains, including image-based object detection, molecular property prediction, code summarization, and out-of-distribution algorithmic reasoning. We distill our theoretical and practical findings into several generalizable insights about effective GT design, training, and inference.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f79df6cbc6e5f708440004fad7ef64cc-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/f79df6cbc6e5f708440004fad7ef64cc-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§4–4.1, PDF pp7–8",
+        "pdf_sha256": "624cb6dcd4238a9c3fc67e68baf92731f1e562fc3999eec6871fb6fc523b4e98"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": []
+    }
+  },
+  {
+    "id": "RDt0crdC7N",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Personalized Decision Modeling: Utility Optimization or Textualized-Symbolic Reasoning",
+    "authors": [
+      "Yibo Zhao",
+      "Yang Zhao",
+      "Hongru Du",
+      "Hao Frank Yang"
+    ],
+    "author_ids": [
+      "~Yibo_Zhao6",
+      "~Yang_Zhao37",
+      "~Hongru_Du1",
+      "~Hao_Frank_Yang1"
+    ],
+    "abstract": "Decision-making models for individuals, particularly in high-stakes scenarios like vaccine uptake, often diverge from population optimal predictions. This gap arises from the uniqueness of the individual decision-making process, shaped by numerical attributes (e.g., cost, time) and linguistic influences (e.g., personal preferences and constraints). Developing upon Utility Theory and leveraging the textual-reasoning capabilities of Large Language Models (LLMs), this paper proposes an Adaptive Textual-symbolic Human-centric Reasoning framework (ATHENA) to address the optimal information integration. ATHENA uniquely integrates two stages: First, it discovers robust, group-level symbolic utility functions via LLM-augmented symbolic discovery; Second, it implements individual-level semantic adaptation, creating personalized semantic templates guided by the optimal utility to model personalized choices. Validated on real-world travel mode and vaccine choice tasks, ATHENA consistently outperforms utility-based, machine learning, and other LLM-based models, lifting F1 score by at least 6.5\\% over the strongest cutting-edge models. Further, ablation studies confirm that both stages of ATHENA are critical and complementary, as removing either clearly degrades overall predictive performance. By organically integrating symbolic utility modeling and semantic adaptation, ATHENA provides a new scheme for modeling human-centric decisions. The project page can be found at https://yibozh.github.io/Athena.",
+    "keywords": [
+      "Personalized Decision Making",
+      "Symbolic Regression",
+      "LLM"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhao2025personalized, title={Personalized Decision Modeling: Utility Optimization or Textualized-Symbolic Reasoning}, author={Yibo Zhao and Yang Zhao and Hongru Du and Hao Frank Yang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=RDt0crdC7N} }",
+    "url": "https://openreview.net/forum?id=RDt0crdC7N",
+    "pdf_url": "https://openreview.net/pdf?id=RDt0crdC7N",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "symbolic regression"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "ATHENA结合LLM符号效用发现和个体语义适应，基于真实出行方式及疫苗选择研究人类决策差异，实测相对效用模型、ML和其他LLM的预测改进。AI直接用于社会行为/选择机制建模，不是替人执行医疗决策。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Personalized Decision Modeling: Utility Optimization or Textualized-Symbolic Reasoning",
+        "authors": [
+          "Zhao, Yibo",
+          "Zhao, Yang",
+          "Du, Hongru",
+          "Yang, Hao Frank"
+        ],
+        "doi": "10.52202/085713-2988",
+        "volume": "38",
+        "pages": "89317–89364",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/80eecea10dc05e23db2f90c9d4567153-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/80eecea10dc05e23db2f90c9d4567153-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Decision-making models for individuals, particularly in high-stakes scenarios like vaccine uptake, often diverge from population optimal predictions. This gap arises from the uniqueness of the individual decision-making process, shaped by numerical attributes (e.g., cost, time) and linguistic influences (e.g., personal preferences and constraints). Developing upon Utility Theory and leveraging the textual-reasoning capabilities of Large Language Models (LLMs), this paper proposes an Adaptive Textual-symbolic Human-centric Reasoning framework (ATHENA) to address the optimal information integration. ATHENA uniquely integrates two stages: First, it discovers robust, group-level symbolic utility functions via LLM-augmented symbolic discovery; Second, it implements individual-level semantic adaptation, creating personalized semantic templates guided by the optimal utility to model personalized choices. Validated on real-world travel mode and vaccine choice tasks, ATHENA consistently outperforms utility-based, machine learning, and other LLM-based models, lifting F1 score by at least 6.5\\% over the strongest cutting-edge models.  Further, ablation studies confirm that both stages of ATHENA are critical and complementary, as removing either clearly degrades overall predictive performance. By organically integrating symbolic utility modeling and semantic adaptation, ATHENA provides a new scheme for modeling human-centric decisions. The project page can be found at https://yibozh.github.io/Athena.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/80eecea10dc05e23db2f90c9d4567153-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于社会科学",
+          "label_en": "AI for social sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "ATHENA结合LLM符号效用发现和个体语义适应，基于真实出行方式及疫苗选择研究人类决策差异，实测相对效用模型、ML和其他LLM的预测改进。AI直接用于社会行为/选择机制建模，不是替人执行医疗决策。"
+        },
+        {
+          "axis": "method",
+          "label": "语言模型",
+          "label_en": "Language model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "ATHENA结合LLM符号效用发现和个体语义适应，基于真实出行方式及疫苗选择研究人类决策差异，实测相对效用模型、ML和其他LLM的预测改进。AI直接用于社会行为/选择机制建模，不是替人执行医疗决策。"
+        },
+        {
+          "axis": "task",
+          "label": "人类出行行为建模",
+          "label_en": "Human mobility behavior modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "ATHENA结合LLM符号效用发现和个体语义适应，基于真实出行方式及疫苗选择研究人类决策差异，实测相对效用模型、ML和其他LLM的预测改进。AI直接用于社会行为/选择机制建模，不是替人执行医疗决策。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "R42O6v84cX",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "DualMPNN: Harnessing Structural Alignments for High-Recovery Inverse Protein Folding",
+    "authors": [
+      "Xuhui Liao",
+      "Qiyu Wang",
+      "Zhiqiang Liang",
+      "Liwei Xiao",
+      "Junjie Chen"
+    ],
+    "author_ids": [
+      "~Xuhui_Liao1",
+      "~Qiyu_Wang4",
+      "~Zhiqiang_Liang1",
+      "~Liwei_Xiao1",
+      "~Junjie_Chen5"
+    ],
+    "abstract": "Inverse protein folding addresses the challenge of designing amino acid sequences that fold into a predetermined tertiary structure, bridging geometric and evolutionary constraints to advance protein engineering. Inspired by the pivotal role of multiple sequence alignments (MSAs) in structure prediction models like AlphaFold, we hypothesize that structural alignments can provide an informative prior for inverse folding. In this study, we introduce DualMPNN, a dual-stream message passing neural network that leverages structurally homologous templates to guide amino acid sequence design of predefined query structures. DualMPNN processes the query and template proteins via two interactive branches, coupled through alignment-aware cross-stream attention mechanisms that enable exchange of geometric and co-evolutionary signals. Comprehensive evaluations across on CATH 4.2, TS50 and T500 benchmarks demonstrate DualMPNN achieves state-of-the-art recovery rates of 65.51\\%, 70.99\\%, and 70.37\\%, significantly outperforming base model ProteinMPNN by 15.64\\%, 16.56\\%, 12.29\\%, respectively. Further template quality analysis and structural foldability assessment underscore the value of structural alignment priors for protein design.",
+    "keywords": [
+      "Protein Inverse Folding",
+      "Structure Alignments",
+      "MPNN",
+      "High Recovery"
+    ],
+    "tldr": "DualMPNN is a template-guided dual-stream message passing network that leverages structural alignments to enhance inverse protein folding accuracy through alignment-aware attention.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ liao2025dualmpnn, title={Dual{MPNN}: Harnessing Structural Alignments for High-Recovery Inverse Protein Folding}, author={Xuhui Liao and Qiyu Wang and Zhiqiang Liang and Liwei Xiao and Junjie Chen}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=R42O6v84cX} }",
+    "url": "https://openreview.net/forum?id=R42O6v84cX",
+    "pdf_url": "https://openreview.net/pdf?id=R42O6v84cX",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "protein folding",
+      "alphafold",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "DualMPNN用结构同源模板、双流消息传递及对齐感知交叉注意力，根据目标三维结构设计蛋白氨基酸序列，并在CATH/TS50/T500验证恢复率与可折叠性。AI实际用于蛋白工程逆折叠。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "DualMPNN: Harnessing Structural Alignments for High-Recovery Inverse Protein Folding",
+        "authors": [
+          "Liao, Xuhui",
+          "wang, qiyu",
+          "Liang, Zhiqiang",
+          "Xiao, Liwei",
+          "Chen, Junjie"
+        ],
+        "doi": "10.52202/085713-3727",
+        "volume": "38",
+        "pages": "111623–111643",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a1f12d8d3cc1b4789ff4ebec46e27609-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a1f12d8d3cc1b4789ff4ebec46e27609-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Inverse protein folding addresses the challenge of designing amino acid sequences that fold into a predetermined tertiary structure, bridging geometric and evolutionary constraints to advance protein engineering.  Inspired by the pivotal role of multiple sequence alignments (MSAs) in structure prediction models like AlphaFold, we hypothesize that structural alignments can provide an informative prior for inverse folding. In this study, we introduce DualMPNN, a dual-stream message passing neural network that leverages structurally homologous templates to guide amino acid sequence design of predefined query structures. DualMPNN processes the query and template proteins via two interactive branches, coupled through alignment-aware cross-stream attention mechanisms that enable exchange of geometric and co-evolutionary signals. Comprehensive evaluations across on CATH 4.2, TS50 and T500 benchmarks demonstrate DualMPNN achieves state-of-the-art recovery rates of 65.51\\%, 70.99\\%, and 70.37\\%, significantly outperforming base model ProteinMPNN by 15.64\\%, 16.56\\%, 12.29\\%, respectively. Further template quality analysis and structural foldability assessment underscore the value of structural alignment priors for protein design.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a1f12d8d3cc1b4789ff4ebec46e27609-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "DualMPNN用结构同源模板、双流消息传递及对齐感知交叉注意力，根据目标三维结构设计蛋白氨基酸序列，并在CATH/TS50/T500验证恢复率与可折叠性。AI实际用于蛋白工程逆折叠。"
+        },
+        {
+          "axis": "method",
+          "label": "图神经网络",
+          "label_en": "Graph neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "DualMPNN用结构同源模板、双流消息传递及对齐感知交叉注意力，根据目标三维结构设计蛋白氨基酸序列，并在CATH/TS50/T500验证恢复率与可折叠性。AI实际用于蛋白工程逆折叠。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质逆折叠",
+          "label_en": "Protein inverse folding",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "DualMPNN用结构同源模板、双流消息传递及对齐感知交叉注意力，根据目标三维结构设计蛋白氨基酸序列，并在CATH/TS50/T500验证恢复率与可折叠性。AI实际用于蛋白工程逆折叠。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Quvnn2o17a",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Stochastic Process Learning via Operator Flow Matching",
+    "authors": [
+      "Yaozhong Shi",
+      "Zachary E Ross",
+      "Domniki Asimaki",
+      "Kamyar Azizzadenesheli"
+    ],
+    "author_ids": [
+      "~Yaozhong_Shi1",
+      "~Zachary_E_Ross1",
+      "~Domniki_Asimaki1",
+      "~Kamyar_Azizzadenesheli1"
+    ],
+    "abstract": "Expanding on neural operators, we propose a novel framework for stochastic process learning across arbitrary domains. In particular, we develop operator flow matching (OFM) for learning stochastic process priors on function spaces. OFM provides the probability density of the values of any collection of points and enables mathematically tractable functional regression at new points with mean and density estimation. Our method outperforms state-of-the-art models in stochastic process learning, functional regression, and prior learning.",
+    "keywords": [
+      "Operator Learning",
+      "Fourier Neural Operator",
+      "Bayesian Methods",
+      "Gaussian Process",
+      "AI for Science"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ shi2025stochastic, title={Stochastic Process Learning via Operator Flow Matching}, author={Yaozhong Shi and Zachary E Ross and Domniki Asimaki and Kamyar Azizzadenesheli}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Quvnn2o17a} }",
+    "url": "https://openreview.net/forum?id=Quvnn2o17a",
+    "pdf_url": "https://openreview.net/pdf?id=Quvnn2o17a",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "ai for science",
+      "neural operator",
+      "fourier neural operator"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§4（PDF pp7–9）核实OFM不仅学习合成GP，还在Navier–Stokes和昂贵蒙特卡洛黑洞数据上进行函数先验与稀疏观测条件后验回归，黑洞例用32观测点重建64×64场并估计不确定性。AI实质参与物理场重建与概率推断。",
+      "evidence_location": "正式全文§4, PDF pp7–9, Figure5",
+      "verified_metadata": {
+        "title": "Stochastic Process Learning via Operator Flow Matching",
+        "authors": [
+          "Shi, Yaozhong",
+          "Ross, Zachary",
+          "Asimaki, Domniki",
+          "Azizzadenesheli, Kamyar"
+        ],
+        "doi": "10.52202/085713-1279",
+        "volume": "38",
+        "pages": "38186–38226",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/36ca6503f05da1b8ad4391775d55c9f5-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/36ca6503f05da1b8ad4391775d55c9f5-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Expanding on neural operators, we propose a novel framework for stochastic process learning across arbitrary domains. In particular, we develop operator flow matching (OFM) for learning stochastic process priors on function spaces. OFM provides the probability density of the values of any collection of points and enables mathematically tractable functional regression at new points with mean and density estimation. Our method outperforms state-of-the-art models in stochastic process learning, functional regression, and prior learning.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/36ca6503f05da1b8ad4391775d55c9f5-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/36ca6503f05da1b8ad4391775d55c9f5-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§4, PDF pp7–9, Figure5",
+        "pdf_sha256": "21d5b9f75a9cbabb264732921c5916ed6f4e5f0718819f941e5b78a88ff5dde9"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "正式全文§4, PDF pp7–9, Figure5",
+          "rationale": "必要全文§4（PDF pp7–9）核实OFM不仅学习合成GP，还在Navier–Stokes和昂贵蒙特卡洛黑洞数据上进行函数先验与稀疏观测条件后验回归，黑洞例用32观测点重建64×64场并估计不确定性。AI实质参与物理场重建与概率推断。"
+        },
+        {
+          "axis": "method",
+          "label": "神经算子",
+          "label_en": "Neural operator",
+          "evidence_location": "正式全文§4, PDF pp7–9, Figure5",
+          "rationale": "必要全文§4（PDF pp7–9）核实OFM不仅学习合成GP，还在Navier–Stokes和昂贵蒙特卡洛黑洞数据上进行函数先验与稀疏观测条件后验回归，黑洞例用32观测点重建64×64场并估计不确定性。AI实质参与物理场重建与概率推断。"
+        },
+        {
+          "axis": "method",
+          "label": "流匹配",
+          "label_en": "Flow matching",
+          "evidence_location": "正式全文§4, PDF pp7–9, Figure5",
+          "rationale": "必要全文§4（PDF pp7–9）核实OFM不仅学习合成GP，还在Navier–Stokes和昂贵蒙特卡洛黑洞数据上进行函数先验与稀疏观测条件后验回归，黑洞例用32观测点重建64×64场并估计不确定性。AI实质参与物理场重建与概率推断。"
+        },
+        {
+          "axis": "task",
+          "label": "科学图像重建",
+          "label_en": "Scientific image reconstruction",
+          "evidence_location": "正式全文§4, PDF pp7–9, Figure5",
+          "rationale": "必要全文§4（PDF pp7–9）核实OFM不仅学习合成GP，还在Navier–Stokes和昂贵蒙特卡洛黑洞数据上进行函数先验与稀疏观测条件后验回归，黑洞例用32观测点重建64×64场并估计不确定性。AI实质参与物理场重建与概率推断。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "QqCv9SI0X3",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Joint Design of Protein Surface and Backbone Using a Diffusion Bridge Model",
+    "authors": [
+      "Guanlue Li",
+      "Xufeng Zhao",
+      "Fang Wu",
+      "Sören Laue"
+    ],
+    "author_ids": [
+      "~Guanlue_Li1",
+      "~Xufeng_Zhao1",
+      "~Fang_Wu1",
+      "~Sören_Laue1"
+    ],
+    "abstract": "Protein-protein interactions (PPIs) are governed by surface complementarity and hydrophobic interactions at protein interfaces. However, designing diverse and physically realistic protein structure and surfaces that precisely complement target receptors remains a significant challenge in computational protein design. In this work, we introduce PepBridge, a novel framework for the joint design of protein surface and structure that seamlessly integrates receptor surface geometry and biochemical properties. Starting with a receptor surface represented as a 3D point cloud, PepBridge generates complete protein structures through a multi-step process. First, it employs denoising diffusion bridge models (DDBMs) to map receptor surfaces to ligand surfaces. Next, a multi-model diffusion model predicts the corresponding structure, while Shape-Frame Matching Networks ensure alignment between surface geometry and backbone architecture. This integrated approach facilitates surface complementarity, conformational stability, and chemical feasibility. Extensive validation across diverse protein design scenarios demonstrates PepBridge's efficacy in generating structurally viable proteins, representing a significant advancement in the joint design of top-down protein structure.",
+    "keywords": [
+      "Diffusion Bridge model",
+      "Molecular Surfaces",
+      "Protein Design"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ li2025joint, title={Joint Design of Protein Surface and Backbone Using a Diffusion Bridge Model}, author={Guanlue Li and Xufeng Zhao and Fang Wu and S{\\\"o}ren Laue}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=QqCv9SI0X3} }",
+    "url": "https://openreview.net/forum?id=QqCv9SI0X3",
+    "pdf_url": "https://openreview.net/pdf?id=QqCv9SI0X3",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "protein structure",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "PepBridge以受体表面点云、几何和生化性质为条件，通过去噪扩散桥、结构扩散及表面–骨架对齐，联合设计配体蛋白表面和完整结构，实际验证互补性、稳定性与化学可行性。直接用于蛋白相互作用界面设计。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Joint Design of Protein Surface and Backbone Using a Diffusion Bridge Model",
+        "authors": [
+          "Li, Guanlue",
+          "Zhao, Xufeng",
+          "Wu, Fang",
+          "Laue, Sören"
+        ],
+        "doi": "10.52202/085713-5649",
+        "volume": "38",
+        "pages": "169682–169708",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f7ce42aed63990daadc0b7144c9273c2-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f7ce42aed63990daadc0b7144c9273c2-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Protein-protein interactions (PPIs) are governed by surface complementarity and hydrophobic interactions at protein interfaces. However, designing diverse and physically realistic protein structure and surfaces that precisely complement target receptors remains a significant challenge in computational protein design. In this work, we introduce PepBridge, a novel framework for the joint design of protein surface and structure that seamlessly integrates receptor surface geometry and biochemical properties. Starting with a receptor surface represented as a 3D point cloud, PepBridge generates complete protein structures through a multi-step process. First, it employs denoising diffusion bridge models (DDBMs) to map receptor surfaces to ligand surfaces. Next, a multi-model diffusion model predicts the corresponding structure, while Shape-Frame Matching Networks ensure alignment between surface geometry and backbone architecture. This integrated approach facilitates surface complementarity, conformational stability, and chemical feasibility. Extensive validation across diverse protein design scenarios demonstrates PepBridge's efficacy in generating structurally viable proteins, representing a significant advancement in the joint design of top-down protein structure.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f7ce42aed63990daadc0b7144c9273c2-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PepBridge以受体表面点云、几何和生化性质为条件，通过去噪扩散桥、结构扩散及表面–骨架对齐，联合设计配体蛋白表面和完整结构，实际验证互补性、稳定性与化学可行性。直接用于蛋白相互作用界面设计。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PepBridge以受体表面点云、几何和生化性质为条件，通过去噪扩散桥、结构扩散及表面–骨架对齐，联合设计配体蛋白表面和完整结构，实际验证互补性、稳定性与化学可行性。直接用于蛋白相互作用界面设计。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质设计",
+          "label_en": "Protein design",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PepBridge以受体表面点云、几何和生化性质为条件，通过去噪扩散桥、结构扩散及表面–骨架对齐，联合设计配体蛋白表面和完整结构，实际验证互补性、稳定性与化学可行性。直接用于蛋白相互作用界面设计。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Q3DtkFJ1Ap",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search",
+    "authors": [
+      "Zonglin Yang",
+      "Wanhao Liu",
+      "Ben Gao",
+      "Yujie Liu",
+      "Wei Li",
+      "Tong Xie",
+      "Lidong Bing",
+      "Wanli Ouyang",
+      "Erik Cambria",
+      "Dongzhan Zhou"
+    ],
+    "author_ids": [
+      "~Zonglin_Yang1",
+      "~Wanhao_Liu1",
+      "~Ben_Gao3",
+      "~Yujie_Liu4",
+      "~Wei_Li74",
+      "~Tong_Xie2",
+      "~Lidong_Bing3",
+      "~Wanli_Ouyang1",
+      "~Erik_Cambria1",
+      "~Dongzhan_Zhou1"
+    ],
+    "abstract": "Large language models (LLMs) have shown promise in automating scientific hypothesis generation, yet existing approaches primarily yield coarse-grained hypotheses lacking critical methodological and experimental details. We introduce and formally define the new task of fine-grained scientific hypothesis discovery, which entails generating detailed, experimentally actionable hypotheses from coarse initial research directions. We frame this as a combinatorial optimization problem and investigate the upper limits of LLMs' capacity to solve it when maximally leveraged. Specifically, we explore four foundational questions: (1) how to best harness an LLM's internal heuristics to formulate the fine-grained hypothesis it itself would judge as the most promising among all the possible hypotheses it might generate, based on its own internal scoring-thus defining a latent reward landscape over the hypothesis space; (2) whether such LLM-judged better hypotheses exhibit stronger alignment with ground-truth hypotheses; (3) whether shaping the reward landscape using an ensemble of diverse LLMs of similar capacity yields better outcomes than defining it with repeated instances of the strongest LLM among them; and (4) whether an ensemble of identical LLMs provides a more reliable reward landscape than a single LLM. To address these questions, we propose a hierarchical search method that incrementally proposes and integrates details into the hypothesis, progressing from general concepts to specific experimental configurations. We show that this hierarchical process smooths the reward landscape and enables more effective optimization. Empirical evaluations on a new benchmark of expert-annotated fine-grained hypotheses from recent literature show that our method consistently outperforms strong baselines.",
+    "keywords": [
+      "scientific discovery"
+    ],
+    "tldr": null,
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ yang2025moosechem, title={{MOOSE}-Chem2: Exploring {LLM} Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search}, author={Zonglin Yang and Wanhao Liu and Ben Gao and Yujie Liu and Wei Li and Tong Xie and Lidong Bing and Wanli Ouyang and Erik Cambria and Dongzhan Zhou}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Q3DtkFJ1Ap} }",
+    "url": "https://openreview.net/forum?id=Q3DtkFJ1Ap",
+    "pdf_url": "https://openreview.net/pdf?id=Q3DtkFJ1Ap",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "scientific discovery"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§2.3–2.5（PDF pp4–5）明确针对化学与材料假说，将反应机理、组分类别、试剂实例、参数和完整实验配置分层搜索，且在专家标注近期文献假说基准上评测。AI实际用于具体科研假说细化与方法配置，未声称这些新假说已湿实验验证。",
+      "evidence_location": "正式全文§2.3–2.5, PDF pp4–5, Figures1–2；输入摘要基准评测",
+      "verified_metadata": {
+        "title": "MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search",
+        "authors": [
+          "Yang, Zonglin",
+          "Liu, Wanhao",
+          "Gao, Ben",
+          "Liu, Yujie",
+          "Li, Wei",
+          "Xie, Tong",
+          "Bing, Lidong",
+          "Ouyang, Wanli",
+          "Cambria, Erik",
+          "Zhou, Dongzhan"
+        ],
+        "doi": "10.52202/085713-2979",
+        "volume": "38",
+        "pages": "89045–89076",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8066ae1446b2bbccb5159587cc3b3bcc-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8066ae1446b2bbccb5159587cc3b3bcc-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Large language models (LLMs) have shown promise in automating scientific hypothesis generation, yet existing approaches primarily yield coarse-grained hypotheses lacking critical methodological and experimental details. We introduce and formally define the new task of fine-grained scientific hypothesis discovery, which entails generating detailed, experimentally actionable hypotheses from coarse initial research directions. We frame this as a combinatorial optimization problem and investigate the upper limits of LLMs' capacity to solve it when maximally leveraged. Specifically, we explore four foundational questions: (1) how to best harness an LLM's internal heuristics to formulate the fine-grained hypothesis it itself would judge as the most promising among all the possible hypotheses it might generate, based on its own internal scoring-thus defining a latent reward landscape over the hypothesis space; (2) whether such LLM-judged better hypotheses exhibit stronger alignment with ground-truth hypotheses; (3) whether shaping the reward landscape using an ensemble of diverse LLMs of similar capacity yields better outcomes than defining it with repeated instances of the strongest LLM among them; and (4) whether an ensemble of identical LLMs provides a more reliable reward landscape than a single LLM. To address these questions, we propose a hierarchical search method that incrementally proposes and integrates details into the hypothesis, progressing from general concepts to specific experimental configurations. We show that this hierarchical process smooths the reward landscape and enables more effective optimization. Empirical evaluations on a new benchmark of expert-annotated fine-grained hypotheses from recent literature show that our method consistently outperforms strong baselines.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8066ae1446b2bbccb5159587cc3b3bcc-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/8066ae1446b2bbccb5159587cc3b3bcc-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§2.3–2.5, PDF pp4–5, Figures1–2；输入摘要基准评测",
+        "pdf_sha256": "b9a2ed54fa18ace237ed5e0b15f11c0845d18102a2869802d8fe3c94107429fd"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "正式全文§2.3–2.5, PDF pp4–5, Figures1–2；输入摘要基准评测",
+          "rationale": "必要全文§2.3–2.5（PDF pp4–5）明确针对化学与材料假说，将反应机理、组分类别、试剂实例、参数和完整实验配置分层搜索，且在专家标注近期文献假说基准上评测。AI实际用于具体科研假说细化与方法配置，未声称这些新假说已湿实验验证。"
+        },
+        {
+          "axis": "method",
+          "label": "语言模型",
+          "label_en": "Language model",
+          "evidence_location": "正式全文§2.3–2.5, PDF pp4–5, Figures1–2；输入摘要基准评测",
+          "rationale": "必要全文§2.3–2.5（PDF pp4–5）明确针对化学与材料假说，将反应机理、组分类别、试剂实例、参数和完整实验配置分层搜索，且在专家标注近期文献假说基准上评测。AI实际用于具体科研假说细化与方法配置，未声称这些新假说已湿实验验证。"
+        },
+        {
+          "axis": "task",
+          "label": "科学问题推理",
+          "label_en": "Scientific problem reasoning",
+          "evidence_location": "正式全文§2.3–2.5, PDF pp4–5, Figures1–2；输入摘要基准评测",
+          "rationale": "必要全文§2.3–2.5（PDF pp4–5）明确针对化学与材料假说，将反应机理、组分类别、试剂实例、参数和完整实验配置分层搜索，且在专家标注近期文献假说基准上评测。AI实际用于具体科研假说细化与方法配置，未声称这些新假说已湿实验验证。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PluDA8DEar",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Boundary-Value PDEs Meet Higher-Order Differential Topology-aware GNNs",
+    "authors": [
+      "Yunfeng Liao",
+      "Yangxin Wu",
+      "Xiucheng Li"
+    ],
+    "author_ids": [
+      "~Yunfeng_Liao1",
+      "~Yangxin_Wu3",
+      "~Xiucheng_Li2"
+    ],
+    "abstract": "Recent advances in graph neural network (GNN)-based neural operators have demonstrated significant progress in solving partial differential equations (PDEs) by effectively representing computational meshes. However, most existing approaches overlook the intrinsic physical and topological meaning of higher-order elements in the mesh, which are closely tied to differential forms. In this paper, we propose a higher-order GNN framework that incorporates higher-order interactions based on discrete and finite element exterior calculus. The time-independent boundary value problems (BVPs) in electromagnetism are instantiated to illustrate the proposed framework. It can be easily generalized to other PDEs that admit differential form formulations. Moreover, the novel physics-informed loss terms, integrated form estimators, and theoretical support are derived correspondingly. Experiments show that our proposed method outperforms the existing neural operators by large margins on BVPs in electromagnetism. Our code is available at https://github.com/Supradax/Higher-Order-Differential-Topology-aware-GNN.",
+    "keywords": [
+      "Partial differential equations",
+      "Neural operator",
+      "Higher-order graph neural network",
+      "Exterior differential calculus",
+      "Electromagneticism"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ liao2025boundaryvalue, title={Boundary-Value {PDE}s Meet Higher-Order Differential Topology-aware {GNN}s}, author={Yunfeng Liao and Yangxin Wu and Xiucheng Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PluDA8DEar} }",
+    "url": "https://openreview.net/forum?id=PluDA8DEar",
+    "pdf_url": "https://openreview.net/pdf?id=PluDA8DEar",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator",
+      "physics-informed",
+      "partial differential",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "高阶GNN神经算子基于离散/有限元外微分及网格高阶相互作用，明确求解电磁学时间无关边值问题，并用物理损失和积分估计器提高结果。AI直接参与电磁PDE科学计算。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Boundary-Value PDEs Meet Higher-Order Differential Topology-aware GNNs",
+        "authors": [
+          "Liao, Yunfeng",
+          "Wu, Yangxin",
+          "Li, Xiucheng"
+        ],
+        "doi": "10.52202/085713-2604",
+        "volume": "38",
+        "pages": "77664–77697",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ffe484a646db13891bb6435ca39d667-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/6ffe484a646db13891bb6435ca39d667-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Recent advances in graph neural network (GNN)-based neural operators have demonstrated significant progress in solving partial differential equations (PDEs) by effectively representing computational meshes. However, most existing approaches overlook the intrinsic physical and topological meaning of higher-order elements in the mesh, which are closely tied to differential forms. In this paper, we propose a higher-order GNN framework that incorporates higher-order interactions based on discrete and finite element exterior calculus. The time-independent boundary value problems (BVPs) in electromagnetism are instantiated to illustrate the proposed framework. It can be easily generalized to other PDEs that admit differential form formulations. Moreover, the novel physics-informed loss terms, integrated form estimators, and theoretical support are derived correspondingly. Experiments show that our proposed method outperforms the existing neural operators by large margins on BVPs in electromagnetism. Our code is available at https://github.com/Supradax/Higher-Order-Differential-Topology-aware-GNN.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ffe484a646db13891bb6435ca39d667-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "高阶GNN神经算子基于离散/有限元外微分及网格高阶相互作用，明确求解电磁学时间无关边值问题，并用物理损失和积分估计器提高结果。AI直接参与电磁PDE科学计算。"
+        },
+        {
+          "axis": "method",
+          "label": "图神经网络",
+          "label_en": "Graph neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "高阶GNN神经算子基于离散/有限元外微分及网格高阶相互作用，明确求解电磁学时间无关边值问题，并用物理损失和积分估计器提高结果。AI直接参与电磁PDE科学计算。"
+        },
+        {
+          "axis": "method",
+          "label": "物理信息学习",
+          "label_en": "Physics-informed learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "高阶GNN神经算子基于离散/有限元外微分及网格高阶相互作用，明确求解电磁学时间无关边值问题，并用物理损失和积分估计器提高结果。AI直接参与电磁PDE科学计算。"
+        },
+        {
+          "axis": "task",
+          "label": "偏微分方程求解",
+          "label_en": "Partial differential equation solving",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "高阶GNN神经算子基于离散/有限元外微分及网格高阶相互作用，明确求解电磁学时间无关边值问题，并用物理损失和积分估计器提高结果。AI直接参与电磁PDE科学计算。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PhnquAa8eV",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Inductive Domain Transfer In Misspecified Simulation-Based Inference",
+    "authors": [
+      "Ortal Senouf",
+      "Antoine Wehenkel",
+      "Cédric Vincent-Cuaz",
+      "Emmanuel Abbe",
+      "Pascal Frossard"
+    ],
+    "author_ids": [
+      "~Ortal_Senouf1",
+      "~Antoine_Wehenkel1",
+      "~Cédric_Vincent-Cuaz1",
+      "~Emmanuel_Abbe1",
+      "~Pascal_Frossard1"
+    ],
+    "abstract": "Simulation-based inference (SBI) of latent parameters in physical systems is often hindered by model misspecification--the mismatch between simulated and real-world observations caused by inherent modeling simplifications. RoPE, a recent SBI approach, addresses this challenge through a two-stage domain transfer process that combines semi-supervised calibration with optimal transport (OT)-based distribution alignment. However, RoPE operates in a fully transductive setting, requiring access to a batch of test samples at inference time, which limits scalability and generalization. We propose a fully inductive and amortized SBI framework that integrates calibration and distributional alignment into a single, end-to-end trainable model. Our method leverages mini-batch OT with a closed-form coupling to align real and simulated observations that correspond to the same latent parameters, using both paired calibration data and unpaired samples. A conditional normalizing flow is then trained to approximate the OT-induced posterior, enabling efficient inference without simulation access at test time. Across a range of synthetic and real-world benchmarks--including complex medical biomarker estimation--our approach matches or exceeds the performance of RoPE, while offering improved scalability and applicability in challenging, misspecified environments.",
+    "keywords": [
+      "AI4Science",
+      "SBI",
+      "Domain transfer",
+      "sim2real"
+    ],
+    "tldr": "We propose a semi-supervised domain transfer approach for bridging the sim2real gap in simulation-based inference, leveraging mini-batch optimal transport for scalable, inductive posterior approximation.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ senouf2025inductive, title={Inductive Domain Transfer In Misspecified Simulation-Based Inference}, author={Ortal Senouf and Antoine Wehenkel and C{\\'e}dric Vincent-Cuaz and Emmanuel Abbe and Pascal Frossard}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PhnquAa8eV} }",
+    "url": "https://openreview.net/forum?id=PhnquAa8eV",
+    "pdf_url": "https://openreview.net/pdf?id=PhnquAa8eV",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "ai4science"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "通过小批量最优传输对齐真实和模拟观测，训练条件归一化流进行模型失配下的摊销参数后验推断，实际涵盖复杂医学生物标志物估计。AI直接反演物理/生理隐变量，不是一般分类性能。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Inductive Domain Transfer In Misspecified Simulation-Based Inference",
+        "authors": [
+          "Senouf, Ortal",
+          "Wehenkel, Antoine",
+          "Vincent-Cuaz, Cédric",
+          "Abbe, Emmanuel",
+          "Frossard, Pascal"
+        ],
+        "doi": "10.52202/085713-3058",
+        "volume": "38",
+        "pages": "91392–91414",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/83d78b8aadd92f753aeca5acd5524cc0-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/83d78b8aadd92f753aeca5acd5524cc0-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Simulation-based inference (SBI) of latent parameters in physical systems is often hindered by model misspecification--the mismatch between simulated and real-world observations caused by inherent modeling simplifications. RoPE, a recent SBI approach, addresses this challenge through a two-stage domain transfer process that combines semi-supervised calibration with optimal transport (OT)-based distribution alignment. However, RoPE operates in a fully transductive setting, requiring access to a batch of test samples at inference time, which limits scalability and generalization.  We propose a fully inductive and amortized SBI framework that integrates calibration and distributional alignment into a single, end-to-end trainable model. Our method leverages mini-batch OT with a closed-form coupling to align real and simulated observations that correspond to the same latent parameters, using both paired calibration data and unpaired samples. A conditional normalizing flow is then trained to approximate the OT-induced posterior, enabling efficient inference without simulation access at test time.  Across a range of synthetic and real-world benchmarks--including complex medical biomarker estimation--our approach matches or exceeds the performance of RoPE, while offering improved scalability and applicability in challenging, misspecified environments.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/83d78b8aadd92f753aeca5acd5524cc0-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "通过小批量最优传输对齐真实和模拟观测，训练条件归一化流进行模型失配下的摊销参数后验推断，实际涵盖复杂医学生物标志物估计。AI直接反演物理/生理隐变量，不是一般分类性能。"
+        },
+        {
+          "axis": "method",
+          "label": "归一化流",
+          "label_en": "Normalizing flow",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "通过小批量最优传输对齐真实和模拟观测，训练条件归一化流进行模型失配下的摊销参数后验推断，实际涵盖复杂医学生物标志物估计。AI直接反演物理/生理隐变量，不是一般分类性能。"
+        },
+        {
+          "axis": "task",
+          "label": "科学模拟参数反演",
+          "label_en": "Scientific simulator parameter inference",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "通过小批量最优传输对齐真实和模拟观测，训练条件归一化流进行模型失配下的摊销参数后验推断，实际涵盖复杂医学生物标志物估计。AI直接反演物理/生理隐变量，不是一般分类性能。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PZaxCfLGLA",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "3D Interaction Geometric Pre-training for Molecular Relational Learning",
+    "authors": [
+      "Namkyeong Lee",
+      "Yunhak Oh",
+      "Heewoong Noh",
+      "Gyoung S. Na",
+      "Minkai Xu",
+      "Hanchen",
+      "Tianfan Fu",
+      "Chanyoung Park"
+    ],
+    "author_ids": [
+      "~Namkyeong_Lee1",
+      "~Yunhak_Oh1",
+      "~Heewoong_Noh2",
+      "~Gyoung_S._Na2",
+      "~Minkai_Xu1",
+      "~Hanchen1",
+      "~Tianfan_Fu1",
+      "~Chanyoung_Park1"
+    ],
+    "abstract": "Molecular Relational Learning (MRL) is a rapidly growing field that focuses on understanding the interaction dynamics between molecules, which is crucial for applications ranging from catalyst engineering to drug discovery. Despite recent progress, earlier MRL approaches are limited to using only the 2D topological structure of molecules, as obtaining the 3D interaction geometry remains prohibitively expensive. This paper introduces a novel 3D geometric pre-training strategy for MRL (3DMRL) that incorporates a 3D virtual interaction environment, overcoming the limitations of costly traditional quantum mechanical calculation methods. With the constructed 3D virtual interaction environment, 3DMRL trains 2D MRL model to learn the global and local 3D geometric information of molecular interaction. Extensive experiments on various tasks using real-world datasets, including out-of-distribution and extrapolation scenarios, demonstrate the effectiveness of 3DMRL, showing up to a 24.93% improvement in performance across 40 tasks. Our code is publicly available at https://github.com/Namkyeong/3DMRL.",
+    "keywords": [
+      "molecular science",
+      "molecular relational learning"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ lee2025d, title={3D Interaction Geometric Pre-training for Molecular Relational Learning}, author={Namkyeong Lee and Yunhak Oh and Heewoong Noh and Gyoung S. Na and Minkai Xu and Hanchen and Tianfan Fu and Chanyoung Park}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PZaxCfLGLA} }",
+    "url": "https://openreview.net/forum?id=PZaxCfLGLA",
+    "pdf_url": "https://openreview.net/pdf?id=PZaxCfLGLA",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "catalyst",
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b",
+      "drug discovery"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "3DMRL构建三维虚拟相互作用环境，为二维分子关系模型预训练全局和局部三维几何表示，并在40项实际相互作用任务及域外外推上评测，直接支持催化与药物相关分子作用建模。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "3D Interaction Geometric Pre-training for Molecular Relational Learning",
+        "authors": [
+          "Lee, Namkyeong",
+          "Oh, Yunhak",
+          "Noh, Heewoong",
+          "Na, Gyoung S.",
+          "Xu, Minkai",
+          "Wang, Hanchen",
+          "Fu, Tianfan",
+          "Park, Chanyoung"
+        ],
+        "doi": "10.52202/085713-1049",
+        "volume": "38",
+        "pages": "31236–31265",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2cd9c51775dd5a338b3f6dcc7aa73140-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2cd9c51775dd5a338b3f6dcc7aa73140-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Molecular Relational Learning (MRL) is a rapidly growing field that focuses on understanding the interaction dynamics between molecules, which is crucial for applications ranging from catalyst engineering to drug discovery.  Despite recent progress, earlier MRL approaches are limited to using only the 2D topological structure of molecules, as obtaining the 3D interaction geometry remains prohibitively expensive. This paper introduces a novel 3D geometric pre-training strategy for MRL (3DMRL) that incorporates a 3D virtual interaction environment, overcoming the limitations of costly traditional quantum mechanical calculation methods.  With the constructed 3D virtual interaction environment, 3DMRL trains 2D MRL model to learn the global and local 3D geometric information of molecular interaction. Extensive experiments on various tasks using real-world datasets, including out-of-distribution and extrapolation scenarios, demonstrate the effectiveness of 3DMRL, showing up to a 24.93% improvement in performance across 40 tasks. Our code is publicly available at https://github.com/Namkyeong/3DMRL.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2cd9c51775dd5a338b3f6dcc7aa73140-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "3DMRL构建三维虚拟相互作用环境，为二维分子关系模型预训练全局和局部三维几何表示，并在40项实际相互作用任务及域外外推上评测，直接支持催化与药物相关分子作用建模。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "预训练",
+          "label_en": "Pretraining",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "3DMRL构建三维虚拟相互作用环境，为二维分子关系模型预训练全局和局部三维几何表示，并在40项实际相互作用任务及域外外推上评测，直接支持催化与药物相关分子作用建模。"
+        },
+        {
+          "axis": "task",
+          "label": "分子相互作用建模",
+          "label_en": "Molecular interaction modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "3DMRL构建三维虚拟相互作用环境，为二维分子关系模型预训练全局和局部三维几何表示，并在40项实际相互作用任务及域外外推上评测，直接支持催化与药物相关分子作用建模。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PZ7YLONKiI",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "3D-GSRD: 3D Molecular Graph Auto-Encoder with Selective Re-mask Decoding",
+    "authors": [
+      "Chang Wu",
+      "Zhiyuan Liu",
+      "Wen Shu",
+      "Liang Wang",
+      "Yanchen Luo",
+      "Wenqiang Lei",
+      "Yatao Bian",
+      "Junfeng Fang",
+      "Xiang Wang"
+    ],
+    "author_ids": [
+      "~Chang_Wu2",
+      "~Zhiyuan_Liu5",
+      "~Wen_Shu2",
+      "~Liang_Wang16",
+      "~Yanchen_Luo1",
+      "~Wenqiang_Lei1",
+      "~Yatao_Bian1",
+      "~Junfeng_Fang1",
+      "~Xiang_Wang6"
+    ],
+    "abstract": "Masked graph modeling (MGM) is a promising approach for molecular representation learning (MRL). However, extending the success of re-mask decoding from 2D to 3D MGM is non-trivial, primarily due to two conflicting challenges: avoiding 2D structure leakage to the decoder, while still providing sufficient 2D context for reconstructing re-masked atoms. To address these challenges, we propose 3D-GSRD: a 3D Molecular Graph Auto-Encoder with Selective Re-mask Decoding. The core innovation of 3D-GSRD lies in its Selective Re-mask Decoding (SRD), which re-masks only 3D-relevant information from encoder representations while preserving the 2D graph structures. This SRD is synergistically integrated with a 3D Relational-Transformer (3D-ReTrans) encoder alongside a structure-independent decoder. We analyze that SRD, combined with the structure-independent decoder, enhances the encoder's role in MRL. Extensive experiments show that 3D-GSRD achieves strong downstream performance, setting a new state-of-the-art on 7 out of 8 targets in the widely used MD17 molecular property prediction benchmark. The code is released at https://github.com/WuChang0124/3D-GSRD.",
+    "keywords": [
+      "Self-Supervised Learning",
+      "3D Molecule Pretraining",
+      "Molecular Property Prediction",
+      "3D Masked Graph Modeling",
+      "3D Auto-Encoder"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wu2025dgsrd, title={3D-{GSRD}: 3D Molecular Graph Auto-Encoder with Selective Re-mask Decoding}, author={Chang Wu and Zhiyuan Liu and Wen Shu and Liang Wang and Yanchen Luo and Wenqiang Lei and Yatao Bian and Junfeng Fang and Xiang Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PZ7YLONKiI} }",
+    "url": "https://openreview.net/forum?id=PZ7YLONKiI",
+    "pdf_url": "https://openreview.net/pdf?id=PZ7YLONKiI",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecular property",
+      "molecular graph",
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "3D-GSRD以选择性再掩码避免二维结构泄露，同时利用三维关系Transformer及结构独立解码器学习分子表示，MD17八种分子性质目标中七项达到新最佳。AI实际预测分子动力学相关物性。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "3D-GSRD: 3D Molecular Graph Auto-Encoder with Selective Re-mask Decoding",
+        "authors": [
+          "Wu, Chang",
+          "LIU, ZHIYUAN",
+          "Shu, Wen",
+          "Wang, Liang",
+          "Luo, Yanchen",
+          "Lei, Wenqiang",
+          "Bian, Yatao",
+          "Fang, Junfeng",
+          "Wang, Xiang"
+        ],
+        "doi": "10.52202/085713-1260",
+        "volume": "38",
+        "pages": "37604–37630",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/35ee921eb17e9b4c3e73b6e2ae0d55ba-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/35ee921eb17e9b4c3e73b6e2ae0d55ba-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Masked graph modeling (MGM) is a promising approach for molecular representation learning (MRL). However, extending the success of re-mask decoding from 2D to 3D MGM is non-trivial, primarily due to two conflicting challenges: avoiding 2D structure leakage to the decoder, while still providing sufficient 2D context for reconstructing re-masked atoms. To address these challenges, we propose 3D-GSRD: a 3D Molecular Graph Auto-Encoder with Selective Re-mask Decoding. The core innovation of 3D-GSRD lies in its  Selective Re-mask Decoding (SRD), which re-masks only 3D-relevant information from encoder representations while preserving the 2D graph structures.    This SRD is synergistically integrated with a 3D Relational-Transformer (3D-ReTrans) encoder alongside a structure-independent decoder. We analyze that SRD, combined with the structure-independent decoder, enhances the encoder's role in MRL. Extensive experiments show that 3D-GSRD achieves strong downstream performance, setting a new state-of-the-art on 7 out of 8 targets in the widely used MD17 molecular property prediction benchmark. The code is released at https://github.com/WuChang0124/3D-GSRD.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/35ee921eb17e9b4c3e73b6e2ae0d55ba-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "3D-GSRD以选择性再掩码避免二维结构泄露，同时利用三维关系Transformer及结构独立解码器学习分子表示，MD17八种分子性质目标中七项达到新最佳。AI实际预测分子动力学相关物性。"
+        },
+        {
+          "axis": "method",
+          "label": "掩码建模",
+          "label_en": "Masked modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "3D-GSRD以选择性再掩码避免二维结构泄露，同时利用三维关系Transformer及结构独立解码器学习分子表示，MD17八种分子性质目标中七项达到新最佳。AI实际预测分子动力学相关物性。"
+        },
+        {
+          "axis": "task",
+          "label": "分子性质预测",
+          "label_en": "Molecular property prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "3D-GSRD以选择性再掩码避免二维结构泄露，同时利用三维关系Transformer及结构独立解码器学习分子表示，MD17八种分子性质目标中七项达到新最佳。AI实际预测分子动力学相关物性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PSvsmbCrGs",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Generative property enhancer: implicit guided generation through conditional density estimation",
+    "authors": [
+      "Pedro O. Pinheiro",
+      "Pan Kessel",
+      "Aya Abdelsalam Ismail",
+      "Sai Pooja Mahajan",
+      "Kyunghyun Cho",
+      "Saeed Saremi",
+      "Natasa Tagasovska"
+    ],
+    "author_ids": [
+      "~Pedro_O._Pinheiro1",
+      "~Pan_Kessel1",
+      "~Aya_Abdelsalam_Ismail1",
+      "~Sai_Pooja_Mahajan1",
+      "~Kyunghyun_Cho1",
+      "~Saeed_Saremi1",
+      "~Natasa_Tagasovska2"
+    ],
+    "abstract": "Generative modeling is increasingly important for data-driven computational design. Conventional approaches pair a generative model with a discriminative model to select or guide samples toward optimized designs. Yet discriminative models often struggle in data-scarce settings, common in scientific applications, and are unreliable in the tails of the distribution where optimal designs typically lie. We introduce generative property enhancer (GPE), an approach that implicitly guides generation by matching samples with lower property values to higher-value ones. Formulated as conditional density estimation, our framework defines a target distribution with improved properties, compelling the generative model to produce enhanced, diverse designs without auxiliary predictors. GPE is simple, scalable, end-to-end, modality-agnostic, and integrates seamlessly with diverse generative model architectures and losses. We demonstrate competitive empirical results on standard _in silico_ offline (non-sequential) protein fitness optimization benchmarks. Finally, we propose iterative training on a combination of limited real data and self-generated synthetic data, enabling extrapolation beyond the original property ranges.",
+    "keywords": [
+      "generative modeling",
+      "drug discovery",
+      "design optimization"
+    ],
+    "tldr": "We cast the problem of design optimization as as (implicit) conditional generation, we provide general theoretical guarantees and show its benefits empirically on standard protein engineering benchmarks",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ pinheiro2025generative, title={Generative property enhancer: implicit guided generation through conditional density estimation}, author={Pedro O. Pinheiro and Pan Kessel and Aya Abdelsalam Ismail and Sai Pooja Mahajan and Kyunghyun Cho and Saeed Saremi and Natasa Tagasovska}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PSvsmbCrGs} }",
+    "url": "https://openreview.net/forum?id=PSvsmbCrGs",
+    "pdf_url": "https://openreview.net/pdf?id=PSvsmbCrGs",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "drug discovery",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "GPE以条件密度将低性质样本映射到高性质样本，实现无额外判别器的性质增强生成；实际在离线蛋白适应度优化基准验证，并以真实/合成数据迭代扩展性质范围。明确是计算蛋白设计，未声称湿实验成功。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Generative property enhancer:  implicit guided generation through conditional density estimation",
+        "authors": [
+          "O. Pinheiro, Pedro",
+          "Kessel, Pan",
+          "Ismail, Aya",
+          "Mahajan, Sai Pooja",
+          "Cho, Kyunghyun",
+          "Saremi, Saeed",
+          "Tagasovska, Nataša"
+        ],
+        "doi": "10.52202/085713-2950",
+        "volume": "38",
+        "pages": "88261–88288",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7fb7cbd43263f65f485ae12cb3698a7c-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/7fb7cbd43263f65f485ae12cb3698a7c-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Generative modeling is increasingly important for data-driven computational design. Conventional approaches pair a generative model with a discriminative model to select or guide samples toward optimized designs. Yet discriminative models often struggle in data-scarce settings, common in scientific applications, and are unreliable in the tails of the distribution where optimal designs typically lie. We introduce generative property enhancer (GPE), an approach that implicitly guides generation by matching samples with lower property values to higher-value ones. Formulated as conditional density estimation, our framework defines a target distribution with improved properties, compelling the generative model to produce enhanced, diverse designs without auxiliary predictors. GPE is simple, scalable, end-to-end, modality-agnostic, and integrates seamlessly with diverse generative model architectures and losses. We demonstrate competitive empirical results on standard in silico offline (non-sequential) protein fitness optimization benchmarks. Finally, we propose iterative training on a combination of limited real data and self-generated synthetic data, enabling extrapolation beyond the original property ranges.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7fb7cbd43263f65f485ae12cb3698a7c-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GPE以条件密度将低性质样本映射到高性质样本，实现无额外判别器的性质增强生成；实际在离线蛋白适应度优化基准验证，并以真实/合成数据迭代扩展性质范围。明确是计算蛋白设计，未声称湿实验成功。"
+        },
+        {
+          "axis": "method",
+          "label": "生成建模",
+          "label_en": "Generative modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GPE以条件密度将低性质样本映射到高性质样本，实现无额外判别器的性质增强生成；实际在离线蛋白适应度优化基准验证，并以真实/合成数据迭代扩展性质范围。明确是计算蛋白设计，未声称湿实验成功。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质序列优化",
+          "label_en": "Protein sequence optimization",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GPE以条件密度将低性质样本映射到高性质样本，实现无额外判别器的性质增强生成；实际在离线蛋白适应度优化基准验证，并以真实/合成数据迭代扩展性质范围。明确是计算蛋白设计，未声称湿实验成功。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PNgG4H3q9D",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Mixture-of-Experts Operator Transformer for Large-Scale PDE Pre-Training",
+    "authors": [
+      "Hong Wang",
+      "Haiyang Xin",
+      "Jie Wang",
+      "Xuanze Yang",
+      "Fei Zha",
+      "huanshuo dong",
+      "Yan Jiang"
+    ],
+    "author_ids": [
+      "~Hong_Wang14",
+      "~Haiyang_Xin1",
+      "~Jie_Wang1",
+      "~Xuanze_Yang1",
+      "~Fei_Zha1",
+      "~huanshuo_dong1",
+      "~Yan_Jiang16"
+    ],
+    "abstract": "Pre-training has proven effective in addressing data scarcity and performance limitations in solving PDE problems with neural operators. However, challenges remain due to the heterogeneity of PDE datasets in equation types, which leads to high errors in mixed training. Additionally, dense pre-training models that scale parameters by increasing network width or depth incur significant inference costs. To tackle these challenges, we propose a novel **M**ixture-**o**f-**E**xperts **P**re-training **O**perator **T**ransformer (**MoE-POT**), a sparse-activated architecture that scales parameters efficiently while controlling inference costs. Specifically, our model adopts a layer-wise router-gating network to dynamically select 4 routed experts from 16 expert networks during inference, enabling the model to focus on equation-specific features. Meanwhile, we also integrate 2 shared experts, aiming to capture common properties of PDE and reduce redundancy among routed experts. The final output is computed as the weighted average of the results from all activated experts. We pre-train models with parameters from 30M to 0.5B on 6 public PDE datasets. Our model with 90M activated parameters achieves up to a 40\\% reduction in zero-shot error compared with existing models with 120M activated parameters. Additionally, we conduct interpretability analysis, showing that dataset types can be inferred from router-gating network decisions, which validates the rationality and effectiveness of the MoE architecture.",
+    "keywords": [
+      "AI4PDE",
+      "Neural Operator",
+      "Pre-Training"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wang2025mixtureofexperts, title={Mixture-of-Experts Operator Transformer for Large-Scale {PDE} Pre-Training}, author={Hong Wang and Haiyang Xin and Jie Wang and Xuanze Yang and Fei Zha and huanshuo dong and Yan Jiang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PNgG4H3q9D} }",
+    "url": "https://openreview.net/forum?id=PNgG4H3q9D",
+    "pdf_url": "https://openreview.net/pdf?id=PNgG4H3q9D",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "MoE-POT针对异质方程类型构造路由/共享专家，在六套PDE数据预训练科学算子，动态选择专家捕捉方程特征并降低零样本求解误差。AI直接用于跨方程数值求解预训练。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Mixture-of-Experts Operator Transformer for Large-Scale PDE Pre-Training",
+        "authors": [
+          "Wang, Hong",
+          "Xin, Haiyang",
+          "Wang, Jie",
+          "Yang, Xuanze",
+          "Zha, Fei",
+          "dong, huanshuo",
+          "Jiang, Yan"
+        ],
+        "doi": "10.52202/085713-1057",
+        "volume": "38",
+        "pages": "31498–31527",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2d23a9991a6f64482bf395628e279f5f-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2d23a9991a6f64482bf395628e279f5f-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Pre-training has proven effective in addressing data scarcity and performance limitations in solving PDE problems with neural operators. However, challenges remain due to the heterogeneity of PDE datasets in equation types, which leads to high errors in mixed training.  Additionally, dense pre-training models that scale parameters by increasing network width or depth incur significant inference costs. To tackle these challenges, we propose a novel Mixture-of-Experts Pre-training Operator Transformer (MoE-POT), a sparse-activated architecture that scales parameters efficiently while controlling inference costs. Specifically, our model adopts a layer-wise router-gating network to dynamically select 4 routed experts from 16 expert networks during inference, enabling the model to focus on equation-specific features.  Meanwhile, we also integrate 2 shared experts, aiming to capture common properties of PDE and reduce redundancy among routed experts.  The final output is computed as the weighted average of the results from all activated experts. We pre-train models with parameters from 30M to 0.5B on 6 public PDE datasets. Our model with 90M activated parameters achieves up to a 40\\% reduction in zero-shot error compared with existing models with 120M activated parameters. Additionally, we conduct interpretability analysis, showing that dataset types can be inferred from router-gating network decisions, which validates the rationality and effectiveness of the MoE architecture.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2d23a9991a6f64482bf395628e279f5f-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MoE-POT针对异质方程类型构造路由/共享专家，在六套PDE数据预训练科学算子，动态选择专家捕捉方程特征并降低零样本求解误差。AI直接用于跨方程数值求解预训练。"
+        },
+        {
+          "axis": "method",
+          "label": "神经算子",
+          "label_en": "Neural operator",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MoE-POT针对异质方程类型构造路由/共享专家，在六套PDE数据预训练科学算子，动态选择专家捕捉方程特征并降低零样本求解误差。AI直接用于跨方程数值求解预训练。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "预训练",
+          "label_en": "Pretraining",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MoE-POT针对异质方程类型构造路由/共享专家，在六套PDE数据预训练科学算子，动态选择专家捕捉方程特征并降低零样本求解误差。AI直接用于跨方程数值求解预训练。"
+        },
+        {
+          "axis": "task",
+          "label": "偏微分方程求解",
+          "label_en": "Partial differential equation solving",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MoE-POT针对异质方程类型构造路由/共享专家，在六套PDE数据预训练科学算子，动态选择专家捕捉方程特征并降低零样本求解误差。AI直接用于跨方程数值求解预训练。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PInrbKWnbV",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Uncertainty-Informed Meta Pseudo Labeling for Surrogate Modeling with Limited Labeled Data",
+    "authors": [
+      "Xingyu Ren",
+      "Pengwei Liu",
+      "Pengkai Wang",
+      "Guanyu Chen",
+      "Qinxin Wu",
+      "Dong Ni"
+    ],
+    "author_ids": [
+      "~Xingyu_Ren2",
+      "~Pengwei_Liu1",
+      "~Pengkai_Wang1",
+      "~Guanyu_Chen6",
+      "~Qinxin_Wu1",
+      "~Dong_Ni3"
+    ],
+    "abstract": "Deep neural networks, particularly neural operators, provide an efficient alternative to costly simulations in surrogate modeling. However, their performance is often constrained by the need for large-scale labeled datasets, which are costly and challenging to acquire in many scientific domains. Semi-supervised learning reduces label reliance by leveraging unlabeled data yet remains vulnerable to noisy pseudo-labels that mislead training and undermine robustness. To address these challenges, we propose a novel framework, Uncertainty-Informed Meta Pseudo Labeling (UMPL). The core mechenism is to refine pseudo-label quality through uncertainty-informed feedback signals. Specifically, the teacher model generates pseudo labels via epistemic uncertainty, while the student model learns from these labels and provides feedback based on aleatoric uncertainty. This interplay forms a meta-learning loop where enhanced generalization and improved pseudo-label quality reinforce each other, enabling the student model to achieve more stable uncertainty estimation and leading to more robust training. Notably, This framework is model-agnostic and can be seamlessly integrated into various neural architectures, facilitating effective exploitation of unlabeled data to enhance generalization in distribution shifts and out-of-distribution scenarios. Extensive evaluations of four models across seven tasks covering steady state and transient prediction problems demonstrate that UMPL consistently outperforms the best existing semi-supervised regression methods. When using only 10% of the fully supervised training data, UMPL achieves a 14.18% improvement, highlighting its strong effectiveness under limited supervision. Our codes are available at https://github.com/small-dumpling/UMPL.",
+    "keywords": [
+      "Surrogate modeling",
+      "Semi-supervised regression",
+      "Meta pseudo label"
+    ],
+    "tldr": "We propose a model-agnostic UMPL framework that leverages teacher-student uncertainty to refine pseudo labels and improve generalization with unlabeled data.",
+    "primary_area": "general_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ren2025uncertaintyinformed, title={Uncertainty-Informed Meta Pseudo Labeling for Surrogate Modeling with Limited Labeled Data}, author={Xingyu Ren and Pengwei Liu and Pengkai Wang and Guanyu Chen and Qinxin Wu and Dong Ni}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PInrbKWnbV} }",
+    "url": "https://openreview.net/forum?id=PInrbKWnbV",
+    "pdf_url": "https://openreview.net/pdf?id=PInrbKWnbV",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§4.1（PDF pp7–8）核实UMPL用于Darcy流、磁场Navier–Stokes、等离子体ICP、黑海实测温度及Ahmed车体气动阻力等稳态/瞬态代理任务。师生不确定性反馈改进少标签物理场和工程性能预测，不是仅泛称科学代理。",
+      "evidence_location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+      "verified_metadata": {
+        "title": "Uncertainty-Informed Meta Pseudo Labeling for Surrogate Modeling with Limited Labeled Data",
+        "authors": [
+          "Ren, Xingyu",
+          "Liu, Pengwei",
+          "Wang, Pengkai",
+          "Chen, Guanyu",
+          "Wu, Qinxin",
+          "Ni, Dong"
+        ],
+        "doi": "10.52202/085713-2597",
+        "volume": "38",
+        "pages": "77426–77470",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6fc46679a7ba2ec82183cf01b80e5133-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/6fc46679a7ba2ec82183cf01b80e5133-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Deep neural networks, particularly neural operators, provide an efficient alternative to costly simulations in surrogate modeling. However, their performance is often constrained by the need for large-scale labeled datasets, which are costly and challenging to acquire in many scientific domains. Semi-supervised learning reduces label reliance by leveraging unlabeled data yet remains vulnerable to noisy pseudo-labels that mislead training and undermine robustness. To address these challenges, we propose a novel framework, Uncertainty-Informed Meta Pseudo Labeling (UMPL). The core mechenism is to refine pseudo-label quality through uncertainty-informed feedback signals. Specifically, the teacher model generates pseudo labels via epistemic uncertainty, while the student model learns from these labels and provides feedback based on aleatoric uncertainty. This interplay forms a meta-learning loop where enhanced generalization and improved pseudo-label quality reinforce each other, enabling the student model to achieve more stable uncertainty estimation and leading to more robust training. Notably, This framework is model-agnostic and can be seamlessly integrated into various neural architectures, facilitating effective exploitation of unlabeled data to enhance generalization in distribution shifts and out-of-distribution scenarios. Extensive evaluations of four models across seven tasks covering steady state and transient prediction problems demonstrate that UMPL consistently outperforms the best existing semi-supervised regression methods. When using only 10% of the fully supervised training data, UMPL achieves a 14.18% improvement, highlighting its strong effectiveness under limited supervision. Our codes are available at https://github.com/small-dumpling/UMPL.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6fc46679a7ba2ec82183cf01b80e5133-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/6fc46679a7ba2ec82183cf01b80e5133-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+        "pdf_sha256": "6bbdc09c4b52bf54e282eec9702cc013a059660f0531640f9774def02cd399de"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+          "rationale": "必要全文§4.1（PDF pp7–8）核实UMPL用于Darcy流、磁场Navier–Stokes、等离子体ICP、黑海实测温度及Ahmed车体气动阻力等稳态/瞬态代理任务。师生不确定性反馈改进少标签物理场和工程性能预测，不是仅泛称科学代理。"
+        },
+        {
+          "axis": "method",
+          "label": "半监督学习",
+          "label_en": "Semi-supervised learning",
+          "evidence_location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+          "rationale": "必要全文§4.1（PDF pp7–8）核实UMPL用于Darcy流、磁场Navier–Stokes、等离子体ICP、黑海实测温度及Ahmed车体气动阻力等稳态/瞬态代理任务。师生不确定性反馈改进少标签物理场和工程性能预测，不是仅泛称科学代理。"
+        },
+        {
+          "axis": "method",
+          "label": "不确定性量化",
+          "label_en": "Uncertainty quantification",
+          "evidence_location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+          "rationale": "必要全文§4.1（PDF pp7–8）核实UMPL用于Darcy流、磁场Navier–Stokes、等离子体ICP、黑海实测温度及Ahmed车体气动阻力等稳态/瞬态代理任务。师生不确定性反馈改进少标签物理场和工程性能预测，不是仅泛称科学代理。"
+        },
+        {
+          "axis": "task",
+          "label": "偏微分方程求解",
+          "label_en": "Partial differential equation solving",
+          "evidence_location": "正式全文§4.1–4.2, PDF pp7–9, Tables1–2",
+          "rationale": "必要全文§4.1（PDF pp7–8）核实UMPL用于Darcy流、磁场Navier–Stokes、等离子体ICP、黑海实测温度及Ahmed车体气动阻力等稳态/瞬态代理任务。师生不确定性反馈改进少标签物理场和工程性能预测，不是仅泛称科学代理。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Oir5nKRKVP",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Learning Stochastic Multiscale Models",
+    "authors": [
+      "Andrew Francesco Ilersich",
+      "Prasanth B. Nair"
+    ],
+    "author_ids": [
+      "~Andrew_Francesco_Ilersich1",
+      "~Prasanth_B._Nair1"
+    ],
+    "abstract": "The physical sciences are replete with dynamical systems that require the resolution of a wide range of length and time scales. This presents significant computational challenges since direct numerical simulation requires discretization at the finest relevant scales, leading to a high-dimensional state space. In this work, we propose an approach to learn stochastic multiscale models in the form of stochastic differential equations directly from observational data. Drawing inspiration from physics-based multiscale modeling approaches, we resolve the macroscale state on a coarse mesh while introducing a microscale latent state to explicitly model unresolved dynamics. We learn the parameters of the multiscale model using a simulator-free amortized variational inference method with a Product of Experts likelihood that enforces scale separation. We present detailed numerical studies to demonstrate that our learned multiscale models achieve superior predictive accuracy compared to under-resolved direct numerical simulation and closure-type models at equivalent resolution, as well as reduced-order modeling approaches.",
+    "keywords": [
+      "Multiscale Models",
+      "Stochastic Differential Equations",
+      "Spatio-Temporal Data",
+      "Variational Inference",
+      "Partial Differential Equations"
+    ],
+    "tldr": "We present a framework for learning stochastic multiscale models of spatio-temporal systems.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ilersich2025learning, title={Learning Stochastic Multiscale Models}, author={Andrew Francesco Ilersich and Prasanth B. Nair}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Oir5nKRKVP} }",
+    "url": "https://openreview.net/forum?id=Oir5nKRKVP",
+    "pdf_url": "https://openreview.net/pdf?id=Oir5nKRKVP",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "partial differential"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "从观测数据学习随机微分形式的多尺度动力学，以粗网格宏观状态及潜在微观变量表示未解析动力学，借助摊销变分推断和专家乘积似然约束尺度分离，并与直接数值模拟/闭合模型比较。实质学习物理多尺度系统。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Learning Stochastic Multiscale Models",
+        "authors": [
+          "Ilersich, Andrew F.",
+          "Nair, Prasanth"
+        ],
+        "doi": "10.52202/085713-1836",
+        "volume": "38",
+        "pages": "54845–54893",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4ec360efb3f52643ac43fda570ec0118-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4ec360efb3f52643ac43fda570ec0118-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The physical sciences are replete with dynamical systems that require the resolution of a wide range of length and time scales. This presents significant computational challenges since direct numerical simulation requires discretization at the finest relevant scales, leading to a high-dimensional state space. In this work, we propose an approach to learn stochastic multiscale models in the form of stochastic differential equations directly from observational data. Drawing inspiration from physics-based multiscale modeling approaches, we resolve the macroscale state on a coarse mesh while introducing a microscale latent state to explicitly model unresolved dynamics. We learn the parameters of the multiscale model using a simulator-free amortized variational inference method with a Product of Experts likelihood that enforces scale separation.  We present detailed numerical studies to demonstrate that our learned multiscale models achieve superior predictive accuracy compared to under-resolved direct numerical simulation and closure-type models at equivalent resolution, as well as reduced-order modeling approaches.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4ec360efb3f52643ac43fda570ec0118-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "从观测数据学习随机微分形式的多尺度动力学，以粗网格宏观状态及潜在微观变量表示未解析动力学，借助摊销变分推断和专家乘积似然约束尺度分离，并与直接数值模拟/闭合模型比较。实质学习物理多尺度系统。"
+        },
+        {
+          "axis": "method",
+          "label": "变分推断",
+          "label_en": "Variational inference",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "从观测数据学习随机微分形式的多尺度动力学，以粗网格宏观状态及潜在微观变量表示未解析动力学，借助摊销变分推断和专家乘积似然约束尺度分离，并与直接数值模拟/闭合模型比较。实质学习物理多尺度系统。"
+        },
+        {
+          "axis": "task",
+          "label": "动力系统建模",
+          "label_en": "Dynamical system modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "从观测数据学习随机微分形式的多尺度动力学，以粗网格宏观状态及潜在微观变量表示未解析动力学，借助摊销变分推断和专家乘积似然约束尺度分离，并与直接数值模拟/闭合模型比较。实质学习物理多尺度系统。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ORsrbGTXQB",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Protein Inverse Folding From Structure Feedback",
+    "authors": [
+      "Junde Xu",
+      "Zijun Gao",
+      "Xinyi Zhou",
+      "hujie",
+      "Xingyi Cheng",
+      "Le Song",
+      "Guangyong Chen",
+      "Pheng-Ann Heng",
+      "Jiezhong Qiu"
+    ],
+    "author_ids": [
+      "~Junde_Xu1",
+      "~Zijun_Gao3",
+      "~Xinyi_Zhou2",
+      "~hujie2",
+      "~Xingyi_Cheng3",
+      "~Le_Song1",
+      "~Guangyong_Chen1",
+      "~Pheng-Ann_Heng1",
+      "~Jiezhong_Qiu1"
+    ],
+    "abstract": "The inverse folding problem, aiming to design amino acid sequences that fold into desired three-dimensional structures, is pivotal for various biotechnological applications. Here, we introduce a novel approach leveraging Direct Preference Optimization (DPO) to fine-tune an inverse folding model using feedback from a protein folding model. Given a target protein structure, we begin by sampling candidate sequences from the inverse‐folding model, then predict the three‐dimensional structure of each sequence with the folding model to generate pairwise structural‐preference labels. These labels are used to fine‐tune the inverse‐folding model under the DPO objective. Our results on the CATH 4.2 test set demonstrate that DPO fine-tuning not only improves sequence recovery of baseline models but also leads to a significant improvement in average TM-Score from 0.77 to 0.81, indicating enhanced structure similarity. Furthermore, iterative application of our DPO-based method on challenging protein structures yields substantial gains, with an average TM-Score increase of 79.5\\% with regard to the baseline model. This work establishes a promising direction for enhancing protein sequence design ability from structure feedback by effectively utilizing preference optimization.",
+    "keywords": [
+      "Protein design",
+      "DPO",
+      "Protein Language Model"
+    ],
+    "tldr": "This paper fine-tunes inverse-folding model with feedbacks from folding model through DPO.",
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ xu2025protein, title={Protein Inverse Folding From Structure Feedback}, author={Junde Xu and Zijun Gao and Xinyi Zhou and hujie and Xingyi Cheng and Le Song and Guangyong Chen and Pheng-Ann Heng and Jiezhong Qiu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ORsrbGTXQB} }",
+    "url": "https://openreview.net/forum?id=ORsrbGTXQB",
+    "pdf_url": "https://openreview.net/pdf?id=ORsrbGTXQB",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "protein structure",
+      "protein folding",
+      "protein language",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "用折叠模型对候选序列的三维结构反馈生成成对偏好标签，再以DPO微调逆折叠模型；实测CATH目标结构TM-score由0.77提高至0.81并迭代优化困难结构。直接改进目标结构约束蛋白序列设计。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Protein Inverse Folding From Structure Feedback",
+        "authors": [
+          "Xu, Junde",
+          "Gao, Zijun",
+          "Zhou, Xinyi",
+          "",
+          "Cheng, Xingyi",
+          "Song, Le",
+          "Chen, Guangyong",
+          "Heng, Pheng-Ann",
+          "Qiu, Jiezhong"
+        ],
+        "doi": "10.52202/085713-0820",
+        "volume": "38",
+        "pages": "24274–24299",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/22ed94fe31a4c9561a5cf7fb4d868523-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/22ed94fe31a4c9561a5cf7fb4d868523-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The inverse folding problem, aiming to design amino acid sequences that fold into desired three-dimensional structures, is pivotal for various biotechnological applications.  Here, we introduce a novel approach leveraging Direct Preference Optimization (DPO) to fine-tune an inverse folding model using feedback from a protein folding model. Given a target protein structure, we begin by sampling candidate sequences from the inverse‐folding model, then predict the three‐dimensional structure of each sequence with the folding model to generate pairwise structural‐preference labels.  These labels are used to fine‐tune the inverse‐folding model under the DPO objective.   Our results on the CATH 4.2 test set demonstrate that DPO fine-tuning not only improves sequence recovery of baseline models but also leads to a significant improvement in average TM-Score from 0.77 to 0.81, indicating enhanced structure similarity.  Furthermore, iterative application of our DPO-based method on challenging protein structures yields substantial gains, with an average TM-Score increase of 79.5\\% with regard to the baseline model. This work establishes a promising direction for enhancing protein sequence design ability from structure feedback by effectively utilizing preference optimization.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/22ed94fe31a4c9561a5cf7fb4d868523-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "用折叠模型对候选序列的三维结构反馈生成成对偏好标签，再以DPO微调逆折叠模型；实测CATH目标结构TM-score由0.77提高至0.81并迭代优化困难结构。直接改进目标结构约束蛋白序列设计。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "微调",
+          "label_en": "Fine-tuning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "用折叠模型对候选序列的三维结构反馈生成成对偏好标签，再以DPO微调逆折叠模型；实测CATH目标结构TM-score由0.77提高至0.81并迭代优化困难结构。直接改进目标结构约束蛋白序列设计。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质逆折叠",
+          "label_en": "Protein inverse folding",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "用折叠模型对候选序列的三维结构反馈生成成对偏好标签，再以DPO微调逆折叠模型；实测CATH目标结构TM-score由0.77提高至0.81并迭代优化困难结构。直接改进目标结构约束蛋白序列设计。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NnRQOPzL9P",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics",
+    "authors": [
+      "Salva Rühling Cachay",
+      "Miika Aittala",
+      "Karsten Kreis",
+      "Noah D Brenowitz",
+      "Arash Vahdat",
+      "Morteza Mardani",
+      "Rose Yu"
+    ],
+    "author_ids": [
+      "~Salva_Rühling_Cachay1",
+      "~Miika_Aittala2",
+      "~Karsten_Kreis1",
+      "~Noah_D_Brenowitz1",
+      "~Arash_Vahdat3",
+      "~Morteza_Mardani1",
+      "~Rose_Yu1"
+    ],
+    "abstract": "Diffusion models are a powerful tool for probabilistic forecasting, yet most applications in high-dimensional complex systems predict future states individually. This approach struggles to model complex temporal dependencies and fails to explicitly account for the progressive growth of uncertainty inherent to the systems. While rolling diffusion frameworks, which apply increasing noise to forecasts at longer lead times, have been proposed to address this, their integration with state-of-the-art, high-fidelity diffusion techniques remains a significant challenge. We tackle this problem by introducing Elucidated Rolling Diffusion Models (ERDM), the first framework to successfully unify a rolling forecast structure with the principled, performant design of Elucidated Diffusion Models (EDM). To do this, we adapt the core EDM components--its noise schedule, network preconditioning, and Heun sampler--to the rolling forecast setting. The success of this integration is driven by three key contributions: $(i)$ a novel loss weighting scheme that focuses model capacity on the mid-range forecast horizons where determinism gives way to stochasticity; $(ii)$ an efficient initialization strategy using a pre-trained EDM for the initial window; and $(iii)$ a bespoke hybrid sequence architecture for robust spatiotemporal feature extraction under progressive denoising. On 2D Navier–Stokes simulations and ERA5 global weather forecasting at $1.5^\\circ$ resolution, ERDM consistently outperforms key diffusion-based baselines, including conditional autoregressive EDM. ERDM offers a flexible and powerful general framework for tackling diffusion-based dynamics forecasting problems where modeling uncertainty propagation is paramount.",
+    "keywords": [
+      "diffusion models",
+      "AI for science",
+      "probabilistic forecasting",
+      "weather forecasting"
+    ],
+    "tldr": "A sequence-level EDM-derived diffusion model using progressively increasing noise levels is designed for probabilistic forecasting of complex dynamics like weather.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ cachay2025elucidated, title={Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics}, author={Salva R{\\\"u}hling Cachay and Miika Aittala and Karsten Kreis and Noah D Brenowitz and Arash Vahdat and Morteza Mardani and Rose Yu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NnRQOPzL9P} }",
+    "url": "https://openreview.net/forum?id=NnRQOPzL9P",
+    "pdf_url": "https://openreview.net/pdf?id=NnRQOPzL9P",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "ai for science",
+      "weather forecast",
+      "weather forecasting"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "ERDM在滚动预测中统一噪声日程、预条件、Heun采样及混合时空架构，实际在二维Navier–Stokes和1.5°ERA5全球天气预测上评估随预报时距增长的不确定性。AI直接用于物理动力学与天气概率预测。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics",
+        "authors": [
+          "Rühling Cachay, Salva",
+          "Aittala, Miika",
+          "Kreis, Karsten",
+          "Brenowitz, Noah",
+          "Vahdat, Arash",
+          "Mardani, Morteza",
+          "Yu, Rose"
+        ],
+        "doi": "10.52202/085713-0068",
+        "volume": "38",
+        "pages": "1821–1860",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/02cf868040aa0f0a1e1121cf255fdcfb-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/02cf868040aa0f0a1e1121cf255fdcfb-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Diffusion models are a powerful tool for probabilistic forecasting, yet most applications in high-dimensional complex systems predict future states individually. This approach struggles to model complex temporal dependencies and fails to explicitly account for the progressive growth of uncertainty inherent to the systems. While rolling diffusion frameworks, which apply increasing noise to forecasts at longer lead times, have been proposed to address this, their integration with state-of-the-art, high-fidelity diffusion techniques remains a significant challenge. We tackle this problem by introducing Elucidated Rolling Diffusion Models (ERDM), the first framework to successfully unify a rolling forecast structure with the principled, performant design of Elucidated Diffusion Models (EDM).  To do this, we adapt the core EDM components--its noise schedule, network preconditioning, and Heun sampler--to the rolling forecast setting. The success of this integration is driven by three key contributions: $(i)$ a novel loss weighting scheme that focuses model capacity on the mid-range forecast horizons where determinism gives way to stochasticity; $(ii)$ an efficient initialization strategy using a pre-trained EDM for the initial window; and $(iii)$ a bespoke hybrid sequence architecture for robust spatiotemporal feature extraction under progressive denoising.  On 2D Navier–Stokes simulations and ERA5 global weather forecasting at $1.5^\\circ$ resolution, ERDM consistently outperforms key diffusion-based baselines, including conditional autoregressive EDM. ERDM offers a flexible and powerful general framework for tackling diffusion-based dynamics forecasting problems where modeling  uncertainty propagation is paramount.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/02cf868040aa0f0a1e1121cf255fdcfb-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "ERDM在滚动预测中统一噪声日程、预条件、Heun采样及混合时空架构，实际在二维Navier–Stokes和1.5°ERA5全球天气预测上评估随预报时距增长的不确定性。AI直接用于物理动力学与天气概率预测。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "ERDM在滚动预测中统一噪声日程、预条件、Heun采样及混合时空架构，实际在二维Navier–Stokes和1.5°ERA5全球天气预测上评估随预报时距增长的不确定性。AI直接用于物理动力学与天气概率预测。"
+        },
+        {
+          "axis": "task",
+          "label": "天气预报",
+          "label_en": "Weather forecasting",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "ERDM在滚动预测中统一噪声日程、预条件、Heun采样及混合时空架构，实际在二维Navier–Stokes和1.5°ERA5全球天气预测上评估随预报时距增长的不确定性。AI直接用于物理动力学与天气概率预测。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NfBrMDF0Xi",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling",
+    "authors": [
+      "Minju Jo",
+      "Woojin Cho",
+      "Uvini Balasuriya Mudiyanselage",
+      "Seungjun Lee",
+      "Noseong Park",
+      "Kookjin Lee"
+    ],
+    "author_ids": [
+      "~Minju_Jo1",
+      "~Woojin_Cho1",
+      "~Uvini_Balasuriya_Mudiyanselage1",
+      "~Seungjun_Lee1",
+      "~Noseong_Park1",
+      "~Kookjin_Lee1"
+    ],
+    "abstract": "Scientific machine learning often involves representing complex solution fields that exhibit high-frequency features such as sharp transitions, fine-scale oscillations, and localized structures. While implicit neural representations (INRs) have shown promise for continuous function modeling, capturing such high-frequency behavior remains a challenge—especially when modeling multiple solution fields with a shared network. Prior work addressing spectral bias in INRs has primarily focused on single-instance settings, limiting scalability and generalization. In this work, we propose Global Fourier Modulation (GFM), a novel modulation technique that injects high-frequency information at each layer of the INR through Fourier-based reparameterization. This enables compact and accurate representation of multiple solution fields using low-dimensional latent vectors. Building upon GFM, we introduce PDEfuncta, a meta-learning framework designed to learn multi-modal solution fields and support generalization to new tasks. Through empirical studies on diverse scientific problems, we demonstrate that our method not only improves representational quality but also shows potential for forward and inverse inference tasks without the need for retraining.",
+    "keywords": [
+      "SciML",
+      "meta-learning",
+      "data compression"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ jo2025pdefuncta, title={{PDE}functa: Spectrally-Aware Neural Representation for {PDE} Solution Modeling}, author={Minju Jo and Woojin Cho and Uvini Balasuriya Mudiyanselage and Seungjun Lee and Noseong Park and Kookjin Lee}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NfBrMDF0Xi} }",
+    "url": "https://openreview.net/forum?id=NfBrMDF0Xi",
+    "pdf_url": "https://openreview.net/pdf?id=NfBrMDF0Xi",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "scientific machine learning",
+      "sciml",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "PDEfuncta用全局傅里叶调制缓解神经隐式表示对高频物理解场的谱偏差，并以元学习共享多解场低维潜变量，实际评估科学正反问题推断。AI直接建模含细尺度与局部结构的PDE解。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "PDEfuncta: Spectrally-Aware Neural Representation for PDE Solution Modeling",
+        "authors": [
+          "Jo, Minju",
+          "Cho, Woojin",
+          "Balasuriya Mudiyanselage, Uvini",
+          "Lee, Seungjun",
+          "Park, Noseong",
+          "Lee, Kookjin"
+        ],
+        "doi": "10.52202/085713-0074",
+        "volume": "38",
+        "pages": "2005–2034",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/02e7aaa804f3ad9ffa2804d0ac380c4d-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/02e7aaa804f3ad9ffa2804d0ac380c4d-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Scientific machine learning often involves representing complex solution fields that exhibit high-frequency features such as sharp transitions, fine-scale oscillations, and localized structures. While implicit neural representations (INRs) have shown promise for continuous function modeling, capturing such high-frequency behavior remains a challenge—especially when modeling multiple solution fields with a shared network. Prior work addressing spectral bias in INRs has primarily focused on single-instance settings, limiting scalability and generalization. In this work, we propose Global Fourier Modulation (GFM), a novel modulation technique that injects high-frequency information at each layer of the INR through Fourier-based reparameterization. This enables compact and accurate representation of multiple solution fields using low-dimensional latent vectors. Building upon GFM, we introduce PDEfuncta, a meta-learning framework designed to learn multi-modal solution fields and support generalization to new tasks. Through empirical studies on diverse scientific problems, we demonstrate that our method not only improves representational quality but also shows potential for forward and inverse inference tasks without the need for retraining.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/02e7aaa804f3ad9ffa2804d0ac380c4d-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PDEfuncta用全局傅里叶调制缓解神经隐式表示对高频物理解场的谱偏差，并以元学习共享多解场低维潜变量，实际评估科学正反问题推断。AI直接建模含细尺度与局部结构的PDE解。"
+        },
+        {
+          "axis": "method",
+          "label": "隐式神经表示",
+          "label_en": "Implicit neural representation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PDEfuncta用全局傅里叶调制缓解神经隐式表示对高频物理解场的谱偏差，并以元学习共享多解场低维潜变量，实际评估科学正反问题推断。AI直接建模含细尺度与局部结构的PDE解。"
+        },
+        {
+          "axis": "task",
+          "label": "偏微分方程求解",
+          "label_en": "Partial differential equation solving",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PDEfuncta用全局傅里叶调制缓解神经隐式表示对高频物理解场的谱偏差，并以元学习共享多解场低维潜变量，实际评估科学正反问题推断。AI直接建模含细尺度与局部结构的PDE解。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NWtkmDPAA6",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "PMLF: A Physics-Guided Multiscale Loss Framework for Structurally Heterogeneous Time Series",
+    "authors": [
+      "Xinghong Chen",
+      "Weilin Wu",
+      "Kunping Yang",
+      "Guannan Chen"
+    ],
+    "author_ids": [
+      "~Xinghong_Chen1",
+      "~Weilin_Wu3",
+      "~Kunping_Yang2",
+      "~Guannan_Chen3"
+    ],
+    "abstract": "Forecasting real-world time series requires modeling both short-term fluctuations and long-term evolutions, as these signals typically exhibit multiscale temporal structures. A core challenge lies in reconciling such dynamics: high-frequency seasonality demands local precision, while low-frequency trends require global robustness. However, most existing methods adopt a unified loss function across all temporal components, overlooking their structural differences. This misalignment often causes overfitting to seasonal noise or underfitting of long-term trends, leading to suboptimal forecasting performance. To address this issue, we propose a Physics-guided Multiscale Loss Framework (PMLF) that decomposes time series into seasonal and trend components and assigns component-specific objectives grounded in the distinct energy responses of oscillatory and drift dynamics. Specifically, we assign a quadratic loss to seasonal components, reflecting the quadratic potential energy profile of molecular vibration, while a logarithmic loss is used for trend components to capture the sublinear energy profile of molecular drift under sustained external forces. Furthermore, we introduce a softmax-based strategy that adaptively balances the unequal energetic responses of these two physical processes. Experiments on different public benchmarks show that PMLF improves the performance of diverse baselines, demonstrating the effectiveness of physics-guided loss design in modeling structural heterogeneity in time series forecasting.",
+    "keywords": [
+      "Time Series Forecasting",
+      "Physics-Guided Learning",
+      "Energy-Based Loss Design",
+      "Seasonal-Trend Decomposition"
+    ],
+    "tldr": null,
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ chen2025pmlf, title={{PMLF}: A Physics-Guided Multiscale Loss Framework for Structurally Heterogeneous Time Series}, author={Xinghong Chen and Weilin Wu and Kunping Yang and Guannan Chen}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NWtkmDPAA6} }",
+    "url": "https://openreview.net/forum?id=NWtkmDPAA6",
+    "pdf_url": "https://openreview.net/pdf?id=NWtkmDPAA6",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "必要全文§3–4（PDF pp3–8）确认分子振动/漂移仅是设计通用时序损失的类比，实验将ETT、Weather、电力、Traffic和Solar并列比较多种一般预测器误差，未研究分子动力学或展开特定物理/工程机制分析。按手册领域序列基准的通用性能演示不单独纳入。",
+      "evidence_location": "正式全文§3.1–4.4, PDF pp3–8, Figures3–4",
+      "verified_metadata": {
+        "title": "PMLF: A Physics-Guided Multiscale Loss Framework for Structurally Heterogeneous Time Series",
+        "authors": [
+          "Chen, Xinghong",
+          "Wu, Weilin",
+          "Yang, Kunping",
+          "Chen, Guannan"
+        ],
+        "doi": "10.52202/085713-1960",
+        "volume": "38",
+        "pages": "58505–58530",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/54d2d38a56a74387d5916ee40e462295-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/54d2d38a56a74387d5916ee40e462295-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Forecasting real-world time series requires modeling both short-term fluctuations and long-term evolutions, as these signals typically exhibit multiscale temporal structures. A core challenge lies in reconciling such dynamics: high-frequency seasonality demands local precision, while low-frequency trends require global robustness. However, most existing methods adopt a unified loss function across all temporal components, overlooking their structural differences. This misalignment often causes overfitting to seasonal noise or underfitting of long-term trends, leading to suboptimal forecasting performance. To address this issue, we propose a Physics-guided Multiscale Loss Framework (PMLF) that decomposes time series into seasonal and trend components and assigns component-specific objectives grounded in the distinct energy responses of oscillatory and drift dynamics.  Specifically, we assign a quadratic loss to seasonal components, reflecting the quadratic potential energy profile of molecular vibration, while a logarithmic loss is used for trend components to capture the sublinear energy profile of molecular drift under sustained external forces. Furthermore, we introduce a softmax-based strategy that adaptively balances the unequal energetic responses of these two physical processes. Experiments on different public benchmarks show that PMLF improves the performance of diverse baselines, demonstrating the effectiveness of physics-guided loss design in modeling structural heterogeneity in time series forecasting.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/54d2d38a56a74387d5916ee40e462295-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/54d2d38a56a74387d5916ee40e462295-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§3.1–4.4, PDF pp3–8, Figures3–4",
+        "pdf_sha256": "e9d0fd0a1fb777f94cc734c9eefdf16a6a0569d0bdaf947a0eecf868a7ae865e"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": []
+    }
+  },
+  {
+    "id": "NUaIywqBtK",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Neural Fractional Attention Differential Equations",
+    "authors": [
+      "Qiyu Kang",
+      "Wenjun Cui",
+      "Xuhao Li",
+      "Yuxin Ma",
+      "Xueyang Fu",
+      "Wee Peng Tay",
+      "Yidong Li",
+      "Zheng-Jun Zha"
+    ],
+    "author_ids": [
+      "~Qiyu_Kang2",
+      "~Wenjun_Cui1",
+      "~Xuhao_Li2",
+      "~Yuxin_Ma3",
+      "~Xueyang_Fu1",
+      "~Wee_Peng_Tay1",
+      "~Yidong_Li1",
+      "~Zheng-Jun_Zha2"
+    ],
+    "abstract": "The integration of differential equations with neural networks has created powerful tools for modeling complex dynamics effectively across diverse machine learning applications. While standard integer-order neural ordinary differential equations (ODEs) have shown considerable success, they are limited in their capacity to model systems with memory effects and historical dependencies. Fractional calculus offers a mathematical framework capable of addressing this limitation, yet most current fractional neural networks use static memory weightings that cannot adapt to input-specific contextual requirements. This paper proposes a generalized neural Fractional Attention Differential Equation (FADE), which combines the memory-retention capabilities of fractional calculus with contextual learnable attention mechanisms. Our approach replaces fixed kernel functions in fractional operators with neural attention kernels that adaptively weight historical states based on their contextual relevance to current predictions. This allows our framework to selectively emphasize important temporal dependencies while filtering less relevant historical information. Our theoretical analysis establishes solution boundedness, problem well-posedness, and numerical equation solver convergence properties of the proposed model. Furthermore, through extensive evaluation on tasks such as fluid flow, graph learning problems and spatio-temporal traffic flow forecasting, we demonstrate that our adaptive attention-based fractional framework outperforms both integer-order neural ODE models and existing fractional approaches. The results confirm that our framework provides superior modeling capacity for complex dynamics with varying temporal dependencies. The code is available at \\url{https://github.com/cuiwjTech/NeurIPS2025_FADE}.",
+    "keywords": [
+      "neural differential equations"
+    ],
+    "tldr": null,
+    "primary_area": "general_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ kang2025neural, title={Neural Fractional Attention Differential Equations}, author={Qiyu Kang and Wenjun Cui and Xuhao Li and Yuxin Ma and Xueyang Fu and Wee Peng Tay and Yidong Li and Zheng-Jun Zha}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NUaIywqBtK} }",
+    "url": "https://openreview.net/forum?id=NUaIywqBtK",
+    "pdf_url": "https://openreview.net/pdf?id=NUaIywqBtK",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural differential equation"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty2-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "FADE以可学习历史注意力核替代固定分数阶记忆权重，建立有界/适定/收敛的连续动力模型，实际在流体流动等复杂动力任务评测。AI对具有记忆依赖的物理系统进行建模，不仅使用分数阶术语。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Neural Fractional Attention Differential Equations",
+        "authors": [
+          "Kang, Qiyu",
+          "Cui, Wenjun",
+          "Li, Xuhao",
+          "Ma, Yuxin",
+          "Fu, Xueyang",
+          "Tay, Wee Peng",
+          "Li, Yidong",
+          "Zha, Zheng-Jun"
+        ],
+        "doi": "10.52202/085713-1125",
+        "volume": "38",
+        "pages": "33503–33536",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3040bf93152e90d5719379818a8664b4-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3040bf93152e90d5719379818a8664b4-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The integration of differential equations with neural networks has created powerful tools for modeling complex dynamics effectively across diverse machine learning applications. While standard integer-order neural ordinary differential equations (ODEs) have shown considerable success, they are limited in their capacity to model systems with memory effects and historical dependencies. Fractional calculus offers a mathematical framework capable of addressing this limitation, yet most current fractional neural networks use static memory weightings that cannot adapt to input-specific contextual requirements. This paper proposes a generalized neural Fractional Attention Differential Equation (FADE), which combines the memory-retention capabilities of fractional calculus with contextual learnable attention mechanisms. Our approach replaces fixed kernel functions in fractional operators with neural attention kernels that adaptively weight historical states based on their contextual relevance to current predictions. This allows our framework to selectively emphasize important temporal dependencies while filtering less relevant historical information. Our theoretical analysis establishes solution boundedness, problem well-posedness, and numerical equation solver convergence properties of the proposed model. Furthermore, through extensive evaluation on tasks such as fluid flow, graph learning problems and spatio-temporal traffic flow forecasting, we demonstrate that our adaptive attention-based fractional framework outperforms both integer-order neural ODE models and existing fractional approaches. The results confirm that our framework provides superior modeling capacity for complex dynamics with varying temporal dependencies. The code is available at \\url{https://github.com/cuiwjTech/NeurIPS2025_FADE}.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3040bf93152e90d5719379818a8664b4-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:20:54.523693+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "FADE以可学习历史注意力核替代固定分数阶记忆权重，建立有界/适定/收敛的连续动力模型，实际在流体流动等复杂动力任务评测。AI对具有记忆依赖的物理系统进行建模，不仅使用分数阶术语。"
+        },
+        {
+          "axis": "method",
+          "label": "神经常微分方程",
+          "label_en": "Neural ordinary differential equation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "FADE以可学习历史注意力核替代固定分数阶记忆权重，建立有界/适定/收敛的连续动力模型，实际在流体流动等复杂动力任务评测。AI对具有记忆依赖的物理系统进行建模，不仅使用分数阶术语。"
+        },
+        {
+          "axis": "task",
+          "label": "动力系统建模",
+          "label_en": "Dynamical system modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "FADE以可学习历史注意力核替代固定分数阶记忆权重，建立有界/适定/收敛的连续动力模型，实际在流体流动等复杂动力任务评测。AI对具有记忆依赖的物理系统进行建模，不仅使用分数阶术语。"
+        }
+      ]
+    }
   }
 ]
