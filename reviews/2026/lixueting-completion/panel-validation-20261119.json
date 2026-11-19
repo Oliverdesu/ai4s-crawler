@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-19T09:22:23.144266+00:00",
+  "source_commit": "65ee321206f1e139640f8ca18c37b42f9056e1dc",
+  "input_method": "git archive of exact team origin/main; no personal input overlay",
+  "same_input_files": true,
+  "only_monitor_builder_changed": true,
+  "public_builder_sha256": "97b1af950a949d19f2327d7efe5bdde0277a219784a6994422dcae0767cff41e",
+  "corrected_builder_sha256": "15f5b8de3305d7fb51da5df35a894f4d5226772ae1eadd556142fbe3371147c4",
+  "before": {
+    "sources_with_issues": 25,
+    "issue_count": 28,
+    "required_abstract_backfill": 10
+  },
+  "after": {
+    "sources": 51,
+    "sources_with_issues": 0,
+    "issue_count": 0,
+    "required_abstract_backfill": 0,
+    "decisions": {
+      "include": 2299,
+      "exclude": 1520
+    },
+    "included_original_no_abstract": 5,
+    "original_fulltext_verified": 5
+  },
+  "public_website_published": false,
+  "blocking_pr": "https://github.com/BUPT-AI4S/BUPT-AI4S.github.io/pull/23",
+  "input_files_unchanged_verified": 578,
+  "screening_decisions_unchanged": true
+}
