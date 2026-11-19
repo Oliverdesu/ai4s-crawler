@@ -11,27 +11,27 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核255/351初候选，217纳入、38排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余96初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "当前已逐篇审核275/351初候选，234纳入、41排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余76初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 217,
-      "exclude": 38,
+      "include": 234,
+      "exclude": 41,
       "pending": 0,
-      "unreviewed": 96
+      "unreviewed": 76
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "96篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "76篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余96初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续逐篇审核余76初候选；核全Main及其他正式分轨漏采漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:25:16.554227+00:00"
+    "checked_at": "2026-11-19T07:28:30.131608+00:00"
   },
   "catalogue_main_track": {
     "official_count": 5286,
@@ -2485,6 +2485,233 @@
           ],
           "rationale": "EFI用窄颈超网络学习PINN参数并基于观测随机误差构造可信不确定性区间，解决科学物理信息学习中先验/dropout率依赖问题。属于直接提升科学方程学习可靠性的专门方法，未将一般模型不确定性泛称物理应用。",
           "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-twenty5-plans",
+      "checked_at": "2026-11-19T07:28:30.131608+00:00",
+      "count": 20,
+      "decisions": {
+        "exclude": 3,
+        "include": 17
+      },
+      "records": [
+        {
+          "id": "GaL0ja9ygG",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "ADASAP针对GP推断线性系统给出分布式sketch-and-project求解及谱收敛分析，实证只描述求解器规模、耗时和泛贝叶斯优化任务。生物统计/科学学习仅为背景应用，未给出独立科学研究任务，按通用推断计算提速排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "GStPx9lQEL",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "图神经网络",
+            "天气预报"
+          ],
+          "rationale": "MIGN用规则网格插值和可学习球谐位置嵌入，对动态不规则全球气象站观测进行天气预测并外推未见站点。AI直接研究全球天气及观测空间泛化。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "GSAKL9tc7L",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "FoGE借Fock空间表示构造免参数图编码供冻结LLM提示学习，任务为一般图问题并将蛋白/超图作为数据结构例子；未描述具体蛋白科学任务或物理系统建模。数学物理表示的借用与领域图数据本身不足以纳入。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "GQXeLGYMda",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "流匹配"
+          ],
+          "rationale": "FEAT以学习输运/随机插值构建自由能差的低方差估计器、Jarzynski/Crooks理论和变分界，并实际在分子模拟及量子场论计算验证。AI直接参与统计物理自由能估计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "GCwJd0JH5k",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "研究离散扩散得分估计的有限样本误差界、状态空间嵌入及图Laplacian极限，分子设计仅在应用背景提及。主贡献为通用生成模型统计理论，未开展独立科学研究任务。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "G2uILEbcLF",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息学习",
+            "动力系统建模"
+          ],
+          "rationale": "UEPI从数据学习高精度且保持能量守恒/耗散的积分器，实际验证混沌Hamilton系统、耗散系统与非线性PDE。AI直接构造满足物理能量规律的科学数值方法。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "FXTg2P8OQz",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "能量模型",
+            "平衡态采样"
+          ],
+          "rationale": "BoltzNCE联合噪声对比估计和得分匹配近似Boltzmann生成似然，在丙氨酸二肽重现自由能曲线和能量分布，并跨二肽迁移且加速无偏重加权采样。直接服务分子统计力学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "FVtu7yC7fY",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "分子性质预测"
+          ],
+          "rationale": "必要全文§3.1–3.2（PDF pp5–7）核实ICRL把Uni-Mol分子表示注入LLM，在ESOL/AqSolDB溶解度、Caco2通透性、LD50毒性等性质预测实验验证无需微调的表示使用。PCA仅为降维注入步骤，AI作用是分子表示与LLM预测，不将PCA本身冒充深度学习。",
+          "location": "正式全文§3.1–3.2, PDF pp5–7, Tables1–2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "FAiIRMvIwy",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "强化学习",
+            "分子对接"
+          ],
+          "rationale": "必要全文§4.1（PDF pp7–8）核实DesignX的双智能体RL自动设计优化算法，实际外推280个Protein-Docking实例与56个无人机无冲突规划场景，科学/工程优化对象明确。保留另有通用AutoML和合成函数测试的事实。",
+          "location": "正式全文§4.1 Out-of-distribution Generalization, PDF pp7–8, Figure3",
+          "pdf_evidence": true
+        },
+        {
+          "id": "F54u4NkFvS",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经算子",
+            "贝叶斯优化",
+            "动力系统最优控制"
+          ],
+          "rationale": "以神经算子近似函数空间中的未知昂贵物理算子，再用Thompson采样优化其输出泛函，实际在物理PDE系统的函数优化任务改进样本效率。AI直接减少科学模拟查询成本并求解控制/设计泛函。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Ezi8uXAanu",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "图神经网络",
+            "反应结果预测"
+          ],
+          "rationale": "ReaDISH以对称差shingle连续嵌入和几何–结构相互作用注意力保持反应输入置换不变，并在多反应预测基准改进R²及鲁棒性。AI直接学习有机反应结构变化与反应性。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Es4s9dtCjR",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "扩散模型",
+            "分子生成",
+            "分子性质优化"
+          ],
+          "rationale": "CDD在离散扩散采样中直接融入可微约束优化，实际包括性质约束分子设计，并报告约束无违反同时保留新颖性；不只文本毒性与指令控制。AI直接实施受性质限制的分子生成。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "EZAotKVWfk",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "扩散模型",
+            "数据同化"
+          ],
+          "rationale": "Align-DA以背景条件潜空间得分模型学习大气数据同化先验，再用同化精度、后续预报技巧及物理一致性三类奖励对齐，在稀疏噪声观测下改善分析场。AI直接重建大气系统状态。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "EYC29OdxgA",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "多模态学习",
+            "分子性质预测"
+          ],
+          "rationale": "MuMo融合二维拓扑、三维构象和序列，使用结构稳定先验和渐进注入抑制模态坍塌，在TDC/MoleculeNet29项性质任务及LD50毒性上验证。AI直接预测化学/生物性质并处理构象噪声。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "ERQRSnqLRb",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "单细胞表征学习",
+            "蛋白质序列建模"
+          ],
+          "rationale": "GDE把自编码器提升为整分布编码–生成模型，实际用于供者级snRNA、谱系克隆动力学、转录/细胞扰动效应、酵母启动子设计及病毒蛋白时空建模六类生物任务。科学作用具体，不止合成分布距离测试。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "ENJhSqVkXH",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "扩散模型",
+            "分子构象生成",
+            "晶体结构生成"
+          ],
+          "rationale": "Orbit Diffusion用Rao–Blackwell化降低等变扩散训练梯度方差，实际改善GEOM-QM9分子构象、晶体预测/文本条件晶体生成以及蛋白结构可设计性。AI直接支持分子与材料结构生成，不只训练方差理论。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "EBHZNmygTT",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "基因组语言模型",
+            "单细胞组学分析"
+          ],
+          "rationale": "SAINT对三套空间转录组14个组织切片，用核苷酸Transformer编码表达基因DNA序列，经表达加权/注意力池化与空间表达融合，聚类组织功能区域。AI直接整合序列先验与组织空间组学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "E6gwPtWjb1",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "扩散模型",
+            "晶体结构生成"
+          ],
+          "rationale": "CrysLLMGen先以微调LLM产生元素种类、坐标和晶格中间表示，再由等变扩散细化连续结构，在材料生成评测中兼顾组成/结构有效性、稳定性、新颖性与用户约束。AI直接设计周期晶体。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "E16vULI6AF",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "对比学习",
+            "分子性质预测"
+          ],
+          "rationale": "必要全文§4.1（PDF pp5–6）核实ZincFluor为化学实验室分子SMILES与八类荧光等级数据，极端不平衡下用平衡监督对比学习和光滑正则识别稀有荧光类别。具体化学性质预测已核实；未把引言稀病/天文的举例称为实际实验。",
+          "location": "正式全文§4.1–4.3, PDF pp5–7, Figure2 and Table1",
+          "pdf_evidence": true
+        },
+        {
+          "id": "DzQ8Dvt5qS",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "流匹配",
+            "科学训练数据生成"
+          ],
+          "rationale": "必要全文§4.2（PDF pp9–10）核实LeapFactual在Galaxy10 DECaLS十类星系形态上生成受分类约束的反事实图像，研究形态特征变化并作为辅助训练数据改善分类。属于天文分类的模型解释/训练数据方法；生成图和代理标签不等同新观测或经验证的星系物理演化。",
+          "location": "正式全文§4.2, PDF pp9–10, Figure6 and Table3",
+          "pdf_evidence": true
         }
       ]
     }

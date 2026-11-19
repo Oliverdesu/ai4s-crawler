@@ -43315,22 +43315,22 @@
           "official_total": null,
           "official_scope": "",
           "reference_check": null,
-          "coverage_note": "当前已逐篇审核255/351初候选，217纳入、38排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余96初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+          "coverage_note": "当前已逐篇审核275/351初候选，234纳入、41排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余76初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
           "evidence_urls": [
             "https://proceedings.neurips.cc/paper_files/paper/2025"
           ],
           "decisions": {
-            "include": 217,
-            "exclude": 38,
+            "include": 234,
+            "exclude": 41,
             "pending": 0,
             "unreviewed": 0
           },
           "issues": [
-            "96篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。",
+            "76篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。",
             "官网同口径总数尚未确认。"
           ],
           "actions": [
-            "继续逐篇审核余96初候选；核全Main及其他正式分轨漏采漏筛。",
+            "继续逐篇审核余76初候选；核全Main及其他正式分轨漏采漏筛。",
             "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。"
           ],
           "files": [
@@ -43338,7 +43338,7 @@
             "reviews/2025/feedback/zch66883-lixueting.json"
           ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": 217,
+          "final_included": 234,
           "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
@@ -75587,6 +75587,14 @@
       "year": 2025,
       "checked_at": "2026-11-19T07:26:29.201113+00:00",
       "input_commit": "900e50afbba1ec5dfcb2ed415fc21e47e643b1be",
+      "reason": "Current personal screening checkpoint; five complete sources and one partially reviewed conference. Remaining work is retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T07:29:46.141647+00:00",
+      "input_commit": "acb981cbf1b7200aba36316dd754be5e8c5a8e6d",
       "reason": "Current personal screening checkpoint; five complete sources and one partially reviewed conference. Remaining work is retained.",
       "unchanged_other_owners_and_years": true
     }
