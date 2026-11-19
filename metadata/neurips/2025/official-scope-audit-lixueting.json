@@ -11,27 +11,27 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核315/351初候选，270纳入、45排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余36初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "351/351初始候选均已逐篇精筛并取得正式论文集原摘要，300纳入、51排除、0待定。必要疑点已读对应原文方法/实验。完整Main5286目录漏筛召回、其他正式分轨覆盖及其类型核验仍在进行，故不声明整源完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 270,
-      "exclude": 45,
+      "include": 300,
+      "exclude": 51,
       "pending": 0,
-      "unreviewed": 36
+      "unreviewed": 0
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "36篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "Main全目录召回、Datasets and Benchmarks/Position/Creative AI正式分轨范围与漏采漏筛核验尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余36初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续完整Main5286题名召回；核正式其他分轨601目录及类型，补录符合范围且具实质AI科研作用的漏采/漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:34:09.083045+00:00"
+    "checked_at": "2026-11-19T07:37:24.650141+00:00"
   },
   "catalogue_main_track": {
     "official_count": 5286,
@@ -3177,6 +3177,407 @@
             "流体动力学模拟"
           ],
           "rationale": "F-Adapter按谱复杂度对FNO科学算子分配适配容量，并在多套三维Navier–Stokes基准验证外推与谱保真，结合LoRA误差及适配器逼近理论。AI方法专门改善物理场科学模型迁移。",
+          "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-twenty8-plans",
+      "checked_at": "2026-11-19T07:37:24.603431+00:00",
+      "count": 20,
+      "decisions": {
+        "include": 18,
+        "exclude": 2
+      },
+      "records": [
+        {
+          "id": "5szmKUMhB7",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "扩散模型",
+            "分子生成"
+          ],
+          "rationale": "DMol以化学基元压缩、节点边联合扰动和相应扩散损失生成小分子，实际改善SMILES有效性、ChEMBL相似性、QED及基元保留。AI直接生成保留合理碳环等结构的药物候选。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5puCVHYtDB",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "变分自编码器",
+            "动力系统结构推断"
+          ],
+          "rationale": "IPSI交替训练结构估计器与VAE联合推断模块，以迭代伪标签和多层结构先验改进相互作用物理系统的关系结构识别。AI直接反演动力系统交互结构，验证数据为合成物理系统而非真实观测。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5ofJyjgrth",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "流匹配",
+            "单细胞组学分析"
+          ],
+          "rationale": "NicheFlow以局部细胞邻域点云，通过最优输运/变分流匹配联合学习状态与空间坐标随组织发育演化，在胚胎和脑时空数据恢复全局结构与局部微环境。AI直接研究组织细胞微环境轨迹；不据此推断实验包含肿瘤。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5nBwN6XQOD",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "蛋白质逆折叠",
+            "蛋白质性质预测"
+          ],
+          "rationale": "从自由能角度分析逆折叠模型的氨基酸偏好，指出似然比稳定性估计近似并提出改进，在实验评测中提升零样本蛋白热力学稳定性预测。AI模型用于明确蛋白稳定性科学任务。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5d83SyLm0Z",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "扩散模型",
+            "动力系统重建"
+          ],
+          "rationale": "SDIFT以函数Tucker潜空间和序列扩散，从不规则稀疏观测生成完整物理场演化，结合消息传递后验采样，并在超新星、海洋声速场及有机液体系统验证。AI直接重建跨尺度物理动力学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5cgm5dV5hr",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "蛋白质功能预测"
+          ],
+          "rationale": "UniZyme结合酶活性位点知识与生化架构，统一预测多种蛋白水解酶的切割位点并泛化未见酶。AI直接研究酶–蛋白功能作用位置，而非一般序列建模演示。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5YMZfufpfY",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息神经网络",
+            "偏微分方程求解"
+          ],
+          "rationale": "以Woodbury、投影自然梯度、动量及随机化改进PINN的能量自然梯度训练，围绕科学方程解的L²误差与收敛效率评测。方法专门服务神经PDE求解可靠性与计算成本，非任意通用注意力核加速。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5Y8I2dKc91",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "扩散模型",
+            "变分自编码器",
+            "天气预报"
+          ],
+          "rationale": "OmniCast以VAE压缩天气状态，掩码潜扩散Transformer联合跨时空生成，减少自回归累积误差，实际覆盖中期和次季节到季节概率预报。100年稳定rollout是模型稳定性测试，不等于百年逐日预报精度已证实。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "5RIop1E1ga",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "深度学习",
+            "平衡态采样"
+          ],
+          "rationale": "DPA理论把最优编码等值面与分布得分联系起来，明确在Boltzmann分布的Müller–Brown势上单次拟合近似最小自由能路径。实际学习统计物理能量景观/过渡路径，不只自编码表征理论。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "4NaW9mbTqq",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "隐式神经表示",
+            "科学模拟参数反演"
+          ],
+          "rationale": "必要全文§3（PDF pp4–6）核实以tri-plane和MLP学习时空力场、视觉语言/深度模型估计物体属性，通过可微MPM物理与视频稀疏追踪损失反演风等不可见外力。AI角色明确；属性依赖模型估计，并非宣称精确测量已知材料参数。",
+          "location": "正式全文§3.1–3.4, PDF pp4–6, Figure2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "49EjZytlus",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "强化学习",
+            "主动学习",
+            "药物虚拟筛选"
+          ],
+          "rationale": "GLARE把虚拟筛选构造MDP，用GRPO策略权衡化学多样性、生物相关性和计算约束，实际改善富集因子且在极少活性分子条件增强DrugCLIP。AI直接提高药物筛选命中效率。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "3p4272zl7q",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "蛋白质序列结构共设计"
+          ],
+          "rationale": "统一多模态Bayesian Flow共同设计蛋白骨架、序列和侧链，以信息流策略避免侧链到序列捷径，并将方向建模为对跖对称超球面生成，在肽/抗体设计验证。AI直接开展全原子蛋白设计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "3d4wuHgeon",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经算子",
+            "偏微分方程求解"
+          ],
+          "rationale": "RNO以Radon变换将PDE输入移至sinogram，学习角度重权及离散不变卷积，结合单调性理论并在多PDE基准验证求解与泛化。AI直接建模科学方程解算子。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "3CiNHxWcBr",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "迁移学习",
+            "偏微分方程求解"
+          ],
+          "rationale": "POTT通过物理保持最优张量输运纠正微分方程数据/算子域偏移，同时保持方程关系，在模拟与真实数据验证跨域求解。AI实际适配科学方程学习模型。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "3CYXSMFv55",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经算子",
+            "流匹配",
+            "偏微分方程求解"
+          ],
+          "rationale": "ENMA将不规则物理观测编码为压缩潜状态，以流匹配训练的掩码自回归Transformer逐token生成未来，支持相似轨迹上下文条件与新参数PDE一次代理建模。AI直接模拟时变科学动力学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "30iBKSQMXn",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "强化学习",
+            "化学合成规划"
+          ],
+          "rationale": "Retro-R1代理以RL与单步逆合成工具交互、从环境反馈学习多步合成路径，实际提升pass@1并外推域外分子。AI直接进行化学逆合成规划，未把规划成功率称作实验合成产率。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2zHrRV4J1O",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "RSNN主要研究保证图覆盖的随机搜索、图同构不变与表达能力，分子/蛋白基准用于比较一般图学习的序列采样效率与性能。未给出独立科学任务或科学分析，按通用图表示方法排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2uKVyGq5zK",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "语言模型",
+            "蛋白质逆折叠"
+          ],
+          "rationale": "ProtInvTree用奖励树搜索、自评、前视和回溯在结构条件下选择残基位置与序列，结合跳跃去噪评估在不重训下权衡结构一致性和序列多样性。AI直接改进蛋白逆折叠设计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2sa13vyCn0",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "pLSTM把线性循环网络扩展至DAG并实现并行扫描，主要测试图像方向外推与一般分子图/视觉基准。分子图只是结构化输入演示，未描述具体分子科学任务，按通用网络架构研究排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2sG4ebgqBd",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "语言模型",
+            "蛋白质序列建模"
+          ],
+          "rationale": "SpecMER用多序列比对k-mer的生物结构/功能先验指导蛋白推测解码，筛选更符合生物模式的候选序列并提升序列合理性。其方法专门作用于科学蛋白生成，效率和似然指标不等同功能已湿实验验证。",
+          "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-last16-plans",
+      "checked_at": "2026-11-19T07:37:24.650141+00:00",
+      "count": 16,
+      "decisions": {
+        "exclude": 4,
+        "include": 12
+      },
+      "records": [
+        {
+          "id": "2pCTBJQLwF",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "以NTK理论证明LayerNorm使一般网络外推输出有界，蛋白残基尺度和人脸年龄作为通用外推稳定性的示例。未展开独立蛋白研究任务或科学机制分析，按通用网络泛化理论研究排除，保留其确有蛋白数据示例的事实。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2aotKzkOCm",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息神经网络",
+            "偏微分方程求解"
+          ],
+          "rationale": "研究PINN残差收敛但解误差停滞的科学求解失败模式，指出FP32下L-BFGS过早满足收敛检查、FP64可恢复正确PDE解，给出神经科学计算可靠性的具体方法发现。不是一般模型任意算子提速。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2Y2OabORdd",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息学习",
+            "偏微分方程求解"
+          ],
+          "rationale": "离散弱形式统一配点/变分方法，在结合观测和不完全非线性物理约束的混合学习中，用对应仿射簇维数刻画泛化并提供估计/实验验证。直接研究科学物理约束学习的样本效率和可靠性。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2PhVe7p9xD",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经常微分方程",
+            "医学影像配准"
+          ],
+          "rationale": "ssEM三维配准以连续流形轨迹和神经ODE/高斯–赛德尔求解，平衡轴向切片失真修正与天然组织形态保留，多组织数据无监督验证。AI直接支持纳米尺度生物超微结构重建。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "2FmTcj6WMB",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "提出四元数Hopfield网络及周期投影训练的稳定性/收敛理论，实证为随机目标集合；机械臂姿态和路径规划只是潜在应用，没有实际控制研究实验。按通用网络数学方法排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "1nWqhiulqD",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "流匹配",
+            "数据同化"
+          ],
+          "rationale": "FlowDAS用随机插值学习逐步状态转移并在每步融合观测，实际在Lorenz-63、Navier–Stokes超分辨/稀疏观测和大规模天气同化验证稳定性、精度与物理合理性。AI直接估计物理系统状态。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "1fycT4ZRf1",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "用局部Neumann幂级数、边界传播和Goursat PDE加速签名核数值计算，重点为核算法精度、内存及GPU规模。PDE是通用核的内部计算表述，未展示AI参与独立物理或科学任务，按数值/核计算提速排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "1frqf6iY4v",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "流匹配",
+            "分子构象生成",
+            "平衡态采样"
+          ],
+          "rationale": "BBFlow仅以骨架几何条件化流和先验，学习蛋白Boltzmann构象系综，避免依赖演化序列或折叠大模型微调；在天然、多链和从头蛋白上评估采样准确性与速度。AI直接研究构象分布。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "1Qo6DzdPOG",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "ISF解释序列Transformer逐层提取图子结构的内部机制，分子图作为带属性图的复杂模式抽取示例，未涉及具体分子性质、反应或科学问题。按通用LLM图推理机制研究排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "14irEkV01l",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "因果发现",
+            "基因调控网络推断"
+          ],
+          "rationale": "GISL利用基因扰动下依赖的对称性区分调控、潜在混杂和细胞生存/入选偏差，在真实/模拟表达数据推断等价类因果调控关系。AI因果方法直接修正生物网络和干预解释。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "0wV5HR7M4P",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "蛋白质分子动力学模拟"
+          ],
+          "rationale": "TEMPO以两尺度自回归分别生成慢集体构象转移和条件局部涨落，保持Markov时间依赖并输出时间连贯、物理合理的蛋白轨迹。AI直接模拟蛋白动态而非仅静态结构样本。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "0r4yzkvt9j",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经算子",
+            "偏微分方程求解"
+          ],
+          "rationale": "CALM-PDE用连续局部卷积和自适应查询点编码/解码不规则空间域，在压缩潜空间求解时变PDE，实际多方程规则/不规则网格评测。AI直接构造科学方程神经代理。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "0okFLZvtKs",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "强化学习",
+            "量子电路设计"
+          ],
+          "rationale": "TensorRL-QAS将张量网络矩阵乘积态的物理目标先验与强化学习结合搜索量子电路，在最多12量子比特化学问题兼顾化学精度、CNOT与电路深度，并评估噪声鲁棒性。AI实际设计用于量子化学求解的线路，非纯量子算法无学习。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "0dp90Bq8r8",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "等变神经网络",
+            "动力系统建模"
+          ],
+          "rationale": "NS-EGNN用局部傅里叶频率及一/二阶差分处理时间非平稳性，同时保持物理对称，在分子、运动和蛋白动力学预测验证。AI直接模拟随时间分布变化的物理系统。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "0YUHjKjjUY",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "深度学习",
+            "符号回归"
+          ],
+          "rationale": "Deep Legendre用隐式Fenchel形式训练深度网络计算高维凸共轭，并结合KAN符号回归得到特定函数的精确凸共轭表达式。AI直接近似和发现数学函数关系，不是单纯分析AI训练泛化。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "098tsRhmQ7",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "物理信息神经网络",
+            "生成对抗网络",
+            "神经退行性疾病轨迹识别"
+          ],
+          "rationale": "以均场博弈建模tau在淀粉样负荷势场中的传播，Wasserstein-1 GAN推断纵向脑影像之间运输流，再用符号回归揭示Aβ–tau关系；在公开数据预测未见被试病理进展。AI直接研究阿尔茨海默病传播机制。",
           "location": "输入摘要；正式论文集Abstract"
         }
       ]

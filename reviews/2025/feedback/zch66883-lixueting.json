@@ -6576,26 +6576,26 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核315/351初候选，270纳入、45排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余36初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "351/351初始候选均已逐篇精筛并取得正式论文集原摘要，300纳入、51排除、0待定。必要疑点已读对应原文方法/实验。完整Main5286目录漏筛召回、其他正式分轨覆盖及其类型核验仍在进行，故不声明整源完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 270,
-      "exclude": 45,
+      "include": 300,
+      "exclude": 51,
       "pending": 0,
-      "unreviewed": 36
+      "unreviewed": 0
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "36篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "Main全目录召回、Datasets and Benchmarks/Position/Creative AI正式分轨范围与漏采漏筛核验尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余36初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续完整Main5286题名召回；核正式其他分轨601目录及类型，补录符合范围且具实质AI科研作用的漏采/漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:34:09.083045+00:00"
+    "checked_at": "2026-11-19T07:37:24.650141+00:00"
   }
 ]
