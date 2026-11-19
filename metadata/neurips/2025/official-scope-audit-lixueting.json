@@ -11,11 +11,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选及另核181条分轨漏筛、457条Main漏筛均已审，现1004候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–2899，已查范围线索剩余0条，后续目录尚待继续，不声明整源完成。",
-    "candidate_total": 1004,
+    "coverage_note": "初始351候选及另核181条分轨漏筛、512条Main漏筛均已审，现1059候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–3199，已查范围线索剩余0条，后续目录尚待继续，不声明整源完成。",
+    "candidate_total": 1059,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 953,
+      "include": 1008,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -31,11 +31,11 @@
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T11:04:48.211919+00:00",
-    "candidate_count": 1004,
-    "own_review_count": 1004,
+    "checked_at": "2026-11-19T11:09:55.230746+00:00",
+    "candidate_count": 1059,
+    "own_review_count": 1059,
     "own_review_counts": {
-      "include": 953,
+      "include": 1008,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -98138,10 +98138,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T11:04:48.211919+00:00",
+      "checked_at": "2026-11-19T11:09:55.230746+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 1004,
-      "candidate_ids_sha256": "d111b3dd442ea2dc707062103fb6b32fc1f1157d99b04d9b2aaa4f9bfe309136",
+      "candidate_count": 1059,
+      "candidate_ids_sha256": "eca532e14a64aa84e6e37354b0a08139d5c4e1e83389feed4185eedc7eb29e27",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
@@ -112552,12 +112552,1019 @@
           "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8904a83578314d92558b8a49803b68aa-Abstract-Conference.html"
         }
       ]
+    },
+    {
+      "batch_id": "main-twelfth-plans",
+      "checked_at": "2026-11-19T11:09:55.230746+00:00",
+      "plans": [
+        {
+          "index": 2907,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "神经网络",
+            "自监督学习"
+          ],
+          "rationale": "以两个SIREN神经场联合学习时变水面高度及水下图像，利用折射观测无监督拟合并恢复水面形状，直接支持跨水界面光学测量。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2909,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "把密集语义嵌入分解为稀疏概念原子预测故事聆听fMRI，实际分析时间/空间/数量概念的重叠皮层表示，AI直接研究脑语义编码。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2915,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习"
+          ],
+          "rationale": "用解耦/重耦网络和逐数据扰动估计动态因果影响，原文实际从人体跳跃关节记录分析阶段性相互作用，直接支持时变生物运动机制建模。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文MoCap前向跳跃动态因果分析",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2921,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "训练闭环RNN并解析短期策略改进与长期稳定性竞争，实际模拟人类运动追踪任务研究闭环学习机制，AI直接提供神经运动控制模型。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文运动追踪任务及Figure6",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2932,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "强化学习"
+          ],
+          "rationale": "以专家短前缀及分支续写克服稀疏奖励，原文实际在NuminaMath训练复杂数学求解，直接贡献数学推理学习而非仅一般聊天性能。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4.1，NuminaMath-CoT训练",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2937,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "以可控LSE/Maxsoft多实例池化和PerPatch增强处理病理切片异质性，在癌症全片数据检验低样本组织分类，直接支持计算病理。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2941,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "扩散模型"
+          ],
+          "rationale": "联合设计20自由度手、视觉触觉传感和遥操作，并实际训练扩散策略验证采集数据的操作学习效果，直接贡献机器人科研平台及资源。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2944,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "强化学习",
+            "微调"
+          ],
+          "rationale": "系统比较VLA的SFT和PPO等微调，在机械操作语义/视觉/执行扰动验证控制泛化，原文含初步真实抓放实验，直接研究机器人策略。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文实验/附录，VLA操作与初步实物抓放",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2956,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络",
+            "自监督学习"
+          ],
+          "rationale": "用共享编码器及分离解码器从少量欠采样测量学习可迁移DIP权重，实际重建多线圈MRI，AI直接支持低数据医学成像。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2957,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "神经网络"
+          ],
+          "rationale": "联合训练神经光度校准、色调映射及检测网络，在车载HDR场景和Jetson实时硬件检验，直接解决驾驶传感极端亮度问题。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2965,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "为三维医学图像分割设计局部/全局两级软专家路由及Mamba长上下文，在多成像模态验证结构分割，AI直接支持医学图像分析。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2970,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "强化学习"
+          ],
+          "rationale": "用模型化离线RL结合数据支持区域及生理安全约束学习脓毒症治疗策略，在MIMIC-III作离线评估；死亡率为模型估计，不能当作真实临床疗效。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2971,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型"
+          ],
+          "rationale": "在统一VLA内共享部分参数并异步协调慢推理与快动作，经协同训练验证仿真及真实机械操作成功率，AI直接支持高频控制。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2974,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "神经网络"
+          ],
+          "rationale": "以闭式能力估计误差驱动选题，原文实际结合NeuralCDM等模型及数学教育作答日志验证，AI直接支持教育能力测量；非只引用神经认知模型。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4，NeuralCDM及ASSIST/NIPS-EDU/EXAM",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2978,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "神经网络"
+          ],
+          "rationale": "通过点云部件潜变量、三平面投影引导及解码器恢复可编辑草图挤出序列，AI直接支持参数化CAD逆向工程。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2986,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "生成建模"
+          ],
+          "rationale": "以PixelCNN等概率测量模型及噪声分布估计信息，进而优化成像硬件设计，实际覆盖显微/射电/无透镜成像，AI直接贡献科学仪器设计。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文测量模型及成像设计，PixelCNN/GP",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2989,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经网络"
+          ],
+          "rationale": "以热带注意力神经网络求解背包、装箱和均衡分割等NP组合问题，直接贡献数学算法求解；不把系统发育/粒子物理愿景称为已验证应用。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文组合任务，背包/装箱/均衡分割",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2990,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "预训练",
+            "神经网络"
+          ],
+          "rationale": "在大规模医学时间序列上预训练连续时间编码、频率专家和神经ODE模型，直接支持不规则缺测的临床信号预测及任务资源。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2993,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模"
+          ],
+          "rationale": "以GP构造目标函数族并学习低值到高值分布桥，原文实际在TFBind8/10优化转录因子结合序列，AI直接参与生物序列设计；不声称全部离线基准都属科学发现。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4.2，TFBind8/10序列优化",
+          "pdf_evidence": true
+        },
+        {
+          "index": 2995,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "以实测电流/谷氨酸信号拟合视锥参数，再训练可微外视网膜网络完成对比度变化识别，检验不同细胞连接贡献，AI直接研究视网膜机制。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 2996,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "机器学习"
+          ],
+          "rationale": "对荧光介质扰动进行模型化优化并验证真实交通标志神经识别的物理脆弱性，直接研究驾驶感知系统在隐蔽光学干扰下的安全。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3000,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "机器学习"
+          ],
+          "rationale": "通过可微神经元模拟器与扩展Kalman状态推断，从细胞外电压学习膜电位、通道参数和探针相对位置，直接支持多室神经生物模型识别。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3015,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "对比学习",
+            "自监督学习",
+            "预训练"
+          ],
+          "rationale": "用置换等变Transformer及跨时间/刺激对比学习神经元表示，实际从电生理/钙成像解码细胞类型和脑区并跨动物泛化，直接支持神经科学。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3024,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "扩散模型"
+          ],
+          "rationale": "学习物理场—三维几何联合潜在表示，经梯度引导扩散和拓扑保留优化设计气动几何，AI直接支持流体工程逆向设计。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3026,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "图神经网络"
+          ],
+          "rationale": "学习AIG及映射后网表的功能嵌入和模糊边界，识别结构不同但功能相关子电路，直接支持电路验证及设计优化。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文逻辑功能嵌入/分割及电路核验",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3027,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "强化学习"
+          ],
+          "rationale": "用option感知时序抽象价值减少长程优势估计误差，原文在OGBench视觉机械操作和导航验证离线目标策略，直接支持机器人控制。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文OGBench视觉操作实验",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3030,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "神经网络"
+          ],
+          "rationale": "通过低秩RNN及随机非线性基函数学习目标ODE，原文实际重建Lorenz混沌轨迹并以GP/主动选择提高拟合，AI直接参与动力系统求解。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文附录E.3.1，Lorenz轨迹重建",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3033,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型"
+          ],
+          "rationale": "让LLM生成数学优化形式及求解器代码，利用动态MCTS与结果反馈修正建模，在六组优化问题检验无训练求解泛化，AI直接参与数学规划。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3038,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "视觉语言模型",
+            "强化学习"
+          ],
+          "rationale": "在MMK12数学图文数据上通过逐步编辑问题及图像进行GRPO训练，并检验五组数学求解基准，直接贡献数学推理数据增强和模型。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§5.1，MMK12数学图文训练与五项数学评测",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3042,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "扩散模型",
+            "掩码建模"
+          ],
+          "rationale": "协调参数到形状扩散及掩码参数预测，定位CAD构造序列需改段落并生成/验证几何编辑，直接支持参数化工程设计。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3051,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "机器学习"
+          ],
+          "rationale": "原文实际比较逻辑回归与随机森林定价模型相关性，研究算法同质化对竞争及消费者福利的影响，AI实质参与产业组织机制研究。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§6及Figure3，LR/RF与相关性竞争实验",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3056,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "大语言模型",
+            "强化学习"
+          ],
+          "rationale": "由LLM拆解任务并生成细粒度进度函数作为稠密奖励，原文在Franka等机械操作学习低层控制，直接支持长程机器人任务。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文机器人实验及ManiSkill/Franka设置",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3059,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "机器学习"
+          ],
+          "rationale": "将可学习高斯场/可微渲染与复杂碰撞MPM结合，从视频反演对象物理参数，AI场景表示直接支持非平面接触系统识别；不称通用图形动画结果。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文系统识别方法及§5.2，复杂碰撞下视频参数反演",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3061,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "强化学习"
+          ],
+          "rationale": "提出B&B变量选择的标准MDP并训练分支代理，在四组MILP问题验证求解，AI直接参与混合整数数学优化。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文MILP分支学习实验",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3076,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "微调",
+            "强化学习"
+          ],
+          "rationale": "联合监督与强化目标训练数学/逻辑求解，原文实际使用MATH3–5、Countdown及逻辑任务并检验数学竞赛，直接支持数学AI学习。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文数学训练及多竞赛评测",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3077,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型"
+          ],
+          "rationale": "用MLLM识别图文因素并迭代修正因果结构，原文实际从MedPix肺癌病例的CT及病史研究因素关系，AI直接支持医学多模态因果分析；不将生成苹果数据误作真实实验。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4及附录D.1，MedPix肺癌图文数据",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3086,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型"
+          ],
+          "rationale": "代理通过全片缩放/移动重现病理诊断流程，并构建专家核验大区域资源，实际研究跨尺度组织诊断，AI直接支持计算病理。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3094,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "训练路径积分RNN并用细胞分组、连接消融和吸引子分析提出条带细胞到网格细胞的层次回路，AI直接研究空间导航神经机制。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文RNN消融与条带/网格细胞回路",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3098,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "神经网络"
+          ],
+          "rationale": "用变分贝叶斯神经网络近似非平稳时空GP并校准区间，原文实际重建MODIS气溶胶光学厚度等卫星场，AI直接支持大规模环境观测推断。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4.1.1–4.1.2，卫星场及INR建模",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3105,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学"
+          ],
+          "rationale": "从历史轨迹构造记忆势场并改进MPPI在非凸控制环境逃逸，直接研究经验学习的机器人导航控制；不冒称神经网络训练。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§5，机器人控制记忆势场",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3117,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型",
+            "对比学习",
+            "预训练"
+          ],
+          "rationale": "以2.14亿生物图像及分类层次对比训练BioCLIP2，分析物种性状/栖息地及生长阶段表征，AI直接支持生态和生物性状研究。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3118,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "强化学习"
+          ],
+          "rationale": "把快答/验证/慢思考/总结设为训练子任务，原文主要在MATH/AIME/Olympiad等检验复杂数学求解，AI直接支持数学推理学习；心理学为启发不另标脑科学。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文数学训练及AIME/Minerva评测",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3120,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "扩散模型"
+          ],
+          "rationale": "研究连续动作专家对VLA语义知识迁移的影响并隔离训练梯度干扰，直接改善物理机器人控制策略的训练与泛化。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3131,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "自监督学习",
+            "神经网络"
+          ],
+          "rationale": "用fMRI自编码器和空间正则深度聚类生成个体体素脑图谱，检验功能同质性与神经任务适配，AI直接贡献可变分辨率脑分区。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3145,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "强化学习"
+          ],
+          "rationale": "从有限MATH种子生成分级数学题并以多数投票自奖励迭代训练，原文明确数学领域实验及MATH500核验，AI直接支持低标注数学求解。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4.1，MATH初始种子及数学求解",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3160,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型"
+          ],
+          "rationale": "通过导师—学员路径搜索构建分难度医学推理数据并课程训练Chiron-o1，在医学图文诊断验证，直接贡献临床推理模型及资源。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3164,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "强化学习",
+            "生成建模"
+          ],
+          "rationale": "用深度RL求最佳响应、监督学习平均策略及条件正规化流估计时变群体分布，直接数值求解连续非平稳均场博弈。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§3.1，DRL/条件流均场求解",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3166,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "强化学习"
+          ],
+          "rationale": "训练周期记忆摘要Transformer策略，原文在带相机Fetch机器人多目标场景学习持续导航，直接支持长时自主系统记忆与决策；仅仿真。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§4.1，Fetch ExtObjNav",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3170,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "扩散模型"
+          ],
+          "rationale": "以并行树搜索及轨迹稀疏化改进扩散运动规划，原文实际在点质量/Ant迷宫导航验证可行轨迹，直接支持运动规划；未称实物部署。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文规划实验，点质量/Ant迷宫",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3176,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "图神经网络",
+            "强化学习"
+          ],
+          "rationale": "以方向输运感知GNN从稀疏传感重建流场，并用受约束PPO联合选择布点，直接支持真实约束下流体动力学测量。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        },
+        {
+          "index": 3177,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "扩散模型"
+          ],
+          "rationale": "把动作条件RGB-D生成积累为持久三维地图，原文实际用于NoMaD轨迹排序、MPC及策略学习，直接支持机器人导航规划；不只比较生成画质。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文§3.3及策略训练，NoMaD/MPC",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3187,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "大语言模型"
+          ],
+          "rationale": "通过118人两阶段实验隔离LLM协作讲解对人类独立解题的知识迁移效果，AI直接参与人机协作及认知学习研究。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文用户实验设计与知识转移",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3191,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "在3400个神经科学任务RNN中定量研究行为、动力学及权重的解简并，直接为解释共通脑机制及生物个体变异提供计算模型工具。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文神经科学任务与解简并分析",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3192,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络"
+          ],
+          "rationale": "以置信路由和残差专家只修正SAM血管结构不确定区域，在五组医学血管数据检验拓扑与分割，AI直接支持血管影像测量。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账；公开原文医学血管分割实验",
+          "pdf_evidence": true
+        },
+        {
+          "index": 3194,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "自监督学习",
+            "多模态学习"
+          ],
+          "rationale": "从无标注跨模态相关及多时间尺度预测学习层次操作概念，在真实和模拟策略验证可迁移操作，直接支持机器人技能表征。",
+          "primary_evidence": "input_abstract_catalogue",
+          "location": "输入原摘要；出版社正式目录逐项对账"
+        }
+      ],
+      "not_promoted": [
+        {
+          "index": 2922,
+          "decision": "not_promoted",
+          "rationale": "MATH训练及评测用于通用推理并行化/时延，主要贡献是LLM效率而非独立数学研究任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8ae389e06aae1ca8fe3b337460927107-Paper-Conference.pdf",
+          "pdf_sha256": "79f8dad9226060e9faa26b198138b1a661b917e383fb0f1f5bae097e9bd95764",
+          "id": "h5YGwnMTke",
+          "title": "SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ae389e06aae1ca8fe3b337460927107-Abstract-Conference.html"
+        },
+        {
+          "index": 2926,
+          "decision": "not_promoted",
+          "rationale": "POMDP历史近似及TD学习有限时界的一般RL理论，未给独立领域科研任务。",
+          "evidence_location": "输入原摘要",
+          "id": "JInukYoZPI",
+          "title": "Scalable Policy-Based RL Algorithms for POMDPs",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b078da44614b6e249dc9e9474dc8d11-Abstract-Conference.html"
+        },
+        {
+          "index": 2930,
+          "decision": "not_promoted",
+          "rationale": "抽象劳动力匹配及bandit反馈的近似/遗憾理论，未建立AI用于独立领域研究的实质证据。",
+          "evidence_location": "输入原摘要",
+          "id": "HPmDgKOlM3",
+          "title": "Stable Matching with Ties: Approximation Ratios and Learning",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b492b025e64b633d3422cc42571bcf8-Abstract-Conference.html"
+        },
+        {
+          "index": 2933,
+          "decision": "not_promoted",
+          "rationale": "通用模型间表征指导以改善分类/语言训练，未研究脑神经或独立科学问题。",
+          "evidence_location": "输入原摘要",
+          "id": "zvYxXhlQHM",
+          "title": "Training the Untrainable: Introducing Inductive Bias via Representational Alignment",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b76bc305ccfb95010081d12b85c3b24-Abstract-Conference.html"
+        },
+        {
+          "index": 2948,
+          "decision": "not_promoted",
+          "rationale": "一般贝叶斯恢复样本复杂度与DNN先验保证，未实际用AI求解独立领域科学任务。",
+          "evidence_location": "输入原摘要",
+          "id": "IIiRwgkZcm",
+          "title": "How many measurements are enough? Bayesian recovery in inverse problems with general distributions",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8c2e2925e75e501088004dd685f0ae81-Abstract-Conference.html"
+        },
+        {
+          "index": 2960,
+          "decision": "not_promoted",
+          "rationale": "PettingZoo/MiniGrid/足球/StarCraft游戏的通用MARL上下文优化，非独立科研任务。",
+          "evidence_location": "输入原摘要",
+          "id": "4BsrGHtvW5",
+          "title": "Adaptive Context Length Optimization with Low-Frequency Truncation for Multi-Agent Reinforcement Learning",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ca113d122584f12a6727341aaf58887-Abstract-Conference.html"
+        },
+        {
+          "index": 2962,
+          "decision": "not_promoted",
+          "rationale": "Markov游戏模仿均衡样本复杂度，未建立独立经济/工程研究。",
+          "evidence_location": "输入原摘要",
+          "id": "QNtJO0jTf3",
+          "title": "Learning Equilibria from Data: Provably Efficient Multi-Agent Imitation Learning",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8cb4b41a28043e865b28db17f0a30edd-Abstract-Conference.html"
+        },
+        {
+          "index": 2963,
+          "decision": "not_promoted",
+          "rationale": "通用动作语言生成及遗忘抑制，未验证生物力学或机器人具体任务。",
+          "evidence_location": "输入原摘要",
+          "id": "Gvq2AfuVEA",
+          "title": "HMVLM:Human Motion-Vision-Language Model via MoE LoRA",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8cb564df771e9eacbfe9d72bd46a24a9-Abstract-Conference.html"
+        },
+        {
+          "index": 2964,
+          "decision": "not_promoted",
+          "rationale": "EBM数据流形测地线在合成、字符、自然图像上的通用生成表示性能，未给独立科学任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8cc4d34998c0b4006641ccd1341022b7-Paper-Conference.pdf",
+          "pdf_sha256": "6cee2bf487d13b9ce71dbad773b30ca5fdd5f320855b06a5c5da25d39b76a1fb",
+          "id": "BOiQ7Kd5Lx",
+          "title": "Follow the Energy, Find the Path: Riemannian Metrics from Energy-Based Models",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8cc4d34998c0b4006641ccd1341022b7-Abstract-Conference.html"
+        },
+        {
+          "index": 2981,
+          "decision": "not_promoted",
+          "rationale": "通用符号链路预测的内存/推断效率，社会网络仅数据背景，未独立研究社会机制。",
+          "evidence_location": "输入原摘要",
+          "id": "BNWR4JOmdT",
+          "title": "SignFlow Bipartite Subgraph Network For Large-Scale Graph Link Sign Prediction",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8d8cd154b01f5eb9ba3c2f2aad9b730a-Abstract-Conference.html"
+        },
+        {
+          "index": 2983,
+          "decision": "not_promoted",
+          "rationale": "公开§4.1为多跳/图谱问答、任务自动化及软件开发预算分配，未实际处理独立数学或科学任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8d9bbba8cac9cabb54e85ee7f21441c8-Paper-Conference.pdf",
+          "pdf_sha256": "454906b0f931fd092ab25163c1ea3fd69e793eac570320ba257d174bee9b0c7c",
+          "id": "BuYtcTUMyA",
+          "title": "AgentTTS: Large Language Model Agent for Test-time Compute-optimal Scaling Strategy in Complex Tasks",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8d9bbba8cac9cabb54e85ee7f21441c8-Abstract-Conference.html"
+        },
+        {
+          "index": 2985,
+          "decision": "not_promoted",
+          "rationale": "公开光学数据实验为多项式回归及增广的统计混杂校正，未建立AI实质参与独立科研的证据。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8dc00b61cdf8739c892f855c672b5daf-Paper-Conference.pdf",
+          "pdf_sha256": "c00597083e8330c67f4d1244d1528b25c9e9b43d3215e0d7945a47aab6e7f036",
+          "id": "C1LVIInfZO",
+          "title": "An Analysis of Causal Effect Estimation using Outcome Invariant Data Augmentation",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8dc00b61cdf8739c892f855c672b5daf-Abstract-Conference.html"
+        },
+        {
+          "index": 2991,
+          "decision": "not_promoted",
+          "rationale": "流形Brownian/热核oracle的经典采样复杂度，未给AI实际参与外部科学问题。",
+          "evidence_location": "输入原摘要",
+          "id": "KxhCJc8BOg",
+          "title": "Riemannian Proximal Sampler for High-accuracy Sampling on Manifolds",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e185f16e458ef5e666901260079cd42-Abstract-Conference.html"
+        },
+        {
+          "index": 2997,
+          "decision": "not_promoted",
+          "rationale": "PAG结构因果bandit动作剪枝的一般理论，未建立独立领域科学任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8e7a9fa55aa7747061afb33b876396fa-Paper-Conference.pdf",
+          "pdf_sha256": "2d21ff54d726c0b5202458ebebcdaf2ee1526e5fe57e4f395041346d3eb4257e",
+          "id": "3aFwsZxM5H",
+          "title": "Structural Causal Bandits under Markov Equivalence",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e7a9fa55aa7747061afb33b876396fa-Abstract-Conference.html"
+        },
+        {
+          "index": 3003,
+          "decision": "not_promoted",
+          "rationale": "通用视频推理/空间理解基准，未验证独立数学或物理科学研究。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8eb3976840e08b80dda9667562574246-Paper-Conference.pdf",
+          "pdf_sha256": "90a76bfb2f3c16d8b6d24c73738e1eeff8f88c0eae9f967031c4e757da7db7e6",
+          "id": "a2JTVVvcEl",
+          "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8eb3976840e08b80dda9667562574246-Abstract-Conference.html"
+        },
+        {
+          "index": 3022,
+          "decision": "not_promoted",
+          "rationale": "AI职业指导仅社会背景，正文为经典选择博弈，未使用AI研究社会现象。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8ff87c96935244b63503f542472462b3-Paper-Conference.pdf",
+          "pdf_sha256": "d6cbe0b1e4593780e76eb3f78c46823a33dbba760b532f24b6ed2bdf05c4c3c6",
+          "id": "W8xcKoJcrl",
+          "title": "Strategic Costs of Perceived Bias in Fair Selection",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ff87c96935244b63503f542472462b3-Abstract-Conference.html"
+        },
+        {
+          "index": 3023,
+          "decision": "not_promoted",
+          "rationale": "机器学习预测作为假定输入的策略调度竞争比，未证明AI实际科研作用。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8ff9d4ce7c7f4dcb18d6e174414aff8c-Paper-Conference.pdf",
+          "pdf_sha256": "490298dc145bd447980b5033525ba66e5f1884eb61b2f86a045d0dd934875da8",
+          "id": "036C670YK6",
+          "title": "Parsimonious Predictions for Strategyproof Scheduling",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ff9d4ce7c7f4dcb18d6e174414aff8c-Abstract-Conference.html"
+        },
+        {
+          "index": 3064,
+          "decision": "not_promoted",
+          "rationale": "广泛逻辑谜题合成及LLM一般推理/混合训练，未建立独立数学或具体领域科研任务的直接贡献。",
+          "evidence_location": "输入原摘要",
+          "id": "XtNiw8OQsy",
+          "title": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/926ec82c83afe07db613956ae48c6700-Abstract-Conference.html"
+        },
+        {
+          "index": 3071,
+          "decision": "not_promoted",
+          "rationale": "利用评审LLM奖励操纵模型评测，所谓人类偏好反演主要指模型攻击，不是人类偏好科学研究。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/92a4d7a222ae16d4fbad90ef7743d5e0-Paper-Conference.pdf",
+          "pdf_sha256": "54bea42e9f54e9258ca8a3b846c885911fb1512ccc52f68935379c8f3718b7ea",
+          "id": "heY0zzGvYm",
+          "title": "Reverse Engineering Human Preferences with Reinforcement Learning",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/92a4d7a222ae16d4fbad90ef7743d5e0-Abstract-Conference.html"
+        },
+        {
+          "index": 3085,
+          "decision": "not_promoted",
+          "rationale": "混合通用视觉问答及自纠错评测，数学图例不足以建立专门数学研究贡献。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/93397b489222f1e66a862f795fc32b96-Paper-Conference.pdf",
+          "pdf_sha256": "3d3f59b0fd85f225d4674d35540f751997019cbad7899eb7d619ddafdab5719e",
+          "id": "aLGgz4SOyu",
+          "title": "Sherlock: Self-Correcting Reasoning in Vision-Language Models",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/93397b489222f1e66a862f795fc32b96-Abstract-Conference.html"
+        },
+        {
+          "index": 3109,
+          "decision": "not_promoted",
+          "rationale": "LittleAlchemy与人类基线用于解释LLM探索及SAE内部时序，主要研究模型能力而非独立认知科学问题。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/945c4b5d6daf5294befbc5b7c275c300-Paper-Conference.pdf",
+          "pdf_sha256": "0372c6b61f927150f603804374155a5a77eca9fd735c6111f3a8604ca6fe838e",
+          "id": "jW8nBi6y9F",
+          "title": "Large Language Models Think Too Fast To Explore Effectively",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/945c4b5d6daf5294befbc5b7c275c300-Abstract-Conference.html"
+        },
+        {
+          "index": 3121,
+          "decision": "not_promoted",
+          "rationale": "关节对象表面/未见状态纹理几何重建，未验证机器人控制或独立物理研究任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/94ea47483883c01a0555cafd99d8bff7-Paper-Conference.pdf",
+          "pdf_sha256": "63fe69af37e5e86643f92064dd31668f6e3ecf6efe8f5b3e85090e1591ce564a",
+          "id": "6LGyChG6Ep",
+          "title": "REArtGS: Reconstructing and Generating Articulated Objects via 3D Gaussian Splatting with Geometric and Motion Constraints",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/94ea47483883c01a0555cafd99d8bff7-Abstract-Conference.html"
+        },
+        {
+          "index": 3125,
+          "decision": "not_promoted",
+          "rationale": "AnomLLM/TSB-AD通用异常检测提示比较，未研究具体领域科学问题。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/950a34c7b107111570077078e1b5b8ef-Paper-Conference.pdf",
+          "pdf_sha256": "6552084b5f391c020f7b7718178c40196219f89a6e2d33ab879078022adf8b53",
+          "id": "6rpy7X1Of8",
+          "title": "Delving into Large Language Models for Effective Time-Series Anomaly Detection",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/950a34c7b107111570077078e1b5b8ef-Abstract-Conference.html"
+        },
+        {
+          "index": 3130,
+          "decision": "not_promoted",
+          "rationale": "VLM通用空间问答、仿真数据及提示，导航仅动机，未实际执行机器人导航任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9541101fbc2f24bce5f2462b95db88c4-Paper-Conference.pdf",
+          "pdf_sha256": "7d039ea6083bc7a5800b2677cb1e9918ee34f285da50a07138da6125ce262804",
+          "id": "SBYCu5uJJf",
+          "title": "Spatial Understanding from Videos: Structured Prompts Meet Simulation Data",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9541101fbc2f24bce5f2462b95db88c4-Abstract-Conference.html"
+        },
+        {
+          "index": 3138,
+          "decision": "not_promoted",
+          "rationale": "ARC-AGI及程序示例生成的一般推理能力，未处理独立科学或数学研究。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/95738b4062a7fed00bb9db468475ae53-Paper-Conference.pdf",
+          "pdf_sha256": "87bb1bb3dd5504e3f390bb07d93b6fedaaa6462066ada4b08d0accd572750828",
+          "id": "CsXKGIqZtr",
+          "title": "Searching Latent Program Spaces",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/95738b4062a7fed00bb9db468475ae53-Abstract-Conference.html"
+        },
+        {
+          "index": 3143,
+          "decision": "not_promoted",
+          "rationale": "通用图谱语义合成及数据稀缺基准，不构成独立领域科学研究。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/95afdae06ae8d4ef6f82406ca5b4972d-Paper-Conference.pdf",
+          "pdf_sha256": "fce561d8d9b8e849428d050126a2745c1f55e5dc67154d003a1180d92e3c3551",
+          "id": "h3dbocj7po",
+          "title": "GraphMaster: Automated Graph Synthesis via LLM Agents in Data-Limited Environments",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/95afdae06ae8d4ef6f82406ca5b4972d-Abstract-Conference.html"
+        },
+        {
+          "index": 3146,
+          "decision": "not_promoted",
+          "rationale": "一般图文推理后验训练与混合基准，未明确专门数学任务贡献。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/95c6ae3f3393786203a4b6dcb9df1036-Paper-Conference.pdf",
+          "pdf_sha256": "0d8976dfeabd896323d706d550e4ede9a476f9597d22112785e3422cce88a518",
+          "id": "0i8ClSr3kQ",
+          "title": "Latent Chain-of-Thought for Visual Reasoning",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/95c6ae3f3393786203a4b6dcb9df1036-Abstract-Conference.html"
+        },
+        {
+          "index": 3158,
+          "decision": "not_promoted",
+          "rationale": "以认知漂移扩散启发奖励模型样本效率，方向为认知辅助AI，而非AI研究人类决策机制。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/964f275eb06f3d9aebe83b46385fa49b-Paper-Conference.pdf",
+          "pdf_sha256": "a73e8fd67153255cc2f7c46210903756868df3a978446073d257bdaff8b7c245",
+          "id": "KR2zKdlEJ2",
+          "title": "Preference Learning with Response Time: Robust Losses and Guarantees",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/964f275eb06f3d9aebe83b46385fa49b-Abstract-Conference.html"
+        },
+        {
+          "index": 3167,
+          "decision": "not_promoted",
+          "rationale": "公开生成画质/几何控制与场景拓展，驾驶仿真为用途愿景，未验证规划控制或独立工程任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/969f0d274237b8fe99baa74c2fad5d93-Paper-Conference.pdf",
+          "pdf_sha256": "a915c9b0d1b508c19cccd7fc5b286d97042fabb39daff1e4967defaeb6c56587",
+          "id": "QclFsekj9B",
+          "title": "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/969f0d274237b8fe99baa74c2fad5d93-Abstract-Conference.html"
+        },
+        {
+          "index": 3175,
+          "decision": "not_promoted",
+          "rationale": "布局/数量/审美偏好的图像生成对齐，未用于独立科学任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/96f39c8de84678cb2a908cd52bfd7819-Paper-Conference.pdf",
+          "pdf_sha256": "d1b1961963e8beee67f8212569d644d0a599acebb5d0a2be94982e27cc57ed12",
+          "id": "slVqJAI5sT",
+          "title": "$\\Psi$-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96f39c8de84678cb2a908cd52bfd7819-Abstract-Conference.html"
+        },
+        {
+          "index": 3188,
+          "decision": "not_promoted",
+          "rationale": "通用渲染变化下视觉网络认证，未验证具体物理/工程系统任务。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/976c391cba6bf0bb70f6edd7f89cd23c-Paper-Conference.pdf",
+          "pdf_sha256": "e4fc0f3ae8403cd864818e240ae25fcf5306e23387075f7ed0f5095eec1cf62c",
+          "id": "EXIKFM1Q9R",
+          "title": "Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/976c391cba6bf0bb70f6edd7f89cd23c-Abstract-Conference.html"
+        },
+        {
+          "index": 3193,
+          "decision": "not_promoted",
+          "rationale": "KKT与等价变换求解输运的经典数值算法，未使用AI方法。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/97a36b5f6db9e6703e4154cf0c582214-Paper-Conference.pdf",
+          "pdf_sha256": "5aaa87504cb90b067805efc1f7cd453eea9556c481d715494cdb0a7fa7cf4c4c",
+          "id": "rzjWktciDM",
+          "title": "Solving Discrete (Semi) Unbalanced Optimal Transport with Equivalent Transformation Mechanism and KKT-Multiplier Regularization",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/97a36b5f6db9e6703e4154cf0c582214-Abstract-Conference.html"
+        },
+        {
+          "index": 3195,
+          "decision": "not_promoted",
+          "rationale": "HalfCheetah/Walker周期技能及跨栏/摩擦基准，主要为通用无监督RL技能表现，未建立专门工程科研贡献。",
+          "evidence_location": "输入原摘要；公开原文相关实验/理论部分",
+          "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/97b191fa9c78eb4324b16a2008657efb-Paper-Conference.pdf",
+          "pdf_sha256": "733e423cae19ef15729fbf82b7afdcc5b7e7eadd5e203290e5a5cb9d2df94955",
+          "id": "BPSU46emit",
+          "title": "Periodic Skill Discovery",
+          "official_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/97b191fa9c78eb4324b16a2008657efb-Abstract-Conference.html"
+        }
+      ]
     }
   ],
   "main_title_recall_progress": {
     "title_reviewed_range": [
       0,
-      2899
+      3199
     ],
     "selection_only_not_final_decisions": true,
     "potential_indices": [
@@ -113458,7 +114465,106 @@
       2893,
       2896,
       2897,
-      2899
+      2899,
+      2900,
+      2907,
+      2909,
+      2915,
+      2921,
+      2922,
+      2926,
+      2930,
+      2932,
+      2933,
+      2937,
+      2941,
+      2944,
+      2948,
+      2956,
+      2957,
+      2960,
+      2962,
+      2963,
+      2964,
+      2965,
+      2970,
+      2971,
+      2974,
+      2978,
+      2979,
+      2981,
+      2983,
+      2985,
+      2986,
+      2989,
+      2990,
+      2991,
+      2993,
+      2995,
+      2996,
+      2997,
+      3000,
+      3003,
+      3006,
+      3015,
+      3022,
+      3023,
+      3024,
+      3026,
+      3027,
+      3030,
+      3033,
+      3038,
+      3042,
+      3051,
+      3056,
+      3059,
+      3061,
+      3064,
+      3071,
+      3076,
+      3077,
+      3085,
+      3086,
+      3094,
+      3098,
+      3105,
+      3109,
+      3117,
+      3118,
+      3120,
+      3121,
+      3123,
+      3125,
+      3126,
+      3129,
+      3130,
+      3131,
+      3134,
+      3135,
+      3138,
+      3143,
+      3145,
+      3146,
+      3148,
+      3158,
+      3160,
+      3163,
+      3164,
+      3166,
+      3167,
+      3170,
+      3175,
+      3176,
+      3177,
+      3185,
+      3187,
+      3188,
+      3191,
+      3192,
+      3193,
+      3194,
+      3195
     ],
     "potential_not_initial_candidates": [
       2,
@@ -114191,7 +115297,95 @@
       2892,
       2893,
       2897,
-      2899
+      2899,
+      2907,
+      2909,
+      2915,
+      2921,
+      2922,
+      2926,
+      2930,
+      2932,
+      2933,
+      2937,
+      2941,
+      2944,
+      2948,
+      2956,
+      2957,
+      2960,
+      2962,
+      2963,
+      2964,
+      2965,
+      2970,
+      2971,
+      2974,
+      2978,
+      2981,
+      2983,
+      2985,
+      2986,
+      2989,
+      2990,
+      2991,
+      2993,
+      2995,
+      2996,
+      2997,
+      3000,
+      3003,
+      3015,
+      3022,
+      3023,
+      3024,
+      3026,
+      3027,
+      3030,
+      3033,
+      3038,
+      3042,
+      3051,
+      3056,
+      3059,
+      3061,
+      3064,
+      3071,
+      3076,
+      3077,
+      3085,
+      3086,
+      3094,
+      3098,
+      3105,
+      3109,
+      3117,
+      3118,
+      3120,
+      3121,
+      3125,
+      3130,
+      3131,
+      3138,
+      3143,
+      3145,
+      3146,
+      3158,
+      3160,
+      3164,
+      3166,
+      3167,
+      3170,
+      3175,
+      3176,
+      3177,
+      3187,
+      3188,
+      3191,
+      3192,
+      3193,
+      3194,
+      3195
     ],
     "reviewed_segments": [
       {
@@ -114832,6 +116026,15 @@
         ],
         "potential_count": 104,
         "checked_at": "2026-11-19T11:01:30.237277+00:00",
+        "method": "模型逐项阅读300条正式目录题名；仅作线索，最终逐篇读取摘要及必要原文"
+      },
+      {
+        "range": [
+          2900,
+          3199
+        ],
+        "potential_count": 99,
+        "checked_at": "2026-11-19T11:05:28.780163+00:00",
         "method": "模型逐项阅读300条正式目录题名；仅作线索，最终逐篇读取摘要及必要原文"
       }
     ]
