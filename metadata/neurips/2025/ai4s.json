@@ -36804,5 +36804,1486 @@
     "project_url": null,
     "published": "2025-09-18",
     "source": "openreview"
+  },
+  {
+    "id": "f4Wd385vHi",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Non-Line-of-Sight 3D Reconstruction with Radar",
+    "authors": [
+      "Haowen Lai",
+      "Zitong Lan",
+      "Mingmin Zhao"
+    ],
+    "author_ids": [
+      "~Haowen_Lai1",
+      "~Zitong_Lan1",
+      "~Mingmin_Zhao1"
+    ],
+    "abstract": "Seeing hidden structures and objects around corners is critical for robots operating in complex, cluttered environments. Existing methods, however, are limited to detecting and tracking hidden objects rather than reconstructing the occluded full scene. We present HoloRadar, a practical system that reconstructs both line-of-sight (LOS) and non-line-of-sight (NLOS) 3D scenes using a single mmWave radar. HoloRadar uses a two-stage pipeline: the first stage generates high-resolution multi-return range images that capture both LOS and NLOS reflections, and the second stage reconstructs the physical scene by mapping mirrored observations to their true locations using a physics-guided architecture that models ray interactions. We deploy HoloRadar on a mobile robot and evaluate it across diverse real-world environments. Our evaluation results demonstrate accurate and robust reconstruction in both LOS and NLOS regions. Code, dataset and demo videos are available on the project website.",
+    "keywords": [
+      "Radar",
+      "NLOS Imaging",
+      "NLOS Scene Reconstruction",
+      "RF Sensing",
+      "3D Reconstruction"
+    ],
+    "tldr": "We present a practical system that reconstructs both line-of-sight (LOS) and non-line-of-sight (NLOS) 3D scenes using a single mmWave radar.",
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ lai2025nonlineofsight, title={Non-Line-of-Sight 3D Reconstruction with Radar}, author={Haowen Lai and Zitong Lan and Mingmin Zhao}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=f4Wd385vHi} }",
+    "url": "https://openreview.net/forum?id=f4Wd385vHi",
+    "pdf_url": "https://openreview.net/pdf?id=f4Wd385vHi",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "UXTR6ZYV1x",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Neural Combinatorial Optimization for Time-Dependent Traveling Salesman Problem",
+    "authors": [
+      "Ruixiao Yang",
+      "Chuchu Fan"
+    ],
+    "author_ids": [
+      "~Ruixiao_Yang1",
+      "~Chuchu_Fan2"
+    ],
+    "abstract": "The Time-Dependent Traveling Salesman Problem (TDTSP) extends the classical TSP by allowing dynamic edge weights that vary with departure time, reflecting real-world scenarios such as transportation networks, where travel times fluctuate due to congestion patterns. TDTSP violates symmetry, triangle inequality, and cyclic invariance properties of classical TSP, creating unique computational challenges. In this paper, we propose a neural model that extends MatNet from static asymmetric TSP to time-dependent settings by using an adjacency tensor to capture temporal variations, followed by a time-aware decoder. Our architecture addresses the unique challenge of asymmetry and triangle inequality violations that change dynamically over time. Beyond architectural innovations, our research reveals a critical evaluation insight: many practical TDTSP instances maintain the same optimal solution regardless of time-dependent edge weights. This exposes a fundamental limitation in current evaluation practices for TDTSP that rely solely on average travel time metrics across all instances. Such metrics fail to effectively distinguish between methods that genuinely capture temporal dynamics and those that merely perform well on static routing problems. Instead, we present extensive experiments on real-world datasets, evaluating our approach on both entire datasets and specifically filtered instances where temporal dependencies alter the optimal solution. Results show that our method achieves state-of-the-art average optimality gap on full instances and significant travel-time reduction on instances where time-aware routing saves time. These results demonstrate state-of-the-art ability to identify and exploit temporal dependencies, setting new standards for evaluating time-dependent routing problems.",
+    "keywords": [
+      "Time-Dependent Routing",
+      "Neural Combinatorial Optimization",
+      "Traveling Salesman Problem",
+      "Deep Reinforcement Learning"
+    ],
+    "tldr": "We propose a state-of-the-art neural-based method for solving Time-Dependent Traveling Salesman Problem and identify the limitation of existing evaluation method..",
+    "primary_area": "optimization",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ yang2025neural, title={Neural Combinatorial Optimization for Time-Dependent Traveling Salesman Problem}, author={Ruixiao Yang and Chuchu Fan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=UXTR6ZYV1x} }",
+    "url": "https://openreview.net/forum?id=UXTR6ZYV1x",
+    "pdf_url": "https://openreview.net/pdf?id=UXTR6ZYV1x",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "3qeTs05bRL",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Bayesian Ego-graph Inference for Networked Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Wei Duan",
+      "Jie Lu",
+      "Junyu Xuan"
+    ],
+    "author_ids": [
+      "~Wei_Duan2",
+      "~Jie_Lu4",
+      "~Junyu_Xuan1"
+    ],
+    "abstract": "In networked multi-agent reinforcement learning (Networked-MARL), decentralized agents must act autonomously under local observability and constrained communication over fixed physical graphs. Existing methods often assume static neighborhoods, limiting adaptability to dynamic or heterogeneous environments. While centralized frameworks can learn dynamic graphs, their reliance on global state access and centralized infrastructure is impractical in real-world decentralized systems. We propose a stochastic graph-based policy for Networked-MARL, where each agent conditions its decision on a sampled subgraph over its local physical neighborhood. Building on this formulation, we introduce \\textbf{BayesG}, a decentralized actor–critic framework that learns sparse, context-aware interaction structures via Bayesian variational inference. Each agent operates over an ego-graph and samples a latent communication mask to guide message passing and policy computation. The variational distribution is trained end-to-end alongside the policy using an evidence lower bound (ELBO) objective, enabling agents to jointly learn both interaction topology and decision-making strategies. BayesG outperforms strong MARL baselines on large-scale traffic control tasks with up to 167 agents, demonstrating superior scalability, efficiency, and performance.",
+    "keywords": [
+      "networked multi-agent reinforcement learning",
+      "Multi-Agent Reinforcement Learning",
+      "Decentralized Reinforcement Learning",
+      "Actor–Critic Methods"
+    ],
+    "tldr": "We propose BayesG, a decentralized actor–critic framework that jointly learns context-aware interaction graphs and policies via variational Bayesian inference over ego-graphs in large-scale networked MARL.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ duan2025bayesian, title={Bayesian Ego-graph Inference for Networked Multi-Agent Reinforcement Learning}, author={Wei Duan and Jie Lu and Junyu Xuan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=3qeTs05bRL} }",
+    "url": "https://openreview.net/forum?id=3qeTs05bRL",
+    "pdf_url": "https://openreview.net/pdf?id=3qeTs05bRL",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "7WPi6VbtH0",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "GeoDynamics: A Geometric State‑Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds",
+    "authors": [
+      "Tingting Dan",
+      "Jiaqi Ding",
+      "Guorong Wu"
+    ],
+    "author_ids": [
+      "~Tingting_Dan1",
+      "~Jiaqi_Ding1",
+      "~Guorong_Wu1"
+    ],
+    "abstract": "State‑space models (SSMs) have become a cornerstone for unraveling brain dynamics, capturing how latent neural states evolve over time and give rise to observed signals. By combining deep learning’s flexibility with SSMs’ principled dynamical structure, recent studies have achieved powerful fits to functional neuroimaging data. However, most approaches still view the brain as a set of loosely connected regions or impose oversimplified network priors, falling short of a truly holistic, self‐organized dynamical system perspective. Brain functional connectivity (FC) at each time point naturally forms a symmetric positive definite (SPD) matrix, which lives on a curved Riemannian manifold rather than in Euclidean space. Capturing the trajectories of these SPD matrices is key to understanding how coordinated networks support cognition and behavior. To this end, we introduce *GeoDynamics*, a geometric state space neural network that tracks latent brain state trajectories directly on the high‑dimensional SPD manifold. *GeoDynamics* embeds each connectivity matrix into a manifold‑aware recurrent framework, learning smooth, geometry‑respecting transitions that reveal task‐driven state changes and early markers of Alzheimer’s, Parkinson’s, and autism. Beyond neuroscience, we validate *GeoDynamics* on human action recognition benchmarks (UTKinect, Florence, HDM05), demonstrating its scalability and robustness in modeling complex spatiotemporal dynamics across diverse domains.",
+    "keywords": [
+      "Geometric Neural Network",
+      "State Space Model",
+      "Brain Dynamics Analysis",
+      "Riemannian Manifold"
+    ],
+    "tldr": null,
+    "primary_area": "neuroscience_and_cognitive_science",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ dan2025geodynamics, title={GeoDynamics: A Geometric State\\nobreakdash-Space Neural Network for Understanding Brain Dynamics on Riemannian Manifolds}, author={Tingting Dan and Jiaqi Ding and Guorong Wu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7WPi6VbtH0} }",
+    "url": "https://openreview.net/forum?id=7WPi6VbtH0",
+    "pdf_url": "https://openreview.net/pdf?id=7WPi6VbtH0",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "NatwrOmOvM",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Embodied Crowd Counting",
+    "authors": [
+      "Runling Long",
+      "Yunlong Wang",
+      "Jia Wan",
+      "Xiang Deng",
+      "Xinting Zhu",
+      "Weili Guan",
+      "Antoni B. Chan",
+      "Liqiang Nie"
+    ],
+    "author_ids": [
+      "~Runling_Long1",
+      "~Yunlong_Wang7",
+      "~Jia_Wan2",
+      "~Xiang_Deng1",
+      "~Xinting_Zhu1",
+      "~Weili_Guan4",
+      "~Antoni_B._Chan1",
+      "~Liqiang_Nie2"
+    ],
+    "abstract": "Occlusion is one of the fundamental challenges in crowd counting. In the community, various data-driven approaches have been developed to address this issue, yet their effectiveness is limited. This is mainly because most existing crowd counting datasets on which the methods are trained are based on passive cameras, restricting their ability to fully sense the environment. Recently, embodied navigation methods have shown significant potential in precise object detection in interactive scenes. These methods incorporate active camera settings, holding promise in addressing the fundamental issues in crowd counting. However, most existing methods are designed for indoor navigation, showing unknown performance in analyzing complex object distribution in large-scale scenes, such as crowds. Besides, most existing embodied navigation datasets are indoor scenes with limited scale and object quantity, preventing them from being introduced into dense crowd analysis. Based on this, a novel task, Embodied Crowd Counting (ECC), is proposed to count the number of persons in a large-scale scene actively. We then build up an interactive simulator, the Embodied Crowd Counting Dataset (ECCD), which enables large-scale scenes and large object quantities. A prior probability distribution approximating a realistic crowd distribution is introduced to generate crowds. Then, a zero-shot navigation method (ZECC) is proposed as a baseline. This method contains an MLLM-driven coarse-to-fine navigation mechanism, enabling active Z-axis exploration, and a normal-line-based crowd distribution analysis method for fine counting. Experimental results show that the proposed method achieves the best trade-off between counting accuracy and navigation cost. Code can be found at https://github.com/longrunling/ECC?.",
+    "keywords": [
+      "crowd counting",
+      "embodied AI"
+    ],
+    "tldr": null,
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ long2025embodied, title={Embodied Crowd Counting}, author={Runling Long and Yunlong Wang and Jia Wan and Xiang Deng and Xinting Zhu and Weili Guan and Antoni B. Chan and Liqiang Nie}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NatwrOmOvM} }",
+    "url": "https://openreview.net/forum?id=NatwrOmOvM",
+    "pdf_url": "https://openreview.net/pdf?id=NatwrOmOvM",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "hVoIz6xD9Q",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning",
+    "authors": [
+      "Jiyuan Shi",
+      "Xinzhe Liu",
+      "dewei wang",
+      "ouyang lu",
+      "Sören Schwertfeger",
+      "Chi Zhang",
+      "Fuchun Sun",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "author_ids": [
+      "~Jiyuan_Shi1",
+      "~Xinzhe_Liu1",
+      "~dewei_wang2",
+      "~ouyang_lu2",
+      "~Sören_Schwertfeger1",
+      "~Chi_Zhang14",
+      "~Fuchun_Sun1",
+      "~Chenjia_Bai2",
+      "~Xuelong_Li2"
+    ],
+    "abstract": "Humans exhibit diverse and expressive whole-body movements. However, attaining human-like whole-body coordination in humanoid robots remains challenging, as conventional approaches that mimic whole-body motions often neglect the distinct roles of upper and lower body. This oversight leads to computationally intensive policy learning and frequently causes robot instability and falls during real-world execution. To address these issues, we propose Adversarial Locomotion and Motion Imitation (ALMI), a novel framework that enables adversarial policy learning between upper and lower body. Specifically, the lower body aims to provide robust locomotion capabilities to follow velocity commands while the upper body tracks various motions. Conversely, the upper-body policy ensures effective motion tracking when the robot executes velocity-based movements. Through iterative updates, these policies achieve coordinated whole-body control, which can be extended to loco-manipulation tasks with teleoperation systems. Extensive experiments demonstrate that our method achieves robust locomotion and precise motion tracking in both simulation and on the full-size Unitree H1-2 robot. Additionally, we release a large-scale whole-body motion control dataset featuring high-quality episodic trajectories from MuJoCo simulations. The project page is https://almi-humanoid.github.io.",
+    "keywords": [
+      "Humanoid Robots",
+      "Locomotion",
+      "Loco-Manipulation",
+      "Reinforcement Learning"
+    ],
+    "tldr": "We propose an adversarial policy learning framework for humanoid robots, aiming for precise motion tracking of the upper body and robust locomotion of the lower body.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ shi2025adversarial, title={Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning}, author={Jiyuan Shi and Xinzhe Liu and dewei wang and ouyang lu and S{\\\"o}ren Schwertfeger and Chi Zhang and Fuchun Sun and Chenjia Bai and Xuelong Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=hVoIz6xD9Q} }",
+    "url": "https://openreview.net/forum?id=hVoIz6xD9Q",
+    "pdf_url": "https://openreview.net/pdf?id=hVoIz6xD9Q",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "HOa6LTIjyn",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Prediction-Powered Causal Inferences",
+    "authors": [
+      "Riccardo Cadei",
+      "Ilker Demirel",
+      "Piersilvio De Bartolomeis",
+      "Lukas Lindorfer",
+      "Sylvia Cremer",
+      "Cordelia Schmid",
+      "Francesco Locatello"
+    ],
+    "author_ids": [
+      "~Riccardo_Cadei1",
+      "~Ilker_Demirel1",
+      "~Piersilvio_De_Bartolomeis1",
+      "~Lukas_Lindorfer1",
+      "~Sylvia_Cremer1",
+      "~Cordelia_Schmid1",
+      "~Francesco_Locatello1"
+    ],
+    "abstract": "In many scientific experiments, the data annotating cost constraints the pace for testing novel hypotheses. Yet, modern machine learning pipelines offer a promising solution—provided their predictions yield correct conclusions. We focus on Prediction-Powered Causal Inferences (PPCI), i.e., estimating the treatment effect in an unlabeled target experiment, relying on training data with the same outcome annotated but potentially different treatment or effect modifiers. We first show that conditional calibration guarantees valid PPCI at population level. Then, we introduce a sufficient representation constraint transferring validity across experiments, which we propose to enforce in practice in Deconfounded Empirical Risk Minimization, our new model-agnostic training objective. We validate our method on synthetic and real-world scientific data, solving impossible problem instances for Empirical Risk Minimization even with standard invariance constraints. In particular, for the first time, we achieve valid causal inference on a scientific experiment with complex recording and no human annotations, fine-tuning a foundational model on our similar annotated experiment.",
+    "keywords": [
+      "Causal Representation Learning",
+      "Causal Inference",
+      "Domain Generalization"
+    ],
+    "tldr": null,
+    "primary_area": "probabilistic_methods",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ cadei2025predictionpowered, title={Prediction-Powered Causal Inferences}, author={Riccardo Cadei and Ilker Demirel and Piersilvio De Bartolomeis and Lukas Lindorfer and Sylvia Cremer and Cordelia Schmid and Francesco Locatello}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=HOa6LTIjyn} }",
+    "url": "https://openreview.net/forum?id=HOa6LTIjyn",
+    "pdf_url": "https://openreview.net/pdf?id=HOa6LTIjyn",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "IT12Radlnq",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion",
+    "authors": [
+      "Haoyu Li",
+      "Xiangru Zhong",
+      "Bin Hu",
+      "Huan Zhang"
+    ],
+    "author_ids": [
+      "~Haoyu_Li4",
+      "~Xiangru_Zhong1",
+      "~Bin_Hu2",
+      "~Huan_Zhang1"
+    ],
+    "abstract": "Learning-based neural network (NN) control policies have shown impressive empirical performance. However, obtaining stability guarantees and estimates of the region of attraction of these learned neural controllers is challenging due to the lack of stable and scalable training and verification algorithms. Although previous works in this area have achieved great success, much conservatism remains in their frameworks. In this work, we propose a novel two-stage training framework to jointly synthesize a controller and a Lyapunov function for continuous-time systems. By leveraging a Zubov‑inspired region of attraction characterization to directly estimate stability boundaries, we propose a novel training-data sampling strategy and a domain-updating mechanism that significantly reduces the conservatism in training. Moreover, unlike existing works on continuous-time systems that rely on an SMT solver to formally verify the Lyapunov condition, we extend state-of-the-art neural network verifier $\\alpha,\\beta$-CROWN with the capability of performing automatic bound propagation through the Jacobian of dynamical systems and a novel verification scheme that avoids expensive bisection. To demonstrate the effectiveness of our approach, we conduct numerical experiments by synthesizing and verifying controllers on several challenging nonlinear systems across multiple dimensions. We show that our training can yield region of attractions with volume $5 - 1.5\\cdot 10^{5}$ times larger compared to the baselines, and our verification on continuous systems can be up to $40-10{,}000$ times faster compared to the traditional SMT solver dReal. Our code is available at https://github.com/Verified-Intelligence/Two-Stage_Neural_Controller_Training.",
+    "keywords": [
+      "Learning based Control",
+      "Formal Verification",
+      "Stability Analysis"
+    ],
+    "tldr": null,
+    "primary_area": "general_machine_learning",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ li2025twostage, title={Two\\nobreakdash-Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion}, author={Haoyu Li and Xiangru Zhong and Bin Hu and Huan Zhang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=IT12Radlnq} }",
+    "url": "https://openreview.net/forum?id=IT12Radlnq",
+    "pdf_url": "https://openreview.net/pdf?id=IT12Radlnq",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "3XuUnUEI7e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Diversifying Parallel Ergodic Search: A Signature Kernel Evolution Strategy",
+    "authors": [
+      "Sreevardhan Sirigiri",
+      "Christian Hughes",
+      "Ian Abraham",
+      "Fabio Ramos"
+    ],
+    "author_ids": [
+      "~Sreevardhan_Sirigiri1",
+      "~Christian_Hughes1",
+      "~Ian_Abraham1",
+      "~Fabio_Ramos1"
+    ],
+    "abstract": "Effective robotic exploration in continuous domains requires planning trajectories that maximize coverage over a predefined region. A recent development, Stein Variational Ergodic Search (SVES), proposed parallel ergodic exploration (a key approach within the field of robotic exploration), via Stein variational inference that computes a set of candidate trajectories approximating the posterior distribution over the solution space trajectories. While this approach leverages GPU parallelism well, the trajectories in the set might not be distinct enough, leading to a suboptimal set. In this paper, we propose two key methods to diversify the solution set of this approach. First, we leverage the signature kernel within the SVES framework, introducing a pathwise, sequence-sensitive interaction that preserves the Markovian structure of the trajectories and naturally spreads paths across distinct regions of the search space. Second, we propose a derivative-free evolution-strategy interpretation of SVES that exploits batched, GPU-friendly fitness evaluations and can be paired with approximate gradients whenever analytic gradients of the kernel are unavailable or computationally intractable. The resulting method both retains SVES’s advantages while diversifying the solution set and extending its reach to black-box objectives. Across planar forest search, 3D quadrotor coverage, and model-predictive control benchmarks, our approach consistently reduces ergodic cost and produces markedly richer trajectory sets than SVES without significant extra tuning effort.",
+    "keywords": [
+      "robotics exploration",
+      "trajectory optimization",
+      "ergodic search",
+      "signature transform"
+    ],
+    "tldr": "We introduce two complementary enhancements to Stein Variational Ergodic Search, yielding richer, more efficient exploration trajectories across diverse robotic benchmarks.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ sirigiri2025diversifying, title={Diversifying Parallel Ergodic Search: A Signature Kernel Evolution Strategy}, author={Sreevardhan Sirigiri and Christian Hughes and Ian Abraham and Fabio Ramos}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=3XuUnUEI7e} }",
+    "url": "https://openreview.net/forum?id=3XuUnUEI7e",
+    "pdf_url": "https://openreview.net/pdf?id=3XuUnUEI7e",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "yTFJmGFsEy",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models",
+    "authors": [
+      "Chenrui Cao",
+      "Liangcheng Song",
+      "Zenan Li",
+      "Xinyi Le",
+      "Xian Zhang",
+      "HUI XUE",
+      "Fan Yang"
+    ],
+    "author_ids": [
+      "~Chenrui_Cao1",
+      "~Liangcheng_Song1",
+      "~Zenan_Li3",
+      "~Xinyi_Le2",
+      "~Xian_Zhang4",
+      "~HUI_XUE4",
+      "~Fan_Yang28"
+    ],
+    "abstract": "Recent advancements, such as DeepSeek-Prover-V2-671B and Kimina-Prover-Preview-72B, demonstrate a prevailing trend in leveraging reinforcement learning (RL)-based large-scale training for automated theorem proving. Surprisingly, we discover that even without any training, careful neuro-symbolic coordination of existing off-the-shelf reasoning models and tactic step provers can achieve comparable performance. This paper introduces DSP+, an improved version of the Draft, Sketch, and Prove framework, featuring a fine-grained and integrated neuro-symbolic enhancement for each phase: (1) In the draft phase, we prompt reasoning models to generate concise natural-language subgoals to benefit the sketch phase, removing thinking tokens and references to human-written proofs; (2) In the sketch phase, subgoals are autoformalized with hypotheses to benefit the proving phase, and sketch lines containing syntactic errors are masked according to predefined rules; (3) In the proving phase, we tightly integrate symbolic search methods like Aesop with step provers to establish proofs for the sketch subgoals. Experimental results show that, without any additional model training or fine-tuning, DSP+ solves 80.7%, 32.8%, and 24 out of 644 problems from miniF2F, ProofNet, and PutnamBench, respectively, while requiring fewer budgets compared to state-of-the-arts. DSP+ proves imo_2019_p1, an IMO problem in miniF2F that is not solved by any prior work. Additionally, DSP+ generates proof patterns comprehensible by human experts, facilitating the identification of formalization errors; For example, eight wrongly formalized statements in miniF2F are discovered. Our results highlight the potential of classical reasoning patterns besides the RL-based training. All components will be open-sourced.",
+    "keywords": [
+      "Theorem proving",
+      "Large Reasoning Models",
+      "Neuro-symbolic",
+      "Lean"
+    ],
+    "tldr": "By carefully coordinating off-the-shelf models with inference only, we show the DSP framework can achieve surprisingly good results in theorem proving, comparable to the frontier models with RL-based large-scale training.",
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ cao2025reviving, title={Reviving {DSP} for Advanced Theorem Proving in the Era of Reasoning Models}, author={Chenrui Cao and Liangcheng Song and Zenan Li and Xinyi Le and Xian Zhang and HUI XUE and Fan Yang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=yTFJmGFsEy} }",
+    "url": "https://openreview.net/forum?id=yTFJmGFsEy",
+    "pdf_url": "https://openreview.net/pdf?id=yTFJmGFsEy",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "QQqDBRRslp",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Toward a Unified Geometry Understanding : Riemannian Diffusion Framework for Graph Generation and Prediction",
+    "authors": [
+      "Yisen Gao",
+      "Xingcheng Fu",
+      "Qingyun Sun",
+      "Jianxin Li",
+      "Xianxian LI"
+    ],
+    "author_ids": [
+      "~Yisen_Gao1",
+      "~Xingcheng_Fu1",
+      "~Qingyun_Sun2",
+      "~Jianxin_Li3",
+      "~Xianxian_LI2"
+    ],
+    "abstract": "Graph diffusion models have made significant progress in learning structured graph data and have demonstrated strong potential for predictive tasks. Existing approaches typically embed node, edge, and graph-level features into a unified latent space, modeling prediction tasks including classification and regression as a form of conditional generation. However, due to the non-Euclidean nature of graph data, features of different curvatures are entangled in the same latent space without releasing their geometric potential. To address this issue, we aim to construt an ideal Riemannian diffusion model to capture distinct manifold signatures of complex graph data and learn their distribution. This goal faces two challenges: numerical instability caused by exponential mapping during the encoding proces and manifold deviation during diffusion generation. To address these challenges, we propose **GeoMancer**: a novel Riemannian graph diffusion framework for both generation and prediction tasks. To mitigate numerical instability, we replace exponential mapping with an isometric-invariant Riemannian gyrokernel approach and decouple multi-level features onto their respective task-specific manifolds to learn optimal representations. To address manifold deviation, we introduce a manifold-constrained diffusion method and a self-guided strategy for unconditional generation, ensuring that the generated data remains aligned with the manifold signature. Extensive experiments validate the effectiveness of our approach, demonstrating superior performance across a variety of tasks.",
+    "keywords": [
+      "Graph Generation",
+      "Hyperbolic Graph Learning",
+      "Riemannian Manifold",
+      "Graph Learning"
+    ],
+    "tldr": null,
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ gao2025toward, title={Toward a Unified Geometry Understanding : Riemannian Diffusion Framework for Graph Generation and Prediction}, author={Yisen Gao and Xingcheng Fu and Qingyun Sun and Jianxin Li and Xianxian LI}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=QQqDBRRslp} }",
+    "url": "https://openreview.net/forum?id=QQqDBRRslp",
+    "pdf_url": "https://openreview.net/pdf?id=QQqDBRRslp",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "pc6M9h3T9m",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Beyond Verifiable Rewards: Scaling Reinforcement Learning in Language Models to Unverifiable Data",
+    "authors": [
+      "Yunhao Tang",
+      "Sid Wang",
+      "Lovish Madaan",
+      "Remi Munos"
+    ],
+    "author_ids": [
+      "~Yunhao_Tang1",
+      "~Sid_Wang1",
+      "~Lovish_Madaan1",
+      "~Remi_Munos1"
+    ],
+    "abstract": "We propose to scale RL to unverifiable data with a novel algorithm JEPO (Jensen's Evidence lower bound for Policy Optimization). While most prior effort on scaling RL for LLMs focuses on verifiable data where ground truth answers are typically short-form and can be matched easily, we investigate the case where such assumptions are less valid (e.g., when answers are long-form such as mathematical proofs). To scale RL training to unverifiable data with contemporary training constraints, we propose JEPO. JEPO applies Jensen's evidence lower bound, a pragmatic simplification of the evidence lower bound which views chain-of-thought as a latent variable in the generative process. We show that on verifiable datasets (math), JEPO is as effective as RL with verifiable reward; on semi-verifiable and unverifiable datasets (numina and numina-proof), JEPO improves on soft-match based evaluations compared to RL with verifiable reward which can only leverage a subset of the data source as well as test set likelihood evaluations.",
+    "keywords": [
+      "Reinforcement Learning",
+      "LLMs",
+      "Reasoning",
+      "Unverifiable",
+      "Verifiable"
+    ],
+    "tldr": "Scaling RL-based reasoning to unverifiable data",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ tang2025beyond, title={Beyond Verifiable Rewards: Scaling Reinforcement Learning in Language Models to Unverifiable Data}, author={Yunhao Tang and Sid Wang and Lovish Madaan and Remi Munos}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=pc6M9h3T9m} }",
+    "url": "https://openreview.net/forum?id=pc6M9h3T9m",
+    "pdf_url": "https://openreview.net/pdf?id=pc6M9h3T9m",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "PWRORdXJN1",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies",
+    "authors": [
+      "Jing Wang",
+      "Weiting Peng",
+      "Jing Tang",
+      "Zeyu Gong",
+      "Xihua Wang",
+      "Bo Tao",
+      "Li cheng"
+    ],
+    "author_ids": [
+      "~Jing_Wang17",
+      "~Weiting_Peng1",
+      "~Jing_Tang6",
+      "~Zeyu_Gong1",
+      "~Xihua_Wang3",
+      "~Bo_Tao3",
+      "~Li_Cheng1"
+    ],
+    "abstract": "Existing imitation learning methods decouple perception and action, which overlooks the causal reciprocity between sensory representations and action execution that humans naturally leverage for adaptive behaviors. To bridge this gap, we introduce Action-Guided Diffusion Policy (DP-AG), a unified representation learning that explicitly models a dynamic interplay between perception and action through probabilistic latent dynamics. DP-AG encodes latent observations into a Gaussian posterior via variational inference and evolves them using an action-guided SDE, where the Vector–Jacobian Product (VJP) of the diffusion policy's noise predictions serves as a structured stochastic force driving latent updates. To promote bidirectional learning between perception and action, we introduce a cycle-consistent contrastive loss that organizes the gradient flow of the noise predictor into a coherent perception–action loop, enforcing mutually consistent transitions in both latent updates and action refinements. Theoretically, we derive a variational lower bound for the action-guided SDE, and prove that the contrastive objective enhances continuity in both latent and action trajectories. Empirically, DP-AG significantly outperforms state-of-the-art methods across simulation benchmarks and real-world UR5 manipulation tasks. As a result, our DP-AG offers a promising step toward bridging biological adaptability and artificial policy learning. Code is available on our project website: https://jingwang18.github.io/dp-ag.github.io/.",
+    "keywords": [
+      "Imitation Learning; Diffusion Policy; Vector–Jacobian Product; Variational Inference; Latent Stochastic Differential Equation; Contrastive Learning"
+    ],
+    "tldr": "We propose an action-guided diffusion policy that leverages a variational latent SDE and Vector-Jacobian Product-based update to model the dynamic interplay between perception and action for real-time robot manipulation.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wang2025act, title={Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies}, author={Jing Wang and Weiting Peng and Jing Tang and Zeyu Gong and Xihua Wang and Bo Tao and Li cheng}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PWRORdXJN1} }",
+    "url": "https://openreview.net/forum?id=PWRORdXJN1",
+    "pdf_url": "https://openreview.net/pdf?id=PWRORdXJN1",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "qBPb7g1SEa",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Let a Neural Network be Your Invariant",
+    "authors": [
+      "Mirco Giacobbe",
+      "Daniel Kroening",
+      "Abhinandan Pal",
+      "Michael Tautschnig"
+    ],
+    "author_ids": [
+      "~Mirco_Giacobbe1",
+      "~Daniel_Kroening1",
+      "~Abhinandan_Pal1",
+      "~Michael_Tautschnig1"
+    ],
+    "abstract": "Safety verification ensures that a system avoids undesired behaviour. Liveness complements safety, ensuring that the system also achieves its desired objectives. A complete specification of functional correctness must combine both safety and liveness. Proving with mathematical certainty that a system satisfies a safety property demands presenting an appropriate inductive invariant of the system, whereas proving liveness requires showing a measure of progress witnessed by a ranking function. Neural model checking has recently introduced a data-driven approach to the formal verification of reactive systems, albeit focusing on ranking functions and thus addressing liveness properties only. In this paper, we extend and generalise neural model checking to additionally encompass inductive invariants and thus safety properties as well. Given a system and a linear temporal logic specification of safety and liveness, our approach alternates a learning and a checking component towards the construction of a provably sound neural certificate. Our new method introduces a neural certificate architecture that jointly represents inductive invariants as proofs of safety, and ranking functions as proofs of liveness. Moreover, our new architecture is amenable to training using constraint solvers, accelerating prior neural model checking work otherwise based on gradient descent. We experimentally demonstrate that our method is orders of magnitude faster than the state-of-the-art model checkers on pure liveness and combined safety and liveness verification tasks written in SystemVerilog, while enabling the verification of richer properties than was previously possible for neural model checking.",
+    "keywords": [
+      "Neural Model Checking",
+      "Inductive Invariants",
+      "Safety Verification"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ giacobbe2025let, title={Let a Neural Network be Your Invariant}, author={Mirco Giacobbe and Daniel Kroening and Abhinandan Pal and Michael Tautschnig}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=qBPb7g1SEa} }",
+    "url": "https://openreview.net/forum?id=qBPb7g1SEa",
+    "pdf_url": "https://openreview.net/pdf?id=qBPb7g1SEa",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "ft971e7HH5",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "IneqSearch: Hybrid Reasoning for Olympiad Inequality Proofs",
+    "authors": [
+      "Zhaoqun Li",
+      "Beishui Liao",
+      "Qiwei Ye"
+    ],
+    "author_ids": [
+      "~Zhaoqun_Li3",
+      "~Beishui_Liao1",
+      "~Qiwei_Ye1"
+    ],
+    "abstract": "Mathematicians have long employed decomposition techniques to prove inequalities, yet automating this process remains a significant challenge in computational mathematics. We introduce IneqSearch, a hybrid reasoning system that integrates symbolic computation with large language models (LLMs) to address this challenge. IneqSearch reformulates inequality proving as a structured search problem: identifying appropriate combinations of theorems that decompose expressions into non-negative components. The system combines a symbolic solver for deductive reasoning with an LLM-based agent for constructive proof exploration, effectively implementing methodologies observed in formal mathematical practice. A key contribution of IneqSearch is its iterative learning mechanism that systematically incorporates newly proven results into its theorem database, enabling knowledge acquisition during practice that enhances its capabilities without requiring human intervention. In empirical evaluation on 437 Olympiad-level inequalities, IneqSearch successfully proves 342 problems, significantly outperforming existing methods and demonstrating the effectiveness of integrating symbolic and neural approaches for mathematical reasoning.",
+    "keywords": [
+      "Olympiad Inequality Proving",
+      "Neuro-Symbolic Method"
+    ],
+    "tldr": null,
+    "primary_area": "other",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ li2025ineqsearch, title={IneqSearch: Hybrid Reasoning for Olympiad Inequality Proofs}, author={Zhaoqun Li and Beishui Liao and Qiwei Ye}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ft971e7HH5} }",
+    "url": "https://openreview.net/forum?id=ft971e7HH5",
+    "pdf_url": "https://openreview.net/pdf?id=ft971e7HH5",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "5iAtDpkSZQ",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Smart Surrogate Losses for Contextual Stochastic Linear Optimization with Robust Constraints",
+    "authors": [
+      "Hyungki Im",
+      "Wyame Benslimane",
+      "Paul Grigas"
+    ],
+    "author_ids": [
+      "~Hyungki_Im1",
+      "~Wyame_Benslimane1",
+      "~Paul_Grigas1"
+    ],
+    "abstract": "We study an extension of contextual stochastic linear optimization (CSLO) that, in contrast to most of the existing literature, involves inequality constraints that depend on uncertain parameters predicted by a machine learning model. To handle the constraint uncertainty, we use contextual uncertainty sets constructed via methods like conformal prediction. Given a contextual uncertainty set method, we introduce the \"Smart Predict-then-Optimize with Robust Constraints\" (SPO-RC) loss, a feasibility-sensitive adaptation of the SPO loss that measures decision error of predicted objective parameters. We also introduce a convex surrogate, SPO-RC+, and prove Fisher consistency with SPO-RC. To enhance performance, we train on truncated datasets where true constraint parameters lie within the uncertainty sets, and we correct the induced sample selection bias using importance reweighting techniques. Through experiments on fractional knapsack and alloy production problem instances, we demonstrate that SPO-RC+ effectively handles uncertainty in constraints and that combining truncation with importance reweighting can further improve performance.",
+    "keywords": [
+      "decision-focused learning",
+      "contextual stochastic optimization",
+      "robust optimization"
+    ],
+    "tldr": "We study an extension of contextual stochastic linear optimization (CSLO) that involves uncertain constraints and propose a \"Smart predict-then-optimize with Robust Constraint (SPO-RC)\" loss function.",
+    "primary_area": "optimization",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ im2025smart, title={Smart Surrogate Losses for Contextual Stochastic Linear Optimization with Robust Constraints}, author={Hyungki Im and Wyame Benslimane and Paul Grigas}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=5iAtDpkSZQ} }",
+    "url": "https://openreview.net/forum?id=5iAtDpkSZQ",
+    "pdf_url": "https://openreview.net/pdf?id=5iAtDpkSZQ",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "VaC4sa96EI",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning",
+    "authors": [
+      "Sanghyun Ahn",
+      "Wonje Choi",
+      "Junyong Lee",
+      "Jinwoo Park",
+      "Honguk Woo"
+    ],
+    "author_ids": [
+      "~Sanghyun_Ahn1",
+      "~Wonje_Choi2",
+      "~Junyong_Lee4",
+      "~Jinwoo_Park4",
+      "~Honguk_Woo1"
+    ],
+    "abstract": "Recent advances in large language models (LLMs) have enabled the automatic generation of executable code for task planning and control in embodied agents such as robots, demonstrating the potential of LLM-based embodied intelligence. However, these LLM-based code-as-policies approaches often suffer from limited environmental grounding, particularly in dynamic or partially observable settings, leading to suboptimal task success rates due to incorrect or incomplete code generation. In this work, we propose a neuro-symbolic embodied task planning framework that incorporates explicit symbolic verification and interactive validation processes during code generation. In the validation phase, the framework generates exploratory code that actively interacts with the environment to acquire missing observations while preserving task-relevant states. This integrated process enhances the grounding of generated code, resulting in improved task reliability and success rates in complex environments. We evaluate our framework on RLBench and in real-world settings across dynamic, partially observable scenarios. Experimental results demonstrate that our framework improves task success rates by 46.2\\% over Code as Policies baselines and attains over 86.8\\% executability of task-relevant actions, thereby enhancing the reliability of task planning in dynamic environments.",
+    "keywords": [
+      "neuro-symbolic",
+      "embodied task planning",
+      "large language model"
+    ],
+    "tldr": "Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning",
+    "primary_area": "reinforcement_learning",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ahn2025towards, title={Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning}, author={Sanghyun Ahn and Wonje Choi and Junyong Lee and Jinwoo Park and Honguk Woo}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=VaC4sa96EI} }",
+    "url": "https://openreview.net/forum?id=VaC4sa96EI",
+    "pdf_url": "https://openreview.net/pdf?id=VaC4sa96EI",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "kmv7yg6QXv",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation",
+    "authors": [
+      "Zekun Qi",
+      "Wenyao Zhang",
+      "Yufei Ding",
+      "Runpei Dong",
+      "XinQiang Yu",
+      "Jingwen Li",
+      "Lingyun Xu",
+      "Baoyu Li",
+      "Xialin He",
+      "Guofan Fan",
+      "Jiazhao Zhang",
+      "Jiawei He",
+      "Jiayuan Gu",
+      "Xin Jin",
+      "Kaisheng Ma",
+      "Zhizheng Zhang",
+      "He Wang",
+      "Li Yi"
+    ],
+    "author_ids": [
+      "~Zekun_Qi2",
+      "~Wenyao_Zhang1",
+      "~Yufei_Ding4",
+      "~Runpei_Dong1",
+      "~XinQiang_Yu1",
+      "~Jingwen_Li3",
+      "~Lingyun_Xu1",
+      "~Baoyu_Li1",
+      "~Xialin_He1",
+      "~Guofan_Fan1",
+      "~Jiazhao_Zhang2",
+      "~Jiawei_He2",
+      "~Jiayuan_Gu1",
+      "~Xin_Jin8",
+      "~Kaisheng_Ma1",
+      "~Zhizheng_Zhang1",
+      "~He_Wang5",
+      "~Li_Yi2"
+    ],
+    "abstract": "While spatial reasoning has made progress in object localization relationships, it often overlooks object orientation—a key factor in 6-DoF fine-grained manipulation. Traditional pose representations rely on pre-defined frames or templates, limiting generalization and semantic grounding. In this paper, we introduce the concept of semantic orientation, which defines object orientations using natural language in a reference-frame-free manner (e.g., the ''plug-in'' direction of a USB or the ''handle'' direction of a cup). To support this, we construct OrienText300K, a large-scale dataset of 3D objects annotated with semantic orientations, and develop PointSO, a general model for zero-shot semantic orientation prediction. By integrating semantic orientation into VLM agents, our SoFar framework enables 6-DoF spatial reasoning and generates robotic actions. Extensive experiments demonstrated the effectiveness and generalization of our SoFar, e.g., zero-shot 48.7\\% successful rate on Open6DOR and zero-shot 74.9\\% successful rate on SIMPLER-Env.",
+    "keywords": [
+      "Spatial Reasoning; Object Orientation; Robotic Manipulation"
+    ],
+    "tldr": "We introduce the concept of semantic orientation, representing the object orientation condition on open vocabulary language.",
+    "primary_area": "deep_learning",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ qi2025sofar, title={SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation}, author={Zekun Qi and Wenyao Zhang and Yufei Ding and Runpei Dong and XinQiang Yu and Jingwen Li and Lingyun Xu and Baoyu Li and Xialin He and Guofan Fan and Jiazhao Zhang and Jiawei He and Jiayuan Gu and Xin Jin and Kaisheng Ma and Zhizheng Zhang and He Wang and Li Yi}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=kmv7yg6QXv} }",
+    "url": "https://openreview.net/forum?id=kmv7yg6QXv",
+    "pdf_url": "https://openreview.net/pdf?id=kmv7yg6QXv",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "QPJjiNCRq1",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Improving Generalization of Neural Combinatorial Optimization for Vehicle Routing Problems via Test-Time Projection Learning",
+    "authors": [
+      "Yuanyao Chen",
+      "Rongsheng Chen",
+      "Fu Luo",
+      "Zhenkun Wang"
+    ],
+    "author_ids": [
+      "~Yuanyao_Chen1",
+      "~Rongsheng_Chen1",
+      "~Fu_Luo1",
+      "~Zhenkun_Wang1"
+    ],
+    "abstract": "Neural Combinatorial Optimization (NCO) has emerged as a promising learning-based paradigm for addressing Vehicle Routing Problems (VRPs) by minimizing the need for extensive manual engineering. While existing NCO methods, trained on small-scale instances (e.g., 100 nodes), have demonstrated considerable success on problems of similar scale, their performance significantly degrades when applied to large-scale scenarios. This degradation arises from the distributional shift between training and testing data, rendering policies learned on small instances ineffective for larger problems. To overcome this limitation, we introduce a novel learning framework driven by Large Language Models (LLMs). This framework learns a projection between the training and testing distributions, which is then deployed to enhance the scalability of the NCO model. Notably, unlike prevailing techniques that necessitate joint training with the neural network, our approach operates exclusively during the inference phase, obviating the need for model retraining. Extensive experiments demonstrate that our method enables a backbone model (trained on 100-node instances) to achieve superior performance on large-scale Traveling Salesman Problem (TSP) and Capacitated Vehicle Routing Problem (CVRP) of up to 100K nodes from diverse distributions. The source code can be found in https://github.com/CIAM-Group/TTPL.",
+    "keywords": [
+      "Neural Combinatorial Optimiztion",
+      "Large Language Model",
+      "Vehicle Routing Problem"
+    ],
+    "tldr": null,
+    "primary_area": "optimization",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ chen2025improving, title={Improving Generalization of Neural Combinatorial Optimization for Vehicle Routing Problems via Test-Time Projection Learning}, author={Yuanyao Chen and Rongsheng Chen and Fu Luo and Zhenkun Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=QPJjiNCRq1} }",
+    "url": "https://openreview.net/forum?id=QPJjiNCRq1",
+    "pdf_url": "https://openreview.net/pdf?id=QPJjiNCRq1",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "36TBVGwzAY",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "GRIP: A Graph-Based Reasoning Instruction Producer",
+    "authors": [
+      "Jiankang Wang",
+      "Jianjun Xu",
+      "Xiaorui Wang",
+      "Yuxin Wang",
+      "Mengting Xing",
+      "Shancheng Fang",
+      "Hongtao Xie"
+    ],
+    "author_ids": [
+      "~Jiankang_Wang3",
+      "~Jianjun_Xu1",
+      "~Xiaorui_Wang3",
+      "~Yuxin_Wang1",
+      "~Mengting_Xing1",
+      "~Shancheng_Fang1",
+      "~Hongtao_Xie2"
+    ],
+    "abstract": "Large-scale, high-quality data is essential for advancing the reasoning capabilities of large language models (LLMs). As publicly available Internet data becomes increasingly scarce, synthetic data has emerged as a crucial research direction. However, existing data synthesis methods often suffer from limited scalability, insufficient sample diversity, and a tendency to overfit to seed data, which constrains their practical utility. In this paper, we present \\textit{\\textbf{GRIP}}, a \\textbf{G}raph-based \\textbf{R}easoning \\textbf{I}nstruction \\textbf{P}roducer that efficiently synthesizes high-quality and diverse reasoning instructions. \\textit{GRIP} constructs a knowledge graph by extracting high-level concepts from seed data, and uniquely leverages both explicit and implicit relationships within the graph to drive large-scale and diverse instruction data synthesis, while employing open-source multi-model supervision to ensure data quality. We apply \\textit{GRIP} to the critical and challenging domain of mathematical reasoning. Starting from a seed set of 7.5K math reasoning samples, we construct \\textbf{GRIP-MATH}, a dataset containing 2.1 million synthesized question-answer pairs. Compared to similar synthetic data methods, \\textit{GRIP} achieves greater scalability and diversity while also significantly reducing costs. On mathematical reasoning benchmarks, models trained with GRIP-MATH demonstrate substantial improvements over their base models and significantly outperform previous data synthesis methods.",
+    "keywords": [
+      "Large Language Models",
+      "Reasoning",
+      "Data Synthesis"
+    ],
+    "tldr": null,
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wang2025grip, title={{GRIP}: A Graph-Based Reasoning Instruction Producer}, author={Jiankang Wang and Jianjun Xu and Xiaorui Wang and Yuxin Wang and Mengting Xing and Shancheng Fang and Hongtao Xie}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=36TBVGwzAY} }",
+    "url": "https://openreview.net/forum?id=36TBVGwzAY",
+    "pdf_url": "https://openreview.net/pdf?id=36TBVGwzAY",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "cldPfIoRiA",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "$\\text{G}^2\\text{M}$: A Generalized Gaussian Mirror Method to Boost Feature Selection Power",
+    "authors": [
+      "Hongyu Shen",
+      "Zhizhen Zhao"
+    ],
+    "author_ids": [
+      "~Hongyu_Shen1",
+      "~Zhizhen_Zhao2"
+    ],
+    "abstract": "Recent advances in false discovery rate (FDR)-controlled feature selection methods have improved reliability by effectively limiting false positives, making them well-suited for complex applications. A popular FDR-controlled framework called data splitting uses the \"mirror statistics\" to select features. However, we find that the unit variance assumption on mirror statistics could potentially limit the feature selection power. To address this, we generalize the mirror statistics in the Gaussian mirror framework and introduce a new approach called \"generalized Gaussian mirror\" ($\\text{G}^2\\text{M}$), which adaptively learns the variance and forms new test statistics. We demonstrate both theoretically and empirically that the proposed test statistics achieve higher power than those of Gaussian mirror and data splitting. Comparisons with other FDR-controlled frameworks on synthetic, semi-synthetic, and real datasets highlight the superior performance of the $\\text{G}^2\\text{M}$ method in achieving higher power while maintaining FDR control. These findings suggest the potential for the $\\text{G}^2\\text{M}$ method for practical applications in real-world problems. Code is available in https://github.com/skyve2012/G2M.",
+    "keywords": [
+      "Feature Selection",
+      "FDR Control",
+      "Hypothesis Testing; Gaussian Mirror; Boosting Power"
+    ],
+    "tldr": null,
+    "primary_area": "probabilistic_methods",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ shen2025textgtextm, title={\\${\\textbackslash}text\\{G\\}{\\textasciicircum}2{\\textbackslash}text\\{M\\}\\$: A Generalized Gaussian Mirror Method to Boost Feature Selection Power}, author={Hongyu Shen and Zhizhen Zhao}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=cldPfIoRiA} }",
+    "url": "https://openreview.net/forum?id=cldPfIoRiA",
+    "pdf_url": "https://openreview.net/pdf?id=cldPfIoRiA",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "rqXEiXZT6C",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "What do you know? Bayesian knowledge inference for navigating agents",
+    "authors": [
+      "Matthias Schultheis",
+      "Jana-Sophie Schönfeld",
+      "Constantin A. Rothkopf",
+      "Heinz Koeppl"
+    ],
+    "author_ids": [
+      "~Matthias_Schultheis1",
+      "~Jana-Sophie_Schönfeld1",
+      "~Constantin_A._Rothkopf1",
+      "~Heinz_Koeppl1"
+    ],
+    "abstract": "Human behavior is characterized by continuous learning to reduce uncertainties about the world in pursuit of goals. When trying to understand such behavior from observations, it is essential to account for this adaptive nature and reason about the uncertainties that may have led to seemingly suboptimal decisions. Nevertheless, most inverse approaches to sequential decision-making focus on inferring cost functions underlying stationary behavior or are limited to low-dimensional tasks. In this paper, we address this gap by considering the problem of inferring an agent's knowledge or awareness about the environment based on a given trajectory. We assume that the agent aims to reach a goal in an environment they only partially know, and integrates new information into their plan as they act. We propose a Bayesian approach to infer their latent knowledge state, leveraging an approximate navigation model that optimistically incorporates partial information while accounting for uncertainty. By combining sample-based Bayesian inference with dynamic graph algorithms, we achieve an efficient method for computing posterior beliefs about the agent's knowledge. Empirical validation using simulated behavioral data and human data from an online experiment demonstrates that our model effectively captures human navigation under uncertainty and reveals interpretable insights into their environmental knowledge.",
+    "keywords": [
+      "Bayesian reinforcement learning",
+      "computational cognitive science",
+      "human behavior",
+      "inverse reinforcement learning",
+      "theory of mind"
+    ],
+    "tldr": null,
+    "primary_area": "neuroscience_and_cognitive_science",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ schultheis2025what, title={What do you know? Bayesian knowledge inference for navigating agents}, author={Matthias Schultheis and Jana-Sophie Sch{\\\"o}nfeld and Constantin A. Rothkopf and Heinz Koeppl}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=rqXEiXZT6C} }",
+    "url": "https://openreview.net/forum?id=rqXEiXZT6C",
+    "pdf_url": "https://openreview.net/pdf?id=rqXEiXZT6C",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "r4dzaP61QH",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "DynaRend: Learning 3D Dynamics via Masked Future Rendering for Robotic Manipulation",
+    "authors": [
+      "Jingyi Tian",
+      "Le Wang",
+      "Sanping Zhou",
+      "Sen Wang",
+      "lijiayi",
+      "Gang Hua"
+    ],
+    "author_ids": [
+      "~Jingyi_Tian1",
+      "~Le_Wang8",
+      "~Sanping_Zhou1",
+      "~Sen_Wang19",
+      "~lijiayi1",
+      "~Gang_Hua3"
+    ],
+    "abstract": "Learning generalizable robotic manipulation policies remains a key challenge due to the scarcity of diverse real-world training data. While recent approaches have attempted to mitigate this through self-supervised representation learning, most either rely on 2D vision pretraining paradigms such as masked image modeling, which primarily focus on static semantics or scene geometry, or utilize large-scale video prediction models that emphasize 2D dynamics, thus failing to jointly learn the geometry, semantics, and dynamics required for effective manipulation. In this paper, we present DynaRend, a representation learning framework that learns 3D-aware and dynamics-informed triplane features via masked reconstruction and future prediction using differentiable volumetric rendering. By pretraining on multi-view RGB-D video data, DynaRend jointly captures spatial geometry, future dynamics, and task semantics in a unified triplane representation. The learned representations can be effectively transferred to downstream robotic manipulation tasks via action value map prediction. We evaluate DynaRend on two challenging benchmarks, RLBench and Colosseum, as well as in real-world robotic experiments, demonstrating substantial improvements in policy success rate, generalization to environmental perturbations, and real-world applicability across diverse manipulation tasks.",
+    "keywords": [
+      "embodied AI",
+      "robotic manipulation",
+      "representation learning"
+    ],
+    "tldr": null,
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ tian2025dynarend, title={DynaRend: Learning 3D Dynamics via Masked Future Rendering for Robotic Manipulation}, author={Jingyi Tian and Le Wang and Sanping Zhou and Sen Wang and lijiayi and Gang Hua}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=r4dzaP61QH} }",
+    "url": "https://openreview.net/forum?id=r4dzaP61QH",
+    "pdf_url": "https://openreview.net/pdf?id=r4dzaP61QH",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "3qDFW07Lw7",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "A Provable Approach for End-to-End Safe Reinforcement Learning",
+    "authors": [
+      "Akifumi Wachi",
+      "Kohei Miyaguchi",
+      "Takumi Tanabe",
+      "Rei Sato",
+      "Youhei Akimoto"
+    ],
+    "author_ids": [
+      "~Akifumi_Wachi2",
+      "~Kohei_Miyaguchi1",
+      "~Takumi_Tanabe1",
+      "~Rei_Sato1",
+      "~Youhei_Akimoto1"
+    ],
+    "abstract": "A longstanding goal in safe reinforcement learning (RL) is a method to ensure the safety of a policy throughout the entire process, from learning to operation. However, existing safe RL paradigms inherently struggle to achieve this objective. We propose a method, called Provably Lifetime Safe RL (PLS), that integrates offline safe RL with safe policy deployment to address this challenge. Our proposed method learns a policy offline using return-conditioned supervised learning and then deploys the resulting policy while cautiously optimizing a limited set of parameters, known as target returns, using Gaussian processes (GPs). Theoretically, we justify the use of GPs by analyzing the mathematical relationship between target and actual returns. We then prove that PLS finds near-optimal target returns while guaranteeing safety with high probability. Empirically, we demonstrate that PLS outperforms baselines both in safety and reward performance, thereby achieving the longstanding goal to obtain high rewards while ensuring the safety of a policy throughout the lifetime from learning to operation.",
+    "keywords": [
+      "safe reinforcement learning",
+      "gaussian process"
+    ],
+    "tldr": "We propose a provable safe RL approach with end-to-end safety guarantee.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wachi2025a, title={A Provable Approach for End-to-End Safe Reinforcement Learning}, author={Akifumi Wachi and Kohei Miyaguchi and Takumi Tanabe and Rei Sato and Youhei Akimoto}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=3qDFW07Lw7} }",
+    "url": "https://openreview.net/forum?id=3qDFW07Lw7",
+    "pdf_url": "https://openreview.net/pdf?id=3qDFW07Lw7",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "NGgLhJKttI",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "One Subgoal at a Time: Zero-Shot Generalization to Arbitrary Linear Temporal Logic Requirements in Multi-Task Reinforcement Learning",
+    "authors": [
+      "Zijian Guo",
+      "İlker Işık",
+      "H M Sabbir Ahmad",
+      "Wenchao Li"
+    ],
+    "author_ids": [
+      "~Zijian_Guo1",
+      "~İlker_Işık1",
+      "~H_M_Sabbir_Ahmad1",
+      "~Wenchao_Li1"
+    ],
+    "abstract": "Generalizing to complex and temporally extended task objectives and safety constraints remains a critical challenge in reinforcement learning (RL). Linear temporal logic (LTL) offers a unified formalism to specify such requirements, yet existing methods are limited in their abilities to handle nested long-horizon tasks and safety constraints, and cannot identify situations when a subgoal is not satisfiable and an alternative should be sought. In this paper, we introduce GenZ-LTL, a method that enables zero-shot generalization to arbitrary LTL specifications. GenZ-LTL leverages the structure of Büchi automata to decompose an LTL task specification into sequences of reach-avoid subgoals. Contrary to the current state-of-the-art method that conditions on subgoal sequences, we show that it is more effective to achieve zero-shot generalization by solving these reach-avoid problems $\\textit{one subgoal at a time}$ through proper safe RL formulations. In addition, we introduce a novel subgoal-induced observation reduction technique that can mitigate the exponential complexity of subgoal-state combinations under realistic assumptions. Empirical results show that GenZ-LTL substantially outperforms existing methods in zero-shot generalization to unseen LTL specifications.",
+    "keywords": [
+      "Linear Temporal Logic",
+      "Safe Reinforcement Learning",
+      "Zero-shot Generalization"
+    ],
+    "tldr": null,
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ guo2025one, title={One Subgoal at a Time: Zero-Shot Generalization to Arbitrary Linear Temporal Logic Requirements in Multi-Task Reinforcement Learning}, author={Zijian Guo and {\\.I}lker I{\\c{s}}{\\i}k and H M Sabbir Ahmad and Wenchao Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NGgLhJKttI} }",
+    "url": "https://openreview.net/forum?id=NGgLhJKttI",
+    "pdf_url": "https://openreview.net/pdf?id=NGgLhJKttI",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "68OW8tLSh2",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Towards Reliable LLM-based Robots Planning via Combined Uncertainty Estimation",
+    "authors": [
+      "Shiyuan Yin",
+      "Chenjia Bai",
+      "Zhang Zihao",
+      "Junwei Jin",
+      "Xinxin Zhang",
+      "Chi Zhang",
+      "Xuelong Li"
+    ],
+    "author_ids": [
+      "~Shiyuan_Yin1",
+      "~Chenjia_Bai2",
+      "~Zhang_Zihao1",
+      "~Junwei_Jin1",
+      "~Xinxin_Zhang4",
+      "~Chi_Zhang14",
+      "~Xuelong_Li2"
+    ],
+    "abstract": "Large language models (LLMs) demonstrate advanced reasoning abilities, enabling robots to understand natural language instructions and generate high-level plans with appropriate grounding. However, LLM hallucinations present a significant challenge, often leading to overconfident yet potentially misaligned or unsafe plans. While researchers have explored uncertainty estimation to improve the reliability of LLM-based planning, existing studies have not sufficiently differentiated between epistemic and intrinsic uncertainty, limiting the effectiveness of uncertainty estimation. In this paper, we present Combined Uncertainty estimation for Reliable Embodied planning (CURE), which decomposes the uncertainty into epistemic and intrinsic uncertainty, each estimated separately. Furthermore, epistemic uncertainty is subdivided into task clarity and task familiarity for more accurate evaluation. The overall uncertainty assessments are obtained using random network distillation and multi-layer perceptron regression heads driven by LLM features. We validated our approach in two distinct experimental settings: kitchen manipulation and tabletop rearrangement experiments. The results show that, compared to existing methods, our approach yields uncertainty estimates that are more closely aligned with the actual execution outcomes. The code is at https://github.com/Firesuiry/CURE.",
+    "keywords": [
+      "Language-based planning",
+      "Uncertainty Estimation",
+      "Uncertainty Quantification",
+      "Foundation Models for Decision Making"
+    ],
+    "tldr": "We propose ​​CURE​​, a method that splits LLM planning uncertainty into ​​epistemic​​ (semantic-ambiguity/task-familiarity) and ​​intrinsic​​ parts for more reliable robot decision-making.",
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ yin2025towards, title={Towards Reliable {LLM}-based Robots Planning via Combined Uncertainty Estimation}, author={Shiyuan Yin and Chenjia Bai and Zhang Zihao and Junwei Jin and Xinxin Zhang and Chi Zhang and Xuelong Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=68OW8tLSh2} }",
+    "url": "https://openreview.net/forum?id=68OW8tLSh2",
+    "pdf_url": "https://openreview.net/pdf?id=68OW8tLSh2",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "oG1CIBWQ77",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Uncertainty-aware Preference Alignment for Diffusion Policies",
+    "authors": [
+      "Runqing Miao",
+      "Sheng Xu",
+      "Runyi Zhao",
+      "Wai Kin Victor Chan",
+      "Guiliang Liu"
+    ],
+    "author_ids": [
+      "~Runqing_Miao1",
+      "~Sheng_Xu8",
+      "~Runyi_Zhao1",
+      "~Wai_Kin_Victor_Chan1",
+      "~Guiliang_Liu1"
+    ],
+    "abstract": "Recent advancements in diffusion policies have demonstrated promising performance in decision-making tasks. To align these policies with human preferences, a common approach is incorporating Preference-based Reinforcement Learning (PbRL) into policy tuning. However, since preference data is practically collected from populations with different backgrounds, a key challenge lies in handling the inherent uncertainties in people's preferences during policy updates. To address this challenge, we propose the Diff-UAPA algorithm, designed for uncertainty-aware preference alignment in diffusion policies. Specifically, Diff-UAPA introduces a novel iterative preference alignment framework in which the diffusion policy adapts incrementally to preferences from different user groups. To accommodate this online learning paradigm, Diff-UAPA employs a maximum posterior objective, which aligns the diffusion policy with regret-based preferences under the guidance of an informative Beta prior. This approach enables direct optimization of the diffusion policy without specifying any reward functions, while effectively mitigating the influence of inconsistent preferences across different user groups. We conduct extensive experiments across both simulated and real-world robotics tasks, and diverse human preference configurations, demonstrating the robustness and reliability of Diff-UAPA in achieving effective preference alignment. The project page is available at https://github.com/mr20010112/Diff_UAPA.",
+    "keywords": [
+      "Preference-based Reinforcement Learning",
+      "Diffusion Model",
+      "Uncertainty Awareness"
+    ],
+    "tldr": "We propose Diff-UAPA, a novel framework that aligns diffusion policies with human preferences by integrating uncertainty-aware objectives and MAP estimation.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ miao2025uncertaintyaware, title={Uncertainty-aware Preference Alignment for Diffusion Policies}, author={Runqing Miao and Sheng Xu and Runyi Zhao and Wai Kin Victor Chan and Guiliang Liu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=oG1CIBWQ77} }",
+    "url": "https://openreview.net/forum?id=oG1CIBWQ77",
+    "pdf_url": "https://openreview.net/pdf?id=oG1CIBWQ77",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "pOLpyGGOq8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Kinaema: a recurrent sequence model for memory and pose in motion",
+    "authors": [
+      "Mert Bülent Sarıyıldız",
+      "Philippe Weinzaepfel",
+      "Guillaume Bono",
+      "Gianluca Monaci",
+      "Christian Wolf"
+    ],
+    "author_ids": [
+      "~Mert_Bülent_Sarıyıldız1",
+      "~Philippe_Weinzaepfel1",
+      "~Guillaume_Bono1",
+      "~Gianluca_Monaci1",
+      "~Christian_Wolf5"
+    ],
+    "abstract": "One key aspect of spatially aware robots is the ability to \"find their bearings\", ie. to correctly situate themselves or previously seen spaces. In this work, we focus on this particular scenario of continuous robotics operations, where information observed before an actual episode start is exploited to optimize efficiency. We introduce a new model, \"Kinaema\" and agent, capable of integrating a stream of visual observations while moving in a potentially large scene, and upon request, processing a query image and predicting the relative position of the shown space with respect to its current position. Our model does not explicitly store an observation history, therefore does not have hard constraints on context length. It maintains an implicit latent memory, which is updated by a transformer in a recurrent way, compressing the history of sensor readings into a compact representation. We evaluate the impact of this model in a new downstream task we call \"Mem-Nav\", targeting continuous robotics operations. We show that our large-capacity recurrent model maintains a useful representation of the scene, navigates to goals observed before the actual episode start, and is computationally efficient, in particular compared to classical transformers with attention over an observation history.",
+    "keywords": [
+      "Embodied AI",
+      "sequence model",
+      "agent memory",
+      "relative pose estimation"
+    ],
+    "tldr": "We propose a recurrent transformer for robotics, which can maintain a compact representation of the history of observations useful for continuous robotic operations.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ saryldz2025kinaema, title={Kinaema: a recurrent sequence model for memory and pose in motion}, author={Mert B{\\\"u}lent Sar{\\i}y{\\i}ld{\\i}z and Philippe Weinzaepfel and Guillaume Bono and Gianluca Monaci and Christian Wolf}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=pOLpyGGOq8} }",
+    "url": "https://openreview.net/forum?id=pOLpyGGOq8",
+    "pdf_url": "https://openreview.net/pdf?id=pOLpyGGOq8",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "5g9qls1V7Q",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Self-diffusion for Solving Inverse Problems",
+    "authors": [
+      "Guanxiong Luo",
+      "Shoujin Huang"
+    ],
+    "author_ids": [
+      "~Guanxiong_Luo1",
+      "~Shoujin_Huang1"
+    ],
+    "abstract": "We propose ***self-diffusion***, a novel framework for solving inverse problems without relying on pretrained generative models. Traditional diffusion-based approaches require training a model on a clean dataset to learn to reverse the forward noising process. This model is then used to sample clean solutions---corresponding to posterior sampling from a Bayesian perspective---that are consistent with the observed data under a specific task. In contrast, self-diffusion introduces a self-consistent iterative process that alternates between noising and denoising steps to progressively refine its estimate of the solution. At each step of self-diffusion, noise is added to the current estimate, and a self-denoiser, which is a single untrained convolutional network randomly initialized from scratch, is continuously trained for certain iterations via a data fidelity loss to predict the solution from the noisy estimate. Essentially, self-diffusion exploits the spectral bias of neural networks and modulates it through a scheduled noise process. Without relying on pretrained score functions or external denoisers, this approach still remains adaptive to arbitrary forward operators and noisy observations, making it highly flexible and broadly applicable. We demonstrate the effectiveness of our approach on a variety of linear inverse problems, showing that self-diffusion achieves competitive or superior performance compared to other methods.",
+    "keywords": [
+      "inverse problems",
+      "computational imaging",
+      "image reconstruction",
+      "diffusion models"
+    ],
+    "tldr": "Self-diffusion solves inverse problems without the need of pretrained generative models via a self-contained iterative process that alternates between noising and denoising steps to progressively refine its estimate of the solution.",
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ luo2025selfdiffusion, title={Self-diffusion for Solving Inverse Problems}, author={Guanxiong Luo and Shoujin Huang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=5g9qls1V7Q} }",
+    "url": "https://openreview.net/forum?id=5g9qls1V7Q",
+    "pdf_url": "https://openreview.net/pdf?id=5g9qls1V7Q",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "m0q8NfGWnv",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "MF-LLM: Simulating Population Decision Dynamics via a Mean-Field Large Language Model Framework",
+    "authors": [
+      "Qirui Mi",
+      "Mengyue Yang",
+      "Xiangning Yu",
+      "Zhiyu Zhao",
+      "Cheng Deng",
+      "Bo An",
+      "Haifeng Zhang",
+      "Xu Chen",
+      "Jun Wang"
+    ],
+    "author_ids": [
+      "~Qirui_Mi1",
+      "~Mengyue_Yang1",
+      "~Xiangning_Yu1",
+      "~Zhiyu_Zhao1",
+      "~Cheng_Deng4",
+      "~Bo_An2",
+      "~Haifeng_Zhang3",
+      "~Xu_Chen13",
+      "~Jun_Wang2"
+    ],
+    "abstract": "Simulating collective decision-making involves more than aggregating individual behaviors; it emerges from dynamic interactions among individuals. While large language models (LLMs) offer strong potential for social simulation, achieving quantitative alignment with real-world data remains a key challenge. To bridge this gap, we propose the \\textbf{M}ean-\\textbf{F}ield \\textbf{LLM} (\\textbf{MF-LLM}) framework, the first to incorporate mean field theory into LLM-based social simulation. MF-LLM models bidirectional interactions between individuals and the population through an iterative process, generating population signals to guide individual decisions, which in turn update the signals. This interplay produces coherent trajectories of collective behavior. To improve alignment with real-world data, we introduce \\textbf{IB-Tune}, a novel fine-tuning method inspired by the \\textbf{I}nformation \\textbf{B}ottleneck principle, which retains population signals most predictive of future actions while filtering redundant history. Evaluated on a real-world social dataset, MF-LLM reduces KL divergence to human population distributions by \\textbf{47\\%} compared to non-mean-field baselines, enabling accurate trend forecasting and effective intervention planning. Generalizing across 7 domains and 4 LLM backbones, MF-LLM provides a scalable, high-fidelity foundation for social simulation.",
+    "keywords": [
+      "social simulation",
+      "large langauge model",
+      "population",
+      "decision making",
+      "mean-field"
+    ],
+    "tldr": null,
+    "primary_area": "social_and_economic_aspects_of_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ mi2025mfllm, title={{MF}-{LLM}: Simulating Population Decision Dynamics via a Mean-Field Large Language Model Framework}, author={Qirui Mi and Mengyue Yang and Xiangning Yu and Zhiyu Zhao and Cheng Deng and Bo An and Haifeng Zhang and Xu Chen and Jun Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=m0q8NfGWnv} }",
+    "url": "https://openreview.net/forum?id=m0q8NfGWnv",
+    "pdf_url": "https://openreview.net/pdf?id=m0q8NfGWnv",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "1CqEAuRzHc",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "CVGL: Causal Learning and Geometric Topology",
+    "authors": [
+      "Songsong Ouyang",
+      "Yingying Zhu"
+    ],
+    "author_ids": [
+      "~Songsong_Ouyang1",
+      "~Yingying_Zhu7"
+    ],
+    "abstract": "Cross-view geo-localization (CVGL) aims to estimate the geographic location of a street image by matching it with a corresponding aerial image. This is critical for autonomous navigation and mapping in complex real-world scenarios. However, the task remains challenging due to significant viewpoint differences and the influence of confounding factors. To tackle these issues, we propose the Causal Learning and Geometric Topology (CLGT) framework, which integrates two key components: a Causal Feature Extractor (CFE) that mitigates the influence of confounding factors by leveraging causal intervention to encourage the model to focus on stable, task-relevant semantics; and a Geometric Topology Fusion (GT Fusion) module that injects Bird’s Eye View (BEV) road topology into street features to alleviate cross-view inconsistencies caused by extreme perspective changes. Additionally, we introduce a Data-Adaptive Pooling (DA Pooling) module to enhance the representation of semantically rich regions. Extensive experiments on CVUSA, CVACT, and their robustness-enhanced variants (CVUSA-C-ALL and CVACT-C-ALL) demonstrate that CLGT achieves state-of-the-art performance, particularly under challenging real-world corruptions.",
+    "keywords": [
+      "cross-view",
+      "casual learning",
+      "BEV"
+    ],
+    "tldr": null,
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ouyang2025cvgl, title={{CVGL}: Causal Learning and Geometric Topology}, author={Songsong Ouyang and Yingying Zhu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=1CqEAuRzHc} }",
+    "url": "https://openreview.net/forum?id=1CqEAuRzHc",
+    "pdf_url": "https://openreview.net/pdf?id=1CqEAuRzHc",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "EPDLFWyNnF",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Geometric Algorithms for Neural Combinatorial Optimization with Constraints",
+    "authors": [
+      "Nikolaos Karalias",
+      "Akbar Rafiey",
+      "Yifei Xu",
+      "Zhishang Luo",
+      "Behrooz Tahmasebi",
+      "Connie Jiang",
+      "Stefanie Jegelka"
+    ],
+    "author_ids": [
+      "~Nikolaos_Karalias1",
+      "~Akbar_Rafiey1",
+      "~Yifei_Xu10",
+      "~Zhishang_Luo1",
+      "~Behrooz_Tahmasebi1",
+      "~Connie_Jiang1",
+      "~Stefanie_Jegelka3"
+    ],
+    "abstract": "Self-Supervised Learning (SSL) for Combinatorial Optimization (CO) is an emerging paradigm for solving combinatorial problems using neural networks. In this paper, we address a central challenge of SSL for CO: solving problems with discrete constraints. We design an end-to-end differentiable framework that enables us to solve discrete constrained optimization problems with neural networks. Concretely, we leverage algorithmic techniques from the literature on convex geometry and Carathéodory's theorem to decompose neural network outputs into convex combinations of polytope corners that correspond to feasible sets. This decomposition-based approach enables self-supervised training but also ensures efficient quality-preserving rounding of the neural net output into feasible solutions. Extensive experiments in cardinality-constrained optimization show that our approach can consistently outperform neural baselines. We further provide worked-out examples of how our method can be applied beyond cardinality-constrained problems to a diverse set of combinatorial optimization tasks, including finding independent sets in graphs, and solving matroid-constrained problems.",
+    "keywords": [
+      "self-supervised learning",
+      "combinatorial optimization",
+      "learning with discrete constraints",
+      "algorithmic reasoning"
+    ],
+    "tldr": "We present an end-to-end framework for self supervised combinatorial optimization under various constraints (cardinality, matroid, independent set, etc.).",
+    "primary_area": "general_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ karalias2025geometric, title={Geometric Algorithms for Neural Combinatorial Optimization with Constraints}, author={Nikolaos Karalias and Akbar Rafiey and Yifei Xu and Zhishang Luo and Behrooz Tahmasebi and Connie Jiang and Stefanie Jegelka}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=EPDLFWyNnF} }",
+    "url": "https://openreview.net/forum?id=EPDLFWyNnF",
+    "pdf_url": "https://openreview.net/pdf?id=EPDLFWyNnF",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "j3pkYPmbot",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Learning to Add, Multiply, and Execute Algorithmic Instructions Exactly with Neural Networks",
+    "authors": [
+      "Artur Back de Luca",
+      "George Giapitzakis",
+      "Kimon Fountoulakis"
+    ],
+    "author_ids": [
+      "~Artur_Back_de_Luca1",
+      "~George_Giapitzakis1",
+      "~Kimon_Fountoulakis1"
+    ],
+    "abstract": "Neural networks are known for their ability to approximate smooth functions, yet they fail to generalize perfectly to unseen inputs when trained on discrete operations. Such operations lie at the heart of algorithmic tasks such as arithmetic, which is often used as a test bed for algorithmic execution in neural networks. In this work, we ask: can neural networks learn to execute binary-encoded algorithmic instructions exactly? We use the Neural Tangent Kernel (NTK) framework to study the training dynamics of two-layer fully connected networks in the infinite-width limit and show how a sufficiently large ensemble of such models can be trained to execute exactly, with high probability, four fundamental tasks: binary permutations, binary addition, binary multiplication, and Subtract and Branch if Negative (SBN) instructions. Since SBN is Turing-complete, our framework extends to computable functions. We show how this can be efficiently achieved using only logarithmically many training data. Our approach relies on two techniques: structuring the training data to isolate bit-level rules, and controlling correlations in the NTK regime to align model predictions with the target algorithmic executions.",
+    "keywords": [
+      "neural networks",
+      "arithmetic",
+      "instruction execution"
+    ],
+    "tldr": "We show that a two-layer NTK-trained network can exactly execute algorithmic instructions—including addition, multiplication, and SBN—using only logarithmically many examples, via training set orthogonalization and correlation control.",
+    "primary_area": "theory",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ luca2025learning, title={Learning to Add, Multiply, and Execute Algorithmic Instructions Exactly with Neural Networks}, author={Artur Back de Luca and George Giapitzakis and Kimon Fountoulakis}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=j3pkYPmbot} }",
+    "url": "https://openreview.net/forum?id=j3pkYPmbot",
+    "pdf_url": "https://openreview.net/pdf?id=j3pkYPmbot",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "EJ34X5VWwu",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Normalizing Flows are Capable Models for Continuous Control",
+    "authors": [
+      "Raj Ghugare",
+      "Benjamin Eysenbach"
+    ],
+    "author_ids": [
+      "~Raj_Ghugare1",
+      "~Benjamin_Eysenbach1"
+    ],
+    "abstract": "Modern reinforcement learning (RL) algorithms have found success by using powerful probabilistic models, such as transformers, energy-based models, and diffusion/flow-based models. To this end, RL researchers often choose to pay the price of accommodating these models into their algorithms -- diffusion models are expressive, but are computationally intensive due to their reliance on solving differential equations, while autoregressive transformer models are scalable but typically require learning discrete representations. Normalizing flows (NFs), by contrast, seem to provide an appealing alternative, as they enable likelihoods and sampling without solving differential equations or autoregressive architectures. However, their potential in RL has received limited attention, partly due to the prevailing belief that normalizing flows lack sufficient expressivity. We show that this is not the case. Building on recent work in NFs, we propose a single NF architecture which integrates seamlessly into RL algorithms, serving as a policy, Q-function, and occupancy measure. Our approach leads to much simpler algorithms, and achieves higher performance in imitation learning, offline, goal conditioned RL and unsupervised RL.",
+    "keywords": [
+      "Reinforcement Learning",
+      "Normalizing Flows",
+      "Control as Inference",
+      "Offline RL",
+      "Imitation Learning",
+      "Unsupervised Goal Conditioned RL"
+    ],
+    "tldr": "We take a probabilistic view of decision making tasks, and show that normalizing flows offer many properties which make them highly performant models in imitation learning, offline, goal conditioned and unsupervised RL.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ghugare2025normalizing, title={Normalizing Flows are Capable Models for Continuous Control}, author={Raj Ghugare and Benjamin Eysenbach}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=EJ34X5VWwu} }",
+    "url": "https://openreview.net/forum?id=EJ34X5VWwu",
+    "pdf_url": "https://openreview.net/pdf?id=EJ34X5VWwu",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "YufSVJxDgt",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Inpainting the Neural Picture: Inferring Unrecorded Brain Area Dynamics from Multi-Animal Datasets",
+    "authors": [
+      "Ji Xia",
+      "Yizi Zhang",
+      "Shuqi Wang",
+      "Genevera I. Allen",
+      "Liam Paninski",
+      "Cole Lincoln Hurwitz",
+      "Kenneth D. Miller"
+    ],
+    "author_ids": [
+      "~Ji_Xia1",
+      "~Yizi_Zhang1",
+      "~Shuqi_Wang1",
+      "~Genevera_I._Allen1",
+      "~Liam_Paninski1",
+      "~Cole_Lincoln_Hurwitz1",
+      "~Kenneth_D._Miller2"
+    ],
+    "abstract": "Characterizing interactions between brain areas is a fundamental goal of systems neuroscience. While such analyses are possible when areas are recorded simultaneously, it is rare to observe all combinations of areas of interest within a single animal or recording session. How can we leverage multi-animal datasets to better understand multi-area interactions? Building on recent progress in large-scale, multi-animal models, we introduce NeuroPaint, a masked autoencoding approach for inferring the dynamics of unobserved brain areas. By training across animals with overlapping subsets of recorded areas, NeuroPaint learns to reconstruct activity in missing areas based on shared structure across individuals. We train and evaluate our approach on both synthetic data and two multi-animal, multi-area Neuropixels datasets. Our results demonstrate that models trained across animals with partial observations can successfully in-paint the dynamics of unrecorded areas, enabling multi-area analyses that transcend the limitations of any single experiment.",
+    "keywords": [
+      "neuroscience",
+      "autoencoder",
+      "Neuropixels datasets",
+      "inpainting",
+      "brain area interactions",
+      "eletrophysiology."
+    ],
+    "tldr": "We designed and tested an autoencoder model for stitching together multi-area multi-animal neuronal recording datasets and inpainting neural dynamics from unobserved brain areas in each experiment.",
+    "primary_area": "neuroscience_and_cognitive_science",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ xia2025inpainting, title={Inpainting the Neural Picture: Inferring Unrecorded Brain Area Dynamics from Multi-Animal Datasets}, author={Ji Xia and Yizi Zhang and Shuqi Wang and Genevera I. Allen and Liam Paninski and Cole Lincoln Hurwitz and Kenneth D. Miller}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=YufSVJxDgt} }",
+    "url": "https://openreview.net/forum?id=YufSVJxDgt",
+    "pdf_url": "https://openreview.net/pdf?id=YufSVJxDgt",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "9qCejdqPXa",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Text-to-Decision Agent: Offline Meta-Reinforcement Learning from Natural Language Supervision",
+    "authors": [
+      "Shilin Zhang",
+      "Zican Hu",
+      "Wenhao Wu",
+      "Xinyi Xie",
+      "Jianxiang Tang",
+      "Chunlin Chen",
+      "Daoyi Dong",
+      "Yu Cheng",
+      "Zhenhong Sun",
+      "Zhi Wang"
+    ],
+    "author_ids": [
+      "~Shilin_Zhang3",
+      "~Zican_Hu1",
+      "~Wenhao_Wu13",
+      "~Xinyi_Xie2",
+      "~Jianxiang_Tang2",
+      "~Chunlin_Chen1",
+      "~Daoyi_Dong1",
+      "~Yu_Cheng1",
+      "~Zhenhong_Sun1",
+      "~Zhi_Wang7"
+    ],
+    "abstract": "Offline meta-RL usually tackles generalization by inferring task beliefs from high-quality samples or warmup explorations. The restricted form limits their generality and usability since these supervision signals are expensive and even infeasible to acquire in advance for unseen tasks. Learning directly from the raw text about decision tasks is a promising alternative to leverage a much broader source of supervision. In the paper, we propose **T**ext-to-**D**ecision **A**gent (**T2DA**), a simple and scalable framework that supervises offline meta-RL with natural language. We first introduce a generalized world model to encode multi-task decision data into a dynamics-aware embedding space. Then, inspired by CLIP, we predict which textual description goes with which decision embedding, effectively bridging their semantic gap via contrastive language-decision pre-training and aligning the text embeddings to comprehend the environment dynamics. After training the text-conditioned generalist policy, the agent can directly realize zero-shot text-to-decision generation in response to language instructions. Comprehensive experiments on MuJoCo and Meta-World benchmarks show that T2DA facilitates high-capacity zero-shot generalization and outperforms various types of baselines. Our code is available at [https://github.com/NJU-RL/T2DA](https://github.com/NJU-RL/T2DA).",
+    "keywords": [
+      "Offline meta-reinforcement learning",
+      "reinforcement learning",
+      "world model"
+    ],
+    "tldr": "We learn offline meta-policies from natural language supervision with contrastive language-decision pre-training, aligning text embeddings to comprehend environment dynamics.",
+    "primary_area": "reinforcement_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhang2025texttodecision, title={Text-to-Decision Agent: Offline Meta-Reinforcement Learning from Natural Language Supervision}, author={Shilin Zhang and Zican Hu and Wenhao Wu and Xinyi Xie and Jianxiang Tang and Chunlin Chen and Daoyi Dong and Yu Cheng and Zhenhong Sun and Zhi Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=9qCejdqPXa} }",
+    "url": "https://openreview.net/forum?id=9qCejdqPXa",
+    "pdf_url": "https://openreview.net/pdf?id=9qCejdqPXa",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
+  },
+  {
+    "id": "AwLRF1lZvI",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Inner Speech as Behavior Guides: Steerable Imitation of Diverse Behaviors for Human-AI coordination",
+    "authors": [
+      "Rakshit Trivedi",
+      "Kartik Sharma",
+      "David C. Parkes"
+    ],
+    "author_ids": [
+      "~Rakshit_Trivedi1",
+      "~Kartik_Sharma1",
+      "~David_C._Parkes1"
+    ],
+    "abstract": "Effective human-AI coordination requires artificial agents capable of exhibiting and responding to human-like behaviors while adapting to changing contexts. Imitation learning has emerged as one of the prominent approaches to build such agents by training them to mimic human-demonstrated behaviors. However, current methods struggle to capture the inherent diversity and non-Markovian nature of human behavior and lack the ability to steer behavior at inference time. Drawing inspiration from the theory of human cognitive processes, where inner speech guides action selection before execution, we propose MIMIC (Modeling Inner Motivations for Imitation and Control), a framework that uses language as an internal representation of behavioral intent. MIMIC employs the novel use of vision-language models as linguistic scaffolding to train a conditional variational autoencoder capable of generating inner speech from observations. A diffusion-based behavior cloning policy then selects actions conditioned on current observations and the generated inner speech. MIMIC enables fine-grained steering of behavior at inference time by conditioning the agent on behavior-specific speech. Experiments across robotic manipulation tasks and human-AI collaboration games demonstrate that MIMIC significantly enhances both behavior diversity and fidelity to human demonstrations while enabling nuanced behavioral steering without training on additional demonstrations.",
+    "keywords": [
+      "Imitation Learning",
+      "Inner Speech",
+      "Cognitive Processes",
+      "Diverse Behaviors",
+      "Steerable Imitation",
+      "Human Demonstrations",
+      "Human-AI coordination"
+    ],
+    "tldr": "MIMIC leverages language-based inner speech mechanisms as a mediational framework between perception and action to enable both diverse imitation of human behavior and fine-grained steering of artificial agents during inference time.",
+    "primary_area": "social_and_economic_aspects_of_machine_learning",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ trivedi2025inner, title={Inner Speech as Behavior Guides: Steerable Imitation of Diverse Behaviors for Human-{AI} coordination}, author={Rakshit Trivedi and Kartik Sharma and David C. Parkes}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=AwLRF1lZvI} }",
+    "url": "https://openreview.net/forum?id=AwLRF1lZvI",
+    "pdf_url": "https://openreview.net/pdf?id=AwLRF1lZvI",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview"
   }
 ]
