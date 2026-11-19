@@ -45367,24 +45367,43 @@
           "snapshot_candidates": 1,
           "candidates": 1,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 135,
+          "official_scope": "2025正式卷25第1–12期全部135目录条目；研究及实质综述精筛，非研究文类单列。非正式卷25的在线记录保留但排除本批。",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "官网卷25十二期135条逐DOI与原132条对账，补30条正式2025原记录，保留27条卷26/未编入卷25的原始在线记录并明确范围排除。135条题名与目录描述完成召回，补录综述原摘要复核；原1候选核原摘要及必要正文纳入，原摘要齐全。非研究文类不补为科学候选；单细胞图谱综述摘要无明确AI作用、全文仅预览，未补为候选且保留证据缺口。",
+          "evidence_urls": [
+            "https://www.nature.com/nri/volumes/25/issues/1",
+            "https://www.nature.com/nri/volumes/25/issues/10",
+            "https://www.nature.com/nri/volumes/25/issues/11",
+            "https://www.nature.com/nri/volumes/25/issues/12",
+            "https://www.nature.com/nri/volumes/25/issues/2",
+            "https://www.nature.com/nri/volumes/25/issues/3",
+            "https://www.nature.com/nri/volumes/25/issues/4",
+            "https://www.nature.com/nri/volumes/25/issues/5",
+            "https://www.nature.com/nri/volumes/25/issues/6",
+            "https://www.nature.com/nri/volumes/25/issues/7",
+            "https://www.nature.com/nri/volumes/25/issues/8",
+            "https://www.nature.com/nri/volumes/25/issues/9",
+            "https://www.nature.com/articles/s41577-025-01207-9",
+            "https://waltersport.com/wp-content/uploads/2025/12/NATURE-Fifty-years-of-monoclonals-the-past-present-and-future-of-antibody-therapeutics-Chan-et-al.-2025.pdf"
           ],
+          "decisions": {
+            "include": 1,
+            "exclude": 0,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 1,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
@@ -47194,10 +47213,10 @@
         {
           "owner": "李雪婷",
           "sources": 51,
-          "delivered": 10,
-          "official": 10,
+          "delivered": 11,
+          "official": 11,
           "pending": 0,
-          "open_issues": 41,
+          "open_issues": 40,
           "status": "in_progress",
           "last_update": {
             "at": "2026-11-18T21:32:59-08:00",
@@ -75524,10 +75543,10 @@
         },
         "2025": {
           "sources": 51,
-          "delivered": 10,
-          "official": 10,
+          "delivered": 11,
+          "official": 11,
           "pending": 0,
-          "open_issues": 41,
+          "open_issues": 40,
           "status": "in_progress"
         },
         "2026": {
@@ -75540,7 +75559,7 @@
         }
       },
       "sources": 153,
-      "delivered": 100,
+      "delivered": 101,
       "not_started": [],
       "last_update": {
         "at": "2026-11-18T21:32:59-08:00",
@@ -75911,6 +75930,14 @@
       "checked_at": "2026-11-19T11:50:41.992485+00:00",
       "input_commit": "ddec4b7bf0caef42fb322f0d02475ea6d5388a1e",
       "reason": "Current personal screening checkpoint; Ten complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T12:00:36.758799+00:00",
+      "input_commit": "d56dc553e8cd801d224a13fe5c307c2ae4020cf0",
+      "reason": "Current personal screening checkpoint; Eleven complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
       "unchanged_other_owners_and_years": true
     }
   ]

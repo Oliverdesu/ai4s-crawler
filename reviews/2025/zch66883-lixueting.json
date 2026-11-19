@@ -141552,5 +141552,131 @@
         }
       ]
     }
+  },
+  {
+    "id": "10.1038/s41577-025-01207-9",
+    "venue": "nri",
+    "year": 2025,
+    "track": null,
+    "title": "Fifty years of monoclonals: the past, present and future of antibody therapeutics",
+    "authors": [
+      "Andrew C. Chan",
+      "Greg D. Martyn",
+      "Paul J. Carter"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-7523-6139",
+      "https://orcid.org/0000-0002-7373-7834",
+      "https://orcid.org/0000-0001-7854-062X"
+    ],
+    "abstract": "In 1975, Köhler and Milstein invented hybridoma technology for the generation of murine monoclonal antibodies with predetermined antigen-binding specificity. The transformative impact of monoclonal antibodies is demonstrated by their ubiquitous use as biomedical research reagents and the worldwide approval of at least 212 antibody therapeutics with tens of millions of patients treated to date. Advances in antibody technologies, such as humanization and robust methods for human antibody generation, mitigated the major limitations of murine antibodies as therapeutics. These technologies, combined with progress in biomanufacturing, helped to launch this modern era of antibody therapeutics. Beyond IgG, antibody therapeutics have blossomed into multiple alternative formats, including bispecific antibodies and antibody–drug conjugates. Additionally, antibody fragments have been developed as stand-alone therapeutics and to target cell therapies, notably chimeric antigen receptor T cells. These advances in antibody technologies, plus innovation enabling subcutaneous delivery, have improved the therapeutic benefits and convenience of antibody treatment for many patients. This concept is illustrated here by multiple generations of antibody therapeutics for human epidermal growth factor receptor 2 (HER2) + cancers and B cell-targeted therapies for haematological cancers and immunological diseases. Finally, we opine briefly on some of the many promising future directions with antibody therapeutics, including the application of artificial intelligence for antibody identification and multi-parameter optimization.",
+    "keywords": [
+      "Translational immunology",
+      "Applied immunology"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41577-025-01207-9",
+    "pages": "745-765",
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41577-025-01207-9",
+    "pdf_url": "https://www.nature.com/articles/s41577-025-01207-9.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-08-07",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "Nature Reviews Immunology",
+    "issn": "1474-1741",
+    "article_type": "Review Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [
+      "antibody"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学"
+    ],
+    "ai4s_keywords": [
+      "antibody"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "antibody"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-nri",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "正文专节汇总已经实施的AI抗体亲和力优化、可开发性/低黏度预测、人源化、免疫原性及VHH从头设计研究，并说明联合多参数优化仍是未来方向；已有AI科研综合内容明确，不因摘要称未来而误排。",
+      "evidence_location": "官网原摘要；公开出版社版本第758–759页 Applications of artificial intelligence to antibody design 小节及参考文献187–195",
+      "verified_metadata": {
+        "title": "Fifty years of monoclonals: the past, present and future of antibody therapeutics",
+        "authors": [
+          "Andrew C. Chan",
+          "Greg D. Martyn",
+          "Paul J. Carter"
+        ],
+        "doi": "10.1038/s41577-025-01207-9",
+        "abstract": "In 1975, Köhler and Milstein invented hybridoma technology for the generation of murine monoclonal antibodies with predetermined antigen-binding specificity. The transformative impact of monoclonal antibodies is demonstrated by their ubiquitous use as biomedical research reagents and the worldwide approval of at least 212 antibody therapeutics with tens of millions of patients treated to date. Advances in antibody technologies, such as humanization and robust methods for human antibody generation, mitigated the major limitations of murine antibodies as therapeutics. These technologies, combined with progress in biomanufacturing, helped to launch this modern era of antibody therapeutics. Beyond IgG, antibody therapeutics have blossomed into multiple alternative formats, including bispecific antibodies and antibody–drug conjugates. Additionally, antibody fragments have been developed as stand-alone therapeutics and to target cell therapies, notably chimeric antigen receptor T cells. These advances in antibody technologies, plus innovation enabling subcutaneous delivery, have improved the therapeutic benefits and convenience of antibody treatment for many patients. This concept is illustrated here by multiple generations of antibody therapeutics for human epidermal growth factor receptor 2 (HER2)+ cancers and B cell-targeted therapies for haematological cancers and immunological diseases. Finally, we opine briefly on some of the many promising future directions with antibody therapeutics, including the application of artificial intelligence for antibody identification and multi-parameter optimization.",
+        "url": "https://www.nature.com/articles/s41577-025-01207-9",
+        "pdf_url": "https://www.nature.com/articles/s41577-025-01207-9.pdf",
+        "volume": "25",
+        "issue": "10",
+        "pages": "745-765",
+        "formal_publication_year": 2025,
+        "article_type": "Review Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41577-025-01207-9",
+          "https://waltersport.com/wp-content/uploads/2025/12/NATURE-Fifty-years-of-monoclonals-the-past-present-and-future-of-antibody-therapeutics-Chan-et-al.-2025.pdf"
+        ],
+        "full_text_evidence_location": "官网原摘要；公开出版社版本第758–759页 Applications of artificial intelligence to antibody design 小节及参考文献187–195",
+        "full_text_checked_at": "2026-11-19T11:58:53.513449+00:00",
+        "full_text_access_method": "正常官网为订阅预览；检索公开出版社排版版本副本，题名/作者/DOI/卷页与官网一致；网页读取相关小节，不冒称官网解锁或全文通读。",
+        "abstract_provenance": "出版社官网原摘要；输入原字段保留"
+      },
+      "checked_at": "2026-11-19T11:58:53.513449+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要；公开出版社版本第758–759页 Applications of artificial intelligence to antibody design 小节及参考文献187–195",
+          "rationale": "正文专节汇总已经实施的AI抗体亲和力优化、可开发性/低黏度预测、人源化、免疫原性及VHH从头设计研究，并说明联合多参数优化仍是未来方向；已有AI科研综合内容明确，不因摘要称未来而误排。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "官网原摘要；公开出版社版本第758–759页 Applications of artificial intelligence to antibody design 小节及参考文献187–195",
+          "rationale": "正文专节汇总已经实施的AI抗体亲和力优化、可开发性/低黏度预测、人源化、免疫原性及VHH从头设计研究，并说明联合多参数优化仍是未来方向；已有AI科研综合内容明确，不因摘要称未来而误排。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "官网原摘要；公开出版社版本第758–759页 Applications of artificial intelligence to antibody design 小节及参考文献187–195",
+          "rationale": "正文专节汇总已经实施的AI抗体亲和力优化、可开发性/低黏度预测、人源化、免疫原性及VHH从头设计研究，并说明联合多参数优化仍是未来方向；已有AI科研综合内容明确，不因摘要称未来而误排。"
+        }
+      ]
+    }
   }
 ]
