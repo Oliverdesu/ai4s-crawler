@@ -1,0 +1,34 @@
+{
+  "source_main_commit": "10acded91580338ac3b15edaa1d9b223d6902b45",
+  "monitor_commit": "8057e030cbd6fabb6c92a2fc9dc66f4e733fbded",
+  "generated_at": "2026-11-19T09:32:49.207112+00:00",
+  "sources": 51,
+  "sources_with_issues": 0,
+  "issue_count": 0,
+  "required_abstract_backfill": 0,
+  "full_text_reviewed": 5,
+  "included_original_missing_abstract": 5,
+  "counts": {
+    "include": 2299,
+    "exclude": 1520
+  },
+  "public_url": "https://bupt-ai4s.github.io/review-monitor.html",
+  "browser_verified_at": "2026-11-19T09:38:52.448604+00:00",
+  "browser_generated_at": "2026-11-19T09:32:49.207112+00:00",
+  "browser_filters": {
+    "year": 2026,
+    "owner": "李雪婷",
+    "有待办": 0,
+    "全部来源": 51
+  },
+  "browser_source_cards_without_issues": 51,
+  "browser_attention_badges": 0,
+  "publication_workflow_run": "https://github.com/BUPT-AI4S/ai4s-crawler/actions/runs/44497210969",
+  "compatibility_code_commit": "876a4ebfcf80a54a37ffe614dde1e185d2ca2368",
+  "original_scientific_files_unchanged": true,
+  "abstract_note": "纳入缺摘要5为出版社确认原无独立摘要、依原文全文核验并获负责人授权；保留空值，不是待补摘要。全量缺摘要13720为历史采集快照统计，不是当前候选待办。",
+  "dom_evidence": [
+    "public-zero-actions-dom.txt",
+    "public-all-sources-dom.txt"
+  ]
+}
