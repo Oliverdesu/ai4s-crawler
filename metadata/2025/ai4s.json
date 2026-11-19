@@ -1165374,5 +1165374,815 @@
     ],
     "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
   }
+},
+{
+  "id": "proceedings_8aee537279a66ced96319dfca3c00002",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis",
+  "authors": [
+    "Wu, Yan",
+    "Wershof, Esther",
+    "Schmon, Sebastian",
+    "Nassar, Marcel",
+    "Osiński, Błażej",
+    "Eksi, Ridvan",
+    "Yan, Zichao",
+    "Stark, Rory",
+    "Zhang, Kun",
+    "Graepel, Thore"
+  ],
+  "abstract": "We introduce a comprehensive framework for modeling single cell transcriptomic responses to perturbations, aimed at standardizing benchmarking in this rapidly evolving field. Our approach includes a modular and user-friendly model development and evaluation platform, a collection of diverse perturbational datasets, and a set of metrics designed to fairly compare models and dissect their performance. Through extensive evaluation of both published and baseline models across diverse datasets, we highlight the limitations of widely used models, such as mode collapse. We also demonstrate the importance of rank metrics which complement traditional model fit measures, such as RMSE, for validating model effectiveness. Notably, our results show that while no single model architecture clearly outperforms others, simpler architectures are generally competitive and scale well with larger datasets. Overall, this benchmarking exercise sets new standards for model evaluation, supports robust model development, and furthers the use of these models to simulate genetic and chemical screens for therapeutic discovery.",
+  "doi": "10.52202/085713-3225",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8aee537279a66ced96319dfca3c00002-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8aee537279a66ced96319dfca3c00002-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8aee537279a66ced96319dfca3c00002-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_8dcedad1f5635033b4170a1ce40f05d4",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "DrivAerStar: An Industrial-Grade CFD Dataset for Vehicle Aerodynamic Optimization",
+  "authors": [
+    "Qiu, Jiyan",
+    "Kuang, Lyulin",
+    "Wang, Guan",
+    "Xu, Yichen",
+    "Cui, Leiyao",
+    "Fu, Shaotong",
+    "Zhu, Yixin",
+    "Zhang, Rita"
+  ],
+  "abstract": "Vehicle aerodynamics optimization has become critical for automotive electrification, where drag reduction directly determines electric vehicle range and energy efficiency. Traditional approaches face an intractable trade-off: computationally expensive Computational Fluid Dynamics (CFD) simulations requiring weeks per design iteration, or simplified models that sacrifice production-grade accuracy. While machine learning offers transformative potential, existing datasets exhibit fundamental limitations -- inadequate mesh resolution, missing vehicle components, and validation errors exceeding 5% -- preventing deployment in industrial workflows. We present DrivAerStar, comprising 12,000 industrial-grade automotive CFD simulations generated using STAR-CCM+${}^{\\textregistered}$ software. The dataset systematically explores three vehicle configurations through 20 Computer Aided Design (CAD) parameters via Free Form Deformation (FFD) algorithms, including complete engine compartments and cooling systems with realistic internal airflow. DrivAerStar achieves wind tunnel validation accuracy below 1.04% -- a five-fold improvement over existing datasets -- through refined mesh strategies with strict wall $y^+$ control. Benchmarks demonstrate that models trained on this data achieve production-ready accuracy while reducing computational costs from weeks to minutes. This represents the first dataset bridging academic machine learning research and industrial CFD practice, establishing a new standard for data-driven aerodynamic optimization in automotive development. Beyond automotive applications, DrivAerStar demonstrates a paradigm for integrating high-fidelity physics simulations with Artificial Intelligence (AI) across engineering disciplines where computational constraints currently limit innovation.",
+  "doi": "10.52202/085713-3293",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8dcedad1f5635033b4170a1ce40f05d4-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8dcedad1f5635033b4170a1ce40f05d4-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8dcedad1f5635033b4170a1ce40f05d4-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_8e5dc5969a6174fcaaececd890c7f59b",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "IndEgo: A Dataset of Industrial Scenarios and Collaborative Work for Egocentric Assistants",
+  "authors": [
+    "Chavan, Vivek",
+    "Imgrund, Yasmina",
+    "Dao, Tung",
+    "Bai, Sanwantri",
+    "Wang, Bosong",
+    "Lu, Ze",
+    "Heimann, Oliver",
+    "Krüger, Jörg"
+  ],
+  "abstract": "We introduce IndEgo, a multimodal egocentric and exocentric dataset addressing common industrial tasks, including assembly/disassembly, logistics and organisation, inspection and repair, woodworking, and others. The dataset contains 3,460 egocentric recordings (approximately 197 hours), along with 1,092 exocentric recordings (approximately 97 hours). A key focus of the dataset is collaborative work, where two workers jointly perform cognitively and physically intensive tasks. The egocentric recordings include rich multimodal data and added context via eye gaze, narration, sound, motion, and others. We provide detailed annotations (actions, summaries, mistake annotations, narrations), metadata, processed outputs (eye gaze, hand pose, semi-dense point cloud), and benchmarks on procedural and non-procedural task understanding, Mistake Detection, and reasoning-based Question Answering. Baseline evaluations for Mistake Detection, Question Answering and collaborative task understanding show that the dataset presents a challenge for the state-of-the-art multimodal models. Our dataset is available at: https://huggingface.co/datasets/FraunhoferIPK/IndEgo",
+  "doi": "10.52202/085713-3301",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8e5dc5969a6174fcaaececd890c7f59b-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_910ac01a3e5c5e7e67d64f23c0e1a740",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios",
+  "authors": [
+    "Hou, Yunhao",
+    "Zou, Bochao",
+    "Zhang, Min",
+    "陈, 燃",
+    "Yang, Shangdong",
+    "Zhang, Yanmei",
+    "Zhuo, Junbao",
+    "Chen, Siheng",
+    "Chen, Jiansheng",
+    "Ma, Huimin"
+  ],
+  "abstract": "By sharing information across multiple agents, collaborative perception helps autonomous vehicles mitigate occlusions and improve overall perception accuracy. While most previous work focus on vehicle-to-vehicle and vehicle-to-infrastructure collaboration, with limited attention to aerial perspectives provided by UAVs, which uniquely offer dynamic, top-down views to alleviate occlusions and monitor large-scale interactive environments. A major reason for this is the lack of high-quality datasets for aerial-ground collaborative scenarios. To bridge this gap, we present AGC-Drive, the first large-scale real-world dataset for Aerial-Ground Cooperative 3D perception. The data collection platform consists of two vehicles, each equipped with five cameras and one LiDAR sensor, and one UAV carrying a forward-facing camera and a LiDAR sensor, enabling comprehensive multi-view and multi-agent perception. Consisting of approximately 80K LiDAR frames and 360K images, the dataset covers 14 diverse real-world driving scenarios, including urban roundabouts, highway tunnels, and on/off ramps. Notably, 17\\% of the data comprises dynamic interaction events, including vehicle cut-ins, cut-outs, and frequent lane changes. AGC-Drive contains 350 scenes, each with approximately 100 frames and fully annotated 3D bounding boxes covering 13 object categories. We provide benchmarks for two 3D perception tasks: vehicle-to-vehicle collaborative perception and vehicle-to-UAV collaborative perception. Additionally, we release an open-source toolkit, including spatiotemporal alignment verification tools, multi-agent visualization systems, and collaborative annotation utilities. The dataset and code are available at  https://github.com/PercepX/AGC-Drive.",
+  "doi": "10.52202/085713-3358",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/910ac01a3e5c5e7e67d64f23c0e1a740-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/910ac01a3e5c5e7e67d64f23c0e1a740-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/910ac01a3e5c5e7e67d64f23c0e1a740-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_92059c0ca1f2db0018e49b588d4f05e9",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "RAM-W600: A Multi-Task Wrist Dataset and Benchmark for Rheumatoid Arthritis",
+  "authors": [
+    "SONGXIAO, YANG",
+    "Wang, Haolin",
+    "Fu, Yao",
+    "Tian, Ye",
+    "Kamishima, Tamostu",
+    "Ikebe, Masayuki",
+    "Ou, Yafei",
+    "Okutomi, Masatoshi"
+  ],
+  "abstract": "Rheumatoid arthritis (RA) is a common autoimmune disease that has been the focus of research in computer-aided diagnosis (CAD) and disease monitoring. In clinical settings, conventional radiography (CR) is widely used for the screening and evaluation of RA due to its low cost and accessibility. The wrist is a critical region for the diagnosis of RA. However, CAD research in this area remains limited, primarily due to the challenges in acquiring high-quality instance-level annotations. (i) The wrist comprises numerous small bones with narrow joint spaces, complex structures, and frequent overlaps, requiring detailed anatomical knowledge for accurate annotation. (ii) Disease progression in RA often leads to osteophyte, bone erosion (BE), and even bony ankylosis, which alter bone morphology and increase annotation difficulty, necessitating expertise in rheumatology.This work presents a multi-task dataset for wrist bone in CR, including two tasks: (i) wrist bone instance segmentation and (ii) Sharp/van der Heijde (SvdH) BE scoring, which is the first public resource for wrist bone instance segmentation. This dataset comprises 1048 wrist conventional radiographs of 388 patients from six medical centers, with pixel-level instance segmentation annotations for 618 images and SvdH BE scores for 800 images. This dataset can potentially support a wide range of research tasks related to RA, including joint space narrowing (JSN) progression quantification, BE detection, bone deformity evaluation, and osteophyte detection. It may also be applied to other wrist-related tasks, such as carpal bone fracture localization.We hope this dataset will significantly lower the barrier to research on wrist RA and accelerate progress in CAD research within the RA-related domain.Benchmark &amp; Code: https://github.com/YSongxiao/RAM-W600Data &amp; Dataset Card: https://huggingface.co/datasets/TokyoTechMagicYang/RAM-W600",
+  "doi": "10.52202/085713-3375",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/92059c0ca1f2db0018e49b588d4f05e9-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/92059c0ca1f2db0018e49b588d4f05e9-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/92059c0ca1f2db0018e49b588d4f05e9-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_92cfa104db7fdd053492df3589ddfd49",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "UAV-Flow Colosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning",
+  "authors": [
+    "Wang, Xiangyu",
+    "Yang, Donglin",
+    "Liao, Yue",
+    "Zheng, Wenhao",
+    "wu, wenjun",
+    "Dai, Bin",
+    "Li, Hongsheng",
+    "Liu, Si"
+  ],
+  "abstract": "Unmanned Aerial Vehicles (UAVs) are evolving into language-interactive platforms, enabling more intuitive forms of human-drone interaction. While prior works have primarily focused on high-level planning and long-horizon navigation, we shift attention to language-guided fine-grained trajectory control, where UAVs execute short-range, reactive flight behaviors in response to language instructions. We formalize this problem as the Flying-on-a-Word (Flow) task and introduce UAV imitation learning as an effective approach. In this framework, UAVs learn fine-grained control policies by mimicking expert pilot trajectories paired with atomic language instructions. To support this paradigm, we present UAV-Flow, the first real-world benchmark for language-conditioned, fine-grained UAV control. It includes a task formulation, a large-scale dataset collected in diverse environments, a deployable control framework, and a simulation suite for systematic evaluation. Our design enables UAVs to closely imitate the precise, expert-level flight trajectories of human pilots and supports direct deployment without sim-to-real gap. We conduct extensive experiments on UAV-Flow, benchmarking VLN and VLA paradigms. Results show that VLA models are superior to VLN baselines and highlight the critical role of spatial grounding in the fine-grained Flow setting.",
+  "doi": "10.52202/085713-3391",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/92cfa104db7fdd053492df3589ddfd49-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/92cfa104db7fdd053492df3589ddfd49-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/92cfa104db7fdd053492df3589ddfd49-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_941de7aa5976f372117725abd87c639a",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "IndustryEQA: Pushing the Frontiers of Embodied Question Answering in Industrial Scenarios",
+  "authors": [
+    "Li, Yifan",
+    "Chen, Yuhang",
+    "Dao, Anh",
+    "Li, Lichi",
+    "Cai, Zhongyi",
+    "Tan, Zhen",
+    "Chen, Tianlong",
+    "Kong, Yu"
+  ],
+  "abstract": "Existing Embodied Question Answering (EQA) benchmarks primarily focus on household environments, often overlooking safety-critical aspects and reasoning processes pertinent to industrial settings. This drawback limits the evaluation of agent readiness for real-world industrial applications. To bridge this, we introduce IndustryEQA, the first benchmark dedicated to evaluating embodied agent capabilities within safety-critical industrial warehouse scenarios. Built upon the NVIDIA Isaac Sim platform, IndustryEQA provides high-fidelity episodic memory videos featuring diverse industrial assets, dynamic human agents, and carefully designed hazardous situations inspired by real-world safety guidelines. The benchmark includes rich annotations covering six categories: equipment safety, human safety, object recognition, attribute recognition, temporal understanding, and spatial understanding. Besides, it also provides extra reasoning evaluation based on these categories. Specifically, it comprises 971 question-answer pairs generated from small warehouse scenarios and 373 pairs from large ones, incorporating scenarios with and without human. We further propose a comprehensive evaluation framework, including various baseline models, to assess their general perception and reasoning abilities in industrial environments. IndustryEQA aims to steer EQA research towards developing more robust, safety-aware, and practically applicable embodied agents for complex industrial environments.",
+  "doi": "10.52202/085713-3423",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/941de7aa5976f372117725abd87c639a-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/941de7aa5976f372117725abd87c639a-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/941de7aa5976f372117725abd87c639a-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_96a9caf416c8951812a666eca742e050",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "NOVA: A Benchmark for Rare Anomaly Localization and Clinical Reasoning in Brain MRI",
+  "authors": [
+    "Bercea, Cosmin",
+    "Li, Jun",
+    "Raffler, Philipp",
+    "Riedel, Evamaria O.",
+    "Schmitzer, Lena",
+    "Kurz, Angela",
+    "Bitzer, Felix",
+    "Roßmüller, Paula",
+    "Canisius, Julian",
+    "Beyrle, Mirjam",
+    "Liu, Che",
+    "Bai, Wenjia",
+    "Kainz, Bernhard",
+    "Schnabel, Julia",
+    "Wiestler, Benedikt"
+  ],
+  "abstract": "In many real-world applications, deployed models encounter inputs that differ from the data seen during training. Open-world recognition ensures that such systems remain robust as ever-emerging, previously _unknown_ categories appear and must be addressed without retraining.Foundation and vision-language models are pre-trained on large and diverse datasets with the expectation of broad generalization across domains, including medical imaging.However, benchmarking these models on test sets with only a few common outlier types silently collapses the evaluation back to a closed-set problem, masking failures on rare or truly novel conditions encountered in clinical use.We therefore present NOVA, a challenging, real-life _evaluation-only_ benchmark of $\\sim$900 brain MRI scans that span 281 rare pathologies and heterogeneous acquisition protocols. Each case includes rich clinical narratives and double-blinded expert bounding-box annotations. Together, these enable joint assessment of anomaly localisation, visual captioning, and diagnostic reasoning. Because NOVA is never used for training, it serves as an _extreme_ stress-test of out-of-distribution generalisation: models must bridge a distribution gap both in sample appearance and in semantic space.  Baseline results with leading vision-language models (GPT-4o, Gemini 2.0 Flash, and Qwen2.5-VL-72B) reveal substantial performance drops, with approximately a 65\\% gap in localisation compared to natural-image benchmarks and 40\\% and 20\\% gaps in captioning and reasoning, respectively, compared to resident radiologists. Therefore, NOVA establishes a testbed for advancing models that can detect, localize, and reason about truly unknown anomalies.",
+  "doi": "10.52202/085713-3488",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96a9caf416c8951812a666eca742e050-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/96a9caf416c8951812a666eca742e050-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96a9caf416c8951812a666eca742e050-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_96e774df6d1e39dfd847af0274706f6b",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "Satellites Reveal Mobility: A Commuting Origin-destination Flow Generator for Global Cities",
+  "authors": [
+    "Rong, Can",
+    "Zhang, Xin",
+    "Xi, Yanxin",
+    "SUI, HONGJIE",
+    "Ding, Jingtao",
+    "Li, Yong"
+  ],
+  "abstract": "Commuting Origin-destination (OD) flows, capturing daily population mobility of citizens, are vital for sustainable development across cities around the world. However, it is challenging to obtain the data due to the high cost of travel surveys and privacy concerns. Surprisingly, we find that satellite imagery, publicly available across the globe, contains rich urban semantic signals to support high-quality OD flow generation, with over 98\\% expressiveness of traditional multisource hard-to-collect urban sociodemographic, economics, land use, and point of interest data. This inspires us to design a novel data generator, GlODGen (Global-scale OriginDestination Flow Generator), which can generate OD flow data for any cities of interest around the world. Specifically, GlODGen first leverages Vision-Language Geo-Foundation Models to extract urban semantic signals related to human mobility from satellite imagery. These features are then combined with population data to form region-level representations, which are used to generate OD flows via graph diffusion models. Extensive experiments on 4 continents and 6 representative cities show that GlODGen has great generalizability across diverse urban environments on different continents and can generate OD flow data for global cities highly consistent with real-world mobility data. We implement GlODGen as an automated tool, seamlessly integrating data acquisition and curation, urban semantic feature extraction, and OD flow generation together. It has been released at https://github.com/tsinghua-fib-lab/generate-od-pubtools.",
+  "doi": "10.52202/085713-3497",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96e774df6d1e39dfd847af0274706f6b-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/96e774df6d1e39dfd847af0274706f6b-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96e774df6d1e39dfd847af0274706f6b-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_96f8c5e879c339dae55e6c2188b02a33",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "NoBOOM: Chemical Process Datasets for Industrial Anomaly Detection",
+  "authors": [
+    "Wagner, Dennis",
+    "Hartung, Fabian",
+    "Arweiler, Justus",
+    "Muraleedharan, Aparna",
+    "Jungjohann, Indra",
+    "Nair, Arjun",
+    "Reithermann, Steffen",
+    "Schulz, Ralf",
+    "Bortz, Michael",
+    "Neider, Daniel",
+    "Leitte, Heike",
+    "Pfeffinger, Joachim",
+    "Mandt, Stephan",
+    "Fellenz, Sophie",
+    "Katz, Torsten",
+    "Jirasek, Fabian",
+    "Burger, Jakob",
+    "Hasse, Hans",
+    "Kloft, Marius"
+  ],
+  "abstract": "Monitoring chemical processes is essential to prevent catastrophic failures, optimize costs and profits, and ensure the safety of employees and the environment. A key component of modern monitoring systems is the automated detection of anomalies in sensor data over time, called time series, enabling partial automation of plant operation and adding additional layers of supervision to crucial components. The development of anomaly detection methods in this domain is challenging, since real chemical process data are usually proprietary, and simulated data are generally not a sufficient replacement. In this paper, we present NoBOOM, the first collection of datasets for anomaly detection in real-world chemical process data, including labeled data from a running process at our industry partner BASF SE — one of the world’s leading chemical companies — and several chemical processes run in laboratory‑scale and pilot‑scale plants. While we are not able to share every detail about the industrial process, for the laboratory‑ and pilot‑scale plants, we provide comprehensive information on plant configuration, process operation, and, in particular, anomaly events, enabling a differentiated analysis of anomaly detection methods. To demonstrate the complexity of the benchmark, we analyze the data with regard to common issues of time-series anomaly detection (TSAD) benchmarks, including potential triviality and bias.",
+  "doi": "10.52202/085713-3499",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96f8c5e879c339dae55e6c2188b02a33-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/96f8c5e879c339dae55e6c2188b02a33-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/96f8c5e879c339dae55e6c2188b02a33-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_977f2451cb616e89dbb819434a932e7e",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for Geometric Deep Learning",
+  "authors": [
+    "Huang, Teresa",
+    "Stiskalek, Richard",
+    "Lee, Jun-Young",
+    "Bayer, Adrian",
+    "Margossian, Charles",
+    "Jespersen, Christian Kragh",
+    "Perez, Lucia",
+    "Saul, Lawrence",
+    "Villaescusa, Francisco"
+  ],
+  "abstract": "Cosmological simulations provide a wealth of data in the form of point clouds and directed trees. A crucial goal is to extract insights from this data that shed light on the nature and composition of the Universe. In this paper we introduce CosmoBench, a benchmark dataset curated from state-of-the-art cosmological simulations whose runs required more than 41 million core-hours and generated over two petabytes of data. CosmoBench is the largest dataset of its kind: it contains 34 thousand point clouds from simulations of dark matter halos and galaxies at three different length scales, as well as 25 thousand directed trees that record the formation history of halos on two different time scales. The data in CosmoBench can be used for multiple tasks---to predict cosmological parameters from point clouds and merger trees, to predict the velocities of individual halos and galaxies from their collective positions, and to reconstruct merger trees on finer time scales from those on coarser time scales. We provide multiple baselines on these tasks, some based on established approaches from cosmological modeling and others rooted in machine learning. For the latter, we study different approaches---from simple linear models that are minimally constrained by symmetries to much larger and more computationally-demanding models in deep learning, such as graph neural networks. We find that least-squares fits with a handful of invariant features sometimes outperform deep architectures with many more parameters and far longer training times. Still there remains tremendous potential to improve these baselines by combining machine learning and cosmological modeling in a more principled way, one that fully exploits the structure in the data. CosmoBench sets the stage for bridging cosmology and geometric deep learning at scale. We invite the community to push the frontier of scientific discovery by engaging with this challenging, high-impact dataset. The data and code are available at this URL.",
+  "doi": "10.52202/085713-3515",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/977f2451cb616e89dbb819434a932e7e-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/977f2451cb616e89dbb819434a932e7e-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/977f2451cb616e89dbb819434a932e7e-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_9811fe727c94e7ff79f701c94ed1d938",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "SciArena: An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks",
+  "authors": [
+    "Zhao, Yilun",
+    "Zhang, Kaiyan",
+    "Hu, Tiansheng",
+    "Wu, Sihong",
+    "Le Bras, Ronan",
+    "Liu, Yixin",
+    "Tang, Robert",
+    "Chang, Joseph Chee",
+    "Dodge, Jesse",
+    "Bragg, Jonathan",
+    "Zhao, Chen",
+    "Hajishirzi, Hanna",
+    "Downey, Doug",
+    "Cohan, Arman"
+  ],
+  "abstract": "We present SciArena, an open and collaborative platform for evaluating foundation models on scientific literature-grounded tasks. Unlike traditional benchmarks for scientific literature understanding and synthesis, SciArena engages the research community directly, following the Chatbot Arena evaluation approach of community voting on model comparisons.By leveraging collective intelligence, SciArena offers a community-driven evaluation of model performance on open-ended scientific tasks that demand literature-grounded, long-form responses.The platform currently supports 44 open-source and proprietary foundation models and has collected over 19,000 votes from human researchers across diverse scientific domains. Our analysis of the data collected so far confirms its high quality.We discuss the results and insights based on the model ranking leaderboard.To further promote research in building model-based automated evaluation systems for literature tasks, we release SciArena-Eval, a meta-evaluation benchmark based on our collected preference data. The benchmark measures the accuracy of models in judging answer quality by comparing their pairwise assessments with human votes. Our experiments highlight the benchmark’s challenges and emphasize the need for more reliable automated evaluation methods.",
+  "doi": "10.52202/085713-3532",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9811fe727c94e7ff79f701c94ed1d938-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9811fe727c94e7ff79f701c94ed1d938-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9811fe727c94e7ff79f701c94ed1d938-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_9a648e8e1014c2427156dcb5465cd488",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?",
+  "authors": [
+    "Press, Ori",
+    "Amos, Brandon",
+    "Zhao, Haoyu",
+    "Wu, Yikai",
+    "Ainsworth, Samuel",
+    "Krupke, Dominik",
+    "Kidger, Patrick",
+    "Sajed, Touqir",
+    "Stellato, Bartolomeo",
+    "Park, Jisun",
+    "Bosch, Nathanael",
+    "Meril, Eli",
+    "Steppi, Albert",
+    "Zharmagambetov, Arman",
+    "Zhang, Fangzhao",
+    "Pérez-Piñeiro, David",
+    "Mercurio, Alberto",
+    "Zhan, Ni",
+    "Abramovich, Talor",
+    "Lieret, Kilian",
+    "Zhang, Hanlin",
+    "Huang, Shirley",
+    "Bethge, Matthias",
+    "Press, Ofir"
+  ],
+  "abstract": "Despite progress in language model (LM) capabilities, evaluations have thus far focused on models' performance on tasks that humans have previously solved, including in programming (SWE-Bench) and mathematics (FrontierMath). We therefore propose testing models' ability to design and implement algorithms in an open-ended benchmark: We task LMs with writing code that efficiently solves computationally challenging problems in computer science, physics, and mathematics. Our AlgoTune benchmark consists of 120 tasks collected from domain experts and a framework for validating and timing LM-synthesized solution code, which is compared to reference implementations from popular open-source packages.In addition, we develop a baseline LM agent, AlgoTuner, and evaluate its performance across a suite of frontier models.AlgoTuner achieves an average 1.58x speedup against reference solvers, including methods from packages such as SciPy, scikit-learn and CVXPY.However, we find that current models fail to discover algorithmic innovations, instead preferring surface-level optimizations. We hope that AlgoTune catalyzes the development of LM agents exhibiting creative problem solving beyond state-of-the-art human performance.",
+  "doi": "10.52202/085713-3585",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9a648e8e1014c2427156dcb5465cd488-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9a648e8e1014c2427156dcb5465cd488-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9a648e8e1014c2427156dcb5465cd488-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_9a6f7d845cf12385524f0f27ab26f57e",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants",
+  "authors": [
+    "Bansal, Hritik",
+    "Israel, Daniel",
+    "Zhao, Siyan",
+    "Li, Shufan",
+    "Nguyen, Tung",
+    "Grover, Aditya"
+  ],
+  "abstract": "Recent advancements in mixed-modal generative have opened new avenues for developing unified biomedical assistants capable of analyzing biomedical images, answering complex questions about them, and generating multimodal patient reports. However, existing datasets face challenges such as small sizes, limited coverage of biomedical tasks and domains, and a reliance on narrow sources. To address these gaps, we present MedMax, a large-scale multimodal biomedical instruction-tuning dataset for mixed-modal foundation models. With 1.47 million instances, MedMax encompasses a diverse range of tasks, including interleaved image-text generation, biomedical image captioning and generation, visual chat, and report understanding. These tasks span knowledge across diverse biomedical domains, including radiology and histopathology, grounded in medical papers and YouTube videos. Subsequently, we fine-tune a mixed-modal foundation model on the MedMax dataset, achieving significant performance improvements: a 26% gain over the Chameleon model and an 18.3% improvement over GPT-4o across 12 downstream biomedical visual question-answering tasks. Finally, we introduce a unified evaluation suite for biomedical tasks to guide the development of mixed-modal biomedical AI assistants. We release the code, data, and model at https://mint-medmax.github.io/.",
+  "doi": "10.52202/085713-3588",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9a6f7d845cf12385524f0f27ab26f57e-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9a6f7d845cf12385524f0f27ab26f57e-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9a6f7d845cf12385524f0f27ab26f57e-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_9ab8bb568825d49ce31aa87b7e2f4ad7",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "SentinelKilnDB: A Large-Scale Dataset and Benchmark for OBB Brick Kiln Detection in South Asia Using Satellite Imagery",
+  "authors": [
+    "Mondal, Rishabh",
+    "Parab, Jeet",
+    "Kubadia, Heer",
+    "Dubey, Shataxi",
+    "Junagade, Shardul",
+    "Patel, Zeel Bharatkumar",
+    "Batra, Nipun"
+  ],
+  "abstract": "Air pollution was responsible for 2.6 million deaths across South Asia in 2021 alone, with brick manufacturing contributing significantly to this burden. In particular, the Indo-Gangetic Plain; a densely populated and highly polluted region spanning northern India, Pakistan, Bangladesh, and parts of Afghanistan sees brick kilns contributing 8–14% of ambient air pollution. Traditional monitoring approaches, such as field surveys and manual annotation using tools like Google Earth Pro, are time and labor-intensive. Prior ML-based efforts for automated detection have relied on costly high-resolution commercial imagery and non-public datasets, limiting reproducibility and scalability. In this work, we introduce SENTINELKILNDB, a publicly available, hand-validated benchmark of 62,671 brick kilns spanning threekiln types Fixed Chimney Bull’s Trench Kiln (FCBK), Circular FCBK (CFCBK), and Zigzag kilns - annotated with oriented bounding boxes (OBBs) across 2.8 million km2 using free and globally accessible Sentinel-2 imagery. We benchmark state-of-the-art oriented object detection models and evaluate generalization across in-region, out-of-region, and super-resolution settings. SENTINELKILNDB enables rigorous evaluation of geospatial generalization and robustness for low-resolution object detection, and provides a new testbed for ML models addressing real-world environmental and remote sensing challenges at a continental scale. Datasets and code are available in SentinelKilnDB Dataset and SentinelKilnDB Bench-mark, under the Creative Commons Attribution–NonCommercial 4.0 International License.",
+  "doi": "10.52202/085713-3593",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ab8bb568825d49ce31aa87b7e2f4ad7-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9ab8bb568825d49ce31aa87b7e2f4ad7-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ab8bb568825d49ce31aa87b7e2f4ad7-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_9d71f47d4f1d240b02bb173936e5bf01",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "ModuLM: Enabling Modular and Multimodal Molecular Relational Learning with Large Language Models",
+  "authors": [
+    "Chen, Zhuo",
+    "ZHENG, YIZHEN",
+    "Koh, Huan Yee",
+    "Xiang, Hongxin",
+    "Chen, Linjiang",
+    "Du, Wenjie",
+    "Wang, Yang"
+  ],
+  "abstract": "Molecular Relational Learning (MRL) aims to understand interactions between molecular pairs, playing a critical role in advancing biochemical research. With the recent development of large language models (LLMs), a growing number of studies have explored the integration of MRL with LLMs and achieved promising results. However, the increasing availability of diverse LLMs and molecular structure encoders has significantly expanded the model space, presenting major challenges for benchmarking. Currently, there is no LLM framework that supports both flexible molecular input formats and dynamic architectural switching. To address these challenges, reduce redundant coding, and ensure fair model comparison, we propose ModuLM, a framework designed to support flexible LLM-based model construction and diverse molecular representations. ModuLM provides a rich suite of modular components, including 8 types of 2D molecular graph encoders, 11 types of 3D molecular conformation encoders, 7 types of interaction layers, and 7 mainstream LLM backbones. Owing to its highly flexible model assembly mechanism, ModuLM enables the dynamic construction of over 50,000 distinct model configurations. In addition, we provide comprehensive benchmark results to demonstrate the effectiveness of ModuLM in supporting LLM-based MRL tasks.",
+  "doi": "10.52202/085713-3643",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9d71f47d4f1d240b02bb173936e5bf01-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9d71f47d4f1d240b02bb173936e5bf01-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9d71f47d4f1d240b02bb173936e5bf01-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_9e08a1db869a9646418e3371b24c6ae6",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "ChemX: A Collection of Chemistry Datasets for Benchmarking Automated Information Extraction",
+  "authors": [
+    "Vepreva, Anastasia",
+    "Razlivina, Julia",
+    "Eremeyeva, Mariia",
+    "Gubina, Nina",
+    "Orlova, Anastasia",
+    "Dmitrenko, Aleksei",
+    "Xenia, Kapranova",
+    "Jyakhwo, Susan",
+    "Vasilev, Nikita",
+    "Sarkisyan, Arsen",
+    "Chernyshov, Ivan",
+    "Vinogradov, Vladimir",
+    "Dmitrenko, Andrei"
+  ],
+  "abstract": "Despite recent advances in machine learning, many scientific discoveries in chemistry still rely on manually curated datasets extracted from the scientific literature. Automation of information extraction in specialized chemistry domains has the potential to scale up machine learning applications and improve the quality of predictions, enabling data-driven scientific discoveries at a faster pace. In this paper, we present ChemX, a collection of 10 benchmarking datasets across several domains of chemistry providing a reliable basis for evaluating and fine-tuning automated information extraction methods. The datasets encompassing various properties of small molecules and nanomaterials have been manually extracted from peer-reviewed publications and systematically validated by domain experts through a cross-verification procedure allowing for identification and correction of errors at sources. In order to demonstrate the utility of the resulting datasets, we evaluate the extraction performance of the state-of-the-art large language models (LLMs). Moreover, we design our own agentic approach to take full control of the document preprocessing before LLM-based information extraction. Finally, we apply the recently emerged multi-agent systems specialized in chemistry to compare performance against the strong baselines. Our empirical results highlight persistent challenges in chemical information extraction, particularly in handling domain-specific terminology, complex tabular and schematic formats, and context-dependent ambiguities. We discuss the importance of expert data validation, the nuances of the evaluation pipeline, and the prospects of automated information extraction in chemistry. Finally, we provide open documentation including standardized schemas and provenance metadata, as well as the code and other materials to ensure reproducibility. ChemX is poised to advance automatic information extraction in chemistry by challenging the quality and generalization capabilities of existing methods, as well as providing insights into evaluation strategies.",
+  "doi": "10.52202/085713-3661",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9e08a1db869a9646418e3371b24c6ae6-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9e08a1db869a9646418e3371b24c6ae6-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9e08a1db869a9646418e3371b24c6ae6-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_a23760ba51036d530a2656c3835f826c",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "Measuring Scientific Capabilities of Language Models with a Systems Biology Dry Lab",
+  "authors": [
+    "Duan, Haonan",
+    "Lu, Stephen",
+    "Harrigan, Caitlin F",
+    "Desai, Nishkrit",
+    "Lu, Jiarui",
+    "Koziarski, Michał",
+    "Cotta, Leonardo",
+    "Maddison, Chris"
+  ],
+  "abstract": "Designing experiments and result interpretations are core scientific competencies, particularly in biology, where researchers perturb complex systems to uncover the underlying systems. Recent efforts to evaluate the scientific capabilities of large language models (LLMs) fail to test these competencies because wet-lab experimentation is prohibitively expensive: in expertise, time and equipment. We introduce SciGym, a first-in-class benchmark that assesses LLMs' iterative experiment design and analysis abilities in open-ended scientific discovery tasks. SciGym overcomes the challenge of wet-lab costs by running a dry lab of biological systems. These models, encoded in Systems Biology Markup Language, are efficient for generating simulated data, making them ideal testbeds for experimentation on realistically complex systems. We evaluated six frontier LLMs on 137 small systems, and released a total of 350 systems at https://huggingface.co/datasets/h4duan/scigym-sbml. Our evaluation shows that while more capable models demonstrated superior performance, all models' performance declined significantly as system complexity increased, suggesting substantial room for improvement in the scientific capabilities of LLM agents.",
+  "doi": "10.52202/085713-3733",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a23760ba51036d530a2656c3835f826c-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a23760ba51036d530a2656c3835f826c-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a23760ba51036d530a2656c3835f826c-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_a28e6b629b8c1c724dfec21441ecb49b",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "Towards Automated Petrography",
+  "authors": [
+    "Chacon, Isai Daniel",
+    "Ruiz Puentes, Paola",
+    "Pearse, Jillian",
+    "Arbelaez, Pablo"
+  ],
+  "abstract": "Petrography is a branch of geology that analyzes the mineralogical composition of rocks from microscopical thin section samples. It is essential for understanding rock properties across geology, archaeology, engineering, mineral exploration, and the oil industry. However, petrography is a labor-intensive task requiring experts to conduct detailed visual examinations of thin section samples through optical polarization microscopes, thus hampering scalability and highlighting the need for automated techniques. To address this challenge, we introduce the Large-scale Imaging and Thin section Optical-polarization Set (LITHOS), the largest and most diverse publicly available experimental framework for automated petrography. LITHOS includes 211,604 high-resolution RGB patches of polarized light and 105,802 expert-annotated grains across 25 mineral categories. Each annotation consists of the mineral class, spatial coordinates, and expert-defined major and minor axes represented as intersecting vector paths, capturing grain geometry and orientation. We evaluate multiple deep learning techniques for mineral classification in LITHOS and propose a dual-encoder transformer architecture that integrates both polarization modalities as a strong baseline for future reference. Our method consistently outperforms single-polarization models, demonstrating the value of polarization synergy in mineral classification. We have made the LITHOS Benchmark publicly available, comprising our dataset, code, and pretrained models, to foster reproducibility and further research in automated petrographic analysis.",
+  "doi": "10.52202/085713-3740",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a28e6b629b8c1c724dfec21441ecb49b-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a28e6b629b8c1c724dfec21441ecb49b-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a28e6b629b8c1c724dfec21441ecb49b-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_a2c548b2ed3141400d86a235eaa6fad0",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "DermaCon-IN: A Multiconcept-Annotated Dermatological Image Dataset of Indian Skin Disorders for Clinical AI Research",
+  "authors": [
+    "Madarkar, Shanawaj Sahebpatel",
+    "Madarkar, Mahajabeen",
+    "Venkatesh, Madhumitha",
+    "PRAKASH, TELI",
+    "Mopuri, Konda Reddy",
+    "MV, Vinaykumar",
+    "Sathwika, Kota",
+    "Kasturi, Adarsh",
+    "Raj, Gandla",
+    "Supranitha, Padharthi",
+    "Udai, Harsh"
+  ],
+  "abstract": "Artificial intelligence is poised to augment dermatological care by enabling scalable image-based diagnostics. Yet, the development of robust and equitable models remains hindered by datasets that fail to capture the clinical and demographic complexity of real-world practice. This complexity stems from region-specific disease distributions, wide variation in skin tones, and the underrepresentation of outpatient scenarios from non-Western populations. We introduce DermaCon-IN, a prospectively curated dermatology dataset comprising 5,450 clinical images from 2,993 patients across outpatient clinics in South India. Each image is annotated by board-certified dermatologists with 245 distinct diagnoses, structured under a hierarchical, etiology-based taxonomy adapted from Rook’s classification. The dataset captures a wide spectrum of dermatologic conditions and tonal variation commonly seen in Indian outpatient care. We benchmark a range of architectures, including convolutional models (ResNet, DenseNet, EfficientNet), transformer-based models (ViT, MaxViT, Swin), and Concept Bottleneck Models to establish baseline performance and explore how anatomical and concept-level cues may be integrated. These results are intended to guide future efforts toward interpretable and clinically realistic models. DermaCon-IN provides a scalable and representative foundation for advancing dermatology AI in real-world settings.",
+  "doi": "10.52202/085713-3742",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a2c548b2ed3141400d86a235eaa6fad0-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a2c548b2ed3141400d86a235eaa6fad0-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a2c548b2ed3141400d86a235eaa6fad0-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_a3080b8e00bed560c433100a33ca6b2d",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "EyeBench: Predictive Modeling from Eye Movements in Reading",
+  "authors": [
+    "Shubi, Omer",
+    "Reich, David Robert",
+    "Gruteke Klein, Keren",
+    "Angel, Yuval",
+    "Prasse, Paul",
+    "Jäger, Lena A.",
+    "Berzak, Yevgeni"
+  ],
+  "abstract": "We present EyeBench, the first benchmark designed to evaluate machine learning models that decode cognitive and linguistic information from eye movements during reading. EyeBench offers an accessible entry point to the challenging and underexplored domain of modeling eye tracking data paired with text, aiming to foster innovation at the intersection of multimodal AI and cognitive science. The benchmark provides a standardized evaluation framework for predictive models, covering a diverse set of datasets and tasks, ranging from assessment of reading comprehension to detection of developmental dyslexia. Progress on the EyeBench challenge will pave the way for both practical real-world applications, such as adaptive user interfaces and personalized education, and scientific advances in understanding human language processing. The benchmark is released as an open-source software package which includes data downloading and harmonization scripts, baselines and state-of-the-art models, as well as evaluation code, publicly available at https://github.com/EyeBench/eyebench.",
+  "doi": "10.52202/085713-3749",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a3080b8e00bed560c433100a33ca6b2d-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a3080b8e00bed560c433100a33ca6b2d-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a3080b8e00bed560c433100a33ca6b2d-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
+},
+{
+  "id": "proceedings_a38a009bb015775b7685b5ef3c206310",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "datasets_and_benchmarks_track",
+  "title": "LISAt: Language-Instructed Segmentation Assistant for Satellite Imagery",
+  "authors": [
+    "Quenum, Jerome",
+    "Hsieh, Wen-Han",
+    "Wu, Tsung-Han (Patrick)",
+    "Gupta, Ritwik",
+    "Darrell, Trevor",
+    "Chan, David"
+  ],
+  "abstract": "Segmentation models can recognize a pre-defined set of objects in images. However, segmentation models capable of \"reasoning\" over complex user queries that implicitly refer to multiple objects of interest remain underexplored, especially in the geospatial domain. Recent advances in \"reasoning segmentation\"---generating segmentation masks from complex, implicit query text---demonstrate the potential of vision-language models (VLMs) to reason across an open domain of objects. Yet, our experiments reveal that these models struggle when applied to the unique challenges of remote-sensing imagery. To address this gap, we introduce a new dataset which consists of: GRES, a curated geospatial reasoning-segmentation dataset with 27,615 annotations across 9,205 images, and PreGRES, a collection of existing datasets to make up a large-scale multimodal pretraining corpus with over 1M question-answer pairs across 119,279 images. We propose an initial benchmark model, LISAt, a VLM for geospatial analysis that can describe complex remote-sensing scenes, answer detailed queries, and segment objects based on natural-language prompts. LISAt establishes a strong initial geospatial benchmark, outperforming prior foundation models such as RS-GPT4V by 10.04\\% (BLEU-4) on visual description tasks and surpassing open-domain models on geospatial reasoning segmentation by 143.36\\% (gIoU). Our model, dataset, and code are available on our project page: https://lisat-bair.github.io/LISAt/.",
+  "doi": "10.52202/085713-3756",
+  "pages": null,
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a38a009bb015775b7685b5ef3c206310-Abstract-Datasets_and_Benchmarks_Track.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a38a009bb015775b7685b5ef3c206310-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "published": "2026-04-23",
+  "volume": "38",
+  "source": "neurips_official_proceedings",
+  "formal_conference_year": 2025,
+  "catalogue_supplement": {
+    "owner": "李雪婷",
+    "checked_at": "2026-11-19T07:57:36.987623+00:00",
+    "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a38a009bb015775b7685b5ef3c206310-Abstract-Datasets_and_Benchmarks_Track.html"
+    ],
+    "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+  }
 }
 ]
