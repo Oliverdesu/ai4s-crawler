@@ -42316,7 +42316,7 @@
             "checked_at": "2026-11-19T12:46:02.575409+00:00",
             "unresolved": 0
           },
-          "coverage_note": "参考目录302条，逐身份对账原289条；补74条正式2025记录，原61条范围外记录保留并逐条核官网正式卷期。全年题名召回及边界原摘要/必要段落复核，当前4科学候选已审核，无待定。非候选原摘要不强求补齐。",
+          "coverage_note": "参考目录302条，逐身份对账原289条；补74条正式2025记录，原61条范围外记录保留并逐条核官网正式卷期。全年题名召回及边界原摘要/必要段落复核，当前4科学候选已审核，无待定。非候选原摘要不强求补齐。\n原文无独立摘要1篇，已依据原始正文核实AI4S并保留纳入；原始空值保留，不再计作纳入缺摘要待办。",
           "evidence_urls": [
             "https://api.crossref.org/journals/0268-3369/works?filter=from-print-pub-date%3A2025-01-01%2Cuntil-print-pub-date%3A2025-12-31&rows=1000&cursor=%2A",
             "https://api.crossref.org/journals/0268-3369/works?filter=from-print-pub-date%3A2025-01-01%2Cuntil-print-pub-date%3A2025-12-31&rows=1000&cursor=%2A",
@@ -42336,7 +42336,7 @@
           ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
           "final_included": 4,
-          "final_missing_abstract": 1,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
@@ -42345,6 +42345,9 @@
           "abstract_closed_by_owner": 0,
           "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0,
+          "final_originally_missing_abstract": 1,
+          "final_no_abstract_full_text_reviewed": 1,
+          "final_abstract_metric_basis": "Unresolved included abstracts; validated publisher-no-abstract body reviews are reported separately.",
           "collection_state_resolution": {
             "status": "resolved_for_candidate_review",
             "original_state": "abstract_incomplete",
@@ -76190,6 +76193,13 @@
       "checked_at": "2026-11-19T13:08:18.888680+00:00",
       "input_commit": "75b2da2d5f27893edea8a4016919d2a4d81fb0eb",
       "reason": "Current personal screening checkpoint; Twenty-three complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T13:22:34.670833+00:00",
+      "reason": "Validated original-body review display metric; preserve null abstract and physical missingness. Validator63f1fb0; public main PR276 merged.",
       "unchanged_other_owners_and_years": true
     }
   ]
