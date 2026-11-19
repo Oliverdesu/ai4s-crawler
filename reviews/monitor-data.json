@@ -43373,23 +43373,23 @@
           "papers": 5286,
           "papers_missing_abstract": 0,
           "snapshot_candidates": 351,
-          "candidates": 736,
+          "candidates": 769,
           "missing_abstract": 0,
           "official_total": 5887,
           "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
           "reference_check": null,
-          "coverage_note": "初始351候选及另核181条分轨漏筛、189条Main漏筛均已审，现736候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–1399，已查范围的所选线索均已核完，后续第1400–5285条目录尚待继续，不声明整源完成。",
+          "coverage_note": "初始351候选及另核181条分轨漏筛、222条Main漏筛均已审，现769候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–1599，已查范围线索剩余0条，后续目录尚待继续，不声明整源完成。",
           "evidence_urls": [
             "https://proceedings.neurips.cc/paper_files/paper/2025"
           ],
           "decisions": {
-            "include": 685,
+            "include": 718,
             "exclude": 51,
             "pending": 0,
             "unreviewed": 0
           },
           "issues": [
-            "Main目录第1400–5285条题名尚待科学召回；已查0–1399条所选线索均已结案。"
+            "Main5286全目录科学召回尚未完成。"
           ],
           "actions": [
             "继续Main完整目录逐题名科学召回，核查选定线索摘要及必要正文，只补已核实科学贡献。",
@@ -43400,7 +43400,7 @@
             "reviews/2025/feedback/zch66883-lixueting.json"
           ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": 685,
+          "final_included": 718,
           "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
@@ -75793,6 +75793,14 @@
       "year": 2025,
       "checked_at": "2026-11-19T08:57:54.796400+00:00",
       "input_commit": "2cc946d6cfa394155b31e686c53c0465d83aab5b",
+      "reason": "Current personal screening checkpoint; nine complete sources and one partially reviewed conference. Remaining work is retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T09:06:07.117321+00:00",
+      "input_commit": "64e60df28483b393d85ec5f22bda0fe20de5c040",
       "reason": "Current personal screening checkpoint; nine complete sources and one partially reviewed conference. Remaining work is retained.",
       "unchanged_other_owners_and_years": true
     }
