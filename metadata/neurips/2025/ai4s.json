@@ -18144,5 +18144,909 @@
       ],
       "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
     }
+  },
+  {
+    "id": "proceedings_3eec719ab86712d32b065c5977f94ad0",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CPSea: Large-scale cyclic peptide-protein complex dataset for machine learning in cyclic peptide design",
+    "authors": [
+      "Yang, Ziyi",
+      "Xie, Hanyuan",
+      "Jia, Yinjun",
+      "Kong, Xiangzhe",
+      "Zheng, Jiqing",
+      "Zhang, Ziting",
+      "Liu, Yang",
+      "Liu, Lei",
+      "Lan, Yanyan"
+    ],
+    "abstract": "Cyclic peptides exhibit better binding affinity and proteolytic stability compared to their linear counterparts. However, the development of cyclic peptide design models is hindered by the scarcity of data. To address this, we introduce **CPSea**(**C**yclic **P**eptide **Sea**), a dataset of 2.71 million cyclic peptide-receptor complexes, curated through systematic mining of the AlphaFold Database (AFDB). Our pipeline extracts compact domains from AFDB, identifies cyclization sites using the $\\beta$-carbon (C$_\\beta$) distance thresholds, and applies multi-stage filtering to ensure structure fidelity and binding compatibility. Compared with experimental data of cyclic peptides, CPSea shows similar distributions in metrics on structure fidelity and wet-lab compatibility. To our knowledge, CPSea is the largest cyclic peptide-receptor dataset to date, enabling end-to-end model training for the first time. The dataset also showcases the feasibility of simulating inter-chain interactions using intra-chain interactions, expanding available resources for machine-learning models on protein-protein interactions. The dataset and relevant scripts are accessible on GitHub ([https://github.com/YZY010418/CPSea](https://github.com/YZY010418/CPSea)).",
+    "doi": "10.52202/085713-1479",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3eec719ab86712d32b065c5977f94ad0-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3eec719ab86712d32b065c5977f94ad0-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3eec719ab86712d32b065c5977f94ad0-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_40d45b1e23d00d5895e65778e85cf8ee",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "EconGym: A Scalable AI Testbed with Diverse Economic Tasks",
+    "authors": [
+      "Mi, Qirui",
+      "Yang, Qipeng",
+      "Fan, Zijun",
+      "Fan, Wentian",
+      "Ma, Heyang",
+      "Ma, Chengdong",
+      "Xia, Siyu",
+      "An, Bo",
+      "Wang, Jun",
+      "Zhang, Haifeng"
+    ],
+    "abstract": "Artificial intelligence (AI) has become a powerful tool for economic research, enabling large-scale simulation and policy optimization. However, applying AI effectively requires simulation platforms for scalable training and evaluation—yet existing environments remain limited to simplified, narrowly scoped tasks, falling short of capturing complex economic challenges such as demographic shifts, multi-government coordination, and large-scale agent interactions.To address this gap, we introduce EconGym, a scalable and modular testbed that connects diverse economic tasks with AI algorithms. Grounded in rigorous economic modeling, EconGym implements 11 heterogeneous role types (e.g., households, firms, banks, governments), their interaction mechanisms, and agent models with well-defined observations, actions, and rewards. Users can flexibly compose economic roles with diverse agent algorithms to simulate rich multi-agent trajectories across 25+ economic tasks for AI-driven policy learning and analysis.Experiments show that EconGym supports diverse and cross-domain tasks—such as coordinating fiscal, pension, and monetary policies—and enables benchmarking across AI, economic methods, and hybrids. Results indicate that richer task composition and algorithm diversity expand the policy space, while AI agents guided by classical economic methods perform best in complex settings. EconGym also scales to 100k agents with high realism and efficiency.",
+    "doi": "10.52202/085713-1515",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/40d45b1e23d00d5895e65778e85cf8ee-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/40d45b1e23d00d5895e65778e85cf8ee-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/40d45b1e23d00d5895e65778e85cf8ee-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_42abcf9dffa48ca44fea1c497539a914",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "PhysGym: Benchmarking LLMs in Interactive Physics Discovery with Controlled Priors",
+    "authors": [
+      "Chen, Yimeng",
+      "Piękos, Piotr",
+      "Ostaszewski, Mateusz",
+      "Laakom, Firas",
+      "Schmidhuber, Jürgen"
+    ],
+    "abstract": "Evaluating the scientific discovery capabilities of large language model based agents, particularly how they cope with varying environmental complexity and utilize prior knowledge, requires specialized benchmarks currently lacking in the landscape. To address this gap, we introduce PhysGym, a novel benchmark suite and simulation platform for rigorously assessing LLM-based scientific reasoning in interactive physics environments. PhysGym's primary contribution lies in its sophisticated control over the level of prior knowledge provided to the agent. This allows researchers to dissect agent performance along axes including the complexity of the problem and the prior knowledge levels. The benchmark comprises a suite of interactive simulations, where agents must actively probe environments, gather data sequentially under constraints and formulate hypotheses about underlying physical laws. PhysGym provides standardized evaluation protocols and metrics for assessing hypothesis accuracy and model fidelity. We demonstrate the benchmark's utility by presenting results from baseline LLMs, showcasing its ability to differentiate capabilities based on varying priors and task complexity.",
+    "doi": "10.52202/085713-1556",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/42abcf9dffa48ca44fea1c497539a914-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/42abcf9dffa48ca44fea1c497539a914-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/42abcf9dffa48ca44fea1c497539a914-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_436fb0fa57c75e0d2063b5bc19a21da1",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "PSI: A Benchmark for Human Interpretation and Response in Traffic Interactions",
+    "authors": [
+      "JING, TAOTAO",
+      "Chen, Tina",
+      "Tian, Renran",
+      "Chen, Yaobin",
+      "Domeyer, Joshua",
+      "Toyoda, Heishiro",
+      "Sherony, Rini",
+      "Ding, Zhengming"
+    ],
+    "abstract": "Accurately modeling pedestrian intention and understanding driver decision-making processes are critical for the development of safe and socially aware autonomous driving systems. However, existing datasets primarily emphasize observable behavior, offering limited insight into the underlying causal reasoning that informs human interpretation and response during traffic interactions. To address this gap, we introduce PSI, a benchmark dataset that captures the dynamic evolution of pedestrian crossing intentions from the driver’s perspective, enriched with human-annotated textual explanations that reflect the reasoning behind intention estimation and driving decision making. These annotations offer a unique foundation for developing and benchmarking models that combine predictive performance with interpretable and human-aligned reasoning. PSI supports standardized tasks and evaluation protocols across multiple dimensions, including pedestrian intention prediction, driver decision modeling, reasoning generation, and trajectory forecasting and more. By enabling causal and interpretable evaluation, PSI advances research toward autonomous systems that can reason, act, and explain in alignment with human cognitive processes.",
+    "doi": "10.52202/085713-1574",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/436fb0fa57c75e0d2063b5bc19a21da1-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/436fb0fa57c75e0d2063b5bc19a21da1-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/436fb0fa57c75e0d2063b5bc19a21da1-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_4927dd556ff6e49671e3a77ac1f12487",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "OligoGym: Curated Datasets and Benchmarks for Oligonucleotide Drug Discovery",
+    "authors": [
+      "Rotrattanadumrong, Rachapun",
+      "De Donno, Carlo"
+    ],
+    "abstract": "Oligonucleotide therapeutics offer great potential to address previously undruggable targets and enable personalized medicine. However, their progress is often hindered by insufficient safety and efficacy profiles. Predictive modeling and machine learning could significantly accelerate oligonucleotide drug discovery by identifying suboptimal compounds early on, but their application in this area lags behind other modalities. A key obstacle to the adoption of machine learning in the field is the scarcity of readily accessible and standardized datasets for model development, as data are often scattered across diverse experiments with inconsistent molecular representations. To overcome this challenge, we introduce OligoGym, a curated collection of standardized, machine learning-ready datasets encompassing various oligonucleotide therapeutic modalities and endpoints. We used OligoGym to benchmark diverse classical and deep learning methods, establishing performance baselines for each dataset across different featurization techniques, model configurations, and splitting strategies. Our work represents a crucial first step in creating a more unified framework for oligonucleotide therapeutic dataset generation and model training.",
+    "doi": "10.52202/085713-1703",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4927dd556ff6e49671e3a77ac1f12487-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4927dd556ff6e49671e3a77ac1f12487-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4927dd556ff6e49671e3a77ac1f12487-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_4a70f0c8443593ca59a88ebc8a937ed6",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "ConnectomeBench: Can LLMs proofread the connectome?",
+    "authors": [
+      "Brown, Jeff",
+      "Kirjner, Andrew",
+      "Vivekananthan, Annika",
+      "Boyden, Edward"
+    ],
+    "abstract": "Connectomics—the mapping of neural connections in an organism's brain—currently requires extraordinary human effort to proofread the data collected from imaging and machine-learning assisted segmentation. With the growing excitement around using AI agents to automate important scientific tasks, we explore whether current AI systems can perform multiple tasks necessary for data proofreading. We introduce ConnectomeBench, a multimodal benchmark evaluating large language model (LLM) capabilities in three critical proofreading tasks: segment type identification, split error correction, and merge error detection. Using expert annotated data from two large open-source datasets—a cubic millimeter of mouse visual cortex and the complete Drosophila brain—we evaluate proprietary multimodal LLMs including Claude 3.7/4 Sonnet, o4-mini, GPT-4.1, GPT-4o, as well as open source models like InternVL-3 and NVLM. Our results demonstrate that current models achieve surprisingly high performance in segment identification (52-82\\% balanced accuracy vs. 20-25\\% chance) and binary/multiple choice split error correction (75-85\\% accuracy vs. 50\\% chance) while generally struggling on merge error identification tasks. Overall, while the best models still lag behind expert performance, they demonstrate promising capabilities that could eventually enable them to augment and potentially replace human proofreading in connectomics.",
+    "doi": "10.52202/085713-1728",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4a70f0c8443593ca59a88ebc8a937ed6-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4a70f0c8443593ca59a88ebc8a937ed6-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4a70f0c8443593ca59a88ebc8a937ed6-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_4c846260c298d8f1f3d50c101627d932",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "PSBench: a large-scale benchmark for estimating the accuracy of protein complex structural models",
+    "authors": [
+      "Neupane, Pawan",
+      "Liu, Jian",
+      "Cheng, Jianlin"
+    ],
+    "abstract": "Predicting protein complex structures is essential for protein function analysis, protein design, and drug discovery. While AI methods like AlphaFold can predict accurate structural models for many protein complexes, reliably estimating the quality of these predicted models (estimation of model accuracy, or EMA) for model ranking and selection remains a major challenge. A key barrier to developing effective machine learning-based EMA methods is the lack of large, diverse, and well-annotated datasets for training and evaluation. To address this gap, we introduce PSBench, a benchmark suite comprising five large-scale, labeled datasets, four of which were generated during the 15th and 16th community-wide Critical Assessment of Protein Structure Prediction (CASP15 and CASP16), and one curated for new Protein Data Bank (PDB) entries deposited between July 2024 and August 2025. PSBench includes over 1.4 million structural models covering a wide range of protein sequence lengths, complex stoichiometries, functional classes, and modeling difficulties. Each model is annotated with multiple complementary quality scores at the global, local, and interface levels. PSBench also provides multiple evaluation metrics and baseline EMA methods to facilitate rigorous comparisons. To demonstrate PSBench’s utility, we trained and evaluated GATE, a graph transformer-based EMA method, on the CASP15 data. GATE was blindly tested in CASP16 (2024), where it ranked among the top-performing EMA methods. These results highlight PSBench as a valuable resource for advancing EMA research in protein complex modeling. PSBench is publicly available at: https://github.com/BioinfoMachineLearning/PSBench.",
+    "doi": "10.52202/085713-1765",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4c846260c298d8f1f3d50c101627d932-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4c846260c298d8f1f3d50c101627d932-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4c846260c298d8f1f3d50c101627d932-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_4d4e1e0ce7e201cfa738b21a48d38fdc",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "A Dataset for Distilling Knowledge Priors from Literature for Therapeutic Design",
+    "authors": [
+      "Jones, Haydn",
+      "Maus, Natalie",
+      "Ludan, Josh magnus",
+      "Huan, Maggie",
+      "Liang, Jiaming",
+      "Der Torossian Torres, Marcelo",
+      "Liang, Jiatao",
+      "Ives, Zachary",
+      "Barash, Yoseph",
+      "de la Fuente-Nunez, Cesar",
+      "Gardner, Jacob",
+      "Yatskar, Mark"
+    ],
+    "abstract": "AI-driven discovery can greatly reduce design time and enhance new therapeutics' effectiveness. Models using simulators explore broad design spaces but risk violating implicit constraints due to a lack of experimental priors. For example, in a new analysis across diverse models on the GuacaMol benchmark using supervised classifiers, over 60\\% of molecules proposed had a high probability of being mutagenic. In this work, we introduce Medex, a dataset of priors for design problems extracted from literature describing compounds used in lab settings. It is constructed with LLM pipelines for discovering therapeutic entities in relevant paragraphs and summarizing information in concise fair-use facts. Medex consists of 32.3 million pairs of natural language facts, and appropriate entity representations (i.e. SMILES or RefSeq IDs). To demonstrate the potential of the data, we train LLM, CLIP, and LLaVA architectures to reason jointly about text and design targets and evaluate on tasks from the Therapeutic Data Commons (TDC). Medex is highly effective for creating models with strong priors: in supervised prediction problems that use our data for pretraining, our best models with 15M learnable parameters outperform larger 2B TxGemma on both regression and classification TDC tasks, and perform comparably to 9B models on average. Models built with Medex can be used as constraints while optimizing for novel molecules in GuacaMol, resulting in proposals that are safer and nearly as effective. We release our dataset on HuggingFace at https://huggingface.co/datasets/DocAndDesign/Medex, and will provide expanded versions as the available literature grows.",
+    "doi": "10.52202/085713-1782",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d4e1e0ce7e201cfa738b21a48d38fdc-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4d4e1e0ce7e201cfa738b21a48d38fdc-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d4e1e0ce7e201cfa738b21a48d38fdc-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_4d6549ae9aa0ccfcfef1ad051f1278d8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "SutureBot: A Precision Framework & Benchmark For Autonomous End-to-End Suturing",
+    "authors": [
+      "Haworth, Jesse",
+      "Chen, Juo-Tung",
+      "Nelson, Nigel",
+      "Kim, Ji Woong",
+      "Moghani, Masoud",
+      "Finn, Chelsea",
+      "Krieger, Axel"
+    ],
+    "abstract": "Robotic suturing is a prototypical long-horizon dexterous manipulation task, requiring coordinated needle grasping, precise tissue penetration, and secure knot tying. Despite numerous efforts toward end-to-end autonomy, a fully autonomous suturing pipeline has yet to be demonstrated on physical hardware. We introduce SutureBot: an autonomous suturing benchmark on the da Vinci Research Kit (dVRK), spanning needle pickup, tissue insertion, and knot tying. To ensure repeatability, we release a high-fidelity dataset comprising 1,890 suturing demonstrations. Furthermore, we propose a goal-conditioned framework that explicitly optimizes insertion-point precision, improving targeting accuracy by 59\\%-74\\% over a task-only baseline. To establish this task as a benchmark for dexterous imitation learning, we evaluate state-of-the-art vision-language-action (VLA) models, including $\\pi_0$, GR00T N1, OpenVLA-OFT, and multitask ACT, each augmented with a high-level task-prediction policy. Autonomous suturing is a key milestone toward achieving robotic autonomy in surgery. These contributions support reproducible evaluation and development of precision-focused, long-horizon dexterous manipulation policies necessary for end-to-end suturing. Dataset is available at: \\href{https://huggingface.co/datasets/jchen396/suturebot}{Hugging Face}",
+    "doi": "10.52202/085713-1788",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d6549ae9aa0ccfcfef1ad051f1278d8-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4d6549ae9aa0ccfcfef1ad051f1278d8-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d6549ae9aa0ccfcfef1ad051f1278d8-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5048dada2e09b756fc139fa810cece30",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Open-Insect: Benchmarking Open-Set Recognition of Novel Species in Biodiversity Monitoring",
+    "authors": [
+      "Chen, Yuyan",
+      "Lang, Nico",
+      "Schmidt, B.",
+      "Jain, Aditya",
+      "Basset, Yves",
+      "Beery, Sara",
+      "Larrivee, Maxim",
+      "Rolnick, David"
+    ],
+    "abstract": "Global biodiversity is declining at an unprecedented rate, yet little information isknown about most species and how their populations are changing. Indeed, some90% Earth’s species are estimated to be completely unknown. Machine learning hasrecently emerged as a promising tool to facilitate long-term, large-scale biodiversitymonitoring, including algorithms for fine-grained classification of species fromimages. However, such algorithms typically are not designed to detect examplesfrom categories unseen during training – the problem of open-set recognition(OSR) – limiting their applicability for highly diverse, poorly studied taxa such asinsects. To address this gap, we introduce Open-Insect, a large-scale, fine-graineddataset to evaluate unknown species detection across different geographic regionswith varying difficulty. We benchmark 38 OSR algorithms across three categories:post-hoc, training-time regularization, and training with auxiliary data, finding thatsimple post-hoc approaches remain a strong baseline. We also demonstrate how toleverage auxiliary data to improve species discovery in regions with limited data.Our results provide timely insights to guide the development of computer visionmethods for biodiversity monitoring and species discovery.",
+    "doi": "10.52202/085713-1859",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5048dada2e09b756fc139fa810cece30-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5048dada2e09b756fc139fa810cece30-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5048dada2e09b756fc139fa810cece30-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_505dc6a661fe8dcffaac4c3621eea69d",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "ChemPile: A 250 GB Diverse and Curated Dataset for Chemical Foundation Models",
+    "authors": [
+      "Mirza, Adrian",
+      "Alampara, Nawaf",
+      "Ríos-García, Martiño",
+      "Abdelalim, Mohamed",
+      "Butler, Jack",
+      "Connolly, Bethany",
+      "Dogan, Tunca",
+      "Nezhurina, Marianna",
+      "Şen, Bünyamin",
+      "Tirunagari, Santosh",
+      "Worrall, Mark",
+      "Young, Adamo",
+      "Schwaller, Philippe",
+      "Pieler, Michael",
+      "Jablonka, Kevin Maik"
+    ],
+    "abstract": "Foundation models have shown remarkable success across scientific domains, yet their impact in chemistry remains limited due to the absence of diverse, large-scale, high-quality datasets that reflect the field's multifaceted nature. We present the ChemPile, an open dataset containing over 75 billion tokens of curated chemical data, specifically built for training and evaluating general-purpose models in the chemical sciences. The dataset mirrors the human learning journey through chemistry---from educational foundations to specialized expertise---spanning multiple modalities and content types including structured data in diverse chemical representations (SMILES, SELFIES, IUPAC names, InChI, molecular renderings), scientific and educational text, executable code, and chemical images. ChemPile integrates foundational knowledge (textbooks, lecture notes),  specialized expertise (scientific articles and language-interfaced data), visual understanding (molecular structures, diagrams), and advanced reasoning (problem-solving traces and code)---mirroring how human chemists develop expertise through diverse learning materials and experiences. Constructed through hundreds of hours of expert curation, the ChemPile captures both foundational concepts and domain-specific complexity. We provide standardized training, validation, and test splits, enabling robust benchmarking. ChemPile is openly released via HuggingFace with a consistent API, permissive license, and detailed documentation. We hope the ChemPile will serve as a catalyst for chemical AI, enabling the development of the next generation of chemical foundation models.",
+    "doi": "10.52202/085713-1861",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/505dc6a661fe8dcffaac4c3621eea69d-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/505dc6a661fe8dcffaac4c3621eea69d-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/505dc6a661fe8dcffaac4c3621eea69d-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5089f437efe0333903559a1010904579",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CoralVQA: A Large-Scale Visual Question Answering Dataset for Coral Reef Image Understanding",
+    "authors": [
+      "han, hongyong",
+      "Wang, Wei",
+      "Zhang, Gaowei",
+      "Li, Mingjie",
+      "Wang, Yi"
+    ],
+    "abstract": "Coral reefs are vital yet vulnerable ecosystems that require continuous monitoring to support conservation. While coral reef images provide essential information in coral monitoring, interpreting such images remains challenging due to the need for domain expertise. Visual Question Answering (VQA), powered by Large Vision-Language Models (LVLMs), has great potential in user-friendly interaction with coral reef images. However, applying VQA to coral imagery demands a dedicated dataset that addresses two key challenges: domain-specific annotations and multidimensional questions. In this work, we introduce CoralVQA, the first large-scale VQA dataset for coral reef analysis. It contains 12,805 real-world coral images from 67 coral genera collected from 3 oceans, along with 277,653 question-answer pairs that comprehensively assess ecological and health-related conditions. To construct this dataset, we develop a semi-automatic data construction pipeline in collaboration with marine biologists to ensure both scalability and professional-grade data quality. CoralVQA presents novel challenges and provides a comprehensive benchmark for studying vision-language reasoning in the context of coral reef images. By evaluating several state-of-the-art LVLMs, we reveal key limitations and opportunities. These insights form a foundation for future LVLM development, with a particular emphasis on supporting coral conservation efforts.",
+    "doi": "10.52202/085713-1863",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5089f437efe0333903559a1010904579-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5089f437efe0333903559a1010904579-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5089f437efe0333903559a1010904579-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_53384f2090c6a5cac952c598fd67992f",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "AutoHood3D: A Multi‑Modal Benchmark for Automotive Hood Design and Fluid–Structure Interaction",
+    "authors": [
+      "Sharma, Vansh",
+      "Ganesh, Harish",
+      "Akram, Maryam",
+      "Liu, Wanjiao",
+      "Raman, Venkat"
+    ],
+    "abstract": "This study presents a new high-fidelity multi-modal dataset containing 16000+ geometric variants of automotive hoods useful for machine learning (ML) applications such as engineering component design and process optimization, and multiphysics system surrogates. The dataset is centered on a practical multiphysics problem—hood deformation from fluid entrapment and inertial loading during rotary‑dip painting. Each hood is numerically modeled with a coupled Large-Eddy Simulation (LES)-Finite Element Analysis (FEA), using 1.2M cells in total to ensure spatial and temporal accuracy. The dataset provides time-resolved physical fields, along with STL meshes and structured natural language prompts for text-to-geometry synthesis. Existing datasets are either confined to 2D cases, exhibit limited geometric variations, or lack the multi‑modal annotations and data structures—shortcomings we address with AutoHood3D. We validate our numerical methodology, establish quantitative baselines across five neural architectures, and demonstrate systematic surrogate errors in displacement and force predictions. These findings motivate the design of novel approaches and multiphysics loss functions that enforce fluid–solid coupling during model training. By providing fully reproducible workflows, AutoHood3D enables physics‑aware ML development, accelerates generative‑design iteration, and facilitates the creation of new FSI benchmarks.",
+    "doi": "10.52202/085713-1926",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/53384f2090c6a5cac952c598fd67992f-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/53384f2090c6a5cac952c598fd67992f-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/53384f2090c6a5cac952c598fd67992f-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5482008bd0d451bb3ec69f966c925704",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "DecoyDB: A Dataset for Graph Contrastive Learning in Protein-Ligand Binding Affinity Prediction",
+    "authors": [
+      "Zhang, Yupu",
+      "Xu, Zelin",
+      "Xiao, Tingsong",
+      "Seabra, Gustavo",
+      "Li, Yanjun",
+      "Li, Chenglong",
+      "Jiang, Zhe"
+    ],
+    "abstract": "Predicting the binding affinity of protein-ligand complexes plays a vital role in drug discovery. Unfortunately, progress has been hindered by the lack of large-scale and high-quality binding affinity labels. The widely used PDBbind dataset has fewer than 20K labeled complexes. Self-supervised learning, especially graph contrastive learning (GCL), provides a unique opportunity to break the barrier by pretraining graph neural network models based on vast unlabeled complexes and fine-tuning the models on much fewer labeled complexes. However, the problem faces unique challenges, including a lack of a comprehensive unlabeled dataset with well-defined positive/negative complex pairs and the need to design GCL algorithms that incorporate the unique characteristics of such data. To fill the gap, we propose DecoyDB, a large-scale, structure-aware dataset specifically designed for self-supervised GCL on protein–ligand complexes. DecoyDB consists of high-resolution ground truth complexes and diverse decoy structures with computationally generated binding poses that range from realistic to suboptimal. Each decoy is annotated with a Root Mean Square Deviation (RMSD) from the native pose. We further design a customized GCL framework to pretrain graph neural networks based on DecoyDB and fine-tune the models with labels from PDBbind. Extensive experiments confirm that models pretrained with DecoyDB achieve superior accuracy, sample efficiency, and generalizability.",
+    "doi": "10.52202/085713-1952",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5482008bd0d451bb3ec69f966c925704-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5482008bd0d451bb3ec69f966c925704-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5482008bd0d451bb3ec69f966c925704-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_58af38e2fba04b5e00c3450018c56406",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "REOBench: Benchmarking Robustness of Earth Observation Foundation Models",
+    "authors": [
+      "Li, Xiang",
+      "Tao, Yong",
+      "Zhang, Siyuan",
+      "Liu, Siwei",
+      "Xiong, Zhitong",
+      "Luo, Chunbo",
+      "Liu, Lu",
+      "Pechenizkiy, Mykola",
+      "Zhu, Xiaoxiang",
+      "Huang, Tianjin"
+    ],
+    "abstract": "Earth observation foundation models have shown strong generalization across multiple Earth observation tasks, but their robustness under real-world perturbations remains underexplored. To bridge this gap, we introduce REOBench, the first comprehensive benchmark for evaluating the robustness of Earth observation foundation models across six tasks and twelve types of image corruptions, including both appearance-based and geometric perturbations. To ensure realistic and fine-grained evaluation, our benchmark focuses on high-resolution optical remote sensing images, which are widely used in critical applications such as urban planning and disaster response. We conduct a systematic evaluation of a broad range of models trained using masked image modeling, contrastive learning, and vision-language pre-training paradigms. Our results reveal that (1) existing Earth observation foundation models experience significant performance degradation when exposed to input corruptions. (2) The severity of degradation varies across tasks, model architectures, backbone sizes, and types of corruption, with performance drop varying from less than 1% to over 25%. (3) Vision-language models show enhanced robustness, particularly in multimodal tasks. REOBench underscores the vulnerability of current Earth observation foundation models to real-world corruptions and provides actionable insights for developing more robust and reliable models.",
+    "doi": "10.52202/085713-2052",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/58af38e2fba04b5e00c3450018c56406-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/58af38e2fba04b5e00c3450018c56406-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/58af38e2fba04b5e00c3450018c56406-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5a29b161cf764f95e71488f07ecd64c0",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Thousand Voices of Trauma: A Large-Scale Synthetic Dataset for Modeling Prolonged Exposure Therapy Conversations",
+    "authors": [
+      "BN, Suhas",
+      "Sherrill, Andrew",
+      "Arriaga, Rosa I.",
+      "Wiese, Christopher",
+      "Abdullah, Saeed"
+    ],
+    "abstract": "The advancement of AI systems for mental health support is hindered by limited access to therapeutic conversation data, particularly for trauma treatment. We present Thousand Voices of Trauma, a synthetic benchmark dataset of 3,000 therapy conversations based on Prolonged Exposure therapy protocols for Post-traumatic Stress Disorder (PTSD). The dataset comprises 500 unique cases, each explored through six conversational perspectives that mirror the progression of therapy from initial anxiety to peak distress to emotional processing. We incorporated diverse demographic profiles (ages 18-80, M=49.3, 49.4\\% male, 44.4\\% female, 6.2\\% non-binary), 20 trauma types, and 10 trauma-related behaviors using deterministic and probabilistic generation methods. Analysis reveals realistic distributions of trauma types (witnessing violence 10.6\\%, bullying 10.2\\%) and symptoms (nightmares 23.4\\%, substance abuse 20.8\\%). Clinical experts validated the dataset's therapeutic fidelity, highlighting its emotional depth while suggesting refinements for greater authenticity. We also developed an emotional trajectory benchmark with standardized metrics for evaluating model responses. This privacy-preserving dataset addresses critical gaps in trauma-focused mental health data, offering a valuable resource for advancing both patient-facing applications and clinician training tools.",
+    "doi": "10.52202/085713-2092",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a29b161cf764f95e71488f07ecd64c0-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5a29b161cf764f95e71488f07ecd64c0-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a29b161cf764f95e71488f07ecd64c0-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5a8f69523f9511a5706568c552de0ebb",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "MyoChallenge 2024: A New Benchmark for Physiological Dexterity and Agility in Bionic Humans",
+    "authors": [
+      "Wang, Huiyi",
+      "Tan, Chun Kwang",
+      "Hodossy, Balint",
+      "Lyu, Shirui",
+      "Schumacher, Pierre",
+      "Heald, James",
+      "Biegun, Kai",
+      "Hromadka, Samo",
+      "Sahani, Maneesh",
+      "Park, Gunwoo",
+      "Shin, Beomsoo",
+      "Park, JongHyeon",
+      "Koo, Seungbum",
+      "Zuo, Chenhui",
+      "Ma, Chengtian",
+      "Sui, Yanan",
+      "Hansen, Nick",
+      "Tao, Stone",
+      "Gao, Yuan",
+      "Su, Hao",
+      "Song, Seungmoon",
+      "Gionfrida, Letizia",
+      "Sartori, Massimo",
+      "Durandau, Guillaume",
+      "Kumar, Vikash",
+      "Caggiano, Vittorio"
+    ],
+    "abstract": "Recent advancements in bionic prosthetic technology offer transformative opportunities to restore mobility and functionality for individuals with missing limbs. Users of bionic limbs, or bionic humans, learn to seamlessly integrate prosthetic extensions into their motor repertoire, regaining critical motor abilities. The remarkable movement generalization and environmental adaptability demonstrated by these individuals highlight motor intelligence capabilities unmatched by current artificial intelligence systems. Addressing these limitations, MyoChallenge '24 at NeurIPS 2024 established a benchmark for human-robot coordination with an emphasis on joint control of both biological and mechanical limbs. The competition featured two distinct tracks: a manipulation task utilizing the myoMPL model, integrating a virtual biological arm and the Modular Prosthetic Limb (MPL) for a passover task; and a locomotion task using the novel myoOSL model, combining a bilateral virtual biological leg with a trans-femoral amputation and the Open Source Leg (OSL) to navigate varied terrains. Marking the third iteration of the MyoChallenge, the event attracted over 50 teams with more than 290 submissions all around the globe, with diverse participants ranging from independent researchers to high school students. The competition facilitated the development of several state-of-the-art control algorithms for bionic musculoskeletal systems, leveraging techniques such as imitation learning, muscle synergy, and model-based reinforcement learning that significantly surpassed our proposed baseline performance by a factor of 10. By providing the open-source simulation framework of MyoSuite, standardized tasks, and physiologically realistic models, MyoChallenge serves as a reproducible testbed and benchmark for bridging ML and biomechanics. The competition website is featured here:  https://sites.google.com/view/myosuite/myochallenge/myochallenge-2024.",
+    "doi": "10.52202/085713-2100",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a8f69523f9511a5706568c552de0ebb-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5a8f69523f9511a5706568c552de0ebb-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a8f69523f9511a5706568c552de0ebb-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5b7e66f424acafec5e2e10ab8ed2c511",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Knot So Simple: A Minimalistic Environment for Spatial Reasoning",
+    "authors": [
+      "Chen, Zizhao",
+      "Artzi, Yoav"
+    ],
+    "abstract": "We propose KnotGym, an interactive environment for complex, spatial reasoning and manipulation. KnotGym includes goal-oriented rope manipulation tasks with varying levels of complexity, all requiring acting from pure image observations.Tasks are defined along a clear and quantifiable axis of complexity based on the number of knot crossings, creating a natural generalization test.KnotGym has a simple observation space, allowing for scalable development, yet it highlights core challenges in integrating acute perception, spatial reasoning, and grounded manipulation.We evaluate methods of different classes, including model-based RL, model-predictive control, and chain-of-thought reasoning, and illustrate the challenges KnotGym presents.",
+    "doi": "10.52202/085713-2125",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5b7e66f424acafec5e2e10ab8ed2c511-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5b7e66f424acafec5e2e10ab8ed2c511-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5b7e66f424acafec5e2e10ab8ed2c511-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5bb091e15b7642b2a41c7dbff499c635",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "SolidGeo: Measuring Multimodal Spatial Math Reasoning in Solid Geometry",
+    "authors": [
+      "Wang, Peijie",
+      "Yang, Chao",
+      "Li, Zhong-Zhi",
+      "yin, Fei",
+      "Ran, Dekang",
+      "Tian, Mi",
+      "Ji, Zhilong",
+      "Bai, Jinfeng",
+      "Liu, Cheng-lin"
+    ],
+    "abstract": "Geometry is a fundamental branch of mathematics and plays a crucial role in evaluating the reasoning capabilities of multimodal large language models (MLLMs). However, existing multimodal mathematics benchmarks mainly focus on plane geometry and largely ignore solid geometry, which requires spatial reasoning and is more challenging than plane geometry. To address this critical gap, we introduce SolidGeo, the first large-scale benchmark specifically designed to evaluate the performance of MLLMs on mathematical reasoning tasks in solid geometry. SolidGeo consists of 3,113 real-world K–12 and competition-level problems, each paired with visual context and annotated with difficulty levels and fine-grained solid geometry categories. Our benchmark covers a wide range of 3D reasoning subjects such as projection, unfolding, spatial measurement, and spatial vector, offering a rigorous testbed for assessing solid geometry. Through extensive experiments, we observe that MLLMs encounter substantial challenges in solid geometry math tasks, with a considerable performance gap relative to human capabilities on SolidGeo. Moreover, we analyze the performance, inference effiency and error patterns of various models, offering insights into the solid geometric mathematical reasoning capabilities of MLLMs. We hope SolidGeo serves as a catalyst for advancing MLLMs toward deeper geometric reasoning and spatial intelligence. The dataset is released at https://huggingface.co/datasets/HarryYancy/SolidGeo/",
+    "doi": "10.52202/085713-2128",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5bb091e15b7642b2a41c7dbff499c635-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5bb091e15b7642b2a41c7dbff499c635-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5bb091e15b7642b2a41c7dbff499c635-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5e0d42bf1eaafd60c03f141eb7ac761b",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "SMMILE: An expert-driven benchmark for multimodal medical in-context learning",
+    "authors": [
+      "Rieff, Melanie",
+      "Varma, Maya",
+      "Rabow, Ossian",
+      "Adithan, Subathra",
+      "Kim, Julie",
+      "Chang, Ken",
+      "Lee, Hannah",
+      "Rohatgi, Nidhi",
+      "Bluethgen, Christian",
+      "Muneer, Mohamed",
+      "Delbrouck, Jean-Benoit",
+      "Moor, Michael"
+    ],
+    "abstract": "Multimodal in-context learning (ICL) remains underexplored despite significant potential for domains such as medicine. Clinicians routinely encounter diverse, specialized tasks requiring adaptation from limited examples, such as drawing insights from a few relevant prior cases or considering a constrained set of differential diagnoses. While multimodal large language models (MLLMs) have shown advances in medical visual question answering (VQA), their ability to learn multimodal tasks from context is largely unknown. We introduce SMMILE, the first expert-driven multimodal ICL benchmark for medical tasks. Eleven medical experts curated problems, each including a multimodal query and multimodal in-context examples as task demonstrations. SMMILE encompasses 111 problems (517 question-image-answer triplets) covering 6 medical specialties and 13 imaging modalities. We further introduce SMMILE++, an augmented variant with 1038 permuted problems. A comprehensive evaluation of 15 MLLMs demonstrates that most models exhibit moderate to poor multimodal ICL ability in medical tasks. In open-ended evaluations, ICL contributes only an 8% average improvement over zero-shot on SMMILE and 9.4% on SMMILE++. We observe a susceptibility for irrelevant in-context examples: even a single noisy or irrelevant example can degrade performance by up to 9.5%. Moreover, we observe that MLLMs are affected by a recency bias, where placing the most relevant example last can lead to substantial performance improvements of up to 71%. Our findings highlight critical limitations and biases in current MLLMs when learning multimodal medical tasks from context. SMMILE is available at https://smmile-benchmark.github.io.",
+    "doi": "10.52202/085713-2180",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e0d42bf1eaafd60c03f141eb7ac761b-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5e0d42bf1eaafd60c03f141eb7ac761b-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e0d42bf1eaafd60c03f141eb7ac761b-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5e3ffa2c53dce23986ca0f8d1d2bbc7e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "EgoExOR: An Ego-Exo-Centric  Operating Room Dataset for Surgical Activity Understanding",
+    "authors": [
+      "Özsoy, Ege",
+      "Mamur, Arda",
+      "Tristram, Felix",
+      "Pellegrini, Chantal",
+      "Wysocki, Magdalena",
+      "Busam, Benjamin",
+      "Navab, Nassir"
+    ],
+    "abstract": "Operating rooms (ORs) demand precise coordination among surgeons, nurses, and equipment in a fast-paced, occlusion-heavy environment, necessitating advanced perception models to enhance safety and efficiency. Existing datasets either provide partial egocentric views or sparse exocentric multi-view context, but do not explore the comprehensive combination of both. We introduce EgoExOR, the first OR dataset and accompanying benchmark to fuse first-person and third-person perspectives. Spanning 94 minutes (84,553 frames at 15 FPS) of two emulated spine procedures, Ultrasound-Guided Needle Insertion and Minimally Invasive Spine Surgery, EgoExOR integrates egocentric data (RGB, gaze, hand tracking, audio) from wearable glasses, exocentric RGB and depth from RGB-D cameras, and ultrasound imagery. Its detailed scene graph annotations, covering 36 entities and 22 relations (568,235 triplets), enable robust modeling of clinical interactions, supporting tasks like action recognition and human-centric perception. We evaluate the surgical scene graph generation performance of two adapted state-of-the-art models and offer a new baseline that explicitly leverages EgoExOR’s multimodal and multi-perspective signals. This new dataset and benchmark set a new foundation for OR perception, offering a rich, multimodal resource for next-generation clinical perception. Our code and data are available at https://github.com/ardamamur/EgoExOR.",
+    "doi": "10.52202/085713-2188",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e3ffa2c53dce23986ca0f8d1d2bbc7e-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5e3ffa2c53dce23986ca0f8d1d2bbc7e-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e3ffa2c53dce23986ca0f8d1d2bbc7e-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_60ea0211b38a3ccd7a241f523dc7cf63",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Merlin L48 Spectrogram Dataset",
+    "authors": [
+      "Sun, Aaron",
+      "Maji, Subhransu",
+      "Van Horn, Grant"
+    ],
+    "abstract": "In the single-positive multi-label (SPML) setting, each image in a dataset is labeled with the presence of a single class, while the true presence of other classes remains unknown. The challenge is to narrow the performance gap between this partially-labeled setting and fully-supervised learning, which often requires a significant annotation budget. Prior SPML methods were developed and benchmarked on synthetic datasets created by randomly sampling single positive labels from fully-annotated datasets like Pascal VOC, COCO, NUS-WIDE, and CUB200. However, this synthetic approach does not reflect real-world scenarios and fails to capture the fine-grained complexities that can lead to difficult misclassifications. In this work, we introduce the L48 dataset, a fine-grained, real-world multi-label dataset derived from recordings of bird sounds. L48 provides a natural SPML setting with single-positive annotations on a challenging, fine-grained domain, as well as two extended settings in which domain priors give access to additional negative labels. We benchmark existing SPML methods on L48 and observe significant performance differences compared to synthetic datasets and analyze method weaknesses, underscoring the need for more realistic and difficult benchmarks.",
+    "doi": "10.52202/085713-2251",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/60ea0211b38a3ccd7a241f523dc7cf63-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/60ea0211b38a3ccd7a241f523dc7cf63-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/60ea0211b38a3ccd7a241f523dc7cf63-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_619cdaf77fd7bda767d0c3a9b1c1d218",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CellVerse: Do Large Language Models Really Understand Cell Biology?",
+    "authors": [
+      "Zhang, Fan",
+      "Liu, Tianyu",
+      "Zhu, Zhihong",
+      "Wu, Hao",
+      "Wang, Haixin",
+      "Zhou, Donghao",
+      "Zheng, Yefeng",
+      "Wang, Kun",
+      "Wu, Xian",
+      "Heng, Pheng-Ann"
+    ],
+    "abstract": "Recent studies have demonstrated the feasibility of modeling single-cell data as natural languages and the potential of leveraging powerful large language models (LLMs) for understanding cell biology. However, a comprehensive evaluation of LLMs' performance on language-driven single-cell analysis tasks still remains unexplored. Motivated by this challenge, we introduce CellVerse, a unified language-centric question-answering benchmark that integrates four types of single-cell multi-omics data and encompasses three hierarchical levels of single-cell analysis tasks: cell type annotation (cell-level), drug response prediction (drug-level), and perturbation analysis (gene-level). Going beyond this, we systematically evaluate the performance across 14 open-source and closed-source LLMs ranging 160M $\\rightarrow$ 671B on CellVerse. Remarkably, the experimental results reveal: (1) Existing specialist models (C2S-Pythia) fail to make reasonable decisions across all sub-tasks within CellVerse, while generalist models such as Qwen, Llama, GPT, and DeepSeek family models exhibit preliminary understanding capabilities within the realm of cell biology. (2) The performance of current LLMs falls short of expectations and has substantial room for improvement. Notably, in the widely studied drug response prediction task, none of the evaluated LLMs demonstrate significant performance improvement over random guessing. CellVerse offers the first large-scale empirical demonstration that significant challenges still remain in applying LLMs to cell biology.  By introducing CellVerse, we lay the foundation for advancing cell biology through natural languages and hope this paradigm could facilitate next-generation single-cell analysis. Project Page: https://cellverse-cuhk.github.io",
+    "doi": "10.52202/085713-2272",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/619cdaf77fd7bda767d0c3a9b1c1d218-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/619cdaf77fd7bda767d0c3a9b1c1d218-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/619cdaf77fd7bda767d0c3a9b1c1d218-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_621b4af77315234465ef366ea14b5dc5",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "ClinBench: A Standardized Multi-Domain Framework for Evaluating Large Language Models in Clinical Information Extraction",
+    "authors": [
+      "Villanueva Miranda, Ismael",
+      "Gu, Zifan",
+      "Yang, Donghan",
+      "Nezafati, Kuroush",
+      "Huang, Jingwei",
+      "Ruan, Peifeng",
+      "Zhan, Xiaowei",
+      "Xiao, Guanghua",
+      "Xie, Yang"
+    ],
+    "abstract": "Large Language Models (LLMs) offer substantial promise for clinical natural language processing (NLP); however, a lack of standardized benchmarking methodologies limits their objective evaluation and practical translation. To address this gap, we introduce ClinBench, an open-source, multi-model, multi-domain benchmarking framework. ClinBench is designed for the rigorous evaluation of LLMs on important structured information extraction tasks (e.g., tumor staging, histologic diagnoses, atrial fibrillation, and social determinants of health) from unstructured clinical notes. The framework standardizes the evaluation pipeline by: (i) operating on consistently structured input datasets; (ii) employing dynamic, YAML-based prompting for uniform task definition; and (iii) enforcing output validation via JSON schemas, supporting robust comparison across diverse LLM architectures. We demonstrate ClinBench through a large-scale study of 11 prominent LLMs (e.g., GPT-4o series, LLaMA3 variants, Mixtral) across three clinical domains using configurations of public datasets (TCGA for lung cancer, MIMIC-IV-ECG for atrial fibrillation, and MIMIC notes for SDOH). Our results reveal significant performance-efficiency trade-offs. For example, when averaged across the four benchmarked clinical extraction tasks, GPT-3.5-turbo achieved a mean F1 score of 0.83 with a mean runtime of 16.8 minutes. In comparison, LLaMA3.1-70b obtained a similar mean F1 of 0.82 but required a substantially longer mean runtime of 42.7 minutes. GPT-4o-mini also presented a favorable balance with a mean F1 of 0.81 and a mean runtime of 13.4 minutes. ClinBench provides a unified, extensible framework and empirical insights for reproducible, fair LLM benchmarking in clinical NLP. By enabling transparent and standardized evaluation, this work advances data-centric AI research, informs model selection based on performance, cost, and clinical priorities, and supports the effective integration of LLMs into healthcare. The framework and evaluation code are publicly available at https://github.com/ismaelvillanuevamiranda/ClinBench/.",
+    "doi": "10.52202/085713-2284",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/621b4af77315234465ef366ea14b5dc5-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/621b4af77315234465ef366ea14b5dc5-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/621b4af77315234465ef366ea14b5dc5-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_62867024377cac4233195949b9db0ebd",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events",
+    "authors": [
+      "Chen, Zhenyuan",
+      "Wang, Chenxi",
+      "Zhang, Ningyu",
+      "Zhang, Feng"
+    ],
+    "abstract": "Remote sensing is critical for disaster monitoring, yet existing datasets lack temporal image pairs and detailed textual annotations. While single-snapshot imagery dominates current resources, it fails to capture dynamic disaster impacts  over time. To address this gap, we introduce the Remote Sensing Change Caption (RSCC) dataset, a large-scale benchmark comprising 62,351 pre-/post-disaster image pairs (spanning earthquakes, floods, wildfires, and more) paired with rich, human-like change captions. By bridging the temporal and semantic divide in remote sensing data, RSCC enables robust training and evaluation of vision-language models for disaster-aware bi-temporal understanding. Our results highlight RSCC’s ability to facilitate detailed disaster-related analysis, paving the way for more accurate, interpretable, and scalable vision-language applications in remote sensing. Code and dataset are available at https://github.com/Bili-Sakura/RSCC.",
+    "doi": "10.52202/085713-2290",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/62867024377cac4233195949b9db0ebd-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/62867024377cac4233195949b9db0ebd-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/62867024377cac4233195949b9db0ebd-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_62af05cd54490d6fe8d5b0270acbd092",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "ArchPower: Dataset for Architecture-Level Power Modeling of Modern CPU Design",
+    "authors": [
+      "Zhang, Qijun",
+      "Lu, Yao",
+      "Li, Mengming",
+      "Liu, Shang",
+      "Xie, Zhiyao"
+    ],
+    "abstract": "Power is the primary design objective of large-scale integrated circuits (ICs), especially for complex modern processors (i.e., CPUs). Accurate CPU power evaluation requires designers to go through the whole time-consuming IC implementation process, easily taking months. At the early design stage (e.g., architecture-level), classical power models are notoriously inaccurate. Recently, ML-based architecture-level power models have been proposed to boost accuracy, but the data availability is a severe challenge. Currently, there is no open-source dataset for this important ML application. A typical dataset generation process involves correct CPU design implementation and repetitive execution of power simulation flows, requiring significant design expertise, engineering effort, and execution time. Even private in-house datasets often fail to reflect realistic CPU design scenarios. In this work, we propose ArchPower, the first open-source dataset for architecture-level processor power modeling. We go through complex and realistic design flows to collect the CPU architectural information as features and the ground-truth simulated power as labels. Our dataset includes 200 CPU data samples, collected from 25 different CPU configurations when executing 8 different workloads. There are more than 100 architectural features in each data sample, including both hardware and event parameters. The label of each sample provides fine-grained power information, including the total design power and the power for each of the 11 components. Each power value is further decomposed into four fine-grained power groups: combinational logic power, sequential logic power, memory power, and clock power. ArchPower is available at https://github.com/hkust-zhiyao/ArchPower.",
+    "doi": "10.52202/085713-2295",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/62af05cd54490d6fe8d5b0270acbd092-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/62af05cd54490d6fe8d5b0270acbd092-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/62af05cd54490d6fe8d5b0270acbd092-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
   }
 ]
