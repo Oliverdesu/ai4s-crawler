@@ -6576,11 +6576,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选及另核181条分轨漏筛、72条Main漏筛均已审，现619候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–999，已查范围尚有78条线索待核，后续目录尚待继续，不声明整源完成。",
-    "candidate_total": 619,
+    "coverage_note": "初始351候选及另核181条分轨漏筛、128条Main漏筛均已审，现675候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–999，已查范围的所选线索均已核完，后续第1000–5285条目录尚待继续，不声明整源完成。",
+    "candidate_total": 675,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 568,
+      "include": 624,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -6588,8 +6588,7 @@
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "Main5286全目录科学召回尚未完成。",
-      "已查Main题名中尚有78条潜在线索待摘要/必要正文核验。"
+      "Main目录第1000–5285条题名尚待科学召回；已查0–999条所选线索均已结案。"
     ],
     "next_actions": [
       "继续Main完整目录逐题名科学召回，核查选定线索摘要及必要正文，只补已核实科学贡献。"
@@ -6597,11 +6596,11 @@
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T08:38:51.065884+00:00",
-    "candidate_count": 619,
-    "own_review_count": 619,
+    "checked_at": "2026-11-19T08:44:47.472173+00:00",
+    "candidate_count": 675,
+    "own_review_count": 675,
     "own_review_counts": {
-      "include": 568,
+      "include": 624,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -104704,10 +104703,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T08:38:51.065884+00:00",
+      "checked_at": "2026-11-19T08:44:47.472173+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 619,
-      "candidate_ids_sha256": "ba4bebf03de357a5f88dd477dae6952dde46fb667ed1b17d69d3e7a3b9064bbb",
+      "candidate_count": 675,
+      "candidate_ids_sha256": "12fb2d366c2c2533b313961c2445e428efabcdf575b0cc407a36f02b4bfc8aba",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
