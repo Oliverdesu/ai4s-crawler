@@ -41057,28 +41057,43 @@
           "papers": 179,
           "papers_missing_abstract": 36,
           "snapshot_candidates": 2,
-          "candidates": 2,
+          "candidates": 13,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 177,
+          "official_scope": "2025正式卷4第1–12期全部177个官网目录条目；按正式卷期年归属，研究/实质综述逐篇审核，非研究条目仅作召回及文类核对。",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete",
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "官网12期177条逐DOI与原179条对账，补1条正式2025原记录，保留3条正式2026卷5的原记录。全年题名与目录描述召回，47个边界/范围差异页面核官网原摘要/必要方法，现13候选均纳入且有原摘要，含11条漏筛。原始字段和非候选摘要缺失保留。",
+          "evidence_urls": [
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/1",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/10",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/11",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/12",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/2",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/3",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/4",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/5",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/6",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/7",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/8",
+            "https://www.nature.com/natcardiovascres/volumes/4/issues/9"
           ],
+          "decisions": {
+            "include": 13,
+            "exclude": 0,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 13,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
@@ -41086,7 +41101,29 @@
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
           "abstract_nonresearch_excluded": 0,
-          "abstract_supplement_required": 0
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T12:37:45.864427+00:00",
+            "evidence_urls": [
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/1",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/10",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/11",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/12",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/2",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/3",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/4",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/5",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/6",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/7",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/8",
+              "https://www.nature.com/natcardiovascres/volumes/4/issues/9"
+            ],
+            "note": "全量历史缺摘要保留，候选审核与同口径目录差异均已结案。"
+          }
         },
         {
           "code": "natcatal",
@@ -47317,10 +47354,10 @@
         {
           "owner": "李雪婷",
           "sources": 51,
-          "delivered": 18,
-          "official": 19,
+          "delivered": 19,
+          "official": 20,
           "pending": 0,
-          "open_issues": 32,
+          "open_issues": 31,
           "status": "in_progress",
           "last_update": {
             "at": "2026-11-18T21:32:59-08:00",
@@ -75647,10 +75684,10 @@
         },
         "2025": {
           "sources": 51,
-          "delivered": 18,
-          "official": 19,
+          "delivered": 19,
+          "official": 20,
           "pending": 0,
-          "open_issues": 32,
+          "open_issues": 31,
           "status": "in_progress"
         },
         "2026": {
@@ -75663,7 +75700,7 @@
         }
       },
       "sources": 153,
-      "delivered": 108,
+      "delivered": 109,
       "not_started": [],
       "last_update": {
         "at": "2026-11-18T21:32:59-08:00",
@@ -76066,6 +76103,14 @@
       "checked_at": "2026-11-19T12:31:33.698757+00:00",
       "input_commit": "8aad53ee27a2db613ef172cd44c7d2d4c55759e7",
       "reason": "Current personal screening checkpoint; Nineteen complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T12:38:08.946418+00:00",
+      "input_commit": "1d78262b9bd91509d8d839699a71f259fefcabca",
+      "reason": "Current personal screening checkpoint; Twenty complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
       "unchanged_other_owners_and_years": true
     }
   ]
