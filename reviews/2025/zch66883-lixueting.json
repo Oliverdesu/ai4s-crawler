@@ -37517,5 +37517,1587 @@
         ]
       }
     }
+  },
+  {
+    "id": "proceedings_0013efa1327c079e73154d4061c3a396",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "EngiBench: A Framework for Data-Driven Engineering Design Research",
+    "authors": [
+      "Felten, Florian",
+      "Apaza, Gabriel",
+      "Bräunlich, Gerhard",
+      "Diniz, Cashen",
+      "Dong, Xuliang",
+      "Drake, Arthur",
+      "Habibi, Milad",
+      "Hoffman, Nathaniel",
+      "Keeler, Matthew",
+      "Massoudi, Soheyl",
+      "VanGessel, Francis",
+      "Fuge, Mark"
+    ],
+    "abstract": "Engineering design optimization seeks to automatically determine the shapes, topologies, or parameters of components that maximize performance under given conditions. This process often depends on physics-based simulations, which are difficult to install, computationally expensive, and require domain-specific expertise. To mitigate these challenges, we introduce EngiBench, the first open‐source library and datasets spanning diverse domains for data‐driven engineering design. EngiBench provides a unified API and a curated set of benchmarks---covering aeronautics, heat conduction, photonics, and more---that enable fair, reproducible comparisons of optimization and machine learning algorithms, such as generative or surrogate models. We also release EngiOpt, a companion library offering a collection of such algorithms compatible with the EngiBench interface. Both libraries are modular, letting users plug in novel algorithms or problems, automate end-to-end experiment workflows, and leverage built-in utilities for visualization, dataset generation, feasibility checks, and performance analysis. We demonstrate their versatility through experiments comparing state-of-the-art techniques across multiple engineering design problems, an undertaking that was previously prohibitively time-consuming to perform. Finally, we show that these problems pose significant challenges for standard machine learning methods due to highly sensitive and constrained design manifolds.",
+    "doi": "10.52202/085713-0003",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0013efa1327c079e73154d4061c3a396-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0013efa1327c079e73154d4061c3a396-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0013efa1327c079e73154d4061c3a396-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "构建面向翼型、导热、光子学等物理工程设计的模拟数据和任务，实际比较生成模型、代理模型及优化算法。研究资源直接服务物理设计变量与性能优化，具有具体工程贡献。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "EngiBench: A Framework for Data-Driven Engineering Design Research",
+        "authors": [
+          "Felten, Florian",
+          "Apaza, Gabriel",
+          "Bräunlich, Gerhard",
+          "Diniz, Cashen",
+          "Dong, Xuliang",
+          "Drake, Arthur",
+          "Habibi, Milad",
+          "Hoffman, Nathaniel",
+          "Keeler, Matthew",
+          "Massoudi, Soheyl",
+          "VanGessel, Francis",
+          "Fuge, Mark"
+        ],
+        "abstract": "Engineering design optimization seeks to automatically determine the shapes, topologies, or parameters of components that maximize performance under given conditions. This process often depends on physics-based simulations, which are difficult to install, computationally expensive, and require domain-specific expertise. To mitigate these challenges, we introduce EngiBench, the first open‐source library and datasets spanning diverse domains for data‐driven engineering design. EngiBench provides a unified API and a curated set of benchmarks---covering aeronautics, heat conduction, photonics, and more---that enable fair, reproducible comparisons of optimization and machine learning algorithms, such as generative or surrogate models. We also release EngiOpt, a companion library offering a collection of such algorithms compatible with the EngiBench interface. Both libraries are modular, letting users plug in novel algorithms or problems, automate end-to-end experiment workflows, and leverage built-in utilities for visualization, dataset generation, feasibility checks, and performance analysis. We demonstrate their versatility through experiments comparing state-of-the-art techniques across multiple engineering design problems, an undertaking that was previously prohibitively time-consuming to perform. Finally, we show that these problems pose significant challenges for standard machine learning methods due to highly sensitive and constrained design manifolds.",
+        "doi": "10.52202/085713-0003",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0013efa1327c079e73154d4061c3a396-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0013efa1327c079e73154d4061c3a396-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0013efa1327c079e73154d4061c3a396-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于工程科学",
+          "label_en": "AI for engineering sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建面向翼型、导热、光子学等物理工程设计的模拟数据和任务，实际比较生成模型、代理模型及优化算法。研究资源直接服务物理设计变量与性能优化，具有具体工程贡献。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建面向翼型、导热、光子学等物理工程设计的模拟数据和任务，实际比较生成模型、代理模型及优化算法。研究资源直接服务物理设计变量与性能优化，具有具体工程贡献。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建面向翼型、导热、光子学等物理工程设计的模拟数据和任务，实际比较生成模型、代理模型及优化算法。研究资源直接服务物理设计变量与性能优化，具有具体工程贡献。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_013acf7d59f4333131fc8581e86148b1",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "RoFt-Mol: Benchmarking Robust Fine-tuning with Molecular Graph Foundation Models",
+    "authors": [
+      "Liu, Shikun",
+      "Zou, Deyu",
+      "Shoghi, Nima",
+      "Fung, Victor",
+      "Liu, Kai",
+      "Li, Pan"
+    ],
+    "abstract": "In the era of foundation models, fine-tuning pre-trained models for specific downstream tasks has become crucial. This drives the need for robust fine-tuning methods to address challenges such as model overfitting and sparse labeling. Moleculargraph foundation models (MGFMs) face unique difficulties that complicate fine-tuning. These models are limited by smaller pre-training datasets and more severedata scarcity for downstream tasks, both of which require enhanced model generalization. Moreover, MGFMs must accommodate diverse objectives, including bothregression and classification tasks. To better understand and improve fine-tuningtechniques under these conditions, we classify eight fine-tuning methods into threemechanisms: weight-based, representation-based, and partial fine-tuning. Webenchmark these methods on downstream regression and classification tasks acrosssupervised and self-supervised pre-trained models in diverse labeling settings. Thisextensive evaluation provides valuable insights and informs the design of a refinedrobust fine-tuning method, ROFT-MOL. This approach combines the strengths ofsimple post-hoc weight interpolation with more complex weight ensemble fine-tuning methods, delivering improved performance across both task types whilemaintaining the ease of use inherent in post-hoc weight interpolation.",
+    "doi": "10.52202/085713-0025",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/013acf7d59f4333131fc8581e86148b1-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/013acf7d59f4333131fc8581e86148b1-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/013acf7d59f4333131fc8581e86148b1-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "正文明确将分子图基础模型用于血脑屏障穿透、毒性及分子性质回归等12类下游数据集，系统比较低标注/OOD条件的微调方式并提出领域适配方法。方法与评测直接面向分子性质学习。",
+      "evidence_location": "原摘要；公开全文第2–4页，下游分类/回归数据集与微调评测",
+      "verified_metadata": {
+        "title": "RoFt-Mol: Benchmarking Robust Fine-tuning with Molecular Graph Foundation Models",
+        "authors": [
+          "Liu, Shikun",
+          "Zou, Deyu",
+          "Shoghi, Nima",
+          "Fung, Victor",
+          "Liu, Kai",
+          "Li, Pan"
+        ],
+        "abstract": "In the era of foundation models, fine-tuning pre-trained models for specific downstream tasks has become crucial. This drives the need for robust fine-tuning methods to address challenges such as model overfitting and sparse labeling. Moleculargraph foundation models (MGFMs) face unique difficulties that complicate fine-tuning. These models are limited by smaller pre-training datasets and more severedata scarcity for downstream tasks, both of which require enhanced model generalization. Moreover, MGFMs must accommodate diverse objectives, including bothregression and classification tasks. To better understand and improve fine-tuningtechniques under these conditions, we classify eight fine-tuning methods into threemechanisms: weight-based, representation-based, and partial fine-tuning. Webenchmark these methods on downstream regression and classification tasks acrosssupervised and self-supervised pre-trained models in diverse labeling settings. Thisextensive evaluation provides valuable insights and informs the design of a refinedrobust fine-tuning method, ROFT-MOL. This approach combines the strengths ofsimple post-hoc weight interpolation with more complex weight ensemble fine-tuning methods, delivering improved performance across both task types whilemaintaining the ease of use inherent in post-hoc weight interpolation.",
+        "doi": "10.52202/085713-0025",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/013acf7d59f4333131fc8581e86148b1-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/013acf7d59f4333131fc8581e86148b1-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/013acf7d59f4333131fc8581e86148b1-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/013acf7d59f4333131fc8581e86148b1-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23",
+        "pdf_sha256": "239793519a0222f42aade7470b39767011513b61556c6f7e2ca37fe86b025c0a",
+        "full_text_evidence_location": "原摘要；公开全文第2–4页，下游分类/回归数据集与微调评测"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "原摘要；公开全文第2–4页，下游分类/回归数据集与微调评测",
+          "rationale": "正文明确将分子图基础模型用于血脑屏障穿透、毒性及分子性质回归等12类下游数据集，系统比较低标注/OOD条件的微调方式并提出领域适配方法。方法与评测直接面向分子性质学习。"
+        },
+        {
+          "axis": "method",
+          "label": "图神经网络",
+          "label_en": "Graph neural network",
+          "evidence_location": "原摘要；公开全文第2–4页，下游分类/回归数据集与微调评测",
+          "rationale": "正文明确将分子图基础模型用于血脑屏障穿透、毒性及分子性质回归等12类下游数据集，系统比较低标注/OOD条件的微调方式并提出领域适配方法。方法与评测直接面向分子性质学习。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "微调",
+          "label_en": "Fine-tuning",
+          "evidence_location": "原摘要；公开全文第2–4页，下游分类/回归数据集与微调评测",
+          "rationale": "正文明确将分子图基础模型用于血脑屏障穿透、毒性及分子性质回归等12类下游数据集，系统比较低标注/OOD条件的微调方式并提出领域适配方法。方法与评测直接面向分子性质学习。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "原摘要；公开全文第2–4页，下游分类/回归数据集与微调评测",
+          "rationale": "正文明确将分子图基础模型用于血脑屏障穿透、毒性及分子性质回归等12类下游数据集，系统比较低标注/OOD条件的微调方式并提出领域适配方法。方法与评测直接面向分子性质学习。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_014e80b61aca7a85630e6da5d63427c6",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CogPhys: Assessing Cognitive Load via Multimodal Remote and Contact-based Physiological Sensing",
+    "authors": [
+      "Bindiganavale Harish, Anirudh",
+      "Guo, Peikun",
+      "Ghanekar, Bhargav",
+      "Gupta, Diya",
+      "Rajavenkatanarayan, Akilesh",
+      "SHARMA, MANOJ",
+      "August, Maureen",
+      "Sano, Akane",
+      "Veeraraghavan, Ashok"
+    ],
+    "abstract": "Remote physiological sensing is an evolving area of research. As systems approach clinical precision, there is increasing focus on complex applications such as cognitive state estimation. Hence, there is a need for large datasets that facilitate research into complex downstream tasks such as remote cognitive load estimation. A first-of-its-kind, our paper introduces an open-source multimodal multi-vital sign dataset consisting of concurrent recordings from RGB, NIR (near-infrared), thermal, and RF (radio-frequency) sensors alongside contact-based physiological signals, such as pulse oximeter and chest bands, providing a benchmark for cognitive state assessment. By adopting a multimodal approach to remote health sensing, our dataset and its associated hardware system excel at modeling the complexities of cognitive load. Here, cognitive load is defined as the mental effort exerted during tasks such as reading, memorizing, and solving math problems. By using the NASA-TLX survey, we set personalized thresholds for defining high/low cognitive levels, enabling a more reliable benchmark. Our benchmarking scheme bridges the gap between existing remote sensing strategies and cognitive load estimation techniques by using vital signs (such as photoplethysmography (PPG) and respiratory waveforms) and physiological signals (blink waveforms) as an intermediary. Through this paper, we focus on replacing the need for intrusive contact-based physiological measurements with more user-friendly remote sensors. Our benchmarking demonstrates that multimodal fusion significantly improves remote vital sign estimation, with our fusion model achieving $<3~BPM$ (beats per minute) error for vital sign estimation. For cognitive load classification, the combination of remote PPG, remote respiratory signals, and blink markers achieves $86.49$% accuracy, approaching the performance of contact-based sensing ($87.5$%) and validating the feasibility of non-intrusive cognitive monitoring.",
+    "doi": "10.52202/085713-0028",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/014e80b61aca7a85630e6da5d63427c6-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/014e80b61aca7a85630e6da5d63427c6-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/014e80b61aca7a85630e6da5d63427c6-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "采集多模态生理信号用于认知负荷估计；正文5.2明确训练比较RF、GB、SVM等及CNN/LSTM/ResNet，4节以学习型融合重建生命体征，报告非接触式认知监测结果。AI参与实际生理与认知测量。",
+      "evidence_location": "原摘要；正文4节、5.2 ML Framework for Cognitive Load Classification及6.3",
+      "verified_metadata": {
+        "title": "CogPhys: Assessing Cognitive Load via Multimodal Remote and Contact-based Physiological Sensing",
+        "authors": [
+          "Bindiganavale Harish, Anirudh",
+          "Guo, Peikun",
+          "Ghanekar, Bhargav",
+          "Gupta, Diya",
+          "Rajavenkatanarayan, Akilesh",
+          "SHARMA, MANOJ",
+          "August, Maureen",
+          "Sano, Akane",
+          "Veeraraghavan, Ashok"
+        ],
+        "abstract": "Remote physiological sensing is an evolving area of research. As systems approach clinical precision, there is increasing focus on complex applications such as cognitive state estimation. Hence, there is a need for large datasets that facilitate research into complex downstream tasks such as remote cognitive load estimation. A first-of-its-kind, our paper introduces an open-source multimodal multi-vital sign dataset consisting of concurrent recordings from RGB, NIR (near-infrared), thermal, and RF (radio-frequency) sensors alongside contact-based physiological signals, such as pulse oximeter and chest bands, providing a benchmark for cognitive state assessment. By adopting a multimodal approach to remote health sensing, our dataset and its associated hardware system excel at modeling the complexities of cognitive load. Here, cognitive load is defined as the mental effort exerted during tasks such as reading, memorizing, and solving math problems. By using the NASA-TLX survey, we set personalized thresholds for defining high/low cognitive levels, enabling a more reliable benchmark. Our benchmarking scheme bridges the gap between existing remote sensing strategies and cognitive load estimation techniques by using vital signs (such as photoplethysmography (PPG) and respiratory waveforms) and physiological signals (blink waveforms) as an intermediary. Through this paper, we focus on replacing the need for intrusive contact-based physiological measurements with more user-friendly remote sensors. Our benchmarking demonstrates that multimodal fusion significantly improves remote vital sign estimation, with our fusion model achieving $<3~BPM$ (beats per minute) error for vital sign estimation. For cognitive load classification, the combination of remote PPG, remote respiratory signals, and blink markers achieves $86.49$% accuracy, approaching the performance of contact-based sensing ($87.5$%) and validating the feasibility of non-intrusive cognitive monitoring.",
+        "doi": "10.52202/085713-0028",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/014e80b61aca7a85630e6da5d63427c6-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/014e80b61aca7a85630e6da5d63427c6-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/014e80b61aca7a85630e6da5d63427c6-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/014e80b61aca7a85630e6da5d63427c6-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23",
+        "pdf_sha256": "63d906be4b4d80704a69619ab7df3747a160c2dd9d1f84422664b70bfce77b35",
+        "full_text_evidence_location": "原摘要；正文4节、5.2 ML Framework for Cognitive Load Classification及6.3"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "原摘要；正文4节、5.2 ML Framework for Cognitive Load Classification及6.3",
+          "rationale": "采集多模态生理信号用于认知负荷估计；正文5.2明确训练比较RF、GB、SVM等及CNN/LSTM/ResNet，4节以学习型融合重建生命体征，报告非接触式认知监测结果。AI参与实际生理与认知测量。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "原摘要；正文4节、5.2 ML Framework for Cognitive Load Classification及6.3",
+          "rationale": "采集多模态生理信号用于认知负荷估计；正文5.2明确训练比较RF、GB、SVM等及CNN/LSTM/ResNet，4节以学习型融合重建生命体征，报告非接触式认知监测结果。AI参与实际生理与认知测量。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "原摘要；正文4节、5.2 ML Framework for Cognitive Load Classification及6.3",
+          "rationale": "采集多模态生理信号用于认知负荷估计；正文5.2明确训练比较RF、GB、SVM等及CNN/LSTM/ResNet，4节以学习型融合重建生命体征，报告非接触式认知监测结果。AI参与实际生理与认知测量。"
+        },
+        {
+          "axis": "task",
+          "label": "认知功能评估",
+          "label_en": "Cognitive function assessment",
+          "evidence_location": "原摘要；正文4节、5.2 ML Framework for Cognitive Load Classification及6.3",
+          "rationale": "采集多模态生理信号用于认知负荷估计；正文5.2明确训练比较RF、GB、SVM等及CNN/LSTM/ResNet，4节以学习型融合重建生命体征，报告非接触式认知监测结果。AI参与实际生理与认知测量。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_01e793f8cf5689aa0ea46a1b01071bea",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "PHYBench: Holistic Evaluation of Physical Perception and Reasoning in Large Language Models",
+    "authors": [
+      "Qiu, Shi",
+      "Guo, Shaoyang",
+      "Song, Zhuo-Yang",
+      "Sun, Yunbo",
+      "Cai, Zeyu",
+      "Wei, Jiashen",
+      "Luo, Tianyu",
+      "Yin, Yixuan",
+      "Haoxu, Zhang",
+      "Hu, Yi",
+      "Wang, Chenyang",
+      "Tang, Chencheng",
+      "Chang, Haoling",
+      "Liu, Qi",
+      "Zhou, Ziheng",
+      "Zhang, Tianyu",
+      "Zhang, Jingtian",
+      "Liu, Zhangyi",
+      "Li, Minghao",
+      "Zhang, Yuku",
+      "Jing, Boxuan",
+      "Yin, Xianqi",
+      "Ren, Yutong",
+      "Fu, Zizhuo",
+      "Ji, Jiaming",
+      "Wang, Weike",
+      "Tian, Xudong",
+      "Lv, Anqi",
+      "Man, Laifu",
+      "Li, Jianxiang",
+      "Tao, Feiyu",
+      "Sun, Qihua",
+      "Liang, Zhou",
+      "Mu, Yushu",
+      "Li, Zhongxuan",
+      "Zhang, Jing-Jun",
+      "Zhang, Shutao",
+      "Li, Xiaotian",
+      "Xia, Xingqi",
+      "Lin, Jiawei",
+      "Shen, Zheyu",
+      "Chen, Jiahang",
+      "Xiong, Qiuhao",
+      "Wang, Binran",
+      "Wang, Fengyuan",
+      "",
+      "Zhang, Bohan",
+      "Cui, Fan",
+      "",
+      "Cao, Qing-Hong",
+      "Luo, Ming-xing",
+      "Zhang, Muhan",
+      "Zhu, Hua Xing"
+    ],
+    "abstract": "Current benchmarks for evaluating the reasoning capabilities of Large Language Models (LLMs) face significant limitations: task oversimplification, data contamination, and flawed evaluation items. These deficiencies necessitate more rigorous assessment methods. To address these limitations, we introduce PHYBench, a benchmark of 500 original physics problems ranging from high school to Physics Olympiad difficulty. PHYBench addresses data contamination through original content and employs a systematic curation pipeline to eliminate flawed items. Evaluations show that PHYBench activates more tokens and provides stronger differentiation between reasoning models compared to other baselines like AIME 2024, OlympiadBench and GPQA. Even the best-performing model, Gemini 2.5 Pro, achieves only 36.9\\% accuracy compared to human experts' 61.9\\%. To further enhance evaluation precision, we introduce the Expression Edit Distance (EED) Score for mathematical expression assessment, which improves sample efficiency by 204\\% over binary scoring. Moreover, PHYBench effectively elicits multi-step and multi-condition reasoning, providing a platform for examining models' reasoning robustness, preferences, and deficiencies. The benchmark results and dataset are publicly available at https://www.phybench.cn/.",
+    "doi": "10.52202/085713-0044",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/01e793f8cf5689aa0ea46a1b01071bea-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/01e793f8cf5689aa0ea46a1b01071bea-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/01e793f8cf5689aa0ea46a1b01071bea-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "以500道原创物理问题建立物理感知与推理专项评测，核查模型在物理多条件推导和表达式结果上的能力及与人类差距；研究资源直接服务AI物理问题求解能力验证。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "PHYBench: Holistic Evaluation of Physical Perception and Reasoning in Large Language Models",
+        "authors": [
+          "Qiu, Shi",
+          "Guo, Shaoyang",
+          "Song, Zhuo-Yang",
+          "Sun, Yunbo",
+          "Cai, Zeyu",
+          "Wei, Jiashen",
+          "Luo, Tianyu",
+          "Yin, Yixuan",
+          "Haoxu, Zhang",
+          "Hu, Yi",
+          "Wang, Chenyang",
+          "Tang, Chencheng",
+          "Chang, Haoling",
+          "Liu, Qi",
+          "Zhou, Ziheng",
+          "Zhang, Tianyu",
+          "Zhang, Jingtian",
+          "Liu, Zhangyi",
+          "Li, Minghao",
+          "Zhang, Yuku",
+          "Jing, Boxuan",
+          "Yin, Xianqi",
+          "Ren, Yutong",
+          "Fu, Zizhuo",
+          "Ji, Jiaming",
+          "Wang, Weike",
+          "Tian, Xudong",
+          "Lv, Anqi",
+          "Man, Laifu",
+          "Li, Jianxiang",
+          "Tao, Feiyu",
+          "Sun, Qihua",
+          "Liang, Zhou",
+          "Mu, Yushu",
+          "Li, Zhongxuan",
+          "Zhang, Jing-Jun",
+          "Zhang, Shutao",
+          "Li, Xiaotian",
+          "Xia, Xingqi",
+          "Lin, Jiawei",
+          "Shen, Zheyu",
+          "Chen, Jiahang",
+          "Xiong, Qiuhao",
+          "Wang, Binran",
+          "Wang, Fengyuan",
+          "",
+          "Zhang, Bohan",
+          "Cui, Fan",
+          "",
+          "Cao, Qing-Hong",
+          "Luo, Ming-xing",
+          "Zhang, Muhan",
+          "Zhu, Hua Xing"
+        ],
+        "abstract": "Current benchmarks for evaluating the reasoning capabilities of Large Language Models (LLMs) face significant limitations: task oversimplification, data contamination, and flawed evaluation items. These deficiencies necessitate more rigorous assessment methods. To address these limitations, we introduce PHYBench, a benchmark of 500 original physics problems ranging from high school to Physics Olympiad difficulty. PHYBench addresses data contamination through original content and employs a systematic curation pipeline to eliminate flawed items. Evaluations show that PHYBench activates more tokens and provides stronger differentiation between reasoning models compared to other baselines like AIME 2024, OlympiadBench and GPQA. Even the best-performing model, Gemini 2.5 Pro, achieves only 36.9\\% accuracy compared to human experts' 61.9\\%. To further enhance evaluation precision, we introduce the Expression Edit Distance (EED) Score for mathematical expression assessment, which improves sample efficiency by 204\\% over binary scoring. Moreover, PHYBench effectively elicits multi-step and multi-condition reasoning, providing a platform for examining models' reasoning robustness, preferences, and deficiencies. The benchmark results and dataset are publicly available at https://www.phybench.cn/.",
+        "doi": "10.52202/085713-0044",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/01e793f8cf5689aa0ea46a1b01071bea-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/01e793f8cf5689aa0ea46a1b01071bea-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/01e793f8cf5689aa0ea46a1b01071bea-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以500道原创物理问题建立物理感知与推理专项评测，核查模型在物理多条件推导和表达式结果上的能力及与人类差距；研究资源直接服务AI物理问题求解能力验证。"
+        },
+        {
+          "axis": "method",
+          "label": "大语言模型",
+          "label_en": "Large language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以500道原创物理问题建立物理感知与推理专项评测，核查模型在物理多条件推导和表达式结果上的能力及与人类差距；研究资源直接服务AI物理问题求解能力验证。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以500道原创物理问题建立物理感知与推理专项评测，核查模型在物理多条件推导和表达式结果上的能力及与人类差距；研究资源直接服务AI物理问题求解能力验证。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_0216c27a05dc3ca81677734fca1f7aca",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CrypticBio: A Large Multimodal Dataset for Visually Confusing Species",
+    "authors": [
+      "Manolache, Georgiana",
+      "Schouten, Gerard",
+      "Vanschoren, Joaquin"
+    ],
+    "abstract": "We present CrypticBio, the largest publicly available multimodal dataset of visually confusing species, specifically curated to support the development of AI models in the context of biodiversity applications. Visually confusing or cryptic species are groups of two or more taxa that are nearly indistinguishable based on visual characteristics alone. While much existing work addresses taxonomic identification in a broad sense, datasets that directly address the morphological confusion of cryptic species are small, manually curated, and target only a single taxon. Thus, the challenge of identifying such subtle differences in a wide range of taxa remains unaddressed. Curated from real-world trends in species misidentification among community annotators of iNaturalist, CrypticBio contains 52K unique cryptic groups spanning 67K species represented in 166 million images. Records in the dataset include research-grade image annotations—scientific, multicultural, and multilingual species terminology, hierarchical taxonomy, spatiotemporal context, and associated cryptic groups. To facilitate easy subset curation from CrypticBio, we provide an open-source pipeline, CrypticBio-Curate. The multimodal design of the dataset provides complementary cues such as spatiotemporal context that support the identification of cryptic species. To highlight the importance of the dataset, we benchmark a suite of state-of-the-art foundation models across CrypticBio subsets of common, unseen, endangered, and invasive species, and demonstrate the substantial impact of spatiotemporal context on vision-language zero-shot learning for cryptic species. By introducing CrypticBio, we aim to catalyze progress toward real-world-ready fine-grained species classification models for biodiversity monitoring capable of handling the nuanced challenges of species ambiguity. The data and the code are publicly available in the project website https://georgianagmanolache.github.io/crypticbio.",
+    "doi": "10.52202/085713-0049",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0216c27a05dc3ca81677734fca1f7aca-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0216c27a05dc3ca81677734fca1f7aca-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0216c27a05dc3ca81677734fca1f7aca-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "针对外观相近物种的生物学鉴定与生物多样性监测构建大规模多模态数据，实际比较基础模型对常见、未见、濒危及入侵物种的分类，分析时空上下文对鉴定的作用。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "CrypticBio: A Large Multimodal Dataset for Visually Confusing Species",
+        "authors": [
+          "Manolache, Georgiana",
+          "Schouten, Gerard",
+          "Vanschoren, Joaquin"
+        ],
+        "abstract": "We present CrypticBio, the largest publicly available multimodal dataset of visually confusing species, specifically curated to support the development of AI models in the context of biodiversity applications. Visually confusing or cryptic species are groups of two or more taxa that are nearly indistinguishable based on visual characteristics alone. While much existing work addresses taxonomic identification in a broad sense, datasets that directly address the morphological confusion of cryptic species are small, manually curated, and target only a single taxon. Thus, the challenge of identifying such subtle differences in a wide range of taxa remains unaddressed. Curated from real-world trends in species misidentification among community annotators of iNaturalist, CrypticBio contains 52K unique cryptic groups spanning 67K species represented in 166 million images. Records in the dataset include research-grade image annotations—scientific, multicultural, and multilingual species terminology, hierarchical taxonomy, spatiotemporal context, and associated cryptic groups. To facilitate easy subset curation from CrypticBio, we provide an open-source pipeline, CrypticBio-Curate. The multimodal design of the dataset provides complementary cues such as spatiotemporal context that support the identification of cryptic species. To highlight the importance of the dataset, we benchmark a suite of state-of-the-art foundation models across CrypticBio subsets of common, unseen, endangered, and invasive species, and demonstrate the substantial impact of spatiotemporal context on vision-language zero-shot learning for cryptic species. By introducing CrypticBio, we aim to catalyze progress toward real-world-ready fine-grained species classification models for biodiversity monitoring capable of handling the nuanced challenges of species ambiguity. The data and the code are publicly available in the project website https://georgianagmanolache.github.io/crypticbio.",
+        "doi": "10.52202/085713-0049",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0216c27a05dc3ca81677734fca1f7aca-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0216c27a05dc3ca81677734fca1f7aca-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0216c27a05dc3ca81677734fca1f7aca-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "针对外观相近物种的生物学鉴定与生物多样性监测构建大规模多模态数据，实际比较基础模型对常见、未见、濒危及入侵物种的分类，分析时空上下文对鉴定的作用。"
+        },
+        {
+          "axis": "method",
+          "label": "视觉语言模型",
+          "label_en": "Vision-language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "针对外观相近物种的生物学鉴定与生物多样性监测构建大规模多模态数据，实际比较基础模型对常见、未见、濒危及入侵物种的分类，分析时空上下文对鉴定的作用。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "针对外观相近物种的生物学鉴定与生物多样性监测构建大规模多模态数据，实际比较基础模型对常见、未见、濒危及入侵物种的分类，分析时空上下文对鉴定的作用。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_021728c3239308151b9b15fe0e22f0eb",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CleverBirds: A Multiple-Choice Benchmark for Fine-grained Human Knowledge Tracing",
+    "authors": [
+      "Bossemeyer, Leonie",
+      "Heinrich, Samuel",
+      "Van Horn, Grant",
+      "Mac Aodha, Oisin"
+    ],
+    "abstract": "Mastering fine-grained visual recognition, essential in many expert domains, can require that specialists undergo years of dedicated training. Modeling the progression of such expertize in humans remains challenging, and accurately inferring a human learner’s knowledge state is a key step toward understanding visual learning. We introduce CleverBirds, a large-scale knowledge tracing benchmark for fine-grained bird species recognition. Collected by the citizen-science platform eBird, it offers insight into how individuals acquire expertize in complex fine-grained classification. More than 40,000 participants have engaged in the quiz, answering over 17 million multiple-choice questions spanning over 10,000 bird species, with long-range learning patterns across an average of 400 questions per participant. We release this dataset to support the development and evaluation of new methods for visual knowledge tracing. We show that tracking learners' knowledge is challenging, especially across participant subgroups and question types, with different forms of contextual information offering varying degrees of predictive benefit. CleverBirds is among the largest benchmark of its kind, offering a substantially higher number of learnable concepts. With it, we hope to enable new avenues for studying the development of visual expertize over time and across individuals.",
+    "doi": "10.52202/085713-0050",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/021728c3239308151b9b15fe0e22f0eb-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/021728c3239308151b9b15fe0e22f0eb-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/021728c3239308151b9b15fe0e22f0eb-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "利用公民科学参与者长期鸟类识别答题记录研究人类视觉专长获得和知识状态。公开正文比较LSTM知识追踪、注意力模型等预测学习者答题表现，研究对象为真实人类学习过程。",
+      "evidence_location": "原摘要；正文Knowledge Tracing Models及附录C、表A1–A2",
+      "verified_metadata": {
+        "title": "CleverBirds: A Multiple-Choice Benchmark for Fine-grained Human Knowledge Tracing",
+        "authors": [
+          "Bossemeyer, Leonie",
+          "Heinrich, Samuel",
+          "Van Horn, Grant",
+          "Mac Aodha, Oisin"
+        ],
+        "abstract": "Mastering fine-grained visual recognition, essential in many expert domains, can require that specialists undergo years of dedicated training. Modeling the progression of such expertize in humans remains challenging, and accurately inferring a human learner’s knowledge state is a key step toward understanding visual learning. We introduce CleverBirds, a large-scale knowledge tracing benchmark for fine-grained bird species recognition. Collected by the citizen-science platform eBird, it offers insight into how individuals acquire expertize in complex fine-grained classification. More than 40,000 participants have engaged in the quiz, answering over 17 million multiple-choice questions spanning over 10,000 bird species, with long-range learning patterns across an average of 400 questions per participant. We release this dataset to support the development and evaluation of new methods for visual knowledge tracing. We show that tracking learners' knowledge is challenging, especially across participant subgroups and question types, with different forms of contextual information offering varying degrees of predictive benefit. CleverBirds is among the largest benchmark of its kind, offering a substantially higher number of learnable concepts. With it, we hope to enable new avenues for studying the development of visual expertize over time and across individuals.",
+        "doi": "10.52202/085713-0050",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/021728c3239308151b9b15fe0e22f0eb-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/021728c3239308151b9b15fe0e22f0eb-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/021728c3239308151b9b15fe0e22f0eb-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/021728c3239308151b9b15fe0e22f0eb-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23",
+        "pdf_sha256": "3d2fe6a91b713dee6e415c15e960dac3edb4a41f685bb081c899c57c12b39868",
+        "full_text_evidence_location": "原摘要；正文Knowledge Tracing Models及附录C、表A1–A2"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于社会科学",
+          "label_en": "AI for social sciences",
+          "evidence_location": "原摘要；正文Knowledge Tracing Models及附录C、表A1–A2",
+          "rationale": "利用公民科学参与者长期鸟类识别答题记录研究人类视觉专长获得和知识状态。公开正文比较LSTM知识追踪、注意力模型等预测学习者答题表现，研究对象为真实人类学习过程。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "原摘要；正文Knowledge Tracing Models及附录C、表A1–A2",
+          "rationale": "利用公民科学参与者长期鸟类识别答题记录研究人类视觉专长获得和知识状态。公开正文比较LSTM知识追踪、注意力模型等预测学习者答题表现，研究对象为真实人类学习过程。"
+        },
+        {
+          "axis": "task",
+          "label": "认知建模",
+          "label_en": "Cognitive modeling",
+          "evidence_location": "原摘要；正文Knowledge Tracing Models及附录C、表A1–A2",
+          "rationale": "利用公民科学参与者长期鸟类识别答题记录研究人类视觉专长获得和知识状态。公开正文比较LSTM知识追踪、注意力模型等预测学习者答题表现，研究对象为真实人类学习过程。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "原摘要；正文Knowledge Tracing Models及附录C、表A1–A2",
+          "rationale": "利用公民科学参与者长期鸟类识别答题记录研究人类视觉专长获得和知识状态。公开正文比较LSTM知识追踪、注意力模型等预测学习者答题表现，研究对象为真实人类学习过程。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_075661dddd5afc49e905b24e12e6a968",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "DCcluster-Opt: Benchmarking Dynamic Multi-Objective Optimization for Geo-Distributed Data Center Workloads",
+    "authors": [
+      "Guillen-Perez, Antonio",
+      "Naug, Avisek",
+      "Gundecha, Vineet",
+      "Ghorbanpour, Sahand",
+      "Luna Gutierrez, Ricardo",
+      "Ramesh Babu, Ashwin",
+      "Salim, Munther",
+      "Banerjee, Shubhanker",
+      "Essink, Eoin",
+      "Fay, Damien",
+      "Sarkar, Soumyendu"
+    ],
+    "abstract": "The increasing energy demands and carbon footprint of large-scale AI require intelligent workload management in globally distributed data centers. Yet progress is limited by the absence of benchmarks that realistically capture the interplay of time-varying environmental factors (grid carbon intensity, electricity prices, weather), detailed data center physics (CPUs, GPUs, memory, HVAC energy), and geo-distributed network dynamics (latency and transmission costs). To bridge this gap, we present DCcluster-Opt: an open-source, high-fidelity simulation benchmark for sustainable, geo-temporal task scheduling. DCcluster-Opt combines curated real-world datasets, including AI workload traces, grid carbon intensity, electricity markets, weather across 20 global regions, cloud transmission costs, and empirical network delay parameters with physics-informed models of data center operations, enabling rigorous and reproducible research in sustainable computing. It presents a challenging scheduling problem where a top-level coordinating agent must dynamically reassign or defer tasks that arrive with resource and service-level agreement requirements across a configurable cluster of data centers to optimize multiple objectives. The environment also models advanced components such as heat recovery. A modular reward system enables an explicit study of trade-offs among carbon emissions, energy costs, service level agreements, and water use. It provides a Gymnasium API with baseline controllers, including reinforcement learning and rule-based strategies, to support reproducible ML research and a fair comparison of diverse algorithms. By offering a realistic, configurable, and accessible testbed, DCcluster-Opt accelerates the development and validation of next-generation sustainable computing solutions for geo-distributed data centers.",
+    "doi": "10.52202/085713-0172",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/075661dddd5afc49e905b24e12e6a968-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/075661dddd5afc49e905b24e12e6a968-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/075661dddd5afc49e905b24e12e6a968-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "构建含实测碳强度、天气、设备/HVAC物理模型与余热回收的数据中心工程环境，实际提供RL控制基线研究能源、用水、碳排及工作负载约束的多目标调度。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "DCcluster-Opt: Benchmarking Dynamic Multi-Objective Optimization for Geo-Distributed Data Center Workloads",
+        "authors": [
+          "Guillen-Perez, Antonio",
+          "Naug, Avisek",
+          "Gundecha, Vineet",
+          "Ghorbanpour, Sahand",
+          "Luna Gutierrez, Ricardo",
+          "Ramesh Babu, Ashwin",
+          "Salim, Munther",
+          "Banerjee, Shubhanker",
+          "Essink, Eoin",
+          "Fay, Damien",
+          "Sarkar, Soumyendu"
+        ],
+        "abstract": "The increasing energy demands and carbon footprint of large-scale AI require intelligent workload management in globally distributed data centers. Yet progress is limited by the absence of benchmarks that realistically capture the interplay of time-varying environmental factors (grid carbon intensity, electricity prices, weather), detailed data center physics (CPUs, GPUs, memory, HVAC energy), and geo-distributed network dynamics (latency and transmission costs). To bridge this gap, we present DCcluster-Opt: an open-source, high-fidelity simulation benchmark for sustainable, geo-temporal task scheduling. DCcluster-Opt combines curated real-world datasets, including AI workload traces, grid carbon intensity, electricity markets, weather across 20 global regions, cloud transmission costs, and empirical network delay parameters with physics-informed models of data center operations, enabling rigorous and reproducible research in sustainable computing. It presents a challenging scheduling problem where a top-level coordinating agent must dynamically reassign or defer tasks that arrive with resource and service-level agreement requirements across a configurable cluster of data centers to optimize multiple objectives. The environment also models advanced components such as heat recovery. A modular reward system enables an explicit study of trade-offs among carbon emissions, energy costs, service level agreements, and water use. It provides a Gymnasium API with baseline controllers, including reinforcement learning and rule-based strategies, to support reproducible ML research and a fair comparison of diverse algorithms. By offering a realistic, configurable, and accessible testbed, DCcluster-Opt accelerates the development and validation of next-generation sustainable computing solutions for geo-distributed data centers.",
+        "doi": "10.52202/085713-0172",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/075661dddd5afc49e905b24e12e6a968-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/075661dddd5afc49e905b24e12e6a968-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/075661dddd5afc49e905b24e12e6a968-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于工程科学",
+          "label_en": "AI for engineering sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建含实测碳强度、天气、设备/HVAC物理模型与余热回收的数据中心工程环境，实际提供RL控制基线研究能源、用水、碳排及工作负载约束的多目标调度。"
+        },
+        {
+          "axis": "method",
+          "label": "强化学习",
+          "label_en": "Reinforcement learning",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建含实测碳强度、天气、设备/HVAC物理模型与余热回收的数据中心工程环境，实际提供RL控制基线研究能源、用水、碳排及工作负载约束的多目标调度。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建含实测碳强度、天气、设备/HVAC物理模型与余热回收的数据中心工程环境，实际提供RL控制基线研究能源、用水、碳排及工作负载约束的多目标调度。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_0821a1413339bf79ba01876783d95c53",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture",
+    "authors": [
+      "Mandal, Nibir Chandra",
+      "Hoque, Oishee Bintey",
+      "Wilson, Mandy",
+      "Swarup, Samarth",
+      "Nouwakpo, Sayjro",
+      "Adiga, Abhijin",
+      "Marathe, Madhav"
+    ],
+    "abstract": "The lack of fine-grained, large-scale datasets on water availability presents a critical barrier to applying machine learning (ML) for agricultural water management. Since there are multiple natural and anthropogenic factors that influence water availability, incorporating diverse multimodal features can significantly improve modeling performance. However, integrating such heterogeneous data is challenging due to spatial misalignments, inconsistent formats, semantic label ambiguities, and class imbalances. To address these challenges, we introduce IRRISIGHT, a large-scale, multimodal dataset spanning 20 U.S. states. It consists of 1.4 million pixel-aligned 224×224 patches that fuse satellite imagery with rich environmental attributes. We develop a robust geospatial fusion pipeline that aligns raster, vector, and point-based data on a unified 10m grid, and employ domain-informed structured prompts to convert tabular attributes into natural language. With irrigation type classification as a representative problem, the dataset is AI-ready, offering a spatially disjoint train/test split and extensive benchmarking with both vision and vision–language models. Our results demonstrate that multimodal representations substantially improve model performance, establishing a foundation for future research on water availability.https://github.com/Nibir088/IRRISIGHThttps://huggingface.co/datasets/OBH30/IRRISIGHT",
+    "doi": "10.52202/085713-0186",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0821a1413339bf79ba01876783d95c53-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0821a1413339bf79ba01876783d95c53-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0821a1413339bf79ba01876783d95c53-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "将卫星影像与环境属性在10米网格对齐，针对农业灌溉类型分类建立空间独立训练测试与视觉/视觉语言模型基线；AI实际支持农业水资源遥感识别。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture",
+        "authors": [
+          "Mandal, Nibir Chandra",
+          "Hoque, Oishee Bintey",
+          "Wilson, Mandy",
+          "Swarup, Samarth",
+          "Nouwakpo, Sayjro",
+          "Adiga, Abhijin",
+          "Marathe, Madhav"
+        ],
+        "abstract": "The lack of fine-grained, large-scale datasets on water availability presents a critical barrier to applying machine learning (ML) for agricultural water management. Since there are multiple natural and anthropogenic factors that influence water availability, incorporating diverse multimodal features can significantly improve modeling performance. However, integrating such heterogeneous data is challenging due to spatial misalignments, inconsistent formats, semantic label ambiguities, and class imbalances. To address these challenges, we introduce IRRISIGHT, a large-scale, multimodal dataset spanning 20 U.S. states. It consists of 1.4 million pixel-aligned 224×224 patches that fuse satellite imagery with rich environmental attributes. We develop a robust geospatial fusion pipeline that aligns raster, vector, and point-based data on a unified 10m grid, and employ domain-informed structured prompts to convert tabular attributes into natural language. With irrigation type classification as a representative problem, the dataset is AI-ready, offering a spatially disjoint train/test split and extensive benchmarking with both vision and vision–language models. Our results demonstrate that multimodal representations substantially improve model performance, establishing a foundation for future research on water availability.https://github.com/Nibir088/IRRISIGHThttps://huggingface.co/datasets/OBH30/IRRISIGHT",
+        "doi": "10.52202/085713-0186",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0821a1413339bf79ba01876783d95c53-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0821a1413339bf79ba01876783d95c53-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0821a1413339bf79ba01876783d95c53-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "将卫星影像与环境属性在10米网格对齐，针对农业灌溉类型分类建立空间独立训练测试与视觉/视觉语言模型基线；AI实际支持农业水资源遥感识别。"
+        },
+        {
+          "axis": "method",
+          "label": "视觉语言模型",
+          "label_en": "Vision-language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "将卫星影像与环境属性在10米网格对齐，针对农业灌溉类型分类建立空间独立训练测试与视觉/视觉语言模型基线；AI实际支持农业水资源遥感识别。"
+        },
+        {
+          "axis": "method",
+          "label": "多模态学习",
+          "label_en": "Multimodal learning",
+          "evidence_location": "出版社原摘要",
+          "rationale": "将卫星影像与环境属性在10米网格对齐，针对农业灌溉类型分类建立空间独立训练测试与视觉/视觉语言模型基线；AI实际支持农业水资源遥感识别。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "将卫星影像与环境属性在10米网格对齐，针对农业灌溉类型分类建立空间独立训练测试与视觉/视觉语言模型基线；AI实际支持农业水资源遥感识别。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_0b82662b6c32e887bb252a74d8cb2d5e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CarbonGlobe: A Global-Scale, Multi-Decade Dataset and Benchmark for Carbon Forecasting in Forest Ecosystems",
+    "authors": [
+      "Wang, Zhihao",
+      "Ma, Lei",
+      "Hurtt, George",
+      "Jia, Xiaowei",
+      "Li, Yanhua",
+      "Li, Ruohan",
+      "Li, Zhili",
+      "Xu, Shuo",
+      "Xie, Yiqun"
+    ],
+    "abstract": "Forest ecosystems play a critical role in the Earth system as major carbon sinks that are essential for carbon neutralization and climate change mitigation. However, the Earth has undergone significant deforestation and forest degradation, and the remaining forested areas are also facing increasing pressures from socioeconomic factors and climate change, potentially pushing them towards tipping points.Responding to the grand challenge, a theory-based Ecosystem Demography (ED) model has been continuously developed over the past two decades and serves as a key component in major initiatives, including the Global Carbon Budget, NASA Carbon Monitoring System, and US Greenhouse Gas Center. Despite its growing importance in combating climate change and shaping carbon policies, ED's expensive computation significantly limits its ability to estimate carbon dynamics at the global scale with high spatial resolution.Recently, machine learning (ML) models have shown promising potential in approximating theory-based models with interesting success in various domains including weather forecasting, thanks to the open-source benchmark datasets made available.However, there are currently no publicly available ML-ready datasets for global carbon dynamics forecasting in forest ecosystems. The limited data availability hinders the development of corresponding ML emulators. Furthermore, the inputs needed for running ED are highly complex with over a hundred variables from various remote sensing products. To bridge the gap, we develop a new ML-ready benchmark dataset, \\textit{CarbonGlobe}, for carbon dynamics forecasting, featuring that: (1) the data has a global-scale coverage at 0.5$^\\circ$ resolution; (2) the temporal range spans 40 years; (3) the inputs integrate extensive multi-source data from different sensing products, with calibrated outputs from ED; (4) the data is formatted in ML-ready forms and split into different evaluation scenarios based on climate conditions, etc.; (5) a set of problem-driven metrics is designed to develop benchmarks using various ML models to best align with the needs of downstream applications. Our dataset and code are publicly available on Kaggle and GitHub: https://www.kaggle.com/datasets/zhihaow/carbonglobe and https://github.com/zhwang0/carbon-globe.",
+    "doi": "10.52202/085713-0261",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0b82662b6c32e887bb252a74d8cb2d5e-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "以森林生态系统人口模型输出及多源遥感数据构建40年全球碳动态预测数据，设计与生态应用一致的指标并比较ML模拟器；AI直接支持森林碳循环建模。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "CarbonGlobe: A Global-Scale, Multi-Decade Dataset and Benchmark for Carbon Forecasting in Forest Ecosystems",
+        "authors": [
+          "Wang, Zhihao",
+          "Ma, Lei",
+          "Hurtt, George",
+          "Jia, Xiaowei",
+          "Li, Yanhua",
+          "Li, Ruohan",
+          "Li, Zhili",
+          "Xu, Shuo",
+          "Xie, Yiqun"
+        ],
+        "abstract": "Forest ecosystems play a critical role in the Earth system as major carbon sinks that are essential for carbon neutralization and climate change mitigation. However, the Earth has undergone significant deforestation and forest degradation, and the remaining forested areas are also facing increasing pressures from socioeconomic factors and climate change, potentially pushing them towards tipping points.Responding to the grand challenge, a theory-based Ecosystem Demography (ED) model has been continuously developed over the past two decades and serves as a key component in major initiatives, including the Global Carbon Budget, NASA Carbon Monitoring System, and US Greenhouse Gas Center. Despite its growing importance in combating climate change and shaping carbon policies, ED's expensive computation significantly limits its ability to estimate carbon dynamics at the global scale with high spatial resolution.Recently, machine learning (ML) models have shown promising potential in approximating theory-based models with interesting success in various domains including weather forecasting, thanks to the open-source benchmark datasets made available.However, there are currently no publicly available ML-ready datasets for global carbon dynamics forecasting in forest ecosystems. The limited data availability hinders the development of corresponding ML emulators. Furthermore, the inputs needed for running ED are highly complex with over a hundred variables from various remote sensing products. To bridge the gap, we develop a new ML-ready benchmark dataset, \\textit{CarbonGlobe}, for carbon dynamics forecasting, featuring that: (1) the data has a global-scale coverage at 0.5$^\\circ$ resolution; (2) the temporal range spans 40 years; (3) the inputs integrate extensive multi-source data from different sensing products, with calibrated outputs from ED; (4) the data is formatted in ML-ready forms and split into different evaluation scenarios based on climate conditions, etc.; (5) a set of problem-driven metrics is designed to develop benchmarks using various ML models to best align with the needs of downstream applications. Our dataset and code are publicly available on Kaggle and GitHub: https://www.kaggle.com/datasets/zhihaow/carbonglobe and https://github.com/zhwang0/carbon-globe.",
+        "doi": "10.52202/085713-0261",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0b82662b6c32e887bb252a74d8cb2d5e-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以森林生态系统人口模型输出及多源遥感数据构建40年全球碳动态预测数据，设计与生态应用一致的指标并比较ML模拟器；AI直接支持森林碳循环建模。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以森林生态系统人口模型输出及多源遥感数据构建40年全球碳动态预测数据，设计与生态应用一致的指标并比较ML模拟器；AI直接支持森林碳循环建模。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以森林生态系统人口模型输出及多源遥感数据构建40年全球碳动态预测数据，设计与生态应用一致的指标并比较ML模拟器；AI直接支持森林碳循环建模。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_0c946accd3ccc88c09dfae7e1cd40ffe",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "VeriThoughts: Enabling Automated Verilog Code Generation using Reasoning and Formal Verification",
+    "authors": [
+      "Yubeaton, Patrick",
+      "Nakkab, Andre",
+      "Xiao, Weihua",
+      "Collini, Luca",
+      "Karri, Ramesh",
+      "Hegde, Chinmay",
+      "Garg, Siddharth"
+    ],
+    "abstract": "This paper introduces VeriThoughts, a novel dataset designed for reasoning-based Verilog code generation. We establish a new benchmark framework grounded in formal verification methods to evaluate the quality and correctness of generated hardware descriptions. Additionally, we present a suite of specialized small-scale models optimized specifically for Verilog generation. Our work addresses the growing need for automated hardware design tools that can produce verifiably correct implementations from high-level specifications, potentially accelerating the hardware development process while maintaining rigorous correctness guarantees.",
+    "doi": "10.52202/085713-0288",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0c946accd3ccc88c09dfae7e1cd40ffe-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0c946accd3ccc88c09dfae7e1cd40ffe-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0c946accd3ccc88c09dfae7e1cd40ffe-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "构建推理型Verilog硬件描述生成数据与形式验证评测，并给出领域小模型，用于从高层规范设计可验证的硬件实现；直接面向电路硬件设计任务。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "VeriThoughts: Enabling Automated Verilog Code Generation using Reasoning and Formal Verification",
+        "authors": [
+          "Yubeaton, Patrick",
+          "Nakkab, Andre",
+          "Xiao, Weihua",
+          "Collini, Luca",
+          "Karri, Ramesh",
+          "Hegde, Chinmay",
+          "Garg, Siddharth"
+        ],
+        "abstract": "This paper introduces VeriThoughts, a novel dataset designed for reasoning-based Verilog code generation. We establish a new benchmark framework grounded in formal verification methods to evaluate the quality and correctness of generated hardware descriptions. Additionally, we present a suite of specialized small-scale models optimized specifically for Verilog generation. Our work addresses the growing need for automated hardware design tools that can produce verifiably correct implementations from high-level specifications, potentially accelerating the hardware development process while maintaining rigorous correctness guarantees.",
+        "doi": "10.52202/085713-0288",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0c946accd3ccc88c09dfae7e1cd40ffe-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0c946accd3ccc88c09dfae7e1cd40ffe-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0c946accd3ccc88c09dfae7e1cd40ffe-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于工程科学",
+          "label_en": "AI for engineering sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建推理型Verilog硬件描述生成数据与形式验证评测，并给出领域小模型，用于从高层规范设计可验证的硬件实现；直接面向电路硬件设计任务。"
+        },
+        {
+          "axis": "method",
+          "label": "大语言模型",
+          "label_en": "Large language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建推理型Verilog硬件描述生成数据与形式验证评测，并给出领域小模型，用于从高层规范设计可验证的硬件实现；直接面向电路硬件设计任务。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建推理型Verilog硬件描述生成数据与形式验证评测，并给出领域小模型，用于从高层规范设计可验证的硬件实现；直接面向电路硬件设计任务。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_0d1635dfa43efe7477f9b6dab3168fd8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "OceanBench: A Benchmark for Data-Driven Global Ocean Forecasting systems",
+    "authors": [
+      "El Aouni, Anass",
+      "Gaudel, Quentin",
+      "Johnson, J. Emmanuel",
+      "Charly, REGNIER",
+      "Le Sommer, Julien",
+      "van Gennip, Simon",
+      "fablet, ronan",
+      "Drevillon, Marie",
+      "DRILLET, Yann",
+      "Le Traon, Pierre"
+    ],
+    "abstract": "Data-driven approaches, particularly those based on deep learning, are rapidly advancing Earth system modeling. However, their application to ocean forecasting remains limited despite the ocean's pivotal role in climate regulation and marine ecosystems. To address this gap, we present OceanBench, a benchmark designed to evaluate and accelerate global short-range (1–10 days) data-driven ocean forecasting.OceanBench is constructed from a curated dataset comprising first-guess trajectories, nowcasts, and atmospheric forcings from operational physical ocean models, typically unavailable in public datasets due to assimilation cycles. Matched observational data are also included, enabling realistic evaluation in an operational-like forecasting framework.The benchmark defines three complementary evaluation tracks: (i) Model-to-Reanalysis, where models are compared against the reanalysis dataset commonly used for training; (ii) Model-to-Analysis, assessing generalization to a higher-resolution physical analysis; and (iii) Model-to-Observations, Intercomparison and Validation (IV-TT) CLASS-4 evaluation against independent observational data. The first two tracks are further supported by process-oriented diagnostics to assess the dynamical consistency and physical plausibility of forecasts.OceanBench includes key ocean variables: sea surface height, temperature, salinity, and currents, along with standardized metrics grounded in physical oceanography. Baseline comparisons with operational systems and state-of-the-art deep learning models are provided. All data, code, and evaluation protocols are openly available at https://github.com/mercator-ocean/oceanbench, establishing OceanBench as a foundation for reproducible and rigorous research in data-driven ocean forecasting.",
+    "doi": "10.52202/085713-0303",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d1635dfa43efe7477f9b6dab3168fd8-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0d1635dfa43efe7477f9b6dab3168fd8-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d1635dfa43efe7477f9b6dab3168fd8-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "针对1–10天海洋高度、温盐和海流预报构建含业务物理模型轨迹及独立观测的数据，比较DL与业务系统，并核物理动力一致性，直接服务海洋预测科学。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "OceanBench: A Benchmark for Data-Driven Global Ocean Forecasting systems",
+        "authors": [
+          "El Aouni, Anass",
+          "Gaudel, Quentin",
+          "Johnson, J. Emmanuel",
+          "Charly, REGNIER",
+          "Le Sommer, Julien",
+          "van Gennip, Simon",
+          "fablet, ronan",
+          "Drevillon, Marie",
+          "DRILLET, Yann",
+          "Le Traon, Pierre"
+        ],
+        "abstract": "Data-driven approaches, particularly those based on deep learning, are rapidly advancing Earth system modeling. However, their application to ocean forecasting remains limited despite the ocean's pivotal role in climate regulation and marine ecosystems. To address this gap, we present OceanBench, a benchmark designed to evaluate and accelerate global short-range (1–10 days) data-driven ocean forecasting.OceanBench is constructed from a curated dataset comprising first-guess trajectories, nowcasts, and atmospheric forcings from operational physical ocean models, typically unavailable in public datasets due to assimilation cycles. Matched observational data are also included, enabling realistic evaluation in an operational-like forecasting framework.The benchmark defines three complementary evaluation tracks: (i) Model-to-Reanalysis, where models are compared against the reanalysis dataset commonly used for training; (ii) Model-to-Analysis, assessing generalization to a higher-resolution physical analysis; and (iii) Model-to-Observations, Intercomparison and Validation (IV-TT) CLASS-4 evaluation against independent observational data. The first two tracks are further supported by process-oriented diagnostics to assess the dynamical consistency and physical plausibility of forecasts.OceanBench includes key ocean variables: sea surface height, temperature, salinity, and currents, along with standardized metrics grounded in physical oceanography. Baseline comparisons with operational systems and state-of-the-art deep learning models are provided. All data, code, and evaluation protocols are openly available at https://github.com/mercator-ocean/oceanbench, establishing OceanBench as a foundation for reproducible and rigorous research in data-driven ocean forecasting.",
+        "doi": "10.52202/085713-0303",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d1635dfa43efe7477f9b6dab3168fd8-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0d1635dfa43efe7477f9b6dab3168fd8-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d1635dfa43efe7477f9b6dab3168fd8-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "针对1–10天海洋高度、温盐和海流预报构建含业务物理模型轨迹及独立观测的数据，比较DL与业务系统，并核物理动力一致性，直接服务海洋预测科学。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "出版社原摘要",
+          "rationale": "针对1–10天海洋高度、温盐和海流预报构建含业务物理模型轨迹及独立观测的数据，比较DL与业务系统，并核物理动力一致性，直接服务海洋预测科学。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "针对1–10天海洋高度、温盐和海流预报构建含业务物理模型轨迹及独立观测的数据，比较DL与业务系统，并核物理动力一致性，直接服务海洋预测科学。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_0edcac323939a78fce2985f2f2623bfd",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Ineq-Comp: Benchmarking Human-Intuitive Compositional Reasoning in Automated Theorem Proving of Inequalities",
+    "authors": [
+      "Zhao, Haoyu",
+      "Geng, Yihan",
+      "Tang, Shange",
+      "Lin, Yong",
+      "Lyu, Bohan",
+      "Lin, Hongzhou",
+      "Jin, Chi",
+      "Arora, Sanjeev"
+    ],
+    "abstract": "LLM-based formal proof assistants (e.g., in Lean) hold great promise for automating mathematical discovery. But beyond syntactic correctness, do these systems truly understand mathematical structure as humans do? We investigate this question in context of mathematical inequalities---specifically the prover's ability to recognize that the given problem simplifies by applying a known inequality such as AM/GM. Specifically, we are interested in their ability to do this in a {\\em compositional setting} where multiple inequalities must be applied as part of a solution.  We introduce \\ineqcomp, a benchmark built from elementary inequalities through systematic transformations, including variable duplication, algebraic rewriting, and multi-step composition. Although these problems remain easy for humans, we find that most provers---including Goedel, STP, and Kimina-7B---struggle significantly.  DeepSeek-Prover-V2-7B shows relative robustness, but still suffers a 20\\% performance drop (pass@32). Even for DeepSeek-Prover-V2-671B model, the gap between compositional variants and seed problems exists, implying that simply scaling up the model size alone does not fully solve the compositional weakness. Strikingly, performance remains poor for all models even when formal proofs of the constituent parts are provided in context, revealing that the source of weakness is indeed in compositional reasoning. Our results expose a persisting gap between the generalization behavior of current AI provers and human mathematical intuition. All data and evaluation code can be found at \\url{https://github.com/haoyuzhao123/LeanIneqComp}.",
+    "doi": "10.52202/085713-0342",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0edcac323939a78fce2985f2f2623bfd-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0edcac323939a78fce2985f2f2623bfd-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0edcac323939a78fce2985f2f2623bfd-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "构建可复合基本不等式的Lean形式证明任务，实际比较多个自动证明模型并量化组成式证明与已知引理组合的失败；AI直接参与数学不等式证明专项研究。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "Ineq-Comp: Benchmarking Human-Intuitive Compositional Reasoning in Automated Theorem Proving of Inequalities",
+        "authors": [
+          "Zhao, Haoyu",
+          "Geng, Yihan",
+          "Tang, Shange",
+          "Lin, Yong",
+          "Lyu, Bohan",
+          "Lin, Hongzhou",
+          "Jin, Chi",
+          "Arora, Sanjeev"
+        ],
+        "abstract": "LLM-based formal proof assistants (e.g., in Lean) hold great promise for automating mathematical discovery. But beyond syntactic correctness, do these systems truly understand mathematical structure as humans do? We investigate this question in context of mathematical inequalities---specifically the prover's ability to recognize that the given problem simplifies by applying a known inequality such as AM/GM. Specifically, we are interested in their ability to do this in a {\\em compositional setting} where multiple inequalities must be applied as part of a solution.  We introduce \\ineqcomp, a benchmark built from elementary inequalities through systematic transformations, including variable duplication, algebraic rewriting, and multi-step composition. Although these problems remain easy for humans, we find that most provers---including Goedel, STP, and Kimina-7B---struggle significantly.  DeepSeek-Prover-V2-7B shows relative robustness, but still suffers a 20\\% performance drop (pass@32). Even for DeepSeek-Prover-V2-671B model, the gap between compositional variants and seed problems exists, implying that simply scaling up the model size alone does not fully solve the compositional weakness. Strikingly, performance remains poor for all models even when formal proofs of the constituent parts are provided in context, revealing that the source of weakness is indeed in compositional reasoning. Our results expose a persisting gap between the generalization behavior of current AI provers and human mathematical intuition. All data and evaluation code can be found at \\url{https://github.com/haoyuzhao123/LeanIneqComp}.",
+        "doi": "10.52202/085713-0342",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0edcac323939a78fce2985f2f2623bfd-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0edcac323939a78fce2985f2f2623bfd-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0edcac323939a78fce2985f2f2623bfd-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建可复合基本不等式的Lean形式证明任务，实际比较多个自动证明模型并量化组成式证明与已知引理组合的失败；AI直接参与数学不等式证明专项研究。"
+        },
+        {
+          "axis": "method",
+          "label": "大语言模型",
+          "label_en": "Large language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建可复合基本不等式的Lean形式证明任务，实际比较多个自动证明模型并量化组成式证明与已知引理组合的失败；AI直接参与数学不等式证明专项研究。"
+        },
+        {
+          "axis": "task",
+          "label": "形式定理证明",
+          "label_en": "Formal theorem proving",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建可复合基本不等式的Lean形式证明任务，实际比较多个自动证明模型并量化组成式证明与已知引理组合的失败；AI直接参与数学不等式证明专项研究。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建可复合基本不等式的Lean形式证明任务，实际比较多个自动证明模型并量化组成式证明与已知引理组合的失败；AI直接参与数学不等式证明专项研究。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_103ea9d6b26ed1eceb881f5d588879e5",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology",
+    "authors": [
+      "Vasilev, Kiril",
+      "Misrahi, Alexandre",
+      "Jain, Eeshaan",
+      "Cheng, Phil F",
+      "Liakopoulos, Petros",
+      "Michielin, Olivier",
+      "Moor, Michael",
+      "Bunne, Charlotte"
+    ],
+    "abstract": "Multimodal Large Language Models (LLMs) hold promise for biomedical reasoning, but current benchmarks fail to capture the complexity of real-world clinical workflows. Existing evaluations primarily assess unimodal, decontextualized question-answering, overlooking multi-agent decision-making environments such as Molecular Tumor Boards (MTBs). MTBs bring together diverse experts in oncology, where diagnostic and prognostic tasks require integrating heterogeneous data and evolving insights over time. Current benchmarks lack this longitudinal and multimodal complexity. We introduce MTBBench, an agentic benchmark simulating MTB-style decision-making through clinically challenging, multimodal, and longitudinal oncology questions. Ground truth annotations are validated by clinicians via a co-developed app, ensuring clinical relevance. We benchmark multiple open and closed-source LLMs and show that, even at scale, they lack reliability—frequently hallucinating, struggling with reasoning from time-resolved data, and failing to reconcile conflicting evidence or different modalities. To address these limitations, MTBBench goes beyond benchmarking by providing an agentic framework with foundation model-based tools that enhance multi-modal and longitudinal reasoning, leading to task-level performance gains of up to 9.0% and 11.2%, respectively. Overall, MTBBench offers a challenging and realistic testbed for advancing multimodal LLM reasoning, reliability, and tool-use with a focus on MTB environments in precision oncology.",
+    "doi": "10.52202/085713-0368",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/103ea9d6b26ed1eceb881f5d588879e5-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/103ea9d6b26ed1eceb881f5d588879e5-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/103ea9d6b26ed1eceb881f5d588879e5-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "以临床医师验证的多模态纵向肿瘤病例问题模拟分子肿瘤委员会，比较LLM诊断/预后决策与含基础模型工具的智能体框架；直接研究精确肿瘤临床推理能力与可靠性。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology",
+        "authors": [
+          "Vasilev, Kiril",
+          "Misrahi, Alexandre",
+          "Jain, Eeshaan",
+          "Cheng, Phil F",
+          "Liakopoulos, Petros",
+          "Michielin, Olivier",
+          "Moor, Michael",
+          "Bunne, Charlotte"
+        ],
+        "abstract": "Multimodal Large Language Models (LLMs) hold promise for biomedical reasoning, but current benchmarks fail to capture the complexity of real-world clinical workflows. Existing evaluations primarily assess unimodal, decontextualized question-answering, overlooking multi-agent decision-making environments such as Molecular Tumor Boards (MTBs). MTBs bring together diverse experts in oncology, where diagnostic and prognostic tasks require integrating heterogeneous data and evolving insights over time. Current benchmarks lack this longitudinal and multimodal complexity. We introduce MTBBench, an agentic benchmark simulating MTB-style decision-making through clinically challenging, multimodal, and longitudinal oncology questions. Ground truth annotations are validated by clinicians via a co-developed app, ensuring clinical relevance. We benchmark multiple open and closed-source LLMs and show that, even at scale, they lack reliability—frequently hallucinating, struggling with reasoning from time-resolved data, and failing to reconcile conflicting evidence or different modalities. To address these limitations, MTBBench goes beyond benchmarking by providing an agentic framework with foundation model-based tools that enhance multi-modal and longitudinal reasoning, leading to task-level performance gains of up to 9.0% and 11.2%, respectively. Overall, MTBBench offers a challenging and realistic testbed for advancing multimodal LLM reasoning, reliability, and tool-use with a focus on MTB environments in precision oncology.",
+        "doi": "10.52202/085713-0368",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/103ea9d6b26ed1eceb881f5d588879e5-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/103ea9d6b26ed1eceb881f5d588879e5-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/103ea9d6b26ed1eceb881f5d588879e5-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以临床医师验证的多模态纵向肿瘤病例问题模拟分子肿瘤委员会，比较LLM诊断/预后决策与含基础模型工具的智能体框架；直接研究精确肿瘤临床推理能力与可靠性。"
+        },
+        {
+          "axis": "method",
+          "label": "大语言模型",
+          "label_en": "Large language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以临床医师验证的多模态纵向肿瘤病例问题模拟分子肿瘤委员会，比较LLM诊断/预后决策与含基础模型工具的智能体框架；直接研究精确肿瘤临床推理能力与可靠性。"
+        },
+        {
+          "axis": "contribution",
+          "label": "科学智能体",
+          "label_en": "Scientific agent",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以临床医师验证的多模态纵向肿瘤病例问题模拟分子肿瘤委员会，比较LLM诊断/预后决策与含基础模型工具的智能体框架；直接研究精确肿瘤临床推理能力与可靠性。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "以临床医师验证的多模态纵向肿瘤病例问题模拟分子肿瘤委员会，比较LLM诊断/预后决策与含基础模型工具的智能体框架；直接研究精确肿瘤临床推理能力与可靠性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_12750d99d0faa73763108ff2bbeb54fd",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "DrVD-Bench: Do Vision-Language Models Reason Like Human Doctors in Medical Image Diagnosis?",
+    "authors": [
+      "Zhou, Tianhong",
+      "yin, xu",
+      "Zhu, Yingtao",
+      "Xiao, Chuxi",
+      "Bian, Haiyang",
+      "Wei, Lei",
+      "Zhang, Xuegong"
+    ],
+    "abstract": "Vision–language models (VLMs) exhibit strong zero-shot generalization on natural images and show early promise in interpretable medical image analysis. However, existing benchmarks do not systematically evaluate whether these models truly reason like human clinicians or merely imitate superficial patterns. To address this gap, we propose DrVD-Bench, the first multimodal benchmark for clinical visual reasoning. DrVD-Bench consists of three modules: Visual Evidence Comprehension, Reasoning Trajectory Assessment, and Report Generation Evaluation, comprising a total of 7,789 image–question pairs. Our benchmark covers 20 task types, 17 diagnostic categories, and five imaging modalities—CT, MRI, ultrasound, radiography, and pathology. DrVD-Bench is explicitly structured to reflect the clinical reasoning workflow from modality recognition to lesion identification and diagnosis. We benchmark 19 VLMs, including general-purpose and medical-specific, open-source and proprietary models, and observe that performance drops sharply as reasoning complexity increases. While some models begin to exhibit traces of human-like reasoning, they often still rely on shortcut correlations rather than grounded visual understanding. DrVD-Bench offers a rigorous and structured evaluation framework to guide the development of clinically trustworthy VLMs.",
+    "doi": "10.52202/085713-0420",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/12750d99d0faa73763108ff2bbeb54fd-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/12750d99d0faa73763108ff2bbeb54fd-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/12750d99d0faa73763108ff2bbeb54fd-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "构建涵盖CT/MRI/超声/放射/病理的临床视觉推理数据，实际评估19个VLM从病灶证据到诊断、报告的多阶段表现并分析捷径，直接支持医学诊断研究。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "DrVD-Bench: Do Vision-Language Models Reason Like Human Doctors in Medical Image Diagnosis?",
+        "authors": [
+          "Zhou, Tianhong",
+          "yin, xu",
+          "Zhu, Yingtao",
+          "Xiao, Chuxi",
+          "Bian, Haiyang",
+          "Wei, Lei",
+          "Zhang, Xuegong"
+        ],
+        "abstract": "Vision–language models (VLMs) exhibit strong zero-shot generalization on natural images and show early promise in interpretable medical image analysis. However, existing benchmarks do not systematically evaluate whether these models truly reason like human clinicians or merely imitate superficial patterns. To address this gap, we propose DrVD-Bench, the first multimodal benchmark for clinical visual reasoning. DrVD-Bench consists of three modules: Visual Evidence Comprehension, Reasoning Trajectory Assessment, and Report Generation Evaluation, comprising a total of 7,789 image–question pairs. Our benchmark covers 20 task types, 17 diagnostic categories, and five imaging modalities—CT, MRI, ultrasound, radiography, and pathology. DrVD-Bench is explicitly structured to reflect the clinical reasoning workflow from modality recognition to lesion identification and diagnosis. We benchmark 19 VLMs, including general-purpose and medical-specific, open-source and proprietary models, and observe that performance drops sharply as reasoning complexity increases. While some models begin to exhibit traces of human-like reasoning, they often still rely on shortcut correlations rather than grounded visual understanding. DrVD-Bench offers a rigorous and structured evaluation framework to guide the development of clinically trustworthy VLMs.",
+        "doi": "10.52202/085713-0420",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/12750d99d0faa73763108ff2bbeb54fd-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/12750d99d0faa73763108ff2bbeb54fd-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/12750d99d0faa73763108ff2bbeb54fd-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建涵盖CT/MRI/超声/放射/病理的临床视觉推理数据，实际评估19个VLM从病灶证据到诊断、报告的多阶段表现并分析捷径，直接支持医学诊断研究。"
+        },
+        {
+          "axis": "method",
+          "label": "视觉语言模型",
+          "label_en": "Vision-language model",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建涵盖CT/MRI/超声/放射/病理的临床视觉推理数据，实际评估19个VLM从病灶证据到诊断、报告的多阶段表现并分析捷径，直接支持医学诊断研究。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "构建涵盖CT/MRI/超声/放射/病理的临床视觉推理数据，实际评估19个VLM从病灶证据到诊断、报告的多阶段表现并分析捷径，直接支持医学诊断研究。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "proceedings_1637243965fcef6af6f01f84ea0d97fd",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "LibriBrain: Over 50 Hours of Within-Subject MEG to Improve Speech Decoding Methods at Scale",
+    "authors": [
+      "Özdogan, Miran",
+      "Landau, Gilad",
+      "Elvers, Gereon",
+      "Jayalath, Dulhan",
+      "Somaiya, Pratik",
+      "Mantegna, Francesco",
+      "Woolrich, Mark",
+      "Parker Jones, Oiwi"
+    ],
+    "abstract": "LibriBrain represents the largest single-subject MEG dataset to date for speech decoding, with over 50 hours of recordings---5$\\times$ larger than the next comparable dataset and 50$\\times$ larger than most. This unprecedented `depth' of within-subject data enables exploration of neural representations at a scale previously unavailable with non-invasive methods. LibriBrain comprises high-quality MEG recordings together with detailed annotations from a single participant listening to naturalistic spoken English, covering nearly the full Sherlock Holmes canon. Designed to support advances in neural decoding, LibriBrain comes with a Python library for streamlined integration with deep learning frameworks, standard data splits for reproducibility, and baseline results for three foundational decoding tasks: speech detection, phoneme classification, and word classification. Baseline experiments demonstrate that increasing training data yields substantial improvements in decoding performance, highlighting the value of scaling up deep, within-subject datasets. By releasing this dataset, we aim to empower the research community to advance speech decoding methodologies and accelerate the development of safe, effective clinical brain-computer interfaces.",
+    "doi": "10.52202/085713-0511",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1637243965fcef6af6f01f84ea0d97fd-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1637243965fcef6af6f01f84ea0d97fd-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1637243965fcef6af6f01f84ea0d97fd-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-neurips-extra-first",
+      "decision": "include",
+      "rationale": "建立50小时同受试者MEG与自然语音配对数据，给出语音检测、音素和词分类的学习基线并检验数据规模对神经解码的影响，直接服务非侵入式脑信号与语言表征研究。",
+      "evidence_location": "出版社原摘要",
+      "verified_metadata": {
+        "title": "LibriBrain: Over 50 Hours of Within-Subject MEG to Improve Speech Decoding Methods at Scale",
+        "authors": [
+          "Özdogan, Miran",
+          "Landau, Gilad",
+          "Elvers, Gereon",
+          "Jayalath, Dulhan",
+          "Somaiya, Pratik",
+          "Mantegna, Francesco",
+          "Woolrich, Mark",
+          "Parker Jones, Oiwi"
+        ],
+        "abstract": "LibriBrain represents the largest single-subject MEG dataset to date for speech decoding, with over 50 hours of recordings---5$\\times$ larger than the next comparable dataset and 50$\\times$ larger than most. This unprecedented `depth' of within-subject data enables exploration of neural representations at a scale previously unavailable with non-invasive methods. LibriBrain comprises high-quality MEG recordings together with detailed annotations from a single participant listening to naturalistic spoken English, covering nearly the full Sherlock Holmes canon. Designed to support advances in neural decoding, LibriBrain comes with a Python library for streamlined integration with deep learning frameworks, standard data splits for reproducibility, and baseline results for three foundational decoding tasks: speech detection, phoneme classification, and word classification. Baseline experiments demonstrate that increasing training data yields substantial improvements in decoding performance, highlighting the value of scaling up deep, within-subject datasets. By releasing this dataset, we aim to empower the research community to advance speech decoding methodologies and accelerate the development of safe, effective clinical brain-computer interfaces.",
+        "doi": "10.52202/085713-0511",
+        "pages": null,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1637243965fcef6af6f01f84ea0d97fd-Abstract-Datasets_and_Benchmarks_Track.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1637243965fcef6af6f01f84ea0d97fd-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "published": "2026-04-23",
+        "volume": "38",
+        "track": "datasets_and_benchmarks_track",
+        "formal_conference_year": 2025,
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1637243965fcef6af6f01f84ea0d97fd-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "abstract_provenance": "Publisher original proceedings Abstract, copied verbatim",
+        "publication_date": "2026-04-23"
+      },
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "scope_note": "正式NeurIPS2025卷38论文集；原始实际online发表日期另存，未把2026 online日期冒充2025。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "出版社原摘要",
+          "rationale": "建立50小时同受试者MEG与自然语音配对数据，给出语音检测、音素和词分类的学习基线并检验数据规模对神经解码的影响，直接服务非侵入式脑信号与语言表征研究。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "出版社原摘要",
+          "rationale": "建立50小时同受试者MEG与自然语音配对数据，给出语音检测、音素和词分类的学习基线并检验数据规模对神经解码的影响，直接服务非侵入式脑信号与语言表征研究。"
+        },
+        {
+          "axis": "task",
+          "label": "神经活动解码",
+          "label_en": "Neural activity decoding",
+          "evidence_location": "出版社原摘要",
+          "rationale": "建立50小时同受试者MEG与自然语音配对数据，给出语音检测、音素和词分类的学习基线并检验数据规模对神经解码的影响，直接服务非侵入式脑信号与语言表征研究。"
+        },
+        {
+          "axis": "evaluation",
+          "label": "基准评测",
+          "label_en": "Benchmark evaluation",
+          "evidence_location": "出版社原摘要",
+          "rationale": "建立50小时同受试者MEG与自然语音配对数据，给出语音检测、音素和词分类的学习基线并检验数据规模对神经解码的影响，直接服务非侵入式脑信号与语言表征研究。"
+        }
+      ]
+    }
   }
 ]
