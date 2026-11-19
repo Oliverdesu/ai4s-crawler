@@ -36872,5 +36872,650 @@
         ]
       }
     }
+  },
+  {
+    "id": "10.1016/j.chmed.2024.11.001",
+    "venue": "j-a847fdc23a",
+    "year": 2025,
+    "track": null,
+    "title": "Research on comprehensive quality consistency evaluation strategy for TCM Granules: A case study with sugar-free Yangwei Granules produced by fluid-bed granulation",
+    "authors": [
+      "Jie Zhao",
+      "Geng Tian",
+      "Haibin Qu"
+    ],
+    "author_ids": [],
+    "abstract": "Objective: To develop a quality consistency evaluation strategy for traditional Chinese medicine (TCM) granules using sugar free Yangwei Granules as a model drug, and demonstrate the effectiveness of the developed method. Methods: The strategy integrates several methods including, HPLC fingerprint and physical fingerprint methods analyze the similarity in chemical and physical properties of the TCM granule samples. Near-infrared (NIR) spectroscopy with principal components cluster analysis method is used to monitor normal operating conditions (NOC) samples accurately and to identify different types of abnormal operating conditions (AOC) samples, particularly those that deviate from the normal range. Results: The combined use of HPLC fingerprint and physical fingerprint provides insights into the chemical and physical properties of the samples. NIR spectroscopy, combined with principal components cluster analysis, achieves high accuracy in monitoring NOC samples and identifying AOC samples without misjudgment. The approach proves useful as a complementary method in cases where HPLC fingerprint and physical fingerprint alone lack sufficient resolution. Conclusion: This study establishes the feasibility and utility of the integrated approach for assessing the quality consistency of TCM granules. The strategy shows a high degree of generalization and holds significant importance for enhancing the quality control processes of TCM granules.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.chmed.2024.11.001",
+    "pages": "575-583",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.chmed.2024.11.001",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-07",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Chinese Herbal Medicines",
+    "issn": "1674-6384",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1674638424001084",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "已核正文2.3.3、3.1.3及3.2：在近红外光谱主成分特征上执行层次聚类，实际将26批样品分组，并用于识别正常/异常工况质量差异；学习分组是质量判别核心，不只PCA作图或相关性描述。仅标无监督聚类，不冒称深度网络。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "2.3.3、3.1.3及3.2",
+          "rationale": "已核正文2.3.3、3.1.3及3.2：在近红外光谱主成分特征上执行层次聚类，实际将26批样品分组，并用于识别正常/异常工况质量差异；学习分组是质量判别核心，不只PCA作图或相关性描述。仅标无监督聚类，不冒称深度网络。"
+        },
+        {
+          "axis": "method",
+          "label": "聚类",
+          "label_en": "Clustering",
+          "evidence_location": "2.3.3、3.1.3及3.2",
+          "rationale": "已核正文2.3.3、3.1.3及3.2：在近红外光谱主成分特征上执行层次聚类，实际将26批样品分组，并用于识别正常/异常工况质量差异；学习分组是质量判别核心，不只PCA作图或相关性描述。仅标无监督聚类，不冒称深度网络。"
+        },
+        {
+          "axis": "method",
+          "label": "无监督学习",
+          "label_en": "Unsupervised learning",
+          "evidence_location": "2.3.3、3.1.3及3.2",
+          "rationale": "已核正文2.3.3、3.1.3及3.2：在近红外光谱主成分特征上执行层次聚类，实际将26批样品分组，并用于识别正常/异常工况质量差异；学习分组是质量判别核心，不只PCA作图或相关性描述。仅标无监督聚类，不冒称深度网络。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.chmed.2024.11.001",
+        "title": "Research on comprehensive quality consistency evaluation strategy for TCM Granules: A case study with sugar-free Yangwei Granules produced by fluid-bed granulation",
+        "authors": [
+          "Jie Zhao",
+          "Geng Tian",
+          "Haibin Qu"
+        ],
+        "abstract": "Abstract\nObjective\nTo develop a quality consistency evaluation strategy for traditional Chinese medicine (TCM) granules using sugar free Yangwei Granules as a model drug, and demonstrate the effectiveness of the developed method.\nMethods\nThe strategy integrates several methods including, HPLC fingerprint and physical fingerprint methods analyze the similarity in chemical and physical properties of the TCM granule samples. Near-infrared (NIR) spectroscopy with principal components cluster analysis method is used to monitor normal operating conditions (NOC) samples accurately and to identify different types of abnormal operating conditions (AOC) samples, particularly those that deviate from the normal range.\nResults\nThe combined use of HPLC fingerprint and physical fingerprint provides insights into the chemical and physical properties of the samples. NIR spectroscopy, combined with principal components cluster analysis, achieves high accuracy in monitoring NOC samples and identifying AOC samples without misjudgment. The approach proves useful as a complementary method in cases where HPLC fingerprint and physical fingerprint alone lack sufficient resolution.\nConclusion\nThis study establishes the feasibility and utility of the integrated approach for assessing the quality consistency of TCM granules. The strategy shows a high degree of generalization and holds significant importance for enhancing the quality control processes of TCM granules.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1674638424001084",
+        "volume": "17",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1674638424001084",
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/3"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Publisher original Abstract read in normal browser",
+        "abstract_evidence_scope": "完整出版社原摘要及必要正文；输入截断字段保留，补充值单列。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "2.3.3、3.1.3及3.2",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-a847fdc23a/quality-pca-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:53:42.067311+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_publisher_original_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "2.3.3、3.1.3及3.2",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/3",
+          "https://www.sciencedirect.com/science/article/pii/S1674638424001084"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.chmed.2025.01.006",
+    "venue": "j-a847fdc23a",
+    "year": 2025,
+    "track": null,
+    "title": "Rapid identification of Astragalus membranaceus processing with rice water based on intelligent color recognition and multi-source information fusion technology",
+    "authors": [
+      "Dongmei Guo",
+      "Yijing Pan",
+      "Shunshun Wang",
+      "Kehong Ming",
+      "Qingjia Chi",
+      "Chunli Wang",
+      "Kang Xu"
+    ],
+    "author_ids": [],
+    "abstract": "Objective: with rice water (AM-RW), establish quality evaluation standards, and develop a rapid multilayer perceptron (MLP) model for classification. This model facilitates accurate identification of AM-RW at various processing stages, providing a scientific reference for the quality assessment of traditional Chinese medicine products. Methods: Optimization of AM-RW was achieved using a single-factor test and Box-Behnken design response surface methodology to determine the optimal process parameters. The Watershed Algorithm was applied to segment images of AM tablets, and the numpy and pandas libraries were used to collect color data from these tablets. The study also explored the correlation between R, G, B, and L color values and calycosin-7-glucoside content. A rapid classification model based on MLP was developed, utilizing color values, hardness values, and calycosin-7-glucoside content of AM-RW with various processing degrees. Results: The study identified the optimal parameters for AM-RW as 20 mL of rice water, a frying temperature of 180 °C, and a frying time of 7 min. The average color values for the best-processed products fell within the normal distribution range: R value (94.83 ± 8.57), G value (96.1 ± 19.37), B value (36.84 ± 5.93), and L value (89.55 ± 12.24). The rapid identification model using MLP demonstrated high accuracy and reliability, achieving an accuracy rate of 94% in the classification process. Conclusions: The response surface method effectively optimizes the precise processing parameters of AM-RW. Furthermore, the MLP-based model can accurately classify AM-RW with varying degrees of processing, providing a valuable reference for the expedited identification of processing quality in traditional Chinese medicine products.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.chmed.2025.01.006",
+    "pages": "724-733",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.chmed.2025.01.006",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-10",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Chinese Herbal Medicines",
+    "issn": "1674-6384",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1674638425000103",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "出版社完整原摘要明确训练多层感知机，以色值、硬度和毛蕊异黄酮葡萄糖苷含量区分米泔水制黄芪炮制程度，报告94%分类准确率；学习模型实际支持中药加工质量研究。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "完整原摘要及2.10 MLP neural network classification",
+          "rationale": "出版社完整原摘要明确训练多层感知机，以色值、硬度和毛蕊异黄酮葡萄糖苷含量区分米泔水制黄芪炮制程度，报告94%分类准确率；学习模型实际支持中药加工质量研究。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "完整原摘要及2.10 MLP neural network classification",
+          "rationale": "出版社完整原摘要明确训练多层感知机，以色值、硬度和毛蕊异黄酮葡萄糖苷含量区分米泔水制黄芪炮制程度，报告94%分类准确率；学习模型实际支持中药加工质量研究。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.chmed.2025.01.006",
+        "title": "Rapid identification of Astragalus membranaceus processing with rice water based on intelligent color recognition and multi-source information fusion technology",
+        "authors": [
+          "Dongmei Guo",
+          "Yijing Pan",
+          "Shunshun Wang",
+          "Kehong Ming",
+          "Qingjia Chi",
+          "Chunli Wang",
+          "Kang Xu"
+        ],
+        "abstract": "Abstract\nObjective\nThis study seeks to optimize the processing parameters for Astragalus membranaceus with rice water (AM-RW), establish quality evaluation standards, and develop a rapid multilayer perceptron (MLP) model for classification. This model facilitates accurate identification of AM-RW at various processing stages, providing a scientific reference for the quality assessment of traditional Chinese medicine products.\nMethods\nOptimization of AM-RW was achieved using a single-factor test and Box-Behnken design response surface methodology to determine the optimal process parameters. The Watershed Algorithm was applied to segment images of AM tablets, and the numpy and pandas libraries were used to collect color data from these tablets. The study also explored the correlation between R, G, B, and L color values and calycosin-7-glucoside content. A rapid classification model based on MLP was developed, utilizing color values, hardness values, and calycosin-7-glucoside content of AM-RW with various processing degrees.\nResults\nThe study identified the optimal parameters for AM-RW as 20 mL of rice water, a frying temperature of 180 °C, and a frying time of 7 min. The average color values for the best-processed products fell within the normal distribution range: R value (94.83 ± 8.57), G value (96.1 ± 19.37), B value (36.84 ± 5.93), and L value (89.55 ± 12.24). The rapid identification model using MLP demonstrated high accuracy and reliability, achieving an accuracy rate of 94% in the classification process.\nConclusions\nThe response surface method effectively optimizes the precise processing parameters of AM-RW. Furthermore, the MLP-based model can accurately classify AM-RW with varying degrees of processing, providing a valuable reference for the expedited identification of processing quality in traditional Chinese medicine products.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1674638425000103",
+        "volume": "17",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000103",
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Publisher original Abstract read in normal browser",
+        "abstract_evidence_scope": "完整出版社原摘要及必要正文；输入截断字段保留，补充值单列。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "完整原摘要及2.10 MLP neural network classification",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-a847fdc23a/color-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:53:42.067311+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_publisher_original_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整原摘要及2.10 MLP neural network classification",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000103"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.chmed.2025.05.003",
+    "venue": "j-a847fdc23a",
+    "year": 2025,
+    "track": null,
+    "title": "Unraveling bioactive potential and production in Ganoderma lucidum through omics and machine learning modeling",
+    "authors": [
+      "Sonali Khanal",
+      "Anand Kumar",
+      "Pankaj Kumar",
+      "Pratibha Thakur",
+      "Atul M. Chander",
+      "Rachna Verma",
+      "Ashwani Tapwal",
+      "Vinay Chauhan",
+      "Dinesh Kumar",
+      "Deepak Kumar"
+    ],
+    "author_ids": [],
+    "abstract": "Ganoderma lucidum , a medicinal mushroom renowned for its production of a diverse array of compounds, accounts for the pharmacological effects including anti-inflammatory, antioxidant, immunomodulatory, and anticancer characteristics. This, it is recognized as a valuable species of interest in the pharmaceutical and nutraceutical industries due to its important medicinal properties. Recent advances in omics technologies such as genomes, transcriptomics, proteomics, and metabolomics have considerably increased our understanding of the bioactives in G. lucidum . This review explores the application of molecular breeding techniques to enhance both the yield and quality of G. lucidum across the food, pharmaceutical, and industrial sectors. The article discusses the current state of research on the use of contemporary omics technologies which studies and highlights future research directions that may increase the production of bioactive compounds for their therapeutic potential. Additionally, predictive methods with computational studies have recently emerged as effective tools for investigating bioactive constituents in G. lucidum , providing an organized and cost-effective strategy for understanding their bioactivity, interactions, and possible therapeutic uses. Omics and machine learning techniques can be applied to identify the candidates for pharmaceutical applications and to enhance the production of bioactive compounds in G. lucidum . The quantification and production of the bioactive compounds can be streamlined by the integrating computational study of bioactive compounds with non-destructive predictive machine learning models of the same. Synergistically, these techniques have the potential to be a promising approach for the future prediction of the bioactive constituents, without compromising the integrity of the fungal organism.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.chmed.2025.05.003",
+    "pages": "414-427",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.chmed.2025.05.003",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-07",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Chinese Herbal Medicines",
+    "issn": "1674-6384",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1674638425000589",
+    "ai4s_hits": [
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学",
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "genomics",
+      "transcriptomics",
+      "proteomics",
+      "metabolomics",
+      "molecule"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "genomics",
+          "transcriptomics",
+          "proteomics",
+          "metabolomics"
+        ],
+        "AI for 物质科学": [
+          "molecule"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "公开正文第4节具体综述已实施ALO–LSSVM与PLSR、PSO–LSSVM对灵芝多糖/水分预测的比较，并讨论ANN预测孢子浓度和实际数据/泛化局限；是既有机器学习用于药用真菌成分及生物研究的实质综述。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "4 Computational analysis of G. lucidum bioactive compounds",
+          "rationale": "公开正文第4节具体综述已实施ALO–LSSVM与PLSR、PSO–LSSVM对灵芝多糖/水分预测的比较，并讨论ANN预测孢子浓度和实际数据/泛化局限；是既有机器学习用于药用真菌成分及生物研究的实质综述。"
+        },
+        {
+          "axis": "method",
+          "label": "支持向量机",
+          "label_en": "Support vector machine",
+          "evidence_location": "4 Computational analysis of G. lucidum bioactive compounds",
+          "rationale": "公开正文第4节具体综述已实施ALO–LSSVM与PLSR、PSO–LSSVM对灵芝多糖/水分预测的比较，并讨论ANN预测孢子浓度和实际数据/泛化局限；是既有机器学习用于药用真菌成分及生物研究的实质综述。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "4 Computational analysis of G. lucidum bioactive compounds",
+          "rationale": "公开正文第4节具体综述已实施ALO–LSSVM与PLSR、PSO–LSSVM对灵芝多糖/水分预测的比较，并讨论ANN预测孢子浓度和实际数据/泛化局限；是既有机器学习用于药用真菌成分及生物研究的实质综述。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.chmed.2025.05.003",
+        "title": "Unraveling bioactive potential and production in Ganoderma lucidum through omics and machine learning modeling",
+        "authors": [
+          "Sonali Khanal",
+          "Anand Kumar",
+          "Pankaj Kumar",
+          "Pratibha Thakur",
+          "Atul M. Chander",
+          "Rachna Verma",
+          "Ashwani Tapwal",
+          "Vinay Chauhan",
+          "Dinesh Kumar",
+          "Deepak Kumar"
+        ],
+        "abstract": "Abstract\nGanoderma lucidum, a medicinal mushroom renowned for its production of a diverse array of compounds, accounts for the pharmacological effects including anti-inflammatory, antioxidant, immunomodulatory, and anticancer characteristics. Thus, it is recognized as a valuable species of interest in the pharmaceutical and nutraceutical industries due to its important medicinal properties. Recent advances in omics technologies such as genomes, transcriptomics, proteomics, and metabolomics have considerably increased our understanding of the bioactives in G. lucidum. This review explores the application of molecular breeding techniques to enhance both the yield and quality of G. lucidum across the food, pharmaceutical, and industrial sectors. The article discusses the current state of research on the use of contemporary omics technologies which studies and highlights future research directions that may increase the production of bioactive compounds for their therapeutic potential. Additionally, predictive methods with computational studies have recently emerged as effective tools for investigating bioactive constituents in G. lucidum, providing an organized and cost-effective strategy for understanding their bioactivity, interactions, and possible therapeutic uses. Omics and machine learning techniques can be applied to identify the candidates for pharmaceutical applications and to enhance the production of bioactive compounds in G. lucidum. The quantification and production of the bioactive compounds can be streamlined by the integrating computational study of bioactive compounds with non-destructive predictive machine learning models of the same. Synergistically, these techniques have the potential to be a promising approach for the future prediction of the bioactive constituents, without compromising the integrity of the fungal organism.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1674638425000589",
+        "volume": "17",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000589",
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/3"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Publisher original Abstract read in normal browser",
+        "abstract_evidence_scope": "完整出版社原摘要及必要正文；输入截断字段保留，补充值单列。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "4 Computational analysis of G. lucidum bioactive compounds",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-a847fdc23a/ganoderma-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:53:42.067311+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_publisher_original_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "4 Computational analysis of G. lucidum bioactive compounds",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/3",
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000589"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.chmed.2025.08.002",
+    "venue": "j-a847fdc23a",
+    "year": 2025,
+    "track": null,
+    "title": "Unveiling bioactive components in Sargassum fusiforme via phytochemical and biological evaluation: A heterogeneous information ensemble approach",
+    "authors": [
+      "Yue Zhu",
+      "Yuting Ai",
+      "Jianfu Zhou",
+      "Xiaozhuan Jia",
+      "Shuying Liu",
+      "Bo Zhu",
+      "Yimin Qin",
+      "Jianping Jiang",
+      "Zhenzhong Yang"
+    ],
+    "author_ids": [],
+    "abstract": "Objective: (SF), a brown algae, is a marine traditional Chinese medicine with nutritional value. However, studies on the bioactive components in SF are limited. The aim of this study is to investigate phytochemical and biological properties of SF from different geographical origins and botanical parts, as well as to explore bioactive components within SF. Methods: SF from different origins and botanical parts were collected for integrated phytochemical analyses using ultra-high performance liquid chromatography-tandem quadrupole time of flight mass spectrometry (UPLC-Q-TOF-MS), mass spectral molecular networking and liquid chromatography-single quadrupole mass spectrometry (LC-MSD), etc., followed by the systematic chemical profile evaluation. Subsequently, the glycolipid metabolism regulation and anticoagulation of SF were examined. Furthermore, the overall information acquired was assembled using multivariate analysis and machine learning to discover bioactive components. Results: A total of 123 compounds in SF were identified with the assistance of mass spectral molecular networking. The variations in the content of amino acids, fucoidan, alginate, phlorotannin, alkaloids, terpenoids, etc. were observed in SF from different origins and botanical parts. SF possessed the hypolipidemic, hypoglycemic and anticoagulant effects, and SF from Dongtou, Wenzhou, Zhejiang, was outstanding among origins in both phytochemical and biological evaluations. A heterogeneous information ensemble approach was adopted to discover the bioactive components in SF, namely 3-indoleacrylic acid, phlorotannin and fucoidan. Conclusion: This study evaluated the phytochemical and biological properties of SF, revealed the bioactive components using heterogeneous information and provided a reference for the rational consumption and further development of SF.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.chmed.2025.08.002",
+    "pages": "822-836",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.chmed.2025.08.002",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-10",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Chinese Herbal Medicines",
+    "issn": "1674-6384",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1674638425000887",
+    "ai4s_hits": [
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "molecule"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 物质科学": [
+          "molecule"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "正文2.9.2和3.6明确训练SVR、RFR、GBRT，将化学组分与生物活性关联，采用80:20训练测试划分、网格搜索和五折验证，筛出候选活性成分并进行酶抑制/凝血活性验证；AI直接支持海藻药效物质发现。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "2.9.2 Machine learning及3.6 Multivariate analysis and machine learning",
+          "rationale": "正文2.9.2和3.6明确训练SVR、RFR、GBRT，将化学组分与生物活性关联，采用80:20训练测试划分、网格搜索和五折验证，筛出候选活性成分并进行酶抑制/凝血活性验证；AI直接支持海藻药效物质发现。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "2.9.2 Machine learning及3.6 Multivariate analysis and machine learning",
+          "rationale": "正文2.9.2和3.6明确训练SVR、RFR、GBRT，将化学组分与生物活性关联，采用80:20训练测试划分、网格搜索和五折验证，筛出候选活性成分并进行酶抑制/凝血活性验证；AI直接支持海藻药效物质发现。"
+        },
+        {
+          "axis": "method",
+          "label": "随机森林",
+          "label_en": "Random forest",
+          "evidence_location": "2.9.2 Machine learning及3.6 Multivariate analysis and machine learning",
+          "rationale": "正文2.9.2和3.6明确训练SVR、RFR、GBRT，将化学组分与生物活性关联，采用80:20训练测试划分、网格搜索和五折验证，筛出候选活性成分并进行酶抑制/凝血活性验证；AI直接支持海藻药效物质发现。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.chmed.2025.08.002",
+        "title": "Unveiling bioactive components in Sargassum fusiforme via phytochemical and biological evaluation: A heterogeneous information ensemble approach",
+        "authors": [
+          "Yue Zhu",
+          "Yuting Ai",
+          "Jianfu Zhou",
+          "Xiaozhuan Jia",
+          "Shuying Liu",
+          "Bo Zhu",
+          "Yimin Qin",
+          "Jianping Jiang",
+          "Zhenzhong Yang"
+        ],
+        "abstract": "Abstract\nObjective\nSargassum fusiforme (SF), a brown algae, is a marine traditional Chinese medicine with nutritional value. However, studies on the bioactive components in SF are limited. The aim of this study is to investigate phytochemical and biological properties of SF from different geographical origins and botanical parts, as well as to explore bioactive components within SF.\nMethods\nSF from different origins and botanical parts were collected for integrated phytochemical analyses using ultra-high performance liquid chromatography-tandem quadrupole time of flight mass spectrometry (UPLC-Q-TOF-MS), mass spectral molecular networking and liquid chromatography-single quadrupole mass spectrometry (LC-MSD), etc., followed by the systematic chemical profile evaluation. Subsequently, the glycolipid metabolism regulation and anticoagulation of SF were examined. Furthermore, the overall information acquired was assembled using multivariate analysis and machine learning to discover bioactive components.\nResults\nA total of 123 compounds in SF were identified with the assistance of mass spectral molecular networking. The variations in the content of amino acids, fucoidan, alginate, phlorotannin, alkaloids, terpenoids, etc. were observed in SF from different origins and botanical parts. SF possessed the hypolipidemic, hypoglycemic and anticoagulant effects, and SF from Dongtou, Wenzhou, Zhejiang, was outstanding among origins in both phytochemical and biological evaluations. A heterogeneous information ensemble approach was adopted to discover the bioactive components in SF, namely 3-indoleacrylic acid, phlorotannin and fucoidan.\nConclusion\nThis study evaluated the phytochemical and biological properties of SF, revealed the bioactive components using heterogeneous information and provided a reference for the rational consumption and further development of SF.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1674638425000887",
+        "volume": "17",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000887",
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Publisher original Abstract read in normal browser",
+        "abstract_evidence_scope": "完整出版社原摘要及必要正文；输入截断字段保留，补充值单列。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "2.9.2 Machine learning及3.6 Multivariate analysis and machine learning",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-a847fdc23a/ensemble-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:53:42.067311+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_publisher_original_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "2.9.2 Machine learning及3.6 Multivariate analysis and machine learning",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000887"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.chmed.2025.08.003",
+    "venue": "j-a847fdc23a",
+    "year": 2025,
+    "track": null,
+    "title": "Target deconvolution strategies in TCM: Bridging medicinal properties with therapeutic efficacies",
+    "authors": [
+      "Yuanyuan Hou",
+      "Min Jiang",
+      "Gang Bai"
+    ],
+    "author_ids": [],
+    "abstract": "The discovery and characterization of molecular targets from traditional Chinese medicine (TCM) represents a paradigm shift in contemporary drug development. This approach systematically bridges empirical TCM knowledge with modern pharmacological principles, establishing a robust framework for rational drug design. Through integrative systems-chemical biology approaches, we can now mechanistically elucidate the therapeutic basis of TCM's bioactive properties, facilitating the accelerated identification of both novel molecular targets and conserved pharmacological pathways. This multidisciplinary strategy significantly enhances drug development efficiency while advancing therapeutic innovation to address critical unmet medical needs. With the rapid advancement of next-generation target deconvolution technologies and AI-driven computational platforms, TCM is poised to make increasingly substantial contributions to modern pharmacotherapy.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.chmed.2025.08.003",
+    "pages": "720-723",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.chmed.2025.08.003",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-10",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Chinese Herbal Medicines",
+    "issn": "1674-6384",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S1674638425000899",
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "drug design"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学",
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "drug discovery",
+      "molecule"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "drug discovery"
+        ],
+        "AI for 物质科学": [
+          "molecule"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "官网标Discussion/Perspectives，公开正文围绕中药药性与靶点反卷积提出研究路径和意义；AI主要为预期的大数据预测与一般设计平台概述，未形成对既有具体AI研究的实质综述或新AI科研结果。按观点讨论及AI科研作用不足排除。",
+      "tags": [],
+      "verified_metadata": {
+        "doi": "10.1016/j.chmed.2025.08.003",
+        "title": "Target deconvolution strategies in TCM: Bridging medicinal properties with therapeutic efficacies",
+        "authors": [
+          "Yuanyuan Hou",
+          "Min Jiang",
+          "Gang Bai"
+        ],
+        "abstract": "Abstract\nThe discovery and characterization of molecular targets from traditional Chinese medicine (TCM) represents a paradigm shift in contemporary drug development. This approach systematically bridges empirical TCM knowledge with modern pharmacological principles, establishing a robust framework for rational drug design. Through integrative systems-chemical biology approaches, we can now mechanistically elucidate the therapeutic basis of TCM’s bioactive properties, facilitating the accelerated identification of both novel molecular targets and conserved pharmacological pathways. This multidisciplinary strategy significantly enhances drug development efficiency while advancing therapeutic innovation to address critical unmet medical needs. With the rapid advancement of next-generation target deconvolution technologies and AI-driven computational platforms, TCM is poised to make increasingly substantial contributions to modern pharmacotherapy.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1674638425000899",
+        "volume": "17",
+        "publication_year": 2025,
+        "article_type": "Discussion",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000899",
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Publisher original Abstract read in normal browser",
+        "abstract_evidence_scope": "完整出版社原摘要及必要正文；输入截断字段保留，补充值单列。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "出版社Discussion/Perspectives及全文第2、3、6节",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-a847fdc23a/target-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:53:42.067311+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_publisher_original_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "出版社Discussion/Perspectives及全文第2、3、6节",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S1674638425000899"
+        ]
+      }
+    }
   }
 ]

@@ -36219,26 +36219,39 @@
           "papers": 75,
           "papers_missing_abstract": 4,
           "snapshot_candidates": 3,
-          "candidates": 3,
+          "candidates": 5,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 73,
+          "official_scope": "Complete official2025 volume17 all-document catalogue, all archive-listed issues and pagination checked; 73 unique publisher PIIs mapped exactly to the in-scope subset of75 raw identities; two unassigned articles-in-press retained and explicitly scope-excluded. Scientific article type and AI contribution reviewed separately.",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "Official whole-year catalogue 73 unique PIIs exactly matches normalized raw75 minus two verified unassigned articles-in-press; 3 initial candidates plus2 independently verified recall additions. All candidates have complete original abstracts and final own decisions; noncandidate abstract gaps remain untouched.",
+          "evidence_urls": [
+            "https://www.sciencedirect.com/journal/chinese-herbal-medicines/issues",
+            "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/1",
+            "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/2",
+            "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/3",
+            "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/17/issue/4"
           ],
+          "decisions": {
+            "include": 4,
+            "exclude": 1,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "active_review_file": "reviews/2025/zch66883-lixueting.json",
+          "catalogue_reference_records": 0,
+          "historical_review_files": [],
+          "final_included": 4,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
@@ -47185,10 +47198,10 @@
         {
           "owner": "李雪婷",
           "sources": 51,
-          "delivered": 9,
-          "official": 8,
+          "delivered": 10,
+          "official": 9,
           "pending": 0,
-          "open_issues": 43,
+          "open_issues": 42,
           "status": "in_progress",
           "last_update": {
             "at": "2026-11-18T21:32:59-08:00",
@@ -75515,10 +75528,10 @@
         },
         "2025": {
           "sources": 51,
-          "delivered": 9,
-          "official": 8,
+          "delivered": 10,
+          "official": 9,
           "pending": 0,
-          "open_issues": 43,
+          "open_issues": 42,
           "status": "in_progress"
         },
         "2026": {
@@ -75531,7 +75544,7 @@
         }
       },
       "sources": 153,
-      "delivered": 99,
+      "delivered": 100,
       "not_started": [],
       "last_update": {
         "at": "2026-11-18T21:32:59-08:00",
@@ -75678,6 +75691,14 @@
       "checked_at": "2026-11-19T07:49:08.429086+00:00",
       "input_commit": "ed3a2a7a731355abfc189e3f48616b7690251902",
       "reason": "Current personal screening checkpoint; eight complete sources and one partially reviewed conference. Remaining work is retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T07:54:13.710708+00:00",
+      "input_commit": "61d0adb320ea14c0f78d07cef0eb9c8d5edbf7df",
+      "reason": "Current personal screening checkpoint; nine complete sources and one partially reviewed conference. Remaining work is retained.",
       "unchanged_other_owners_and_years": true
     }
   ]
