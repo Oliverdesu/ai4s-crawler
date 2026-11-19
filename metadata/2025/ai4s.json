@@ -1170104,5 +1170104,1611 @@
   "project_url": null,
   "published": "2025-09-18",
   "source": "openreview"
+},
+{
+  "id": "iI7zx3ETyY",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Single GPU Task Adaptation of Pathology Foundation Models for Whole Slide Image Analysis",
+  "authors": [
+    "Neeraj Kumar",
+    "Chad Vanderbilt"
+  ],
+  "author_ids": [
+    "~Neeraj_Kumar5",
+    "~Chad_Vanderbilt1"
+  ],
+  "abstract": "Pathology foundation models (PFMs) have emerged as powerful tools for analyzing whole slide images (WSIs). However, adapting these pretrained PFMs for specific clinical tasks presents considerable challenges, primarily due to the availability of only weak (WSI-level) labels for gigapixel images, necessitating multiple instance learning (MIL) paradigm for effective WSI analysis. This paper proposes a novel approach for single-GPU \\textbf{T}ask \\textbf{A}daptation of \\textbf{PFM}s (TAPFM) that uses vision transformer (\\vit) attention for MIL aggregation while optimizing both for feature representations and attention weights. The proposed approach maintains separate computational graphs for MIL aggregator and the PFM to create stable training dynamics that align with downstream task objectives during end-to-end adaptation. Evaluated on mutation prediction tasks for bladder cancer and lung adenocarcinoma across institutional and The Cancer Genome Atlas (TCGA) cohorts, TAPFM consistently outperforms conventional approaches, with H-Optimus-0 (TAPFM) outperforming the benchmarks. TAPFM effectively handles multi-label classification of actionable mutations as well. Thus, TAPFM makes adaptation of powerful pre-trained PFMs practical on standard hardware for various clinical applications.",
+  "keywords": [
+    "Pathology Foundation Models",
+    "Whole Slide Images",
+    "Mutation Detection",
+    "Vision Transformer",
+    "Multiple Instance Learning"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ kumar2025single, title={Single {GPU} Task Adaptation of Pathology Foundation Models for Whole Slide Image Analysis}, author={Neeraj Kumar and Chad Vanderbilt}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=iI7zx3ETyY} }",
+  "url": "https://openreview.net/forum?id=iI7zx3ETyY",
+  "pdf_url": "https://openreview.net/pdf?id=iI7zx3ETyY",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "b7Ka31HvXU",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Aligning Evaluation with Clinical Priorities: Calibration, Label Shift, and Error Costs",
+  "authors": [
+    "Gerardo Flores",
+    "Alyssa Hasegawa Smith",
+    "Julia Fukuyama",
+    "Ashia C. Wilson"
+  ],
+  "author_ids": [
+    "~Gerardo_Flores1",
+    "~Alyssa_Hasegawa_Smith1",
+    "~Julia_Fukuyama1",
+    "~Ashia_C._Wilson1"
+  ],
+  "abstract": "Machine learning-based decision support systems are increasingly deployed in clinical settings, where probabilistic scoring functions are used to inform and prioritize patient management decisions. However, widely used scoring rules, such as accuracy and AUC-ROC, fail to adequately reflect key clinical priorities, including calibration, robustness to distributional shifts, and sensitivity to asymmetric error costs. In this work, we propose a principled yet practical evaluation framework for selecting calibrated thresholded classifiers that explicitly accounts for uncertainty in class prevalences and domain-specific cost asymmetries. Building on the theory of proper scoring rules, particularly the Schervish representation, we derive an adjusted variant of cross-entropy (log score) that averages cost-weighted performance over clinically relevant ranges of class balance. The resulting evaluation is simple to apply, sensitive to clinical deployment conditions, and designed to prioritize models that are both calibrated and robust to real-world variations.",
+  "keywords": [
+    "binary classification",
+    "calibration",
+    "label shift",
+    "cost-sensitive evaluation",
+    "proper scoring rules"
+  ],
+  "tldr": "Clipped Log Scores measures miscalibration in units of outcomes, allowing for bounded but uncertain label shift as well as asymmetric costs.",
+  "primary_area": "evaluation",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ flores2025aligning, title={Aligning Evaluation with Clinical Priorities: Calibration, Label Shift, and Error Costs}, author={Gerardo Flores and Alyssa Hasegawa Smith and Julia Fukuyama and Ashia C. Wilson}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=b7Ka31HvXU} }",
+  "url": "https://openreview.net/forum?id=b7Ka31HvXU",
+  "pdf_url": "https://openreview.net/pdf?id=b7Ka31HvXU",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "TSd6GrXTFW",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Preference-Driven Multi-Objective Combinatorial Optimization with Conditional Computation",
+  "authors": [
+    "Mingfeng Fan",
+    "Jianan Zhou",
+    "Yifeng Zhang",
+    "Yaoxin Wu",
+    "Jinbiao Chen",
+    "Guillaume Adrien Sartoretti"
+  ],
+  "author_ids": [
+    "~Mingfeng_Fan2",
+    "~Jianan_Zhou1",
+    "~Yifeng_Zhang5",
+    "~Yaoxin_Wu2",
+    "~Jinbiao_Chen1",
+    "~Guillaume_Adrien_Sartoretti1"
+  ],
+  "abstract": "Recent deep reinforcement learning methods have achieved remarkable success in solving multi-objective combinatorial optimization problems (MOCOPs) by decomposing them into multiple subproblems, each associated with a specific weight vector. However, these methods typically treat all subproblems equally and solve them using a single model, hindering the effective exploration of the solution space and thus leading to suboptimal performance. To overcome the limitation, we propose POCCO, a novel plug-and-play framework that enables adaptive selection of model structures for subproblems, which are subsequently optimized based on preference signals rather than explicit reward values. Specifically, we design a conditional computation block that routes subproblems to specialized neural architectures. Moreover, we propose a preference-driven optimization algorithm that learns pairwise preferences between winning and losing solutions. We evaluate the efficacy and versatility of POCCO by applying it to two state-of-the-art neural methods for MOCOPs. Experimental results across four classic MOCOP benchmarks demonstrate its significant superiority and strong generalization.",
+  "keywords": [
+    "Multi-objective combinatorial optimization; preference optimization; conditional computation"
+  ],
+  "tldr": null,
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ fan2025preferencedriven, title={Preference-Driven Multi-Objective Combinatorial Optimization with Conditional Computation}, author={Mingfeng Fan and Jianan Zhou and Yifeng Zhang and Yaoxin Wu and Jinbiao Chen and Guillaume Adrien Sartoretti}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=TSd6GrXTFW} }",
+  "url": "https://openreview.net/forum?id=TSd6GrXTFW",
+  "pdf_url": "https://openreview.net/pdf?id=TSd6GrXTFW",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "ufKaXYJt1F",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training",
+  "authors": [
+    "Shuo Cheng",
+    "Liqian Ma",
+    "Zhenyang Chen",
+    "Ajay Mandlekar",
+    "Caelan Reed Garrett",
+    "Danfei Xu"
+  ],
+  "author_ids": [
+    "~Shuo_Cheng1",
+    "~Liqian_Ma4",
+    "~Zhenyang_Chen1",
+    "~Ajay_Mandlekar1",
+    "~Caelan_Reed_Garrett1",
+    "~Danfei_Xu1"
+  ],
+  "abstract": "Behavior cloning has shown promise for robot manipulation, but real-world demonstrations are costly to acquire at scale. While simulated data offers a scalable alternative, particularly with advances in automated demonstration generation, transferring policies to the real world is hampered by various simulation and real domain gaps. In this work, we propose a unified sim-and-real co-training framework for learning generalizable manipulation policies that primarily leverages simulation and only requires a few real-world demonstrations. Central to our approach is learning a domain-invariant, task-relevant feature space. Our key insight is that aligning the joint distributions of observations and their corresponding actions across domains provides a richer signal than aligning observations (marginals) alone. We achieve this by embedding an Optimal Transport (OT)-inspired loss within the co-training framework, and extend this to an Unbalanced OT framework to handle the imbalance between abundant simulation data and limited real-world examples. We validate our method on challenging manipulation tasks, showing it can leverage abundant simulation data to achieve up to a 30\\% improvement in the real-world success rate and even generalize to scenarios seen only in simulation.",
+  "keywords": [
+    "Imitation Learning",
+    "Optimal Transport",
+    "Sim-to-Real"
+  ],
+  "tldr": null,
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ cheng2025generalizable, title={Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training}, author={Shuo Cheng and Liqian Ma and Zhenyang Chen and Ajay Mandlekar and Caelan Reed Garrett and Danfei Xu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ufKaXYJt1F} }",
+  "url": "https://openreview.net/forum?id=ufKaXYJt1F",
+  "pdf_url": "https://openreview.net/pdf?id=ufKaXYJt1F",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "0E2Um9n3YK",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "An Efficient Local Search Approach for Polarized Community Discovery in Signed Networks",
+  "authors": [
+    "Linus Aronsson",
+    "Morteza Haghir Chehreghani"
+  ],
+  "author_ids": [
+    "~Linus_Aronsson1",
+    "~Morteza_Haghir_Chehreghani2"
+  ],
+  "abstract": "Signed networks, where edges are labeled as positive or negative to represent friendly or antagonistic interactions, offer a natural framework for analyzing polarization, trust, and conflict in social systems. Detecting meaningful group structures in such networks is crucial for understanding online discourse, political divisions, and trust dynamics. A key challenge is to identify communities that are internally cohesive and externally antagonistic, while allowing for neutral or unaligned vertices. In this paper, we propose a method for identifying $k$ polarized communities that addresses a major limitation of prior methods: their tendency to produce highly size-imbalanced solutions. We introduce a novel optimization objective that avoids such imbalance. In addition, it is well known that approximation algorithms based on *local search* are highly effective for clustering signed networks when neutral vertices are not allowed. We build on this idea and design the first local search algorithm that extends to the setting with neutral vertices while scaling to large networks. By connecting our approach to block-coordinate Frank-Wolfe optimization, we prove a linear convergence rate, enabled by the structure of our objective. Experiments on real-world and synthetic datasets demonstrate that our method consistently outperforms state-of-the-art baselines in solution quality, while remaining competitive in computational efficiency.",
+  "keywords": [
+    "Local search",
+    "clustering",
+    "correlation clustering",
+    "polarized community discovery",
+    "polarized community detection",
+    "signed networks",
+    "graph partitioning"
+  ],
+  "tldr": "This paper proposes a scalable local search method for detecting balanced polarized communities in signed networks, including neutral nodes, using a new objective that avoids size imbalance and achieves superior quality and efficiency.",
+  "primary_area": "general_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ aronsson2025an, title={An Efficient Local Search Approach for Polarized Community Discovery in Signed Networks}, author={Linus Aronsson and Morteza Haghir Chehreghani}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=0E2Um9n3YK} }",
+  "url": "https://openreview.net/forum?id=0E2Um9n3YK",
+  "pdf_url": "https://openreview.net/pdf?id=0E2Um9n3YK",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "K9PcELos78",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "ChA-MAEViT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning",
+  "authors": [
+    "Chau Pham",
+    "Juan C. Caicedo",
+    "Bryan A. Plummer"
+  ],
+  "author_ids": [
+    "~Chau_Pham1",
+    "~Juan_C._Caicedo1",
+    "~Bryan_A._Plummer1"
+  ],
+  "abstract": "Prior work using Masked Autoencoders (MAEs) typically relies on random patch masking based on the assumption that images have significant redundancies across different channels, allowing for the reconstruction of masked content using cross-channel correlations. However, this assumption does not hold in Multi-Channel Imaging (MCI), where channels may provide complementary information with minimal feature overlap. Thus, these MAEs primarily learn local structures within individual channels from patch reconstruction, failing to fully leverage cross-channel interactions and limiting their MCI effectiveness. In this paper, we present ChA-MAEViT, an MAE-based method that enhances feature learning across MCI channels via four key strategies: (1) dynamic channel-patch masking, which compels the model to reconstruct missing channels in addition to masked patches, thereby enhancing cross-channel dependencies and improving robustness to varying channel configurations; (2) memory tokens, which serve as long-term memory aids to promote information sharing across channels, addressing the challenges of reconstructing structurally diverse channels; (3) hybrid token fusion module, which merges fine-grained patch tokens with a global class token to capture richer representations; and (4) Channel-Aware Decoder, a lightweight decoder utilizes channel tokens to effectively reconstruct image patches. Experiments on satellite and microscopy datasets, CHAMMI, JUMP-CP, and So2Sat, show that ChA-MAEViT significantly outperforms state-of-the-art MCI-ViTs by 3.0-21.5%, highlighting the importance of cross-channel interactions in MCI. Our code is publicly available at https://github.com/chaudatascience/cha_mae_vit.",
+  "keywords": [
+    "masked autoencoder",
+    "vision transformer",
+    "multi-channel imaging",
+    "representation learning"
+  ],
+  "tldr": "We introduce ChA-MAEViT - a robust, high-performing model that encourages cross-channel interactions for multi-channel imaging.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ pham2025chamaevit, title={ChA-{MAEV}iT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning}, author={Chau Pham and Juan C. Caicedo and Bryan A. Plummer}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=K9PcELos78} }",
+  "url": "https://openreview.net/forum?id=K9PcELos78",
+  "pdf_url": "https://openreview.net/pdf?id=K9PcELos78",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "kE4XEY7Bbc",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Model–Behavior Alignment under Flexible Evaluation: When the Best-Fitting Model Isn’t the Right One",
+  "authors": [
+    "Itamar Avitan",
+    "Tal Golan"
+  ],
+  "author_ids": [
+    "~Itamar_Avitan1",
+    "~Tal_Golan1"
+  ],
+  "abstract": "Linearly transforming stimulus representations of deep neural networks yields high-performing models of behavioral and neural responses to complex stimuli. But does the test accuracy of such predictions identify genuine representational alignment? We addressed this question through a large-scale model-recovery study. Twenty diverse vision models were linearly aligned to 4.5 million behavioral judg- ments from the THINGS odd-one-out dataset and calibrated to reproduce human response variability. For each model in turn, we sampled synthetic responses from its probabilistic predictions, fitted all candidate models to the synthetic data, and tested whether the data-generating model would re-emerge as the best predictor of the simulated data. Model recovery accuracy improved with training-set size but plateaued below 80%, even at millions of simulated trials. Regression analyses linked misidentification primarily to shifts in representational geometry induced by the linear transformation, as well as to the effective dimensionality of the transformed features. These findings demonstrate that, even with massive behavioral data, overly flexible alignment metrics may fail to guide us toward artificial representations that are genuinely more human-aligned. Model comparison experiments must be designed to balance the trade-off between predictive accuracy and identifiability—ensuring that the best-fitting model is also the right one.",
+  "keywords": [
+    "Representational Alignment; Model Recovery; Deep Neural Networks; Similarity Judgments;Representational Geometry;Cognitve Computational modeling"
+  ],
+  "tldr": null,
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ avitan2025modelbehavior, title={Model{\\textendash}Behavior Alignment under Flexible Evaluation: When the Best-Fitting Model Isn{\\textquoteright}t the Right One}, author={Itamar Avitan and Tal Golan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=kE4XEY7Bbc} }",
+  "url": "https://openreview.net/forum?id=kE4XEY7Bbc",
+  "pdf_url": "https://openreview.net/pdf?id=kE4XEY7Bbc",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "iWWPtwXfnO",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Sparse Diffusion Autoencoder for Test-time Adapting Prediction of Complex Systems",
+  "authors": [
+    "Jingwen Cheng",
+    "Ruikun Li",
+    "Huandong Wang",
+    "Yong Li"
+  ],
+  "author_ids": [
+    "~Jingwen_Cheng1",
+    "~Ruikun_Li3",
+    "~Huandong_Wang2",
+    "~Yong_Li7"
+  ],
+  "abstract": "Predicting the behavior of complex systems is critical in many scientific and engineering domains, and hinges on the model’s ability to capture their underlying dynamics. Existing methods encode the intrinsic dynamics of high-dimensional observations through latent representations and predict autoregressively. However, these latent representations lose the inherent spatial structure of spatiotemporal dynamics, leading to the predictor's inability to effectively model spatial interactions and neglect emerging dynamics during long-term prediction. In this work, we propose SparseDiff, introducing a test-time adaptation strategy to dynamically update the encoding scheme to accommodate emergent spatiotemporal structures during the long-term evolution of the system. Specifically, we first design a codebook-based sparse encoder, which coarsens the continuous spatial domain into a sparse graph topology. Then, we employ a graph neural ordinary differential equation to model the dynamics and guide a diffusion decoder for reconstruction. SparseDiff autoregressively predicts the spatiotemporal evolution and adjust the sparse topological structure to adapt to emergent spatiotemporal patterns by adaptive re-encoding. Extensive evaluations on representative systems demonstrate that SparseDiff achieves an average prediction error reduction of 49.99\\% compared to baselines, requiring only 1\\% of the spatial resolution.",
+  "keywords": [
+    "Complex system",
+    "Diffusion"
+  ],
+  "tldr": "We propose a novel Sparse Diffusion Autoencoder that efficiently predicts spatiotemporal dynamics and dynamically self-adjusts at test-time.",
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ cheng2025sparse, title={Sparse Diffusion Autoencoder for Test-time Adapting Prediction of Complex Systems}, author={Jingwen Cheng and Ruikun Li and Huandong Wang and Yong Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=iWWPtwXfnO} }",
+  "url": "https://openreview.net/forum?id=iWWPtwXfnO",
+  "pdf_url": "https://openreview.net/pdf?id=iWWPtwXfnO",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "iT2ZisemFs",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "ShapeEmbed: a self-supervised learning framework for 2D contour quantification",
+  "authors": [
+    "Anna Foix Romero",
+    "Craig Russell",
+    "Alexander Krull",
+    "Virginie Uhlmann"
+  ],
+  "author_ids": [
+    "~Anna_Foix_Romero1",
+    "~Craig_Russell1",
+    "~Alexander_Krull3",
+    "~Virginie_Uhlmann1"
+  ],
+  "abstract": "The shape of objects is an important source of visual information in a wide range of applications. One of the core challenges of shape quantification is to ensure that the extracted measurements remain invariant to transformations that preserve an object’s intrinsic geometry, such as changing its size, orientation, and position in the image. In this work, we introduce ShapeEmbed, a self-supervised representation learning framework designed to encode the contour of objects in 2D images, represented as a Euclidean distance matrix, into a shape descriptor that is invariant to translation, scaling, rotation, reflection, and point indexing. Our approach overcomes the limitations of traditional shape descriptors while improving upon existing state-of-the-art autoencoder-based approaches. We demonstrate that the descriptors learned by our framework outperform their competitors in shape classification tasks on natural and biological images. We envision our approach to be of particular relevance to biological imaging applications.",
+  "keywords": [
+    "shape quantification",
+    "shape descriptors",
+    "VAE",
+    "generative model",
+    "representation learning",
+    "microscopy"
+  ],
+  "tldr": "ShapeEmbed is a self-supervised method using Euclidean distance matrices to encode the shape of objects in 2D images in a way that is robust to shape-preserving geometric transformations",
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ romero2025shapeembed, title={ShapeEmbed: a self-supervised learning framework for 2D contour quantification}, author={Anna Foix Romero and Craig Russell and Alexander Krull and Virginie Uhlmann}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=iT2ZisemFs} }",
+  "url": "https://openreview.net/forum?id=iT2ZisemFs",
+  "pdf_url": "https://openreview.net/pdf?id=iT2ZisemFs",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "mgURpQ4NXO",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "DoDo-Code: an Efficient Levenshtein Distance Embedding-based Code for 4-ary IDS Channel",
+  "authors": [
+    "Alan J.X. Guo",
+    "Sihan Sun",
+    "Xiang Wei",
+    "Mengyi Wei",
+    "Xin Chen"
+  ],
+  "author_ids": [
+    "~Alan_J.X._Guo1",
+    "~Sihan_Sun1",
+    "~Xiang_Wei8",
+    "~Mengyi_Wei1",
+    "~Xin_Chen30"
+  ],
+  "abstract": "With the emergence of new storage and communication methods, the insertion, deletion, and substitution (IDS) channel has attracted considerable attention. However, many topics on the IDS channel and the associated Levenshtein distance remain open, making the invention of a novel IDS-correcting code a hard task. Furthermore, current studies on single-IDS-correcting code misalign with the requirements of applications which necessitates the correcting of multiple errors. Compromise solutions have involved shortening codewords to reduce the chance of multiple errors. However, the code rates of existing codes are poor at short lengths, diminishing the overall storage density. In this study, a novel method is introduced for designing high-code-rate single-IDS-correcting codewords through deep Levenshtein distance embedding. A deep learning model is utilized to project the sequences into embedding vectors that preserve the Levenshtein distances between the original sequences. This embedding space serves as a proxy for the complex Levenshtein domain, within which algorithms for codeword search and segment correcting is developed. While the concept underpinning this approach is straightforward, it bypasses the mathematical challenges typically encountered in code design. The proposed method results in a code rate that outperforms existing combinatorial solutions, particularly for designing short-length codewords.",
+  "keywords": [
+    "combinatorial code",
+    "error correcting code",
+    "synchronization error correcting"
+  ],
+  "tldr": "An Levenshtein Distance Embedding-based Code for 4-ary IDS Channel",
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ guo2025dodocode, title={DoDo-Code: an Efficient Levenshtein Distance Embedding-based Code for 4-ary {IDS} Channel}, author={Alan J.X. Guo and Sihan Sun and Xiang Wei and Mengyi Wei and Xin Chen}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=mgURpQ4NXO} }",
+  "url": "https://openreview.net/forum?id=mgURpQ4NXO",
+  "pdf_url": "https://openreview.net/pdf?id=mgURpQ4NXO",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "ILZ7ZPEHD5",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Personalized Exercise Recommendation with Semantically-Grounded Knowledge Tracing",
+  "authors": [
+    "Yilmazcan Ozyurt",
+    "Tunaberk Almaci",
+    "Stefan Feuerriegel",
+    "Mrinmaya Sachan"
+  ],
+  "author_ids": [
+    "~Yilmazcan_Ozyurt1",
+    "~Tunaberk_Almaci1",
+    "~Stefan_Feuerriegel1",
+    "~Mrinmaya_Sachan3"
+  ],
+  "abstract": "We introduce ExRec, a general framework for personalized exercise recommendation with semantically-grounded knowledge tracing. Our method builds on the observation that existing exercise recommendation approaches simulate student performance via knowledge tracing (KT) but they often overlook two key aspects: (a) the semantic content of questions and (b) the sequential, structured progression of student learning. To address this, our ExRec presents an end-to-end pipeline, from annotating the KCs of questions and learning their semantic representations to training KT models and optimizing several reinforcement learning (RL) methods. Moreover, we improve standard Q-learning-based continuous RL methods via a tailored model-based value estimation (MVE) approach that directly leverages the components of KT model in estimating cumulative knowledge improvement. We validate the effectiveness of our ExRec using various RL methods across four real-world tasks with different educational goals in online math learning. We further show that ExRec generalizes robustly to new, unseen questions and that it produces interpretable student learning trajectories. Together, our findings highlight the promise of KT-guided RL for effective personalization in education.",
+  "keywords": [
+    "Knowledge Tracing",
+    "Exercise Recommendation",
+    "Reinforcement Learning",
+    "Educational AI",
+    "Semantic Representation Learning"
+  ],
+  "tldr": "We present a general framework for personalized math exercise recommendation that integrates semantic knowledge tracing and model-based reinforcement learning.",
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ ozyurt2025personalized, title={Personalized Exercise Recommendation with Semantically-Grounded Knowledge Tracing}, author={Yilmazcan Ozyurt and Tunaberk Almaci and Stefan Feuerriegel and Mrinmaya Sachan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ILZ7ZPEHD5} }",
+  "url": "https://openreview.net/forum?id=ILZ7ZPEHD5",
+  "pdf_url": "https://openreview.net/pdf?id=ILZ7ZPEHD5",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "OZUl49U6p6",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "DualFocus: Depth from Focus with Spatio-Focal Dual Variational Constraints",
+  "authors": [
+    "Sungmin Woo",
+    "Sangyoun Lee"
+  ],
+  "author_ids": [
+    "~Sungmin_Woo3",
+    "~Sangyoun_Lee1"
+  ],
+  "abstract": "Depth-from-Focus (DFF) enables precise depth estimation by analyzing focus cues across a stack of images captured at varying focal lengths. While recent learning-based approaches have advanced this field, they often struggle in complex scenes with fine textures or abrupt depth changes, where focus cues may become ambiguous or misleading. We present DualFocus, a novel DFF framework that leverages the focal stack’s unique gradient patterns induced by focus variation, jointly modeling focus changes over spatial and focal dimensions. Our approach introduces a variational formulation with dual constraints tailored to DFF: spatial constraints exploit gradient pattern changes across focus levels to distinguish true depth edges from texture artifacts, while focal constraints enforce unimodal, monotonic focus probabilities aligned with physical focus behavior. These inductive biases improve robustness and accuracy in challenging regions. Comprehensive experiments on four public datasets demonstrate that DualFocus consistently outperforms state-of-the-art methods in both depth accuracy and perceptual quality.",
+  "keywords": [
+    "depth from focus",
+    "variational constraints",
+    "depth estimation"
+  ],
+  "tldr": "This paper introduces a novel Depth-from-Focus (DFF) framework that leverages the focal stack’s unique gradient patterns induced by focus variation, jointly modeling focus changes over spatial and focal dimensions.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ woo2025dualfocus, title={DualFocus: Depth from Focus with Spatio-Focal Dual Variational Constraints}, author={Sungmin Woo and Sangyoun Lee}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=OZUl49U6p6} }",
+  "url": "https://openreview.net/forum?id=OZUl49U6p6",
+  "pdf_url": "https://openreview.net/pdf?id=OZUl49U6p6",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "RE97LT26w8",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics",
+  "authors": [
+    "Christoph Jürgen Hemmer",
+    "Daniel Durstewitz"
+  ],
+  "author_ids": [
+    "~Christoph_Jürgen_Hemmer1",
+    "~Daniel_Durstewitz1"
+  ],
+  "abstract": "Complex, temporally evolving phenomena, from climate to brain activity, are governed by dynamical systems (DS). DS reconstruction (DSR) seeks to infer generative surrogate models of these from observed data, reproducing their long-term behavior. Existing DSR approaches require purpose-training for any new system observed, lacking the zero-shot and in-context inference capabilities known from LLMs. Here we introduce *DynaMix*, a novel multivariate ALRNN-based mixture-of-experts architecture pre-trained for DSR, the first DSR model able to generalize zero-shot to out-of-domain DS. Just from a provided context signal, without any re-training, DynaMix faithfully forecasts the long-term evolution of novel DS where existing time series (TS) foundation models, like Chronos, fail -- at a fraction of the number of parameters (0.1%) and orders of magnitude faster inference times. DynaMix outperforms TS foundation models in terms of long-term statistics, and often also short-term forecasts, even on real-world time series, like traffic or weather data, typically used for training and evaluating TS models, *but not at all part of DynaMix' training corpus*. We illustrate some of the failure modes of TS models for DSR problems, and conclude that models built on DS principles may bear a huge potential also for advancing the TS prediction field.",
+  "keywords": [
+    "Dynamical Systems",
+    "Dynamical Systems Reconstruction",
+    "Chaos",
+    "Recurrent Neural Networks",
+    "Foundation Model"
+  ],
+  "tldr": "DynaMix, a novel pre-trained foundation model for zero-shot inference of dynamical systems, outperforms time series foundation models in terms of long-term statistical properties, forecasts, and inference times.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ hemmer2025true, title={True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics}, author={Christoph J{\\\"u}rgen Hemmer and Daniel Durstewitz}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=RE97LT26w8} }",
+  "url": "https://openreview.net/forum?id=RE97LT26w8",
+  "pdf_url": "https://openreview.net/pdf?id=RE97LT26w8",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "idir4VfpuZ",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "VeriLoC: Line-of-Code Level Prediction of Hardware Design Quality from Verilog Code",
+  "authors": [
+    "Raghu Vamshi Hemadri",
+    "Jitendra Bhandari",
+    "Andre Nakkab",
+    "Johann Knechtel",
+    "Badri P Gopalan",
+    "Ramesh Narayanaswamy",
+    "Ramesh Karri",
+    "Siddharth Garg"
+  ],
+  "author_ids": [
+    "~Raghu_Vamshi_Hemadri1",
+    "~Jitendra_Bhandari1",
+    "~Andre_Nakkab1",
+    "~Johann_Knechtel1",
+    "~Badri_P_Gopalan1",
+    "~Ramesh_Narayanaswamy1",
+    "~Ramesh_Karri1",
+    "~Siddharth_Garg1"
+  ],
+  "abstract": "Modern chip design is complex, and there is a crucial need for early-stage prediction of key design-quality metrics like timing and routing congestion directly from Verilog code (a commonly used programming language for hardware design). It is especially important yet complex to predict individual lines of code that cause timing violations or downstream routing congestion. Prior works have tried approaches like converting Verilog into an intermediate graph representation and using LLM embeddings alongside other features to predict module-level quality, but did not consider line-level quality prediction. We propose VeriLoC, the first method that predicts design quality directly from Verilog at both the line- and module-level. To this end, VeriLoC leverages recent Verilog code-generation LLMs to extract local line-level and module-level embeddings, and trains downstream classifiers/regressors on concatenations of these embeddings. VeriLoC achieves high F1-scores of 0.86-0.95 for line-level congestion and timing prediction, and reduces the mean average percentage error from 14%-18% for SOTA methods down to only 4%. We believe that VeriLoC embeddings and insights from our work will also be of value for other predictive and optimization tasks for complex hardware design.",
+  "keywords": [
+    "Hardware Design",
+    "LLM Embedding",
+    "Congestion",
+    "Timing"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ hemadri2025veriloc, title={VeriLoC: Line-of-Code Level Prediction of Hardware Design Quality from Verilog Code}, author={Raghu Vamshi Hemadri and Jitendra Bhandari and Andre Nakkab and Johann Knechtel and Badri P Gopalan and Ramesh Narayanaswamy and Ramesh Karri and Siddharth Garg}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=idir4VfpuZ} }",
+  "url": "https://openreview.net/forum?id=idir4VfpuZ",
+  "pdf_url": "https://openreview.net/pdf?id=idir4VfpuZ",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "qF5IrJfJDS",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Scaling Epidemic Inference on Contact Networks: Theory and Algorithms",
+  "authors": [
+    "Guanghui Min",
+    "Yinhan He",
+    "Chen Chen"
+  ],
+  "author_ids": [
+    "~Guanghui_Min1",
+    "~Yinhan_He1",
+    "~Chen_Chen10"
+  ],
+  "abstract": "Computational epidemiology is crucial in understanding and controlling infectious diseases, as highlighted by large-scale outbreaks such as COVID-19. Given the inherent uncertainty and variability of disease spread, Monte Carlo (MC) simulations are widely used to predict infection peaks, estimate reproduction numbers, and evaluate the impact of non-pharmaceutical interventions (NPIs). While effective, MC-based methods require numerous runs to achieve statistically reliable estimates and variance, which suffer from high computational costs. In this work, we present a unified theoretical framework for analyzing disease spread dynamics on both directed and undirected contact networks, and propose an algorithm, **RAPID**, that significantly improves computational efficiency. Our contributions are threefold. First, we derive an asymptotic variance lower bound for MC estimates and identify the key factors influencing estimation variance. Second, we provide a theoretical analysis of the probabilistic disease spread process using linear approximations and derive the convergence conditions under non-reinfection epidemic models. Finally, we conduct extensive experiments on six real-world datasets, demonstrating our method's effectiveness and robustness in estimating the nodes' final state distribution. Specifically, our proposed method consistently produces accurate estimates aligned with results from a large number of MC simulations, while maintaining a runtime comparable to a single MC simulation. Our code and datasets are available at https://github.com/GuanghuiMin/RAPID.",
+  "keywords": [
+    "Computational Epidemiology",
+    "Graph Theory",
+    "Algorithm Acceleration"
+  ],
+  "tldr": null,
+  "primary_area": "theory",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ min2025scaling, title={Scaling Epidemic Inference on Contact Networks: Theory and Algorithms}, author={Guanghui Min and Yinhan He and Chen Chen}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=qF5IrJfJDS} }",
+  "url": "https://openreview.net/forum?id=qF5IrJfJDS",
+  "pdf_url": "https://openreview.net/pdf?id=qF5IrJfJDS",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "cLJfumTWLI",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Flexible MOF Generation with Torsion-Aware Flow Matching",
+  "authors": [
+    "Nayoung Kim",
+    "Seongsu Kim",
+    "Sungsoo Ahn"
+  ],
+  "author_ids": [
+    "~Nayoung_Kim3",
+    "~Seongsu_Kim2",
+    "~Sungsoo_Ahn1"
+  ],
+  "abstract": "Designing metal-organic frameworks (MOFs) with novel chemistries is a longstanding challenge due to their large combinatorial space and complex 3D arrangements of the building blocks. While recent deep generative models have enabled scalable MOF generation, they assume (1) a fixed set of building blocks and (2) known local 3D coordinates of building blocks. However, this limits their ability to (1) design novel MOFs and (2) generate the structure using novel building blocks. We propose a two-stage MOF generation framework that overcomes these limitations by modeling both chemical and geometric degrees of freedom. First, we train an SMILES-based autoregressive model to generate metal and organic building blocks, paired with a cheminformatics toolkit for 3D structure initialization. Second, we introduce a flow matching model that predicts translations, rotations, and torsional angles to assemble the blocks into valid 3D frameworks. Our experiments demonstrate improved reconstruction accuracy, the generation of valid, novel, and unique MOFs, and the ability to create novel building blocks. Our code is available at https://github.com/nayoung10/MOFFlow-2.",
+  "keywords": [
+    "metal-organic frameworks",
+    "crystal generation",
+    "flow matching"
+  ],
+  "tldr": "We propose a flexible two-stage MOF generation framework that combines a SMILES-based autoregressive model with a torsion-aware normalizing flow.",
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ kim2025flexible, title={Flexible {MOF} Generation with Torsion-Aware Flow Matching}, author={Nayoung Kim and Seongsu Kim and Sungsoo Ahn}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=cLJfumTWLI} }",
+  "url": "https://openreview.net/forum?id=cLJfumTWLI",
+  "pdf_url": "https://openreview.net/pdf?id=cLJfumTWLI",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Rtd6GoJcoT",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Orochi: Versatile Biomedical Image Processor",
+  "authors": [
+    "Gaole Dai",
+    "Chenghao Zhou",
+    "Yu Zhou",
+    "Rongyu Zhang",
+    "Yuan Zhang",
+    "Chengkai Hou",
+    "Tiejun Huang",
+    "Jianxu Chen",
+    "Shanghang Zhang"
+  ],
+  "author_ids": [
+    "~Gaole_Dai1",
+    "~Chenghao_Zhou1",
+    "~Yu_Zhou32",
+    "~Rongyu_Zhang1",
+    "~Yuan_Zhang20",
+    "~Chengkai_Hou1",
+    "~Tiejun_Huang1",
+    "~Jianxu_Chen1",
+    "~Shanghang_Zhang4"
+  ],
+  "abstract": "Deep learning has emerged as a pivotal tool for accelerating research in the life sciences, with the low-level processing of biomedical images (e.g., registration, fusion, restoration, super-resolution) being one of its most critical applications. Platforms such as ImageJ (Fiji) and napari have enabled the development of customized plugins for various models. However, these plugins are typically based on models that are limited to specific tasks and datasets, making them less practical for biologists. To address this challenge, we introduce **Orochi**, the first application-oriented, efficient, and versatile image processor designed to overcome these limitations. Orochi is pre-trained on patches/volumes extracted from the raw data of over 100 publicly available studies using our Random Multi-scale Sampling strategy. We further propose Task-related Joint-embedding Pre-Training (TJP), which employs biomedical task-related degradation for self-supervision rather than relying on Masked Image Modelling (MIM), which performs poorly in downstream tasks such as registration. To ensure computational efficiency, we leverage Mamba's linear computational complexity and construct Multi-head Hierarchy Mamba. Additionally, we provide a three-tier fine-tuning framework (Full, Normal, and Light) and demonstrate that Orochi achieves comparable or superior performance to current state-of-the-art specialist models, even with lightweight parameter-efficient options. We hope that our study contributes to the development of an all-in-one workflow, thereby relieving biologists from the overwhelming task of selecting among numerous models. Our pre-trained weights and code will be released.",
+  "keywords": [
+    "life science",
+    "biology",
+    "microscopy",
+    "foundation model"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ dai2025orochi, title={Orochi: Versatile Biomedical Image Processor}, author={Gaole Dai and Chenghao Zhou and Yu Zhou and Rongyu Zhang and Yuan Zhang and Chengkai Hou and Tiejun Huang and Jianxu Chen and Shanghang Zhang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Rtd6GoJcoT} }",
+  "url": "https://openreview.net/forum?id=Rtd6GoJcoT",
+  "pdf_url": "https://openreview.net/pdf?id=Rtd6GoJcoT",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "zoNpnBlJWh",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Robust Integrated Learning and Pauli Noise Mitigation for Parametrized Quantum Circuits",
+  "authors": [
+    "Md Mobasshir Arshed Naved",
+    "Wenbo Xie",
+    "Wojciech Szpankowski",
+    "Ananth Grama"
+  ],
+  "author_ids": [
+    "~Md_Mobasshir_Arshed_Naved1",
+    "~Wenbo_Xie1",
+    "~Wojciech_Szpankowski2",
+    "~Ananth_Grama1"
+  ],
+  "abstract": "We propose a novel gradient-based framework for learning parameterized quantum circuits (PQCs) in the presence of Pauli noise in gate operation. The key innovation in our framework is the simultaneous optimization of model parameters and learning of an inverse noise channel, specifically designed to mitigate Pauli noise. Our parametrized inverse noise model utilizes the Pauli-Lindblad equation and relies on the principle underlying the Probabilistic Error Cancellation (PEC) protocol to learn an effective and scalable mechanism for noise mitigation. In contrast to conventional approaches that apply predetermined inverse noise models during execution, our method systematically mitigates Pauli noise by dynamically updating the inverse noise parameters in conjunction with the model parameters, facilitating task-specific noise adaptation throughout the learning process. We employ proximal stochastic gradient descent (proximal SGD) to ensure that updates are bounded within a feasible range to ensure stability. This approach allows the model to converge efficiently to a stationary point, balancing the trade-off between noise mitigation and computational overhead, resulting in a highly adaptable quantum model that performs robustly in noisy quantum environments. Our framework is well-suited to near-term quantum devices in the noisy intermediate-scale quantum (NISQ) era, where noise is a significant challenge.",
+  "keywords": [
+    "Quantum Machine Learning",
+    "Parameter Learning",
+    "Quantum Circuits",
+    "Noise Mitigation",
+    "Pauli Noise",
+    "Integrated Learning",
+    "Inverse Noise learning",
+    "Pauli-Lindblad equation"
+  ],
+  "tldr": null,
+  "primary_area": "other",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ naved2025robust, title={Robust Integrated Learning and Pauli Noise Mitigation for Parametrized Quantum Circuits}, author={Md Mobasshir Arshed Naved and Wenbo Xie and Wojciech Szpankowski and Ananth Grama}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=zoNpnBlJWh} }",
+  "url": "https://openreview.net/forum?id=zoNpnBlJWh",
+  "pdf_url": "https://openreview.net/pdf?id=zoNpnBlJWh",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "eFB9VlI3ew",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Place Cells as Multi-Scale Position Embeddings: Random Walk Transition Kernels for Path Planning",
+  "authors": [
+    "Minglu Zhao",
+    "Dehong Xu",
+    "Deqian Kong",
+    "Wenhao Zhang",
+    "Ying Nian Wu"
+  ],
+  "author_ids": [
+    "~Minglu_Zhao1",
+    "~Dehong_Xu1",
+    "~Deqian_Kong1",
+    "~Wenhao_Zhang3",
+    "~Ying_Nian_Wu1"
+  ],
+  "abstract": "The hippocampus supports spatial navigation by encoding cognitive maps through collective place cell activity. We model the place cell population as non-negative spatial embeddings derived from the spectral decomposition of multi-step random walk transition kernels. In this framework, inner product or equivalently Euclidean distance between embeddings encode similarity between locations in terms of their transition probability across multiple scales, forming a cognitive map of adjacency. The combination of non-negativity and inner-product structure naturally induces sparsity, providing a principled explanation for the localized firing fields of place cells without imposing explicit constraints. The temporal parameter that defines the diffusion scale also determines field size, aligning with the hippocampal dorsoventral hierarchy. Our approach constructs global representations efficiently through recursive composition of local transitions, enabling smooth, trap-free navigation and preplay-like trajectory generation. Moreover, theta phase arises intrinsically as the angular relation between embeddings, linking spatial and temporal coding within a single representational geometry.",
+  "keywords": [
+    "place cells",
+    "population coding",
+    "position embedding",
+    "random walk transition kernels",
+    "path planning",
+    "spatial navigation",
+    "cognitive map"
+  ],
+  "tldr": null,
+  "primary_area": "general_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhao2025place, title={Place Cells as Multi-Scale Position Embeddings: Random Walk Transition Kernels for Path Planning}, author={Minglu Zhao and Dehong Xu and Deqian Kong and Wenhao Zhang and Ying Nian Wu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=eFB9VlI3ew} }",
+  "url": "https://openreview.net/forum?id=eFB9VlI3ew",
+  "pdf_url": "https://openreview.net/pdf?id=eFB9VlI3ew",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "lNPo3FAMsl",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Estimating cognitive biases with attention-aware inverse planning",
+  "authors": [
+    "Sounak Banerjee",
+    "Daphne Cornelisse",
+    "Deepak Edakkattil Gopinath",
+    "Emily Sumner",
+    "Jonathan DeCastro",
+    "Guy Rosman",
+    "Eugene Vinitsky",
+    "Mark K Ho"
+  ],
+  "author_ids": [
+    "~Sounak_Banerjee1",
+    "~Daphne_Cornelisse1",
+    "~Deepak_Edakkattil_Gopinath1",
+    "~Emily_Sumner1",
+    "~Jonathan_DeCastro1",
+    "~Guy_Rosman2",
+    "~Eugene_Vinitsky1",
+    "~Mark_K_Ho1"
+  ],
+  "abstract": "People's goal-directed behaviors are influenced by their cognitive biases, and autonomous systems that interact with people should be aware of this. For example, people's attention to objects in their environment will be biased in a way that systematically affects how they perform everyday tasks such as driving to work. Here, building on recent work in computational cognitive science, we formally articulate the \\textit{attention-aware inverse planning problem}, in which the goal is to estimate a person's attentional biases from their actions. We demonstrate how attention-aware inverse planning systematically differs from standard inverse reinforcement learning and how cognitive biases can be inferred from behavior. Finally, we present an approach to attention-aware inverse planning that combines deep reinforcement learning with computational cognitive modeling. We use this approach to infer the attentional strategies of RL agents in real-life driving scenarios selected from the Waymo Open Dataset, demonstrating the scalability of estimating cognitive biases with attention-aware inverse planning.",
+  "keywords": [
+    "Inverse Planning",
+    "Bounded Rationality",
+    "Computational Cognitive Modeling",
+    "Inverse Reinforcement Learning",
+    "Human Interaction"
+  ],
+  "tldr": "We introduce the problem of attention-aware inverse planning, in which the goal is to estimate a resource-limited decision-maker’s attentional strategies from their behavior, and propose algorithms for solving this problem.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ banerjee2025estimating, title={Estimating cognitive biases with attention-aware inverse planning}, author={Sounak Banerjee and Daphne Cornelisse and Deepak Edakkattil Gopinath and Emily Sumner and Jonathan DeCastro and Guy Rosman and Eugene Vinitsky and Mark K Ho}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=lNPo3FAMsl} }",
+  "url": "https://openreview.net/forum?id=lNPo3FAMsl",
+  "pdf_url": "https://openreview.net/pdf?id=lNPo3FAMsl",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "ugBmWX3H1R",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Fast MRI for All: Bridging Access Gaps by Training without Raw Data",
+  "authors": [
+    "Yasar Utku Alcalar",
+    "Merve Gulle",
+    "Mehmet Akcakaya"
+  ],
+  "author_ids": [
+    "~Yasar_Utku_Alcalar1",
+    "~Merve_Gulle1",
+    "~Mehmet_Akcakaya1"
+  ],
+  "abstract": "Physics-driven deep learning (PD-DL) approaches have become popular for improved reconstruction of fast magnetic resonance imaging (MRI) scans. Though PD-DL offers higher acceleration rates than existing clinical fast MRI techniques, their use has been limited outside specialized MRI centers. A key challenge is generalization to rare pathologies or different populations, noted in multiple studies, with fine-tuning on target populations suggested for improvement. However, current approaches for PD-DL training require access to raw k-space measurements, which is typically only available at specialized MRI centers that have research agreements for such data access. This is especially an issue for rural and under-resourced areas, where commercial MRI scanners only provide access to a final reconstructed image. To tackle these challenges, we propose Compressibility-inspired Unsupervised Learning via Parallel Imaging Fidelity (CUPID) for high-quality PD-DL training using only routine clinical reconstructed images exported from an MRI scanner. CUPID evaluates output quality with a compressibility-based approach while ensuring that the output stays consistent with the clinical parallel imaging reconstruction through well-designed perturbations. Our results show CUPID achieves similar quality to established PD-DL training that requires k-space data while outperforming compressed sensing (CS) and diffusion-based generative methods. We further demonstrate its effectiveness in a zero-shot training setup for retrospectively and prospectively sub-sampled acquisitions, attesting to its minimal training burden. As an approach that radically deviates from existing strategies, CUPID presents an opportunity to provide broader access to fast MRI for remote and rural populations in an attempt to reduce the obstacles associated with this expensive imaging modality. Code is available at https://github.com/ualcalar17/CUPID.",
+  "keywords": [
+    "Computational Imaging",
+    "Fast MRI",
+    "Unsupervised Learning",
+    "Compressed Sensing",
+    "Deep Learning",
+    "Access"
+  ],
+  "tldr": "Training PD-DL reconstruction from routine clinical images without raw data to improve fast MRI access",
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ alcalar2025fast, title={Fast {MRI} for All: Bridging Access Gaps by Training without Raw Data}, author={Yasar Utku Alcalar and Merve Gulle and Mehmet Akcakaya}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ugBmWX3H1R} }",
+  "url": "https://openreview.net/forum?id=ugBmWX3H1R",
+  "pdf_url": "https://openreview.net/pdf?id=ugBmWX3H1R",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "AmZ7uHDJiR",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "NFL-BA: Near-Field Light Bundle Adjustment for SLAM in Dynamic Lighting",
+  "authors": [
+    "Andrea Dunn Beltran",
+    "Daniel Rho",
+    "Marc Niethammer",
+    "Roni Sengupta"
+  ],
+  "author_ids": [
+    "~Andrea_Dunn_Beltran1",
+    "~Daniel_Rho1",
+    "~Marc_Niethammer1",
+    "~Roni_Sengupta1"
+  ],
+  "abstract": "Simultaneous Localization and Mapping (SLAM) systems typically assume static, distant illumination; however, many real-world scenarios, such as endoscopy, subterranean robotics, and search & rescue in collapsed environments, require agents to operate with a co-located light and camera in the absence of external lighting. In such cases, dynamic near-field lighting introduces strong, view-dependent shading that significantly degrades SLAM performance. We introduce Near-Field Lighting Bundle Adjustment Loss (NFL-BA) which explicitly models near-field lighting as a part of Bundle Adjustment loss and enables better performance for scenes captured with dynamic lighting. NFL-BA can be integrated into neural rendering-based SLAM systems with implicit or explicit scene representations. Our evaluations mainly focus on endoscopy procedure where SLAM can enable autonomous navigation, guidance to unsurveyed regions, blindspot detections, and 3D visualizations, which can significantly improve patient outcomes and endoscopy experience for both physicians and patients. Replacing Photometric Bundle Adjustment loss of SLAM systems with NFL-BA leads to significant improvement in camera tracking, 37% for MonoGS and 14% for EndoGSLAM, and leads to state-of-the-art camera tracking and mapping performance on the C3VD colonoscopy dataset. Further evaluation on indoor scenes captured with phone camera with flashlight turned on, also demonstrate significant improvement in SLAM performance due to NFL-BA.",
+  "keywords": [
+    "SLAM",
+    "Endoscopy",
+    "Near-Field lighting"
+  ],
+  "tldr": "NFL-BA enhances tracking and mapping in neural rendering-based SLAM by explicitly modeling dynamic near-field lighting, with applications in endoscopy.",
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ beltran2025nflba, title={{NFL}-{BA}: Near-Field Light Bundle Adjustment for {SLAM} in Dynamic Lighting}, author={Andrea Dunn Beltran and Daniel Rho and Marc Niethammer and Roni Sengupta}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=AmZ7uHDJiR} }",
+  "url": "https://openreview.net/forum?id=AmZ7uHDJiR",
+  "pdf_url": "https://openreview.net/pdf?id=AmZ7uHDJiR",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "moiVS9AY0q",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Preference-Guided Diffusion for Multi-Objective Offline Optimization",
+  "authors": [
+    "Yashas Annadani",
+    "Syrine Belakaria",
+    "Stefano Ermon",
+    "Stefan Bauer",
+    "Barbara E Engelhardt"
+  ],
+  "author_ids": [
+    "~Yashas_Annadani1",
+    "~Syrine_Belakaria1",
+    "~Stefano_Ermon1",
+    "~Stefan_Bauer1",
+    "~Barbara_Engelhardt1"
+  ],
+  "abstract": "Offline multi-objective optimization aims to identify Pareto-optimal solutions given a dataset of designs and their objective values. In this work, we propose a preference-guided diffusion model that generates Pareto-optimal designs by leveraging a classifier-based guidance mechanism. Our guidance classifier is a preference model trained to predict the probability that one design dominates another, directing the diffusion model toward optimal regions of the design space. Crucially, this preference model generalizes beyond the training distribution, enabling the discovery of Pareto-optimal solutions outside the observed dataset. We introduce a novel diversity-aware preference guidance, augmenting Pareto dominance preference with diversity criteria. This ensures that generated solutions are optimal and well-distributed across the objective space, a capability absent in prior generative methods for offline multi-objective optimization. We evaluate our approach on various continuous offline multi-objective optimization tasks and find that it consistently outperforms other inverse/generative approaches while remaining competitive with forward/ surrogate-based optimization methods. Our results highlight the effectiveness of classifier-guided diffusion models in generating diverse and high-quality solutions that approximate the Pareto front well.",
+  "keywords": [
+    "Offline Optimization",
+    "Multi-Objective Optimization",
+    "Diffusion Models",
+    "Classifier Guidance"
+  ],
+  "tldr": "We propose a classifier guided diffusion model for Offline Multi-Objective Optimization. The guidance classifier is a preference model that is defined based on the notion of pareto-dominance.",
+  "primary_area": "general_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ annadani2025preferenceguided, title={Preference-Guided Diffusion for Multi-Objective Offline Optimization}, author={Yashas Annadani and Syrine Belakaria and Stefano Ermon and Stefan Bauer and Barbara E Engelhardt}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=moiVS9AY0q} }",
+  "url": "https://openreview.net/forum?id=moiVS9AY0q",
+  "pdf_url": "https://openreview.net/pdf?id=moiVS9AY0q",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "jAoqtT58G4",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Contribution of task-irrelevant stimuli to drift of neural representations",
+  "authors": [
+    "Farhad Pashakhanloo"
+  ],
+  "author_ids": [
+    "~Farhad_Pashakhanloo1"
+  ],
+  "abstract": "Biological and artificial learners are inherently exposed to a stream of data and experience throughout their lifetimes and must constantly adapt to, learn from, or selectively ignore the ongoing input. Recent findings reveal that, even when the performance remains stable, the underlying neural representations can change gradually over time, a phenomenon known as representational drift. Studying the different sources of data and noise that may contribute to drift is essential for understanding lifelong learning in neural systems. However, a systematic study of drift across architectures and learning rules, and the connection to task, are missing. Here, in an online learning setup, we characterize drift as a function of data distribution, and specifically show that the learning noise induced by task-irrelevant stimuli, which the agent learns to ignore in a given context, can create long-term drift in the representation of task-relevant stimuli. Using theory and simulations, we demonstrate this phenomenon both in Hebbian-based learning---Oja's rule and Similarity Matching---and in stochastic gradient descent applied to autoencoders and a supervised two-layer network. We consistently observe that the drift rate increases with the variance and the dimension of the data in the task-irrelevant subspace. We further show that this yields different qualitative predictions for the geometry and dimension-dependency of drift than those arising from Gaussian synaptic noise. Overall, our study links the structure of stimuli, task, and learning rule to representational drift and could pave the way for using drift as a signal for uncovering underlying computation in the brain.",
+  "keywords": [
+    "Neuroscience",
+    "computational neuroscience",
+    "representational drift",
+    "continual learning",
+    "linear neural networks",
+    "representation learning",
+    "stochastic gradient descent",
+    "Hebbian learning",
+    "learning rule"
+  ],
+  "tldr": "Using theory and simulations, we show that task-irrelevant stimuli could cause long-term drift of neural representations",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ pashakhanloo2025contribution, title={Contribution of task-irrelevant stimuli to drift of neural representations}, author={Farhad Pashakhanloo}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=jAoqtT58G4} }",
+  "url": "https://openreview.net/forum?id=jAoqtT58G4",
+  "pdf_url": "https://openreview.net/pdf?id=jAoqtT58G4",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "dH6KDsG5GK",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Online Experimental Design With Estimation-Regret Trade-off Under Network Interference",
+  "authors": [
+    "Zhiheng Zhang",
+    "Zichen Wang"
+  ],
+  "author_ids": [
+    "~Zhiheng_Zhang1",
+    "~Zichen_Wang8"
+  ],
+  "abstract": "Network interference has attracted significant attention in the field of causal inference, encapsulating various sociological behaviors in which the treatment assigned to one individual within a network may affect the outcomes of others, such as their neighbors. A key challenge in this setting is that standard causal inference methods often assume independent treatment effects among individuals, which may not hold in networked environments. To estimate interference-aware causal effects, a traditional approach is to inherit the independent settings, where practitioners randomly assign experimental participants to different groups and compare their outcomes. Although effective in offline settings, this strategy becomes problematic in sequential experiments, where suboptimal decisions persist, leading to substantial regret. To address this issue, we introduce a unified interference-aware framework for online experimental design. Compared to existing studies, we extend the definition of arm space using the statistical concept of exposure mapping, which allows for a more flexible and context-aware representation of treatment effects in network settings. Crucially, we establish a Pareto-optimal trade-off between estimation accuracy and regret under the network concerning both time period and arm space, which remains superior to baseline models even without network interference. Furthermore, we propose an algorithmic implementation and discuss its generalization in different learning settings and network topology.",
+  "keywords": [
+    "Online experimental design",
+    "Causal inference",
+    "Network interference",
+    "Multi-armed bandits"
+  ],
+  "tldr": "Online Experimental Design With Estimation-Regret Trade-off Under Network Interference",
+  "primary_area": "probabilistic_methods",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhang2025online, title={Online Experimental Design With Estimation-Regret Trade-off Under Network Interference}, author={Zhiheng Zhang and Zichen Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=dH6KDsG5GK} }",
+  "url": "https://openreview.net/forum?id=dH6KDsG5GK",
+  "pdf_url": "https://openreview.net/pdf?id=dH6KDsG5GK",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "1n5TJh3LEb",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Low-Rank Graphon Learning for Networks",
+  "authors": [
+    "Xinyuan Fan",
+    "Feiyan Ma",
+    "Chenlei Leng",
+    "Weichi Wu"
+  ],
+  "author_ids": [
+    "~Xinyuan_Fan1",
+    "~Feiyan_Ma1",
+    "~Chenlei_Leng1",
+    "~Weichi_Wu1"
+  ],
+  "abstract": "Graphons offer a powerful framework for modeling large-scale networks, yet estimation remains challenging. We propose a novel approach that leverages a low-rank additive representation, yielding both a low-rank connection probability matrix and a low-rank graphon--two goals rarely achieved jointly. Our method resolves identification issues and enables an efficient sequential algorithm based on subgraph counts and interpolation. We establish consistency and demonstrate strong empirical performance in terms of computational efficiency and estimation accuracy through simulations and data analysis.",
+  "keywords": [
+    "low-rank graphon",
+    "subgraph counts",
+    "connection probability matrix",
+    "nonparametric statistics",
+    "network analysis"
+  ],
+  "tldr": null,
+  "primary_area": "probabilistic_methods",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ fan2025lowrank, title={Low-Rank Graphon Learning for Networks}, author={Xinyuan Fan and Feiyan Ma and Chenlei Leng and Weichi Wu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=1n5TJh3LEb} }",
+  "url": "https://openreview.net/forum?id=1n5TJh3LEb",
+  "pdf_url": "https://openreview.net/pdf?id=1n5TJh3LEb",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "nOZSYSdzOP",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization",
+  "authors": [
+    "Xinyan Su",
+    "Zhiheng Zhang",
+    "Jiyan Qiu",
+    "Zhaojuan Yue",
+    "Jun Li"
+  ],
+  "author_ids": [
+    "~Xinyan_Su1",
+    "~Zhiheng_Zhang1",
+    "~Jiyan_Qiu1",
+    "~Zhaojuan_Yue1",
+    "~Jun_Li35"
+  ],
+  "abstract": "Influence Maximization (IM) seeks a seed set to maximize information dissemination in a network. Elegant IM algorithms could naturally extend to cases where each node is equipped with a specific weight, reflecting individual gains to measure its importance. In prevailing literature, these gains are typically assumed to remain constant throughout diffusion and are solvable through explicit formulas based on node characteristics and network topology. However, this assumption is not always feasible due to two key challenges: 1) \\textit{Unobservability}: The individual gains of each node are primarily evaluated by the difference between the outputs in the activated and non-activated states. In practice, we can only observe one of these states, with the other remaining unobservable post-propagation. 2) \\textit{Environmental sensitivity}: Beyond nodes’ inherent properties, individual gains are also sensitive to the activation status of surrounding nodes, which change dynamically during propagation even when the network topology is fixed. To address these uncertainties, we introduce a Causal Influence Maximization (CauIM) framework, leveraging causal inference techniques to model dynamic individual gains. We propose two algorithms, G-CauIM and A-CauIM, where the latter incorporates a novel acceleration technique. Theoretically, we establish the generalized lower bound of influence spread and provide robustness analysis. Empirically, experiments on synthetic and real-world datasets validate the effectiveness and reliability of our approach.",
+  "keywords": [
+    "influence maximization; causal inference; social networks"
+  ],
+  "tldr": null,
+  "primary_area": "social_and_economic_aspects_of_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ su2025unveiling, title={Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization}, author={Xinyan Su and Zhiheng Zhang and Jiyan Qiu and Zhaojuan Yue and Jun Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=nOZSYSdzOP} }",
+  "url": "https://openreview.net/forum?id=nOZSYSdzOP",
+  "pdf_url": "https://openreview.net/pdf?id=nOZSYSdzOP",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "GxGrGswvND",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Hybrid-Balance GFlowNet for Solving Vehicle Routing Problems",
+  "authors": [
+    "Ni Zhang",
+    "Zhiguang Cao"
+  ],
+  "author_ids": [
+    "~Ni_Zhang6",
+    "~Zhiguang_Cao1"
+  ],
+  "abstract": "Existing GFlowNet-based methods for vehicle routing problems (VRPs) typically employ Trajectory Balance (TB) to achieve global optimization but often neglect important aspects of local optimization. While Detailed Balance (DB) addresses local optimization more effectively, it alone falls short in solving VRPs, which inherently require holistic trajectory optimization. To address these limitations, we introduce the Hybrid-Balance GFlowNet (HBG) framework, which uniquely integrates TB and DB in a principled and adaptive manner by aligning their intrinsically complementary strengths. Additionally, we propose a specialized inference strategy for depot-centric scenarios like the Capacitated Vehicle Routing Problem (CVRP), leveraging the depot node's greater flexibility in selecting successors. Despite this specialization, HBG maintains broad applicability, extending effectively to problems without explicit depots, such as the Traveling Salesman Problem (TSP). We evaluate HBG by integrating it into two established GFlowNet-based solvers, i.e., AGFN and GFACS, and demonstrate consistent and significant improvements across both CVRP and TSP, underscoring the enhanced solution quality and generalization afforded by our approach.",
+  "keywords": [
+    "GFlowNet",
+    "Vehicle Routing Problem"
+  ],
+  "tldr": "we introduce the Hybrid-Balance GFlowNet framework which uniquely integrates TB and DB in a principled and adaptive manner to acheive Local-Global Optimization.",
+  "primary_area": "optimization",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhang2025hybridbalance, title={Hybrid-Balance {GF}lowNet for Solving Vehicle Routing Problems}, author={Ni Zhang and Zhiguang Cao}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=GxGrGswvND} }",
+  "url": "https://openreview.net/forum?id=GxGrGswvND",
+  "pdf_url": "https://openreview.net/pdf?id=GxGrGswvND",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "iD3UTLZ6B9",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "BundleFlow: Deep Menus for Combinatorial Auctions by Diffusion-Based Optimization",
+  "authors": [
+    "Tonghan Wang",
+    "Yanchen Jiang",
+    "David C. Parkes"
+  ],
+  "author_ids": [
+    "~Tonghan_Wang1",
+    "~Yanchen_Jiang1",
+    "~David_C._Parkes1"
+  ],
+  "abstract": "Differentiable economics—the use of deep learning for auction design—has driven progress in multi-item auction design with additive and unit-demand valuations. However, there has been little progress for combinatorial auctions (CAs), even in the simplest and yet important single bidder case, due to exponential growth of the bundle space with the number of items. We address this challenge by introducing a deep network architecture for a menu-based CA, which supports the first dominant-strategy incentive compatible (DSIC), revenue-optimizing single-bidder CA. Our idea is to generate a bundle distribution through an ordinary differential equation (ODE) applied to a tractable initial distribution. The BundleFlow method learns suitable ODE-based transforms, one for each menu element, to optimize expected revenue. BundleFlow achieves up to 2.23$\\times$ higher revenue than baselines on standard CA testbeds and scales up to 500 items. Compared with other menu-learning baselines, BundleFlow also reduces training iterations by 3.6-9.5$\\times$ and cuts training time by about 80% in settings with 50 and 100 items.",
+  "keywords": [
+    "Combinatorial Auctions",
+    "Continuous Flow Matching",
+    "Optimization",
+    "Dominant-Strategy Incentive Compatible",
+    "Revenue-Maximizing"
+  ],
+  "tldr": "We propose the first deep menu-based method for single-bidder combinatorial auctions that is dominant-strategy incentive compatible and revenue-optimizing, by adapting continuous flow matching for optimization problems.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ wang2025bundleflow, title={BundleFlow: Deep Menus for Combinatorial Auctions by Diffusion-Based Optimization}, author={Tonghan Wang and Yanchen Jiang and David C. Parkes}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=iD3UTLZ6B9} }",
+  "url": "https://openreview.net/forum?id=iD3UTLZ6B9",
+  "pdf_url": "https://openreview.net/pdf?id=iD3UTLZ6B9",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "PrYDDxphym",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Neural Stochastic Flows: Solver-Free Modelling and Inference for SDE Solutions",
+  "authors": [
+    "Naoki Kiyohara",
+    "Edward Johns",
+    "Yingzhen Li"
+  ],
+  "author_ids": [
+    "~Naoki_Kiyohara1",
+    "~Edward_Johns1",
+    "~Yingzhen_Li1"
+  ],
+  "abstract": "Stochastic differential equations (SDEs) are well suited to modelling noisy and/or irregularly-sampled time series, which are omnipresent in finance, physics, and machine learning applications. Traditional approaches require costly simulation of numerical solvers when sampling between arbitrary time points. We introduce Neural Stochastic Flows (NSFs) and their latent dynamic versions, which learns (latent) SDE transition laws directly using conditional normalising flows, with architectural constraints that preserve properties inherited from stochastic flow. This enables sampling between arbitrary states in a single step, providing up to two orders of magnitude speedup for distant time points. Experiments on synthetic SDE simulations and real-world tracking and video data demonstrate that NSF maintains distributional accuracy comparable to numerical approaches while dramatically reducing computation for arbitrary time-point sampling, enabling applications where numerical solvers remain prohibitively expensive.",
+  "keywords": [
+    "Neural stochastic flows",
+    "stochastic differential equations",
+    "normalising flows",
+    "continuous-time models",
+    "latent dynamics",
+    "time series modelling"
+  ],
+  "tldr": "A solver-free approach for modelling stochastic differential equations using conditional normalising flows that enables direct sampling between arbitrary time points within trained horizon.",
+  "primary_area": "probabilistic_methods",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ kiyohara2025neural, title={Neural Stochastic Flows: Solver-Free Modelling and Inference for {SDE} Solutions}, author={Naoki Kiyohara and Edward Johns and Yingzhen Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=PrYDDxphym} }",
+  "url": "https://openreview.net/forum?id=PrYDDxphym",
+  "pdf_url": "https://openreview.net/pdf?id=PrYDDxphym",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "cipx3rwfWp",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "System-Embedded Diffusion Bridge Models",
+  "authors": [
+    "Bartlomiej Sobieski",
+    "Matthew Tivnan",
+    "Yuang Wang",
+    "Siyeop yoon",
+    "Pengfei Jin",
+    "Dufan Wu",
+    "Quanzheng Li",
+    "Przemyslaw Biecek"
+  ],
+  "author_ids": [
+    "~Bartlomiej_Sobieski1",
+    "~Matthew_Tivnan1",
+    "~Yuang_Wang2",
+    "~Siyeop_yoon1",
+    "~Pengfei_Jin1",
+    "~Dufan_Wu1",
+    "~Quanzheng_Li1",
+    "~Przemyslaw_Biecek2"
+  ],
+  "abstract": "Solving inverse problems—recovering signals from incomplete or noisy measurements—is fundamental in science and engineering. Score-based generative models (SGMs) have recently emerged as a powerful framework for this task. Two main paradigms have formed: unsupervised approaches that adapt pretrained generative models to inverse problems, and supervised bridge methods that train stochastic processes conditioned on paired clean and corrupted data. While the former typically assume knowledge of the measurement model, the latter have largely overlooked this structural information. We introduce System-embedded Diffusion Bridge Models (SDBs), a new class of supervised bridge methods that explicitly embed the known linear measurement system into the coefficients of a matrix-valued SDE. This principled integration yields consistent improvements across diverse linear inverse problems and demonstrates robust generalization under system misspecification between training and deployment, offering a promising solution to real-world applications.",
+  "keywords": [
+    "diffusion",
+    "generative",
+    "inverse",
+    "problems",
+    "image",
+    "translation",
+    "restoration",
+    "linear",
+    "system",
+    "bridge"
+  ],
+  "tldr": "We propose a new diffusion bridge method that embeds the linear measurement system into the SDE coefficients, enabling direct use of system information and improving performance across diverse inverse problem benchmarks.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ sobieski2025systemembedded, title={System-Embedded Diffusion Bridge Models}, author={Bartlomiej Sobieski and Matthew Tivnan and Yuang Wang and Siyeop yoon and Pengfei Jin and Dufan Wu and Quanzheng Li and Przemyslaw Biecek}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=cipx3rwfWp} }",
+  "url": "https://openreview.net/forum?id=cipx3rwfWp",
+  "pdf_url": "https://openreview.net/pdf?id=cipx3rwfWp",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "oRMfTkP6kC",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "MOBO-OSD: Batch Multi-Objective Bayesian Optimization via Orthogonal Search Directions",
+  "authors": [
+    "Lam Ngo",
+    "Huong Ha",
+    "Jeffrey Chan",
+    "Hongyu Zhang"
+  ],
+  "author_ids": [
+    "~Lam_Ngo1",
+    "~Huong_Ha3",
+    "~Jeffrey_Chan1",
+    "~Hongyu_Zhang1"
+  ],
+  "abstract": "Bayesian Optimization (BO) is a powerful tool for optimizing expensive black-box objective functions. While extensive research has been conducted on the single-objective optimization problem, the multi-objective optimization problem remains challenging. In this paper, we propose MOBO-OSD, a multi-objective Bayesian Optimization algorithm designed to generate a diverse set of Pareto optimal solutions by solving multiple constrained optimization problems, referred to as MOBO-OSD subproblems, along orthogonal search directions (OSDs) defined with respect to an approximated convex hull of individual objective minima. By employing a well-distributed set of OSDs, MOBO-OSD ensures broad coverage of the objective space, enhancing both solution diversity and hypervolume performance. To further improve the density of the set of the Pareto optimal candidate solutions without requiring an excessive number of subproblems, we leverage a Pareto Front Estimation technique to generate additional solutions in the neighborhood of existing solutions. Additionally, MOBO-OSD supports batch optimization, enabling parallel function evaluations to accelerate the optimization process when resources are available. Through extensive experiments and analysis on a variety of synthetic and real-world benchmark functions with two to six objectives, we demonstrate that MOBO-OSD consistently outperform the state-of-the-art algorithms.",
+  "keywords": [
+    "Bayesian optimization",
+    "multi-objective optimization",
+    "Gaussian process"
+  ],
+  "tldr": "We propose a multi-objective Bayesian Optimization algorithm that shows state-of-the-art performance on a wide set of benchmark problems.",
+  "primary_area": "probabilistic_methods",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ ngo2025moboosd, title={{MOBO}-{OSD}: Batch Multi-Objective Bayesian Optimization via Orthogonal Search Directions}, author={Lam Ngo and Huong Ha and Jeffrey Chan and Hongyu Zhang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=oRMfTkP6kC} }",
+  "url": "https://openreview.net/forum?id=oRMfTkP6kC",
+  "pdf_url": "https://openreview.net/pdf?id=oRMfTkP6kC",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "EOgaGafwv5",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "GST-UNet: A Neural Framework for Spatiotemporal Causal Inference with Time-Varying Confounding",
+  "authors": [
+    "Miruna Oprescu",
+    "David Keetae Park",
+    "Xihaier Luo",
+    "Shinjae Yoo",
+    "Nathan Kallus"
+  ],
+  "author_ids": [
+    "~Miruna_Oprescu1",
+    "~David_Keetae_Park2",
+    "~Xihaier_Luo1",
+    "~Shinjae_Yoo1",
+    "~Nathan_Kallus1"
+  ],
+  "abstract": "Estimating causal effects from spatiotemporal observational data is essential in public health, environmental science, and policy evaluation, where randomized experiments are often infeasible. Existing approaches, however, either rely on strong structural assumptions or fail to handle key challenges such as interference, spatial confounding, temporal carryover, and *time-varying confounding*—where covariates are influenced by past treatments and, in turn, affect future ones. We introduce the **GST-UNet** (**G**-computation **S**patio-**T**emporal **UNet**), a theoretically grounded neural framework that combines a U-Net-based spatiotemporal encoder with regression-based iterative G-computation to estimate location-specific potential outcomes under complex intervention sequences. GST-UNet explicitly adjusts for time-varying confounders and captures non-linear spatial and temporal dependencies, enabling valid causal inference from a *single* observed trajectory in data-scarce settings. We validate its effectiveness in synthetic experiments and in a real-world analysis of wildfire smoke exposure and respiratory hospitalizations during the 2018 California Camp Fire. Together, these results position GST-UNet as a **principled and ready-to-use framework** for spatiotemporal causal inference, advancing reliable estimation in policy-relevant and scientific domains.",
+  "keywords": [
+    "spatiotemporal causal inference",
+    "time-varying confounding",
+    "G-computation",
+    "observational studies",
+    "neural networks",
+    "treatment effects",
+    "observational data"
+  ],
+  "tldr": "We introduce GST-UNet, a neural framework for valid causal inference from spatiotemporal observational data with time-varying confounding and complex spatiotemporal dependencies.",
+  "primary_area": "probabilistic_methods",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ oprescu2025gstunet, title={{GST}-{UN}et: A Neural Framework for Spatiotemporal Causal Inference with Time-Varying Confounding}, author={Miruna Oprescu and David Keetae Park and Xihaier Luo and Shinjae Yoo and Nathan Kallus}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=EOgaGafwv5} }",
+  "url": "https://openreview.net/forum?id=EOgaGafwv5",
+  "pdf_url": "https://openreview.net/pdf?id=EOgaGafwv5",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Bkyl98YQRa",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "A Data-Driven Prism: Multi-View Source Separation with Diffusion Model Priors",
+  "authors": [
+    "Sebastian Wagner-Carena",
+    "Aizhan Akhmetzhanova",
+    "Sydney Erickson"
+  ],
+  "author_ids": [
+    "~Sebastian_Wagner-Carena1",
+    "~Aizhan_Akhmetzhanova1",
+    "~Sydney_Erickson1"
+  ],
+  "abstract": "In the natural sciences, a common challenge is to disentangle distinct, unknown sources from observations. Examples of this source separation task include deblending galaxies in a crowded field, distinguishing the activity of individual neurons from overlapping signals, and separating seismic events from the ambient background. Traditional analyses often rely on simplified source models that fail to accurately reproduce the data. Recent advances have shown that diffusion models can directly learn complex prior distributions from noisy, incomplete data. In this work, we show that diffusion models can solve the source separation problem without explicit assumptions about the source. Our method relies only on multiple views, or the property that different sets of observations contain different linear transformations of the unknown sources. We show that our method succeeds even when no source is individually observed and the observations are noisy, incomplete, and vary in resolution. The learned diffusion models enable us to sample from the source priors, evaluate the probability of candidate sources, and draw from the joint posterior of our sources given an observation. We demonstrate the effectiveness of our method on a range of synthetic problems as well as real-world galaxy observations.",
+  "keywords": [
+    "Diffusion",
+    "Source Separation",
+    "Score-Based",
+    "Linear Mixing Models",
+    "Expectation-Maximization",
+    "Unsupervised Methods"
+  ],
+  "tldr": "Diffusion models disentangle latent sources from multiple, noisy, incomplete observations without source-specific assumptions, yielding generative priors and posterior inference across synthetic tasks and real galaxy data.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ wagner-carena2025a, title={A Data-Driven Prism: Multi-View Source Separation with Diffusion Model Priors}, author={Sebastian Wagner-Carena and Aizhan Akhmetzhanova and Sydney Erickson}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Bkyl98YQRa} }",
+  "url": "https://openreview.net/forum?id=Bkyl98YQRa",
+  "pdf_url": "https://openreview.net/pdf?id=Bkyl98YQRa",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Zjq1CkKDGt",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "GeoRanker: Distance-Aware Ranking for Worldwide Image Geolocalization",
+  "authors": [
+    "Pengyue Jia",
+    "Seongheon Park",
+    "Song Gao",
+    "Xiangyu Zhao",
+    "Sharon Li"
+  ],
+  "author_ids": [
+    "~Pengyue_Jia1",
+    "~Seongheon_Park1",
+    "~Song_Gao3",
+    "~Xiangyu_Zhao1",
+    "~Sharon_Li1"
+  ],
+  "abstract": "Worldwide image geolocalization—the task of predicting GPS coordinates from images taken anywhere on Earth—poses a fundamental challenge due to the vast diversity in visual content across regions. While recent approaches adopt a two-stage pipeline of retrieving candidates and selecting the best match, they typically rely on simplistic similarity heuristics and point-wise supervision, failing to model spatial relationships among candidates. In this paper, we propose **GeoRanker**, a distance-aware ranking framework that leverages large vision-language models to jointly encode query–candidate interactions and predict geographic proximity. In addition, we introduce a *multi-order distance loss* that ranks both absolute and relative distances, enabling the model to reason over structured spatial relationships. To support this, we curate GeoRanking, the first dataset explicitly designed for geographic ranking tasks with multimodal candidate information. GeoRanker achieves state-of-the-art results on two well-established benchmarks (IM2GPS3K and YFCC4K), significantly outperforming current best methods. We also release our code, checkpoint, and dataset online for ease of reproduction.",
+  "keywords": [
+    "Image Geolocalization",
+    "Image-to-GPS retrieval",
+    "Reranking",
+    "Large Multi-Modal Models"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ jia2025georanker, title={GeoRanker: Distance-Aware Ranking for Worldwide Image Geolocalization}, author={Pengyue Jia and Seongheon Park and Song Gao and Xiangyu Zhao and Sharon Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Zjq1CkKDGt} }",
+  "url": "https://openreview.net/forum?id=Zjq1CkKDGt",
+  "pdf_url": "https://openreview.net/pdf?id=Zjq1CkKDGt",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "xtHJ0eNEUv",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Exploring Neural Granger Causality with xLSTMs: Unveiling Temporal Dependencies in Complex Data",
+  "authors": [
+    "Harsh Poonia",
+    "Felix Divo",
+    "Kristian Kersting",
+    "Devendra Singh Dhami"
+  ],
+  "author_ids": [
+    "~Harsh_Poonia1",
+    "~Felix_Divo1",
+    "~Kristian_Kersting1",
+    "~Devendra_Singh_Dhami1"
+  ],
+  "abstract": "Causality in time series can be challenging to determine, especially in the presence of non-linear dependencies. Granger causality helps analyze potential relationships between variables, thereby offering a method to determine whether one time series can predict—Granger cause—future values of another. Although successful, Granger causal methods still struggle with capturing long-range relations between variables. To this end, we leverage the recently successful Extended Long Short-Term Memory (xLSTM) architecture and propose Granger causal xLSTMs (GC-xLSTM). It first enforces sparsity between the time series components by using a novel dynamic loss penalty on the initial projection. Specifically, we adaptively improve the model and identify sparsity candidates. Our joint optimization procedure then ensures that the Granger causal relations are recovered robustly. Our experimental evaluation on six diverse datasets demonstrates the overall efficacy of GC-xLSTM.",
+  "keywords": [
+    "Granger causality",
+    "xLSTM",
+    "time series"
+  ],
+  "tldr": "GC-xLSTM jointly optimizes a sparse feature selector and predictive xLSTM to uncover a graph of Granger Causal dependencies",
+  "primary_area": "probabilistic_methods",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ poonia2025exploring, title={Exploring Neural Granger Causality with x{LSTM}s: Unveiling Temporal Dependencies in Complex Data}, author={Harsh Poonia and Felix Divo and Kristian Kersting and Devendra Singh Dhami}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=xtHJ0eNEUv} }",
+  "url": "https://openreview.net/forum?id=xtHJ0eNEUv",
+  "pdf_url": "https://openreview.net/pdf?id=xtHJ0eNEUv",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "w1yccSuVtg",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Preference-Based Dynamic Ranking Structure Recognition",
+  "authors": [
+    "Nan Lu",
+    "Jian Shi",
+    "Xinyu Tian"
+  ],
+  "author_ids": [
+    "~Nan_Lu3",
+    "~Jian_Shi9",
+    "~Xinyu_Tian8"
+  ],
+  "abstract": "Preference-based data often appear complex and noisy but may conceal underlying homogeneous structures. This paper introduces a novel framework of ranking structure recognition for preference-based data. We first develop an approach to identify dynamic ranking groups by incorporating temporal penalties into a spectral estimation for the celebrated Bradley-Terry model. To detect structural changes, we introduce an innovative objective function and present a practicable algorithm based on dynamic programming. Theoretically, we establish the consistency of ranking group recognition by exploiting properties of a random 'design matrix' induced by a reversible Markov chain. We also tailor a group inverse technique to quantify the uncertainty in item ability estimates. Additionally, we prove the consistency of structure change recognition, ensuring the robustness of the proposed framework. Experiments on both synthetic and real-world datasets demonstrate the practical utility and interpretability of our approach.",
+  "keywords": [
+    "dynamic ranking",
+    "Bradley-Terry model",
+    "structural change detection",
+    "preference-based data",
+    "clustering"
+  ],
+  "tldr": null,
+  "primary_area": "general_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ lu2025preferencebased, title={Preference-Based Dynamic Ranking Structure Recognition}, author={Nan Lu and Jian Shi and Xinyu Tian}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=w1yccSuVtg} }",
+  "url": "https://openreview.net/forum?id=w1yccSuVtg",
+  "pdf_url": "https://openreview.net/pdf?id=w1yccSuVtg",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "yXitkQJmpj",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "FuncGenFoil: Airfoil Generation and Editing Model in Function Space",
+  "authors": [
+    "Jinouwen Zhang",
+    "Junjie Ren",
+    "Qianhong Ma",
+    "Jianyu Wu",
+    "Aobo Yang",
+    "Yan Lu",
+    "Lu Chen",
+    "Hairun Xie",
+    "Jing Wang",
+    "Miao Zhang",
+    "Wanli Ouyang",
+    "SHIXIANG TANG"
+  ],
+  "author_ids": [
+    "~Jinouwen_Zhang1",
+    "~Junjie_Ren2",
+    "~Qianhong_Ma1",
+    "~Jianyu_Wu2",
+    "~Aobo_Yang3",
+    "~Yan_Lu10",
+    "~Lu_Chen14",
+    "~Hairun_Xie2",
+    "~Jing_Wang58",
+    "~Miao_Zhang10",
+    "~Wanli_Ouyang1",
+    "~SHIXIANG_TANG1"
+  ],
+  "abstract": "Aircraft manufacturing is the jewel in the crown of industry, in which generating high-fidelity airfoil geometries with controllable and editable representations remains a fundamental challenge. Existing deep learning methods, which typically rely on predefined parametric representations (e.g., Bézier curves) or discrete point sets, face an inherent trade-off between expressive power and resolution adaptability. To tackle this challenge, we introduce FuncGenFoil, a novel function-space generative model that directly reconstructs airfoil geometries as function curves. Our method inherits the advantages of arbitrary-resolution sampling and smoothness from parametric functions, as well as the strong expressiveness of discrete point-based representations. Empirical evaluations demonstrate that FuncGenFoil improves upon state-of-the-art methods in airfoil generation, achieving a relative 74.4% reduction in label error and a 23.2% increase in diversity on the AF-200K dataset. Our results highlight the advantages of function-space modeling for aerodynamic shape optimization, offering a powerful and flexible framework for high-fidelity airfoil design.",
+  "keywords": [
+    "Generative Model",
+    "AI for Engineering",
+    "Generative Model in Function Space",
+    "Flow Model"
+  ],
+  "tldr": "FuncGenFoil is a new generative model that designs and edits high-fidelity airfoils as continuous functions, outperforming prior methods in accuracy and diversity while enabling flexible, resolution-free shape generation.",
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhang2025funcgenfoil, title={FuncGenFoil: Airfoil Generation and Editing Model in Function Space}, author={Jinouwen Zhang and Junjie Ren and Qianhong Ma and Jianyu Wu and Aobo Yang and Yan Lu and Lu Chen and Hairun Xie and Jing Wang and Miao Zhang and Wanli Ouyang and SHIXIANG TANG}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=yXitkQJmpj} }",
+  "url": "https://openreview.net/forum?id=yXitkQJmpj",
+  "pdf_url": "https://openreview.net/pdf?id=yXitkQJmpj",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "RDdfQc5Ts1",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "AOR: Anatomical Ontology-Guided Reasoning for Medical Large Multimodal Model in Chest X-Ray Interpretation",
+  "authors": [
+    "Qingqiu Li",
+    "Zihang Cui",
+    "Seongsu Bae",
+    "Jilan Xu",
+    "Runtian Yuan",
+    "Yuejie Zhang",
+    "Rui Feng",
+    "Quanli Shen",
+    "Xiaobo Zhang",
+    "Shang Gao",
+    "Junjun He",
+    "Shujun Wang"
+  ],
+  "author_ids": [
+    "~Qingqiu_Li1",
+    "~Zihang_Cui1",
+    "~Seongsu_Bae1",
+    "~Jilan_Xu1",
+    "~Runtian_Yuan1",
+    "~Yuejie_Zhang2",
+    "~Rui_Feng2",
+    "~Quanli_Shen1",
+    "~Xiaobo_Zhang1",
+    "~Shang_Gao5",
+    "~Junjun_He2",
+    "~Shujun_Wang1"
+  ],
+  "abstract": "Chest X-rays (CXRs) are the most frequently performed imaging examinations in clinical settings. Recent advancements in Medical Large Multimodal Models (MLMMs) have enabled automated CXR interpretation, improving diagnostic accuracy and efficiency. However, despite their strong visual understanding, current MLMMs still face two major challenges: (1) insufficient region-level understanding and interaction, and (2) limited accuracy and interpretability due to single-step prediction. In this paper, we address these challenges by empowering MLMMs with anatomy-centric reasoning capabilities to enhance their interactivity and explainability. Specifically, we propose an Anatomical Ontology-Guided Reasoning (AOR) framework that accommodates both textual and optional visual prompts, centered on region-level information to enable multimodal multi-step reasoning. We also develop AOR-Instruction, a large instruction dataset for MLMMs training, under the guidance of expert physicians. Our experiments demonstrate AOR's superior performance in both Visual Question Answering (VQA) and report generation tasks. Code and data are available at: https://github.com/Liqq1/AOR.",
+  "keywords": [
+    "Medical Large Multimodal Models; Chain of Thought; Anatomical Ontology; Chest X-rays; Medical Visual Question Answering"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ li2025aor, title={{AOR}: Anatomical Ontology-Guided Reasoning for Medical Large Multimodal Model in Chest X-Ray Interpretation}, author={Qingqiu Li and Zihang Cui and Seongsu Bae and Jilan Xu and Runtian Yuan and Yuejie Zhang and Rui Feng and Quanli Shen and Xiaobo Zhang and Shang Gao and Junjun He and Shujun Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=RDdfQc5Ts1} }",
+  "url": "https://openreview.net/forum?id=RDdfQc5Ts1",
+  "pdf_url": "https://openreview.net/pdf?id=RDdfQc5Ts1",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "EdKl4PulMX",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Complexity Scaling Laws for Neural Models using Combinatorial Optimization",
+  "authors": [
+    "Lowell Weissman",
+    "Michael Krumdick",
+    "A. Lynn Abbott"
+  ],
+  "author_ids": [
+    "~Lowell_Weissman1",
+    "~Michael_Krumdick1",
+    "~A._Lynn_Abbott2"
+  ],
+  "abstract": "Recent work on neural scaling laws demonstrates that model performance scales predictably with compute budget, model size, and dataset size. In this work, we develop scaling laws based on problem complexity. We analyze two fundamental complexity measures: solution space size and representation space size. Using the Traveling Salesman Problem (TSP) as a case study, we show that combinatorial optimization promotes smooth cost trends, and therefore meaningful scaling laws can be obtained even in the absence of an interpretable loss. We then show that suboptimality grows predictably for fixed-size models when scaling the number of TSP nodes or spatial dimensions, independent of whether the model was trained with reinforcement learning or supervised fine-tuning on a static dataset. We conclude with an analogy to problem complexity scaling in local search, showing that a much simpler gradient descent of the cost landscape produces similar trends.",
+  "keywords": [
+    "scaling laws",
+    "problem complexity",
+    "traveling salesman problem"
+  ],
+  "tldr": "Neural scaling laws fix the problem and scale the model/compute/data, we fix the model and scale the problem.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ weissman2025complexity, title={Complexity Scaling Laws for Neural Models using Combinatorial Optimization}, author={Lowell Weissman and Michael Krumdick and A. Lynn Abbott}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=EdKl4PulMX} }",
+  "url": "https://openreview.net/forum?id=EdKl4PulMX",
+  "pdf_url": "https://openreview.net/pdf?id=EdKl4PulMX",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "IPxOoU8aqt",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Doctor Approved: Generating Medically Accurate Skin Disease Images through AI-Expert Feedback",
+  "authors": [
+    "Janet Wang",
+    "Yunbei Zhang",
+    "Zhengming Ding",
+    "Jihun Hamm"
+  ],
+  "author_ids": [
+    "~Janet_Wang1",
+    "~Yunbei_Zhang1",
+    "~Zhengming_Ding5",
+    "~Jihun_Hamm2"
+  ],
+  "abstract": "Paucity of medical data severely limits the generalizability of diagnostic ML models, as the full spectrum of disease variability can not be represented by a small clinical dataset. To address this, diffusion models (DMs) have been considered as a promising avenue for synthetic image generation and augmentation. However, they frequently produce _medically inaccurate_ images, deteriorating the model performance. Expert domain knowledge is critical for synthesizing images that correctly encode clinical information, especially when data is scarce and quality outweighs quantity. Existing approaches for incorporating human feedback, such as reinforcement learning (RL) and Direct Preference Optimization (DPO), rely on robust reward functions or demand labor-intensive expert evaluations. Recent progress in Multimodal Large Language Models (MLLMs) reveals their strong visual reasoning capabilities, making them adept candidates as evaluators. In this work, we propose a novel framework, coined MAGIC (**M**edically **A**ccurate **G**eneration of **I**mages through AI-Expert **C**ollaboration), that synthesizes clinically accurate skin disease images for data augmentation. Our method creatively translates expert-defined criteria into actionable feedback for image synthesis of DMs, significantly improving clinical accuracy while reducing the direct human workload. Experiments demonstrate that our method greatly improves the clinical quality of synthesized skin disease images, with outputs aligning with dermatologist assessments. Additionally, augmenting training data with these synthesized images improves diagnostic accuracy by +9.02% on a challenging 20-condition skin disease classification task, and by +13.89% in the few-shot setting. Beyond image synthesis, MAGIC illustrates a task-centric alignment paradigm: instead of adapting MLLMs to niche medical tasks, it adapts tasks to the evaluative strengths of general-purpose MLLMs by decomposing domain knowledge into attribute-level checklists. This design offers a scalable and reliable path for leveraging foundation models in specialized domains.",
+  "keywords": [
+    "Synthetic Clinical Data",
+    "Machine Learning for Healthcare",
+    "Skin Imaging Analysis"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ wang2025doctor, title={Doctor Approved: Generating Medically Accurate Skin Disease Images through {AI}-Expert Feedback}, author={Janet Wang and Yunbei Zhang and Zhengming Ding and Jihun Hamm}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=IPxOoU8aqt} }",
+  "url": "https://openreview.net/forum?id=IPxOoU8aqt",
+  "pdf_url": "https://openreview.net/pdf?id=IPxOoU8aqt",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
 }
 ]
