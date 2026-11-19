@@ -11,11 +11,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选全部结案；全正式5887条目录范围已逐身份对账并补齐601条未采正式分轨原记录。已核15条分轨漏筛纳入，现366候选全部有原摘要且已审。Main全目录召回仍未完成，其他分轨尚有237条题名线索待逐摘要/必要正文核验；不声明整源完成。",
-    "candidate_total": 366,
+    "coverage_note": "初始351候选全部结案；全正式5887目录对账、601缺采原记录恢复完成。另已核32条分轨漏筛纳入，现383候选均已审且有原摘要。Main全目录召回和其他分轨215条题名线索仍待科学核验，不声明整源完成。",
+    "candidate_total": 383,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 315,
+      "include": 332,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -24,7 +24,7 @@
     "work_status": "in_progress",
     "issues": [
       "Main5286全目录科学召回尚未完成。",
-      "237条其他分轨题名线索尚待摘要及必要正文核验。"
+      "215条其他分轨题名线索尚待摘要及必要正文核验。"
     ],
     "next_actions": [
       "继续完整Main目录召回和其他分轨科学核验；仅确认AI科研贡献后升级漏筛候选。"
@@ -32,11 +32,11 @@
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:57:36.987623+00:00",
-    "candidate_count": 366,
-    "own_review_count": 366,
+    "checked_at": "2026-11-19T08:00:18.232223+00:00",
+    "candidate_count": 383,
+    "own_review_count": 383,
     "own_review_counts": {
-      "include": 315,
+      "include": 332,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -98139,10 +98139,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "checked_at": "2026-11-19T08:00:18.232223+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 366,
-      "candidate_ids_sha256": "8013179bf940faf80883feed8d622fb661eb61a54293484abc41437d9a823f41",
+      "candidate_count": 383,
+      "candidate_ids_sha256": "aef66755ccf34d4535cd092616862519d90f9c38dd3793a38ffd68aa68f7fe86",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
@@ -101886,28 +101886,6 @@
     }
   ],
   "extra_title_recall_pending_indices": [
-    50,
-    55,
-    59,
-    61,
-    69,
-    72,
-    73,
-    74,
-    75,
-    77,
-    78,
-    79,
-    81,
-    85,
-    86,
-    89,
-    90,
-    91,
-    94,
-    95,
-    103,
-    107,
     111,
     112,
     113,
@@ -102154,6 +102132,237 @@
       "decision": "not_promoted",
       "evidence_location": "原始正式论文集Abstract",
       "rationale": "通用人体动作与姿态/多模态感知数据，提及healthcare场景但未明确科研任务。"
+    },
+    {
+      "index": 72,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "医学提示安全/越狱与拒答的通用LLM安全基准，未建立具体科学或诊断研究任务。"
+    },
+    {
+      "index": 79,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "机器人传感数据用于改善通用VLM空间与交互问答，未展示实际机器人控制或外部科学任务。"
+    },
+    {
+      "index": 85,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "真实情境数据生成矩阵/安全博弈，用传统均衡计算与无悔策略比较；现证据未确立ML实质参与外部科研任务。"
+    },
+    {
+      "index": 86,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "一般未来事件预测与置信校准基准，摘要未确立具体科学研究对象。"
+    },
+    {
+      "index": 89,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "普通日常目标推断与助手交互，未确立科学研究或专用工程研究任务。"
+    }
+  ],
+  "extra_scientific_batches": [
+    {
+      "batch_id": "extra-second-plans",
+      "checked_at": "2026-11-19T08:00:18.232223+00:00",
+      "plans": [
+        {
+          "index": 50,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "为准等动力仿星器磁约束等离子体边界提供MHD平衡、性能指标与多目标设计任务，实际训练学习模型生成物理可行配置，AI直接支持核聚变装置的物理设计。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 55,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "视觉语言模型",
+            "科学研究能力评测",
+            "基准评测"
+          ],
+          "rationale": "建立五类科学学科的专家核验多模态任务，实际测量科学信号感知、属性理解和比较推理能力；评测对象与数据直接面向科学研究流程。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 59,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "Transformer 架构",
+            "基准评测"
+          ],
+          "rationale": "以物理参数条件化时空Transformer预测沸腾成核、界面演化、传热及两相速度场，发布跨工质流态数据并以热流/守恒指标检验，AI直接建模多相流物理过程。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 61,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "大语言模型",
+            "科学研究能力评测",
+            "基准评测"
+          ],
+          "rationale": "以ClinGen专家策展的临床遗传文献解释构建任务，实际比较8个语言模型提取实验结果、判断基因/变异证据强度和解释实验结论的能力，直接支持临床遗传学科学文献研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 69,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "采集真实生产线多种工业品正常/异常配对数据，提出多尺度相似性聚合与特征融合的ReinADNet并验证缺陷检测，研究目标为真实工业质量检验。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 73,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "芯片布局",
+            "基准评测"
+          ],
+          "rationale": "用20类CPU/GPU/NPU电路建立端到端布局评测，实际比较6个AI布局算法的最终功率、性能和面积及数据流/规整性影响，直接支持芯片设计工程研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 74,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "生成建模",
+            "基准评测"
+          ],
+          "rationale": "以气动、结构力学、人体工学和实际人评约束建立自行车设计任务，实际比较LLM、表格生成及生成–优化混合方法的物理性能与约束满足，AI参与具体工程设计。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 75,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "数学定理自动证明",
+            "基准评测"
+          ],
+          "rationale": "用新发布数学竞赛题及证明写作任务评测50余语言模型，覆盖IMO2025形式之外的数学证明结果与未污染题目求解；直接提供AI数学问题求解与证明能力研究资源。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 77,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "面向动物形态和运动的非侵入式量化，构建动物视频与4D重建数据；正文实际用Grounded-SAM2/ViTPose等学习模型标注，并将学习型3D-Fauna扩展为序列优化4D动物形状/姿态重建。",
+          "location": "原摘要；正文3节数据处理与4 4D Animal Reconstruction",
+          "pdf_evidence": true
+        },
+        {
+          "index": 78,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "贝叶斯优化",
+            "基准评测"
+          ],
+          "rationale": "以San Jose真实道路与传感器约束构建高维交通OD需求反演任务，比较三种BO与两种其他优化基线，AI优化直接支持城市交通需求模型辨识。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 81,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "从真实农业专家咨询构建作物健康、害虫与病害诊断数据，比较20余VLM识别生物实体、分析成因和给出农作管理建议，直接研究农业诊断能力。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 90,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "以研究生应用数学的边界层、WKB、非线性PDE渐近解和振荡积分建立211道原创核验题，实际检验LLM的近似数学求解结果与数值真值，具有直接应用数学任务。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 91,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "以MIMIC急诊与住院的真实症状/病史构建患者模拟，比较8个LLM生成临床对话的医学事实一致性和人格一致性，经临床医师验证，为医疗交流系统研究提供可复现患者测试资源。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 94,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "深度学习",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "建立复杂数学优化问题图像与建模语言数据，训练深度数学表达识别和微调语言模型自动生成PYOMO，再实际求解非线性/多目标等优化式；AI直接参与自动数学优化问题求解流程。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 95,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "由盲人真实生活记录和实际辅助需求构建视觉辅助问答，比较16个MLLM与人类的辅助功能表现并分析局限，直接研究面向视觉障碍人群的辅助技术。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 103,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "基于专业消防训练的低能见度及火损场景构建定位、安全推理与损伤后目标检索任务，比较模型和专业人类表现，直接服务消防安全感知技术的工程评测。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 107,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "支持向量机",
+            "基准评测"
+          ],
+          "rationale": "公开正文4.2明确用EEG/fNIRS时频特征训练支持向量模型回归连续效价/唤醒度并进行三分类、受试者内三折验证；AI实际参与动态情绪与脑信号关联解码。",
+          "location": "原摘要；正文4.2 Supervised Learning第7页及附录E",
+          "pdf_evidence": true
+        }
+      ]
     }
   ]
 }
