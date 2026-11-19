@@ -6576,11 +6576,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选及另核181条分轨漏筛、723条Main漏筛均已审，现1270候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–4399，已查范围线索剩余0条，后续目录尚待继续，不声明整源完成。",
-    "candidate_total": 1270,
+    "coverage_note": "初始351候选及另核181条分轨漏筛、776条Main漏筛均已审，现1323候选有原摘要。5887正式目录对账及601缺采原记录恢复完成。其他分轨科学召回完成；Main题名已查0–4699，已查范围线索剩余0条，后续目录尚待继续，不声明整源完成。",
+    "candidate_total": 1323,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 1219,
+      "include": 1272,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -6596,11 +6596,11 @@
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T11:31:23.110230+00:00",
-    "candidate_count": 1270,
-    "own_review_count": 1270,
+    "checked_at": "2026-11-19T11:36:27.882896+00:00",
+    "candidate_count": 1323,
+    "own_review_count": 1323,
     "own_review_counts": {
-      "include": 1219,
+      "include": 1272,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -104703,10 +104703,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T11:31:23.110230+00:00",
+      "checked_at": "2026-11-19T11:36:27.882896+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 1270,
-      "candidate_ids_sha256": "b61436d44a71e0bd160433b797dd95f4d50e8889bb6a6f73b696293e1bdb6b2e",
+      "candidate_count": 1323,
+      "candidate_ids_sha256": "fcfe15746685a14d9ec75ab3faf930554ee2f6ecea03b478ca97ccf85cc01a30",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
