@@ -22114,5 +22114,1269 @@
       ],
       "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
     }
+  },
+  {
+    "id": "proceedings_d7b7c2ff14a479d574b971fd8a36f3e4",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "STSBench: A Spatio-temporal Scenario Benchmark for Multi-modal Large Language Models in Autonomous Driving",
+    "authors": [
+      "Fruhwirth-Reisinger, Christian",
+      "Malić, Dušan",
+      "Lin, Wei",
+      "Schinagl, David",
+      "Schulter, Samuel",
+      "Possegger, Horst"
+    ],
+    "abstract": "We introduce STSBench, a scenario-based framework to benchmark the holistic understanding of vision-language models (VLMs) for autonomous driving. The framework automatically mines predefined traffic scenarios from any dataset using ground-truth annotations, provides an intuitive user interface for efficient human verification, and generates multiple-choice questions for model evaluation. Applied to the nuScenes dataset, we present STSnu, the first benchmark that evaluates the spatio-temporal reasoning capabilities of VLMs based on comprehensive 3D perception. Existing benchmarks typically target off-the-shelf or fine-tuned VLMs for images or videos from a single viewpoint, focusing on semantic tasks such as object recognition, dense captioning, risk assessment, or scene understanding. In contrast, STSnu evaluates driving expert VLMs for end-to-end driving, operating on videos from multi-view cameras or LiDAR. It specifically assesses their ability to reason about both ego-vehicle actions and complex interactions among traffic participants, a crucial capability for autonomous vehicles. The benchmark features 43 diverse scenarios spanning multiple views and frames, resulting in 971 human-verified multiple-choice questions. A thorough evaluation uncovers critical shortcomings in existing models’ ability to reason about fundamental traffic dynamics in complex environments. These findings highlight the urgent need for architectural advancements that explicitly model spatio-temporal reasoning. By addressing a core gap in spatio-temporal evaluation, STSBench enables the development of more robust and explainable VLMs for autonomous driving.",
+    "doi": "10.52202/085713-4907",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d7b7c2ff14a479d574b971fd8a36f3e4-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d7b7c2ff14a479d574b971fd8a36f3e4-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d7b7c2ff14a479d574b971fd8a36f3e4-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_da3f5e8ad41aea0980bcf4f55fb099f4",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "GTPBD: A Fine-Grained Global Terraced Parcel and Boundary Dataset",
+    "authors": [
+      "Zhang, Zhiwei",
+      "Ye, Zi",
+      "Wen, Yibin",
+      "Yuan, Shuai",
+      "Fu, Haohuan",
+      "Jianxi, Huang",
+      "Zheng, Juepeng"
+    ],
+    "abstract": "Agricultural parcels serve as basic units for conducting agricultural practices and applications, which is vital for land ownership registration, food security assessment, soil erosion monitoring, etc. However, existing agriculture parcel extraction studies only focus on mid-resolution mapping or regular plain farmlands while lacking representation of complex terraced terrains due to the demands of precision agriculture. In this paper, we introduce a more fine-grained terraced parcel dataset named GTPBD (Global Terraced Parcel and Boundary Dataset), which is the first fine-grained dataset covering major worldwide terraced regions with more than 200,000 complex terraced parcels with manually annotation. GTPBD comprises 47,537 high-resolution images with three-level labels, including pixel-level boundary labels, mask labels, and parcel labels. It covers seven major geographic zones in China and transcontinental climatic regions around the world. Compared to the existing datasets, the GTPBD dataset brings considerable challenges due to the: (1) terrain diversity; (2) complex and irregular parcel objects; and (3) multiple domain styles. Our proposed GTPBD dataset is suitable for four different tasks, including semantic segmentation, edge detection, terraced parcel extraction and unsupervised domain adaptation (UDA) tasks. Accordingly, we benchmark the GTPBD dataset on eight semantic segmentation methods, four edge extraction methods, three parcel extraction methods and five UDA methods, along with a multi-dimensional evaluation framework integrating pixel-level and object-level metrics. GTPBD fills a critical gap in terraced remote sensing research, providing a basic infrastructure for fine-grained agricultural terrain analysis and cross-scenario knowledge transfer. The code and data are available at https://github.com/Z-ZW-WXQ/GTPBD/.",
+    "doi": "10.52202/085713-4963",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/da3f5e8ad41aea0980bcf4f55fb099f4-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/da3f5e8ad41aea0980bcf4f55fb099f4-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/da3f5e8ad41aea0980bcf4f55fb099f4-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_dabdd0930e28cbda8da623129f6971b8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "SeasonBench-EA: A Multi-Source Benchmark for Seasonal Prediction and Numerical Model Post-Processing in East Asia",
+    "authors": [
+      "Chen, Mengxuan",
+      "Li, Li",
+      "Ziheng, Zou",
+      "Wang, Fang",
+      "Zhang, Jinxiao",
+      "Dong, Runmin",
+      "Zheng, Juepeng",
+      "Fu, Haohuan"
+    ],
+    "abstract": "Seasonal-scale climate prediction plays a critical role in supporting agricultural planning, disaster prevention, and long-term decision making. In particular, reliable forecasts issued 1-6 months in advance are essential for early warning of flood and drought risks associated with precipitation during the East Asian summer monsoon season. However, while the use of machine learning techniques has advanced rapidly in weather and subseasonal-to-seasonal forecasting, partly driven by the availability of benchmark datasets, their application to seasonal-scale prediction remains limited. Existing seasonal prediction primarily relies on ensemble forecasts from numerical models, which, while physically grounded, are subject to biases and uncertainties at long lead times. Motivated by these challenges, we propose SeasonBench-EA, a benchmark dataset for seasonal prediction in East Asia region. It features multi-resolution, multi-source data with both regional and global coverage, integrating ERA5 reanalysis data and ensemble forecasts from multiple leading forecast centers. Beyond key atmospheric fields, the dataset also includes boundary-related variables, such as ocean state, soil and solar radiation, that are essential for capturing seasonal-scale atmospheric variability. Two tasks are defined and evaluated: 1) machine learning-based seasonal prediction using ERA5 reanalysis, and 2) post-processing of seasonal forecasts from numerical model ensembles. A suite of deterministic and probabilistic metrics is provided for tasks evaluation, along with a hindcast assessment focused on precipitation during the East Asian summer monsoon, aligned with model evaluation protocols used in operations. By offering a unified data and evaluation framework, SeasonBench-EA aims to promote the development and application of data-driven methods for seasonal prediction, a challenging yet highly impactful task with board implications for society and public well-being. Our benchmark is available at https://github.com/SauryChen/SeasonBench-EA.",
+    "doi": "10.52202/085713-4977",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/dabdd0930e28cbda8da623129f6971b8-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/dabdd0930e28cbda8da623129f6971b8-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/dabdd0930e28cbda8da623129f6971b8-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_dcce28990bf662c6b916c52cd7e975da",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "MUniverse: A Simulation and Benchmarking Suite for Motor Unit Decomposition",
+    "authors": [
+      "Mamidanna, Pranav",
+      "Klotz, Thomas",
+      "Chalatsis, Dimitrios",
+      "Grison, Agnese",
+      "Mendez Guerra, Irene",
+      "Ma, Shihan",
+      "Caillet, Arnault",
+      "Avrillon, Simon",
+      "Rohlén, Robin",
+      "Farina, Dario"
+    ],
+    "abstract": "Neural source separation enables the extraction of individual spike trains from complex electrophysiological recordings. When applied to electromyographic (EMG) signals, it provides a unique window into the motor output of the nervous system by isolating the spiking activity of motor units (MUs). MU decomposition from EMG signals is currently the only scalable neural interfacing approach available in behaving humans and has become foundational in motor neuroscience and neuroprosthetics. However, unlike related domains such as spike sorting or electroencephalography (EEG) analysis, decomposition of EMG signals lacks open benchmarks that reflect the diversity of muscles, movement contexts, and noise sources encountered in practice.To address this gap, we introduce MUniverse, a modular simulation and benchmarking suite for decomposing EMG signals into individual MU spiking activity. MUniverse provides: (1) a simulation stack with a user-friendly interface to a state-of-the-art EMG generator; (2) a curated library of datasets across synthetic, hybrid synthetic-real data with ground truth spikes, and experimental EMG; (3) a set of internal and external decomposition pipelines; and (4) a unified benchmark with well-defined tasks, standard evaluation metrics, and baseline results from established decomposition pipelines.MUniverse is designed for extensibility, reproducibility, and community use, and all datasets are distributed with standardised metadata (Croissant, BIDS). By standardising evaluation and enabling dataset simulation at scale, MUniverse aims to catalyze progress on this long-standing neural signal processing problem.",
+    "doi": "10.52202/085713-5020",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/dcce28990bf662c6b916c52cd7e975da-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/dcce28990bf662c6b916c52cd7e975da-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/dcce28990bf662c6b916c52cd7e975da-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_ddb6b9fea6a366579e38bdbf2e5591a8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Martian World Model: Controllable Video Synthesis with Physically Accurate 3D Reconstructions",
+    "authors": [
+      "Li, Longfei",
+      "Fan, Zhiwen",
+      "Cong, Wenyan",
+      "Liu, Xinhang",
+      "Yin, Yuyang",
+      "Foutter, Matt",
+      "Pan, Panwang",
+      "You, Chenyu",
+      "Wang, Yue",
+      "Wang, Zhangyang &quot;Atlas&quot;",
+      "Zhao, Yao",
+      "Pavone, Marco",
+      "Wei, Yunchao"
+    ],
+    "abstract": "The synthesis of realistic Martian landscape videos, essential for mission rehearsal and robotic simulation, presents unique challenges. These primarily stem from the scarcity of high-quality Martian data and the significant domain gap relative to terrestrial imagery.To address these challenges, we introduce a holistic solution comprising two main components: 1) a data curation framework, Multimodal Mars Synthesis (M3arsSynth), which processes stereo navigation images to render high-fidelity 3D video sequences. 2) a video-based Martian terrain generator  (MarsGen), that utilizes multimodal conditioning data to accurately synthesize novel, 3D-consistent frames. Our data are sourced from NASA’s Planetary Data System (PDS), covering diverse Martian terrains and dates, enabling the production of physics-accurate 3D surface models at metric-scale resolution. During inference, MarsGen is conditioned on an initial image frame and can be guided by specified camera trajectories or textual prompts to generate new environments.Experimental results demonstrate that our solution surpasses video synthesis approaches trained on terrestrial data, achieving superior visual quality and 3D structural consistency.",
+    "doi": "10.52202/085713-5046",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ddb6b9fea6a366579e38bdbf2e5591a8-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/ddb6b9fea6a366579e38bdbf2e5591a8-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ddb6b9fea6a366579e38bdbf2e5591a8-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_df7f9034c090e31f1a141375049560c3",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "GlobalTomo: A global dataset for physics-ML seismic wavefield modeling and FWI",
+    "authors": [
+      "Li, Shiqian",
+      "Li, Zhi",
+      "Mu, Zhancun",
+      "Xin, Shiji",
+      "Dai, Zhixiang",
+      "Leng, Kuangdai",
+      "Zhang, Rita",
+      "Song, Xiaodong",
+      "Zhu, Yixin"
+    ],
+    "abstract": "Global seismic tomography, taking advantage of seismic waves from natural earthquakes, provides essential insights into the earth's internal dynamics. Advanced Full-Waveform Inversion (FWI) techniques, whose aim is to meticulously interpret every detail in seismograms, confront formidable computational demands in forward modeling and adjoint simulations on a global scale. Recent advancements in Machine Learning (ML) offer a transformative potential for accelerating the computational efficiency of FWI and extending its applicability to larger scales. This work presents the first 3D global synthetic dataset tailored for seismic wavefield modeling and full-waveform tomography, referred to as the Global Tomography (GlobalTomo) dataset. This dataset is comprehensive, incorporating explicit wave physics and robust geophysical parameterization at realistic global scales, generated through state-of-the-art forward simulations optimized for 3D global wavefield calculations. Through extensive analysis and the establishment of ML baselines, we illustrate that ML approaches are particularly suitable for global FWI, overcoming its limitations with rapid forward modeling and flexible inversion strategies. This work represents a cross-disciplinary effort to enhance our understanding of the earth's interior through physics-ML modeling.",
+    "doi": "10.52202/085713-5094",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/df7f9034c090e31f1a141375049560c3-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/df7f9034c090e31f1a141375049560c3-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/df7f9034c090e31f1a141375049560c3-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e0ed6d6c2ec6df05f929b8a67b78513a",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Beyond Chemical QA: Evaluating LLM's Chemical Reasoning with Modular Chemical Operations",
+    "authors": [
+      "Hao, Li",
+      "CAO, He",
+      "Feng, Bin",
+      "Shao, Daniel",
+      "Tang, Robert",
+      "Yan, Zhiyuan",
+      "Tian, Yonghong",
+      "Yuan, Li",
+      "Li, Yu"
+    ],
+    "abstract": "While large language models (LLMs) with Chain-of-Thought (CoT) reasoning excel in mathematics and coding, their potential for systematic reasoning in chemistry, a domain demanding rigorous structural analysis for real-world tasks like drug design and reaction engineering, remains untapped. Current benchmarks focus on simple knowledge retrieval, neglecting step-by-step reasoning required for complex tasks such as molecular optimization and reaction prediction. To address this, we introduce ChemCoTBench, a reasoning framework that bridges molecular structure understanding with arithmetic-inspired operations, including addition, deletion, and substitution, to formalize chemical problem-solving into transparent, step-by-step workflows. By treating molecular transformations as modular \"chemical operations\", the framework enables slow-thinking reasoning, mirroring the logic of mathematical proofs while grounding solutions in real-world chemical constraints. We evaluate models on two high-impact tasks: Molecular Property Optimization and Chemical Reaction Prediction. These tasks mirror real-world challenges while providing structured evaluability. We further provide ChemCoTDataset, a pioneering 22,000-instance chemical reasoning dataset with expert-annotated chains of thought to facilitate LLM fine-tuning. By providing annotated trainable datasets, a reasoning taxonomy, and baseline evaluations, our work bridges the gap between abstract reasoning methods and practical chemical discovery, establishing a foundation for advancing LLMs as tools for AI-driven scientific innovation.",
+    "doi": "10.52202/085713-5122",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e0ed6d6c2ec6df05f929b8a67b78513a-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e0ed6d6c2ec6df05f929b8a67b78513a-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e0ed6d6c2ec6df05f929b8a67b78513a-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e2b8ff0035bc9f572a7deefbcbea85bc",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "AneuG-Flow: A Large-Scale Synthetic Dataset of Diverse Intracranial Aneurysm Geometries and Hemodynamics",
+    "authors": [
+      "Ding, Wenhao",
+      "Sheng, Yiying",
+      "de Castro, Simão",
+      "Leo, Hwa",
+      "Yap, Choon Hwai"
+    ],
+    "abstract": "Hemodynamics has a substantial influence on normal cardiovascular growth and disease formation, but requires time-consuming simulations to obtain. Deep Learning algorithms to rapidly predict hemodynamics parameters can be very useful, but their development is hindered by the lack of large dataset on anatomic geometries and associated fluid dynamics. This paper presents a new large-scale dataset of intracranial aneurysm (IA) geometries and hemodynamics to support the development of neural operators to solve geometry-dependent flow governing partial differential equations. The dataset includes 14,000 steady-flow cases and 200 pulsatile-flow cases simulated with computational fluid dynamics. All cases are computed using a laminar flow setup with more than 3 million cells. Boundary conditions are defined as a parabolic velocity profile with a realistic waveform over time at the inlet, and geometry-dependent mass flow split ratios at the two downstream outlets. The geometries are generated by a deep generative model trained on a cohort of 109 real IAs located at the middle cerebral artery bifurcation, capturing a wide range of geometric variations in both aneurysm sacs and parent vessels.  Simulation results shows substantial influence of geometry on fluid forces and flow patterns. In addition to surface mesh files, the dataset provides volume data of velocity, pressure, and wall shear stresses (WSS). For transient cases, spatial and temporal gradients of velocity and pressure are also included.  The dataset is tested with PointNet and graph U-Nets for WSS prediction, which showed relative L2 loss of 4.67\\% for normalized WSS pattern.",
+    "doi": "10.52202/085713-5152",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e2b8ff0035bc9f572a7deefbcbea85bc-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e2b8ff0035bc9f572a7deefbcbea85bc-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e2b8ff0035bc9f572a7deefbcbea85bc-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e3a2bd22ef74970b2fff74a16f806237",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "THUNDER: Tile-level Histopathology image UNDERstanding benchmark",
+    "authors": [
+      "Marza, Pierre",
+      "Fillioux, Leo",
+      "Boutaj, Sofiène",
+      "MAHATHA, KUNAL",
+      "Desrosiers, Christian",
+      "Piantanida, Pablo",
+      "Dolz, Jose",
+      "Christodoulidis, Stergios",
+      "Vakalopoulou, Maria"
+    ],
+    "abstract": "Progress in a research field can be hard to assess, in particular when many concurrent methods are proposed in a short period of time. This is the case in digital pathology, where many foundation models have been released recently to serve as feature extractors for tile-level images, being used in a variety of downstream tasks, both for tile- and slide-level problems. Benchmarking available methods then becomes paramount to get a clearer view of the research landscape. In particular, in critical domains such as healthcare, a benchmark should not only focus on evaluating downstream performance, but also provide insights about the main differences between methods, and importantly, further consider uncertainty and robustness to ensure a reliable usage of proposed models. For these reasons, we introduce THUNDER, a tile-level benchmark for digital pathology foundation models, allowing for efficient comparison of many models on diverse datasets with a series of downstream tasks, studying their feature spaces and assessing the robustness and uncertainty of predictions informed by their embeddings. THUNDER is a fast, easy-to-use, dynamic benchmark that can already support a large variety of state-of-the-art foundation, as well as local user-defined models for direct tile-based comparison. In this paper, we provide a comprehensive comparison of 23 foundation models on 16 different datasets covering diverse tasks, feature analysis, and robustness. The code for THUNDER is publicly available at https://github.com/MICS-Lab/thunder.",
+    "doi": "10.52202/085713-5181",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e3a2bd22ef74970b2fff74a16f806237-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e3a2bd22ef74970b2fff74a16f806237-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e3a2bd22ef74970b2fff74a16f806237-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e560a0b22e4432003d0dba63ff8dc457",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "FEEL: Quantifying Heterogeneity in Physiological Signals for Generalizable Emotion Recognition",
+    "authors": [
+      "Singh, Pragya",
+      "Gupta, Ankush",
+      "Jalan, Somay",
+      "Kumar, Mohan",
+      "Singh, Pushpendra"
+    ],
+    "abstract": "Emotion recognition from physiological signals has substantial potential for applications in mental health and emotion-aware systems. However, the lack of standardized, large-scale evaluations across heterogeneous datasets limits progress and model generalization. We introduce FEEL (Framework for Emotion Evaluation), the first large-scale benchmarking study of emotion recognition usingelectrodermal activity (EDA) and photoplethysmography (PPG) signals across 19 publicly available datasets. We evaluate 16 architectures spanning traditional machine learning, deep learning, and self-supervised pretraining approaches, structured into four representative modeling paradigms. Our study includes both within-dataset and cross-dataset evaluations, analyzing generalization across variations in experimental settings, device types, and labeling strategies. Our results showed that fine-tuned contrastive signal-language pretraining (CLSP) models (71/114) achieve the highest F1 across arousal and valence classification tasks, while simpler models like Random Forests, LDA, and MLP remain competitive (36/114). Models leveraging handcrafted features (107/114) consistently outperform those trained on raw signal segments, underscoring the value of domain knowledge in low-resource, noisy settings. Further cross-dataset analyses reveal that models trained on real-life setting data generalize well to lab (F1 = 0.79) and constraint-based settings (F1 = 0.78). Similarly, models trained on expert-annotated data transfer effectively to stimulus-labeled (F1 = 0.72) and self-reported datasets (F1 = 0.76). Moreover, models trained on lab-based devices also demonstrated high transferability to both custom wearable devices (F1 = 0.81) and the Empatica E4 (F1 = 0.73), underscoring the influence of heterogeneity. Overall, FEEL provides a unified framework for benchmarking physiological emotion recognition, delivering insights to guide the development of generalizable emotion-aware technologies. Code implementationis available at https://github.com/alchemy18/FEEL. More information about FEEL can be found on our website https://alchemy18.github.io/FEEL_Benchmark/.",
+    "doi": "10.52202/085713-5228",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e560a0b22e4432003d0dba63ff8dc457-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e560a0b22e4432003d0dba63ff8dc457-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e560a0b22e4432003d0dba63ff8dc457-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e6f1c64aa72e867b6dc54e87d1d196c8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "LithoSim: A Large, Holistic Lithography Simulation Benchmark for AI-Driven Semiconductor Manufacturing",
+    "authors": [
+      "He, Hongquan",
+      "Wang, Zhen",
+      "Wang, Jingya",
+      "Wu, Tao",
+      "He, Xuming",
+      "Yu, Bei",
+      "Yu, Jingyi",
+      "GENG, Hao"
+    ],
+    "abstract": "Lithography orchestrates a symphony of light, mask and photochemicals to transfer the integrated circuit patterns onto the wafer. Lithography simulation serves as the critical nexus between circuit design and manufacturing, where its speed and accuracy fundamentally govern the optimization quality of downstream resolution enhancement techniques (RET). While machine learning promises to circumvent computational limitations of lithography process through data-driven or physics-informed approximations of computational lithography, existing simulators suffer from inadequate lithographic awareness due to insufficient training data capturing essential process variations and mask correction rules. We present LithoSim, the most comprehensive lithography simulation benchmark to date, featuring over $4$ million high-resolution input-output pairs with rigorous physical correspondence. The dataset systematically incorporates alterable optical source distributions, metal and via mask topologies with optical proximity correction (OPC) variants, and process windows reflecting fab-realistic variations. By integrating domain-specific metrics spanning AI performance and lithographic fidelity, LithoSim establishes a unified evaluation framework for data-driven and physics-informed computational lithography. The data (https://huggingface.co/datasets/grandiflorum/LithoSim), code (https://dw-hongquan.github.io/LithoSim), and pre-trained models (https://huggingface.co/grandiflorum/LithoSim) are released openly to support the development of hybrid ML-based and high-fidelity lithography simulation for the benefit of semiconductor manufacturing.",
+    "doi": "10.52202/085713-5259",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e6f1c64aa72e867b6dc54e87d1d196c8-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e6f1c64aa72e867b6dc54e87d1d196c8-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e6f1c64aa72e867b6dc54e87d1d196c8-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e75dcde67f29d1e8efd0a86aaa332331",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Can Large Multimodal Models Understand Agricultural Scenes? Benchmarking with AgroMind",
+    "authors": [
+      "Li, Qingmei",
+      "Zhang, Yang",
+      "Mai, Zurong",
+      "Chen, Yuhang",
+      "",
+      "Huang, Henglian",
+      "Zhang, Jiarui",
+      "Zhang, Zhiwei",
+      "Wen, Yibin",
+      "Li, Weijia",
+      "Fu, Haohuan",
+      "Jianxi, Huang",
+      "Zheng, Juepeng"
+    ],
+    "abstract": "Large Multimodal Models (LMMs) has demonstrated capabilities across various domains, but comprehensive benchmarks for agricultural remote sensing (RS) remain scarce. Existing benchmarks designed for agricultural RS scenarios exhibit notable limitations, primarily in terms of insufficient scene diversity in the dataset and oversimplified task design. To bridge this gap, we introduce AgroMind, a comprehensive agricultural remote sensing benchmark covering four task dimensions: spatial perception, object understanding, scene understanding, and scene reasoning, with a total of 13 task types, ranging from crop identification and health monitoring to environmental analysis. We curate a high-quality evaluation set by integrating nine public datasets and one private global parcel dataset, containing 28,482 QA pairs and 20,850 images. The pipeline begins with multi-source data pre-processing, including collection, format standardization, and annotation refinement. We then generate a diverse set of agriculturally relevant questions through the systematic definition of tasks. Finally, we employ LMMs for inference, generating responses, and performing detailed examinations. We evaluated 20 open-source LMMs and 4 closed-source models on AgroMind. Experiments reveal significant performance gaps, particularly in spatial reasoning and fine-grained recognition, it is notable that human performance lags behind several leading LMMs. By establishing a standardized evaluation framework for agricultural RS, AgroMind reveals the limitations of LMMs in domain knowledge and highlights critical challenges for future work. Data and code can be accessed at https://rssysu.github.io/AgroMind/.",
+    "doi": "10.52202/085713-5271",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e75dcde67f29d1e8efd0a86aaa332331-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e75dcde67f29d1e8efd0a86aaa332331-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e75dcde67f29d1e8efd0a86aaa332331-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e9c55f6c6876a29162e53f51209c1a1d",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "LC-Opt: Benchmarking Reinforcement Learning and Agentic AI for End-to-End Liquid Cooling Optimization in Data Centers",
+    "authors": [
+      "Naug, Avisek",
+      "Guillen-Perez, Antonio",
+      "Kumar, Vineet",
+      "Greenwood, Scott",
+      "Brewer, Wesley",
+      "Ghorbanpour, Sahand",
+      "Ramesh Babu, Ashwin",
+      "Gundecha, Vineet",
+      "Luna Gutierrez, Ricardo",
+      "Sarkar, Soumyendu"
+    ],
+    "abstract": "Liquid cooling is critical for thermal management in high-density data centers with the rising AI workloads. However, machine learning-based controllers are essential to unlock greater energy efficiency and reliability, promoting sustainability. We present LC-Opt, a Sustainable Liquid Cooling (LC) benchmark environment, for reinforcement learning (RL) control strategies in energy-efficient liquid cooling of high-performance computing (HPC) systems. Built on the baseline of a high-fidelity digital twin of Oak Ridge National Lab's Frontier Supercomputer cooling system, LC-Opt provides detailed Modelica-based end-to-end models spanning site-level cooling towers to data center cabinets and server blade groups. RL agents optimize critical thermal controls like liquid supply temperature, flow rate, and granular valve actuation at the IT cabinet level, as well as cooling tower (CT) setpoints through a Gymnasium interface, with dynamic changes in workloads. This environment creates a multi-objective real-time optimization challenge balancing local thermal regulation and global energy efficiency, and also supports additional components like a heat recovery unit (HRU). We benchmark centralized and decentralized multi-agent RL approaches, demonstrate policy distillation into decision and regression trees for interpretable control, and explore LLM-based methods that explain control actions in natural language through an agentic mesh architecture designed to foster user trust and simplify system management. LC-Opt democratizes access to detailed, customizable liquid cooling models, enabling the ML community, operators, and vendors to develop sustainable data center liquid cooling control solutions.",
+    "doi": "10.52202/085713-5325",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e9c55f6c6876a29162e53f51209c1a1d-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e9c55f6c6876a29162e53f51209c1a1d-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e9c55f6c6876a29162e53f51209c1a1d-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_eb5b1b97cd9568cff7b1736c01168fb7",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Scaling Physical Reasoning with the PHYSICS Dataset",
+    "authors": [
+      "Zheng, Shenghe",
+      "Cheng, Qianjia",
+      "Yao, Junchi",
+      "Wu, Mengsong",
+      "he, haonan",
+      "Ding, Ning",
+      "Cheng, Yu",
+      "Hu, Shuyue",
+      "BAI, LEI",
+      "Zhou, Dongzhan",
+      "Cui, Ganqu",
+      "Ye, Peng"
+    ],
+    "abstract": "Large Language Models (LLMs) have achieved remarkable progress on advanced reasoning tasks such as mathematics and coding competitions. Meanwhile, physics, despite being both reasoning-intensive and essential to real-world understanding, received limited academic and industrial attention. This paper introduces PHYSICS, a dataset containing 16,568 high-quality physics problems spanning subjects and difficulty levels, to facilitate this issue. Specifically, PHYSICS is curated with exercises from over 100 textbooks through a carefully designed pipeline for quality control.  It covers five major physics domains: Mechanics, Electromagnetism, Thermodynamics, Optics, and Modern Physics. It also spans a wide range of difficulty levels, from high school to graduate-level physics courses. To utilize the data for improving and evaluating the model's physical reasoning capabilities, we split the dataset into training and test sets, and provide reasoning paths generated by powerful reasoning models for the training data to facilitate model training. In addition, for the evaluation part, we find that existing evaluation frameworks exhibit biases in aspects such as units, simplification, and precision in physics domain. To balance efficiency and accuracy, we introduce a Rule+Model evaluation framework tailored to physics problems. Our evaluations on current state-of-the-art open-source and proprietary models highlight the limitations of current models in handling physics-related tasks. We hope that our dataset and evaluation methodology will jointly advance the development of LLMs in the field of physics. The code and data can be found at: https://github.com/Zhengsh123/PHYSICS.",
+    "doi": "10.52202/085713-5370",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/eb5b1b97cd9568cff7b1736c01168fb7-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/eb5b1b97cd9568cff7b1736c01168fb7-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/eb5b1b97cd9568cff7b1736c01168fb7-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_ec80d18205e39d42a27192d5f3ddd688",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "DisasterM3: A Remote Sensing Vision-Language Dataset for Disaster Damage Assessment and Response",
+    "authors": [
+      "Wang, Junjue",
+      "Xuan, Weihao",
+      "Qi, Heli",
+      "Liu, Zhihao",
+      "Liu, Kunyi",
+      "Wu, Yuhan",
+      "Chen, Hongruixuan",
+      "SONG, JIAN",
+      "Xia, Junshi",
+      "Zheng, Zhuo",
+      "YOKOYA, Naoto"
+    ],
+    "abstract": "Large vision-language models (VLMs) have made great achievements in Earth vision. However, complex disaster scenes with diverse disaster types, geographic regions, and satellite sensors have posed new challenges for VLM applications. To fill this gap, we curate the first remote sensing vision-language dataset (DisasterM3)  for global-scale disaster assessment and response. DisasterM3 includes 26,988 bi-temporal satellite images and 123k instruction pairs across 5 continents, with three characteristics: **1) Multi-hazard**: DisasterM3 involves 36 historical disaster events with significant impacts, which are categorized into 10 common natural and man-made disasters. **2) Multi-sensor**: Extreme weather during disasters often hinders optical sensor imaging, making it necessary to combine Synthetic Aperture Radar (SAR) imagery for post-disaster scenes. **3) Multi-task**: Based on real-world scenarios, DisasterM3 includes 9 disaster-related visual perception and reasoning tasks, harnessing the full potential of VLM's reasoning ability with progressing from disaster-bearing body recognition to structural damage assessment and object relational reasoning, culminating in the generation of long-form disaster reports. We extensively evaluated 14 generic and remote sensing VLMs on our benchmark, revealing that state-of-the-art models struggle with the disaster tasks, largely due to the lack of a disaster-specific corpus, cross-sensor gap, and damage object counting insensitivity. Focusing on these issues, we fine-tune four VLMs using our dataset and achieve stable improvements (up to 10.4\\%$\\uparrow$QA, 2.1$\\uparrow$Report, 40.8\\%$\\uparrow$Referring Seg.) with robust cross-sensor and cross-disaster generalization capabilities. Project: https://github.com/Junjue-Wang/DisasterM3.",
+    "doi": "10.52202/085713-5398",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ec80d18205e39d42a27192d5f3ddd688-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/ec80d18205e39d42a27192d5f3ddd688-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ec80d18205e39d42a27192d5f3ddd688-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f22625283cf5812f45933610314259be",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "TreeFinder: A US-Scale Benchmark Dataset for Individual Tree Mortality Monitoring Using High-Resolution Aerial Imagery",
+    "authors": [
+      "Wang, Zhihao",
+      "Li, Cooper",
+      "Wang, Ruichen",
+      "Ma, Lei",
+      "Hurtt, George",
+      "Jia, Xiaowei",
+      "Mai, Gengchen",
+      "Li, Zhili",
+      "Xie, Yiqun"
+    ],
+    "abstract": "Monitoring individual tree mortality at scale has been found to be crucial for understanding forest loss, ecosystem resilience, carbon fluxes, and climate-induced impacts. However, the fine-granularity monitoring faces major challenges on both the data and methodology sides because: (1) finding isolated individual-level tree deaths requires high-resolution remote sensing images with broad coverage, and (2) compared to regular geo-objects (e.g., buildings), dead trees often exhibit weaker contrast and high variability across tree types, landscapes and ecosystems. Existing datasets on tree mortality primarily rely on moderate-resolution satellite imagery (e.g., 30m resolution), which aims to detect large-patch wipe-outs but is unable to recognize individual-level tree mortality events. Several efforts have explored alternatives via very-high-resolution drone imagery. However, drone images are highly expensive and can only be collected at local scales, which are therefore not suitable for national-scale applications and beyond. To bridge the gaps,we introduce TreeFinder, the first high-resolution remote sensing benchmark dataset designed for individual-level tree mortality mapping across the Contiguous United States (CONUS). Specifically, the dataset uses NAIP imagery at 0.6m resolution that provides wall-to-wall coverage of the entire CONUS. TreeFinder contains images with pixel-level labels generated via extensive manual annotation that covers forested areas in 48 states with over 23,000 hectares. All annotations are rigorously validated using multi-temporal NAIP images and auxiliary vegetation indices from remote sensing imagery. Moreover, TreeFinder includes multiple evaluation scenarios to test the models' ability in generalizing across different geographic regions, climate zones, and forests with different plant function types. Finally, we develop benchmarks using a suite of semantic segmentation models, including both convolutional architectures and more recent foundation models based on vision transformers for general and remote sensing images. Our dataset and code are publicly available on Kaggle and GitHub: https://www.kaggle.com/datasets/zhihaow/tree-finder and https://github.com/zhwang0/treefinder.",
+    "doi": "10.52202/085713-5526",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f22625283cf5812f45933610314259be-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f22625283cf5812f45933610314259be-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f22625283cf5812f45933610314259be-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f268ca663c202d012594a4b94bba5c1d",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "ML4CFD Competition: Results and Retrospective Analysis",
+    "authors": [
+      "Yagoubi, Mouadh",
+      "Danan, David",
+      "LEYLI ABADI, Milad",
+      "Mazari, Jocelyn",
+      "Brunet, Jean-Patrick",
+      "Kabalan, Abbas",
+      "Casenave, Fabien",
+      "Ma, Yuxin",
+      "Catalani, Giovanni",
+      "Fesquet, Jean",
+      "Helwig, Jacob",
+      "Zhang, Xuan",
+      "Yu, Haiyang",
+      "BERTRAND, Xavier",
+      "TOST, Frédéric",
+      "Bauerheim, Michaël",
+      "Morlier, Joseph",
+      "Ji, Shuiwang"
+    ],
+    "abstract": "The integration of machine learning (ML) into the physical sciences is reshaping computational paradigms, offering the potential to accelerate demanding simulations such as computational fluid dynamics (CFD). Yet, persistent challenges in accuracy, generalization, and physical consistency hinder the practical deployment of ML models in scientific domains. To address these limitations and systematically benchmark progress, we organized the ML4CFD competition, centered on surrogate modeling for aerodynamic simulations over two-dimensional airfoils. The competition attracted over 240 teams, who were provided with a curated dataset generated via OpenFOAM and evaluated through a multi-criteria framework encompassing predictive accuracy, physical fidelity, computational efficiency, and out-of-distribution generalization. This retrospective analysis reviews the competition outcomes, highlighting several approaches that outperformed baselines under our global evaluation score. Notably, the top entry exceeded the performance of the original OpenFOAM solver on aggregate metrics, illustrating the promise of ML based surrogates to outperform traditional solvers under tailored criteria. However, this does not imply that the winning solution could replace the OpenFOAM solver or that it was overall superior, even for this specific task. Drawing from these results, we analyze the key design principles of top submissions, assess the robustness of our evaluation framework, and offer guidance for future scientific ML challenges.",
+    "doi": "10.52202/085713-5532",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f268ca663c202d012594a4b94bba5c1d-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f268ca663c202d012594a4b94bba5c1d-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f268ca663c202d012594a4b94bba5c1d-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f7c68372b3d39e8d7a093eb2edaaad87",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "CSI-Bench: A Large-Scale In-the-Wild Dataset for Multi-task WiFi Sensing",
+    "authors": [
+      "Zhu, Guozhen",
+      "Hu, Yuqian",
+      "Gao, Weihang",
+      "Wang, Wei-Hsiang",
+      "Wang, Beibei",
+      "Liu, K."
+    ],
+    "abstract": "WiFi sensing has emerged as a compelling contactless modality for human activity monitoring by capturing fine-grained variations in Channel State Information (CSI). Its ability to operate continuously and non-intrusively while preserving user privacy makes it particularly suitable for health monitoring. However, existing WiFi sensing systems struggle to generalize in real-world settings, largely due to datasets collected in controlled environments with homogeneous hardware and fragmented, session-based recordings that fail to reflect continuous daily activity.We present CSI-Bench, a large-scale, in-the-wild benchmark dataset collected using commercial WiFi edge devices across 26 diverse indoor environments with 35 real users. Spanning over 461 hours of effective data, CSI-Bench captures realistic signal variability under natural conditions. It includes task-specific datasets for fall detection, breathing monitoring, localization, and motion source recognition, as well as a co-labeled multitask dataset with joint annotations for user identity, activity, and proximity. To support the development of robust and generalizable models, CSI-Bench provides standardized evaluation splits and baseline results for both single-task and multi-task learning. CSI-Bench offers a foundation for scalable, privacy-preserving WiFi sensing systems in health and broader human-centric applications.",
+    "doi": "10.52202/085713-5648",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f7c68372b3d39e8d7a093eb2edaaad87-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f7c68372b3d39e8d7a093eb2edaaad87-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f7c68372b3d39e8d7a093eb2edaaad87-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f8250afec8305ed4a6b27ae405507442",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks",
+    "authors": [
+      "Gai, Xiaotang",
+      "Liu, Jiaxiang",
+      "Li, Yichen",
+      "Meng, Zijie",
+      "Wu, Jian",
+      "Liu, Zuozhu"
+    ],
+    "abstract": "Medical Visual Question Answering (Med-VQA) holds significant potential for clinical decision support, yet existing efforts primarily focus on 2D imaging with limited task diversity. This paper presents 3D-RAD, a large-scale dataset designed to advance 3D Med-VQA using radiology CT scans. The 3D-RAD dataset encompasses six diverse VQA tasks: anomaly detection, image observation, medical computation, existence detection, static temporal diagnosis, and longitudinal temporal diagnosis. It supports both open- and closed-ended questions while introducing complex reasoning challenges, including computational tasks and multi-stage temporal analysis, to enable comprehensive benchmarking. Extensive evaluations demonstrate that existing vision-language models (VLMs), especially medical VLMs exhibit limited generalization, particularly in multi-temporal tasks, underscoring the challenges of real-world 3D diagnostic reasoning. To drive future advancements, we release a high-quality training set 3D-RAD-T of 136,195 expert-aligned samples, showing that fine-tuning on this dataset could significantly enhance model performance. Our dataset and code, aiming to catalyze multimodal medical AI research and establish a robust foundation for 3D medical visual understanding, are publicly available.",
+    "doi": "10.52202/085713-5656",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f8250afec8305ed4a6b27ae405507442-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f8250afec8305ed4a6b27ae405507442-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f8250afec8305ed4a6b27ae405507442-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f908bc294862a555413fbe43ff08933f",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Common Task Framework For a Critical Evaluation of Scientific Machine Learning Algorithms",
+    "authors": [
+      "Wyder, Philippe",
+      "Goldfeder, Judah",
+      "Yermakov, Alexey",
+      "Zhao, Yue",
+      "Riva, Stefano",
+      "Williams, Jan",
+      "Zoro, David",
+      "Rude, Amy",
+      "Tomasetto, Matteo",
+      "Germany, Joe",
+      "Bakarji, Joseph",
+      "Maierhofer, Georg",
+      "Cranmer, Miles",
+      "Kutz, Nathan"
+    ],
+    "abstract": "Machine learning (ML) is transforming modeling and control in the physical, engineering, and biological sciences. However, rapid development has outpaced the creation of standardized, objective benchmarks—leading to weak baselines, reporting bias, and inconsistent evaluations across methods. This undermines reproducibility, misguides resource allocation, and obscures scientific progress. To address this, we propose a Common Task Framework (CTF) for scientific machine learning. The CTF features a curated set of datasets and task-specific metrics spanning forecasting, state reconstruction, and generalization under realistic constraints, including noise and limited data. Inspired by the success of CTFs in fields like natural language processing and computer vision, our framework provides a structured, rigorous foundation for head-to-head evaluation of diverse algorithms. As a first step, we benchmark methods on two canonical nonlinear systems: Kuramoto-Sivashinsky and Lorenz. These results illustrate the utility of the CTF in revealing method strengths, limitations, and suitability for specific classes of problems and diverse objectives. Next, we are launching a competition around a global real world sea surface temperature dataset with a true holdout dataset to foster community engagement. Our long-term vision is to replace ad hoc comparisons with standardized evaluations on hidden test sets that raise the bar for rigor and reproducibility in scientific ML.",
+    "doi": "10.52202/085713-5677",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f908bc294862a555413fbe43ff08933f-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f908bc294862a555413fbe43ff08933f-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f908bc294862a555413fbe43ff08933f-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f90cd97544e17dfd76af5c4f1b698a50",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "STARC-9: A Large-scale Dataset for Multi-Class Tissue Classification for CRC Histopathology",
+    "authors": [
+      "Subramanian, Barathi",
+      "Jeyaraj, Rathinaraja",
+      "Peterson, Mitchell",
+      "Guo, Terry",
+      "Shah, Nigam",
+      "Langlotz, Curtis",
+      "Ng, Andrew",
+      "Shen, Jeanne"
+    ],
+    "abstract": "Multi-class tissue-type classification of colorectal cancer (CRC) histopathologic images is a significant step in the development of downstream machine learning models for diagnosis and treatment planning. However, publicly available CRC datasets used to build tissue classifiers often suffer from insufficient morphologic diversity, class imbalance, and low-quality image tiles, limiting downstream model performance and generalizability. To address this research gap, we introduce STARC-9 (STAnford coloRectal Cancer), a large-scale dataset for multi-class tissue classification. STARC-9 comprises 630,000 histopathologic image tiles uniformly sampled across nine clinically relevant tissue classes (each represented by 70,000 tiles), systematically extracted from hematoxylin & eosin-stained whole-slide images (WSI) from 200 CRC patients at the Stanford University School of Medicine. To construct STARC-9, we propose a novel framework, DeepCluster++, consisting of two primary steps to ensure diversity within each tissue class, followed by pathologist verification. First, an encoder from an autoencoder trained specifically on histopathologic images is used to extract feature vectors from all tiles within a given input WSI. Next, K-means clustering groups morphologically similar tiles, followed by an equal-frequency binning method to sample diverse patterns within each tissue class. Finally, the selected tiles are verified by expert gastrointestinal pathologists to ensure classification accuracy. This semi-automated approach significantly reduces the manual effort required for dataset curation while producing high-quality training examples. To validate the utility of STARC-9, we benchmarked baseline convolutional neural networks, transformers, and pathology-specific foundation models on downstream multi-class CRC tissue classification and segmentation tasks when trained on STARC-9 versus publicly available datasets, demonstrating superior generalizability of models trained on STARC-9. Although we demonstrate the utility of DeepCluster++ on CRC as a pilot use-case, it is a flexible framework that can be used for constructing high-quality datasets from large WSI repositories across a wide range of cancer and non-cancer applications.",
+    "doi": "10.52202/085713-5679",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f90cd97544e17dfd76af5c4f1b698a50-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f90cd97544e17dfd76af5c4f1b698a50-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f90cd97544e17dfd76af5c4f1b698a50-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f9ea03241672bac37ba9390449e96a98",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "datasets_and_benchmarks_track",
+    "title": "Improving Deep Learning for Accelerated MRI With Data Filtering",
+    "authors": [
+      "Lin, Kang",
+      "Krainovic, Anselm",
+      "Wang, Kun",
+      "Heckel, Reinhard"
+    ],
+    "abstract": "Deep neural networks achieve state-of-the-art results for accelerated MRI reconstruction. Most research on deep learning based imaging focuses on improving neural network architectures trained and evaluated on fixed and homogeneous training and evaluation data. In this work, we investigate data curation strategies for improving MRI reconstruction. We assemble a large dataset of raw k-space data from 18 public sources consisting of 1.1M images and construct a diverse evaluation set comprising 48 test sets, capturing variations in anatomy, contrast, number of coils, and other key factors. We propose and study different data filtering strategies to enhance performance of current state-of-the-art neural networks for accelerated MRI reconstruction. Our experiments show that filtering the training data leads to consistent, albeit modest, performance gains. These performance gains are robust across different training set sizes and accelerations, and we find that filtering is particularly beneficial when the proportion of in-distribution data in the unfiltered training set is low.",
+    "doi": "10.52202/085713-5696",
+    "pages": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f9ea03241672bac37ba9390449e96a98-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f9ea03241672bac37ba9390449e96a98-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "published": "2026-04-23",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f9ea03241672bac37ba9390449e96a98-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_137298d9e40c90a36a29616d82e0e5a5",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Learning to Move with Style: Few-Shot Cross-Modal Style Transfer for Creative Robot Motion Generation",
+    "authors": [
+      "Woodward, Kieran",
+      "Falcon-Caro, Alicia",
+      "Benford, Steve"
+    ],
+    "abstract": "As robots increasingly participate in creative and social contexts, the ability to generate creative, stylised movements becomes crucial for applications ranging from performance art to human-robot collaboration. We present a novel framework for cross-modal style transfer that enables robots to learn new movement styles by adapting existing human-robot dance collaborations using human movement videos. Our dual-stream architecture processes raw video frames and pose sequences through cross-modal attention mechanisms, capturing rhythm, acceleration patterns, and spatial coordination characteristics of different movement styles. The transformer-based style transfer network generates motion transformations through residual learning while preserving the trajectory of original dance movements, enabling few-shot adaptation using only 3-6 demonstration videos. We evaluate across ballet, jazz, flamenco, contemporary dance and martial arts, introducing a creativity parameter that provides control over the style-trajectory trade-off. Results demonstrate successful style differentiation with overall style transfer scores increasing 6.7x to 7.4x from minimum to maximum creativity settings, advancing human-robot creative collaboration by expanding robots' expressive vocabulary beyond their original choreographic context.",
+    "doi": null,
+    "pages": "16–27",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/137298d9e40c90a36a29616d82e0e5a5-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/137298d9e40c90a36a29616d82e0e5a5-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/137298d9e40c90a36a29616d82e0e5a5-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_3bd4e338b06d69dbc16b66be1a0cd4f8",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Possible You: AI-Generated Digital Twins as Creative Mirrors for Future Self Modeling",
+    "authors": [
+      "Pataranutaporn, Pat",
+      "Winson, Kavin",
+      "Yin, Peggy",
+      "Lapapirojn, Auttasak",
+      "Prasongpongchai, Thanawit",
+      "Lertsutthiwong, Monchai",
+      "Maes, Patricia",
+      "Hershfield, Hal"
+    ],
+    "abstract": "The human capacity to envision possible futures fundamentally shapes who we become. Yet for many, especially those without access to mentorship or resources, imagining vivid career futures remains abstract and distant. We present ``Possible You,'' a creative AI system that transforms career exploration into an intimate dialogue with one's future selves. Through personalized narratives and AI-generated portraits, the system makes abstract futures tangible and emotionally resonant. In our mixed-methods study (N=209), we discovered that the perceived authenticity of these AI-created futures influenced participants' sense of connection to their future selves. While viewing multiple possible selves expanded participants' sense of possibility, exploring a single future self fostered deeper commitment. This tension reveals a fundamental aspect of human future-making: we need both breadth to discover and depth to commit. Our work demonstrates how creative AI can serve not as predictor or prescriber of futures, but as a mirror that helps humans see and shape their own becoming—contributing to a more equitable landscape where all people can vividly imagine and pursue meaningful futures.",
+    "doi": null,
+    "pages": "113–122",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3bd4e338b06d69dbc16b66be1a0cd4f8-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3bd4e338b06d69dbc16b66be1a0cd4f8-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3bd4e338b06d69dbc16b66be1a0cd4f8-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_4dee9f370ea18236c3f4c17c3d8015cd",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Craving Checkpoint: An Interactive Fridge Lock for Mindful Eating",
+    "authors": [
+      "Yang, Xiaoman",
+      "Wang, Jinyue",
+      "Zhou, Zijie",
+      "Liu, Ziang"
+    ],
+    "abstract": "Traditional dietary interventions often rely on restriction, tracking, or delayed reflection, which can limit their ability to foster lasting change. We present Craving Checkpoint, a Large Language Object (LLO) in the form of an interactive fridge lock designed as a Just-In-Time Adaptive Intervention that supports mindful eating through embodied and emotionally expressive interaction. The system engages users at the moment of food access, prompting self-reflection through mood and hunger input and offering real-time feedback through an anthropomorphic voice and synesthetic lighting. A large language model personalizes suggestions based on user state and behavioral patterns, gently guiding healthier choices without enforcing control. By transforming food access into a shared ritual between human and machine, Craving Checkpoint explores how creative AI can support sustainable behavior change through timely, affective, and co-authored interventions.",
+    "doi": null,
+    "pages": "244–260",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4dee9f370ea18236c3f4c17c3d8015cd-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4dee9f370ea18236c3f4c17c3d8015cd-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4dee9f370ea18236c3f4c17c3d8015cd-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_51803731112cde21f6aaf207d0cd9e16",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "BioArtlas: Computational Clustering of Multi-Dimensional Complexity in Bioart",
+    "authors": [
+      "Bae, Joonhyung"
+    ],
+    "abstract": "Bioart's hybrid nature—spanning art, science, technology, ethics, and politics—defies traditional single-axis categorization. I present BioArtlas, analyzing 81 bioart works across thirteen curated dimensions using novel axis-aware representations that preserve semantic distinctions while enabling cross-dimensional comparison. Our codebook-based approach groups related concepts into unified clusters, addressing polysemy in cultural terminology. Comprehensive evaluation of up to 800 representation–space–algorithm combinations identifies Agglomerative clustering at k=15 on 4D UMAP as optimal (silhouette 0.664 ± 0.008, trustworthiness/continuity 0.805/0.812). The approach reveals four organizational patterns: artist-specific methodological cohesion, technique-based segmentation, temporal artistic evolution, and trans-temporal conceptual affinities. By separating analytical optimization from public communication, I provide rigorous analysis and accessible exploration through an interactive web interface (https://www.bioartlas.com) with the dataset publicly available (https://github.com/joonhyungbae/BioArtlas).",
+    "doi": null,
+    "pages": "280–287",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/51803731112cde21f6aaf207d0cd9e16-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/51803731112cde21f6aaf207d0cd9e16-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/51803731112cde21f6aaf207d0cd9e16-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_5e32b6c0640fc56f6d689a1ba155767e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Supporting Creative Ownership through Deep Learning-Based Music Variation",
+    "authors": [
+      "Krol, Stephen",
+      "Llano, Maria",
+      "McCormack, Jon"
+    ],
+    "abstract": "This paper investigates the importance of personal ownership in musical AI design, examining how practising musicians can maintain creative control over the compositional process. Through a four-week ecological evaluation, we examined how a music variation tool, reliant on the skill of musicians, functioned within a composition setting. Our findings demonstrate that the dependence of the tool on the musician's ability, to provide a strong initial musical input and to turn moments into complete musical ideas, promoted ownership of both the process and artefact. Qualitative interviews further revealed the importance of this personal ownership, highlighting tensions between technological capability and artistic identity. These findings provide insight into how musical AI can support rather than replace human creativity, highlighting the importance of designing tools that preserve the humanness of musical expression.",
+    "doi": null,
+    "pages": "357–364",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e32b6c0640fc56f6d689a1ba155767e-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5e32b6c0640fc56f6d689a1ba155767e-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e32b6c0640fc56f6d689a1ba155767e-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_615229550c97d1c4d006a4bf6b54590e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Writing in Symbiosis: Mapping Human Creative Agency in the AI Era",
+    "authors": [
+      "Doshi, Vivan",
+      "Li, Mengyuan"
+    ],
+    "abstract": "The proliferation of Large Language Models (LLMs) raises a critical question about what it means to be human when we share an increasingly symbiotic relationship with persuasive and creative machines. This paper examines patterns of human-AI coevolution in creative writing, investigating how human craft and agency are adapting alongside machine capabilities. We challenge the prevailing notion of stylistic homogenization by examining diverse patterns in longitudinal writing data. Using a large-scale corpus spanning the pre- and post-LLM era, we observe patterns suggestive of a \"Dual-Track Evolution\": thematic convergence around AI-related topics, coupled with structured stylistic differentiation. Our analysis reveals three emergent adaptation patterns: authors showing increased similarity to AI style, those exhibiting decreased similarity, and those maintaining stylistic stability while engaging with AI-related themes. This Creative Archetype Map illuminates how authorship is coevolving with AI, contributing to discussions about human-AI collaboration, detection challenges, and the preservation of creative diversity.",
+    "doi": null,
+    "pages": "365–381",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/615229550c97d1c4d006a4bf6b54590e-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/615229550c97d1c4d006a4bf6b54590e-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/615229550c97d1c4d006a4bf6b54590e-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_91ae44cea7a1a23e24941b83d55427d7",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Knolling Bot: Teaching Robots the Human Notion of Tidiness",
+    "authors": [
+      "Hu, Yuhang",
+      "Goldfeder, Judah",
+      "Zhang, Zhizhuo",
+      "Zhu, Xinyue",
+      "Liu, Ruibo",
+      "Wyder, Philippe",
+      "Lin, Jiong",
+      "Lipson, Hod"
+    ],
+    "abstract": "For robots to truly collaborate and assist humans, they must understand not only logic and instructions, but also the subtle emotions, aesthetics, and feelings that define our humanity. Human art and aesthetics are among the most elusive concepts—often difficult even for people to articulate—and without grasping these fundamentals, robots will be unable to help in many spheres of daily life. Consider the long-promised robotic butler: automating domestic chores demands more than motion planning; it requires an internal model of cleanliness and tidiness—a challenge largely unexplored by AI. To bridge this gap, we propose an approach that equips domestic robots to perform simple tidying tasks via knolling, the practice of arranging scattered items into neat, space-efficient layouts. Unlike the uniformity of industrial settings, household environments feature diverse objects and highly subjective notions of tidiness. Drawing inspiration from NLP, we treat knolling as a sequential prediction problem and employ a transformer-based model to forecast each object’s placement. Our method learns a generalizable concept of tidiness, generates diverse solutions adaptable to varying object sets, and incorporates human preferences for personalized arrangements. This work represents a step forward in building robots that internalize human aesthetic sense and can genuinely co-create in our living spaces.",
+    "doi": null,
+    "pages": "579–604",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/91ae44cea7a1a23e24941b83d55427d7-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/91ae44cea7a1a23e24941b83d55427d7-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/91ae44cea7a1a23e24941b83d55427d7-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_9c6f6aefb8aa4feb0567e2d163c3ac27",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Visualizing Our Changing Earth: A Creative AI Framework for Democratizing Environmental Storytelling Through Satellite Imagery",
+    "authors": [
+      "Yu, Zhenyu",
+      "IDRIS, MOHD",
+      "Wang, Pei "
+    ],
+    "abstract": "Understanding our changing planet is a profoundly human concern, yet satellite imagery—fragmented by clouds, gaps, and sensor failures—remains inaccessible to the very communities who need it for climate education, advocacy, and storytelling. Existing reconstruction methods optimize for pixels, not people. We introduce \\textbf{EarthCanvas}, a creative AI framework that reimagines satellite image reconstruction as a medium for democratized environmental storytelling. EarthCanvas integrates (1) \\textit{terrain-aware conditioning} to maintain geographic authenticity, (2) \\textit{natural language prompting} to empower non-experts to generate climate narratives, and (3) a \\textit{visual harmony module} that aligns synthetic and real imagery for coherent storytelling. Designed for educators, journalists, and community advocates, EarthCanvas enables human–AI co-creation of environmental narratives grounded in both scientific fidelity and cultural relevance. Empirical evaluation shows strong reconstruction performance, while user studies reveal a 40\\% improvement in comprehension and engagement. By shifting the focus from restoration to participation, EarthCanvas exemplifies how AI can support pluralistic, accessible, and human-centered approaches to environmental understanding.",
+    "doi": null,
+    "pages": "605–615",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9c6f6aefb8aa4feb0567e2d163c3ac27-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9c6f6aefb8aa4feb0567e2d163c3ac27-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9c6f6aefb8aa4feb0567e2d163c3ac27-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_9ff8d77c980a61f762a8026463267ecf",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Echoes of Humanity: Exploring the Perceived Humanness of AI Music",
+    "authors": [
+      "Figueiredo, Flavio",
+      "Martinelli, Giovanni",
+      "Sousa, Henrique ",
+      "Rodrigues, Pedro",
+      "Pedrosa, Frederico",
+      "Ferreira, Lucas"
+    ],
+    "abstract": "Recent advances in AI music (AIM) generation services are currently transforming the music industry. Given these advances, understanding how humans perceive AIM is crucial both to educate users on identifying AIM songs, and, conversely, to improve current models. We present results from a listener-focused experiment aimed at understanding how humans perceive AIM. In a blind, Turing-like test, participants were asked to distinguish, from a pair, the AIM and human-made song. We contrast with other studies by utilizing a randomized controlled crossover trial that controls for pairwise similarity and allows for a causal interpretation. We are also the first study to employ a novel, author-uncontrolled dataset of AIM songs from real-world usage of commercial models (i.e., Suno). We establish that listeners' reliability in distinguishing AIM causally increases when pairs are similar. Lastly, we conduct a mixed-methods content analysis of listeners’ free-form feedback, revealing a focus on vocal and technical cues in their judgments.",
+    "doi": null,
+    "pages": "647–661",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ff8d77c980a61f762a8026463267ecf-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9ff8d77c980a61f762a8026463267ecf-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9ff8d77c980a61f762a8026463267ecf-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_adc67a34eb47147e37229543df7b5b26",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Creative Synthesis of Kinematic Mechanisms",
+    "authors": [
+      "Lin, Jiong",
+      "Ning, Jialong",
+      "Goldfeder, Judah",
+      "Lipson, Hod"
+    ],
+    "abstract": "In this paper, we formulate the problem of kinematic synthesis for planar linkages as a cross-domain image generation task. We develop a planar linkages dataset using RGB image representations, covering a range of mechanisms: from simple types such as crank-rocker and crank-slider to more complex eight-bar linkages like Jansen’s mechanism. A shared-latent variational autoencoder (VAE) is employed to explore the potential of image generative models for synthesizing unseen motion curves and simulating novel kinematics. By encoding the drawing speed of trajectory points as color gradients, the same architecture also supports kinematic synthesis conditioned on both trajectory shape and velocity profiles. We validate our method on three datasets of increasing complexity: a standard four-bar linkage set, a mixed set of four-bar and crank-slider mechanisms, and a complex set including multi-loop mechanisms. Preliminary results demonstrate the effectiveness of image-based representations for generative mechanical design, showing that mechanisms with revolute and prismatic joints, and potentially cams and gears, can be represented and synthesized within a unified image generation framework.",
+    "doi": null,
+    "pages": "710–725",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/adc67a34eb47147e37229543df7b5b26-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/adc67a34eb47147e37229543df7b5b26-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/adc67a34eb47147e37229543df7b5b26-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_b503f1c395086eab9ce95050df7b75cc",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Human-AI Co-Development of a Geometric Algorithm for Infinite Shuriken Artwork Design Generation",
+    "authors": [
+      "Al Dajani, Saleem"
+    ],
+    "abstract": "We present a human–AI co-developed geometric algorithm for generating infinite origami shuriken assemblies using radial symmetry, affine transformations, and programmable crease patterns. By combining analytic theory, interactive design tools, and fabrication pipelines, we show how generative AI augments human creativity in digital and physical domains. Our contributions include (1) a framework for $ \\mathbb{Z}_n $-symmetric gadget assemblies, (2) a geometric algorithm compatible with fabrication, and (3) an interactive web application for real-time co-design. This work exemplifies how humans and machines can collaboratively explore large design spaces and reinterpret historical artifacts through creative computation.",
+    "doi": null,
+    "pages": "772–793",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b503f1c395086eab9ce95050df7b75cc-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b503f1c395086eab9ce95050df7b75cc-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b503f1c395086eab9ce95050df7b75cc-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_baa91fd056ba7d6061112b48c012063f",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Semantic Glitch: Agency and Artistry in an Autonomous Pixel Cloud",
+    "authors": [
+      "Zhang, Qing",
+      "HUANG, JING",
+      "Xu, Mingyang",
+      "Rekimoto, Jun"
+    ],
+    "abstract": "While mainstream robotics pursues metric precision and flawless performance, this paper explores the creative potential of a deliberately \"lo-fi\" approach. We present the \"Semantic Glitch,\" a soft flying robotic art installation whose physical form—a 3D pixel style cloud—is a \"physical glitch\" derived from digital archaeology. We detail a novel autonomous pipeline that rejects conventional sensors like LiDAR and SLAM, relying solely on the qualitative, semantic understanding of a Multimodal Large Language Model to navigate. By authoring a bio-inspired personality for the robot through a natural language prompt, we create a \"narrative mind\" that complements the \"weak,\" historically-loaded body. Our analysis begins with a 13-minute autonomous flight log, and a follow-up study statistically validates the framework's robustness for authoring quantifiably distinct personas. The combined analysis reveals emergent behaviors—from landmark-based navigation to a compelling \"plan-to-execution\" gap—and a character whose unpredictable, plausible behavior stems from a lack of precise proprioception. This demonstrates a lo-fi framework for creating imperfect companions whose success is measured in character over efficiency.",
+    "doi": null,
+    "pages": "829–843",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/baa91fd056ba7d6061112b48c012063f-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/baa91fd056ba7d6061112b48c012063f-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/baa91fd056ba7d6061112b48c012063f-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_d1e99f3594c49ed80014c5212b223b0e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "EMPATHIA: Multi-Faceted Human-AI Collaboration for Refugee Integration",
+    "authors": [
+      "Barhdadi, Mohamed Rayan",
+      "Tuncel, Mehmet",
+      "Serpedin, Erchin",
+      "Kurban, Hasan"
+    ],
+    "abstract": "Current AI approaches to refugee integration optimize narrow objectives such as employment and fail to capture the cultural, emotional, and ethical dimensions critical for long-term success. We introduce EMPATHIA (Enriched Multimodal Pathways for Agentic Thinking in Humanitarian Immigrant Assistance), a multi-agent framework addressing the central Creative AI question: how do we preserve human dignity when machines participate in life-altering decisions? Grounded in Kegan's Constructive Developmental Theory, EMPATHIA decomposes integration into three modules: SEED (Socio-cultural Entry and Embedding Decision) for initial placement, RISE (Rapid Integration and Self-sufficiency Engine) for early independence, and THRIVE (Transcultural Harmony and Resilience through Integrated Values and Engagement) for sustained outcomes. SEED employs a selector–validator architecture with three specialized agents—emotional, cultural, and ethical—that deliberate transparently to produce interpretable recommendations. Experiments on the UN Kakuma dataset (15,026 individuals, 7,960 eligible adults 15+ per ILO/UNHCR standards) and implementation on 6,359 working-age refugees (15+) with 150+ socioeconomic variables achieved 87.4% validation convergence and explainable assessments across five host countries. EMPATHIA's weighted integration of cultural, emotional, and ethical factors balances competing value systems while supporting practitioner–AI collaboration. By augmenting rather than replacing human expertise, EMPATHIA provides a generalizable framework for AI-driven allocation tasks where multiple values must be reconciled.",
+    "doi": null,
+    "pages": "961–979",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d1e99f3594c49ed80014c5212b223b0e-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d1e99f3594c49ed80014c5212b223b0e-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d1e99f3594c49ed80014c5212b223b0e-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_e7d712cef7adb2c0d3917b3b9c09cfcd",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "Text to Robotic Assembly of Multi Component Objects using 3D Generative AI and Vision Language Models",
+    "authors": [
+      "Kyaw, Alexander Htet",
+      "Gupta, Richa",
+      "Sinha, Anoop",
+      "Shah, Dhruv",
+      "Mathewson, Kory",
+      "Pender, Stefanie",
+      "Chitta, Sachin",
+      "koga, Yotto",
+      "Ahmed, Faez",
+      "Sass, Lawrence",
+      "Davis, Randall"
+    ],
+    "abstract": "Advances in 3D generative AI have enabled the creation of physical objects from text prompts, but challenges remain in creating objects involving multiple component types. We present a pipeline that integrates 3D generative AI with vision-language models (VLMs) to enable the robotic assembly of multi-component objects from natural language. Our method leverages VLMs for zero-shot, multi-modal reasoning about geometry and functionality to decompose AI-generated meshes into multi-component 3D models using predefined structural and panel components. We demonstrate that a VLM is capable of determining which mesh regions need panel components in addition to structural components based on object functionality. Evaluation across test objects shows that users preferred the VLM-generated assignments 90.6\\% of the time, compared to 59.4\\% for rule-based and 2.5\\% for random assignment. Lastly, the system allows users to refine component assignments through conversational feedback, enabling greater human control and agency in making physical objects with generative AI and robotics.",
+    "doi": null,
+    "pages": "1064–1080",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e7d712cef7adb2c0d3917b3b9c09cfcd-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e7d712cef7adb2c0d3917b3b9c09cfcd-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e7d712cef7adb2c0d3917b3b9c09cfcd-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
+  },
+  {
+    "id": "proceedings_f57ace8683d1262c7cb5141234a86d41",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "creative_ai",
+    "title": "AI is Misled by GenAI: Stylistic Bias in Automated Assessment of Creativity in Large Language Models",
+    "authors": [
+      "Urban, Marek",
+      "Kmoníčková, Petra",
+      "Urban, Kamila"
+    ],
+    "abstract": "Outputs from large language models (LLMs) are often rated as highly original yet show low variability (or greater homogeneity) compared to human responses, a pattern we refer to as the *LLM creativity paradox*. Yet, prior work suggests that assessments of originality and variability may reflect stylistic features of LLM outputs rather than underlying conceptual novelty. The goal of the present study was to investigate this issue using outputs from seven distinct LLMs on a modified Alternative Uses Task. We scored verbatim and \"humanized\" LLM responses—reworded to reduce verbosity but maintain core ideas—using four automated metrics (supervised OCSAI and CLAUS models, and two unsupervised semantic-distance tools) and compared them with responses from 30 human participants. As expected, verbatim LLM responses were rated as substantially more original than human responses (median $d = 1.46$) but showed markedly lower variability (median $d = 0.85$). Humanizing the responses strongly decreased originality and weakly increased variability, indicating that part of the LLM creativity paradox is driven by stylistic cues. Nevertheless, even after humanization, originality scores of LLM responses remained higher (median $d = 0.80$) and their variability lower ($d = 0.57$) than those of human responses. These findings suggest that automated assessment tools can be partially misled by the style of LLM outputs, highlighting the need for caution when using automated methods to evaluate machine-generated ideas, particularly in real-world applications such as providing feedback or guiding creative workflows.",
+    "doi": null,
+    "pages": "1089–1099",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f57ace8683d1262c7cb5141234a86d41-Abstract-Creative_AI_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f57ace8683d1262c7cb5141234a86d41-Paper-Creative_AI_Track.pdf",
+    "published": "2026-08-14",
+    "volume": "38",
+    "source": "neurips_official_proceedings",
+    "formal_conference_year": 2025,
+    "catalogue_supplement": {
+      "owner": "李雪婷",
+      "checked_at": "2026-11-19T07:57:36.987623+00:00",
+      "reason": "formal2025_proceedings_track_absent_from_original_main_only_collection",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f57ace8683d1262c7cb5141234a86d41-Abstract-Creative_AI_Track.html"
+      ],
+      "original_abstract_provenance": "Publisher original Abstract; copied verbatim; no generated abstract"
+    }
   }
 ]

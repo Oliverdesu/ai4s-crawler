@@ -11,11 +11,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选全部结案；全正式5887目录对账、601缺采原记录恢复完成。另已核159条分轨漏筛纳入，现510候选均已审且有原摘要。Main全目录召回和其他分轨53条题名线索仍待科学核验，不声明整源完成。",
-    "candidate_total": 510,
+    "coverage_note": "初始351候选全部结案；5887条全正式目录对账与601条缺采原记录恢复完成。另核196条其他分轨漏筛纳入；现547候选均已审且有原摘要。其他分轨601题名召回及所选摘要/必要正文核验完成，Creative64全部核查原摘要；Main5286全目录科学召回仍待完成。",
+    "candidate_total": 547,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 459,
+      "include": 496,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -23,20 +23,19 @@
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "Main5286全目录科学召回尚未完成。",
-      "53条其他分轨题名线索尚待摘要及必要正文核验。"
+      "Main5286全目录科学召回尚未完成。"
     ],
     "next_actions": [
-      "继续完整Main目录召回和其他分轨科学核验；仅确认AI科研贡献后升级漏筛候选。"
+      "继续Main完整目录科学召回，核查疑似漏筛摘要及必要正文；只补入已核实AI科研作用的记录。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T08:15:53.036042+00:00",
-    "candidate_count": 510,
-    "own_review_count": 510,
+    "checked_at": "2026-11-19T08:28:25.983566+00:00",
+    "candidate_count": 547,
+    "own_review_count": 547,
     "own_review_counts": {
-      "include": 459,
+      "include": 496,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -98139,10 +98138,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T08:15:53.036042+00:00",
+      "checked_at": "2026-11-19T08:28:25.983566+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 510,
-      "candidate_ids_sha256": "1ea3e27466b0278ed8a18e62b74b4d2135ccc8bc8e2626391acc1df3a4c6d711",
+      "candidate_count": 547,
+      "candidate_ids_sha256": "31abbadb1a7484371b82f9c45cae8fb3c3d47aca88f66009c35f12ef25989e7a",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
@@ -101885,61 +101884,7 @@
       "location": "出版社原摘要"
     }
   ],
-  "extra_title_recall_pending_indices": [
-    458,
-    460,
-    462,
-    469,
-    471,
-    473,
-    477,
-    479,
-    481,
-    483,
-    485,
-    489,
-    493,
-    495,
-    496,
-    499,
-    500,
-    502,
-    507,
-    510,
-    514,
-    515,
-    516,
-    518,
-    522,
-    523,
-    526,
-    527,
-    530,
-    538,
-    539,
-    540,
-    543,
-    544,
-    548,
-    551,
-    553,
-    559,
-    564,
-    565,
-    570,
-    571,
-    573,
-    578,
-    579,
-    583,
-    584,
-    587,
-    591,
-    592,
-    595,
-    597,
-    598
-  ],
+  "extra_title_recall_pending_indices": [],
   "extra_nonpromoted_boundary_checks": [
     {
       "index": 12,
@@ -102210,6 +102155,458 @@
       "decision": "not_promoted",
       "evidence_location": "出版社原摘要",
       "rationale": "一般建筑场景3D布局重建与分割视觉基准，未显示结构、设备或建筑性能等具体工程研究任务。"
+    },
+    {
+      "index": 458,
+      "decision": "not_promoted",
+      "title": "MMOT: The First Challenging Benchmark for Drone-based Multispectral Multi-Object Tracking",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d6658d9519987df7b03bb2190863f7ce-Abstract-Datasets_and_Benchmarks_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "多光谱无人机一般多目标跟踪基准，现有证据未建立超出通用视觉任务的具体科研或专用工程研究对象。"
+    },
+    {
+      "index": 460,
+      "decision": "not_promoted",
+      "title": "Embracing Trustworthy Brain-Agent Collaboration as Paradigm Extension for Intelligent Assistive Technologies",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d711287dd632d0d83ab8f0bee25eab30-Abstract-Position_Paper_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "提出Brain-Agent范式及伦理建议，未呈现原创科学实验或实质既有研究综述。"
+    },
+    {
+      "index": 471,
+      "decision": "not_promoted",
+      "title": "WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/da6974a1463fdec8fa19c78d72a7a2f7-Abstract-Datasets_and_Benchmarks_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "日常穿戴助手的常识视觉问答，未建立具体科学研究任务。"
+    },
+    {
+      "index": 481,
+      "decision": "not_promoted",
+      "title": "A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/de02de513503962e1d21035ab50ce661-Abstract-Datasets_and_Benchmarks_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "无人机通用异常定位与解释，未指明具体科学对象或专用工程研究问题。"
+    },
+    {
+      "index": 495,
+      "decision": "not_promoted",
+      "title": "ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e555eab2c68f886052f404397ea52001-Abstract-Datasets_and_Benchmarks_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "AtCoder通用启发式编程竞赛，科学工程仅为应用说明，未实际研究特定科学数值求解。"
+    },
+    {
+      "index": 514,
+      "decision": "not_promoted",
+      "title": "Linguini: A benchmark for language-agnostic linguistic reasoning",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f068f0142a1a35f6a0c2da0dd6d73c8d-Abstract-Datasets_and_Benchmarks_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "LLM语言谜题推理，未研究具体语言学现象或机制。"
+    },
+    {
+      "index": 518,
+      "decision": "not_promoted",
+      "title": "Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f37b0e09b90e9a6833aacf5768362b54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "投资交易与基金利润管理评测，未建立金融市场机制等社会科学研究任务。"
+    },
+    {
+      "index": 537,
+      "decision": "not_promoted",
+      "title": "Gaze to the Stars: AI and Public Art from Personal Affect and Collective Empathy",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/04440b43c10100305d21cdeb60262e98-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "虹膜与情感聚类艺术装置及观众体验展示，未建立可核实的心理机制等科学研究任务。"
+    },
+    {
+      "index": 538,
+      "decision": "not_promoted",
+      "title": "Artificial \"Authentic\" Intelligence: Can AI Systems Embody and Evolve Cultural Heritage? A Case Study of \"Cyber Subin\" and Thai Traditional Dance",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1350a018b6442df34ef97648647a3e16-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要及公开正文",
+      "rationale": "正文§2–4主要为人工提炼舞蹈原则的参数化操作、演出观察和文化传承设计原则；未确立实质AI推断或学习参与可验证科研任务。不是因非神经网络而排除；原摘要与更新正文题名不同，保留两版本原字段。",
+      "pdf_sha256": "43f0d70f7c9338d22de8c0b1d7b9b8f100a86b0405d6dec8c280b3c83196a2a7",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1350a018b6442df34ef97648647a3e16-Paper-Creative_AI_Track.pdf"
+    },
+    {
+      "index": 540,
+      "decision": "not_promoted",
+      "title": "MCP-Driven Parametric Modeling: Integrating LLM Agents into Architectural and Landscape Design Workflows",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/245a7772c1c6725c1e439d7f789b48c2-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "Grasshopper/MCP建筑设计交互工具及工作坊，未建立具体建筑工程性能或科学研究问题。"
+    },
+    {
+      "index": 541,
+      "decision": "not_promoted",
+      "title": "Roulettective: Repurposing a Vintage Slide Projector into an AI-Driven Physical Detective Game",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2491a3e3d3762e82f0d9bfd10b4aa8be-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "侦探投影艺术游戏，未建立外部科研任务。"
+    },
+    {
+      "index": 542,
+      "decision": "not_promoted",
+      "title": "Go witheFlow: Real-time Emotion Driven Audio Effects Modulation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2749a7947a64433eba96f368206ab8ab-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "表演者生理信号调制音乐效果的艺术原型，未开展生理机制等科学研究。"
+    },
+    {
+      "index": 543,
+      "decision": "not_promoted",
+      "title": "Green Topics, Deep Roots: Energy-Aware Topic Modelling of Multilingual Nigerian Lyrics",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3503be50156ebf28a1fa4ebea4113dd4-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "歌词主题模型主要比较模型一致性与能耗，未实际报告文化主题或社会现象研究发现。"
+    },
+    {
+      "index": 545,
+      "decision": "not_promoted",
+      "title": "Artism: AI-Driven Dual-Engine System for Art Generation and Critique",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3d2c2f19aa4ca9493813f13aa044f926-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "艺术生成评论系统，艺术史方法的潜在应用尚未建立已实施科研任务。"
+    },
+    {
+      "index": 546,
+      "decision": "not_promoted",
+      "title": "CoTextor: Training-Free Modular Multilingual Text Editing via Layered Disentanglement and Depth-Aware Fusion",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3ff6d26192f2c4cb6c61f51c9ceaa18f-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "通用图文编辑交互方法，未建立具体科研任务。"
+    },
+    {
+      "index": 547,
+      "decision": "not_promoted",
+      "title": "SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4051771acaf5ba90abe0539e1dc2821e-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "通用扩散图像编辑与偏好/质量评测，未建立外部科学研究任务。"
+    },
+    {
+      "index": 548,
+      "decision": "not_promoted",
+      "title": "Between Reality and AI Hallucinations: Reimagining the Sacred Soundscape of Ming Rituals",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/43a1df2fbca5618436dc77f2031f6416-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "明代仪式声景的幻觉艺术装置，不声称严格历史重建，也未实际验证历史科学问题。"
+    },
+    {
+      "index": 549,
+      "decision": "not_promoted",
+      "title": "Prompt-Character Divergence: A Responsibility Compass for Human-AI Creative Collaboration",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/474a1cf382031a7d5f69cf06ed23bf01-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "角色偏离与版权相关生成模型自评指标，未建立具体外部科学研究任务。"
+    },
+    {
+      "index": 550,
+      "decision": "not_promoted",
+      "title": "Music Arena: Live Evaluation for Text-to-Music",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4962124728954e41e3cfe990b3a307f4-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "音乐生成偏好排行榜，评价生成模型作品质量，未研究人类感知机制等科学问题。"
+    },
+    {
+      "index": 552,
+      "decision": "not_promoted",
+      "title": "Musings on AI Muses: Support for Human Creativity",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4fa42b8e14eeb7ae2d827a78e2cf37d6-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "以三个案例讨论缪斯与AI角色的概念性论述，未建立原创科学研究或实质学术综述。"
+    },
+    {
+      "index": 554,
+      "decision": "not_promoted",
+      "title": "ArtPeer: Artistic Alignment via Reflection-based Prompt Evolution with Simulated Artist",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/51e0f4062ab88b776fd0462381149bd3-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "反思提示与艺术生成对齐，主要为作品质量和交互设计，无具体外部科研任务。"
+    },
+    {
+      "index": 555,
+      "decision": "not_promoted",
+      "title": "Large-Scale Training Data Attribution for Music Generative Models via Unlearning",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5392d643eccfce4025f6dd567af05a16-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "音乐模型遗忘与训练数据归因，主要为通用AI模型机制或伦理，未建立外部科学任务。"
+    },
+    {
+      "index": 556,
+      "decision": "not_promoted",
+      "title": "\"Artificial Spectator\" Developing AI Audiences for Watching AI-Generated Films: A Speculative Exploration on the Future of Media and AI",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/57fd8c11123a66899dbb625c7318e986-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "合成观众与艺术观看的推测性实践，未建立可核实的社会科学实证研究。"
+    },
+    {
+      "index": 557,
+      "decision": "not_promoted",
+      "title": "A(I)nimism: Re-enchanting the World Through AI-Mediated Object Interaction",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5b5e910744ca0e2471af69bf25b2ae6c-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "物体拟人化艺术装置概念，未建立科学研究任务。"
+    },
+    {
+      "index": 560,
+      "decision": "not_promoted",
+      "title": "Orchestrating Emergent Storytelling with Embodied Multi-Agent Systems",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/699cd30e07eb38444f8aa235bdc1de89-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "游戏叙事智能体与故事涌现，未验证真实社会机制。"
+    },
+    {
+      "index": 561,
+      "decision": "not_promoted",
+      "title": "Live Music Models",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6a2b9382fa7c131ed57aa7e6b2587e5e-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "通用音乐生成模型，未建立外部科研任务。"
+    },
+    {
+      "index": 562,
+      "decision": "not_promoted",
+      "title": "EmoNest: Crafting Emotionally-Adaptive Experiences with Generative AI",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6f4ffd47b29b0f1226e112f540f81008-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "情绪叙事艺术演示，未报告实际心理或行为研究。"
+    },
+    {
+      "index": 563,
+      "decision": "not_promoted",
+      "title": "TinyTim: a family of language models for divergent generation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7bb16375f9d6dedde526511a6ca6ad4e-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "多样化语言创作模型与词汇指标，创意突破仅应用愿景，未建立科学任务。"
+    },
+    {
+      "index": 564,
+      "decision": "not_promoted",
+      "title": "Evaluating In Silico Creativity: An Expert Review of AI Chess Compositions",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c9d96b1b0a820cd1c9987fb0f5a4c1c-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "国际象棋艺术谜题的专家偏好选编，未建立原创科学研究或实质综述。"
+    },
+    {
+      "index": 565,
+      "decision": "not_promoted",
+      "title": "From Movement Memories to Robotic Dialogue: A Language-Mediated Pipeline for Somatic Machine Translation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/87fc2e7defe37cbfc803f06d2bcd922e-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "IMU到LLM到机器人雕塑的记忆艺术管线，未实际验证生物力学或治疗等科学问题。"
+    },
+    {
+      "index": 566,
+      "decision": "not_promoted",
+      "title": "8bit-GPT: Exploring Human-AI Interaction on Obsolete Macintosh Operating Systems",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/899189eec57051b14ddac9fb839c799c-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "传统Mac/GPT交互的反思性设计，未实际开展人类心理行为研究。"
+    },
+    {
+      "index": 567,
+      "decision": "not_promoted",
+      "title": "MCP2OSC: Parametric Control by Natural Language",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8a70a1b21bd31d2a68c87aed4f901036-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "MCP到OSC的通用消息和软件接口，未建立具体物理控制工程研究。"
+    },
+    {
+      "index": 568,
+      "decision": "not_promoted",
+      "title": "The Stochastic Parrot: a physical AI Cohabitant",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8eff16dbfaa68e04ef464438b65884f6-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "机器人鹦鹉同居艺术设计反思，未建立正式人类行为科学研究。"
+    },
+    {
+      "index": 569,
+      "decision": "not_promoted",
+      "title": "CraftGraffiti: Exploring Human Identity with Custom Graffiti Art via Facial-Preserving Diffusion Models",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/919c7c8884daf4268bfe108c31d19784-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "涂鸦风格迁移及面部一致性，主要为图像生成质量，未建立外部科研任务。"
+    },
+    {
+      "index": 572,
+      "decision": "not_promoted",
+      "title": "Plan Before You Write: Improve LLM writing by planning",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9cd4b3c9f2f1bb0208d36ca986f6f4f9-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "LLM创作计划和文学输出质量评测，未建立具体外部科研任务。"
+    },
+    {
+      "index": 574,
+      "decision": "not_promoted",
+      "title": "Panel-by-Panel Souls: A Performative Workflow for Expressive Faces in AI-Assisted Manga Creation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a3386597cce5ce1b2fe0f5c5c5a531db-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "漫画面部编辑工作流，未建立具体科研任务。"
+    },
+    {
+      "index": 575,
+      "decision": "not_promoted",
+      "title": "Real-Time Intuitive AI Drawing System for Collaboration: Enhancing Human Creativity through Formal and Contextual Intent Integration",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a437837e45f570ffb4ca39b8ec71c028-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "协同绘画生成界面，未建立实际科学研究任务。"
+    },
+    {
+      "index": 576,
+      "decision": "not_promoted",
+      "title": "‘Studies for’ : A Human-AI Co-Creative Sound Artwork Using a Real-time Multi-channel Sound Generation Model",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a47299c1da5ab2998e7a143d0f77a292-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "声音装置及AI艺术档案框架，未建立科学实验或实质学术综述。"
+    },
+    {
+      "index": 577,
+      "decision": "not_promoted",
+      "title": "An Inference Zoo for Real-Time Media Arts: Avendish as a Bridge Between AI and Creative Environments",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a617e1ea2ff32758595d4f01142a7d67-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "C++推理包装工具，通用软件效率改进不构成具体外部科研任务。"
+    },
+    {
+      "index": 578,
+      "decision": "not_promoted",
+      "title": "Assembloid Agency: Unreal Engine API for brain-on-a-chip platforms",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a8ff6fc513c567311782c91e837b5ab9-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "脑芯片的API及未来模板设想，未报告实际AI参与类器官科学实验。"
+    },
+    {
+      "index": 580,
+      "decision": "not_promoted",
+      "title": "Stroke Patches: Customizable Artistic Image Styling Using Regression",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/afcb54794b58913b166518f91b094305-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "艺术图像风格化U-Net，未建立外部科研任务。"
+    },
+    {
+      "index": 581,
+      "decision": "not_promoted",
+      "title": "Interactive Artistic Text-To-Voice: Tungnaá and Bla Blavatar vs Jaap Blonk",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b017db8ecfe8c0b3be8e292c2cb95896-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "艺术语音及音乐表演生成，未建立科学研究任务。"
+    },
+    {
+      "index": 582,
+      "decision": "not_promoted",
+      "title": "Brushes in Motion:  Vector Guided Strokes for Computational Painting",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b03ef7ab813a01150740ac80e6c7e8a6-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "绘画动画创作算法，未实际研究艺术史或认知科学问题。"
+    },
+    {
+      "index": 584,
+      "decision": "not_promoted",
+      "title": "The Anemoia Device: A Tangible AI System for the Co-creation of Synthetic Memories through Scent",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b6525d77bb5b4929f6af11a6d53c4f59-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要及公开正文",
+      "rationale": "公开正文§5.2明确无正式用户研究，嗅觉映射为人工香气描述引导的艺术原型，未验证嗅觉化学或心理效应，不能按未来实验计划纳入。",
+      "pdf_sha256": "6d06df1e85e45e20057b08ab0594a02ff169f396d0bf648e89141126424a56ca",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b6525d77bb5b4929f6af11a6d53c4f59-Paper-Creative_AI_Track.pdf"
+    },
+    {
+      "index": 585,
+      "decision": "not_promoted",
+      "title": "MambaKit: Towards Modular Intelligence - Cognitive Scaffolding in Next-Generation Drum Synthesis",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b66a278b71f56c5eb763240fc02057cb-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "音乐模型质量及计算效率，未建立外部科研任务。"
+    },
+    {
+      "index": 587,
+      "decision": "not_promoted",
+      "title": "Scene-Aware Urban Design: A Human–AI Recommendation Framework Using Co-Occurrence Embeddings and Vision-Language Models",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/bf24636574309c92f5ea2b0c55e8c23a-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "城市物件推荐及美学布局设计，未实际验证城市环境或工程性能问题。"
+    },
+    {
+      "index": 588,
+      "decision": "not_promoted",
+      "title": "Opt-In Art: Learning Art Styles Only from Few Examples",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/c4ef539fc537ad019d514341328426db-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "少样本艺术风格模型质量，未建立外部科研任务。"
+    },
+    {
+      "index": 589,
+      "decision": "not_promoted",
+      "title": "Encoding Values: Injecting Morality into Machines via Prompt-Conditioned Moral Frames",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/c8adc62d2e6cede16ed806f58a6cfc16-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "道德提示引导的AI对齐及模型指标，未研究真实人类社会结果。"
+    },
+    {
+      "index": 590,
+      "decision": "not_promoted",
+      "title": "Cultural Alien Sampler: Open-ended Art Generation Balancing Originality and Coherence",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ce57a4b9274d44d7692e715ed1876ded-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "文化外星人生成作品的用户质量评分，未建立独立人类心理机制研究。"
+    },
+    {
+      "index": 592,
+      "decision": "not_promoted",
+      "title": "Exploring Human-AI Conceptual Alignment through the Prism of Chess",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d6e065b44db9a0097aac6278258366e0-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "国际象棋LLM内部概念机制解释，未实际研究人类大脑或认知科学机制。"
+    },
+    {
+      "index": 593,
+      "decision": "not_promoted",
+      "title": "ProGress: Structured Music Generation via Graph Diffusion and Hierarchical Music Analysis",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d9dbd63fac1856eb10d14e22d6898205-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "申克分析启发的音乐生成与作品质量，未建立实际音乐学或人类感知科学研究。"
+    },
+    {
+      "index": 594,
+      "decision": "not_promoted",
+      "title": "LUMIA: A Handheld Vision-to-Music System for Real-Time, Embodied Composition",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ddf6cdb31fbd9b23613e0c59aa339cea-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "手持视觉转音乐的艺术设备，未建立具体科研任务。"
+    },
+    {
+      "index": 595,
+      "decision": "not_promoted",
+      "title": "Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e37ba633f46635915994bd99db474305-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "海洋诗歌RAG艺术互动，未实际开展海洋分析或科学理解实验。"
+    },
+    {
+      "index": 596,
+      "decision": "not_promoted",
+      "title": "The Ghost in the Keys: A Disklavier Demo for Human-AI Musical Co-Creativity",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e5aa52f25f237df8df9391eedede6a44-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "钢琴二重奏生成与作品展示，未建立科学研究任务。"
+    },
+    {
+      "index": 598,
+      "decision": "not_promoted",
+      "title": "Human-Machine Ritual: Synergic Performance through Real-Time Motion Recognition",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f138d73d65afef8f9229d4ff2ff14ffc-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "舞者IMU分类映射声音的艺术表演系统，未建立实际生物力学或其他专用科研任务。"
+    },
+    {
+      "index": 600,
+      "decision": "not_promoted",
+      "title": "AI as intermediary in modern-day ritual: An immersive, interactive production of the roller disco musical Xanadu at UCLA",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/fddf15bf1e988d1e2e86a24afe8e9052-Abstract-Creative_AI_Track.html",
+      "evidence_location": "出版社原摘要",
+      "rationale": "大型观众参与的仪式艺术及设计反思，未建立正式科学实证研究。"
     }
   ],
   "extra_scientific_batches": [
@@ -103899,6 +104296,422 @@
           "location": "出版社原摘要"
         }
       ]
+    },
+    {
+      "batch_id": "extra-eighth-plans",
+      "checked_at": "2026-11-19T08:28:25.983566+00:00",
+      "plans": [
+        {
+          "index": 462,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "以真实驾驶多视角时序数据和专家标注评测3D交通场景及动态关系理解，VLM实际用于自动驾驶场景感知研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 469,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "建立全球梯田地块及边缘标注，并实际比较遥感分割基线，AI直接支持农业地理地块识别研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 473,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "对东亚1至6个月季节预测建立统一数据与评测，实际比较学习式预测和后处理，AI直接参与气候季节预测。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 477,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "无监督学习",
+            "基准评测"
+          ],
+          "rationale": "对运动单位肌电源分离建立仿真与分解框架，实际包含深度自编码器、FastICA及SCD等分解基线，AI直接用于肌电运动单位放电识别；不是仅提出未来深度学习展望。",
+          "location": "出版社原摘要；公开正文Decomposition routines及实验基线",
+          "pdf_evidence": true
+        },
+        {
+          "index": 479,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "生成建模",
+            "基准评测"
+          ],
+          "rationale": "以NASA火星立体观测建立米制3D世界模型及MarsGen地形生成，检验几何一致性并支持行星任务场景排练，AI实际参与火星地形建模。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 483,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "以全球地震波场和地下结构提供全波形反演数据及物理学习基线，AI直接支持地球内部结构反演。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 485,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "构建专家化学思维链并在分子性质优化、反应预测等实际化学任务训练评测模型，AI直接参与分子化学求解。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 489,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "从109位患者动脉瘤建立生成几何与CFD血流数据，实际用PointNet和GraphUNet预测壁面切应力，AI直接支持动脉瘤血流动力学研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 493,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "在16个数字病理数据集系统比较23个基础模型的组织图块分类与鲁棒性，AI直接服务病理影像研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 496,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "机器学习",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "以19个EDA/PPG生理信号数据集比较16类情绪识别模型，研究生理情感信号建模及跨数据泛化。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 499,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "针对半导体光刻物理仿真、掩膜修正及工艺任务建立统一环境并评测预训练模型，AI直接支持芯片光刻工程计算。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 500,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "对作物健康、土壤及农业环境遥感任务比较24个VLM，实际评测农业遥感分析能力。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 502,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "强化学习",
+            "基准评测"
+          ],
+          "rationale": "基于Frontier超算液冷系统数字孪生，实际研究强化学习控制流量、温度和阀门以优化冷却，AI直接参与热管理工程控制。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 507,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "以五类物理学领域的具体问题训练评测模型，AI直接参与物理学求解及推理研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 510,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "建立多灾种SAR和光学灾损数据，比较14个VLM及4个微调模型，AI直接支持灾害影响遥感评估。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 515,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "跨美国48州建立个体树木死亡标注及深度分割模型，AI实际支持森林死亡和生态监测研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 516,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "针对翼型CFD代理模型竞赛实测不同学习方法的精度和泛化，并与OpenFOAM计算比较；不将竞赛结果夸大为全面替代物理求解器。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 522,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "以35位用户、26类环境的真实WiFi信号评测跌倒与呼吸监测等专用感知模型，AI实际支持健康相关非接触监测研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 523,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "对CT三维和纵向影像诊断任务建立VLM数据及微调评测，AI直接参与医学影像诊断研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 526,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "在Kuramoto–Sivashinsky和Lorenz非线性动力系统上实施统一学习预测评测，AI直接支持动力系统建模；不将未来海温竞赛计划写为完成结果。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 527,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "聚类",
+            "基准评测"
+          ],
+          "rationale": "对结直肠癌病理图像实施DeepCluster++、自编码器/K均值与专家核验，并比较CNN/Transformer分类，AI实际参与肿瘤组织识别研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 530,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "提供多解剖部位及多对比度MRI原始k空间数据与过滤方法，实际训练评测深度重建模型，AI直接支持磁共振成像研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 539,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "Transformer 架构",
+            "小样本学习"
+          ],
+          "rationale": "通过双流Transformer与跨模态注意力，以3至6段人体演示学习机器人运动风格转换并保持轨迹，实际量化五类动作的风格与轨迹权衡；不推断未报告的硬件部署。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 544,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "生成建模"
+          ],
+          "rationale": "以209人的混合方法研究考察AI生成未来自我叙事和肖像对心理连接及探索与承诺的影响，AI生成内容是实际人类心理行为研究干预。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 551,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "大语言模型"
+          ],
+          "rationale": "以LLM根据个人情境生成冰箱交互干预，正文报告三位参与者各一天的试点与定性反馈，研究习惯中断及自我反思；仅为小规模探索，不视为长期健康疗效证明。",
+          "location": "出版社原摘要；公开正文§4试点参与者与观察",
+          "pdf_evidence": true
+        },
+        {
+          "index": 553,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "聚类"
+          ],
+          "rationale": "对81件生物艺术作品的13维描述进行凝聚聚类及低维映射，实际分析艺术家、技术和时间演变的文化模式，AI方法用于艺术文化研究；研究对象不因bioart名称归为生物医学。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 558,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "深度学习"
+          ],
+          "rationale": "对深度音乐变奏工具进行四周生态评估及定性访谈，研究音乐创作者对作品所有权和身份的体验，AI参与实际人类创作行为研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 559,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "大语言模型",
+            "聚类"
+          ],
+          "rationale": "以Llama3-8B困惑度差与HDBSCAN分析LLM普及前后人类文本的风格及主题变化，AI用于纵向写作行为观察研究；AI-like指标不证明个人使用AI，观察变化也不等同因果效应。",
+          "location": "出版社原摘要；公开正文模型、困惑度指标及聚类分析",
+          "pdf_evidence": true
+        },
+        {
+          "index": 570,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "Transformer 架构"
+          ],
+          "rationale": "以Transformer预测实体物件的整齐且节省空间的摆放布局，量化不同物体组合及人类偏好的布局表现，AI实际用于机器人家居物体布置工程研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 571,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "扩散模型",
+            "微调"
+          ],
+          "rationale": "以LoRA扩散、DEM地形条件和VGG适配器重建云遮及缺损遥感影像，正文§4报告10区域数据及重建指标，AI实际参与地表观测影像补全；不将合成影像作为已证明真实的气候物理变量。",
+          "location": "出版社原摘要；公开正文§3方法、§4实验及局限",
+          "pdf_evidence": true
+        },
+        {
+          "index": 573,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "生成建模"
+          ],
+          "rationale": "开展随机交叉聆听实验及内容分析，研究刺激配对相似性对人类识别AI音乐的影响，生成模型用于真实音乐感知行为实验。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 579,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "生成建模"
+          ],
+          "rationale": "以共享潜在VAE结合机构图像、轨迹与速度条件生成平面连杆机构，并在四杆、曲柄滑块和多环结构验证，AI直接支持机构运动学设计。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 583,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型"
+          ],
+          "rationale": "正文§2.1明确LLM协助形式化变量、旋转矩阵与对称算子的推导，得到Z_n对称折纸组件的参数化几何算法并以实体制造核验，AI实际参与几何建模推导，而非仅搭建展示网页。",
+          "location": "出版社原摘要；公开正文§2.1 Human-AI Theory Co-Formulation及§3算法/制造结果",
+          "pdf_evidence": true
+        },
+        {
+          "index": 586,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型"
+          ],
+          "rationale": "以多模态LLM进行软体飞行机器人的语义导航，实际报告13分钟自主运行及不同角色行为差异，AI参与实体机器人闭环导航研究；不额外推断精密SLAM或导航效率优势。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 591,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "大语言模型",
+            "微调",
+            "科学智能体"
+          ],
+          "rationale": "正文以针对人道安置微调的LLaMA-3情感/文化/伦理智能体，对Kakuma真实数据中6359位劳动年龄难民开展安置评估实验，AI实际参与社会政策情境研究；87.4%为选择器/验证器一致率，不是真实移民融入成功率。",
+          "location": "出版社原摘要；公开正文§3智能体实现、§4实验及表1",
+          "pdf_evidence": true
+        },
+        {
+          "index": 597,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "生成建模"
+          ],
+          "rationale": "以VLM将生成网格按功能拆分并分配结构件/面板，实际比较组件分配与用户偏好，AI用于机器人装配设计任务；不将设计管线结果写为已完成实体机器人装配。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 599,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "大语言模型",
+            "机器学习"
+          ],
+          "rationale": "在心理测量Alternative Uses Task中比较七个LLM和30位人类的回答，使用监督评分与语义距离研究冗长度对原创性测量的偏差，AI实际用于创造力科学测量效度研究。",
+          "location": "出版社原摘要"
+        }
+      ]
     }
   ],
   "domain_vocabulary_refinements": [
@@ -103972,5 +104785,14 @@
         "AI 用于数理科学"
       ]
     }
-  ]
+  ],
+  "extra_track_scientific_recall_complete": true,
+  "extra_track_recall_scope": {
+    "title_count": 601,
+    "cached_original_abstract_count": 601,
+    "abstract_check_policy": "题名和现有信息筛选潜在线索，逐条读所选原摘要；仅必要疑点查正文。Creative64全部读原摘要。未对全部非候选强制全文筛选。",
+    "creative_abstract_checked_count": 64,
+    "verified_promoted_count": 196,
+    "initial_candidate_count": 351
+  }
 }
