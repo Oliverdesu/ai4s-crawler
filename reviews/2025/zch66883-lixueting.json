@@ -35132,5 +35132,1745 @@
         }
       ]
     }
+  },
+  {
+    "id": "10.1016/j.surfrep.2025.100669",
+    "venue": "j-31f1ddbac1",
+    "year": 2025,
+    "track": null,
+    "title": "Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures",
+    "authors": [
+      "Lejie Tian",
+      "Jianxi Liu",
+      "Christof Wöll"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0003-1078-3304"
+    ],
+    "abstract": "Metal–organic frameworks (MOFs) are crystalline materials renowned for their high porosity, chemical tunability, and modular design. The development of surface-anchored and oriented MOF thin films—particularly those fabricated by layer-by-layer or epitaxial growth—has shifted MOF research from powder studies to investigations of well-defined, surface-confined architectures. This review examines MOF thin films from a surface-science perspective, emphasizing how controlled growth at well-defined interfaces enables quantitative studies of structure–property relationships, interfacial charge and energy transfer, polarization-dependent optical responses, and dynamic guest–host interactions. The long-range crystallographic order achievable in these oriented films gives rise to band-structure effects and anisotropic transport phenomena that cannot be observed in MOF thin films prepared from powder-derived particles. Their monolithic and defect-controlled nature allows detailed characterization by advanced surface-sensitive techniques such as IRRAS, XPS, NEXAFS, UPS, nanoindentation, ellipsometry, and AFM, providing direct links between microscopic structure and macroscopic functionality. Beyond serving as model systems, oriented MOF films represent versatile platforms for adsorption, catalysis, and electronic coupling at hybrid organic–inorganic interfaces. The review also highlights how computational modeling, machine learning, and AI-guided synthesis accelerate the rational design of interface-engineered MOF architectures with tailored properties.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.surfrep.2025.100669",
+    "pages": "100669",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.surfrep.2025.100669",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-11",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Surface Science Reports",
+    "issn": "0167-5729",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0167572925000172",
+    "ai4s_hits": [
+      "catalysis"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_vocabulary_hits": [
+      "机器学习"
+    ],
+    "ai4s_tags": [
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "crystal",
+      "catalysis",
+      "metal-organic framework"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 物质科学": [
+          "crystal",
+          "catalysis",
+          "metal-organic framework"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要及公开正文4.2具体综述Scheiger等已实施的ML引导机器人合成：通过UV–Vis/XRD代理指标优化Cu3(HHTP)2薄膜生长参数，获得高结晶度与较大畴，并以四探针实验核实金属导电行为。AI实际支持材料合成与结构—性能研究，不仅是展望。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "4.2 Electrical and electronic transport properties，Scheiger等机器人合成段与图7",
+          "rationale": "原摘要及公开正文4.2具体综述Scheiger等已实施的ML引导机器人合成：通过UV–Vis/XRD代理指标优化Cu3(HHTP)2薄膜生长参数，获得高结晶度与较大畴，并以四探针实验核实金属导电行为。AI实际支持材料合成与结构—性能研究，不仅是展望。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "4.2 Electrical and electronic transport properties，Scheiger等机器人合成段与图7",
+          "rationale": "原摘要及公开正文4.2具体综述Scheiger等已实施的ML引导机器人合成：通过UV–Vis/XRD代理指标优化Cu3(HHTP)2薄膜生长参数，获得高结晶度与较大畴，并以四探针实验核实金属导电行为。AI实际支持材料合成与结构—性能研究，不仅是展望。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "4.2 Electrical and electronic transport properties，Scheiger等机器人合成段与图7",
+          "rationale": "原摘要及公开正文4.2具体综述Scheiger等已实施的ML引导机器人合成：通过UV–Vis/XRD代理指标优化Cu3(HHTP)2薄膜生长参数，获得高结晶度与较大畴，并以四探针实验核实金属导电行为。AI实际支持材料合成与结构—性能研究，不仅是展望。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.surfrep.2025.100669",
+        "title": "Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures",
+        "authors": [
+          "Lejie Tian",
+          "Jianxi Liu",
+          "Christof Wöll"
+        ],
+        "abstract": "Metal–organic frameworks (MOFs) are crystalline materials renowned for their high porosity, chemical tunability, and modular design. The development of surface-anchored and oriented MOF thin films—particularly those fabricated by layer-by-layer or epitaxial growth—has shifted MOF research from powder studies to investigations of well-defined, surface-confined architectures. This review examines MOF thin films from a surface-science perspective, emphasizing how controlled growth at well-defined interfaces enables quantitative studies of structure–property relationships, interfacial charge and energy transfer, polarization-dependent optical responses, and dynamic guest–host interactions. The long-range crystallographic order achievable in these oriented films gives rise to band-structure effects and anisotropic transport phenomena that cannot be observed in MOF thin films prepared from powder-derived particles. Their monolithic and defect-controlled nature allows detailed characterization by advanced surface-sensitive techniques such as IRRAS, XPS, NEXAFS, UPS, nanoindentation, ellipsometry, and AFM, providing direct links between microscopic structure and macroscopic functionality. Beyond serving as model systems, oriented MOF films represent versatile platforms for adsorption, catalysis, and electronic coupling at hybrid organic–inorganic interfaces. The review also highlights how computational modeling, machine learning, and AI-guided synthesis accelerate the rational design of interface-engineered MOF architectures with tailored properties.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000172",
+        "volume": "80",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0167572925000172",
+          "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4",
+          "https://api.crossref.org/works/10.1016/j.surfrep.2025.100669"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "原摘要与公开正文中对结论必要的相关章节已实际核验。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "4.2 Electrical and electronic transport properties，Scheiger等机器人合成段与图7",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-31f1ddbac1/100669-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "4.2 Electrical and electronic transport properties，Scheiger等机器人合成段与图7",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S0167572925000172"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.enrev.2024.100106",
+    "venue": "j-1eb350782d",
+    "year": 2025,
+    "track": null,
+    "title": "AI-driven development of high-performance solid-state hydrogen storage",
+    "authors": [
+      "Guoqing Wang",
+      "Zongmin Luo",
+      "Halefom G. Desta",
+      "Mu Chen",
+      "Yingchao Dong",
+      "Bin Lin"
+    ],
+    "author_ids": [],
+    "abstract": "Energy drives the development of human civilization, and hydrogen energy is an inevitable choice under the goal of “global energy transition”. As hydrogen technology continues to advance, solid-state hydrogen storage materials have attracted significant attention as an efficient solution for hydrogen energy storage. However, existing research methods, such as experimental preparation and theoretical calculations, are inefficient and costly. Here, we summarize the latest advancements of high-throughput screening (HTS) and machine learning (ML) solid-state hydrogen storage materials. It elaborates on the advantages of HTS and ML in rapid material screening, performance assessment and prediction, and so on. We place particular emphasis on the exploration and analysis of research progress involving the application of HTS and ML in various types of solid-state hydrogen storage materials. Additionally, we discuss the advantages of integrating HTS and ML, emphasizing the application of this comprehensive strategy in the field of solid-state hydrogen storage. In the realm of hydrogen storage, artificial intelligence plays a dual role. It not only enhances the efficiency of material screening but also offers novel research tools future material design and development. This will aid in the discovery of new-type high-performance solid-state hydrogen storage materials, and facilitate their rapid commercialization and practical application.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.enrev.2024.100106",
+    "pages": "100106",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.enrev.2024.100106",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-03",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Energy Reviews",
+    "issn": "2772-9702",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2772970224000397",
+    "ai4s_hits": [],
+    "ai4s_reason": "taxonomy_rule",
+    "ai4s_tags": [
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "materials"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 物质科学": [
+          "materials"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "完整原摘要实质综述高通量筛选与机器学习在多类固态储氢材料的筛选、性质预测和设计中的已实施研究，并讨论二者结合；AI直接服务储氢材料发现。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "完整原摘要实质综述高通量筛选与机器学习在多类固态储氢材料的筛选、性质预测和设计中的已实施研究，并讨论二者结合；AI直接服务储氢材料发现。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "完整原摘要实质综述高通量筛选与机器学习在多类固态储氢材料的筛选、性质预测和设计中的已实施研究，并讨论二者结合；AI直接服务储氢材料发现。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "完整原摘要实质综述高通量筛选与机器学习在多类固态储氢材料的筛选、性质预测和设计中的已实施研究，并讨论二者结合；AI直接服务储氢材料发现。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.enrev.2024.100106",
+        "title": "AI-driven development of high-performance solid-state hydrogen storage",
+        "authors": [
+          "Guoqing Wang",
+          "Zongmin Luo",
+          "Halefom G. Desta",
+          "Mu Chen",
+          "Yingchao Dong",
+          "Bin Lin"
+        ],
+        "abstract": "Energy drives the development of human civilization, and hydrogen energy is an inevitable choice under the goal of “global energy transition”. As hydrogen technology continues to advance, solid-state hydrogen storage materials have attracted significant attention as an efficient solution for hydrogen energy storage. However, existing research methods, such as experimental preparation and theoretical calculations, are inefficient and costly. Here, we summarize the latest advancements of high-throughput screening (HTS) and machine learning (ML) solid-state hydrogen storage materials. It elaborates on the advantages of HTS and ML in rapid material screening, performance assessment and prediction, and so on. We place particular emphasis on the exploration and analysis of research progress involving the application of HTS and ML in various types of solid-state hydrogen storage materials. Additionally, we discuss the advantages of integrating HTS and ML, emphasizing the application of this comprehensive strategy in the field of solid-state hydrogen storage. In the realm of hydrogen storage, artificial intelligence plays a dual role. It not only enhances the efficiency of material screening but also offers novel research tools future material design and development. This will aid in the discovery of new-type high-performance solid-state hydrogen storage materials, and facilitate their rapid commercialization and practical application.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000397",
+        "volume": "4",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2772970224000397",
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+          "https://api.crossref.org/works/10.1016/j.enrev.2024.100106"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+          "https://www.sciencedirect.com/science/article/pii/S2772970224000397"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.enrev.2025.100164",
+    "venue": "j-1eb350782d",
+    "year": 2025,
+    "track": null,
+    "title": "Recent advances in wastewater treatment technologies: Innovations and new insights",
+    "authors": [
+      "Ababay Ketema Worku",
+      "Delele Worku Ayele",
+      "Minbale Admas Teshager",
+      "Mohamed Omar",
+      "Parisa Poursafari Yerkrang",
+      "Rida Elgaddafi",
+      "Molla Asmare Alemu"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-7012-877X"
+    ],
+    "abstract": "Wastewater often contains toxic organic pollutants that can have adverse effects on human health and aquatic life upon exposure. Rapid urbanization and technological advancements have led to the growth of various industries, such as agriculture, petrochemicals, pharmaceuticals, and biotechnology, all of which consume substantial amounts of water and generate complex wastewater compositions during the manufacturing process. As a result, large volumes of these wastewaters are difficult to treat due to the wide variation in composition, including dyes, pharmaceutical waste, organic matter, residual contaminants, and hazardous or inhibitory substances. Conventional wastewater treatment methods have been increasingly challenged and are often failing to meet the required criteria. Consequently, there is a pressing need for innovative, cost-effective, and environmentally sustainable solutions, which has accelerated the development of advanced wastewater treatment technologies. This review article first outlines the role of technology in wastewater treatment. Then, it provides an overview of the recent advances in removing various pollutants such as organic compounds, heavy metals, pharmaceutical, and pesticides from wastewater and strategies that enhance efficacy, affordability, and sustainability. Finally, the use of artificial intelligence (AI) and machine learning for process monitoring and optimization is explored. Ultimately, this review aims to provide a comprehensive overview of the current state of wastewater treatment technologies and their potential to contribute to a more sustainable future by integrating new insights from recent research.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.enrev.2025.100164",
+    "pages": "100164",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.enrev.2025.100164",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-12",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Energy Reviews",
+    "issn": "2772-9702",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2772970225000355",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "完整原摘要及公开正文7节实质汇总已有AI/ML在废水出水质量预测、生物/化学指标监测、处理控制和能耗优化中的应用，引用195–197并以图12归纳用途；AI支持水处理科学与工程，不只未来前景。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "7 Application of AI and ML；图12及参考文献195–197",
+          "rationale": "完整原摘要及公开正文7节实质汇总已有AI/ML在废水出水质量预测、生物/化学指标监测、处理控制和能耗优化中的应用，引用195–197并以图12归纳用途；AI支持水处理科学与工程，不只未来前景。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "7 Application of AI and ML；图12及参考文献195–197",
+          "rationale": "完整原摘要及公开正文7节实质汇总已有AI/ML在废水出水质量预测、生物/化学指标监测、处理控制和能耗优化中的应用，引用195–197并以图12归纳用途；AI支持水处理科学与工程，不只未来前景。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "7 Application of AI and ML；图12及参考文献195–197",
+          "rationale": "完整原摘要及公开正文7节实质汇总已有AI/ML在废水出水质量预测、生物/化学指标监测、处理控制和能耗优化中的应用，引用195–197并以图12归纳用途；AI支持水处理科学与工程，不只未来前景。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.enrev.2025.100164",
+        "title": "Recent advances in wastewater treatment technologies: Innovations and new insights",
+        "authors": [
+          "Ababay Ketema Worku",
+          "Delele Worku Ayele",
+          "Minbale Admas Teshager",
+          "Mohamed Omar",
+          "Parisa Poursafari Yerkrang",
+          "Rida Elgaddafi",
+          "Molla Asmare Alemu"
+        ],
+        "abstract": "Wastewater often contains toxic organic pollutants that can have adverse effects on human health and aquatic life upon exposure. Rapid urbanization and technological advancements have led to the growth of various industries, such as agriculture, petrochemicals, pharmaceuticals, and biotechnology, all of which consume substantial amounts of water and generate complex wastewater compositions during the manufacturing process. As a result, large volumes of these wastewaters are difficult to treat due to the wide variation in composition, including dyes, pharmaceutical waste, organic matter, residual contaminants, and hazardous or inhibitory substances. Conventional wastewater treatment methods have been increasingly challenged and are often failing to meet the required criteria. Consequently, there is a pressing need for innovative, cost-effective, and environmentally sustainable solutions, which has accelerated the development of advanced wastewater treatment technologies. This review article first outlines the role of technology in wastewater treatment. Then, it provides an overview of the recent advances in removing various pollutants such as organic compounds, heavy metals, pharmaceutical, and pesticides from wastewater and strategies that enhance efficacy, affordability, and sustainability. Finally, the use of artificial intelligence (AI) and machine learning for process monitoring and optimization is explored. Ultimately, this review aims to provide a comprehensive overview of the current state of wastewater treatment technologies and their potential to contribute to a more sustainable future by integrating new insights from recent research.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000355",
+        "volume": "4",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2772970225000355",
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+          "https://api.crossref.org/works/10.1016/j.enrev.2025.100164"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "原摘要与公开正文中对结论必要的相关章节已实际核验。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "7 Application of AI and ML；图12及参考文献195–197",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-1eb350782d/100164-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "7 Application of AI and ML；图12及参考文献195–197",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S2772970225000355"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.enrev.2025.100165",
+    "venue": "j-1eb350782d",
+    "year": 2025,
+    "track": null,
+    "title": "Multiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights",
+    "authors": [
+      "Idris Temitope Bello",
+      "Saroj Karki",
+      "Shuanglin Zheng",
+      "Jiufeng Ruan",
+      "Anshu Kumari",
+      "Yuqi Geng",
+      "Sooraj Patel",
+      "Zheng Li",
+      "Pejman Kazempoor",
+      "Wenjuan Bian",
+      "Yihan Ling",
+      "Iman Ghamarian",
+      "Yingtao Liu",
+      "Bin Wang",
+      "Zongping Shao",
+      "Meng Ni",
+      "Hanping Ding"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0002-0242-9201",
+      "https://orcid.org/0000-0001-5310-4039",
+      "https://orcid.org/0000-0002-8734-7933"
+    ],
+    "abstract": "Protonic ceramic energy devices represent a promising frontier for sustainable energy conversion and storage, operating efficiently at intermediate temperatures (350–650 ​°C) and facilitating integration with renewable energy sources. Among protonic ceramic materials, yttrium-doped barium zirconate (BaZr 1-x Y x O 3-δ , BZY) stands out for its competitive proton conductivity, chemical resilience, and compatibility with diverse fuels and environments. This review critically examines the fundamentals and multiscale design strategies for BZY-based ceramic cells. We discuss atomic-level composition-structure relationships, innovative synthesis routes, and advanced processing methods to overcome manufacturing and scalability challenges. We then highlight microstructure engineering and interface design approaches that minimize resistance and elevate device performance, supported by state-of-the-art characterization and predictive modeling techniques, including density functional theory and machine learning. Recent advances, such as hybrid architectures and AI-driven defect optimization, demonstrate significant improvements in conductivity, stability, and Faradaic efficiency, confirming BZY's pivotal role in green hydrogen production and power-to-chemicals applications. By integrating insights across materials chemistry, electrochemistry, and engineering, this review provides a comprehensive roadmap for researchers aiming to translate laboratory breakthroughs into robust, scalable protonic ceramic technologies for decarbonized energy systems.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.enrev.2025.100165",
+    "pages": "100165",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.enrev.2025.100165",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-12",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Energy Reviews",
+    "issn": "2772-9702",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2772970225000367",
+    "ai4s_hits": [
+      "density functional"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "density functional theory"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 物质科学": [
+          "density functional theory"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要及公开正文5.4综述DFT与数据驱动建模，并具体讨论已发表的机器学习质子陶瓷材料筛选、性质预测及氧还原电极预测研究（参考文献216、218）。AI支持材料设计与性能建模；仅标机器学习，不据此声称综述本身训练了新势能网络。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "5.4 Modeling最后机器学习段及参考文献216、218",
+          "rationale": "原摘要及公开正文5.4综述DFT与数据驱动建模，并具体讨论已发表的机器学习质子陶瓷材料筛选、性质预测及氧还原电极预测研究（参考文献216、218）。AI支持材料设计与性能建模；仅标机器学习，不据此声称综述本身训练了新势能网络。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "5.4 Modeling最后机器学习段及参考文献216、218",
+          "rationale": "原摘要及公开正文5.4综述DFT与数据驱动建模，并具体讨论已发表的机器学习质子陶瓷材料筛选、性质预测及氧还原电极预测研究（参考文献216、218）。AI支持材料设计与性能建模；仅标机器学习，不据此声称综述本身训练了新势能网络。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "5.4 Modeling最后机器学习段及参考文献216、218",
+          "rationale": "原摘要及公开正文5.4综述DFT与数据驱动建模，并具体讨论已发表的机器学习质子陶瓷材料筛选、性质预测及氧还原电极预测研究（参考文献216、218）。AI支持材料设计与性能建模；仅标机器学习，不据此声称综述本身训练了新势能网络。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.enrev.2025.100165",
+        "title": "Multiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights",
+        "authors": [
+          "Idris Temitope Bello",
+          "Saroj Karki",
+          "Shuanglin Zheng",
+          "Jiufeng Ruan",
+          "Anshu Kumari",
+          "Yuqi Geng",
+          "Sooraj Patel",
+          "Zheng Li",
+          "Pejman Kazempoor",
+          "Wenjuan Bian",
+          "Yihan Ling",
+          "Iman Ghamarian",
+          "Yingtao Liu",
+          "Bin Wang",
+          "Zongping Shao",
+          "Meng Ni",
+          "Hanping Ding"
+        ],
+        "abstract": "Protonic ceramic energy devices represent a promising frontier for sustainable energy conversion and storage, operating efficiently at intermediate temperatures (350–650 ​°C) and facilitating integration with renewable energy sources. Among protonic ceramic materials, yttrium-doped barium zirconate (BaZr 1-x Y x O 3-δ , BZY) stands out for its competitive proton conductivity, chemical resilience, and compatibility with diverse fuels and environments. This review critically examines the fundamentals and multiscale design strategies for BZY-based ceramic cells. We discuss atomic-level composition-structure relationships, innovative synthesis routes, and advanced processing methods to overcome manufacturing and scalability challenges. We then highlight microstructure engineering and interface design approaches that minimize resistance and elevate device performance, supported by state-of-the-art characterization and predictive modeling techniques, including density functional theory and machine learning. Recent advances, such as hybrid architectures and AI-driven defect optimization, demonstrate significant improvements in conductivity, stability, and Faradaic efficiency, confirming BZY's pivotal role in green hydrogen production and power-to-chemicals applications. By integrating insights across materials chemistry, electrochemistry, and engineering, this review provides a comprehensive roadmap for researchers aiming to translate laboratory breakthroughs into robust, scalable protonic ceramic technologies for decarbonized energy systems.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000367",
+        "volume": "4",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2772970225000367",
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+          "https://api.crossref.org/works/10.1016/j.enrev.2025.100165"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "原摘要与公开正文中对结论必要的相关章节已实际核验。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "5.4 Modeling最后机器学习段及参考文献216、218",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-1eb350782d/100165-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "5.4 Modeling最后机器学习段及参考文献216、218",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S2772970225000367"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.enrev.2025.100173",
+    "venue": "j-1eb350782d",
+    "year": 2025,
+    "track": null,
+    "title": "Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems",
+    "authors": [
+      "Yundong Qian",
+      "Guangkai Lu",
+      "Haotian Tan",
+      "Wenxue Chen",
+      "Yanjia Zhang",
+      "Jintao Liu",
+      "Yingjie Zhang",
+      "Jie Xiao",
+      "Xiaoyuan Zeng"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0002-8964-6347"
+    ],
+    "abstract": "Electrocatalysts are pivotal to renewable energy conversion and sustainable chemical synthesis, yet conventional noble metal catalysts suffer from scarcity and high cost, while transition metal catalysts are plagued by the Fenton effect, which degrades electrode structures, reduces reaction selectivity, and poses safety risks. To address these bottlenecks, main-group element-based electrocatalysts have emerged as promising alternatives, leveraging their high terrestrial abundance, tunable s/p orbital characteristics, and radical resistance. This review systematically summarizes the synthesis strategies, catalytic mechanisms, and performance breakthroughs of main-group metal electrocatalysts. Key synthesis methods including pyrolysis, aerogel, hydrothermal, template, combinatorial magnetron co-sputtering, and chemical vapor carbonization enable precise regulation of atomic dispersion and nanostructure, with pyrolysis and template methods achieving 3–5 times higher specific surface area via Al-N 4 and Mg-N 2 coordination without harsh acid etching. In terms of catalytic performance, main-group metal catalysts exhibit remarkable activity. Mechanistically, p-band center regulation optimizes intermediate adsorption energy, while s-block metals (Mg, Ca) inhibit ·OH formation via stable valence states and s-orbital properties, improving alkaline stability. Furthermore, integrating in-situ characterization with machine learning accelerates the shift from “trial-and-error\" to rational design. Despite challenges in acidic stability, reaction selectivity regulation, and large-scale preparation cost, main-group metal electrocatalysts offer innovative solutions for advancing electrocatalytic systems, with promising extensions to CO 2 reduction and nitrogen fixation. This review provides critical insights into the design and development of high-performance, cost-effective electrocatalysts for sustainable energy applications.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.enrev.2025.100173",
+    "pages": "100173",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.enrev.2025.100173",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-12",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Energy Reviews",
+    "issn": "2772-9702",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2772970225000446",
+    "ai4s_hits": [
+      "catalysis",
+      "\\bcatalysts?\\b(?!\\s+for\\s+(?:(?:the|a|an|swift|rapid|continued|further)\\s+)*(?:progress|growth|development|advancement|change)\\b)"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "catalysis",
+      "chemical reaction",
+      "electrocatalysis"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 物质科学": [
+          "catalysis",
+          "chemical reaction",
+          "electrocatalysis"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "已核原摘要与公开全文。正文主体为合成、催化反应和物理机理；具体机器学习方案仅在4.2未来研究段提出将训练模型预测Ga/Al配位活性位点，摘要和引言中的概述未实质比较已实施AI研究。按未来展望而非既有AI科研作用排除。",
+      "tags": [],
+      "verified_metadata": {
+        "doi": "10.1016/j.enrev.2025.100173",
+        "title": "Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems",
+        "authors": [
+          "Yundong Qian",
+          "Guangkai Lu",
+          "Haotian Tan",
+          "Wenxue Chen",
+          "Yanjia Zhang",
+          "Jintao Liu",
+          "Yingjie Zhang",
+          "Jie Xiao",
+          "Xiaoyuan Zeng"
+        ],
+        "abstract": "Electrocatalysts are pivotal to renewable energy conversion and sustainable chemical synthesis, yet conventional noble metal catalysts suffer from scarcity and high cost, while transition metal catalysts are plagued by the Fenton effect, which degrades electrode structures, reduces reaction selectivity, and poses safety risks. To address these bottlenecks, main-group element-based electrocatalysts have emerged as promising alternatives, leveraging their high terrestrial abundance, tunable s/p orbital characteristics, and radical resistance. This review systematically summarizes the synthesis strategies, catalytic mechanisms, and performance breakthroughs of main-group metal electrocatalysts. Key synthesis methods including pyrolysis, aerogel, hydrothermal, template, combinatorial magnetron co-sputtering, and chemical vapor carbonization enable precise regulation of atomic dispersion and nanostructure, with pyrolysis and template methods achieving 3–5 times higher specific surface area via Al-N 4 and Mg-N 2 coordination without harsh acid etching. In terms of catalytic performance, main-group metal catalysts exhibit remarkable activity. Mechanistically, p-band center regulation optimizes intermediate adsorption energy, while s-block metals (Mg, Ca) inhibit ·OH formation via stable valence states and s-orbital properties, improving alkaline stability. Furthermore, integrating in-situ characterization with machine learning accelerates the shift from “trial-and-error\" to rational design. Despite challenges in acidic stability, reaction selectivity regulation, and large-scale preparation cost, main-group metal electrocatalysts offer innovative solutions for advancing electrocatalytic systems, with promising extensions to CO 2 reduction and nitrogen fixation. This review provides critical insights into the design and development of high-performance, cost-effective electrocatalysts for sustainable energy applications.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000446",
+        "volume": "4",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2772970225000446",
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+          "https://api.crossref.org/works/10.1016/j.enrev.2025.100173"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "原摘要与公开正文中对结论必要的相关章节已实际核验。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "完整公开正文；4.2 Challenges and prospects最后Future research段",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-1eb350782d/100173-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整公开正文；4.2 Challenges and prospects最后Future research段",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+          "https://www.sciencedirect.com/science/article/pii/S2772970225000446"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2024.100112",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes",
+    "authors": [
+      "Kelly Joel Gurubel Tun",
+      "Elizabeth León-Becerril",
+      "Octavio García-Depraect"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-9999-9018",
+      "https://orcid.org/0000-0001-7881-1143"
+    ],
+    "abstract": "Dark fermentation process from low-cost renewable substrates for simultaneous wastewater treatment and hydrogen production (H 2 ) is suitable due to economic viability and environmental sustainability. This work explores the application of an innovative control strategy in a scale fermentation bioreactor designed for energy recovery from organic wastes. This approach not only promotes low carbon emissions but also offers significant potential for industrial application. Machine learning (ML) and optimization methods are used to model the nonlinear process and then, a neural predictive control (NPC) strategy to drive the system to its optimal operating order under varying influent conditions is developed. Predictive control uses the Newton-Raphson as the optimization algorithm and a multi-layer feedforward neural network for the state prediction. This strategy has demonstrated to be a viable algorithm for real-time control applications. First, experimental data from continuous dark fermentation are modeled using support vector machine (SVM) algorithm for response prediction and then, optimization algorithms are employed to identify the key parameters that enhance H 2 production. These optimal operating parameters are then used to create reference trajectory signals within a NPC scheme to achieve the optimal hydrogen production rate. The control strategy led to an HPR mean of 12.35 ± 1.2 NL H 2 /L-d under pseudo-steady state with hydrogen content in the gaseous phase of 63 % v/v , and a maximum COD recovery of 90% ± 2.8%. The results demonstrate that this innovative control method can significantly improve the performance and efficiency of biogas plants, showing viability for large-scale industrial implementation. • Dark fermentative (DF) H 2 production (HPR) from organic wastes using acidogenic consortia. • Optimal operation conditions are achieved by modeling and optimization approaches. • Optimal process control leads to an efficient fermentation performance for stable H 2 production. • A maximum HPR of 12.35 ± 1.2 NL H 2 /L-d and a COD recovery of 90 ± 2.8 % were accomplished. • The control strategy is proficient to optimize the HPR in presence of disturbances.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2024.100112",
+    "pages": "100112",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2024.100112",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-03",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720524000663",
+    "ai4s_hits": [],
+    "ai4s_reason": "taxonomy_rule",
+    "ai4s_tags": [
+      "AI for 社会科学"
+    ],
+    "ai4s_keywords": [
+      "economics"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 社会科学": [
+          "economics"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要明确用连续暗发酵实验数据训练SVM预测非线性响应，再以多层前馈神经网络进行状态预测并用于神经预测控制，报告产氢率与COD回收实验结果；AI实际支持生物制氢反应器建模与控制。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确用连续暗发酵实验数据训练SVM预测非线性响应，再以多层前馈神经网络进行状态预测并用于神经预测控制，报告产氢率与COD回收实验结果；AI实际支持生物制氢反应器建模与控制。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确用连续暗发酵实验数据训练SVM预测非线性响应，再以多层前馈神经网络进行状态预测并用于神经预测控制，报告产氢率与COD回收实验结果；AI实际支持生物制氢反应器建模与控制。"
+        },
+        {
+          "axis": "method",
+          "label": "支持向量机",
+          "label_en": "Support vector machine",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确用连续暗发酵实验数据训练SVM预测非线性响应，再以多层前馈神经网络进行状态预测并用于神经预测控制，报告产氢率与COD回收实验结果；AI实际支持生物制氢反应器建模与控制。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2024.100112",
+        "title": "Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes",
+        "authors": [
+          "Kelly Joel Gurubel Tun",
+          "Elizabeth León-Becerril",
+          "Octavio García-Depraect"
+        ],
+        "abstract": "Dark fermentation process from low-cost renewable substrates for simultaneous wastewater treatment and hydrogen production (H 2 ) is suitable due to economic viability and environmental sustainability. This work explores the application of an innovative control strategy in a scale fermentation bioreactor designed for energy recovery from organic wastes. This approach not only promotes low carbon emissions but also offers significant potential for industrial application. Machine learning (ML) and optimization methods are used to model the nonlinear process and then, a neural predictive control (NPC) strategy to drive the system to its optimal operating order under varying influent conditions is developed. Predictive control uses the Newton-Raphson as the optimization algorithm and a multi-layer feedforward neural network for the state prediction. This strategy has demonstrated to be a viable algorithm for real-time control applications. First, experimental data from continuous dark fermentation are modeled using support vector machine (SVM) algorithm for response prediction and then, optimization algorithms are employed to identify the key parameters that enhance H 2 production. These optimal operating parameters are then used to create reference trajectory signals within a NPC scheme to achieve the optimal hydrogen production rate. The control strategy led to an HPR mean of 12.35 ± 1.2 NL H 2 /L-d under pseudo-steady state with hydrogen content in the gaseous phase of 63 % v/v , and a maximum COD recovery of 90% ± 2.8%. The results demonstrate that this innovative control method can significantly improve the performance and efficiency of biogas plants, showing viability for large-scale industrial implementation. • Dark fermentative (DF) H 2 production (HPR) from organic wastes using acidogenic consortia. • Optimal operation conditions are achieved by modeling and optimization approaches. • Optimal process control leads to an efficient fermentation performance for stable H 2 production. • A maximum HPR of 12.35 ± 1.2 NL H 2 /L-d and a COD recovery of 90 ± 2.8 % were accomplished. • The control strategy is proficient to optimize the HPR in presence of disturbances.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720524000663",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720524000663",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://api.crossref.org/works/10.1016/j.gerr.2024.100112"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://www.sciencedirect.com/science/article/pii/S2949720524000663"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100114",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Parametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation",
+    "authors": [
+      "Dinghao Xue",
+      "Pingyang Zhang",
+      "Yuanyuan Lin",
+      "Wenshuo Wang",
+      "Jiachang Shi",
+      "Qiang Hu",
+      "Gartzen Lopez",
+      "Cristina Moliner",
+      "Jin Sun",
+      "Tao Wang",
+      "Xinyan Zhang",
+      "Yingping Pang",
+      "Xiqiang Zhao",
+      "Yanpeng Mao",
+      "Zhanlong Song",
+      "Ziliang Wang",
+      "Wenlong Wang"
+    ],
+    "author_ids": [
+      "https://orcid.org/0009-0005-1028-4865",
+      "https://orcid.org/0000-0003-2684-2700"
+    ],
+    "abstract": "With industrial informatization, abundant data provides solutions for the digital design of methane-based hydrogen production. Catalytic methane decomposition (CMD) is a promising strategy for COx-free hydrogen production, with high-value carbon products generated. However, affected by various factors, the proper process parameters are challenge to be ascertained by the time-consuming experimental method. In this study, five machine learning methods were utilized for the precise prediction of methane conversion using Ni-based catalysts. Combined with SHAP method and univariate analysis method, XGBoost model with the best accuracy (with R 2 = 0.894, RSME = 7.724) was selected for the exploration of the reaction impact of active phase loading, support loading, and reaction conditions in methane convention, hydrogen production, carbon yield, and carbon quality. The result shows that methane conversion rate is mainly influenced by space velocity, reaction temperature, nickel loading, and methane percentage. Copper doping significantly affects carbon yield and its quality, and there is a strong bond between Ni and Al 2 O 3 , contributing the most to the reaction. This work would provide a guidance for the efficient catalyst design and effective hydrogen production.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100114",
+    "pages": "100114",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100114",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-03",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000013",
+    "ai4s_hits": [
+      "\\bcatalysts?\\b(?!\\s+for\\s+(?:(?:the|a|an|swift|rapid|continued|further)\\s+)*(?:progress|growth|development|advancement|change)\\b)"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "catalysis"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 物质科学": [
+          "catalysis"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要明确比较五种ML预测Ni催化甲烷转化，采用XGBoost及SHAP分析温度、空速、载量等因素与产氢/碳产率品质关系，AI支持化学反应过程与催化剂研究。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确比较五种ML预测Ni催化甲烷转化，采用XGBoost及SHAP分析温度、空速、载量等因素与产氢/碳产率品质关系，AI支持化学反应过程与催化剂研究。"
+        },
+        {
+          "axis": "method",
+          "label": "梯度提升树",
+          "label_en": "Gradient-boosted decision trees",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确比较五种ML预测Ni催化甲烷转化，采用XGBoost及SHAP分析温度、空速、载量等因素与产氢/碳产率品质关系，AI支持化学反应过程与催化剂研究。"
+        },
+        {
+          "axis": "method",
+          "label": "可解释机器学习",
+          "label_en": "Explainable machine learning",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确比较五种ML预测Ni催化甲烷转化，采用XGBoost及SHAP分析温度、空速、载量等因素与产氢/碳产率品质关系，AI支持化学反应过程与催化剂研究。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100114",
+        "title": "Parametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation",
+        "authors": [
+          "Dinghao Xue",
+          "Pingyang Zhang",
+          "Yuanyuan Lin",
+          "Wenshuo Wang",
+          "Jiachang Shi",
+          "Qiang Hu",
+          "Gartzen Lopez",
+          "Cristina Moliner",
+          "Jin Sun",
+          "Tao Wang",
+          "Xinyan Zhang",
+          "Yingping Pang",
+          "Xiqiang Zhao",
+          "Yanpeng Mao",
+          "Zhanlong Song",
+          "Ziliang Wang",
+          "Wenlong Wang"
+        ],
+        "abstract": "With industrial informatization, abundant data provides solutions for the digital design of methane-based hydrogen production. Catalytic methane decomposition (CMD) is a promising strategy for COx-free hydrogen production, with high-value carbon products generated. However, affected by various factors, the proper process parameters are challenge to be ascertained by the time-consuming experimental method. In this study, five machine learning methods were utilized for the precise prediction of methane conversion using Ni-based catalysts. Combined with SHAP method and univariate analysis method, XGBoost model with the best accuracy (with R 2 = 0.894, RSME = 7.724) was selected for the exploration of the reaction impact of active phase loading, support loading, and reaction conditions in methane convention, hydrogen production, carbon yield, and carbon quality. The result shows that methane conversion rate is mainly influenced by space velocity, reaction temperature, nickel loading, and methane percentage. Copper doping significantly affects carbon yield and its quality, and there is a strong bond between Ni and Al 2 O 3 , contributing the most to the reaction. This work would provide a guidance for the efficient catalyst design and effective hydrogen production.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000013",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000013",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100114"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000013"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100115",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Using machine learning methods for long-term technical and economic evaluation of wind power plants",
+    "authors": [
+      "Ali Omidkar",
+      "Razieh Es'haghian",
+      "Hua Song"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0002-2791-1723"
+    ],
+    "abstract": "The depletion of hydrocarbon reserves and the impact of global warming have posed significant challenges to the continued use of fossil fuels . Consequently, renewable energy sources have garnered substantial attention, with some countries now deriving a significant portion of their total energy needs from these alternatives. Among renewable sources, wind energy has been recognized as one of the most accessible and clean. However, it is imperative to evaluate wind power plants both technically and economically. This involves calculating the levelized cost of energy in comparison to fossil-based energy sources and predicting the minimum and maximum energy output over the long term. Achieving this requires long-term forecasts of wind speeds at specific locations, which involve complex mathematical modeling and computations typically performed by supercomputers . In this study, a data-driven machine learning model has been employed to predict wind speeds in Calgary over a 25-year period with minimal CPU time. Throughout the power plant's operational life, the optimal model was also used to calculate the annual energy production . The hybrid CNN-LSTM model demonstrated superior accuracy based on model accuracy metrics. Consequently, the levelized cost of energy produced by the plant was calculated at $0.09 per kWh, which is competitive within the Canadian electricity market. The investment reached a breakeven point in approximately six years, which is deemed acceptable.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100115",
+    "pages": "100115",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100115",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-03",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000025",
+    "ai4s_hits": [],
+    "ai4s_reason": "taxonomy_rule",
+    "ai4s_tags": [
+      "AI for 社会科学"
+    ],
+    "ai4s_keywords": [
+      "economics"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 社会科学": [
+          "economics"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要明确以CNN–LSTM学习模型预测Calgary风速，并用于风电装置全寿命发电量与度电成本技术评估；有实际环境变量预测和能源工程任务，不只经济投资比较。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确以CNN–LSTM学习模型预测Calgary风速，并用于风电装置全寿命发电量与度电成本技术评估；有实际环境变量预测和能源工程任务，不只经济投资比较。"
+        },
+        {
+          "axis": "method",
+          "label": "卷积神经网络",
+          "label_en": "Convolutional neural network",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确以CNN–LSTM学习模型预测Calgary风速，并用于风电装置全寿命发电量与度电成本技术评估；有实际环境变量预测和能源工程任务，不只经济投资比较。"
+        },
+        {
+          "axis": "method",
+          "label": "循环神经网络",
+          "label_en": "Recurrent neural network",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确以CNN–LSTM学习模型预测Calgary风速，并用于风电装置全寿命发电量与度电成本技术评估；有实际环境变量预测和能源工程任务，不只经济投资比较。"
+        },
+        {
+          "axis": "task",
+          "label": "风速预报",
+          "label_en": "Wind speed forecasting",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确以CNN–LSTM学习模型预测Calgary风速，并用于风电装置全寿命发电量与度电成本技术评估；有实际环境变量预测和能源工程任务，不只经济投资比较。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100115",
+        "title": "Using machine learning methods for long-term technical and economic evaluation of wind power plants",
+        "authors": [
+          "Ali Omidkar",
+          "Razieh Es'haghian",
+          "Hua Song"
+        ],
+        "abstract": "The depletion of hydrocarbon reserves and the impact of global warming have posed significant challenges to the continued use of fossil fuels . Consequently, renewable energy sources have garnered substantial attention, with some countries now deriving a significant portion of their total energy needs from these alternatives. Among renewable sources, wind energy has been recognized as one of the most accessible and clean. However, it is imperative to evaluate wind power plants both technically and economically. This involves calculating the levelized cost of energy in comparison to fossil-based energy sources and predicting the minimum and maximum energy output over the long term. Achieving this requires long-term forecasts of wind speeds at specific locations, which involve complex mathematical modeling and computations typically performed by supercomputers . In this study, a data-driven machine learning model has been employed to predict wind speeds in Calgary over a 25-year period with minimal CPU time. Throughout the power plant's operational life, the optimal model was also used to calculate the annual energy production . The hybrid CNN-LSTM model demonstrated superior accuracy based on model accuracy metrics. Consequently, the levelized cost of energy produced by the plant was calculated at $0.09 per kWh, which is competitive within the Canadian electricity market. The investment reached a breakeven point in approximately six years, which is deemed acceptable.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000025",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000025",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100115"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000025"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100119",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment",
+    "authors": [
+      "Oluwatobi Adeleke",
+      "Obafemi O. Olatunji",
+      "Tien-Chien Jen",
+      "Iretioluwa Olawuyi"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-9306-6903",
+      "https://orcid.org/0000-0003-0783-5441",
+      "https://orcid.org/0000-0003-1743-4668",
+      "https://orcid.org/0009-0005-5355-4431"
+    ],
+    "abstract": "This study proposes a hybrid network of adaptive neuro-fuzzy inference system (ANFIS) with genetic algorithm (GA) to predict the higher heating value (HHV) of municipal solid waste (MSW). To enhance the robustness and accuracy of the model and optimize its ability to capture the complex non-linear relationship in the MSW dataset, eight membership functions (MF)-type of the grid partitioning (GP) clustering approach were tested. Moreover, understanding the relative importance and contribution of different waste properties to HHV prediction is critical for improving the model's predictive capability and optimizing the waste-to-energy (WTE) process. To this end, the feature importance analysis of MSW input variables was carried out using the decision tree regressor with the Gini importance (GI) metrics to identify the most influential variable. Key waste properties, including ultimate analysis data, ash and moisture content were used as input variables for the model. The result shows that the GP-clustered GA-ANFIS model based on triangular-shaped MF-type (tri-MF) has the most accurate HHV predictions with Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), Root Mean Square Error (RMSE), and Mean Absolute Deviation (MAD) values of 0.7642, 13.677, 1.5913 and 0.9821 at the training and 0.6364, 16.216, 1.2437 and 0.7821 at the testing stage. Feature importance assessment revealed ash content as the most important predictor of HHV based on GI-value of 0.519668 (about 50% cumulative importance). Additionally, sulphur and nitrogen, along with ash content, dominated the HHV prediction and exhibited the highest predictive power on HHV with about 80% cumulative importance. The robust integrated approach of hybrid neuro-fuzzy model, with decision tree-based feature importance assessment, offers an effective approach for enhancing the prediction of HHV of MSW. The outcome of the study enhances WTE systems, facilitating more efficient and sustainable energy recovery from MSW. • Neuro-fuzzy model with feature importance analysis offers a robust HHV estimation. • GP-clustered ANFIS-GA outperformed standalone-ANFIS and LMBP-ANN for HHV prediction. • ANFIS-GA-GP with tri-MF predicted HHV with RMSE values of 1.2437 at the testing. • Ash content with Gini importance of 0.5196 is the highest predictor of HHV of MSW.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100119",
+    "pages": "100119",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100119",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-03",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000062",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要明确训练GA优化ANFIS并比较成员函数预测城市固废高位热值，以决策树Gini重要性分析灰分等组分作用，报告独立测试误差；AI实际支持废物材料燃烧性质与能源回收研究。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确训练GA优化ANFIS并比较成员函数预测城市固废高位热值，以决策树Gini重要性分析灰分等组分作用，报告独立测试误差；AI实际支持废物材料燃烧性质与能源回收研究。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确训练GA优化ANFIS并比较成员函数预测城市固废高位热值，以决策树Gini重要性分析灰分等组分作用，报告独立测试误差；AI实际支持废物材料燃烧性质与能源回收研究。"
+        },
+        {
+          "axis": "method",
+          "label": "决策树",
+          "label_en": "Decision tree",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要明确训练GA优化ANFIS并比较成员函数预测城市固废高位热值，以决策树Gini重要性分析灰分等组分作用，报告独立测试误差；AI实际支持废物材料燃烧性质与能源回收研究。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100119",
+        "title": "Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment",
+        "authors": [
+          "Oluwatobi Adeleke",
+          "Obafemi O. Olatunji",
+          "Tien-Chien Jen",
+          "Iretioluwa Olawuyi"
+        ],
+        "abstract": "This study proposes a hybrid network of adaptive neuro-fuzzy inference system (ANFIS) with genetic algorithm (GA) to predict the higher heating value (HHV) of municipal solid waste (MSW). To enhance the robustness and accuracy of the model and optimize its ability to capture the complex non-linear relationship in the MSW dataset, eight membership functions (MF)-type of the grid partitioning (GP) clustering approach were tested. Moreover, understanding the relative importance and contribution of different waste properties to HHV prediction is critical for improving the model's predictive capability and optimizing the waste-to-energy (WTE) process. To this end, the feature importance analysis of MSW input variables was carried out using the decision tree regressor with the Gini importance (GI) metrics to identify the most influential variable. Key waste properties, including ultimate analysis data, ash and moisture content were used as input variables for the model. The result shows that the GP-clustered GA-ANFIS model based on triangular-shaped MF-type (tri-MF) has the most accurate HHV predictions with Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), Root Mean Square Error (RMSE), and Mean Absolute Deviation (MAD) values of 0.7642, 13.677, 1.5913 and 0.9821 at the training and 0.6364, 16.216, 1.2437 and 0.7821 at the testing stage. Feature importance assessment revealed ash content as the most important predictor of HHV based on GI-value of 0.519668 (about 50% cumulative importance). Additionally, sulphur and nitrogen, along with ash content, dominated the HHV prediction and exhibited the highest predictive power on HHV with about 80% cumulative importance. The robust integrated approach of hybrid neuro-fuzzy model, with decision tree-based feature importance assessment, offers an effective approach for enhancing the prediction of HHV of MSW. The outcome of the study enhances WTE systems, facilitating more efficient and sustainable energy recovery from MSW. • Neuro-fuzzy model with feature importance analysis offers a robust HHV estimation. • GP-clustered ANFIS-GA outperformed standalone-ANFIS and LMBP-ANN for HHV prediction. • ANFIS-GA-GP with tri-MF predicted HHV with RMSE values of 1.2437 at the testing. • Ash content with Gini importance of 0.5196 is the highest predictor of HHV of MSW.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000062",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Research article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000062",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100119"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000062"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100128",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms",
+    "authors": [
+      "Yue Yuan",
+      "Silu Chen",
+      "Meifeng Li",
+      "Jesse Zhu",
+      "Lihui Feng",
+      "Tinghui Zhang",
+      "Kaiqiao Wu",
+      "Donovan Chaffart"
+    ],
+    "author_ids": [
+      "https://orcid.org/0009-0008-5561-1622",
+      "https://orcid.org/0000-0002-2360-7804"
+    ],
+    "abstract": ": Sustainable manufacturing is pivotal to promoting societal advancements that balance the progressive growth of human needs with the gradual exhaustion of natural resources and the environmental impact of current manufacturing technologies. Gas-solid fluidization, a key process intensification technique, has advanced sustainability for over a century. The complex nature of these systems has led to numerous analysis algorithms for assessing time-series signals critical to observe the fluidization hydrodynamics. This work reviews widely used signal analysis methods for processing the commonly-measured time-series signals for fluidization, specifically focusing on pressure drop and optical signals. Despite their widespread implementation, these methods have limited potential due to the limited visibility of optical signals and the inability of pressure signals to provide localized fluidization system information. Veritably, the traditional algorithms cannot consider all influencing factors and handle flawed, large-scale signals. Artificial intelligence (AI) has emerged as a promising solution to overcome these limitations. Nevertheless, AI-enhanced methods for fluidization signal analysis are still nascent. This work emphasizes the potential of AI to enhance understanding of complex fluidization behavior, particularly heterogeneous agglomerations, through reviewing signal analysis methods from traditional numerical methods to AI-driven approaches. Furthermore, this study highlights the future steps necessary to adequately expand upon machine learning-based analysis methodologies and extends a call to arms for future research establishment within this field. These advancements will support the development of sustainable manufacturing technologies that balance industrial progress with environmental responsibility.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100128",
+    "pages": "100128",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100128",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-06",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000153",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "公开正文5节与表2具体综合已实施ANN、CNN、LSTM、RF、SVM及CFD–ML模型用于流化床压力波动、流型识别、颗粒动力学、温度及SO2浓度预测的研究，并比较模型误差和局限。具有实质AI科研综述内容，虽有未来建议仍应纳入。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "5 Towards AI incorporation into gas-solid fluidized bed signal analyses及表2",
+          "rationale": "公开正文5节与表2具体综合已实施ANN、CNN、LSTM、RF、SVM及CFD–ML模型用于流化床压力波动、流型识别、颗粒动力学、温度及SO2浓度预测的研究，并比较模型误差和局限。具有实质AI科研综述内容，虽有未来建议仍应纳入。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "5 Towards AI incorporation into gas-solid fluidized bed signal analyses及表2",
+          "rationale": "公开正文5节与表2具体综合已实施ANN、CNN、LSTM、RF、SVM及CFD–ML模型用于流化床压力波动、流型识别、颗粒动力学、温度及SO2浓度预测的研究，并比较模型误差和局限。具有实质AI科研综述内容，虽有未来建议仍应纳入。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "5 Towards AI incorporation into gas-solid fluidized bed signal analyses及表2",
+          "rationale": "公开正文5节与表2具体综合已实施ANN、CNN、LSTM、RF、SVM及CFD–ML模型用于流化床压力波动、流型识别、颗粒动力学、温度及SO2浓度预测的研究，并比较模型误差和局限。具有实质AI科研综述内容，虽有未来建议仍应纳入。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100128",
+        "title": "Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms",
+        "authors": [
+          "Yue Yuan",
+          "Silu Chen",
+          "Meifeng Li",
+          "Jesse Zhu",
+          "Lihui Feng",
+          "Tinghui Zhang",
+          "Kaiqiao Wu",
+          "Donovan Chaffart"
+        ],
+        "abstract": ": Sustainable manufacturing is pivotal to promoting societal advancements that balance the progressive growth of human needs with the gradual exhaustion of natural resources and the environmental impact of current manufacturing technologies. Gas-solid fluidization, a key process intensification technique, has advanced sustainability for over a century. The complex nature of these systems has led to numerous analysis algorithms for assessing time-series signals critical to observe the fluidization hydrodynamics. This work reviews widely used signal analysis methods for processing the commonly-measured time-series signals for fluidization, specifically focusing on pressure drop and optical signals. Despite their widespread implementation, these methods have limited potential due to the limited visibility of optical signals and the inability of pressure signals to provide localized fluidization system information. Veritably, the traditional algorithms cannot consider all influencing factors and handle flawed, large-scale signals. Artificial intelligence (AI) has emerged as a promising solution to overcome these limitations. Nevertheless, AI-enhanced methods for fluidization signal analysis are still nascent. This work emphasizes the potential of AI to enhance understanding of complex fluidization behavior, particularly heterogeneous agglomerations, through reviewing signal analysis methods from traditional numerical methods to AI-driven approaches. Furthermore, this study highlights the future steps necessary to adequately expand upon machine learning-based analysis methodologies and extends a call to arms for future research establishment within this field. These advancements will support the development of sustainable manufacturing technologies that balance industrial progress with environmental responsibility.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000153",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000153",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100128"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "原摘要与公开正文中对结论必要的相关章节已实际核验。",
+        "pdf_download_verified": false,
+        "full_text_checked": true,
+        "full_text_evidence_location": "5 Towards AI incorporation into gas-solid fluidized bed signal analyses及表2",
+        "full_text_evidence_file": "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/elsevier-journals/j-d49438c2b7/100128-browser-primary.json"
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "5 Towards AI incorporation into gas-solid fluidized bed signal analyses及表2",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000153"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100130",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions",
+    "authors": [
+      "Constance Nakato Nakimuli",
+      "Fred Kaggwa",
+      "Johan De Greef",
+      "David Kilama Okot",
+      "Julien Blondeau",
+      "Simon Kawuma"
+    ],
+    "author_ids": [
+      "https://orcid.org/0009-0006-3749-2952",
+      "https://orcid.org/0000-0001-8951-3352",
+      "https://orcid.org/0000-0002-4557-4054",
+      "https://orcid.org/0000-0002-5423-7340"
+    ],
+    "abstract": "A B S T R A C T This review discusses how Machine Learning is applied to predict the quality of biomass briquettes produced from agricultural and municipal solid organic waste, which are crucial for advancing green and low-carbon solutions. Traditional methods of assessment of briquette quality involve destructive laboratory experiments, do not favor sample reuse, are time-consuming, and labor-intensive, posing barriers to efficient production. This paper has reviewed literature covering various Machine Learning models applied for predicting and optimizing briquette quality parameters including combustion, physical, and emission properties. Several Machine Learning models have shown promising results in predicting and optimizing these key parameters for example Random Forest with R2 of 0.9936 in deformation energy prediction and Artificial Neural Networks with R2 of 0.8936 in the prediction of impact resistance. By enhancing the accuracy and efficiency of briquette quality predictions, Machine Learning algorithms contribute to the development of high-quality biomass briquettes thereby creating sustainable and low-carbon energy systems. This review points to critical literature gaps regarding model generalizability across diverse biomass feedstock and integration of broader quality parameters. Addressing these gaps will advance AI-based solutions, promote greener energy practices, and support sustainable development. The findings are intended to aid researchers, industry professionals, and policy makers in advancing the production of high-quality biomass briquettes for cleaner energy and sustainable development.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100130",
+    "pages": "100130",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100130",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000177",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "完整原摘要比较已实施RF与ANN等模型对生物质压块燃烧、物性和排放品质的预测优化，给出变形能/冲击强度预测性能，并讨论跨原料泛化；是实际材料与能源研究综述。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "完整原摘要比较已实施RF与ANN等模型对生物质压块燃烧、物性和排放品质的预测优化，给出变形能/冲击强度预测性能，并讨论跨原料泛化；是实际材料与能源研究综述。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "完整原摘要比较已实施RF与ANN等模型对生物质压块燃烧、物性和排放品质的预测优化，给出变形能/冲击强度预测性能，并讨论跨原料泛化；是实际材料与能源研究综述。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "完整原摘要比较已实施RF与ANN等模型对生物质压块燃烧、物性和排放品质的预测优化，给出变形能/冲击强度预测性能，并讨论跨原料泛化；是实际材料与能源研究综述。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100130",
+        "title": "Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions",
+        "authors": [
+          "Constance Nakato Nakimuli",
+          "Fred Kaggwa",
+          "Johan De Greef",
+          "David Kilama Okot",
+          "Julien Blondeau",
+          "Simon Kawuma"
+        ],
+        "abstract": "A B S T R A C T This review discusses how Machine Learning is applied to predict the quality of biomass briquettes produced from agricultural and municipal solid organic waste, which are crucial for advancing green and low-carbon solutions. Traditional methods of assessment of briquette quality involve destructive laboratory experiments, do not favor sample reuse, are time-consuming, and labor-intensive, posing barriers to efficient production. This paper has reviewed literature covering various Machine Learning models applied for predicting and optimizing briquette quality parameters including combustion, physical, and emission properties. Several Machine Learning models have shown promising results in predicting and optimizing these key parameters for example Random Forest with R2 of 0.9936 in deformation energy prediction and Artificial Neural Networks with R2 of 0.8936 in the prediction of impact resistance. By enhancing the accuracy and efficiency of briquette quality predictions, Machine Learning algorithms contribute to the development of high-quality biomass briquettes thereby creating sustainable and low-carbon energy systems. This review points to critical literature gaps regarding model generalizability across diverse biomass feedstock and integration of broader quality parameters. Addressing these gaps will advance AI-based solutions, promote greener energy practices, and support sustainable development. The findings are intended to aid researchers, industry professionals, and policy makers in advancing the production of high-quality biomass briquettes for cleaner energy and sustainable development.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000177",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000177",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100130"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000177"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100132",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization",
+    "authors": [
+      "Dongjie Pang",
+      "Cristina Moliner",
+      "Tao Wang",
+      "Jin Sun",
+      "Xinyan Zhang",
+      "Yingping Pang",
+      "Xiqiang Zhao",
+      "Zhanlong Song",
+      "Ziliang Wang",
+      "Yanpeng Mao",
+      "Wenlong Wang"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0003-2684-2700",
+      "https://orcid.org/0009-0004-9310-1501"
+    ],
+    "abstract": "The advent of novel waste disposal methodologies, which are energy-efficient and environmentally benign, has created opportunities for the deployment of artificial intelligence technologies in the management of solid waste treatment. This review examines the deployment of AI-optimized control algorithms in processes including pyrolysis, incineration, and gasification. The application of machine learning models, including linear regression (LR), genetic algorithm (GA), support vector machine (SVM), artificial neural networks (ANN), decision trees (DT), and Extreme Gradient Boosting (XGBoost), enables real-time monitoring of performance and dynamic adjustment of parameters to enhance energy recovery and minimize pollution. The implementation of AI-based solutions enables the optimization of key characteristics, such as temperature and oxygen levels, with the objective of achieving optimal energy efficiency while minimizing the emission of harmful substances, including CO, NOx, and dioxins. Notwithstanding these advancements, challenges remain in hyperparameter tuning, probabilistic assessments, and feature generation. A comprehensive understanding of future technologies will necessitate a synthesis of knowledge and data-oriented approaches, the design of autonomous control systems, and the integration of digital twin technologies to bridge the gap between theory and practice.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100132",
+    "pages": "100132",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100132",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-06",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000190",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要实质综述ML及优化算法在固废热解、焚烧、气化的过程监测、参数优化、能量回收和污染排放控制中的应用；明确SVM、ANN、决策树、XGBoost等，科学对象与AI作用具体。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要实质综述ML及优化算法在固废热解、焚烧、气化的过程监测、参数优化、能量回收和污染排放控制中的应用；明确SVM、ANN、决策树、XGBoost等，科学对象与AI作用具体。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要实质综述ML及优化算法在固废热解、焚烧、气化的过程监测、参数优化、能量回收和污染排放控制中的应用；明确SVM、ANN、决策树、XGBoost等，科学对象与AI作用具体。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要实质综述ML及优化算法在固废热解、焚烧、气化的过程监测、参数优化、能量回收和污染排放控制中的应用；明确SVM、ANN、决策树、XGBoost等，科学对象与AI作用具体。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100132",
+        "title": "A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization",
+        "authors": [
+          "Dongjie Pang",
+          "Cristina Moliner",
+          "Tao Wang",
+          "Jin Sun",
+          "Xinyan Zhang",
+          "Yingping Pang",
+          "Xiqiang Zhao",
+          "Zhanlong Song",
+          "Ziliang Wang",
+          "Yanpeng Mao",
+          "Wenlong Wang"
+        ],
+        "abstract": "The advent of novel waste disposal methodologies, which are energy-efficient and environmentally benign, has created opportunities for the deployment of artificial intelligence technologies in the management of solid waste treatment. This review examines the deployment of AI-optimized control algorithms in processes including pyrolysis, incineration, and gasification. The application of machine learning models, including linear regression (LR), genetic algorithm (GA), support vector machine (SVM), artificial neural networks (ANN), decision trees (DT), and Extreme Gradient Boosting (XGBoost), enables real-time monitoring of performance and dynamic adjustment of parameters to enhance energy recovery and minimize pollution. The implementation of AI-based solutions enables the optimization of key characteristics, such as temperature and oxygen levels, with the objective of achieving optimal energy efficiency while minimizing the emission of harmful substances, including CO, NOx, and dioxins. Notwithstanding these advancements, challenges remain in hyperparameter tuning, probabilistic assessments, and feature generation. A comprehensive understanding of future technologies will necessitate a synthesis of knowledge and data-oriented approaches, the design of autonomous control systems, and the integration of digital twin technologies to bridge the gap between theory and practice.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000190",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000190",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100132"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000190"
+        ]
+      }
+    }
+  },
+  {
+    "id": "10.1016/j.gerr.2025.100141",
+    "venue": "j-d49438c2b7",
+    "year": 2025,
+    "track": null,
+    "title": "Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research",
+    "authors": [
+      "Miguel Esteban Pardo Gómez",
+      "Evan Park",
+      "Ying Zheng",
+      "Amarjeet Bassi",
+      "Tianlong Liu"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-9762-3623",
+      "https://orcid.org/0000-0003-3908-6238"
+    ],
+    "abstract": "Bioelectrochemical systems (BES) offer promising solutions for sustainable energy production and wastewater treatment. However, their complex biological and electrochemical dynamics pose significant challenges for traditional modeling approaches. This review explores the recent advancements in applying artificial intelligence (AI) techniques to enhance the performance and scalability of BES technologies. We detailed the roles of machine learning (ML) algorithms, such as artificial neural networks (ANNs), support vector regression (SVR), and random forest regression (RFR), in predicting critical BES performance metrics. Additionally, we discussed metaheuristic optimization techniques that have improved system design and operational parameters, yielding significant gains in energy recovery and stability. The integration of real-time monitoring and adaptive control systems, powered by AI, is highlighted for its potential to dynamically adjust BES operations in response to fluctuating environmental conditions. Despite these advancements, challenges remain, particularly in data standardization and modeling biological complexity within BES. We outline current limitations and future directions, emphasizing the need for robust datasets, standardized methodologies, and advanced AI frameworks to further unlock the potential of AI-driven BES systems in achieving sustainable bioenergy solutions.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1016/j.gerr.2025.100141",
+    "pages": "100141",
+    "bibtex": null,
+    "url": "https://doi.org/10.1016/j.gerr.2025.100141",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Green Energy and Resources",
+    "issn": "2949-7205",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2949720525000281",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-small-sources",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "原摘要具体综合ANN、SVR、随机森林回归预测生物电化学系统性能及设计/运行参数优化的已有研究，讨论生物复杂性、数据标准化与可扩展性，非仅未来数字孪生展望。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要具体综合ANN、SVR、随机森林回归预测生物电化学系统性能及设计/运行参数优化的已有研究，讨论生物复杂性、数据标准化与可扩展性，非仅未来数字孪生展望。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要具体综合ANN、SVR、随机森林回归预测生物电化学系统性能及设计/运行参数优化的已有研究，讨论生物复杂性、数据标准化与可扩展性，非仅未来数字孪生展望。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "完整输入原摘要；出版社正式目录文类及卷期",
+          "rationale": "原摘要具体综合ANN、SVR、随机森林回归预测生物电化学系统性能及设计/运行参数优化的已有研究，讨论生物复杂性、数据标准化与可扩展性，非仅未来数字孪生展望。"
+        }
+      ],
+      "verified_metadata": {
+        "doi": "10.1016/j.gerr.2025.100141",
+        "title": "Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research",
+        "authors": [
+          "Miguel Esteban Pardo Gómez",
+          "Evan Park",
+          "Ying Zheng",
+          "Amarjeet Bassi",
+          "Tianlong Liu"
+        ],
+        "abstract": "Bioelectrochemical systems (BES) offer promising solutions for sustainable energy production and wastewater treatment. However, their complex biological and electrochemical dynamics pose significant challenges for traditional modeling approaches. This review explores the recent advancements in applying artificial intelligence (AI) techniques to enhance the performance and scalability of BES technologies. We detailed the roles of machine learning (ML) algorithms, such as artificial neural networks (ANNs), support vector regression (SVR), and random forest regression (RFR), in predicting critical BES performance metrics. Additionally, we discussed metaheuristic optimization techniques that have improved system design and operational parameters, yielding significant gains in energy recovery and stability. The integration of real-time monitoring and adaptive control systems, powered by AI, is highlighted for its potential to dynamically adjust BES operations in response to fluctuating environmental conditions. Despite these advancements, challenges remain, particularly in data standardization and modeling biological complexity within BES. We outline current limitations and future directions, emphasizing the need for robust datasets, standardized methodologies, and advanced AI frameworks to further unlock the potential of AI-driven BES systems in achieving sustainable bioenergy solutions.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000281",
+        "volume": "3",
+        "publication_year": 2025,
+        "article_type": "Review article",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000281",
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+          "https://api.crossref.org/works/10.1016/j.gerr.2025.100141"
+        ],
+        "original_abstract_complete": true,
+        "abstract_source": "Original abstract preserved in supplied source metadata",
+        "abstract_evidence_scope": "Existing original abstract evaluated; no claim that unavailable subscription full body was read",
+        "pdf_download_verified": false
+      },
+      "reviewed_at": "2026-11-19T07:48:21.150404+00:00",
+      "vocabulary_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "abstract_check": {
+        "status": "complete_original_input_abstract",
+        "input_preserved": true
+      },
+      "evidence_location": "完整输入原摘要；官网2025正式卷期及文类",
+      "scope_check": {
+        "status": "in_scope",
+        "formal_year": 2025,
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+          "https://www.sciencedirect.com/science/article/pii/S2949720525000281"
+        ]
+      }
+    }
   }
 ]

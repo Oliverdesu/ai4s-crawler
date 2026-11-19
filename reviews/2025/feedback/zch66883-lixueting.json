@@ -6597,5 +6597,2187 @@
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
     "checked_at": "2026-11-19T07:37:24.650141+00:00"
+  },
+  {
+    "year": 2025,
+    "source_code": "j-31f1ddbac1",
+    "owner": "李雪婷",
+    "github_username": "zch66883-lixueting",
+    "snapshot_at": "2026-11-09T10:51:18+08:00",
+    "official_total": 8,
+    "official_scope": "Complete official2025 volume80 all-document catalogue, all archive-listed issues and pagination checked; 8 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
+    "coverage_note": "Official whole-year catalogue 8 unique PIIs exactly matches original raw8; 1 initial candidates plus0 independently verified recall additions. All candidates have complete original abstracts and final own decisions; noncandidate abstract gaps remain untouched.",
+    "evidence_urls": [
+      "https://www.sciencedirect.com/journal/surface-science-reports/issues",
+      "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/1",
+      "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/2",
+      "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4"
+    ],
+    "candidate_count": 1,
+    "own_review_count": 1,
+    "own_review_counts": {
+      "include": 1,
+      "exclude": 0,
+      "pending": 0,
+      "unreviewed": 0
+    },
+    "review_counts": {
+      "include": 1,
+      "exclude": 0,
+      "pending": 0,
+      "unreviewed": 0
+    },
+    "work_status": "complete",
+    "source_complete": true,
+    "issues": [],
+    "next_actions": [],
+    "checked_at": "2026-11-19T07:48:21.150404+00:00",
+    "candidate_missing_abstracts_remaining": 0,
+    "catalogue_audit": {
+      "source_code": "j-31f1ddbac1",
+      "year": 2025,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "details_file": "metadata/j-31f1ddbac1/2025/catalogue-reconciliation.json",
+      "input_main_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "raw_sha256": "e623a8e7dba83bcffe484216b9df7a05e4b71aae88a462de0f42bebb6b553bc6",
+      "raw_identities": [
+        {
+          "id": "10.1016/j.surfrep.2024.100646",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Advancements in secondary and backscattered electron energy spectra and yields analysis: From theory to applications",
+          "url": "https://doi.org/10.1016/j.surfrep.2024.100646"
+        },
+        {
+          "id": "10.1016/s0167-5729(25)00004-4",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Editorial Board",
+          "url": "https://doi.org/10.1016/s0167-5729(25)00004-4"
+        },
+        {
+          "id": "10.1016/j.surfrep.2025.100659",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Microscopic insights into the initial oxidation process of single crystalline platinum group metal surfaces: From subsurface oxygen, a ghost species, towards surface oxide",
+          "url": "https://doi.org/10.1016/j.surfrep.2025.100659"
+        },
+        {
+          "id": "10.1016/j.surfrep.2025.100660",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Recent advances of two-dimensional organic topological insulators: surface synthesis and characterization",
+          "url": "https://doi.org/10.1016/j.surfrep.2025.100660"
+        },
+        {
+          "id": "10.1016/j.surfrep.2025.100668",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Radical surface chemistry: Augmentation of reactivity by radicals at aqueous interfaces",
+          "url": "https://doi.org/10.1016/j.surfrep.2025.100668"
+        },
+        {
+          "id": "10.1016/s0167-5729(25)00012-3",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Editorial Board",
+          "url": "https://doi.org/10.1016/s0167-5729(25)00012-3"
+        },
+        {
+          "id": "10.1016/j.surfrep.2025.100669",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures",
+          "url": "https://doi.org/10.1016/j.surfrep.2025.100669"
+        },
+        {
+          "id": "10.1016/s0167-5729(25)00021-4",
+          "venue": "j-31f1ddbac1",
+          "year": 2025,
+          "title": "Editorial Board",
+          "url": "https://doi.org/10.1016/s0167-5729(25)00021-4"
+        }
+      ],
+      "additions": [],
+      "report": {
+        "source_code": "j-31f1ddbac1",
+        "year": 2025,
+        "owner": "李雪婷",
+        "snapshot_at": "2026-11-09T10:51:18+08:00",
+        "scope": "Complete official2025 volume80 all-document catalogue, all archive-listed issues and pagination checked; 8 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
+        "official_total": 8,
+        "normalized_count": 8,
+        "canonical_records": [
+          {
+            "id": "10.1016/s0167-5729(25)00004-4",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Editorial Board",
+            "url": "https://doi.org/10.1016/s0167-5729(25)00004-4"
+          },
+          {
+            "id": "10.1016/j.surfrep.2024.100646",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Advancements in secondary and backscattered electron energy spectra and yields analysis: From theory to applications",
+            "url": "https://doi.org/10.1016/j.surfrep.2024.100646"
+          },
+          {
+            "id": "10.1016/s0167-5729(25)00012-3",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Editorial Board",
+            "url": "https://doi.org/10.1016/s0167-5729(25)00012-3"
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100659",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Microscopic insights into the initial oxidation process of single crystalline platinum group metal surfaces: From subsurface oxygen, a ghost species, towards surface oxide",
+            "url": "https://doi.org/10.1016/j.surfrep.2025.100659"
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100660",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Recent advances of two-dimensional organic topological insulators: surface synthesis and characterization",
+            "url": "https://doi.org/10.1016/j.surfrep.2025.100660"
+          },
+          {
+            "id": "10.1016/s0167-5729(25)00021-4",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Editorial Board",
+            "url": "https://doi.org/10.1016/s0167-5729(25)00021-4"
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100668",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Radical surface chemistry: Augmentation of reactivity by radicals at aqueous interfaces",
+            "url": "https://doi.org/10.1016/j.surfrep.2025.100668"
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100669",
+            "venue": "j-31f1ddbac1",
+            "year": 2025,
+            "title": "Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures",
+            "url": "https://doi.org/10.1016/j.surfrep.2025.100669"
+          }
+        ],
+        "scope_exclusions": [],
+        "missing": [],
+        "extra": [],
+        "duplicates": 0,
+        "unresolved": [],
+        "official_to_raw_identity_matches": [
+          {
+            "id": "10.1016/s0167-5729(25)00004-4",
+            "doi": "10.1016/s0167-5729(25)00004-4",
+            "pii": "S0167572925000044",
+            "original_title": "Editorial Board",
+            "official_entry": {
+              "pii": "S0167572925000044",
+              "text": "select article Editorial Board\nEditorial boardFree access\nEditorial Board\nArticle 100656\nView PDF",
+              "title": "Editorial Board",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000044",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/1",
+              "document_type": "Editorial board"
+            }
+          },
+          {
+            "id": "10.1016/j.surfrep.2024.100646",
+            "doi": "10.1016/j.surfrep.2024.100646",
+            "pii": "S0167572924000256",
+            "original_title": "Advancements in secondary and backscattered electron energy spectra and yields analysis: From theory to applications",
+            "official_entry": {
+              "pii": "S0167572924000256",
+              "text": "select article Advancements in secondary and backscattered electron energy spectra and yields analysis: From theory to applications\nReview articleAbstract only\nAdvancements in secondary and backscattered electron energy spectra and yields analysis: From theory to applications\nSimone Taioli, Maurizio Dapor\nArticle 100646\nArticle preview",
+              "title": "Advancements in secondary and backscattered electron energy spectra and yields analysis: From theory to applications",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572924000256",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/s0167-5729(25)00012-3",
+            "doi": "10.1016/s0167-5729(25)00012-3",
+            "pii": "S0167572925000123",
+            "original_title": "Editorial Board",
+            "official_entry": {
+              "pii": "S0167572925000123",
+              "text": "select article Editorial Board\nEditorial boardFree access\nEditorial Board\nArticle 100664\nView PDF",
+              "title": "Editorial Board",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000123",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/2",
+              "document_type": "Editorial board"
+            }
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100659",
+            "doi": "10.1016/j.surfrep.2025.100659",
+            "pii": "S016757292500007X",
+            "original_title": "Microscopic insights into the initial oxidation process of single crystalline platinum group metal surfaces: From subsurface oxygen, a ghost species, towards surface oxide",
+            "official_entry": {
+              "pii": "S016757292500007X",
+              "text": "select article Microscopic insights into the initial oxidation process of single crystalline platinum group metal surfaces: From subsurface oxygen, a ghost species, towards surface oxide\nReview articleOpen access\nMicroscopic insights into the initial oxidation process of single crystalline platinum group metal surfaces: From subsurface oxygen, a ghost species, towards surface oxide\nHerbert Over\nArticle 100659\nView PDF\nArticle preview",
+              "title": "Microscopic insights into the initial oxidation process of single crystalline platinum group metal surfaces: From subsurface oxygen, a ghost species, towards surface oxide",
+              "url": "https://www.sciencedirect.com/science/article/pii/S016757292500007X",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100660",
+            "doi": "10.1016/j.surfrep.2025.100660",
+            "pii": "S0167572925000081",
+            "original_title": "Recent advances of two-dimensional organic topological insulators: surface synthesis and characterization",
+            "official_entry": {
+              "pii": "S0167572925000081",
+              "text": "select article Recent advances of two-dimensional organic topological insulators: surface synthesis and characterization\nReview articleAbstract only\nRecent advances of two-dimensional organic topological insulators: surface synthesis and characterization\nXingyue Wang, Jia Wang, Haoxuan Ding, Minghu Pan\nArticle 100660\nArticle preview",
+              "title": "Recent advances of two-dimensional organic topological insulators: surface synthesis and characterization",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000081",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/s0167-5729(25)00021-4",
+            "doi": "10.1016/s0167-5729(25)00021-4",
+            "pii": "S0167572925000214",
+            "original_title": "Editorial Board",
+            "official_entry": {
+              "pii": "S0167572925000214",
+              "text": "select article Editorial Board\nEditorial boardFree access\nEditorial Board\nArticle 100673\nView PDF",
+              "title": "Editorial Board",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000214",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4",
+              "document_type": "Editorial board"
+            }
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100668",
+            "doi": "10.1016/j.surfrep.2025.100668",
+            "pii": "S0167572925000160",
+            "original_title": "Radical surface chemistry: Augmentation of reactivity by radicals at aqueous interfaces",
+            "official_entry": {
+              "pii": "S0167572925000160",
+              "text": "select article Radical surface chemistry: Augmentation of reactivity by radicals at aqueous interfaces\nReview articleAbstract only\nRadical surface chemistry: Augmentation of reactivity by radicals at aqueous interfaces\nKurt W. Kolasinski\nArticle 100668\nArticle preview\nAbstract\nAbstract\n\nCooperativity and non-additive interactions play central roles in the unusual and surprising behavior of water. A host of reactive oxygen species (ROS) including the hydroxyl radical •OH, superoxide radical anion (O2−•), hydroperoxide radical (HO2•), singlet oxygen (1O2), and also the more recently discussed water radical cation/anion pair (H2O+•/H2O−•) all add to the more familiar acid/base chemical pathways tread by hydronium (H3O+) and hydroxide (OH−). This is amplified in surface science because interfacial water – whether found at the gas/liquid, gas/solid, or liquid/solid interface – poses yet more unique behavior. This review explores the unexpected chemistry associated with ambient temperature aqueous interfaces much of which is mediated not only by ions and neutrals as expected, but also radical species. Water microdroplets catalyze numerous reactions and can also support simultaneous oxidation and reduction reactions through the production of reactive intermediates that owe their existence to the unique influence of the air/water or oil/water interface. Interfacial water influences and is influenced by the ubiquitous phenomenon of contact electrification, a manifestation of spontaneous symmetry breaking. The mechanisms of chemistry not only on and in microdroplets but also at the gas/solid and liquid/solid interfaces rely on a broad set of chemical transformations mediated by radicals. Furthermore, because aqueous macro- and micro-interfaces are ubiquitous on Earth, we find that water radical-mediated chemistry has applications to atmospheric chemistry, geochemistry, mineral weathering, pre-biotic chemistry, enhanced enzyme performance, wastewater remediation, public health, mechanochemistry, and potentially novel routes to pharmaceuticals.",
+              "title": "Radical surface chemistry: Augmentation of reactivity by radicals at aqueous interfaces",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000160",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.surfrep.2025.100669",
+            "doi": "10.1016/j.surfrep.2025.100669",
+            "pii": "S0167572925000172",
+            "original_title": "Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures",
+            "official_entry": {
+              "pii": "S0167572925000172",
+              "text": "select article Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures\nReview articleOpen access\nSurface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures\nLejie Tian, Jianxi Liu, Christof Wöll\nArticle 100669\nView PDF\nArticle preview\nAbstract\nAbstract\n\nMetal–organic frameworks (MOFs) are crystalline materials renowned for their high porosity, chemical tunability, and modular design. The development of surface-anchored and oriented MOF thin films—particularly those fabricated by layer-by-layer or epitaxial growth—has shifted MOF research from powder studies to investigations of well-defined, surface-confined architectures. This review examines MOF thin films from a surface-science perspective, emphasizing how controlled growth at well-defined interfaces enables quantitative studies of structure–property relationships, interfacial charge and energy transfer, polarization-dependent optical responses, and dynamic guest–host interactions. The long-range crystallographic order achievable in these oriented films gives rise to band-structure effects and anisotropic transport phenomena that cannot be observed in MOF thin films prepared from powder-derived particles. Their monolithic and defect-controlled nature allows detailed characterization by advanced surface-sensitive techniques such as IRRAS, XPS, NEXAFS, UPS, nanoindentation, ellipsometry, and AFM, providing direct links between microscopic structure and macroscopic functionality. Beyond serving as model systems, oriented MOF films represent versatile platforms for adsorption, catalysis, and electronic coupling at hybrid organic–inorganic interfaces. The review also highlights how computational modeling, machine learning, and AI-guided synthesis accelerate the rational design of interface-engineered MOF architectures with tailored properties.",
+              "title": "Surface-anchored, oriented, monolithic Metal–Organic framework thin films: Surface and interface phenomena in crystalline MOF architectures",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0167572925000172",
+              "volume": "80",
+              "issue_url": "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4",
+              "document_type": "Review article"
+            }
+          }
+        ],
+        "checked_at": "2026-11-19T07:48:21.150404+00:00",
+        "evidence_files": [
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/ssr-archive.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/ssr-80-1.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/ssr-80-2.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/ssr-80-4.json"
+        ],
+        "complete_reference_doi_set_also_matches": true
+      }
+    },
+    "catalogue_reconciliation": {
+      "current_raw_count": 8,
+      "normalized_count": 8,
+      "same_scope_missing": 0,
+      "same_scope_extra": 0,
+      "same_scope_duplicate": 0,
+      "canonical_unresolved_missing": 0
+    },
+    "review_scope": {
+      "status": "current_candidates_and_verified_additions",
+      "checked_by": "李雪婷",
+      "checked_at": "2026-11-19T07:48:21.150404+00:00",
+      "candidate_file": "metadata/2025/ai4s.json",
+      "candidate_count": 1,
+      "candidate_ids_sha256": "99a425c5ca23049d5dacf768f51dd4d15557d95c3f65ddc9f30a4fa81b32639c",
+      "review_file": "reviews/2025/zch66883-lixueting.json",
+      "audit_file": "metadata/j-31f1ddbac1/2025/official-scope-audit-lixueting.json",
+      "scope_instruction": "Review all assigned2025 initial candidates and independently verified recall additions; final-scope candidate digest includes the verified additions."
+    },
+    "collection_state_resolution": {
+      "status": "resolved_for_candidate_review",
+      "original_state": "abstract_incomplete",
+      "reason": "full_audited_catalogue_candidates_complete",
+      "checked_by": "李雪婷",
+      "checked_at": "2026-11-19T07:48:21.150404+00:00",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/journal/surface-science-reports/issues",
+        "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/1",
+        "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/2",
+        "https://www.sciencedirect.com/journal/surface-science-reports/vol/80/issue/4"
+      ],
+      "scope": "Immutable historical full-catalogue abstract gap resolved for completed actual candidate review by full official per-PII catalogue proof; physical missing noncandidate abstracts retained."
+    }
+  },
+  {
+    "year": 2025,
+    "source_code": "j-1eb350782d",
+    "owner": "李雪婷",
+    "github_username": "zch66883-lixueting",
+    "snapshot_at": "2026-11-09T10:51:18+08:00",
+    "official_total": 31,
+    "official_scope": "Complete official2025 volume4 all-document catalogue, all archive-listed issues and pagination checked; 31 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
+    "coverage_note": "Official whole-year catalogue 31 unique PIIs exactly matches original raw31; 3 initial candidates plus1 independently verified recall additions. All candidates have complete original abstracts and final own decisions; noncandidate abstract gaps remain untouched.",
+    "evidence_urls": [
+      "https://www.sciencedirect.com/journal/energy-reviews/issues",
+      "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+      "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+      "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+      "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4"
+    ],
+    "candidate_count": 4,
+    "own_review_count": 4,
+    "own_review_counts": {
+      "include": 3,
+      "exclude": 1,
+      "pending": 0,
+      "unreviewed": 0
+    },
+    "review_counts": {
+      "include": 3,
+      "exclude": 1,
+      "pending": 0,
+      "unreviewed": 0
+    },
+    "work_status": "complete",
+    "source_complete": true,
+    "issues": [],
+    "next_actions": [],
+    "checked_at": "2026-11-19T07:48:21.150404+00:00",
+    "candidate_missing_abstracts_remaining": 0,
+    "catalogue_audit": {
+      "source_code": "j-1eb350782d",
+      "year": 2025,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "details_file": "metadata/j-1eb350782d/2025/catalogue-reconciliation.json",
+      "input_main_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "raw_sha256": "3c5f564faa16d4ae9636fc1b2f56cb4b7b042e53072b1613f57243afc6e501e4",
+      "raw_identities": [
+        {
+          "id": "10.1016/j.enrev.2024.100107",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Zwitterionic materials for aqueous Zn-based energy storage devices: Current developments and perspective",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100107"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100104",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Advanced microstructure characterization and microstructural evolution of porous cermet electrodes in solid oxide cells: A comprehensive review",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100104"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100105",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Progress in hydrazine oxidation-assisted hydrogen production",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100105"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100106",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "AI-driven development of high-performance solid-state hydrogen storage",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100106"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100109",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Electrochemical energy conversion and Storage Systems: A perspective on the challenges and opportunities for sustainable energy in Africa",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100109"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100110",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Facet engineering of semiconductors for boosting photo-charge separation in solar fuel production",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100110"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100108",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Metal-based mesoporous frameworks as high-performance platforms in energy storage and conversion",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100108"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100117",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Advances in safety of lithium-ion batteries for energy storage: Hazard characteristics and active suppression techniques",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100117"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100118",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Emerging trends in electrochemical energy storage: A focus on low-temperature pseudocapacitors",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100118"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100119",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Applications of electrospinning for fuel cell and electrolysis cell applications in hydrogen technologies",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100119"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100128",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "A mini-review on three-electrode configuration for Solid Oxide Cells",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100128"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100127",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Unlocking the potential of sepiolite: Designing high-performance energy storage materials",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100127"
+        },
+        {
+          "id": "10.1016/j.enrev.2024.100129",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Status and prospects of anode materials for efficient electrochemical ozone production",
+          "url": "https://doi.org/10.1016/j.enrev.2024.100129"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100130",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Progress and challenges on air-cooled open-cathode proton exchange membrane fuel cells: Materials, structures, and systems",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100130"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100132",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Materials and flow fields of bipolar plates in polymer electrolyte membrane water electrolysis: A review",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100132"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100131",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Blue hydrogen in the United Kingdom – A policy & environmental case study",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100131"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100139",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Applications of perovskite oxides for oxygen evolution and oxygen reduction reactions in alkaline media",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100139"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100140",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "An overview of the full-chain key technical features in offshore geological carbon sequestration",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100140"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100141",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Recent advances and future prospects in exsolution technology for solid oxide cells",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100141"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100149",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Design and materials of interconnect plates in planar solid oxide cell stacks: A review on degradation mitigation strategies",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100149"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100150",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Research progress on the poisoning behavior of air electrodes and corresponding protection strategies for protonic ceramic cells",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100150"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100151",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Efficiently coupling water electrolysis with solar PV for green hydrogen production",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100151"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100152",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Opportunities and challenges of latent thermal energy usage in the hydrogen economy",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100152"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100153",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Advances in reaction interface engineering for 3D hydrogel and aerogel derived electrodes in energy conversion devices",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100153"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100154",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "A comprehensive review of green hydrogen-based hybrid energy systems: Technologies, evaluation, and process safety",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100154"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100155",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "A comprehensive analysis of hydrogen production through electrolysis of industrial wastewater: Prospects and challenges",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100155"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100163",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Nanofabrication technologies for low-temperature solid oxide cells: a comprehensive review of techniques, challenges, and future perspectives",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100163"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100164",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Recent advances in wastewater treatment technologies: Innovations and new insights",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100164"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100165",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Multiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100165"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100166",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "High-entropy phosphate-based cathode materials for sodium-ion batteries: Multi-component doping design, enhancement mechanisms, and frontier challenges",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100166"
+        },
+        {
+          "id": "10.1016/j.enrev.2025.100173",
+          "venue": "j-1eb350782d",
+          "year": 2025,
+          "title": "Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems",
+          "url": "https://doi.org/10.1016/j.enrev.2025.100173"
+        }
+      ],
+      "additions": [],
+      "report": {
+        "source_code": "j-1eb350782d",
+        "year": 2025,
+        "owner": "李雪婷",
+        "snapshot_at": "2026-11-09T10:51:18+08:00",
+        "scope": "Complete official2025 volume4 all-document catalogue, all archive-listed issues and pagination checked; 31 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
+        "official_total": 31,
+        "normalized_count": 31,
+        "canonical_records": [
+          {
+            "id": "10.1016/j.enrev.2024.100105",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Progress in hydrazine oxidation-assisted hydrogen production",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100105"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100106",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "AI-driven development of high-performance solid-state hydrogen storage",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100106"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100107",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Zwitterionic materials for aqueous Zn-based energy storage devices: Current developments and perspective",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100107"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100109",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Electrochemical energy conversion and Storage Systems: A perspective on the challenges and opportunities for sustainable energy in Africa",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100109"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100110",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Facet engineering of semiconductors for boosting photo-charge separation in solar fuel production",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100110"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100104",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Advanced microstructure characterization and microstructural evolution of porous cermet electrodes in solid oxide cells: A comprehensive review",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100104"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100108",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Metal-based mesoporous frameworks as high-performance platforms in energy storage and conversion",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100108"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100117",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Advances in safety of lithium-ion batteries for energy storage: Hazard characteristics and active suppression techniques",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100117"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100118",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Emerging trends in electrochemical energy storage: A focus on low-temperature pseudocapacitors",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100118"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100119",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Applications of electrospinning for fuel cell and electrolysis cell applications in hydrogen technologies",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100119"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100128",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "A mini-review on three-electrode configuration for Solid Oxide Cells",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100128"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100127",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Unlocking the potential of sepiolite: Designing high-performance energy storage materials",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100127"
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100129",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Status and prospects of anode materials for efficient electrochemical ozone production",
+            "url": "https://doi.org/10.1016/j.enrev.2024.100129"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100130",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Progress and challenges on air-cooled open-cathode proton exchange membrane fuel cells: Materials, structures, and systems",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100130"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100132",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Materials and flow fields of bipolar plates in polymer electrolyte membrane water electrolysis: A review",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100132"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100131",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Blue hydrogen in the United Kingdom – A policy & environmental case study",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100131"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100139",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Applications of perovskite oxides for oxygen evolution and oxygen reduction reactions in alkaline media",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100139"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100140",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "An overview of the full-chain key technical features in offshore geological carbon sequestration",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100140"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100141",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Recent advances and future prospects in exsolution technology for solid oxide cells",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100141"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100149",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Design and materials of interconnect plates in planar solid oxide cell stacks: A review on degradation mitigation strategies",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100149"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100150",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Research progress on the poisoning behavior of air electrodes and corresponding protection strategies for protonic ceramic cells",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100150"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100151",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Efficiently coupling water electrolysis with solar PV for green hydrogen production",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100151"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100152",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Opportunities and challenges of latent thermal energy usage in the hydrogen economy",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100152"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100153",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Advances in reaction interface engineering for 3D hydrogel and aerogel derived electrodes in energy conversion devices",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100153"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100154",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "A comprehensive review of green hydrogen-based hybrid energy systems: Technologies, evaluation, and process safety",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100154"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100155",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "A comprehensive analysis of hydrogen production through electrolysis of industrial wastewater: Prospects and challenges",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100155"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100163",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Nanofabrication technologies for low-temperature solid oxide cells: a comprehensive review of techniques, challenges, and future perspectives",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100163"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100164",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Recent advances in wastewater treatment technologies: Innovations and new insights",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100164"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100165",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Multiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100165"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100166",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "High-entropy phosphate-based cathode materials for sodium-ion batteries: Multi-component doping design, enhancement mechanisms, and frontier challenges",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100166"
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100173",
+            "venue": "j-1eb350782d",
+            "year": 2025,
+            "title": "Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems",
+            "url": "https://doi.org/10.1016/j.enrev.2025.100173"
+          }
+        ],
+        "scope_exclusions": [],
+        "missing": [],
+        "extra": [],
+        "duplicates": 0,
+        "unresolved": [],
+        "official_to_raw_identity_matches": [
+          {
+            "id": "10.1016/j.enrev.2024.100105",
+            "doi": "10.1016/j.enrev.2024.100105",
+            "pii": "S2772970224000385",
+            "original_title": "Progress in hydrazine oxidation-assisted hydrogen production",
+            "official_entry": {
+              "pii": "S2772970224000385",
+              "text": "select article Progress in hydrazine oxidation-assisted hydrogen production\nReview articleOpen access\nProgress in hydrazine oxidation-assisted hydrogen production\nShaobo Li, Yuying Hou, Liangliang Jiang, Guang Feng, ... Zhiqi Huang\nArticle 100105\nView PDF\nArticle preview",
+              "title": "Progress in hydrazine oxidation-assisted hydrogen production",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000385",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100106",
+            "doi": "10.1016/j.enrev.2024.100106",
+            "pii": "S2772970224000397",
+            "original_title": "AI-driven development of high-performance solid-state hydrogen storage",
+            "official_entry": {
+              "pii": "S2772970224000397",
+              "text": "select article AI-driven development of high-performance solid-state hydrogen storage\nReview articleOpen access\nAI-driven development of high-performance solid-state hydrogen storage\nGuoqing Wang, Zongmin Luo, Halefom G. Desta, Mu Chen, ... Bin Lin\nArticle 100106\nView PDF\nArticle preview",
+              "title": "AI-driven development of high-performance solid-state hydrogen storage",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000397",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100107",
+            "doi": "10.1016/j.enrev.2024.100107",
+            "pii": "S2772970224000403",
+            "original_title": "Zwitterionic materials for aqueous Zn-based energy storage devices: Current developments and perspective",
+            "official_entry": {
+              "pii": "S2772970224000403",
+              "text": "select article Zwitterionic materials for aqueous Zn-based energy storage devices: Current developments and perspective\nShort communicationOpen access\nZwitterionic materials for aqueous Zn-based energy storage devices: Current developments and perspective\nHuaming Yu, Zhongqian He, Dongping Chen, Peidong Liu, ... Libao Chen\nArticle 100107\nView PDF\nArticle preview",
+              "title": "Zwitterionic materials for aqueous Zn-based energy storage devices: Current developments and perspective",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000403",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Short communication"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100109",
+            "doi": "10.1016/j.enrev.2024.100109",
+            "pii": "S2772970224000427",
+            "original_title": "Electrochemical energy conversion and Storage Systems: A perspective on the challenges and opportunities for sustainable energy in Africa",
+            "official_entry": {
+              "pii": "S2772970224000427",
+              "text": "select article Electrochemical energy conversion and Storage Systems: A perspective on the challenges and opportunities for sustainable energy in Africa\nReview articleOpen access\nElectrochemical energy conversion and Storage Systems: A perspective on the challenges and opportunities for sustainable energy in Africa\nIdris Temitope Bello, Lateef A. Jolaoso, Ridwan Adesoye Ahmed, Abdulhakeem Bello\nArticle 100109\nView PDF\nArticle preview",
+              "title": "Electrochemical energy conversion and Storage Systems: A perspective on the challenges and opportunities for sustainable energy in Africa",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000427",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100110",
+            "doi": "10.1016/j.enrev.2024.100110",
+            "pii": "S2772970224000439",
+            "original_title": "Facet engineering of semiconductors for boosting photo-charge separation in solar fuel production",
+            "official_entry": {
+              "pii": "S2772970224000439",
+              "text": "select article Facet engineering of semiconductors for boosting photo-charge separation in solar fuel production\nShort communicationOpen access\nFacet engineering of semiconductors for boosting photo-charge separation in solar fuel production\nTian Liu, Lu Liu, Zhi-Yan Guo, Dong-Feng Liu, ... Wen-Wei Li\nArticle 100110\nView PDF\nArticle preview",
+              "title": "Facet engineering of semiconductors for boosting photo-charge separation in solar fuel production",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000439",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Short communication"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100104",
+            "doi": "10.1016/j.enrev.2024.100104",
+            "pii": "S2772970224000373",
+            "original_title": "Advanced microstructure characterization and microstructural evolution of porous cermet electrodes in solid oxide cells: A comprehensive review",
+            "official_entry": {
+              "pii": "S2772970224000373",
+              "text": "select article Advanced microstructure characterization and microstructural evolution of porous cermet electrodes in solid oxide cells: A comprehensive review\nReview articleOpen access\nAdvanced microstructure characterization and microstructural evolution of porous cermet electrodes in solid oxide cells: A comprehensive review\nWenyue Yang, Zehua Pan, Zhenjun Jiao, Zheng Zhong, Ryan O'Hayre\nArticle 100104\nView PDF\nArticle preview",
+              "title": "Advanced microstructure characterization and microstructural evolution of porous cermet electrodes in solid oxide cells: A comprehensive review",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000373",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100108",
+            "doi": "10.1016/j.enrev.2024.100108",
+            "pii": "S2772970224000415",
+            "original_title": "Metal-based mesoporous frameworks as high-performance platforms in energy storage and conversion",
+            "official_entry": {
+              "pii": "S2772970224000415",
+              "text": "select article Metal-based mesoporous frameworks as high-performance platforms in energy storage and conversion\nReview articleOpen access\nMetal-based mesoporous frameworks as high-performance platforms in energy storage and conversion\nRongyao Li, Xu Wen, Yuqi Zhao, Sicheng Fan, ... Kun Lan\nArticle 100108\nView PDF\nArticle preview",
+              "title": "Metal-based mesoporous frameworks as high-performance platforms in energy storage and conversion",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000415",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100117",
+            "doi": "10.1016/j.enrev.2024.100117",
+            "pii": "S2772970224000506",
+            "original_title": "Advances in safety of lithium-ion batteries for energy storage: Hazard characteristics and active suppression techniques",
+            "official_entry": {
+              "pii": "S2772970224000506",
+              "text": "select article Advances in safety of lithium-ion batteries for energy storage: Hazard characteristics and active suppression techniques\nReview articleOpen access\nAdvances in safety of lithium-ion batteries for energy storage: Hazard characteristics and active suppression techniques\nYan Wang, Tianmin Yu, Jie Chen, Baobin Gao, ... Jiateng Zhu\nArticle 100117\nView PDF\nArticle preview",
+              "title": "Advances in safety of lithium-ion batteries for energy storage: Hazard characteristics and active suppression techniques",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000506",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100118",
+            "doi": "10.1016/j.enrev.2024.100118",
+            "pii": "S2772970224000518",
+            "original_title": "Emerging trends in electrochemical energy storage: A focus on low-temperature pseudocapacitors",
+            "official_entry": {
+              "pii": "S2772970224000518",
+              "text": "select article Emerging trends in electrochemical energy storage: A focus on low-temperature pseudocapacitors\nReview articleOpen access\nEmerging trends in electrochemical energy storage: A focus on low-temperature pseudocapacitors\nZiyang Zhu, Yu Liu, Hualiang Zhang, Yujie Xu, ... Haisheng Chen\nArticle 100118\nView PDF\nArticle preview",
+              "title": "Emerging trends in electrochemical energy storage: A focus on low-temperature pseudocapacitors",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000518",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100119",
+            "doi": "10.1016/j.enrev.2024.100119",
+            "pii": "S277297022400052X",
+            "original_title": "Applications of electrospinning for fuel cell and electrolysis cell applications in hydrogen technologies",
+            "official_entry": {
+              "pii": "S277297022400052X",
+              "text": "select article Applications of electrospinning for fuel cell and electrolysis cell applications in hydrogen technologies\nReview articleOpen access\nApplications of electrospinning for fuel cell and electrolysis cell applications in hydrogen technologies\nAntara Sarkar, Jerome Michael Bidu, Jagannath Panda, Young Je Kwon, ... Jun Young Cheong\nArticle 100119\nView PDF\nArticle preview",
+              "title": "Applications of electrospinning for fuel cell and electrolysis cell applications in hydrogen technologies",
+              "url": "https://www.sciencedirect.com/science/article/pii/S277297022400052X",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/1",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100128",
+            "doi": "10.1016/j.enrev.2024.100128",
+            "pii": "S2772970224000610",
+            "original_title": "A mini-review on three-electrode configuration for Solid Oxide Cells",
+            "official_entry": {
+              "pii": "S2772970224000610",
+              "text": "select article A mini-review on three-electrode configuration for Solid Oxide Cells\nShort communicationOpen access\nA mini-review on three-electrode configuration for Solid Oxide Cells\nJing Zhu, Bin Chen, Meng Ni, Haoran Xu\nArticle 100128\nView PDF\nArticle preview",
+              "title": "A mini-review on three-electrode configuration for Solid Oxide Cells",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000610",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Short communication"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100127",
+            "doi": "10.1016/j.enrev.2024.100127",
+            "pii": "S2772970224000609",
+            "original_title": "Unlocking the potential of sepiolite: Designing high-performance energy storage materials",
+            "official_entry": {
+              "pii": "S2772970224000609",
+              "text": "select article Unlocking the potential of sepiolite: Designing high-performance energy storage materials\nReview articleOpen access\nUnlocking the potential of sepiolite: Designing high-performance energy storage materials\nYanhuai Ding, Yizhi Jiang, Dongzhao Jin, Yunhong Jiang, Ana C.S. Alcântara\nArticle 100127\nView PDF\nArticle preview",
+              "title": "Unlocking the potential of sepiolite: Designing high-performance energy storage materials",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000609",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2024.100129",
+            "doi": "10.1016/j.enrev.2024.100129",
+            "pii": "S2772970224000622",
+            "original_title": "Status and prospects of anode materials for efficient electrochemical ozone production",
+            "official_entry": {
+              "pii": "S2772970224000622",
+              "text": "select article Status and prospects of anode materials for efficient electrochemical ozone production\nReview articleOpen access\nStatus and prospects of anode materials for efficient electrochemical ozone production\nXiuyue Wang, Ye Yuan, Zheyuan Ding, Junna Yang, ... Mingbo Wu\nArticle 100129\nView PDF\nArticle preview",
+              "title": "Status and prospects of anode materials for efficient electrochemical ozone production",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970224000622",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100130",
+            "doi": "10.1016/j.enrev.2025.100130",
+            "pii": "S277297022500001X",
+            "original_title": "Progress and challenges on air-cooled open-cathode proton exchange membrane fuel cells: Materials, structures, and systems",
+            "official_entry": {
+              "pii": "S277297022500001X",
+              "text": "select article Progress and challenges on air-cooled open-cathode proton exchange membrane fuel cells: Materials, structures, and systems\nReview articleOpen access\nProgress and challenges on air-cooled open-cathode proton exchange membrane fuel cells: Materials, structures, and systems\nXiaoyu Wu, Shuang Xing, Jun Luo, Haijiang Wang, ... Chen Zhao\nArticle 100130\nView PDF\nArticle preview",
+              "title": "Progress and challenges on air-cooled open-cathode proton exchange membrane fuel cells: Materials, structures, and systems",
+              "url": "https://www.sciencedirect.com/science/article/pii/S277297022500001X",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100132",
+            "doi": "10.1016/j.enrev.2025.100132",
+            "pii": "S2772970225000033",
+            "original_title": "Materials and flow fields of bipolar plates in polymer electrolyte membrane water electrolysis: A review",
+            "official_entry": {
+              "pii": "S2772970225000033",
+              "text": "select article Materials and flow fields of bipolar plates in polymer electrolyte membrane water electrolysis: A review\nShort communicationOpen access\nMaterials and flow fields of bipolar plates in polymer electrolyte membrane water electrolysis: A review\nYulin Wang, Zhenyu Wang, Jianan Qiao, Hua Li, ... Meimei Wang\nArticle 100132\nView PDF\nArticle preview",
+              "title": "Materials and flow fields of bipolar plates in polymer electrolyte membrane water electrolysis: A review",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000033",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Short communication"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100131",
+            "doi": "10.1016/j.enrev.2025.100131",
+            "pii": "S2772970225000021",
+            "original_title": "Blue hydrogen in the United Kingdom – A policy & environmental case study",
+            "official_entry": {
+              "pii": "S2772970225000021",
+              "text": "select article Blue hydrogen in the United Kingdom – A policy & environmental case study\nReview articleOpen access\nBlue hydrogen in the United Kingdom – A policy & environmental case study\nAlexander Oburoh, Adekunle Oke, James Njuguna, Muhammad Younas\nArticle 100131\nView PDF\nArticle preview",
+              "title": "Blue hydrogen in the United Kingdom – A policy & environmental case study",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000021",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100139",
+            "doi": "10.1016/j.enrev.2025.100139",
+            "pii": "S2772970225000100",
+            "original_title": "Applications of perovskite oxides for oxygen evolution and oxygen reduction reactions in alkaline media",
+            "official_entry": {
+              "pii": "S2772970225000100",
+              "text": "select article Applications of perovskite oxides for oxygen evolution and oxygen reduction reactions in alkaline media\nReview articleOpen access\nApplications of perovskite oxides for oxygen evolution and oxygen reduction reactions in alkaline media\nHuimin Wang, Junfang Cheng, Hao Chen, Xinyi Li, ... Junliang Zhang\nArticle 100139\nView PDF\nArticle preview",
+              "title": "Applications of perovskite oxides for oxygen evolution and oxygen reduction reactions in alkaline media",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000100",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100140",
+            "doi": "10.1016/j.enrev.2025.100140",
+            "pii": "S2772970225000112",
+            "original_title": "An overview of the full-chain key technical features in offshore geological carbon sequestration",
+            "official_entry": {
+              "pii": "S2772970225000112",
+              "text": "select article An overview of the full-chain key technical features in offshore geological carbon sequestration\nReview articleOpen access\nAn overview of the full-chain key technical features in offshore geological carbon sequestration\nYing Teng, Yiqi Chen, Pengfei Wang, Senyou An, ... Jianbo Zhu\nArticle 100140\nView PDF\nArticle preview",
+              "title": "An overview of the full-chain key technical features in offshore geological carbon sequestration",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000112",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100141",
+            "doi": "10.1016/j.enrev.2025.100141",
+            "pii": "S2772970225000124",
+            "original_title": "Recent advances and future prospects in exsolution technology for solid oxide cells",
+            "official_entry": {
+              "pii": "S2772970225000124",
+              "text": "select article Recent advances and future prospects in exsolution technology for solid oxide cells\nReview articleOpen access\nRecent advances and future prospects in exsolution technology for solid oxide cells\nFeng Hu, Bo Wei, Beibei He, Xinxin Yu, ... Qi Chen\nArticle 100141\nView PDF\nArticle preview",
+              "title": "Recent advances and future prospects in exsolution technology for solid oxide cells",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000124",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100149",
+            "doi": "10.1016/j.enrev.2025.100149",
+            "pii": "S2772970225000203",
+            "original_title": "Design and materials of interconnect plates in planar solid oxide cell stacks: A review on degradation mitigation strategies",
+            "official_entry": {
+              "pii": "S2772970225000203",
+              "text": "select article Design and materials of interconnect plates in planar solid oxide cell stacks: A review on degradation mitigation strategies\nReview articleOpen access\nDesign and materials of interconnect plates in planar solid oxide cell stacks: A review on degradation mitigation strategies\nGonzalo Jiménez-Martín, Miguel Fantova, Alba Acevedo Fernández, Paula Ciaurriz, ... Iñigo Garbayo\nArticle 100149\nView PDF\nArticle preview",
+              "title": "Design and materials of interconnect plates in planar solid oxide cell stacks: A review on degradation mitigation strategies",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000203",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100150",
+            "doi": "10.1016/j.enrev.2025.100150",
+            "pii": "S2772970225000215",
+            "original_title": "Research progress on the poisoning behavior of air electrodes and corresponding protection strategies for protonic ceramic cells",
+            "official_entry": {
+              "pii": "S2772970225000215",
+              "text": "select article Research progress on the poisoning behavior of air electrodes and corresponding protection strategies for protonic ceramic cells\nReview articleOpen access\nResearch progress on the poisoning behavior of air electrodes and corresponding protection strategies for protonic ceramic cells\nPeng Qiu, Hao Lin, Zhiwei Peng, Huiying Qi, ... Yanru Yang\nArticle 100150\nView PDF\nArticle preview",
+              "title": "Research progress on the poisoning behavior of air electrodes and corresponding protection strategies for protonic ceramic cells",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000215",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100151",
+            "doi": "10.1016/j.enrev.2025.100151",
+            "pii": "S2772970225000227",
+            "original_title": "Efficiently coupling water electrolysis with solar PV for green hydrogen production",
+            "official_entry": {
+              "pii": "S2772970225000227",
+              "text": "select article Efficiently coupling water electrolysis with solar PV for green hydrogen production\nReview articleOpen access\nEfficiently coupling water electrolysis with solar PV for green hydrogen production\nChi Zhang, Xinchang Yuan, Hao Fei, Min Ju, ... Jian Wang\nArticle 100151\nView PDF\nArticle preview",
+              "title": "Efficiently coupling water electrolysis with solar PV for green hydrogen production",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000227",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100152",
+            "doi": "10.1016/j.enrev.2025.100152",
+            "pii": "S2772970225000239",
+            "original_title": "Opportunities and challenges of latent thermal energy usage in the hydrogen economy",
+            "official_entry": {
+              "pii": "S2772970225000239",
+              "text": "select article Opportunities and challenges of latent thermal energy usage in the hydrogen economy\nReview articleOpen access\nOpportunities and challenges of latent thermal energy usage in the hydrogen economy\nMichael Opolot, Javier Ruiz Ramírez, Chunrong Zhao\nArticle 100152\nView PDF\nArticle preview",
+              "title": "Opportunities and challenges of latent thermal energy usage in the hydrogen economy",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000239",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100153",
+            "doi": "10.1016/j.enrev.2025.100153",
+            "pii": "S2772970225000240",
+            "original_title": "Advances in reaction interface engineering for 3D hydrogel and aerogel derived electrodes in energy conversion devices",
+            "official_entry": {
+              "pii": "S2772970225000240",
+              "text": "select article Advances in reaction interface engineering for 3D hydrogel and aerogel derived electrodes in energy conversion devices\nReview articleOpen access\nAdvances in reaction interface engineering for 3D hydrogel and aerogel derived electrodes in energy conversion devices\nJiayi Tang, Xiaomin Xu, Zijun Fang, Zongping Shao\nArticle 100153\nView PDF\nArticle preview",
+              "title": "Advances in reaction interface engineering for 3D hydrogel and aerogel derived electrodes in energy conversion devices",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000240",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100154",
+            "doi": "10.1016/j.enrev.2025.100154",
+            "pii": "S2772970225000252",
+            "original_title": "A comprehensive review of green hydrogen-based hybrid energy systems: Technologies, evaluation, and process safety",
+            "official_entry": {
+              "pii": "S2772970225000252",
+              "text": "select article A comprehensive review of green hydrogen-based hybrid energy systems: Technologies, evaluation, and process safety\nReview articleOpen access\nA comprehensive review of green hydrogen-based hybrid energy systems: Technologies, evaluation, and process safety\nMuhammad Danish, Saira Kanwal, Usama Perwez, Syed Haris Iftikhar, ... Khalid Askar\nArticle 100154\nView PDF\nArticle preview",
+              "title": "A comprehensive review of green hydrogen-based hybrid energy systems: Technologies, evaluation, and process safety",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000252",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100155",
+            "doi": "10.1016/j.enrev.2025.100155",
+            "pii": "S2772970225000264",
+            "original_title": "A comprehensive analysis of hydrogen production through electrolysis of industrial wastewater: Prospects and challenges",
+            "official_entry": {
+              "pii": "S2772970225000264",
+              "text": "select article A comprehensive analysis of hydrogen production through electrolysis of industrial wastewater: Prospects and challenges\nReview articleOpen access\nA comprehensive analysis of hydrogen production through electrolysis of industrial wastewater: Prospects and challenges\nHasan Muhommod Robin, Hemal Naha, Md. Sanowar Hossain, Sk. Mashadul Islam Rafi, ... Monjur Mourshed\nArticle 100155\nView PDF\nArticle preview",
+              "title": "A comprehensive analysis of hydrogen production through electrolysis of industrial wastewater: Prospects and challenges",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000264",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100163",
+            "doi": "10.1016/j.enrev.2025.100163",
+            "pii": "S2772970225000343",
+            "original_title": "Nanofabrication technologies for low-temperature solid oxide cells: a comprehensive review of techniques, challenges, and future perspectives",
+            "official_entry": {
+              "pii": "S2772970225000343",
+              "text": "select article Nanofabrication technologies for low-temperature solid oxide cells: a comprehensive review of techniques, challenges, and future perspectives\nReview articleOpen access\nNanofabrication technologies for low-temperature solid oxide cells: a comprehensive review of techniques, challenges, and future perspectives\nTengpeng Wang, Qiuning Li, Xiangcheng Liu, Muhammad Bilal, ... Huanting Wang\nArticle 100163\nView PDF\nArticle preview",
+              "title": "Nanofabrication technologies for low-temperature solid oxide cells: a comprehensive review of techniques, challenges, and future perspectives",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000343",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100164",
+            "doi": "10.1016/j.enrev.2025.100164",
+            "pii": "S2772970225000355",
+            "original_title": "Recent advances in wastewater treatment technologies: Innovations and new insights",
+            "official_entry": {
+              "pii": "S2772970225000355",
+              "text": "select article Recent advances in wastewater treatment technologies: Innovations and new insights\nReview articleOpen access\nRecent advances in wastewater treatment technologies: Innovations and new insights\nAbabay Ketema Worku, Delele Worku Ayele, Minbale Admas Teshager, Mohamed Omar, ... Molla Asmare Alemu\nArticle 100164\nView PDF\nArticle preview",
+              "title": "Recent advances in wastewater treatment technologies: Innovations and new insights",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000355",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100165",
+            "doi": "10.1016/j.enrev.2025.100165",
+            "pii": "S2772970225000367",
+            "original_title": "Multiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights",
+            "official_entry": {
+              "pii": "S2772970225000367",
+              "text": "select article Multiscale engineering of BaZr<sub>1-x</sub>Y<sub>x</sub>O<sub>3-δ</sub> -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights\nReview articleOpen access\nMultiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights\nIdris Temitope Bello, Saroj Karki, Shuanglin Zheng, Jiufeng Ruan, ... Hanping Ding\nArticle 100165\nView PDF\nArticle preview",
+              "title": "Multiscale engineering of BaZr1-xYxO3-δ -based protonic ceramics: A critical review of defect chemistry, interface design, and computational insights",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000367",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100166",
+            "doi": "10.1016/j.enrev.2025.100166",
+            "pii": "S2772970225000379",
+            "original_title": "High-entropy phosphate-based cathode materials for sodium-ion batteries: Multi-component doping design, enhancement mechanisms, and frontier challenges",
+            "official_entry": {
+              "pii": "S2772970225000379",
+              "text": "select article High-entropy phosphate-based cathode materials for sodium-ion batteries: Multi-component doping design, enhancement mechanisms, and frontier challenges\nReview articleOpen access\nHigh-entropy phosphate-based cathode materials for sodium-ion batteries: Multi-component doping design, enhancement mechanisms, and frontier challenges\nLi Zhang, Shaojie Qin, Xianrui Wu, Yiyong Zhang, ... Yingjie Zhang\nArticle 100166\nView PDF\nArticle preview",
+              "title": "High-entropy phosphate-based cathode materials for sodium-ion batteries: Multi-component doping design, enhancement mechanisms, and frontier challenges",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000379",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.enrev.2025.100173",
+            "doi": "10.1016/j.enrev.2025.100173",
+            "pii": "S2772970225000446",
+            "original_title": "Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems",
+            "official_entry": {
+              "pii": "S2772970225000446",
+              "text": "select article Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems\nReview articleOpen access\nShifting the electrocatalysis paradigm: from transition metals to main group elements-based systems\nYundong Qian, Guangkai Lu, Haotian Tan, Wenxue Chen, ... Xiaoyuan Zeng\nArticle 100173\nView PDF\nArticle preview",
+              "title": "Shifting the electrocatalysis paradigm: from transition metals to main group elements-based systems",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772970225000446",
+              "volume": "4",
+              "issue_url": "https://www.sciencedirect.com/journal/energy-reviews/vol/4/issue/4",
+              "document_type": "Review article"
+            }
+          }
+        ],
+        "checked_at": "2026-11-19T07:48:21.150404+00:00",
+        "evidence_files": [
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/energy-reviews-archive.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/energy-reviews-4-issue-1.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/energy-reviews-4-issue-2.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/energy-reviews-4-issue-3.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/energy-reviews-4-issue-4.json"
+        ],
+        "complete_reference_doi_set_also_matches": true
+      }
+    },
+    "catalogue_reconciliation": {
+      "current_raw_count": 31,
+      "normalized_count": 31,
+      "same_scope_missing": 0,
+      "same_scope_extra": 0,
+      "same_scope_duplicate": 0,
+      "canonical_unresolved_missing": 0
+    },
+    "review_scope": {
+      "status": "current_candidates_and_verified_additions",
+      "checked_by": "李雪婷",
+      "checked_at": "2026-11-19T07:48:21.150404+00:00",
+      "candidate_file": "metadata/2025/ai4s.json",
+      "candidate_count": 4,
+      "candidate_ids_sha256": "f76c956252f764580a39648bcdda97cc2aa13d290b06d2258603574a11d9b454",
+      "review_file": "reviews/2025/zch66883-lixueting.json",
+      "audit_file": "metadata/j-1eb350782d/2025/official-scope-audit-lixueting.json",
+      "scope_instruction": "Review all assigned2025 initial candidates and independently verified recall additions; final-scope candidate digest includes the verified additions."
+    }
+  },
+  {
+    "year": 2025,
+    "source_code": "j-d49438c2b7",
+    "owner": "李雪婷",
+    "github_username": "zch66883-lixueting",
+    "snapshot_at": "2026-11-09T10:51:18+08:00",
+    "official_total": 26,
+    "official_scope": "Complete official2025 volume3 all-document catalogue, all archive-listed issues and pagination checked; 26 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
+    "coverage_note": "Official whole-year catalogue 26 unique PIIs exactly matches original raw26; 3 initial candidates plus5 independently verified recall additions. All candidates have complete original abstracts and final own decisions; noncandidate abstract gaps remain untouched.",
+    "evidence_urls": [
+      "https://www.sciencedirect.com/journal/green-energy-and-resources/issues",
+      "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+      "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+      "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+      "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/4"
+    ],
+    "candidate_count": 8,
+    "own_review_count": 8,
+    "own_review_counts": {
+      "include": 8,
+      "exclude": 0,
+      "pending": 0,
+      "unreviewed": 0
+    },
+    "review_counts": {
+      "include": 8,
+      "exclude": 0,
+      "pending": 0,
+      "unreviewed": 0
+    },
+    "work_status": "complete",
+    "source_complete": true,
+    "issues": [],
+    "next_actions": [],
+    "checked_at": "2026-11-19T07:48:21.150404+00:00",
+    "candidate_missing_abstracts_remaining": 0,
+    "catalogue_audit": {
+      "source_code": "j-d49438c2b7",
+      "year": 2025,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "details_file": "metadata/j-d49438c2b7/2025/catalogue-reconciliation.json",
+      "input_main_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "raw_sha256": "5ee3bbdf890991124dbc35e3ce7edd652503eab13d7ed5fb1a3eede1c78e5e41",
+      "raw_identities": [
+        {
+          "id": "10.1016/j.gerr.2024.100074",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Exploring the relationship between climate change, air pollutants and human health: Impacts, adaptation, and mitigation strategies",
+          "url": "https://doi.org/10.1016/j.gerr.2024.100074"
+        },
+        {
+          "id": "10.1016/j.gerr.2024.100113",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Potentials and effects of electricity cogeneration via ORC integration in small-scale biomass district heating system",
+          "url": "https://doi.org/10.1016/j.gerr.2024.100113"
+        },
+        {
+          "id": "10.1016/j.gerr.2024.100112",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes",
+          "url": "https://doi.org/10.1016/j.gerr.2024.100112"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100114",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Parametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100114"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100115",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Using machine learning methods for long-term technical and economic evaluation of wind power plants",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100115"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100120",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Comparative analysis and normalization of single-hole vs. multi-hole spray characteristics: 1st report on spray characteristic comparison",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100120"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100119",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100119"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100118",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Solar dryers: A review of mechanism, methods and critical analysis of transport models applicable in solar drying of product",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100118"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100127",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Dynamic process of hydrogen flow and spontaneous combustion in tubes featuring different configurations after leakage from 35 and 70 MPa",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100127"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100117",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Corrigendum to ‘Exploring the landscape of machine learning-aided research in biofuels and biodiesel: A bibliometric analysis’ [Green Energy Res. 2 (2024) 100089]",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100117"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100128",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100128"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100131",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Microbial biomass conversion for hydrogen production: A review",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100131"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100129",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Flame acceleration in unconfined lean hydrogen-oxygen mixtures using a hemispherical soap bubble method",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100129"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100130",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100130"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100132",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100132"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100133",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "ZnCl2-activated S/N-doped biochar for low-temperature NH3-SCR of NOx: Performance and pathway analysis",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100133"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100140",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Study on preparation technology and properties of calcium based CO2 absorbent from acid leaching steel slag",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100140"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100142",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Study on the influence of rice straw ash cement mortar finish on the temperature pattern of sunning water pool in cold regions",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100142"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100141",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100141"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100144",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Editorial: AI-driven green revolution",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100144"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100143",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Insight into the occurrence relationships between Pb, As, Zn and Cr with minerals phases in the coal gangue: A novel quantitative dissociation method",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100143"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100152",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Accounting the life cycle carbon footprint for TOD project: An example from the China SH TOD project",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100152"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100151",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Methane hydrate formation using high gravity equipment: A new method for recovery of associated gas in offshore oilfields",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100151"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100153",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "A review on comprehensive strategies for decarbonizing bioethanol production process",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100153"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100154",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Review of carbon capture and conversion with reactive magnesia cement materials",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100154"
+        },
+        {
+          "id": "10.1016/j.gerr.2025.100155",
+          "venue": "j-d49438c2b7",
+          "year": 2025,
+          "title": "Experimental verification of electrode activation for improved performance in vanadium redox flow batteries",
+          "url": "https://doi.org/10.1016/j.gerr.2025.100155"
+        }
+      ],
+      "additions": [],
+      "report": {
+        "source_code": "j-d49438c2b7",
+        "year": 2025,
+        "owner": "李雪婷",
+        "snapshot_at": "2026-11-09T10:51:18+08:00",
+        "scope": "Complete official2025 volume3 all-document catalogue, all archive-listed issues and pagination checked; 26 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
+        "official_total": 26,
+        "normalized_count": 26,
+        "canonical_records": [
+          {
+            "id": "10.1016/j.gerr.2024.100113",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Potentials and effects of electricity cogeneration via ORC integration in small-scale biomass district heating system",
+            "url": "https://doi.org/10.1016/j.gerr.2024.100113"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100119",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100119"
+          },
+          {
+            "id": "10.1016/j.gerr.2024.100112",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes",
+            "url": "https://doi.org/10.1016/j.gerr.2024.100112"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100114",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Parametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100114"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100115",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Using machine learning methods for long-term technical and economic evaluation of wind power plants",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100115"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100120",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Comparative analysis and normalization of single-hole vs. multi-hole spray characteristics: 1st report on spray characteristic comparison",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100120"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100118",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Solar dryers: A review of mechanism, methods and critical analysis of transport models applicable in solar drying of product",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100118"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100127",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Dynamic process of hydrogen flow and spontaneous combustion in tubes featuring different configurations after leakage from 35 and 70 MPa",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100127"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100129",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Flame acceleration in unconfined lean hydrogen-oxygen mixtures using a hemispherical soap bubble method",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100129"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100128",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100128"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100132",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100132"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100133",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "ZnCl2-activated S/N-doped biochar for low-temperature NH3-SCR of NOx: Performance and pathway analysis",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100133"
+          },
+          {
+            "id": "10.1016/j.gerr.2024.100074",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Exploring the relationship between climate change, air pollutants and human health: Impacts, adaptation, and mitigation strategies",
+            "url": "https://doi.org/10.1016/j.gerr.2024.100074"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100117",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Corrigendum to ‘Exploring the landscape of machine learning-aided research in biofuels and biodiesel: A bibliometric analysis’ [Green Energy Res. 2 (2024) 100089]",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100117"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100140",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Study on preparation technology and properties of calcium based CO2 absorbent from acid leaching steel slag",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100140"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100131",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Microbial biomass conversion for hydrogen production: A review",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100131"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100142",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Study on the influence of rice straw ash cement mortar finish on the temperature pattern of sunning water pool in cold regions",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100142"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100143",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Insight into the occurrence relationships between Pb, As, Zn and Cr with minerals phases in the coal gangue: A novel quantitative dissociation method",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100143"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100144",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Editorial: AI-driven green revolution",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100144"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100141",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100141"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100130",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100130"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100153",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "A review on comprehensive strategies for decarbonizing bioethanol production process",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100153"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100154",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Review of carbon capture and conversion with reactive magnesia cement materials",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100154"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100151",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Methane hydrate formation using high gravity equipment: A new method for recovery of associated gas in offshore oilfields",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100151"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100152",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Accounting the life cycle carbon footprint for TOD project: An example from the China SH TOD project",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100152"
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100155",
+            "venue": "j-d49438c2b7",
+            "year": 2025,
+            "title": "Experimental verification of electrode activation for improved performance in vanadium redox flow batteries",
+            "url": "https://doi.org/10.1016/j.gerr.2025.100155"
+          }
+        ],
+        "scope_exclusions": [],
+        "missing": [],
+        "extra": [],
+        "duplicates": 0,
+        "unresolved": [],
+        "official_to_raw_identity_matches": [
+          {
+            "id": "10.1016/j.gerr.2024.100113",
+            "doi": "10.1016/j.gerr.2024.100113",
+            "pii": "S2949720524000675",
+            "original_title": "Potentials and effects of electricity cogeneration via ORC integration in small-scale biomass district heating system",
+            "official_entry": {
+              "pii": "S2949720524000675",
+              "text": "select article Potentials and effects of electricity cogeneration via ORC integration in small-scale biomass district heating system\nResearch articleOpen access\nPotentials and effects of electricity cogeneration via ORC integration in small-scale biomass district heating system\nTruong Nguyen, Leteng Lin\nArticle 100113\nView PDF\nArticle preview",
+              "title": "Potentials and effects of electricity cogeneration via ORC integration in small-scale biomass district heating system",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720524000675",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100119",
+            "doi": "10.1016/j.gerr.2025.100119",
+            "pii": "S2949720525000062",
+            "original_title": "Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment",
+            "official_entry": {
+              "pii": "S2949720525000062",
+              "text": "select article Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment\nResearch articleOpen access\nEnhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment\nOluwatobi Adeleke, Obafemi O. Olatunji, Tien-Chien Jen, Iretioluwa Olawuyi\nArticle 100119\nView PDF\nArticle preview",
+              "title": "Enhanced prediction of heating value of municipal solid waste using hybrid neuro-fuzzy model and decision tree-based feature importance assessment",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000062",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2024.100112",
+            "doi": "10.1016/j.gerr.2024.100112",
+            "pii": "S2949720524000663",
+            "original_title": "Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes",
+            "official_entry": {
+              "pii": "S2949720524000663",
+              "text": "select article Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes\nResearch articleOpen access\nOptimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes\nKelly Joel Gurubel Tun, Elizabeth León-Becerril, Octavio García-Depraect\nArticle 100112\nView PDF\nArticle preview",
+              "title": "Optimal control strategy based on artificial intelligence applied to a continuous dark fermentation reactor for energy recovery from organic wastes",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720524000663",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100114",
+            "doi": "10.1016/j.gerr.2025.100114",
+            "pii": "S2949720525000013",
+            "original_title": "Parametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation",
+            "official_entry": {
+              "pii": "S2949720525000013",
+              "text": "select article Parametric study of the decomposition of methane for CO<sub>x</sub>-free H<sub>2</sub> and high valued carbon using Ni-based catalyst via machine-learning simulation\nResearch articleOpen access\nParametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation\nDinghao Xue, Pingyang Zhang, Yuanyuan Lin, Wenshuo Wang, ... Wenlong Wang\nArticle 100114\nView PDF\nArticle preview",
+              "title": "Parametric study of the decomposition of methane for COx-free H2 and high valued carbon using Ni-based catalyst via machine-learning simulation",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000013",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100115",
+            "doi": "10.1016/j.gerr.2025.100115",
+            "pii": "S2949720525000025",
+            "original_title": "Using machine learning methods for long-term technical and economic evaluation of wind power plants",
+            "official_entry": {
+              "pii": "S2949720525000025",
+              "text": "select article Using machine learning methods for long-term technical and economic evaluation of wind power plants\nResearch articleOpen access\nUsing machine learning methods for long-term technical and economic evaluation of wind power plants\nAli Omidkar, Razieh Es'haghian, Hua Song\nArticle 100115\nView PDF\nArticle preview",
+              "title": "Using machine learning methods for long-term technical and economic evaluation of wind power plants",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000025",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100120",
+            "doi": "10.1016/j.gerr.2025.100120",
+            "pii": "S2949720525000074",
+            "original_title": "Comparative analysis and normalization of single-hole vs. multi-hole spray characteristics: 1st report on spray characteristic comparison",
+            "official_entry": {
+              "pii": "S2949720525000074",
+              "text": "select article Comparative analysis and normalization of single-hole vs. multi-hole spray characteristics: 1st report on spray characteristic comparison\nResearch articleOpen access\nComparative analysis and normalization of single-hole vs. multi-hole spray characteristics: 1st report on spray characteristic comparison\nChang Zhai, Junyu Zhang, Kuichun Li, Pengbo Dong, ... Hongliang Luo\nArticle 100120\nView PDF\nArticle preview",
+              "title": "Comparative analysis and normalization of single-hole vs. multi-hole spray characteristics: 1st report on spray characteristic comparison",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000074",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/1",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100118",
+            "doi": "10.1016/j.gerr.2025.100118",
+            "pii": "S2949720525000050",
+            "original_title": "Solar dryers: A review of mechanism, methods and critical analysis of transport models applicable in solar drying of product",
+            "official_entry": {
+              "pii": "S2949720525000050",
+              "text": "select article Solar dryers: A review of mechanism, methods and critical analysis of transport models applicable in solar drying of product\nReview articleOpen access\nSolar dryers: A review of mechanism, methods and critical analysis of transport models applicable in solar drying of product\nOnyinyechi Nnamchi, Cyprian Tom, Godwin Akpan, Murphy Umunna, ... Macmanus Ndukwu\nArticle 100118\nView PDF\nArticle preview",
+              "title": "Solar dryers: A review of mechanism, methods and critical analysis of transport models applicable in solar drying of product",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000050",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100127",
+            "doi": "10.1016/j.gerr.2025.100127",
+            "pii": "S2949720525000141",
+            "original_title": "Dynamic process of hydrogen flow and spontaneous combustion in tubes featuring different configurations after leakage from 35 and 70 MPa",
+            "official_entry": {
+              "pii": "S2949720525000141",
+              "text": "select article Dynamic process of hydrogen flow and spontaneous combustion in tubes featuring different configurations after leakage from 35 and 70 MPa\nResearch articleOpen access\nDynamic process of hydrogen flow and spontaneous combustion in tubes featuring different configurations after leakage from 35 and 70 MPa\nQin Huang, Zuo-Yu Sun, Ya-Long Du, Jia-Ying Li\nArticle 100127\nView PDF\nArticle preview",
+              "title": "Dynamic process of hydrogen flow and spontaneous combustion in tubes featuring different configurations after leakage from 35 and 70 MPa",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000141",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100129",
+            "doi": "10.1016/j.gerr.2025.100129",
+            "pii": "S2949720525000165",
+            "original_title": "Flame acceleration in unconfined lean hydrogen-oxygen mixtures using a hemispherical soap bubble method",
+            "official_entry": {
+              "pii": "S2949720525000165",
+              "text": "select article Flame acceleration in unconfined lean hydrogen-oxygen mixtures using a hemispherical soap bubble method\nResearch articleOpen access\nFlame acceleration in unconfined lean hydrogen-oxygen mixtures using a hemispherical soap bubble method\nWookyung Kim, Keita Tanaka, Akihiro Ueda, Sushil Raut, ... Hongliang Luo\nArticle 100129\nView PDF\nArticle preview",
+              "title": "Flame acceleration in unconfined lean hydrogen-oxygen mixtures using a hemispherical soap bubble method",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000165",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100128",
+            "doi": "10.1016/j.gerr.2025.100128",
+            "pii": "S2949720525000153",
+            "original_title": "Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms",
+            "official_entry": {
+              "pii": "S2949720525000153",
+              "text": "select article Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms\nReview articleOpen access\nTime-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms\nYue Yuan, Silu Chen, Meifeng Li, Jesse Zhu, ... Donovan Chaffart\nArticle 100128\nView PDF\nArticle preview",
+              "title": "Time-series signal analysis of sustainable process intensification: Characterization method development of gas-solid fluidized bed hydrodynamics towards AI-enhanced algorithms",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000153",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100132",
+            "doi": "10.1016/j.gerr.2025.100132",
+            "pii": "S2949720525000190",
+            "original_title": "A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization",
+            "official_entry": {
+              "pii": "S2949720525000190",
+              "text": "select article A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization\nReview articleOpen access\nA mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization\nDongjie Pang, Cristina Moliner, Tao Wang, Jin Sun, ... Wenlong Wang\nArticle 100132\nView PDF\nArticle preview",
+              "title": "A mini review on AI-driven thermal treatment of solid waste: Emission control and process optimization",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000190",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100133",
+            "doi": "10.1016/j.gerr.2025.100133",
+            "pii": "S2949720525000207",
+            "original_title": "ZnCl2-activated S/N-doped biochar for low-temperature NH3-SCR of NOx: Performance and pathway analysis",
+            "official_entry": {
+              "pii": "S2949720525000207",
+              "text": "select article ZnCl<sub>2</sub>-activated S/N-doped biochar for low-temperature NH<sub>3</sub>-SCR of NO<sub><em>x</em></sub>: Performance and pathway analysis\nResearch articleOpen access\nZnCl2-activated S/N-doped biochar for low-temperature NH3-SCR of NOx: Performance and pathway analysis\nShuangshuang Yan, Dongmei Bi, Chengxizi Zhang, Zhisen He, ... Shanjian Liu\nArticle 100133\nView PDF\nArticle preview",
+              "title": "ZnCl2-activated S/N-doped biochar for low-temperature NH3-SCR of NOx: Performance and pathway analysis",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000207",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2024.100074",
+            "doi": "10.1016/j.gerr.2024.100074",
+            "pii": "S2949720524000286",
+            "original_title": "Exploring the relationship between climate change, air pollutants and human health: Impacts, adaptation, and mitigation strategies",
+            "official_entry": {
+              "pii": "S2949720524000286",
+              "text": "select article Exploring the relationship between climate change, air pollutants and human health: Impacts, adaptation, and mitigation strategies\nResearch articleOpen access\nExploring the relationship between climate change, air pollutants and human health: Impacts, adaptation, and mitigation strategies\nGibson Owhoro Ofremu, Babatunde Yusuf Raimi, Samuel Omokhafe Yusuf, Beatrice Akorfa Dziwornu, ... Chisom Assumpta Nnajiofor\nArticle 100074\nView PDF\nArticle preview",
+              "title": "Exploring the relationship between climate change, air pollutants and human health: Impacts, adaptation, and mitigation strategies",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720524000286",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100117",
+            "doi": "10.1016/j.gerr.2025.100117",
+            "pii": "S2949720525000049",
+            "original_title": "Corrigendum to ‘Exploring the landscape of machine learning-aided research in biofuels and biodiesel: A bibliometric analysis’ [Green Energy Res. 2 (2024) 100089]",
+            "official_entry": {
+              "pii": "S2949720525000049",
+              "text": "select article Corrigendum to ‘Exploring the landscape of machine learning-aided research in biofuels and biodiesel: A bibliometric analysis’ [Green Energy Res. 2 (2024) 100089]\nErratumOpen access\nCorrigendum to ‘Exploring the landscape of machine learning-aided research in biofuels and biodiesel: A bibliometric analysis’ [Green Energy Res. 2 (2024) 100089]\nAvinash Alagumalai, Hua Song\nArticle 100117\nView PDF",
+              "title": "Corrigendum to ‘Exploring the landscape of machine learning-aided research in biofuels and biodiesel: A bibliometric analysis’ [Green Energy Res. 2 (2024) 100089]",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000049",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/2",
+              "document_type": "Erratum"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100140",
+            "doi": "10.1016/j.gerr.2025.100140",
+            "pii": "S294972052500027X",
+            "original_title": "Study on preparation technology and properties of calcium based CO2 absorbent from acid leaching steel slag",
+            "official_entry": {
+              "pii": "S294972052500027X",
+              "text": "select article Study on preparation technology and properties of calcium based CO<sub>2</sub> absorbent from acid leaching steel slag\nResearch articleOpen access\nStudy on preparation technology and properties of calcium based CO2 absorbent from acid leaching steel slag\nRuiying Wang, Tao Qi, Hongfeng Ji, Gang Du, ... Chen Zhao\nArticle 100140\nView PDF\nArticle preview",
+              "title": "Study on preparation technology and properties of calcium based CO2 absorbent from acid leaching steel slag",
+              "url": "https://www.sciencedirect.com/science/article/pii/S294972052500027X",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100131",
+            "doi": "10.1016/j.gerr.2025.100131",
+            "pii": "S2949720525000189",
+            "original_title": "Microbial biomass conversion for hydrogen production: A review",
+            "official_entry": {
+              "pii": "S2949720525000189",
+              "text": "select article Microbial biomass conversion for hydrogen production: A review\nReview articleOpen access\nMicrobial biomass conversion for hydrogen production: A review\nMuhamad Reda Galih Pangestu, Shaikh Abdur Razzak, Shihab Uddin\nArticle 100131\nView PDF\nArticle preview",
+              "title": "Microbial biomass conversion for hydrogen production: A review",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000189",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100142",
+            "doi": "10.1016/j.gerr.2025.100142",
+            "pii": "S2949720525000293",
+            "original_title": "Study on the influence of rice straw ash cement mortar finish on the temperature pattern of sunning water pool in cold regions",
+            "official_entry": {
+              "pii": "S2949720525000293",
+              "text": "select article Study on the influence of rice straw ash cement mortar finish on the temperature pattern of sunning water pool in cold regions\nResearch articleOpen access\nStudy on the influence of rice straw ash cement mortar finish on the temperature pattern of sunning water pool in cold regions\nFu-cheng Wang, Wei Wang, Jia-mei Wen, Jia-bing Tian, ... Yaqoob Majeed\nArticle 100142\nView PDF\nArticle preview",
+              "title": "Study on the influence of rice straw ash cement mortar finish on the temperature pattern of sunning water pool in cold regions",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000293",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100143",
+            "doi": "10.1016/j.gerr.2025.100143",
+            "pii": "S294972052500030X",
+            "original_title": "Insight into the occurrence relationships between Pb, As, Zn and Cr with minerals phases in the coal gangue: A novel quantitative dissociation method",
+            "official_entry": {
+              "pii": "S294972052500030X",
+              "text": "select article Insight into the occurrence relationships between Pb, As, Zn and Cr with minerals phases in the coal gangue: A novel quantitative dissociation method\nResearch articleOpen access\nInsight into the occurrence relationships between Pb, As, Zn and Cr with minerals phases in the coal gangue: A novel quantitative dissociation method\nYichao Chen, Wanyao Li, Haofei Li, Yuhong Qin, ... Leteng Lin\nArticle 100143\nView PDF\nArticle preview",
+              "title": "Insight into the occurrence relationships between Pb, As, Zn and Cr with minerals phases in the coal gangue: A novel quantitative dissociation method",
+              "url": "https://www.sciencedirect.com/science/article/pii/S294972052500030X",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100144",
+            "doi": "10.1016/j.gerr.2025.100144",
+            "pii": "S2949720525000311",
+            "original_title": "Editorial: AI-driven green revolution",
+            "official_entry": {
+              "pii": "S2949720525000311",
+              "text": "select article Editorial: AI-driven green revolution\nEditorialOpen access\nEditorial: AI-driven green revolution\nTianlong Liu, Ying Zheng\nArticle 100144\nView PDF",
+              "title": "Editorial: AI-driven green revolution",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000311",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Editorial"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100141",
+            "doi": "10.1016/j.gerr.2025.100141",
+            "pii": "S2949720525000281",
+            "original_title": "Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research",
+            "official_entry": {
+              "pii": "S2949720525000281",
+              "text": "select article Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research\nReview articleOpen access\nExploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research\nMiguel Esteban Pardo Gómez, Evan Park, Ying Zheng, Amarjeet Bassi, Tianlong Liu\nArticle 100141\nView PDF\nArticle preview",
+              "title": "Exploring the application of artificial intelligence for bioelectrochemical systems: A review of recent research",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000281",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100130",
+            "doi": "10.1016/j.gerr.2025.100130",
+            "pii": "S2949720525000177",
+            "original_title": "Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions",
+            "official_entry": {
+              "pii": "S2949720525000177",
+              "text": "select article Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions\nReview articleOpen access\nReview of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions\nConstance Nakato Nakimuli, Fred Kaggwa, Johan De Greef, David Kilama Okot, ... Simon Kawuma\nArticle 100130\nView PDF\nArticle preview",
+              "title": "Review of machine learning applications for predicting the quality of biomass briquettes for sustainable and low-carbon energy solutions",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000177",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/3",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100153",
+            "doi": "10.1016/j.gerr.2025.100153",
+            "pii": "S2949720525000402",
+            "original_title": "A review on comprehensive strategies for decarbonizing bioethanol production process",
+            "official_entry": {
+              "pii": "S2949720525000402",
+              "text": "select article A review on comprehensive strategies for decarbonizing bioethanol production process\nReview articleOpen access\nA review on comprehensive strategies for decarbonizing bioethanol production process\nTreerat Vacharanukrauh, Apinan Soottitantawat, Nuttha Thongchul, Worapon Kiatkittipong, ... Suttichai Assabumrungrat\nArticle 100153\nView PDF\nArticle preview",
+              "title": "A review on comprehensive strategies for decarbonizing bioethanol production process",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000402",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100154",
+            "doi": "10.1016/j.gerr.2025.100154",
+            "pii": "S2949720525000414",
+            "original_title": "Review of carbon capture and conversion with reactive magnesia cement materials",
+            "official_entry": {
+              "pii": "S2949720525000414",
+              "text": "select article Review of carbon capture and conversion with reactive magnesia cement materials\nReview articleOpen access\nReview of carbon capture and conversion with reactive magnesia cement materials\nYisong Liu, Linglin Xu, Zhiyuan Zhang, Changzai Ren, ... Kai Wu\nArticle 100154\nView PDF\nArticle preview",
+              "title": "Review of carbon capture and conversion with reactive magnesia cement materials",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000414",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/4",
+              "document_type": "Review article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100151",
+            "doi": "10.1016/j.gerr.2025.100151",
+            "pii": "S2949720525000384",
+            "original_title": "Methane hydrate formation using high gravity equipment: A new method for recovery of associated gas in offshore oilfields",
+            "official_entry": {
+              "pii": "S2949720525000384",
+              "text": "select article Methane hydrate formation using high gravity equipment: A new method for recovery of associated gas in offshore oilfields\nResearch articleOpen access\nMethane hydrate formation using high gravity equipment: A new method for recovery of associated gas in offshore oilfields\nQi Nie, Jianlu Zhu, Liang Hao, Yuxing Li\nArticle 100151\nView PDF\nArticle preview",
+              "title": "Methane hydrate formation using high gravity equipment: A new method for recovery of associated gas in offshore oilfields",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000384",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/4",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100152",
+            "doi": "10.1016/j.gerr.2025.100152",
+            "pii": "S2949720525000396",
+            "original_title": "Accounting the life cycle carbon footprint for TOD project: An example from the China SH TOD project",
+            "official_entry": {
+              "pii": "S2949720525000396",
+              "text": "select article Accounting the life cycle carbon footprint for TOD project: An example from the China SH TOD project\nResearch articleOpen access\nAccounting the life cycle carbon footprint for TOD project: An example from the China SH TOD project\nJingxiao Zhang, Lei Gao, Xin Liu, Martin Skitmore\nArticle 100152\nView PDF\nArticle preview",
+              "title": "Accounting the life cycle carbon footprint for TOD project: An example from the China SH TOD project",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000396",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/4",
+              "document_type": "Research article"
+            }
+          },
+          {
+            "id": "10.1016/j.gerr.2025.100155",
+            "doi": "10.1016/j.gerr.2025.100155",
+            "pii": "S2949720525000426",
+            "original_title": "Experimental verification of electrode activation for improved performance in vanadium redox flow batteries",
+            "official_entry": {
+              "pii": "S2949720525000426",
+              "text": "select article Experimental verification of electrode activation for improved performance in vanadium redox flow batteries\nResearch articleOpen access\nExperimental verification of electrode activation for improved performance in vanadium redox flow batteries\nZhi Zhuge, Zebo Huang, Osamah Ibrahim Khalaf, Longxing Wu\nArticle 100155\nView PDF\nArticle preview",
+              "title": "Experimental verification of electrode activation for improved performance in vanadium redox flow batteries",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2949720525000426",
+              "volume": "3",
+              "issue_url": "https://www.sciencedirect.com/journal/green-energy-and-resources/vol/3/issue/4",
+              "document_type": "Research article"
+            }
+          }
+        ],
+        "checked_at": "2026-11-19T07:48:21.150404+00:00",
+        "evidence_files": [
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/green-energy-archive.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/green-energy-3-issue-1.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/green-energy-3-issue-2.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/green-energy-3-issue-3.json",
+          "/Users/h10/Documents/ChatGPT/lxt-work/output/lxt-screening/2025-continuous/browser/green-energy-3-issue-4.json"
+        ],
+        "complete_reference_doi_set_also_matches": true
+      }
+    },
+    "catalogue_reconciliation": {
+      "current_raw_count": 26,
+      "normalized_count": 26,
+      "same_scope_missing": 0,
+      "same_scope_extra": 0,
+      "same_scope_duplicate": 0,
+      "canonical_unresolved_missing": 0
+    },
+    "review_scope": {
+      "status": "current_candidates_and_verified_additions",
+      "checked_by": "李雪婷",
+      "checked_at": "2026-11-19T07:48:21.150404+00:00",
+      "candidate_file": "metadata/2025/ai4s.json",
+      "candidate_count": 8,
+      "candidate_ids_sha256": "06daac4d5a4f6f4d3ea86ba507546337d97b8aca862857c8d62cf3b188328daf",
+      "review_file": "reviews/2025/zch66883-lixueting.json",
+      "audit_file": "metadata/j-d49438c2b7/2025/official-scope-audit-lixueting.json",
+      "scope_instruction": "Review all assigned2025 initial candidates and independently verified recall additions; final-scope candidate digest includes the verified additions."
+    }
   }
 ]
