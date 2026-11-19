@@ -142046,5 +142046,1536 @@
         }
       ]
     }
+  },
+  {
+    "id": "10.1038/s41525-025-00480-w",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Discordance between a deep learning model and clinical-grade variant pathogenicity classification in a rare disease cohort",
+    "authors": [
+      "Sek Won Kong",
+      "In-Hee Lee",
+      "Lauren V. Collen",
+      "Michael Field",
+      "Arjun K. Manrai",
+      "Scott B. Snapper",
+      "Kenneth D. Mandl"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0003-4877-7567",
+      "https://orcid.org/0000-0002-8857-1355",
+      "https://orcid.org/0000-0002-4003-0568",
+      "https://orcid.org/0000-0003-0267-4247"
+    ],
+    "abstract": "Genetic testing is essential for diagnosing and managing clinical conditions, particularly rare Mendelian diseases. Although efforts to identify rare phenotype-associated variants have focused on protein-truncating variants, interpreting missense variants remains challenging. Deep learning algorithms excel in various biomedical tasks 1 , 2 , yet distinguishing pathogenic from benign missense variants remains elusive 3 , 4 , 5 . Our investigation of AlphaMissense (AM) 5 , a deep learning tool for predicting the potential functional impact of missense variants and assessing gene essentiality, reveals limitations in identifying pathogenic missense variants over 45 rare diseases, including very early onset inflammatory bowel disease. For the expert-curated pathogenic variants identified in our cohort, AM’s precision was 32.9%, and recall was 57.6%. Notably, AM struggles to evaluate pathogenicity in intrinsically disordered regions (IDRs), resulting in unreliable gene-level essentiality scores for genes containing IDRs. This observation underscores ongoing challenges in clinical genetics, highlighting the need for continued refinement of computational methods in variant pathogenicity prediction.",
+    "keywords": [
+      "Molecular medicine",
+      "Crohn's disease"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00480-w",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00480-w",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00480-w.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-02-28",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学",
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "protein",
+      "molecule"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "protein"
+        ],
+        "AI for 物质科学": [
+          "molecule"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "以临床专家整理的45种罕见病变异评价AlphaMissense深度学习的致病性预测，分析无序区误差及基因必需性偏差，直接贡献临床变异解释方法的验证。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "Discordance between a deep learning model and clinical-grade variant pathogenicity classification in a rare disease cohort",
+        "authors": [
+          "Kong, Sek Won",
+          "Lee, In-Hee",
+          "Collen, Lauren V.",
+          "Field, Michael",
+          "Manrai, Arjun K.",
+          "Snapper, Scott B.",
+          "Mandl, Kenneth D."
+        ],
+        "doi": "10.1038/s41525-025-00480-w",
+        "url": "https://www.nature.com/articles/s41525-025-00480-w",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00480-w.pdf",
+        "abstract": "Genetic testing is essential for diagnosing and managing clinical conditions, particularly rare Mendelian diseases. Although efforts to identify rare phenotype-associated variants have focused on protein-truncating variants, interpreting missense variants remains challenging. Deep learning algorithms excel in various biomedical tasks 1 , 2 , yet distinguishing pathogenic from benign missense variants remains elusive 3 , 4 , 5 . Our investigation of AlphaMissense (AM) 5 , a deep learning tool for predicting the potential functional impact of missense variants and assessing gene essentiality, reveals limitations in identifying pathogenic missense variants over 45 rare diseases, including very early onset inflammatory bowel disease. For the expert-curated pathogenic variants identified in our cohort, AM’s precision was 32.9%, and recall was 57.6%. Notably, AM struggles to evaluate pathogenicity in intrinsically disordered regions (IDRs), resulting in unreliable gene-level essentiality scores for genes containing IDRs. This observation underscores ongoing challenges in clinical genetics, highlighting the need for continued refinement of computational methods in variant pathogenicity prediction.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00480-w"
+        ],
+        "primary_html_sha256": "1be1dcc08c56e933842714dcb09b9b115d1b31da106c063db6117a635761b98c",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以临床专家整理的45种罕见病变异评价AlphaMissense深度学习的致病性预测，分析无序区误差及基因必需性偏差，直接贡献临床变异解释方法的验证。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以临床专家整理的45种罕见病变异评价AlphaMissense深度学习的致病性预测，分析无序区误差及基因必需性偏差，直接贡献临床变异解释方法的验证。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00491-7",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Multi-omic integration sets the path for early prevention strategies on healthy individuals",
+    "authors": [
+      "Dimitrios Kioroglou",
+      "Rubén Gil-Redondo",
+      "Nieves Embade",
+      "Maider Bizkarguenaga",
+      "Ricardo Conde",
+      "Oscar Millet",
+      "José M. Mato",
+      "Urko M. Marigorta"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0003-3495-4585",
+      "https://orcid.org/0000-0002-3541-9085",
+      "https://orcid.org/0000-0001-9878-3290",
+      "https://orcid.org/0000-0003-0988-2006",
+      "https://orcid.org/0000-0003-4372-081X",
+      "https://orcid.org/0000-0001-8748-4105",
+      "https://orcid.org/0000-0003-1264-3153",
+      "https://orcid.org/0000-0002-9087-6609"
+    ],
+    "abstract": "Precision medicine requires biomarkers that stratify patients and improve clinical outcomes. Although longitudinal multi-omic analyses provide insights into pathological states, their utility in stratifying healthy individuals remains underexplored. We performed a cross-sectional integrative study of three omic layers, including genomics, urine metabolomics, and serum metabolomics/lipoproteomics, on a cohort of 162 individuals without pathological manifestations. We studied each omic layer separately and after integration, concluding that multi-omic integration provides optimal stratification capacity. We identified four subgroups and, for a subset of 61 individuals, longitudinal data for two additional time-points allowed us to evaluate the temporal stability of the molecular profiles of each identified subgroup. Additional functional annotation uncovered accumulation of risk factors associated with dyslipoproteinemias in one subgroup, suggesting targeted monitoring could reduce future cardiovascular risks. Overall, our methodology uncovers the potential of multi-omic profiling to serve as a framework for precision medicine aimed at early prevention strategies.",
+    "keywords": [
+      "Personalized medicine",
+      "Bioinformatics"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00491-7",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00491-7",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00491-7.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-05-03",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "整合162名健康者多组学分层，并训练Gaussian Naive Bayes以59种脂蛋白特征预测61人后续访问的簇归属，量化异常脂代谢人群的时间稳定性，AI直接支持预防医学分层研究。",
+      "evidence_location": "正文 Individuals in the C4 cluster displayed the smallest conversion rate according to Naive Bayes classification；Methods Training of Gaussian Naive Bayes classifier",
+      "verified_metadata": {
+        "title": "Multi-omic integration sets the path for early prevention strategies on healthy individuals",
+        "authors": [
+          "Kioroglou, Dimitrios",
+          "Gil-Redondo, Rubén",
+          "Embade, Nieves",
+          "Bizkarguenaga, Maider",
+          "Conde, Ricardo",
+          "Millet, Oscar",
+          "Mato, José M.",
+          "Marigorta, Urko M."
+        ],
+        "doi": "10.1038/s41525-025-00491-7",
+        "url": "https://www.nature.com/articles/s41525-025-00491-7",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00491-7.pdf",
+        "abstract": "Precision medicine requires biomarkers that stratify patients and improve clinical outcomes. Although longitudinal multi-omic analyses provide insights into pathological states, their utility in stratifying healthy individuals remains underexplored. We performed a cross-sectional integrative study of three omic layers, including genomics, urine metabolomics, and serum metabolomics/lipoproteomics, on a cohort of 162 individuals without pathological manifestations. We studied each omic layer separately and after integration, concluding that multi-omic integration provides optimal stratification capacity. We identified four subgroups and, for a subset of 61 individuals, longitudinal data for two additional time-points allowed us to evaluate the temporal stability of the molecular profiles of each identified subgroup. Additional functional annotation uncovered accumulation of risk factors associated with dyslipoproteinemias in one subgroup, suggesting targeted monitoring could reduce future cardiovascular risks. Overall, our methodology uncovers the potential of multi-omic profiling to serve as a framework for precision medicine aimed at early prevention strategies.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00491-7"
+        ],
+        "primary_html_sha256": "f3bef4d447038fdf3cdb58be023fa1ec351269efba14104b4f7dd689ff9006e3",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留",
+        "full_text_evidence_location": "正文 Individuals in the C4 cluster displayed the smallest conversion rate according to Naive Bayes classification；Methods Training of Gaussian Naive Bayes classifier",
+        "full_text_checked_at": "2026-11-19T12:07:28.456563+00:00"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正文 Individuals in the C4 cluster displayed the smallest conversion rate according to Naive Bayes classification；Methods Training of Gaussian Naive Bayes classifier",
+          "rationale": "整合162名健康者多组学分层，并训练Gaussian Naive Bayes以59种脂蛋白特征预测61人后续访问的簇归属，量化异常脂代谢人群的时间稳定性，AI直接支持预防医学分层研究。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "正文 Individuals in the C4 cluster displayed the smallest conversion rate according to Naive Bayes classification；Methods Training of Gaussian Naive Bayes classifier",
+          "rationale": "整合162名健康者多组学分层，并训练Gaussian Naive Bayes以59种脂蛋白特征预测61人后续访问的簇归属，量化异常脂代谢人群的时间稳定性，AI直接支持预防医学分层研究。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00493-5",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "An outlier approach: advancing diagnosis of neurological diseases through integrating proteomics into multi-omics guided exome reanalysis",
+    "authors": [
+      "Martin Man-Chun Chui",
+      "Anna Ka-Yee Kwong",
+      "Hiu Yu Cherie Leung",
+      "Chingyiu Pang",
+      "Ines F. Scheller",
+      "Sheila Suet-Na Wong",
+      "Cheuk-Wing Fung",
+      "Vicente A. Yépez",
+      "Julien Gagneur",
+      "Christopher Chun-Yu Mak",
+      "Brian Hon-Yin Chung"
+    ],
+    "author_ids": [],
+    "abstract": "Neurodevelopmental disorders (NDDs) often have unknown genetic causes. Current efforts in identifying disease-related genetic variants using exome or genome sequencing still lead to an excessive number of variants of uncertain significance (VUS). There is an increasing interest in transcriptomics and, more recently, proteomics for variant detection and interpretation. In this study, we integrated quantitative liquid chromatography-mass spectrometry proteomics, RNA sequencing, and exome reanalysis to resolve VUS and detect novel causal variants in 34 patients with undiagnosed NDDs, using the software PROTRIDER and DROP to detect protein outliers and RNA outliers, respectively. We obtained a diagnosis in 11 cases (32%) resulting from the increased amount of information provided by the two additional levels of omics ( n = 5) and the updated literature evidence ( n = 6). Our experience suggests the potential of this outlier-detection multi-omics workflow for improving diagnostic yield in NDDs and other rare disorders.",
+    "keywords": [
+      "Bioinformatics",
+      "Next-generation sequencing",
+      "RNA sequencing",
+      "Clinical genetics",
+      "Neurological disorders",
+      "Neurodevelopmental disorders",
+      "Paediatric neurological disorders",
+      "Genetics research",
+      "Paediatric research"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00493-5",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00493-5",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00493-5.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-05-03",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "实际运行DROP中的OUTRIDER和FRASER去噪自编码异常检测并整合PROTRIDER蛋白异常，辅助34例未诊断神经发育病变异重分析，直接贡献罕见病多组学诊断。",
+      "evidence_location": "正文OUTRIDER/FRASER自编码说明、临床病例；Methods Detection of aberrant RNA outliers using DROP",
+      "verified_metadata": {
+        "title": "An outlier approach: advancing diagnosis of neurological diseases through integrating proteomics into multi-omics guided exome reanalysis",
+        "authors": [
+          "Chui, Martin Man-Chun",
+          "Kwong, Anna Ka-Yee",
+          "Leung, Hiu Yu Cherie",
+          "Pang, Chingyiu",
+          "Scheller, Ines F.",
+          "Wong, Sheila Suet-Na",
+          "Fung, Cheuk-Wing",
+          "Yépez, Vicente A.",
+          "Gagneur, Julien",
+          "Mak, Christopher Chun-Yu",
+          "Chung, Brian Hon-Yin"
+        ],
+        "doi": "10.1038/s41525-025-00493-5",
+        "url": "https://www.nature.com/articles/s41525-025-00493-5",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00493-5.pdf",
+        "abstract": "Neurodevelopmental disorders (NDDs) often have unknown genetic causes. Current efforts in identifying disease-related genetic variants using exome or genome sequencing still lead to an excessive number of variants of uncertain significance (VUS). There is an increasing interest in transcriptomics and, more recently, proteomics for variant detection and interpretation. In this study, we integrated quantitative liquid chromatography-mass spectrometry proteomics, RNA sequencing, and exome reanalysis to resolve VUS and detect novel causal variants in 34 patients with undiagnosed NDDs, using the software PROTRIDER and DROP to detect protein outliers and RNA outliers, respectively. We obtained a diagnosis in 11 cases (32%) resulting from the increased amount of information provided by the two additional levels of omics ( n = 5) and the updated literature evidence ( n = 6). Our experience suggests the potential of this outlier-detection multi-omics workflow for improving diagnostic yield in NDDs and other rare disorders.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00493-5"
+        ],
+        "primary_html_sha256": "8e458bfe82d8211cfcc589a75dec96a1524b2a9d0884dd46aa051c624f766b6d",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留",
+        "full_text_evidence_location": "正文OUTRIDER/FRASER自编码说明、临床病例；Methods Detection of aberrant RNA outliers using DROP",
+        "full_text_checked_at": "2026-11-19T12:07:28.456563+00:00"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正文OUTRIDER/FRASER自编码说明、临床病例；Methods Detection of aberrant RNA outliers using DROP",
+          "rationale": "实际运行DROP中的OUTRIDER和FRASER去噪自编码异常检测并整合PROTRIDER蛋白异常，辅助34例未诊断神经发育病变异重分析，直接贡献罕见病多组学诊断。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "正文OUTRIDER/FRASER自编码说明、临床病例；Methods Detection of aberrant RNA outliers using DROP",
+          "rationale": "实际运行DROP中的OUTRIDER和FRASER去噪自编码异常检测并整合PROTRIDER蛋白异常，辅助34例未诊断神经发育病变异重分析，直接贡献罕见病多组学诊断。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00498-0",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "TP53 minigene analysis of 161 sequence changes provides evidence for role of spatial constraint and regulatory elements on variant-induced splicing impact",
+    "authors": [
+      "Daffodil M. Canson",
+      "Inés Llinares-Burguet",
+      "Cristina Fortuno",
+      "Lara Sanoguera-Miralles",
+      "Elena Bueno-Martínez",
+      "Miguel de la Hoya",
+      "Amanda B. Spurdle",
+      "Eladio A. Velasco-Sampedro"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0002-8113-1410",
+      "https://orcid.org/0000-0003-1337-7897"
+    ],
+    "abstract": "We investigated the role of TP53 splicing regulatory elements (SREs) using exons 3 and 6 and their downstream introns as models. Minigene microdeletion assays revealed four SRE-rich intervals: c.573_598, c.618_641, c.653_669 and c.672+14_672 + 36. A diagnostically reported deletion c.655_670del, overlapping an SRE-rich interval, induced an in-frame transcript Δ(E6q21) from new donor site usage. Deletion of at least four intron 6 G-runs led to 100% aberrant transcript expression. Additionally, assay results suggested a donor-to-branchpoint distance <50 nt for complete splicing aberration due to spatial constraint, and >75 nt for low risk of splicing abnormality. Overall, splicing data for 134 single nucleotide variants (SNVs) and 27 deletions in TP53 demonstrated that SRE-disrupting SNVs have weak splicing impact (up to 26% exon skipping), while deletions spanning multiple SREs have profound splicing effects. Our findings may prove relevant for identifying novel germline TP53 variants causing hereditary cancer predisposition and/or somatic variants contributing to tumorigenesis.",
+    "keywords": [
+      "Cancer genetics",
+      "Molecular medicine"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00498-0",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00498-0",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00498-0.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-05-08",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "用SpliceAI及DeepCLIP预测TP53变异剪接影响/蛋白结合，再与小基因实验定量对照，检验空间约束和调控元件的解释及阈值，直接贡献癌症相关变异机制与诊断证据。",
+      "evidence_location": "正文 Prediction of splicing impact: SpliceAI vs delta HZEI；Methods Splicing regulatory element mapping/SpliceAI v1.3.1",
+      "verified_metadata": {
+        "title": "TP53 minigene analysis of 161 sequence changes provides evidence for role of spatial constraint and regulatory elements on variant-induced splicing impact",
+        "authors": [
+          "Canson, Daffodil M.",
+          "Llinares-Burguet, Inés",
+          "Fortuno, Cristina",
+          "Sanoguera-Miralles, Lara",
+          "Bueno-Martínez, Elena",
+          "de la Hoya, Miguel",
+          "Spurdle, Amanda B.",
+          "Velasco-Sampedro, Eladio A."
+        ],
+        "doi": "10.1038/s41525-025-00498-0",
+        "url": "https://www.nature.com/articles/s41525-025-00498-0",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00498-0.pdf",
+        "abstract": "We investigated the role of TP53 splicing regulatory elements (SREs) using exons 3 and 6 and their downstream introns as models. Minigene microdeletion assays revealed four SRE-rich intervals: c.573_598, c.618_641, c.653_669 and c.672+14_672 + 36. A diagnostically reported deletion c.655_670del, overlapping an SRE-rich interval, induced an in-frame transcript Δ(E6q21) from new donor site usage. Deletion of at least four intron 6 G-runs led to 100% aberrant transcript expression. Additionally, assay results suggested a donor-to-branchpoint distance <50 nt for complete splicing aberration due to spatial constraint, and >75 nt for low risk of splicing abnormality. Overall, splicing data for 134 single nucleotide variants (SNVs) and 27 deletions in TP53 demonstrated that SRE-disrupting SNVs have weak splicing impact (up to 26% exon skipping), while deletions spanning multiple SREs have profound splicing effects. Our findings may prove relevant for identifying novel germline TP53 variants causing hereditary cancer predisposition and/or somatic variants contributing to tumorigenesis.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00498-0"
+        ],
+        "primary_html_sha256": "63b148b527f2ad116b68bb1e4f0a1b6f34e23bba549fe00a9f61870505d32a8d",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留",
+        "full_text_evidence_location": "正文 Prediction of splicing impact: SpliceAI vs delta HZEI；Methods Splicing regulatory element mapping/SpliceAI v1.3.1",
+        "full_text_checked_at": "2026-11-19T12:07:28.456563+00:00"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正文 Prediction of splicing impact: SpliceAI vs delta HZEI；Methods Splicing regulatory element mapping/SpliceAI v1.3.1",
+          "rationale": "用SpliceAI及DeepCLIP预测TP53变异剪接影响/蛋白结合，再与小基因实验定量对照，检验空间约束和调控元件的解释及阈值，直接贡献癌症相关变异机制与诊断证据。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "正文 Prediction of splicing impact: SpliceAI vs delta HZEI；Methods Splicing regulatory element mapping/SpliceAI v1.3.1",
+          "rationale": "用SpliceAI及DeepCLIP预测TP53变异剪接影响/蛋白结合，再与小基因实验定量对照，检验空间约束和调控元件的解释及阈值，直接贡献癌症相关变异机制与诊断证据。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00506-3",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "MPSE identifies newborns for whole genome sequencing within 48 h of NICU admission",
+    "authors": [
+      "Bennet Peterson",
+      "Edwin F. Juarez",
+      "Barry Moore",
+      "Edgar Javier Hernandez",
+      "Erwin Frise",
+      "Jianrong Li",
+      "Yves Lussier",
+      "Martin Tristani-Firouzi",
+      "Martin G. Reese",
+      "Sabrina Malone Jenkins",
+      "Stephen F. Kingsmore",
+      "Matthew N. Bainbridge",
+      "Mark Yandell"
+    ],
+    "author_ids": [],
+    "abstract": "Identifying critically ill newborns who will benefit from whole genome sequencing (WGS) is difficult and time-consuming due to complex eligibility criteria and evolving clinical features. The Mendelian Phenotype Search Engine (MPSE) automates the prioritization of neonatal intensive care unit (NICU) patients for WGS. Using clinical data from 2885 NICU patients, we evaluated the utility of different machine learning (ML) classifiers, clinical natural language processing (CNLP) tools, and types of Electronic Health Record (EHR) data to identify sick newborns with genetic diseases. Our results show that MPSE can identify children most likely to benefit from WGS within the first 48 h after NICU admission, a critical window for maximally impactful care. Moreover, MPSE provided stable, robust means to identify these children using many combinations of classifiers, CNLP tools, and input data types—meaning MPSE can be used by diverse health systems despite differences in EHR contents and IT support.",
+    "keywords": [
+      "Neonatology",
+      "Medical genomics"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00506-3",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00506-3",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00506-3.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-06-12",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [
+      "\\bgenomics?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学"
+    ],
+    "ai4s_keywords": [
+      "genomics"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "genomics"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "以2885例NICU临床记录比较ML分类器、临床NLP及数据类型，48小时内预测哪些新生儿优先接受全基因组测序，AI直接支持罕见病早期诊断分流。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "MPSE identifies newborns for whole genome sequencing within 48 h of NICU admission",
+        "authors": [
+          "Peterson, Bennet",
+          "Juarez, Edwin F.",
+          "Moore, Barry",
+          "Hernandez, Edgar Javier",
+          "Frise, Erwin",
+          "Li, Jianrong",
+          "Lussier, Yves",
+          "Tristani-Firouzi, Martin",
+          "Reese, Martin G.",
+          "Malone Jenkins, Sabrina",
+          "Kingsmore, Stephen F.",
+          "Bainbridge, Matthew N.",
+          "Yandell, Mark"
+        ],
+        "doi": "10.1038/s41525-025-00506-3",
+        "url": "https://www.nature.com/articles/s41525-025-00506-3",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00506-3.pdf",
+        "abstract": "Identifying critically ill newborns who will benefit from whole genome sequencing (WGS) is difficult and time-consuming due to complex eligibility criteria and evolving clinical features. The Mendelian Phenotype Search Engine (MPSE) automates the prioritization of neonatal intensive care unit (NICU) patients for WGS. Using clinical data from 2885 NICU patients, we evaluated the utility of different machine learning (ML) classifiers, clinical natural language processing (CNLP) tools, and types of Electronic Health Record (EHR) data to identify sick newborns with genetic diseases. Our results show that MPSE can identify children most likely to benefit from WGS within the first 48 h after NICU admission, a critical window for maximally impactful care. Moreover, MPSE provided stable, robust means to identify these children using many combinations of classifiers, CNLP tools, and input data types—meaning MPSE can be used by diverse health systems despite differences in EHR contents and IT support.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00506-3"
+        ],
+        "primary_html_sha256": "df6060ae707a71f7d35f824fccc64b171128b326275f0bc60cd502305d7f8874",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以2885例NICU临床记录比较ML分类器、临床NLP及数据类型，48小时内预测哪些新生儿优先接受全基因组测序，AI直接支持罕见病早期诊断分流。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以2885例NICU临床记录比较ML分类器、临床NLP及数据类型，48小时内预测哪些新生儿优先接受全基因组测序，AI直接支持罕见病早期诊断分流。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00507-2",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Integrating explainable machine learning and transcriptomics data reveals cell-type specific immune signatures underlying macular degeneration",
+    "authors": [
+      "Khang Ma",
+      "Hosei Nakajima",
+      "Nipa Basak",
+      "Arko Barman",
+      "Rinki Ratnapriya"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0002-5357-5786",
+      "https://orcid.org/0000-0002-0469-4631"
+    ],
+    "abstract": "Genome-wide association studies (GWAS) have established key role of immune dysfunction in Age-related Macular Degeneration (AMD), though the precise role of immune cells remains unclear. Here, we develop an explainable machine-learning pipeline (ML) using transcriptome data of 453 donor retinas, identifying 81 genes distinguishing AMD from controls (AUC-ROC of 0.80, CI 0.70–0.92). Most of these genes were enriched in their expression within retinal glial cells, particularly microglia and astrocytes. Their role in AMD was further strengthened by cellular deconvolution, which identified distinct differences in microglia and astrocytes between normal and AMD. We corroborated these findings using independent single-cell data, where several ML genes exhibited differential expression. Finally, the integration of AMD-GWAS data identified a regulatory variant, rs4133124 at PLCG2 , as a novel AMD association. Collectively, our study provides molecular insights into the recurring theme of immune dysfunction in AMD and highlights the significance of glial cell differences in AMD progression.",
+    "keywords": [
+      "Computational biology and bioinformatics",
+      "Gene expression analysis"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00507-2",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00507-2",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00507-2.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-06-14",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "single-cell",
+      "gene expression"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学",
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "genomics",
+      "single-cell",
+      "gene expression",
+      "transcriptomics",
+      "molecule"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "genomics",
+          "single-cell",
+          "gene expression",
+          "transcriptomics"
+        ],
+        "AI for 物质科学": [
+          "molecule"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "以453名供者视网膜转录组的可解释机器学习识别AMD区分基因，再结合独立单细胞及GWAS验证小胶质/星形胶质免疫信号和PLCG2关联，AI直接参与眼病机制与标志物研究。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "Integrating explainable machine learning and transcriptomics data reveals cell-type specific immune signatures underlying macular degeneration",
+        "authors": [
+          "Ma, Khang",
+          "Nakajima, Hosei",
+          "Basak, Nipa",
+          "Barman, Arko",
+          "Ratnapriya, Rinki"
+        ],
+        "doi": "10.1038/s41525-025-00507-2",
+        "url": "https://www.nature.com/articles/s41525-025-00507-2",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00507-2.pdf",
+        "abstract": "Genome-wide association studies (GWAS) have established key role of immune dysfunction in Age-related Macular Degeneration (AMD), though the precise role of immune cells remains unclear. Here, we develop an explainable machine-learning pipeline (ML) using transcriptome data of 453 donor retinas, identifying 81 genes distinguishing AMD from controls (AUC-ROC of 0.80, CI 0.70–0.92). Most of these genes were enriched in their expression within retinal glial cells, particularly microglia and astrocytes. Their role in AMD was further strengthened by cellular deconvolution, which identified distinct differences in microglia and astrocytes between normal and AMD. We corroborated these findings using independent single-cell data, where several ML genes exhibited differential expression. Finally, the integration of AMD-GWAS data identified a regulatory variant, rs4133124 at PLCG2 , as a novel AMD association. Collectively, our study provides molecular insights into the recurring theme of immune dysfunction in AMD and highlights the significance of glial cell differences in AMD progression.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00507-2"
+        ],
+        "primary_html_sha256": "5ab78759de6b3b26e5034c1de5187bb7802d5430939e3da38825e2941e1897e4",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以453名供者视网膜转录组的可解释机器学习识别AMD区分基因，再结合独立单细胞及GWAS验证小胶质/星形胶质免疫信号和PLCG2关联，AI直接参与眼病机制与标志物研究。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以453名供者视网膜转录组的可解释机器学习识别AMD区分基因，再结合独立单细胞及GWAS验证小胶质/星形胶质免疫信号和PLCG2关联，AI直接参与眼病机制与标志物研究。"
+        },
+        {
+          "axis": "method",
+          "label": "可解释机器学习",
+          "label_en": "Explainable machine learning",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "以453名供者视网膜转录组的可解释机器学习识别AMD区分基因，再结合独立单细胞及GWAS验证小胶质/星形胶质免疫信号和PLCG2关联，AI直接参与眼病机制与标志物研究。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00500-9",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "New genetic diagnoses for inherited retinal dystrophies by integrating splicing tools into NGS pipelines",
+    "authors": [
+      "Elena Fernández-Suárez",
+      "María González-del Pozo",
+      "Cristina Méndez-Vidal",
+      "Marta Martín-Sánchez",
+      "Marcela Mena",
+      "Alejandro García-Nuñez",
+      "Nereida Bravo-Gil",
+      "María José Morillo-Sánchez",
+      "Enrique Rodríguez-de la Rúa",
+      "Salud Borrego",
+      "Guillermo Antiñolo"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-6478-5968",
+      "https://orcid.org/0000-0003-4858-938X",
+      "https://orcid.org/0000-0002-0090-9930",
+      "https://orcid.org/0000-0001-7630-4252"
+    ],
+    "abstract": "Variants affecting pre-mRNA splicing mechanisms are responsible for multiple monogenic disorders. However, their prioritization and interpretation remain challenging. Herein, we designed a strategy for the identification of likely spliceogenic variants in unsolved inherited retinal dystrophy (IRD) cases. We benchmarked thirteen splicing predictors on a curated training dataset, which revealed that the combination of SpliceAI and MaxEnt tools exhibited the best performance for the analysis of most splicing variants. However, for branch point variants, the BranchPoint tool (Alamut®-Batch) was the optimal choice. The proposed combination of tools was assessed using a validation cohort comprising 116 genetically diagnosed individuals with rare diseases, and subsequently applied for the analysis of 211 unsolved IRD families. The pipeline identified 30 likely pathogenic variants, 17 of which were predicted to alter splicing mechanisms. These results demonstrate an increase in diagnostic yield of up to 6.2%, reinforcing the importance of reanalysis strategies focused on identifying spliceogenic variants.",
+    "keywords": [
+      "Disease genetics",
+      "RNA splicing"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00500-9",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00500-9",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00500-9.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-07-02",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "比较13类剪接预测工具后组合SpliceAI与MaxEnt，并在116例已诊断者验证、211个未解视网膜病家系应用，深度学习直接支撑新诊断与致病变异解释。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "New genetic diagnoses for inherited retinal dystrophies by integrating splicing tools into NGS pipelines",
+        "authors": [
+          "Fernández-Suárez, Elena",
+          "González-del Pozo, María",
+          "Méndez-Vidal, Cristina",
+          "Martín-Sánchez, Marta",
+          "Mena, Marcela",
+          "García-Nuñez, Alejandro",
+          "Bravo-Gil, Nereida",
+          "Morillo-Sánchez, María José",
+          "Rodríguez-de la Rúa, Enrique",
+          "Borrego, Salud",
+          "Antiñolo, Guillermo"
+        ],
+        "doi": "10.1038/s41525-025-00500-9",
+        "url": "https://www.nature.com/articles/s41525-025-00500-9",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00500-9.pdf",
+        "abstract": "Variants affecting pre-mRNA splicing mechanisms are responsible for multiple monogenic disorders. However, their prioritization and interpretation remain challenging. Herein, we designed a strategy for the identification of likely spliceogenic variants in unsolved inherited retinal dystrophy (IRD) cases. We benchmarked thirteen splicing predictors on a curated training dataset, which revealed that the combination of SpliceAI and MaxEnt tools exhibited the best performance for the analysis of most splicing variants. However, for branch point variants, the BranchPoint tool (Alamut®-Batch) was the optimal choice. The proposed combination of tools was assessed using a validation cohort comprising 116 genetically diagnosed individuals with rare diseases, and subsequently applied for the analysis of 211 unsolved IRD families. The pipeline identified 30 likely pathogenic variants, 17 of which were predicted to alter splicing mechanisms. These results demonstrate an increase in diagnostic yield of up to 6.2%, reinforcing the importance of reanalysis strategies focused on identifying spliceogenic variants.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00500-9"
+        ],
+        "primary_html_sha256": "4b5c14a124c4a1ecc4e4ceb4ddb4ae39156c77a5efcff057d3089a1d7993ac51",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "比较13类剪接预测工具后组合SpliceAI与MaxEnt，并在116例已诊断者验证、211个未解视网膜病家系应用，深度学习直接支撑新诊断与致病变异解释。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "比较13类剪接预测工具后组合SpliceAI与MaxEnt，并在116例已诊断者验证、211个未解视网膜病家系应用，深度学习直接支撑新诊断与致病变异解释。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00512-5",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Sequencing validates deep learning models for EHR-based detection of Noonan syndrome in pediatric patients",
+    "authors": [
+      "Zeyu Yang",
+      "Amy Shikany",
+      "Ammar Husami",
+      "Xinjian Wang",
+      "Eneida Mendonca",
+      "K. Nicole Weaver",
+      "Jing Chen"
+    ],
+    "author_ids": [],
+    "abstract": "Despite advanced diagnostic tools, early detection of rare genetic conditions like Noonan syndrome (NS) remains challenging. We evaluated a deep learning model’s real-world performance in identifying potential NS cases using electronic health record (EHR) data, validated through genetic sequencing and clinical assessment. The model analyzed 92,428 patients, identifying 171 high-risk individuals (score > 0.8) who underwent comprehensive review. Among these, 86 had prior genetic diagnoses, including three NS cases diagnosed during the study period. Genetic sequencing of remaining patients identified two additional NS cases with pathogenic variants. The model achieved 2.92% precision and 99.82% specificity. While precision was lower than prior validation (33.3%), this reflected expected differences in disease prevalence rather than model degradation. NS-associated phenotypes were enriched among high-risk patients, and trajectory analysis showed potential for earlier identification, highlighting both promise and limitations of EHR-based computational screening tools.",
+    "keywords": [
+      "Bioinformatics",
+      "Genetics research",
+      "Personalized medicine",
+      "Next-generation sequencing"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00512-5",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00512-5",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00512-5.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-07-21",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "用既有EHR深度模型筛查92428名儿童，依据高风险预测开展临床复核和遗传测序，识别新增Noonan病例并评估真实阳性与早发现能力，AI直接参与罕见病筛查。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "Sequencing validates deep learning models for EHR-based detection of Noonan syndrome in pediatric patients",
+        "authors": [
+          "Yang, Zeyu",
+          "Shikany, Amy",
+          "Husami, Ammar",
+          "Wang, Xinjian",
+          "Mendonca, Eneida",
+          "Nicole Weaver, K.",
+          "Chen, Jing"
+        ],
+        "doi": "10.1038/s41525-025-00512-5",
+        "url": "https://www.nature.com/articles/s41525-025-00512-5",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00512-5.pdf",
+        "abstract": "Despite advanced diagnostic tools, early detection of rare genetic conditions like Noonan syndrome (NS) remains challenging. We evaluated a deep learning model’s real-world performance in identifying potential NS cases using electronic health record (EHR) data, validated through genetic sequencing and clinical assessment. The model analyzed 92,428 patients, identifying 171 high-risk individuals (score > 0.8) who underwent comprehensive review. Among these, 86 had prior genetic diagnoses, including three NS cases diagnosed during the study period. Genetic sequencing of remaining patients identified two additional NS cases with pathogenic variants. The model achieved 2.92% precision and 99.82% specificity. While precision was lower than prior validation (33.3%), this reflected expected differences in disease prevalence rather than model degradation. NS-associated phenotypes were enriched among high-risk patients, and trajectory analysis showed potential for earlier identification, highlighting both promise and limitations of EHR-based computational screening tools.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00512-5"
+        ],
+        "primary_html_sha256": "bd0fc4496618efd2a699be19f439c99fbe43e6e63ca80660421601b921f250bf",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "用既有EHR深度模型筛查92428名儿童，依据高风险预测开展临床复核和遗传测序，识别新增Noonan病例并评估真实阳性与早发现能力，AI直接参与罕见病筛查。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "用既有EHR深度模型筛查92428名儿童，依据高风险预测开展临床复核和遗传测序，识别新增Noonan病例并评估真实阳性与早发现能力，AI直接参与罕见病筛查。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00528-x",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Improving polygenic risk score based drug response prediction using transfer learning",
+    "authors": [
+      "Youshu Cheng",
+      "Song Zhai",
+      "Wujuan Zhong",
+      "Rachel Marceau West",
+      "Judong Shen"
+    ],
+    "author_ids": [],
+    "abstract": "Traditional methods for pharmacogenomics (PGx), like those using disease-specific polygenic risk scores (PRS-Dis), often fail to capture the full heritability of drug response, leading to poor predictions. Direct PGx PRS approaches could improve this, but the scarcity of relevant PGx datasets limits the wide application. To overcome these challenges, we introduce PRS-PGx-TL, a novel transfer learning method. It models large-scale disease summary statistics data alongside individual-level PGx data, leveraging both sources to create more accurate prognostic and predictive polygenic risk scores. In PRS-PGx-TL, we further develop a two-dimensional penalized gradient descent algorithm that starts with weights from disease data and then optimizes them using cross-validation. In simulations and an application to IMPROVE-IT (ClinicalTrials.gov, NCT00202878, September 13, 2005) PGx GWAS data, PRS-PGx-TL significantly enhances prediction accuracy and patient stratification compared to traditional PRS-Dis methods. Our approach shows great promise for advancing precision medicine by using an individual’s genetic information to guide treatment decisions more effectively.",
+    "keywords": [
+      "Computational biology and bioinformatics",
+      "Drug discovery",
+      "Genetics",
+      "Biomarkers",
+      "Diseases",
+      "Medical research",
+      "Molecular medicine",
+      "Risk factors"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00528-x",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00528-x",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00528-x.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-11-21",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "drug discovery"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_vocabulary_hits": [
+      "迁移学习"
+    ],
+    "ai4s_tags": [
+      "AI for 生命科学",
+      "AI for 物质科学"
+    ],
+    "ai4s_keywords": [
+      "drug discovery",
+      "molecule",
+      "transfer learning"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "drug discovery"
+        ],
+        "AI for 物质科学": [
+          "molecule"
+        ]
+      },
+      "method_evidence": [
+        "transfer learning"
+      ]
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "将大规模疾病汇总统计的遗传权重迁移到个体药物基因组数据，以二维惩罚梯度和交叉验证适配药物反应PRS，并在IMPROVE-IT检验预测/人群分层，直接贡献药物反应迁移学习方法。",
+      "evidence_location": "官网原摘要；正文 Workflow of PRS-PGx-TL/IMPROVE-IT PGx GWAS data analysis results",
+      "verified_metadata": {
+        "title": "Improving polygenic risk score based drug response prediction using transfer learning",
+        "authors": [
+          "Cheng, Youshu",
+          "Zhai, Song",
+          "Zhong, Wujuan",
+          "West, Rachel Marceau",
+          "Shen, Judong"
+        ],
+        "doi": "10.1038/s41525-025-00528-x",
+        "url": "https://www.nature.com/articles/s41525-025-00528-x",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00528-x.pdf",
+        "abstract": "Traditional methods for pharmacogenomics (PGx), like those using disease-specific polygenic risk scores (PRS-Dis), often fail to capture the full heritability of drug response, leading to poor predictions. Direct PGx PRS approaches could improve this, but the scarcity of relevant PGx datasets limits the wide application. To overcome these challenges, we introduce PRS-PGx-TL, a novel transfer learning method. It models large-scale disease summary statistics data alongside individual-level PGx data, leveraging both sources to create more accurate prognostic and predictive polygenic risk scores. In PRS-PGx-TL, we further develop a two-dimensional penalized gradient descent algorithm that starts with weights from disease data and then optimizes them using cross-validation. In simulations and an application to IMPROVE-IT (ClinicalTrials.gov, NCT00202878, September 13, 2005) PGx GWAS data, PRS-PGx-TL significantly enhances prediction accuracy and patient stratification compared to traditional PRS-Dis methods. Our approach shows great promise for advancing precision medicine by using an individual’s genetic information to guide treatment decisions more effectively.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00528-x"
+        ],
+        "primary_html_sha256": "1af8f50bc74db752e7e445ac87af3d70d81e67aa747c696a0fe07dc2cb9756f9",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留",
+        "full_text_evidence_location": "官网原摘要；正文 Workflow of PRS-PGx-TL/IMPROVE-IT PGx GWAS data analysis results",
+        "full_text_checked_at": "2026-11-19T12:07:28.456563+00:00"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要；正文 Workflow of PRS-PGx-TL/IMPROVE-IT PGx GWAS data analysis results",
+          "rationale": "将大规模疾病汇总统计的遗传权重迁移到个体药物基因组数据，以二维惩罚梯度和交叉验证适配药物反应PRS，并在IMPROVE-IT检验预测/人群分层，直接贡献药物反应迁移学习方法。"
+        },
+        {
+          "axis": "method",
+          "label": "迁移学习",
+          "label_en": "Transfer learning",
+          "evidence_location": "官网原摘要；正文 Workflow of PRS-PGx-TL/IMPROVE-IT PGx GWAS data analysis results",
+          "rationale": "将大规模疾病汇总统计的遗传权重迁移到个体药物基因组数据，以二维惩罚梯度和交叉验证适配药物反应PRS，并在IMPROVE-IT检验预测/人群分层，直接贡献药物反应迁移学习方法。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41525-025-00537-w",
+    "venue": "npjgenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Quantum computing and the implementation of precision medicine",
+    "authors": [
+      "Nasna Nassir",
+      "Mohammad Amiruddin Hashmi",
+      "Kavya Gopan Raji",
+      "Bassam Jamalalail",
+      "Andrew Maksymowsky",
+      "Stephen W. Scherer",
+      "Alawi Alsheikh-Ali",
+      "Mohammed Uddin"
+    ],
+    "author_ids": [],
+    "abstract": "Precision medicine aims to tailor healthcare by integrating individual genetic, epigenetic, transcriptomic, proteomic, and clinical data, collectively referred to as multi-omic data. However, the scale and complexity of such multi-omics datasets challenge classical computing approaches. Quantum computing, which leverages superposition and entanglement (quantum-level correlations between particles), offers a fundamentally new paradigm for accelerating molecular simulations, biomarker discovery, and high-dimensional data analysis. This review explores the convergence of quantum computing and it’s potential to provide unmet needs in precision biomedicine research, with emphasis on applications in diagnostic modeling, multi-omic data integration and drug discovery. We highlight early proof-of-concept studies demonstrating the use of quantum machine learning for disease prediction, quantum algorithms for protein folding, and quantum generative models for novel drug design. Hybrid quantum-classical workflows are also already enabling gene network inference and prioritization of variants of uncertain significance, the latter of which is a major focus of multi-omic research worldwide. Emerging directions include digital twin simulations and real-time clinical decision support powered by quantum models. Looking ahead, the long-term vision for quantum computing in biomedicine involves in silico modeling of entire biological systems to simulate cellular responses to perturbations like drug treatments, enabling clinicians to test therapies in virtual patients before real-world application. Despite these advances, practical implementation remains limited by hardware constraints, qubit decoherence, algorithm scalability, and regulatory barriers. Nonetheless, as quantum hardware evolves and AI-aligned quantum algorithms mature, their integration holds transformative potential. Quantum computing may eventually shorten diagnostic timelines, improve therapeutic precision, and make biomedical innovation more globally accessible. We outline a roadmap for translating these technologies into next-generation precision medicine.",
+    "keywords": [
+      "Computational biology and bioinformatics",
+      "Systems biology"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41525-025-00537-w",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41525-025-00537-w",
+    "pdf_url": "https://www.nature.com/articles/s41525-025-00537-w.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-12-03",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Genomic Medicine",
+    "issn": "2056-7944",
+    "article_type": "Review",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "protein folding",
+      "drug discovery",
+      "drug design",
+      "\\bproteins?\\b",
+      "quantum computing"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学",
+      "AI for 物质科学",
+      "AI for 信息科学"
+    ],
+    "ai4s_keywords": [
+      "protein",
+      "drug discovery",
+      "transcriptomics",
+      "proteomics",
+      "systems biology",
+      "molecule",
+      "quantum computing",
+      "quantum circuit"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "protein",
+          "drug discovery",
+          "transcriptomics",
+          "proteomics",
+          "systems biology"
+        ],
+        "AI for 物质科学": [
+          "molecule"
+        ],
+        "AI for 信息科学": [
+          "quantum computing",
+          "quantum circuit"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "原摘要明确综述已实施的量子机器学习疾病预测、生成药物设计及混合量子经典基因网络/变异优先级概念验证，兼述硬件和转化限制，具有实际AI医学研究综合内容。",
+      "evidence_location": "官网原摘要及Review元数据",
+      "verified_metadata": {
+        "title": "Quantum computing and the implementation of precision medicine",
+        "authors": [
+          "Nassir, Nasna",
+          "Hashmi, Mohammad Amiruddin",
+          "Raji, Kavya Gopan",
+          "Jamalalail, Bassam",
+          "Maksymowsky, Andrew",
+          "Scherer, Stephen W.",
+          "Alsheikh-Ali, Alawi",
+          "Uddin, Mohammed"
+        ],
+        "doi": "10.1038/s41525-025-00537-w",
+        "url": "https://www.nature.com/articles/s41525-025-00537-w",
+        "pdf_url": "https://www.nature.com/articles/s41525-025-00537-w.pdf",
+        "abstract": "Precision medicine aims to tailor healthcare by integrating individual genetic, epigenetic, transcriptomic, proteomic, and clinical data, collectively referred to as multi-omic data. However, the scale and complexity of such multi-omics datasets challenge classical computing approaches. Quantum computing, which leverages superposition and entanglement (quantum-level correlations between particles), offers a fundamentally new paradigm for accelerating molecular simulations, biomarker discovery, and high-dimensional data analysis. This review explores the convergence of quantum computing and it’s potential to provide unmet needs in precision biomedicine research, with emphasis on applications in diagnostic modeling, multi-omic data integration and drug discovery. We highlight early proof-of-concept studies demonstrating the use of quantum machine learning for disease prediction, quantum algorithms for protein folding, and quantum generative models for novel drug design. Hybrid quantum-classical workflows are also already enabling gene network inference and prioritization of variants of uncertain significance, the latter of which is a major focus of multi-omic research worldwide. Emerging directions include digital twin simulations and real-time clinical decision support powered by quantum models. Looking ahead, the long-term vision for quantum computing in biomedicine involves in silico modeling of entire biological systems to simulate cellular responses to perturbations like drug treatments, enabling clinicians to test therapies in virtual patients before real-world application. Despite these advances, practical implementation remains limited by hardware constraints, qubit decoherence, algorithm scalability, and regulatory barriers. Nonetheless, as quantum hardware evolves and AI-aligned quantum algorithms mature, their integration holds transformative potential. Quantum computing may eventually shorten diagnostic timelines, improve therapeutic precision, and make biomedical innovation more globally accessible. We outline a roadmap for translating these technologies into next-generation precision medicine.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Review",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41525-025-00537-w"
+        ],
+        "primary_html_sha256": "86c96463968888a5061abcff747cfaaecb2eb5ce28c6690543c0996bcc9af2ac",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Review元数据",
+          "rationale": "原摘要明确综述已实施的量子机器学习疾病预测、生成药物设计及混合量子经典基因网络/变异优先级概念验证，兼述硬件和转化限制，具有实际AI医学研究综合内容。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "官网原摘要及Review元数据",
+          "rationale": "原摘要明确综述已实施的量子机器学习疾病预测、生成药物设计及混合量子经典基因网络/变异优先级概念验证，兼述硬件和转化限制，具有实际AI医学研究综合内容。"
+        },
+        {
+          "axis": "contribution",
+          "label": "综述",
+          "label_en": "Review",
+          "evidence_location": "官网原摘要及Review元数据",
+          "rationale": "原摘要明确综述已实施的量子机器学习疾病预测、生成药物设计及混合量子经典基因网络/变异优先级概念验证，兼述硬件和转化限制，具有实际AI医学研究综合内容。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41533-025-00417-x",
+    "venue": "npjpcrm",
+    "year": 2025,
+    "track": null,
+    "title": "The interactions among factors associated with the risk of lung cancer among diabetes patients: a survival tree analysis",
+    "authors": [
+      "Sarah Tsz Yui Yau",
+      "Chi Tim Hung",
+      "Eman Yee Man Leung",
+      "Albert Lee",
+      "Eng Kiong Yeoh"
+    ],
+    "author_ids": [],
+    "abstract": "Past epidemiological studies demonstrated mixed findings on the association between diabetes and lung cancer. Given the possible links between diabetes, smoking, and respiratory diseases, this study aims to examine the interaction patterns among factors associated with the risk of lung cancer among diabetes patients. A territory-wide retrospective cohort study was performed using electronic health records of Hong Kong. Patients who received diabetes care in general outpatient clinics between 2010 and 2019 without cancer history were included and followed up until December 2019. Conditional inference survival tree was applied to examine the interaction patterns among factors associated with the risk of lung cancer. A total of 385,521 patients were included. During a median follow-up of 6.2 years, 3395 developed lung cancer. Age emerged as primary factor in differentiating the risk of lung cancer. Conditional on age ( ≤ 64 vs >64 years), smoking appeared as subsequent dominant risk factor within each subpopulation. Among old smokers aged >64 years characterized by long duration of diabetes (median: 6–8 years), chronic obstructive pulmonary disease (COPD) emerged as key risk factor. Six distinct subgroups of diabetes patients with different risk levels of lung cancer according to age, smoking, metformin use, and COPD status were identified. Findings of the study suggest the interaction patterns among age, smoking, and COPD on the risk of lung cancer among diabetes patients, providing targets for public health interventions.",
+    "keywords": [
+      "Respiratory tract diseases",
+      "Epidemiology",
+      "Lifestyle modification",
+      "Preventive medicine"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41533-025-00417-x",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41533-025-00417-x",
+    "pdf_url": "https://www.nature.com/articles/s41533-025-00417-x.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-03-30",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Primary Care Respiratory Medicine",
+    "issn": "2055-1010",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "对385521名糖尿病患者长期临床记录用条件推断生存树学习年龄、吸烟、COPD及药物的交互分层，直接研究肺癌风险异质性。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "The interactions among factors associated with the risk of lung cancer among diabetes patients: a survival tree analysis",
+        "authors": [
+          "Yau, Sarah Tsz Yui",
+          "Hung, Chi Tim",
+          "Leung, Eman Yee Man",
+          "Lee, Albert",
+          "Yeoh, Eng Kiong"
+        ],
+        "doi": "10.1038/s41533-025-00417-x",
+        "url": "https://www.nature.com/articles/s41533-025-00417-x",
+        "pdf_url": "https://www.nature.com/articles/s41533-025-00417-x.pdf",
+        "abstract": "Past epidemiological studies demonstrated mixed findings on the association between diabetes and lung cancer. Given the possible links between diabetes, smoking, and respiratory diseases, this study aims to examine the interaction patterns among factors associated with the risk of lung cancer among diabetes patients. A territory-wide retrospective cohort study was performed using electronic health records of Hong Kong. Patients who received diabetes care in general outpatient clinics between 2010 and 2019 without cancer history were included and followed up until December 2019. Conditional inference survival tree was applied to examine the interaction patterns among factors associated with the risk of lung cancer. A total of 385,521 patients were included. During a median follow-up of 6.2 years, 3395 developed lung cancer. Age emerged as primary factor in differentiating the risk of lung cancer. Conditional on age ( ≤ 64 vs >64 years), smoking appeared as subsequent dominant risk factor within each subpopulation. Among old smokers aged >64 years characterized by long duration of diabetes (median: 6–8 years), chronic obstructive pulmonary disease (COPD) emerged as key risk factor. Six distinct subgroups of diabetes patients with different risk levels of lung cancer according to age, smoking, metformin use, and COPD status were identified. Findings of the study suggest the interaction patterns among age, smoking, and COPD on the risk of lung cancer among diabetes patients, providing targets for public health interventions.",
+        "volume": "35",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41533-025-00417-x"
+        ],
+        "primary_html_sha256": "746d796b095e9279efd99b2d307b2bb1a96609eb638fa7bca5274867c7066c3f",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "对385521名糖尿病患者长期临床记录用条件推断生存树学习年龄、吸烟、COPD及药物的交互分层，直接研究肺癌风险异质性。"
+        },
+        {
+          "axis": "method",
+          "label": "决策树",
+          "label_en": "Decision tree",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "对385521名糖尿病患者长期临床记录用条件推断生存树学习年龄、吸烟、COPD及药物的交互分层，直接研究肺癌风险异质性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41533-025-00428-8",
+    "venue": "npjpcrm",
+    "year": 2025,
+    "track": null,
+    "title": "Development and validation of a machine learning risk prediction model for asthma attacks in adults in primary care",
+    "authors": [
+      "Holly Tibble",
+      "Aziz Sheikh",
+      "Athanasios Tsanas"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-7169-4087",
+      "https://orcid.org/0000-0001-7022-3056",
+      "https://orcid.org/0000-0002-0994-8100"
+    ],
+    "abstract": "Primary care consultations provide an opportunity for patients and clinicians to assess asthma attack risk. Using a data-driven risk prediction tool with routinely collected health records may be an efficient way to aid promotion of effective self-management, and support clinical decision making. Longitudinal Scottish primary care data for 21,250 asthma patients were used to predict the risk of asthma attacks in the following year. A selection of machine learning algorithms (i.e., Naïve Bayes Classifier, Logistic Regression, Random Forests, and Extreme Gradient Boosting), hyperparameters, training data enrichment methods were explored, and validated in a random unseen data partition. Our final Logistic Regression model achieved the best performance when no training data enrichment was applied. Around 1 in 3 (36.2%) predicted high-risk patients had an attack within one year of consultation, compared to approximately 1 in 16 in the predicted low-risk group (6.7%). The model was well calibrated, with a calibration slope of 1.02 and an intercept of 0.004, and the Area under the Curve was 0.75. This model has the potential to increase the efficiency of routine asthma care by creating new personalized care pathways mapped to predicted risk of asthma attacks, such as priority ranking patients for scheduled consultations and interventions. Furthermore, it could be used to educate patients about their individual risk and risk factors, and promote healthier lifestyle changes, use of self-management plans, and early emergency care seeking following rapid symptom deterioration.",
+    "keywords": [
+      "Epidemiology",
+      "Prognosis",
+      "Asthma"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41533-025-00428-8",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41533-025-00428-8",
+    "pdf_url": "https://www.nature.com/articles/s41533-025-00428-8.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-04-23",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Primary Care Respiratory Medicine",
+    "issn": "2055-1010",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "在21250例哮喘纵向记录中实际比较朴素贝叶斯、RF、XGBoost和逻辑回归并验证一年急性发作预测，直接贡献临床风险建模；最终胜出模型为逻辑回归，不误写为随机森林。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "Development and validation of a machine learning risk prediction model for asthma attacks in adults in primary care",
+        "authors": [
+          "Tibble, Holly",
+          "Sheikh, Aziz",
+          "Tsanas, Athanasios"
+        ],
+        "doi": "10.1038/s41533-025-00428-8",
+        "url": "https://www.nature.com/articles/s41533-025-00428-8",
+        "pdf_url": "https://www.nature.com/articles/s41533-025-00428-8.pdf",
+        "abstract": "Primary care consultations provide an opportunity for patients and clinicians to assess asthma attack risk. Using a data-driven risk prediction tool with routinely collected health records may be an efficient way to aid promotion of effective self-management, and support clinical decision making. Longitudinal Scottish primary care data for 21,250 asthma patients were used to predict the risk of asthma attacks in the following year. A selection of machine learning algorithms (i.e., Naïve Bayes Classifier, Logistic Regression, Random Forests, and Extreme Gradient Boosting), hyperparameters, training data enrichment methods were explored, and validated in a random unseen data partition. Our final Logistic Regression model achieved the best performance when no training data enrichment was applied. Around 1 in 3 (36.2%) predicted high-risk patients had an attack within one year of consultation, compared to approximately 1 in 16 in the predicted low-risk group (6.7%). The model was well calibrated, with a calibration slope of 1.02 and an intercept of 0.004, and the Area under the Curve was 0.75. This model has the potential to increase the efficiency of routine asthma care by creating new personalized care pathways mapped to predicted risk of asthma attacks, such as priority ranking patients for scheduled consultations and interventions. Furthermore, it could be used to educate patients about their individual risk and risk factors, and promote healthier lifestyle changes, use of self-management plans, and early emergency care seeking following rapid symptom deterioration.",
+        "volume": "35",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41533-025-00428-8"
+        ],
+        "primary_html_sha256": "8e2b24cf4930f91a8ab483fbb5b8002d23cffe92862bc409aa9e9b50371468a3",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "在21250例哮喘纵向记录中实际比较朴素贝叶斯、RF、XGBoost和逻辑回归并验证一年急性发作预测，直接贡献临床风险建模；最终胜出模型为逻辑回归，不误写为随机森林。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "在21250例哮喘纵向记录中实际比较朴素贝叶斯、RF、XGBoost和逻辑回归并验证一年急性发作预测，直接贡献临床风险建模；最终胜出模型为逻辑回归，不误写为随机森林。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41533-025-00455-5",
+    "venue": "npjpcrm",
+    "year": 2025,
+    "track": null,
+    "title": "AI-driven clinical decision support for early diagnosis and treatment planning in patients with suspected sleep apnea using clinical and demographic data before sleep studies",
+    "authors": [
+      "Mar Mosteiro-Añón",
+      "Manuel Casal-Guisande",
+      "Alberto Fernández-Villar",
+      "María Torres-Durán"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0003-0305-7179",
+      "https://orcid.org/0000-0003-1494-8145",
+      "https://orcid.org/0000-0001-7407-5249",
+      "https://orcid.org/0000-0001-6710-3766"
+    ],
+    "abstract": "Objective This study explored the application of Machine Learning (ML) techniques to cluster patients with suspected sleep apnea (SA), based on clinical-demographic data, with the aim of optimizing diagnostic pathways and enabling more personalized management. Methods A cohort of 5385 patients referred for suspected SA to a Sleep-Disordered Breathing Unit in northwest Spain was analyzed. Demographic, anthropometric, comorbidity, and symptom data were collected. Patients were grouped using the k-prototypes algorithm, with the elbow method determining the optimal number of clusters. These clusters were then correlated with cardiorespiratory polygraphy outcomes and continuous positive airway pressure (CPAP) prescription rates. Finally, we developed an Intelligent Clinical Decision Support System (ICDSS) based on Random Forest to assign new patients to clusters using a reduced set of variables. Results Five distinct clusters were identified: one of middle-aged men with low symptom burden; a cluster predominantly comprising symptomatic women with high use of psychotropic drugs; a group mainly of young men with severe daytime sleepiness; a cluster of middle-aged men with moderate symptoms; and a group of older men with high comorbidity yet low subjective symptomatology. Significant differences in apnea–hypopnea index (AHI) distributions and CPAP indications were observed among these clusters. The integration of polygraphic findings, CPAP prescription rates, and the distinct clinical features of each cluster supports the formulation of tailored diagnostic and therapeutic strategies according to the specific clinical profile of each subgroup. Using the ICDSS, we accurately assigned patients to their respective clusters based solely on clinical variables, achieving area under the receiver operating characteristic curve (AUC) values ranging from 0.87 to 0.95, reliably guiding precise diagnostic and therapeutic management. Conclusions ML techniques applied to routine data allow the identification of meaningful clinical clusters in patients with suspected SA. These clusters can guide differential diagnostic testing and personalized treatment strategies. The ICDSS enables early and accurate patient classification, supporting a precision medicine approach in sleep medicine.",
+    "keywords": [
+      "Health care",
+      "Signs and symptoms",
+      "Medical research"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41533-025-00455-5",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41533-025-00455-5",
+    "pdf_url": "https://www.nature.com/articles/s41533-025-00455-5.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-11-20",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Primary Care Respiratory Medicine",
+    "issn": "2055-1010",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_hits": [],
+    "ai4s_reason": "taxonomy_rule",
+    "ai4s_tags": [
+      "AI for 社会科学"
+    ],
+    "ai4s_keywords": [
+      "demography"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 社会科学": [
+          "demography"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "对5385名疑似睡眠呼吸暂停者用k-prototypes学习临床亚群，并训练随机森林按少量临床变量分配新患者，结合AHI及CPAP处方提出分层诊疗，AI直接支持睡眠医学诊断。",
+      "evidence_location": "官网原摘要及Article元数据",
+      "verified_metadata": {
+        "title": "AI-driven clinical decision support for early diagnosis and treatment planning in patients with suspected sleep apnea using clinical and demographic data before sleep studies",
+        "authors": [
+          "Mosteiro-Añón, Mar",
+          "Casal-Guisande, Manuel",
+          "Fernández-Villar, Alberto",
+          "Torres-Durán, María"
+        ],
+        "doi": "10.1038/s41533-025-00455-5",
+        "url": "https://www.nature.com/articles/s41533-025-00455-5",
+        "pdf_url": "https://www.nature.com/articles/s41533-025-00455-5.pdf",
+        "abstract": "Objective This study explored the application of Machine Learning (ML) techniques to cluster patients with suspected sleep apnea (SA), based on clinical-demographic data, with the aim of optimizing diagnostic pathways and enabling more personalized management. Methods A cohort of 5385 patients referred for suspected SA to a Sleep-Disordered Breathing Unit in northwest Spain was analyzed. Demographic, anthropometric, comorbidity, and symptom data were collected. Patients were grouped using the k-prototypes algorithm, with the elbow method determining the optimal number of clusters. These clusters were then correlated with cardiorespiratory polygraphy outcomes and continuous positive airway pressure (CPAP) prescription rates. Finally, we developed an Intelligent Clinical Decision Support System (ICDSS) based on Random Forest to assign new patients to clusters using a reduced set of variables. Results Five distinct clusters were identified: one of middle-aged men with low symptom burden; a cluster predominantly comprising symptomatic women with high use of psychotropic drugs; a group mainly of young men with severe daytime sleepiness; a cluster of middle-aged men with moderate symptoms; and a group of older men with high comorbidity yet low subjective symptomatology. Significant differences in apnea–hypopnea index (AHI) distributions and CPAP indications were observed among these clusters. The integration of polygraphic findings, CPAP prescription rates, and the distinct clinical features of each cluster supports the formulation of tailored diagnostic and therapeutic strategies according to the specific clinical profile of each subgroup. Using the ICDSS, we accurately assigned patients to their respective clusters based solely on clinical variables, achieving area under the receiver operating characteristic curve (AUC) values ranging from 0.87 to 0.95, reliably guiding precise diagnostic and therapeutic management. Conclusions ML techniques applied to routine data allow the identification of meaningful clinical clusters in patients with suspected SA. These clusters can guide differential diagnostic testing and personalized treatment strategies. The ICDSS enables early and accurate patient classification, supporting a precision medicine approach in sleep medicine.",
+        "volume": "35",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41533-025-00455-5"
+        ],
+        "primary_html_sha256": "60d90cef745e4bfa94a7552004dad05124e57bd0658b0ab5fb9bc022a421e701",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:07:28.456563+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "对5385名疑似睡眠呼吸暂停者用k-prototypes学习临床亚群，并训练随机森林按少量临床变量分配新患者，结合AHI及CPAP处方提出分层诊疗，AI直接支持睡眠医学诊断。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "对5385名疑似睡眠呼吸暂停者用k-prototypes学习临床亚群，并训练随机森林按少量临床变量分配新患者，结合AHI及CPAP处方提出分层诊疗，AI直接支持睡眠医学诊断。"
+        },
+        {
+          "axis": "method",
+          "label": "随机森林",
+          "label_en": "Random forest",
+          "evidence_location": "官网原摘要及Article元数据",
+          "rationale": "对5385名疑似睡眠呼吸暂停者用k-prototypes学习临床亚群，并训练随机森林按少量临床变量分配新患者，结合AHI及CPAP处方提出分层诊疗，AI直接支持睡眠医学诊断。"
+        }
+      ]
+    }
   }
 ]
