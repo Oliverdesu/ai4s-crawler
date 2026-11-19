@@ -1,0 +1,995 @@
+{
+  "owner": "李雪婷",
+  "year": 2026,
+  "checked_at": "2026-11-19T07:02:39.826463+00:00",
+  "status": "complete",
+  "attention_message": "再无需要关注的",
+  "source_count": 51,
+  "sources_complete": 51,
+  "reviewed_total": 3819,
+  "candidate_total": 3818,
+  "decisions": {
+    "include": 2299,
+    "exclude": 1520,
+    "pending": 0,
+    "unreviewed": 0
+  },
+  "required_abstract_backfill": 0,
+  "attention_sources": 0,
+  "original_candidate_abstract_missing_count": 413,
+  "abstract_resolutions": {
+    "publisher_original_abstract_in_verified_metadata": 396,
+    "publisher_no_independent_abstract_nonresearch_excluded": 1,
+    "verified_nonresearch_document_type_excluded": 10,
+    "publisher_no_independent_abstract_original_fulltext_reviewed": 5,
+    "owner_authorized_evidence_insufficient_exclusion": 1
+  },
+  "raw_fields_preserved": true,
+  "scope_cutoff_at": "2026-11-17T07:14:20Z",
+  "current_issues": [],
+  "current_next_actions": [],
+  "evidence_insufficient_policy": "按证据不足本批不纳入结案；保留原记录、证据和具体缺口，不声称已证无AI。",
+  "publication_mode": "personal_branch_only",
+  "public_website_status": "Separate upstream website is not updated by this personal branch push. This report does not claim the public website has changed.",
+  "validation": {
+    "input_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+    "review_file": "reviews/2026/zch66883-lixueting.json",
+    "review_sha256": "5a3747223d062ab246f9dc5ae8a95c3c4277aa32834ae661877cebdf0f9494a1",
+    "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json",
+    "feedback_sha256": "e3bfc067ffb4a19745ed6d829c9c3fd69379a204b0223dfe58ecf80502b33bc7",
+    "annual_candidates_sha256": "fcf577f334e93b39a1eab6ac33f4ce32eb6d9aa70aff354eee6c0a6228b06f5e",
+    "monitor_builder_url": "https://github.com/Oliverdesu/BUPT-AI4S.github.io/blob/876a4ebfcf80a54a37ffe614dde1e185d2ca2368/tools/build_review_monitor.py",
+    "monitor_builder_sha256": "15f5b8de3305d7fb51da5df35a894f4d5226772ae1eadd556142fbe3371147c4",
+    "method": "Build real monitor from unchanged source files; require 51 zero-issue sources and exact per-record catalogue proof. Resolve every physically missing candidate abstract from verified original abstract, verified original full text, verified nonresearch type or explicit owner exclusion. Refresh own source/owner output only."
+  },
+  "sources": [
+    {
+      "code": "isbi",
+      "title": "IEEE International Symposium on Biomedical Imaging",
+      "decisions": {
+        "include": 695,
+        "exclude": 39,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "total": 762,
+        "scope": "2026 IEEE ISBI正式研究论文；完整出版方Crossref注册767中逐项5 frontmatter非研究，余762与raw762逐DOI完全一致。",
+        "unresolved": 0,
+        "all_document_reference_total": 767,
+        "nonresearch_frontmatter_count": 5,
+        "evidence_urls": [
+          "https://doi.org/10.1109/ISBI61048.2026",
+          "https://api.crossref.org/works?filter=prefix:10.1109&query.container-title=2026%20IEEE%2023rd%20International%20Symposium%20on%20Biomedical%20Imaging&rows=1000"
+        ],
+        "query_url": "https://api.crossref.org/works?filter=prefix:10.1109&query.container-title=2026%20IEEE%2023rd%20International%20Symposium%20on%20Biomedical%20Imaging&rows=1000",
+        "source": "Crossref publisher-deposited formal proceedings catalogue",
+        "checked_at": "2026-11-19T05:11:03.824777+00:00"
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-0b75c492f7",
+      "title": "Cell Chemical Biology",
+      "decisions": {
+        "include": 3,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 96,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-156db6914b",
+      "title": "Kidney International",
+      "decisions": {
+        "include": 19,
+        "exclude": 4,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 460,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-1990fab752",
+      "title": "Agriculture Communications",
+      "decisions": {
+        "include": 12,
+        "exclude": 2,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 37,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-1eb350782d",
+      "title": "Energy Reviews",
+      "decisions": {
+        "include": 8,
+        "exclude": 1,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 25,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-31f1ddbac1",
+      "title": "Surface Science Reports",
+      "decisions": {
+        "include": 2,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 8,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-3991fd2dc7",
+      "title": "Neural Networks",
+      "decisions": {
+        "include": 379,
+        "exclude": 104,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 1258,
+      "reference_check": {
+        "status": "complete",
+        "source": "Crossref formal-volume reference reconciled against publisher browser TOCs",
+        "total": 1258,
+        "scope": "正式2026卷193—204，全部条目；不是DOI年份或在线优先年",
+        "query_url": "https://api.crossref.org/journals/0893-6080/works?filter=from-print-pub-date:2026-01-01,until-print-pub-date:2026-12-31&rows=1000",
+        "checked_at": "2026-11-18",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-3ecf0afce7",
+      "title": "Journal of Informetrics",
+      "decisions": {
+        "include": 29,
+        "exclude": 6,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 105,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-430f217ee3",
+      "title": "Social Science Research",
+      "decisions": {
+        "include": 8,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "source": "Crossref publisher-deposited complete references; PubMed/Europe PMC matched primary records",
+        "total": 132,
+        "scope": "2026正式卷期全体目录条目；仅2026-11-17T07:14:20Z截止前已finalcitable且归正式2026卷的记录。含目录非研究条目，文类另按逐篇规则处理。",
+        "query_url": "https://api.crossref.org/journals/0049-089X/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000",
+        "checked_at": "2026-11-19T04:06:00.345013+00:00",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-437bcb1511",
+      "title": "Energy",
+      "decisions": {
+        "include": 325,
+        "exclude": 41,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "source": "Complete Crossref publisher-deposited reference, reconciled per DOI; uncertain publication times resolved conservatively by explicit owner instruction",
+        "total": 3159,
+        "scope": "完整Crossref出版方登记print-year2026共3597，逐DOI对账；官网2026归档342–369。固定截止同口径参考3159=正式封面早截止2991+未来卷有截止前正式登记167+原官网VOR20Oct另1。108未证正式分卷及330未证截止前VOR按负责人时间不确定政策范围不纳，保留记录。不把3597/3159/RePEc3196冒充官网总量。",
+        "query_url": "https://api.crossref.org/journals/0360-5442/works?filter=from-print-pub-date:2026-01-01,until-print-pub-date:2026-12-31&rows=1000",
+        "checked_at": "2026-11-19T04:14:55.570390+00:00",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-4a7ca851fa",
+      "title": "Clinical Psychology Review",
+      "decisions": {
+        "include": 5,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 89,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-54bd8c62a1",
+      "title": "Cleaner Materials",
+      "decisions": {
+        "include": 10,
+        "exclude": 1,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 81,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-6244b75b55",
+      "title": "Satellite Navigation",
+      "decisions": {
+        "include": 12,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 44,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-6d145c9546",
+      "title": "Advanced Drug Delivery Reviews",
+      "decisions": {
+        "include": 21,
+        "exclude": 12,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "source": "Crossref publisher-deposited complete2026 references; PubMed/EuropePMC original records and publisher archive matched",
+        "total": 157,
+        "scope": "2026正式卷228–239，固定UTC截止前已finalcitable且已归期。全体目录条目含非研究文类，逐篇文类另筛；volume240=Jan2027及InPress不纳本次。",
+        "query_url": "https://api.crossref.org/journals/0169-409X/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000",
+        "checked_at": "2026-11-19T04:21:34.309348+00:00",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-7cb47416fb",
+      "title": "Biochimica et Biophysica Acta (BBA) - Reviews on Cancer",
+      "decisions": {
+        "include": 5,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 237,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-896c5ba968",
+      "title": "JACC Heart Failure",
+      "decisions": {
+        "include": 5,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "source": "Crossref publisher-deposited complete references; PubMed/Europe PMC matched primary records",
+        "total": 290,
+        "scope": "2026正式卷期全体目录条目；仅2026-11-17T07:14:20Z截止前已finalcitable且归正式2026卷的记录。含目录非研究条目，文类另按逐篇规则处理。",
+        "query_url": "https://api.crossref.org/journals/2213-1779/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000",
+        "checked_at": "2026-11-19T04:06:00.345013+00:00",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-9560448126",
+      "title": "Advances in Nutrition",
+      "decisions": {
+        "include": 5,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 160,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-967ed653cf",
+      "title": "The Lancet Gastroenterology & Hepatology",
+      "decisions": {
+        "include": 2,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "total": 217,
+        "unresolved": 0,
+        "scope": "出版社供稿Crossref参考口径：2026正式卷11第1—12期全部217条，不含7无卷在线临时年记录；官网年归档确认2026卷11，未冒称已逐篇读取官网12期目录。",
+        "source": "Publisher-supplied Crossref registered formal volume/issue catalogue; official archive confirms year boundary",
+        "evidence_urls": [
+          "https://api.crossref.org/journals/2468-1253/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+          "https://www.sciencedirect.com/journal/the-lancet-gastroenterology-and-hepatology/issues"
+        ],
+        "checked_at": "2026-11-19T04:35:09.301630+00:00",
+        "query_url": "https://api.crossref.org/journals/2468-1253/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A"
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-9ca36fbb5a",
+      "title": "Technovation",
+      "decisions": {
+        "include": 22,
+        "exclude": 10,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "total": 301,
+        "scope": "Crossref publisher-deposited ISSN0166-4972 print-year2026完整301，10正式卷149–158，全部最后deposit<=Nov4早于截止；同口径全量文类。RePEc291不含每卷1EditorialBoard，10差额逐PII/DOI确认均raw已采。",
+        "unresolved": 0,
+        "query_url": "https://api.crossref.org/journals/0166-4972/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+        "evidence_urls": [
+          "https://www.sciencedirect.com/journal/technovation/issues",
+          "https://ideas.repec.org/s/eee/techno.html",
+          "https://ideas.repec.org/s/eee/techno2.html",
+          "https://api.crossref.org/journals/0166-4972/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A"
+        ],
+        "source": "Crossref publisher-deposited complete formal-volume catalogue",
+        "checked_at": "2026-11-19T05:11:03.824777+00:00"
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-9f4e581a9f",
+      "title": "Stem Cell Reports",
+      "decisions": {
+        "include": 12,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 190,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-a6cf8cddc8",
+      "title": "Journal of the American College of Cardiology",
+      "decisions": {
+        "include": 17,
+        "exclude": 5,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "total": 7164,
+        "scope": "固定UTC截止前正式2026卷87/88全目录所有文类参考；完整出版方Crossref ISSN0735-1097 print-year2026共7258，7178已分卷，80无卷不纳；88(20)14同Nov17未证截止前VOR/归期按用户时间政策不纳，7164固定。会议摘要/前页保留全量目录计数，候选另按文类筛。",
+        "unresolved": 0,
+        "query_url": "https://api.crossref.org/journals/0735-1097/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+        "evidence_urls": [
+          "https://api.crossref.org/journals/0735-1097/works",
+          "https://www.jacc.org/loi/jacc/group/d2020.y2026"
+        ],
+        "source": "Crossref publisher-deposited complete formal-volume catalogue",
+        "checked_at": "2026-11-19T05:11:03.824777+00:00"
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-a847fdc23a",
+      "title": "Chinese Herbal Medicines",
+      "decisions": {
+        "include": 12,
+        "exclude": 4,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 85,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-ad9089e1ea",
+      "title": "Soil Biology and Biochemistry",
+      "decisions": {
+        "include": 10,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 252,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-af35c70bf5",
+      "title": "The Lancet Neurology",
+      "decisions": {
+        "include": 5,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 270,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-b6525f43da",
+      "title": "iScience",
+      "decisions": {
+        "include": 430,
+        "exclude": 29,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 3916,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-bb97940e03",
+      "title": "Scripta Materialia",
+      "decisions": {
+        "include": 20,
+        "exclude": 2,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "total": 497,
+        "unresolved": 0,
+        "scope": "出版社供稿Crossref参考口径：2026正式Scripta Materialia卷270—285全部497条，不含15无卷临时年记录；官网年归档确认该16卷为2026，未冒称已逐篇读取官网16卷目录。",
+        "source": "Publisher-supplied Crossref registered formal volume records; official archive verifies year-volume boundary",
+        "evidence_urls": [
+          "https://api.crossref.org/journals/1359-6462/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+          "https://www.sciencedirect.com/journal/scripta-materialia/issues"
+        ],
+        "checked_at": "2026-11-19T04:32:42.217713+00:00",
+        "query_url": "https://api.crossref.org/journals/1359-6462/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A"
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-becc8fcc40",
+      "title": "Journal of Allergy and Clinical Immunology",
+      "decisions": {
+        "include": 23,
+        "exclude": 6,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 1419,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-c94b3260f2",
+      "title": "Trends in Environmental Analytical Chemistry",
+      "decisions": {
+        "include": 3,
+        "exclude": 1,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 34,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-d0ed63ed81",
+      "title": "eLight",
+      "decisions": {
+        "include": 2,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 29,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-d2017db5cc",
+      "title": "Learning and Instruction",
+      "decisions": {
+        "include": 22,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "source": "Crossref publisher-deposited complete references; PubMed/Europe PMC matched primary records",
+        "total": 188,
+        "scope": "2026正式卷期全体目录条目；仅2026-11-17T07:14:20Z截止前已finalcitable且归正式2026卷的记录。含目录非研究条目，文类另按逐篇规则处理。",
+        "query_url": "https://api.crossref.org/journals/0959-4752/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000",
+        "checked_at": "2026-11-19T04:06:00.345013+00:00",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-d49438c2b7",
+      "title": "Green Energy and Resources",
+      "decisions": {
+        "include": 4,
+        "exclude": 2,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 36,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-df77234eb6",
+      "title": "The Lancet Diabetes & Endocrinology",
+      "decisions": {
+        "include": 3,
+        "exclude": 2,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "total": 184,
+        "unresolved": 0,
+        "scope": "出版社供稿Crossref参考口径：2026卷14正式登记186条中，按用户固定截止时间政策排2条未证截止前正式VOR/归期(233、277)，保留记录与当前已归卷事实；固定参考184条全部采集。另5无卷在线临时年记录不混正式范围。",
+        "source": "Publisher-supplied Crossref formal catalogue plus explicit owner-authorized fixed-cutoff conservative exclusions",
+        "evidence_urls": [
+          "https://api.crossref.org/journals/2213-8587/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+          "https://www.sciencedirect.com/journal/the-lancet-diabetes-and-endocrinology/issues"
+        ],
+        "checked_at": "2026-11-19T04:45:07.733099+00:00",
+        "query_url": "https://api.crossref.org/journals/2213-8587/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A"
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-e9725f8b7d",
+      "title": "Journal of Controlled Release",
+      "decisions": {
+        "include": 36,
+        "exclude": 12,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": null,
+      "reference_check": {
+        "status": "complete",
+        "source": "Crossref publisher-deposited complete2026 references; PubMed/EuropePMC original records and publisher archive matched",
+        "total": 1054,
+        "scope": "2026正式卷389–400；固定UTC截止前已finalcitable且已归期，2篇早上线但归期截止前未证按用户保守范围政策单列不纳。全体目录条目含非研究文类，逐篇文类另筛。",
+        "query_url": "https://api.crossref.org/journals/0168-3659/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000",
+        "checked_at": "2026-11-19T04:21:34.309348+00:00",
+        "unresolved": 0
+      },
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "j-ec40580ce8",
+      "title": "Trends in Parasitology",
+      "decisions": {
+        "include": 4,
+        "exclude": 4,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 166,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "mlsys",
+      "title": "Conference on Machine Learning and Systems",
+      "decisions": {
+        "include": 4,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 135,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "natcardiovascres",
+      "title": "Nature Cardiovascular Research",
+      "decisions": {
+        "include": 25,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 145,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "natrevearthenviron",
+      "title": "Nature Reviews Earth & Environment",
+      "decisions": {
+        "include": 2,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 103,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nature-bmt",
+      "title": "Bone Marrow Transplantation",
+      "decisions": {
+        "include": 0,
+        "exclude": 7,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 295,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nature-ejhg",
+      "title": "European Journal of Human Genetics",
+      "decisions": {
+        "include": 52,
+        "exclude": 9,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 229,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nature-ijo",
+      "title": "International Journal of Obesity",
+      "decisions": {
+        "include": 13,
+        "exclude": 2,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 260,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nature-nutd",
+      "title": "Nutrition and Diabetes",
+      "decisions": {
+        "include": 2,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 55,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nature-oncsis",
+      "title": "Oncogenesis",
+      "decisions": {
+        "include": 4,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 62,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "neurips",
+      "title": "Conference on Neural Information Processing Systems",
+      "decisions": {
+        "include": 0,
+        "exclude": 1191,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 0,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "npjgenmed",
+      "title": "npj Genomic Medicine",
+      "decisions": {
+        "include": 7,
+        "exclude": 1,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 57,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "npjpcrm",
+      "title": "npj Primary Care Respiratory Medicine",
+      "decisions": {
+        "include": 6,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 80,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "npjquantmats",
+      "title": "npj Quantum Materials",
+      "decisions": {
+        "include": 1,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 96,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "npjregenmed",
+      "title": "npj Regenerative Medicine",
+      "decisions": {
+        "include": 6,
+        "exclude": 0,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 54,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nrendo",
+      "title": "Nature Reviews Endocrinology",
+      "decisions": {
+        "include": 0,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 121,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nri",
+      "title": "Nature Reviews Immunology",
+      "decisions": {
+        "include": 1,
+        "exclude": 1,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 120,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nrneurol",
+      "title": "Nature Reviews Neurology",
+      "decisions": {
+        "include": 2,
+        "exclude": 3,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 106,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    },
+    {
+      "code": "nrrheum",
+      "title": "Nature Reviews Rheumatology",
+      "decisions": {
+        "include": 4,
+        "exclude": 1,
+        "pending": 0,
+        "unreviewed": 0
+      },
+      "official_total": 121,
+      "reference_check": null,
+      "required_abstract_backfill": 0,
+      "issues": [],
+      "next_actions": [],
+      "feedback_file": "reviews/2026/feedback/zch66883-lixueting.json"
+    }
+  ]
+}

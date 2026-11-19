@@ -1,0 +1,1455 @@
+{
+  "source_code": "neurips",
+  "year": 2025,
+  "owner": "李雪婷",
+  "snapshot_at": "2026-11-09T10:51:18+08:00",
+  "source_summary": {
+    "source_code": "neurips",
+    "year": 2025,
+    "owner": "李雪婷",
+    "github_username": "zch66883-lixueting",
+    "snapshot_at": "2026-11-09T10:51:18+08:00",
+    "official_total": null,
+    "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
+    "coverage_note": "Main Conference官方5286与原5286标题逐一规范匹配，尚需全目录召回；其他正式分轨目录与范围尚在核实。已逐篇核175/351初候选原摘要，136纳入、26排除、13实际方法/科学作用疑点待补证，余176未审；本反馈不声明整源完成。",
+    "candidate_total": 351,
+    "candidate_missing_abstracts": 0,
+    "review_counts": {
+      "include": 136,
+      "exclude": 26,
+      "pending": 13,
+      "unreviewed": 176
+    },
+    "completion_status": "in_progress",
+    "work_status": "in_progress",
+    "issues": [
+      "13篇已审候选的具体方法/科学贡献仍待必要正文补证。",
+      "176篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+    ],
+    "next_actions": [
+      "继续逐篇审核176初候选，按需补证13个实际疑点；核全Main及其他正式分轨漏采漏筛。"
+    ],
+    "evidence_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025"
+    ],
+    "checked_at": "2026-11-19T07:05:12.717587+00:00"
+  },
+  "catalogue_main_track": {
+    "official_count": 5286,
+    "raw_count": 5286,
+    "normalized_title_matches": 5286,
+    "raw_missing": 0,
+    "reference_missing": 0
+  },
+  "manual_scientific_log": [
+    {
+      "index": 0,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "流匹配",
+        "多模态学习"
+      ],
+      "rationale": "GeneFlow以RNA编码器和条件UNet/rectified flow从单细胞表达生成配对组织图像，研究细胞形态及遗传或化学扰动的空间作用。"
+    },
+    {
+      "index": 1,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [],
+      "rationale": "模板约束GFlowNet配合学习的合成成本/可行性代理及动态库，实际用于可合成分子设计与合成路径优化。"
+    },
+    {
+      "index": 2,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "物理信息学习",
+        "掩码建模"
+      ],
+      "rationale": "PhySwin在百万Sentinel-2影像上引入辐射物理约束预训练，针对地表遥感分割和变化检测检验地球观测表征。"
+    },
+    {
+      "index": 3,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "变分自编码器",
+        "低秩适配"
+      ],
+      "rationale": "VAE学习气象预报误差分布，LoRA适配流依赖误差；在ERA5模拟观测与FengWu高分辨率资料同化任务检验预报精度。"
+    },
+    {
+      "index": 4,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "直接研究PINN求解带Dirichlet边界的二阶椭圆方程的一致性、非渐近误差和不一致反例，形成AI求解数学方程的理论贡献。"
+    },
+    {
+      "index": 5,
+      "decision": "exclude",
+      "rationale": "原摘要研究PageRank局部线性系统和图算法复杂度，未有AI参与具体科学或工程任务；真实图效率验证不构成AI4S。"
+    },
+    {
+      "index": 6,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "预训练"
+      ],
+      "rationale": "ProGen3蛋白语言模型及规模规律用于功能蛋白设计，明确湿实验比较不同规模生成的蛋白活性和实验数据对齐作用。"
+    },
+    {
+      "index": 7,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "流匹配"
+      ],
+      "rationale": "PAFlow结合蛋白口袋条件、相互作用预测和原子数量预测，实际生成高亲和力三维配体并比较分子性质。"
+    },
+    {
+      "index": 8,
+      "decision": "exclude",
+      "rationale": "DNA仅是突变修复启发比喻，实际任务为AI生成文本检测与通用检测指标，不研究DNA或其他科学对象。"
+    },
+    {
+      "index": 9,
+      "decision": "exclude",
+      "rationale": "以Möbius反演分解因果效应的数学框架，化学反应网络仅作形式演示；摘要未提供学习AI参与科学研究的实际作用。"
+    },
+    {
+      "index": 10,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "算子学习",
+        "流匹配"
+      ],
+      "rationale": "FNOPE以Fourier神经算子和流匹配估计函数参数后验，实际包括冰川学空间反演而非仅一般生成基准。"
+    },
+    {
+      "index": 11,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "等变学习",
+        "预训练"
+      ],
+      "rationale": "等变mRNA语言模型用于表达、稳定性、核糖开关预测和序列设计，并解析密码子使用的GC/tRNA规律。"
+    },
+    {
+      "index": 12,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "强化学习"
+      ],
+      "rationale": "dfPO连续控制学习在表面建模、电网控制及分子动力学低数据物理约束任务实际比较，具有具体科学计算/工程控制贡献。"
+    },
+    {
+      "index": 13,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "专门研究潜空间扩散作为动力系统物理模拟器的压缩误差、预测不确定性和架构选择，直接贡献AI物理仿真。"
+    },
+    {
+      "index": 14,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "自监督学习",
+        "Transformer 架构"
+      ],
+      "rationale": "CARMANIA以转移矩阵正则预训练核酸序列模型，实际评估调控元件、功能基因、耐药和生物合成簇预测。"
+    },
+    {
+      "index": 15,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "PINN Balls将可学习域分解与自适应采样用于PDE数值求解，直接评估解的精度和可扩展性。"
+    },
+    {
+      "index": 16,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "几何深度学习"
+      ],
+      "rationale": "几何代数增强Bayesian Flow Network依据三维RNA骨架生成核酸序列，实际比较单态与多态逆设计。"
+    },
+    {
+      "index": 17,
+      "decision": "exclude",
+      "rationale": "原摘要的主要贡献是任务无关多教师蒸馏与通用表征质量；分子建模仅与文本/视觉并列作下游演示，未明确实质科学任务贡献。"
+    },
+    {
+      "index": 18,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "TITAN神经模型根据Hamiltonian预测冻结VQE参数，实际求解Ising、Heisenberg和多分子体系基态，减少量子化学测量成本。"
+    },
+    {
+      "index": 19,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "RoboScape联合学习几何深度与接触场景关键点动力学作为机器人仿真世界模型，并以生成数据训练及评估机器人策略，具有工程控制作用。"
+    },
+    {
+      "index": 20,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "直线路径扩散直接生成有效三维分子结构，围绕分子构型噪声敏感性与生成质量/效率开展研究。"
+    },
+    {
+      "index": 21,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "主动学习"
+      ],
+      "rationale": "ProSpero使用预训练蛋白生成模型和oracle更新的适应度代理，主动探索远离野生型的高适应度新序列。"
+    },
+    {
+      "index": 22,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "Venus-MAXWELL学习突变自由能变化景观，利用蛋白语言模型进化表征预测稳定性，直接服务蛋白工程。"
+    },
+    {
+      "index": 23,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "多模态学习",
+        "对比学习",
+        "指令微调"
+      ],
+      "rationale": "Prot2Text-V2融合蛋白编码器和语言解码器，通过对比对齐与指令微调生成蛋白功能描述，在低同源性条件验证功能预测。"
+    },
+    {
+      "index": 24,
+      "decision": "exclude",
+      "rationale": "滤波器归一化提升通用视觉的光照变化鲁棒性，未有具体科学/工程研究对象；大气传输是成像扰动解释，非地球系统研究。"
+    },
+    {
+      "index": 25,
+      "decision": "exclude",
+      "rationale": "SCUD解释离散扩散跳跃时程并改善图像、文本及蛋白数据生成；原摘要未体现蛋白功能/性质或其他具体科学任务，主要为通用生成模型改进。"
+    },
+    {
+      "index": 26,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "PITA通过温度退火训练扩散采样器，实际实现多体粒子、丙氨酸二肽和三肽平衡Boltzmann构象采样，降低能量评估成本。"
+    },
+    {
+      "index": 27,
+      "decision": "pending",
+      "rationale": "BRICK摘要既称通过神经影像研究脑振荡同步，又主要报告图网络推理改进；需确认实际脑神经科学建模/验证，而非仅脑启发通用图算法。"
+    },
+    {
+      "index": 28,
+      "decision": "pending",
+      "rationale": "多模态时空预测摘要列交通、气象和规划动机，但4项实际数据集未命名；需确认真实科学/工程预测对象及实验而非将动机当结果。"
+    },
+    {
+      "index": 29,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "对比学习"
+      ],
+      "rationale": "AutoSciDACT以模拟数据对比表征和NPLM两样本检验，量化天文、物理和生物观测的异常显著性，直接服务可统计证实的科学发现。"
+    },
+    {
+      "index": 30,
+      "decision": "pending",
+      "rationale": "Flex-Judge主要为通用多模态生成评判器，虽声称对分子有用，尚需实际分子科学评价任务/指标证据，以区分科学贡献和一般生成演示。"
+    },
+    {
+      "index": 31,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "主动学习"
+      ],
+      "rationale": "PaPQS以神经PDE解轨迹反传优化信息增益，主动合成参数和初边值，减少高保真PDE训练模拟量。"
+    },
+    {
+      "index": 32,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "图神经网络",
+        "不变表示学习"
+      ],
+      "rationale": "GRIN依据聚合物重复单元化学结构学习与重复次数无关的表征，在均聚/共聚性质基准检验对未见链长泛化。"
+    },
+    {
+      "index": 33,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "Nyström加速LS-SVM直接学习求解线性/非线性常微分方程，在16项ODE比较数值解误差和长时间离散性能。"
+    },
+    {
+      "index": 34,
+      "decision": "pending",
+      "rationale": "DyCC明确以化学约束改进分子图掩码自编码，但摘要未说明实际科学性质/功能任务；需核实验是否为实质分子科学预测。"
+    },
+    {
+      "index": 35,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型",
+        "Transformer 架构"
+      ],
+      "rationale": "DiTMC以分子连接图条件和SO(3)等变注意力采样三维分子构象，评估GEOM构象的精度和物理有效性。"
+    },
+    {
+      "index": 36,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [],
+      "rationale": "STELLA将地理坐标和时间嵌入加入MLP，针对大气时序预测检验5个数据集，直接建模大气时空演化。"
+    },
+    {
+      "index": 37,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "物理信息学习",
+        "算子学习"
+      ],
+      "rationale": "PINO依据传感器光谱响应和连续辐射场神经积分重建多/高光谱遥感数据，直接改进具有物理一致性的地球观测测量。"
+    },
+    {
+      "index": 38,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "变分自编码器",
+        "等变学习"
+      ],
+      "rationale": "AniDS学习原子间相互作用的各向异性噪声，改善MD17/OC22分子力预测，并验证化学键方向噪声符合物理规律。"
+    },
+    {
+      "index": 39,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "变分自编码器",
+        "多模态学习"
+      ],
+      "rationale": "scMRDR以βVAE解耦共享和模态特异细胞表示，结合生物异质性正则整合未配对单细胞多组学，保留生物信号。"
+    },
+    {
+      "index": 40,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "等变学习",
+        "图神经网络"
+      ],
+      "rationale": "GeoMix通过分子间几何消息传递预测电解质离子电导率，并重组具有几何图的混合物性质数据。"
+    },
+    {
+      "index": 41,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "预训练"
+      ],
+      "rationale": "ChromFound在197万单细胞染色质数据预训练，实际完成细胞注释、跨组学预测和增强子-基因调控联系发现。"
+    },
+    {
+      "index": 42,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "算子学习"
+      ],
+      "rationale": "Neural Green’s Function学习不规则几何上的线性PDE解算子，并在机械零件稳态热分析验证精度和求解效率。"
+    },
+    {
+      "index": 43,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "图神经网络",
+        "Transformer 架构"
+      ],
+      "rationale": "Bi²Former把ATAC-RNA调控匹配建模为属性二部图分类，学习可解释跨模态注意力并揭示单细胞调控模式。"
+    },
+    {
+      "index": 44,
+      "decision": "exclude",
+      "rationale": "SPDE与高斯过程仅作为通用图消息传递和OOD不确定性估计的数学设计类比，未有具体科学/工程任务。"
+    },
+    {
+      "index": 45,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "AiDE-Q迭代合成可信标签增强量子基态性质学习，实际评估至50量子比特的多体和分子体系性质预测。"
+    },
+    {
+      "index": 46,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "INC把学习校正注入PDE控制方程，实际改善混沌系统至三维湍流的长期物理模拟误差和稳定性。"
+    },
+    {
+      "index": 47,
+      "decision": "pending",
+      "rationale": "摘要主贡献为通用扩散引导梯度的理论统一，但包含性质引导分子生成；需核实际分子性质优化贡献是否足以构成科学应用，不能只按分子数据演示纳入。"
+    },
+    {
+      "index": 48,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "元学习",
+        "算子学习"
+      ],
+      "rationale": "MaNGO以条件神经过程编码图轨迹，再用元学习/神经算子适配未见材料参数，实际预测物理动力学。"
+    },
+    {
+      "index": 49,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "多域PINN结合全局质量守恒，预测三维交叉流道中的混合、回流及速度场，解决非典型几何流体工程建模。"
+    },
+    {
+      "index": 50,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "ASBS学习Schrödinger桥扩散采样，实际用于分子构象及分子Boltzmann平衡分布，直接减少科学能量评估负担。"
+    },
+    {
+      "index": 51,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "预训练",
+        "多模态学习"
+      ],
+      "rationale": "Omni-DNA支持长程增强子-靶标相互作用及序列功能注释，提供seq2func生物序列解释数据并评估26项基因组任务。"
+    },
+    {
+      "index": 52,
+      "decision": "exclude",
+      "rationale": "主要为通用LLM伪标签自我迭代与安全对齐，蛋白结构类别与专利/语言仅并列分类演示，未体现具体生物科学研究贡献。"
+    },
+    {
+      "index": 53,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "等变学习",
+        "扩散模型",
+        "物理信息学习"
+      ],
+      "rationale": "DynaPhArM通过SE(3)Transformer与物理约束扩散建模药物结合导致的靶标原子构象变化，直接研究靶标-药物相互作用。"
+    },
+    {
+      "index": 54,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "算子学习"
+      ],
+      "rationale": "DeltaPhi学习相近物理状态之间的演化残差，实际在多种PDE物理系统和不规则域比较有限数据求解效果。"
+    },
+    {
+      "index": 55,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [],
+      "rationale": "MOF-BFN联合生成周期晶格参数及构筑单元位置/取向，用于金属有机框架结构预测和从头材料生成。"
+    },
+    {
+      "index": 56,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "JADE联合学习空间转录组切片配准和低维嵌入，在人脑及蝾螈脑组织重建中验证保留空间基因表达结构。"
+    },
+    {
+      "index": 57,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "多模态学习"
+      ],
+      "rationale": "SIG明确编码道路场景几何与物理先验，以多模态LLM实际测试自动驾驶空间推理，并提供人眼动/场景布局标注工程基准。"
+    },
+    {
+      "index": 58,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [],
+      "rationale": "FlashMD依据Hamiltonian动力学学习大时间步的原子位置和动量，验证平衡与时间依赖分子动力学性质。"
+    },
+    {
+      "index": 59,
+      "decision": "pending",
+      "rationale": "R²MAE主张通用掩码预训练理论，并用于DNA与单细胞模型；需确认其实际生物功能/细胞分析任务贡献，而非仅通用重建指标。"
+    },
+    {
+      "index": 60,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "扩散模型",
+        "算子学习"
+      ],
+      "rationale": "FunDPS在函数空间训练离散无关神经算子扩散，以稀疏含噪观测反演PDE解，在5类PDE测试后验重建。"
+    },
+    {
+      "index": 61,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "MM-Agent把现实科学工程建模问题分解为分析、公式构建、计算及报告，基准覆盖111项跨学科建模问题并实际辅助建模竞赛。"
+    },
+    {
+      "index": 62,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "扩散模型",
+        "流匹配"
+      ],
+      "rationale": "TreeG以树搜索引导非可微目标生成，实际优化小分子和增强子DNA设计并报告相应性质目标改进，不只是普通序列生成。"
+    },
+    {
+      "index": 63,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "STNet结合可学习特征函数和谱变换求解算子特征值问题，对数学特征问题给出误差与精度实验。"
+    },
+    {
+      "index": 64,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "Phyla按系统发育树监督联合编码多序列，实际重建生命树及结核分枝杆菌群体基因组关系，检验蛋白语言模型进化推理。"
+    },
+    {
+      "index": 65,
+      "decision": "pending",
+      "rationale": "Active measurement将AI预测与人工重要性抽样用于无偏科学测量，摘要未列实际测量对象；需核具体实验以排除仅通用估计方法演示。"
+    },
+    {
+      "index": 66,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "PRSformer以百万级个体基因型多任务学习预测18类自身免疫/炎症疾病，并研究非线性交互和跨祖源遗传泛化。"
+    },
+    {
+      "index": 67,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "信息瓶颈"
+      ],
+      "rationale": "SubRec学习药物子结构与患者病情的条件关联，以纵向MIMIC记录推荐兼顾疗效与安全的药物组合。"
+    },
+    {
+      "index": 68,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "基于热平衡Boltzmann能量差设计学习损失，实际改善分子生成及自旋基态预测的物理有效性。"
+    },
+    {
+      "index": 69,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "多模态学习",
+        "强化学习"
+      ],
+      "rationale": "BioReason结合DNA编码器与LLM，经监督微调/RL实际推断疾病通路及变异效应，并生成生物机制解释。"
+    },
+    {
+      "index": 70,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "Astro-DSB为巨分子云恒星形成构建观测反演模型，结合物理模拟及真实Taurus B213观测检验动态预测。"
+    },
+    {
+      "index": 71,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "强化学习"
+      ],
+      "rationale": "InterRetro在树MDP中学习最坏分支价值和自模仿策略，实际规划目标分子至可购反应物的合成路线。"
+    },
+    {
+      "index": 72,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "强化学习",
+        "扩散模型",
+        "不确定性量化"
+      ],
+      "rationale": "不确定性感知代理奖励引导三维分子扩散多目标优化，并以分子动力学/ADMET检验EGFR候选的结合稳定性和类药性。"
+    },
+    {
+      "index": 73,
+      "decision": "pending",
+      "rationale": "E2Former的Wigner卷积主要提高等变网络张量积效率，摘要未明确具体物性或动力学研究任务；需核实际分子科学实验而非泛称潜力。"
+    },
+    {
+      "index": 74,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "DNAMark/CentralMark以DNA/蛋白嵌入设计可跨翻译遗传的序列水印，兼顾编码蛋白功能，并在治疗DNA和CRISPR-Cas9体系验证。"
+    },
+    {
+      "index": 75,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "LaM-SLidE专为实体守恒、可追踪的空间动力系统学习潜空间轨迹生成，针对分子/交互实体的动力学建模开展实验。"
+    },
+    {
+      "index": 76,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型",
+        "物理信息学习"
+      ],
+      "rationale": "DSD严格守恒离散粒子数，实际生成多孔岩石和锂电极微结构，并以传输和电化学性能定量验证。"
+    },
+    {
+      "index": 77,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "等变学习"
+      ],
+      "rationale": "SPiCE以保持对称性的构象集合表示建模热力学可达结构分布，实际预测量子力学及生物分子性质。"
+    },
+    {
+      "index": 78,
+      "decision": "exclude",
+      "rationale": "核心是通用非凸Newton优化的复杂度与收敛保证；PINN训练只是初步数值演示，摘要未提供针对科学方程的直接研究贡献。"
+    },
+    {
+      "index": 79,
+      "decision": "exclude",
+      "rationale": "AI-Researcher及Scientist-Bench的实际任务限定为AI研究领域中的算法实现/论文生成，未体现独立科学或工程领域任务；不能把自动化通用AI研究本身直接等同AI4S。"
+    },
+    {
+      "index": 80,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "等变学习",
+        "图神经网络"
+      ],
+      "rationale": "DualEquiNet联合欧氏及球谐多尺度消息传递，直接进行大RNA性质预测和蛋白结构建模。"
+    },
+    {
+      "index": 81,
+      "decision": "include",
+      "domain": "AI 用于社会科学",
+      "methods": [],
+      "rationale": "AutoDiscovery以LLM贝叶斯惊奇度及MCTS选择并实验检验假说，在生物、经济和行为等21个真实数据集开展数据驱动发现及专家评估。"
+    },
+    {
+      "index": 82,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "直接分析高维PDE深度BSDE解算器的离散偏差，提出Stratonovich/Heun方案并检验多类高维方程的解精度。"
+    },
+    {
+      "index": 83,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "图神经网络"
+      ],
+      "rationale": "以GNN从方程矩阵学习稀疏近似逆预条件器，实际加速三类PDE导出线性系统的共轭梯度数值求解。"
+    },
+    {
+      "index": 84,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "扩散模型",
+        "等变学习"
+      ],
+      "rationale": "ConfRover从蛋白MD轨迹联合学习构象与时间演化，以SE(3)扩散解码生成蛋白构象和轨迹。"
+    },
+    {
+      "index": 85,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "多模态学习",
+        "预训练"
+      ],
+      "rationale": "MIX-HIC利用百万对Hi-C和表观组轨迹预训练，学习三维基因组与表观信号统一表示并进行生物下游任务。"
+    },
+    {
+      "index": 86,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "A-GPS学习非支配关系及偏好条件生成器，用于蛋白设计的黑箱多目标性质搜索，实际检验设计样本效率和Pareto权衡。"
+    },
+    {
+      "index": 87,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "符号回归"
+      ],
+      "rationale": "ABL-PDE结合一阶逻辑知识库与神经学习，从含噪观测恢复PDE符号结构和系数，直接发现动力学控制方程。"
+    },
+    {
+      "index": 88,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "PALQO以PINN学习量子变分算法的训练动力学，实际完成40比特内多种量子体系基态制备，减少量子测量。"
+    },
+    {
+      "index": 89,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "围绕PINN的梯度冲突提出二阶优化解释，在10类PDE尤其Re10000湍流直接提升物理解算精度。"
+    },
+    {
+      "index": 90,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "流匹配",
+        "物理信息学习"
+      ],
+      "rationale": "Grasp2Grasp通过Schrödinger桥学习跨机器人手型的抓取分布迁移，以接触/力旋量物理代价实际生成稳定抓取。"
+    },
+    {
+      "index": 91,
+      "decision": "exclude",
+      "rationale": "波动动力学只是Transformer层的设计类比，实际仅验证通用NLP/CV任务性能，没有研究物理波或其他科学对象。"
+    },
+    {
+      "index": 92,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "SMT由基因表达和脑空间位置学习全脑功能连接，采用保留空间自相关的零模型验证可预测的基因-脑网络关联。"
+    },
+    {
+      "index": 93,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "流匹配",
+        "等变学习"
+      ],
+      "rationale": "QHFlow依据分子几何生成等变DFT Hamiltonian并对齐轨道能，实际缩减自洽场迭代、保持量子化学解精度。"
+    },
+    {
+      "index": 94,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "物理信息学习",
+        "Transformer 架构"
+      ],
+      "rationale": "UCformer嵌入城市地表-大气物理知识，联合预测气温、湿度和露点，并以真实观测微调估计城市热通量。"
+    },
+    {
+      "index": 95,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "物理信息学习",
+        "多模态学习"
+      ],
+      "rationale": "PIPE用卫星时空物理位置编码对齐图像及气象时序，在实际台风强度预报提高准确率。"
+    },
+    {
+      "index": 96,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "FIGRDock以交互距离条件的学习回归直接预测柔性蛋白-配体结合构象，实际比较对接精度和速度。"
+    },
+    {
+      "index": 97,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "Langevin自适应采样针对PINN配点残差造成的不稳定，在高维PDE数值求解检验误差与稳定性。"
+    },
+    {
+      "index": 98,
+      "decision": "exclude",
+      "rationale": "热核用于统一一般组合贝叶斯优化的核与计算效率；材料仅为动机示例，摘要未显示实际材料或其他科学任务研究。"
+    },
+    {
+      "index": 99,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "SHAP zero以稀疏Fourier草图高效解释生物序列模型，实际分析gRNA效能、DNA修复和蛋白适应度中的高阶相互作用。"
+    },
+    {
+      "index": 100,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "SpiderSolver按不规则域边界构造蜘蛛网token，实际求解翼型、汽车流动、主动脉血流及弹塑性PDE。"
+    },
+    {
+      "index": 101,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "扩散模型",
+        "物理信息学习"
+      ],
+      "rationale": "以Fokker-Planck正则确保扩散分数与能量/力一致，实际模拟快折叠蛋白和二肽的平衡及动力学。"
+    },
+    {
+      "index": 102,
+      "decision": "exclude",
+      "rationale": "通用神经网络线性约束满足与回归性能研究，物理定律仅为动机，摘要没有实际科学或工程任务。"
+    },
+    {
+      "index": 103,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "双向非自回归生物表示辅助自回归解码，在9物种的从头肽测序任务实际重建蛋白肽序列。"
+    },
+    {
+      "index": 104,
+      "decision": "exclude",
+      "rationale": "KLASS主要加速通用掩码扩散推理，分子与文本/图像仅作跨域生成演示，摘要未给出明确分子科学目标或性质验证。"
+    },
+    {
+      "index": 105,
+      "decision": "exclude",
+      "rationale": "LSD/LSD+解决一般离散扩散采样效率，实际实验仅文本、图像、合成任务，分子仅为背景提及。"
+    },
+    {
+      "index": 106,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "FlashIPA针对结构生物学不变点注意力的长度限制提出分解，实际重训结构生成模型并生成数千残基的蛋白/RNA结构。"
+    },
+    {
+      "index": 107,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "算子学习"
+      ],
+      "rationale": "专门研究由低保真数值解训练的神经PDE模拟器为何能超越训练解精度，并在多类PDE长期滚动解验证物理保真度。"
+    },
+    {
+      "index": 108,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "变分自编码器",
+        "扩散模型"
+      ],
+      "rationale": "UAE-3D联合编码原子、键及坐标，再扩散生成三维分子，实际优化构型几何保真度和条件分子设计。"
+    },
+    {
+      "index": 109,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "Cloud4D由同步地面相机学习反演三维云液水和水平风，实地两月观测并用雷达验证高分辨率大气测量。"
+    },
+    {
+      "index": 110,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [],
+      "rationale": "AutAuT自动检索分子辅助任务并通过梯度对齐权重学习，直接提高有限标签条件的分子性质预测。"
+    },
+    {
+      "index": 111,
+      "decision": "pending",
+      "rationale": "COSIMO采用单纯复形PDE设计网络，但原摘要只给泛称真实数据集；需核轨迹/网格实验是否实际科学工程任务，或只是通用图表征。"
+    },
+    {
+      "index": 112,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "检索增强生成",
+        "多模态学习",
+        "预训练"
+      ],
+      "rationale": "PoET-2结合家族进化上下文和结构条件学习蛋白分布，实际预测复杂突变效应及序列-功能关系。"
+    },
+    {
+      "index": 113,
+      "decision": "exclude",
+      "rationale": "XNet主要贡献通用浅层激活的逼近率与跨任务性能，PINN残差及PPO仅为一般架构基准，摘要未明确针对科学对象的研究贡献。"
+    },
+    {
+      "index": 114,
+      "decision": "exclude",
+      "rationale": "AutoGraph的主要任务是通用图生成扩展性，合成/分子数据用于计算与生成质量对比，摘要未报告具体分子性质、功能或科学发现。"
+    },
+    {
+      "index": 115,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "稳定port-Hamiltonian网络把能量守恒、耗散及Lyapunov稳定性纳入实际非线性系统辨识和多物理代理模拟。"
+    },
+    {
+      "index": 116,
+      "decision": "exclude",
+      "rationale": "Force Prompting的目标是可控逼真视频，主要验证视觉力遵循和物理观感；没有数值物理量、科学反演或实际工程控制任务，物理场景本身不足。"
+    },
+    {
+      "index": 117,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "流匹配",
+        "物理信息学习"
+      ],
+      "rationale": "ForceFM把力引导网络加入蛋白-配体构象流生成，实际提高分子对接精度和低能量物理合理性。"
+    },
+    {
+      "index": 118,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "多模态学习",
+        "指令微调"
+      ],
+      "rationale": "Omni-Mol整合140万样本和16类分子生成/数值性质/理解任务，利用动态专家结构实现跨分子领域学习和预测。"
+    },
+    {
+      "index": 119,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "等变学习",
+        "物理信息学习"
+      ],
+      "rationale": "等变Eikonal神经场求解不同流形上的传播走时，在二维、三维及球面地震走时建模实际验证。"
+    },
+    {
+      "index": 120,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "以对抗训练剔除实验批次信息，学习在体单神经元活动的功能表征，针对未见动物/刺激的细胞类型及位置预测泛化。"
+    },
+    {
+      "index": 121,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "流匹配",
+        "物理信息学习"
+      ],
+      "rationale": "PCFM以物理校正引导预训练流模型，在冲击/不连续PDE的生成解中严格满足非线性守恒等约束。"
+    },
+    {
+      "index": 122,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "预训练",
+        "算子学习"
+      ],
+      "rationale": "FIM-SDE从含噪路径学习漂移及扩散函数，在Lorenz动力学和真实风速/油价等过程进行方程发现与估计。"
+    },
+    {
+      "index": 123,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "流匹配"
+      ],
+      "rationale": "RETRO SYNFLOW学习产物到反应物的离散流及反应中心，以正向合成奖励引导，实际改善逆合成化学可行性。"
+    },
+    {
+      "index": 124,
+      "decision": "exclude",
+      "rationale": "量子电路高效计算Dempster证据组合以完成一般不确定分类，未显示AI实质参与量子物理或其他具体科学任务。"
+    },
+    {
+      "index": 125,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "LLM从45万arXiv论文采集并代码验证数学常数公式，配合符号统一证明π的360个公式关系，并扩展其他常数。"
+    },
+    {
+      "index": 126,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "预训练",
+        "算子学习"
+      ],
+      "rationale": "XNN面向不同维度物理PDE基础模型，实际进行多方程预训练和未见维度泛化，解决科学求解器维度限制。"
+    },
+    {
+      "index": 127,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "流匹配"
+      ],
+      "rationale": "以已结晶配体模板学习生成三维结合姿势，再按药效团/内能优化，使用同靶点共晶配体对验证柔性分子对接。"
+    },
+    {
+      "index": 128,
+      "decision": "exclude",
+      "rationale": "主要统一一般扩散表征引导和训练速度，蛋白序列及分子与图像并列生成测试；摘要没有具体科学性质/机制任务，不能仅据科学数据演示纳入。"
+    },
+    {
+      "index": 129,
+      "decision": "include",
+      "domain": "AI 用于社会科学",
+      "methods": [
+        "强化学习",
+        "主动学习",
+        "Transformer 架构"
+      ],
+      "rationale": "ALINE通过信息增益奖励联合学习主动数据采集和贝叶斯后验，实际包括针对特定参数的心理测量模型实验设计。"
+    },
+    {
+      "index": 130,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "LLM对隐藏状态序列进行上下文预测，实际应用动物决策数据识别生物行为机制，且与人工专家定制模型比较。"
+    },
+    {
+      "index": 131,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "流匹配"
+      ],
+      "rationale": "RiboFlow依据目标配体联合设计RNA序列和柔性三维骨架，并整理RNA-分子相互作用数据验证亲和力控制。"
+    },
+    {
+      "index": 132,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "EddyFormer以谱元Transformer模拟三维湍流，在256³分辨率验证DNS级精度及能谱、结构函数等物理量。"
+    },
+    {
+      "index": 133,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [],
+      "rationale": "CByG以性质梯度引导Bayesian Flow Network，实际多目标生成具有高结合亲和力、合成可行性和选择性的药物分子。"
+    },
+    {
+      "index": 134,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "GrIDDD在图扩散中学习增删原子，实际针对相关分子性质控制大小并进行分子优化。"
+    },
+    {
+      "index": 135,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "Transformer 架构"
+      ],
+      "rationale": "Transformer oracle学习跳过昂贵多项式消元步骤，保持Border basis算法正确性，直接加速符号代数方程计算。"
+    },
+    {
+      "index": 136,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [],
+      "rationale": "KeeA*利用神经启发式知识校准探索和路径采样，实际改进逆合成路线规划及逻辑综合搜索。"
+    },
+    {
+      "index": 137,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "NAAS学习退火参考随机动力学上的控制扩散采样器，实际采样分子Boltzmann分布和能量景观。"
+    },
+    {
+      "index": 138,
+      "decision": "pending",
+      "rationale": "PCA++以对比均匀性恢复共享低维信号，单细胞转录组与MNIST/合成数据并列验证；需核是否有具体细胞生物结构分析贡献，避免仅用科学数据作通用降维演示。"
+    },
+    {
+      "index": 139,
+      "decision": "exclude",
+      "rationale": "量子查询算法改进通用零阶凸优化、半定规划和博弈计算复杂度，未显示AI实质用于科学任务。"
+    },
+    {
+      "index": 140,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "图神经网络",
+        "算子学习"
+      ],
+      "rationale": "RIGNO通过区域多尺度图学习任意几何上的PDE解算子，验证多类稳态/时变物理方程及分辨率泛化。"
+    },
+    {
+      "index": 141,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "流匹配"
+      ],
+      "rationale": "VGFM联合学习细胞状态速度和群体增殖/死亡质量变化，利用真实单细胞快照重建生物动态。"
+    },
+    {
+      "index": 142,
+      "decision": "exclude",
+      "rationale": "ControlFusion利用光照/散射退化先验改善可控图像视觉融合，实际目标是视觉质量，没有科学测量或具体工程研究任务。"
+    },
+    {
+      "index": 143,
+      "decision": "exclude",
+      "rationale": "主要是半对偶OT映射的稳定性和统计误差理论，AI4Science仅背景应用名词；无具体科学/工程对象或任务。"
+    },
+    {
+      "index": 144,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "SLM以渐进候选剪枝扩散生成离散序列，实际包括DNA启动子、增强子及蛋白设计，而非仅语言生成。"
+    },
+    {
+      "index": 145,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "CytoBridge以神经网络近似不平衡均场Schrödinger桥，联合学习细胞转化、增殖和相互作用，重建真实scRNA发育景观。"
+    },
+    {
+      "index": 146,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "因果推断"
+      ],
+      "rationale": "基于因果表征学习和贝叶斯滤波构建气候模拟器，在两类气候模型数据验证长期气候动力学及物理因果关系。"
+    },
+    {
+      "index": 147,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "学习求积节点及权重改进PINN的PDE损失积分，并通过超网络学习方程族的解，直接贡献数值方程求解。"
+    },
+    {
+      "index": 148,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "算子学习",
+        "不确定性量化"
+      ],
+      "rationale": "DINOZAUR以可学习扩散时间参数替代FNO稠密乘子，并构造贝叶斯算子在多类PDE求解中校准空间不确定性。"
+    },
+    {
+      "index": 149,
+      "decision": "include",
+      "domain": "AI 用于工程科学",
+      "methods": [
+        "Transformer 架构",
+        "算子学习"
+      ],
+      "rationale": "S-Crescendo结合S域分式分解及神经算子预测高阶非线性电路时域响应，以HSPICE波形验证VLSI仿真。"
+    },
+    {
+      "index": 150,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "采用MCMC探索和扩散采样器联合训练以避免模态坍缩，实际生成真实分子构象并覆盖高维分子能量景观。"
+    },
+    {
+      "index": 151,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "强化学习"
+      ],
+      "rationale": "MACS把原子作为多智能体学习周期晶体结构松弛策略，在未见化学组成和大晶胞中优化稳定结构、减少能量计算。"
+    },
+    {
+      "index": 152,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "扩散模型"
+      ],
+      "rationale": "Ambient Protein Diffusion按AlphaFold结构置信度调整训练目标，从含噪结构学习生成长蛋白，并验证700残基结构的可设计性与多样性。"
+    },
+    {
+      "index": 153,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [],
+      "rationale": "直接针对科学机器学习中的PDE微分算子改写Taylor自动微分图，实际检验线性方程算子计算，以减少神经科学求解开销。"
+    },
+    {
+      "index": 154,
+      "decision": "pending",
+      "rationale": "Game-of-GNN以均场博弈解释通用图网络，并称人脑连接组实验；需核是否实际研究脑科学对象，或只是连接组图分类性能演示。"
+    },
+    {
+      "index": 155,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "HNS以神经场表示Hamilton泛函并学习函数导数，在一维/二维PDE保持能量并提高长时间物理模拟稳定性。"
+    },
+    {
+      "index": 156,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "图神经网络"
+      ],
+      "rationale": "CSIE以信息增益选取理论化学训练子集，AMGNN学习不对称溶质-溶剂作用，提高真实分子溶解性质预测。"
+    },
+    {
+      "index": 157,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "STRank从病理图像学习相对基因表达趋势，针对空间转录组测序噪声与批次效应在真实组织数据验证表达估计。"
+    },
+    {
+      "index": 158,
+      "decision": "pending",
+      "rationale": "CLAdapter明确面向数据稀缺科学图像迁移，但摘要的10类领域不对应具体任务；需核实际医学/材料/工业科学任务与结果，避免仅按领域列表纳入。"
+    },
+    {
+      "index": 159,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [
+        "多模态学习"
+      ],
+      "rationale": "RadarQA对雷达气象预报进行物理属性及动态演化质量分析，构建专家标注RQA-70K并多阶段训练气象评估模型。"
+    },
+    {
+      "index": 160,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "不确定性量化"
+      ],
+      "rationale": "变分Q指数过程实际求解Eikonal、Burgers及逆Darcy问题，在急变物理场中同时提高解精度与后验不确定性。"
+    },
+    {
+      "index": 161,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "符号回归",
+        "演化优化"
+      ],
+      "rationale": "改进MCTS结合极值老虎机及变异交叉搜索符号表达式，实际恢复含真值的数学关系，比较恢复率和精度-复杂度前沿。"
+    },
+    {
+      "index": 162,
+      "decision": "pending",
+      "rationale": "Energy Matching主要为通用图像生成和EBM理论，受控蛋白生成可能具有分子能量/结构研究作用，需核该实验实际科学目标。"
+    },
+    {
+      "index": 163,
+      "decision": "include",
+      "domain": "AI 用于地球宇宙科学",
+      "methods": [],
+      "rationale": "FuXi-Ocean学习多时间尺度可靠性并预测全球1/12度、六小时分辨率的温盐流场，评估深至1500米海洋动力学。"
+    },
+    {
+      "index": 164,
+      "decision": "include",
+      "domain": "AI 用于物质科学",
+      "methods": [
+        "流匹配",
+        "归一化流"
+      ],
+      "rationale": "在分子已知目标能量下以路径梯度微调流匹配Boltzmann生成器，实际提高分子平衡采样效率并保持流轨迹结构。"
+    },
+    {
+      "index": 165,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "对比学习",
+        "多模态学习"
+      ],
+      "rationale": "CellCLIP对齐Cell Painting显微形态与化学/CRISPR扰动文本，实际学习扰动的细胞效应及生物下游任务。"
+    },
+    {
+      "index": 166,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习",
+        "算子学习"
+      ],
+      "rationale": "HyPINO由PDE参数产生PINN并残差迭代细化，在椭圆/双曲/抛物方程的多几何边值问题零样本求解。"
+    },
+    {
+      "index": 167,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "scPilot以LLM直接调用单细胞工具并检查RNA测序数据，完成细胞注释、发育轨迹和转录因子靶向推理。"
+    },
+    {
+      "index": 168,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "神经微分方程",
+        "物理信息学习"
+      ],
+      "rationale": "神经Hamilton扩散在Poisson流形上学习随机保守动力学，实际涵盖分子动力学及相对论多体问题。"
+    },
+    {
+      "index": 169,
+      "decision": "exclude",
+      "rationale": "Genesys专门发现并验证语言模型架构，所有实际评估属于通用AI算法能力，没有独立科学或工程研究对象。"
+    },
+    {
+      "index": 170,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [
+        "自监督学习",
+        "联邦学习"
+      ],
+      "rationale": "TABULA按细胞-基因矩阵进行基因重建和细胞对比的联邦预训练，实际用于扰动预测、细胞注释及组学整合。"
+    },
+    {
+      "index": 171,
+      "decision": "exclude",
+      "rationale": "主要为样本/特征层次距离的通用表示与图预测；单细胞数据仅用于距离学习/稀疏逼近，摘要无具体生物任务或发现。"
+    },
+    {
+      "index": 172,
+      "decision": "exclude",
+      "rationale": "GRALE为通用图自编码/编辑/匹配研究，分子与模拟图仅是多种数据演示，没有明确化学性质或生物功能任务。"
+    },
+    {
+      "index": 173,
+      "decision": "include",
+      "domain": "AI 用于生命科学",
+      "methods": [],
+      "rationale": "MEIcoder以神经元最兴奋输入先验从V1单细胞活动解码视觉刺激，研究有限神经数据中的神经编码及脑机接口。"
+    },
+    {
+      "index": 174,
+      "decision": "include",
+      "domain": "AI 用于数理科学",
+      "methods": [
+        "物理信息学习"
+      ],
+      "rationale": "UGM2N学习无监督节点重定位并以M-Uniform物理约束适配PDE网格，跨方程与复杂几何提高数值解精度。"
+    }
+  ],
+  "scope_note": "Main5286 fully title-matched to official formal track. Official other tracks remain in progress; no complete-source claim."
+}

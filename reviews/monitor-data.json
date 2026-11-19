@@ -28421,6 +28421,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -28998,6 +28999,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -29526,6 +29528,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -29660,32 +29663,46 @@
           "papers": 34,
           "papers_missing_abstract": 3,
           "snapshot_candidates": 3,
-          "candidates": 3,
+          "candidates": 9,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 34,
+          "official_scope": "Complete official2025 volume3 all-document catalogue, all archive-listed issues and pagination checked; 34 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "Official whole-year catalogue 34 unique PIIs exactly matches original raw34; 3 initial candidates plus6 independently verified recall additions. All candidates have complete original abstracts and final own decisions; noncandidate abstract gaps remain untouched.",
+          "evidence_urls": [
+            "https://www.sciencedirect.com/journal/agriculture-communications/issues",
+            "https://www.sciencedirect.com/journal/agriculture-communications/vol/3/issue/1",
+            "https://www.sciencedirect.com/journal/agriculture-communications/vol/3/issue/2",
+            "https://www.sciencedirect.com/journal/agriculture-communications/vol/3/issue/3",
+            "https://www.sciencedirect.com/journal/agriculture-communications/vol/3/issue/4"
           ],
+          "decisions": {
+            "include": 8,
+            "exclude": 1,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "active_review_file": "reviews/2025/zch66883-lixueting.json",
+          "catalogue_reference_records": 0,
+          "historical_review_files": [],
+          "final_included": 8,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -29986,6 +30003,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -30731,6 +30749,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -31024,6 +31043,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 1
         },
         {
@@ -31375,6 +31395,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 1
         },
         {
@@ -31619,6 +31640,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -31660,6 +31682,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 127
         },
         {
@@ -32006,6 +32029,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -32275,6 +32299,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -32989,6 +33014,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -33420,6 +33446,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -34191,6 +34218,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -34738,6 +34766,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -35239,6 +35268,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -35352,6 +35382,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -35678,6 +35709,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -35789,6 +35821,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -36018,6 +36051,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 6
         },
         {
@@ -36174,6 +36208,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -36328,6 +36363,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -36369,6 +36405,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 1
         },
         {
@@ -36723,6 +36760,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -36975,6 +37013,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 2
         },
         {
@@ -37092,6 +37131,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 1
         },
         {
@@ -37684,33 +37724,62 @@
           "papers": 38,
           "papers_missing_abstract": 26,
           "snapshot_candidates": 0,
-          "candidates": 0,
+          "candidates": 1,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 38,
+          "official_scope": "Complete official2025 volume45–48 all-document catalogue, all archive-listed issues and pagination checked; 38 unique publisher PIIs mapped exactly to snapshot raw identities. Scientific article type and AI contribution reviewed separately.",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete",
-            "官网同口径总数尚未确认。"
+          "coverage_note": "Official whole-year catalogue 38 unique PIIs exactly matches original raw38; 0 initial candidates plus1 independently verified recall additions. All candidates have complete original abstracts and final own decisions; noncandidate abstract gaps remain untouched.",
+          "evidence_urls": [
+            "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/issues",
+            "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/45/suppl/C",
+            "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/46/suppl/C",
+            "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/47/suppl/C",
+            "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/48/suppl/C"
           ],
+          "decisions": {
+            "include": 1,
+            "exclude": 0,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "active_review_file": "reviews/2025/zch66883-lixueting.json",
+          "catalogue_reference_records": 0,
+          "historical_review_files": [],
+          "final_included": 1,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T06:13:45.348964+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/issues",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/45/suppl/C",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/46/suppl/C",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/47/suppl/C",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/48/suppl/C"
+            ],
+            "scope": "Immutable historical full-catalogue abstract gap resolved for completed actual candidate review by full official per-PII catalogue proof; physical missing noncandidate abstracts retained."
+          }
         },
         {
           "code": "j-ca8fb4629a",
@@ -37975,11 +38044,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
+          "issues": [],
           "actions": [
-            "检查采集状态与失败日志，必要时补采。",
             "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
           "files": [
@@ -37995,7 +38061,19 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T05:30:52.722844+00:00",
+            "evidence_urls": [
+              "https://link.springer.com/journal/43593/volumes-and-issues/5-1"
+            ],
+            "note": "原全量缺摘要仅非候选Editorial；候选6均有原摘要并最终核验，34逐DOI正式目录对账已完成。"
+          }
         },
         {
           "code": "j-d2017db5cc",
@@ -38034,6 +38112,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -38343,6 +38422,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -38966,6 +39046,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -39392,6 +39473,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -39468,6 +39550,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -40561,32 +40644,39 @@
           "papers": 61,
           "papers_missing_abstract": 0,
           "snapshot_candidates": 3,
-          "candidates": 3,
+          "candidates": 4,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 61,
+          "official_scope": "Complete official Proceedings of Machine Learning and Systems volume7, MLSys2025 Conference track,61 formally published papers; excludes workshops and virtual-only events.",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "Official proceedings explicitly count61; exact61-to61 identity reconciliation with no missing/extra/duplicates. One GSplit-to-SPA final-title change is resolved using all six ordered authors and the identical abstract; original fields retained. All61 titles and existing abstracts examined for potential research-task contribution. Three initial candidates excluded, one actual robotics-engineering miss added/include. AdaParse generic scientific-PDF tool not added. Input originals preserved; genuine official Abstracts verified for all4 current candidates.",
+          "evidence_urls": [
+            "https://proceedings.mlsys.org/paper_files/paper/2025"
           ],
+          "decisions": {
+            "include": 1,
+            "exclude": 3,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 1,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -40932,6 +41022,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -41433,6 +41524,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -42123,6 +42215,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -42305,6 +42398,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -42340,6 +42434,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -42609,6 +42704,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -42683,6 +42779,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -43218,27 +43315,41 @@
           "official_total": null,
           "official_scope": "",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
+          "coverage_note": "Main Conference官方5286与原5286标题逐一规范匹配，尚需全目录召回；其他正式分轨目录与范围尚在核实。已逐篇核175/351初候选原摘要，136纳入、26排除、13实际方法/科学作用疑点待补证，余176未审；本反馈不声明整源完成。",
+          "evidence_urls": [
+            "https://proceedings.neurips.cc/paper_files/paper/2025"
+          ],
+          "decisions": {
+            "include": 136,
+            "exclude": 26,
+            "pending": 13,
+            "unreviewed": 0
+          },
           "issues": [
+            "13篇已审候选的具体方法/科学贡献仍待必要正文补证。",
+            "176篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。",
             "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+            "交付中存在待定或未审论文。"
           ],
           "actions": [
+            "继续逐篇审核176初候选，按需补证13个实际疑点；核全Main及其他正式分轨漏采漏筛。",
             "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "按交付文件逐篇补证并处理待定、未审记录。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 136,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -44214,6 +44325,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -44362,6 +44474,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -44449,30 +44562,43 @@
           "snapshot_candidates": 2,
           "candidates": 2,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 119,
+          "official_scope": "2025正式出版年度npj Quantum Materials卷10全部119条官网目录，涵盖107 Article、5 Perspective、3 Review、2 Author Correction和2 Publisher Correction；按官方年度目录与原始全量逐DOI核对，不用2候选替代全量。",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "正常浏览器完整读取2025官网全部6页119目录，与原119记录逐DOI集合精确一致，无缺失、额外或重复。119题名逐项筛查，结合原摘要学习/模型等线索及tensor-network、altermagnetism classification等边界摘要复核；仅原2候选有实质AI作用，均核官网原摘要/元数据并纳入。非候选物理tensor-network/DMRG、对称性分类与普通第一性原理不因network/classification词自动视为AI；4个更正非候选无需补摘要。",
+          "evidence_urls": [
+            "https://www.nature.com/npjquantmats/articles?year=2025",
+            "https://www.nature.com/npjquantmats/articles?year=2025",
+            "https://www.nature.com/npjquantmats/articles?searchType=journalSearch&sort=PubDate&year=2025&page=2",
+            "https://www.nature.com/npjquantmats/articles?searchType=journalSearch&sort=PubDate&year=2025&page=3",
+            "https://www.nature.com/npjquantmats/articles?searchType=journalSearch&sort=PubDate&year=2025&page=4",
+            "https://www.nature.com/npjquantmats/articles?searchType=journalSearch&sort=PubDate&year=2025&page=5",
+            "https://www.nature.com/npjquantmats/articles?searchType=journalSearch&sort=PubDate&year=2025&page=6"
           ],
+          "decisions": {
+            "include": 2,
+            "exclude": 0,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 2,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -44508,6 +44634,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -45054,6 +45181,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -45207,6 +45335,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -45422,6 +45551,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -45500,6 +45630,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0
         },
         {
@@ -47007,10 +47138,10 @@
         {
           "owner": "李雪婷",
           "sources": 51,
-          "delivered": 1,
-          "official": 1,
-          "pending": 0,
-          "open_issues": 51,
+          "delivered": 6,
+          "official": 5,
+          "pending": 13,
+          "open_issues": 46,
           "status": "in_progress",
           "last_update": {
             "at": "2026-11-18T21:32:59-08:00",
@@ -49817,7 +49948,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "isca",
@@ -50547,9 +50683,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -50563,7 +50697,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-0b805d1731",
@@ -51337,13 +51476,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -51357,7 +51491,235 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:14:55.570390+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/kidney-international/issues",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/1/suppl/S",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/1",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/2",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/3",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/4",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/5",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/109/issue/6",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/110/issue/1",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/110/issue/2",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/110/issue/3",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/110/issue/4",
+              "https://www.sciencedirect.com/journal/kidney-international/vol/110/issue/5",
+              "https://www.sciencedirect.com/journal/kidney-international/articles-in-press",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825007811",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825008786",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009482",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003261",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003017",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004771",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825007720",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006125",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826001432",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010154",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007501",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006787",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382500849X",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826001341",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003960",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006022",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826000050",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825006775",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007719",
+              "https://www.sciencedirect.com/science/article/pii/S008525382600400X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000104",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826001419",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003078",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005995",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004047",
+              "https://www.nature.com/articles/nmeth.4463",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003029",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010221",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010233",
+              "https://www.sciencedirect.com/science/article/pii/S008525382600089X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001328",
+              "https://www.sciencedirect.com/science/article/pii/S008525382600606X",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006101",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826002140",
+              "https://www.nature.com/articles/s41467-021-21246-9",
+              "https://ars.els-cdn.com/content/image/1-s2.0-S0085253826006101-mmc1.pdf",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826002516",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000815",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004096",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004217",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004230",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004242",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004059",
+              "https://www.sciencedirect.com/science/article/pii/S0923753421020469",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006009",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006113",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825008610",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825007471",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826000657",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826000116",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826002279",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006204",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826007118",
+              "https://www.sciencedirect.com/science/article/pii/S008525382600712X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001365",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009548",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009536",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005089",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004928",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005028",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005181",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005193",
+              "https://www.sciencedirect.com/science/article/pii/S008525382600517X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005016",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005508",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005090",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825004958",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825004946",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826002152",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826000797",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005053",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008890",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003121",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003133",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003145",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003157",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004254",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005156",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005119",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004266",
+              "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0079722",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001596",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826002449",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006320",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826006356",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825005812",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825005848",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825005800",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007847",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006921",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007525",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007859",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008269",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008774",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009342",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009421",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009433",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825009500",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825010130",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010282",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000670",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000712",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000748",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382600150X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000700",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000724",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826002127",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826002395",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003303",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826002310",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826002322",
+              "https://www.sciencedirect.com/sdfe/pdf/download/eid/1-s2.0-S0085253826000748/first-page-pdf",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005491",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005934",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006842",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007690",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010026",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010038",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010099",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382501021X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825009913",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010002",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010051",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010270",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001389",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000669",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001493",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826002218",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826002292",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004102",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004138",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004175",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004187",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826001377",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826004084",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005375",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825005897",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825005885",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825006659",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825007379",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006660",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006672",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006738",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008397",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382500852X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382500674X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007380",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007392",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008580",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825008518",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008506",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008531",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008609",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825008592",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825010397",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010312",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010385",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010373",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010361",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000608",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826000621",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003236",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003194",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003200",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826003182",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000554",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000591",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000578",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825010348",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000827",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382600058X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000633",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003170",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001559",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826001560",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000803",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003224",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003935",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826004308",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382600431X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005107",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005120",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825006714",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825007422",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825006696",
+              "https://www.sciencedirect.com/science/article/pii/S0085253825010336",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826002991",
+              "https://www.sciencedirect.com/science/article/pii/S0085253826005144",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825004995",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006702",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825006726",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007409",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253825007410",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382501035X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S008525382600061X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826000566",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826003005",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826005168",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826006423",
+              "https://www.sciencedirect.com/science/article/abs/pii/S0085253826006435"
+            ]
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-16256b0ce3",
@@ -51536,9 +51898,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -51552,7 +51912,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-1a2d106b4b",
@@ -51951,9 +52316,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -51967,7 +52330,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-20e3868bcd",
@@ -52984,13 +53352,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -53004,7 +53367,27 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/surface-science-reports/issues",
+              "https://www.sciencedirect.com/journal/surface-science-reports/vol/81/issue/1",
+              "https://www.sciencedirect.com/journal/surface-science-reports/vol/81/issue/2",
+              "https://www.sciencedirect.com/journal/surface-science-reports/vol/81/issue/3",
+              "https://hal.science/hal-05841176v1"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-32e2cb1c9f",
@@ -53319,13 +53702,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -53339,7 +53717,27 @@
           "abstract_not_required": 1,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:14:55.570390+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/neural-networks/issues",
+              "https://www.sciencedirect.com/journal/neural-networks/vol/193/suppl/C",
+              "https://www.sciencedirect.com/journal/neural-networks/vol/204/suppl/C",
+              "https://api.crossref.org/journals/0893-6080/works?filter=from-print-pub-date:2026-01-01,until-print-pub-date:2026-12-31&rows=1000",
+              "https://www.sciencedirect.com/science/article/pii/S0893608025010743",
+              "https://pubmed.ncbi.nlm.nih.gov/41086798/"
+            ]
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-39f29a2f07",
@@ -53801,13 +54199,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -53821,7 +54214,60 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:51:11.017747+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-informetrics/issues",
+              "https://www.sciencedirect.com/journal/journal-of-informetrics/vol/20/issue/4",
+              "https://www.sciencedirect.com/journal/journal-of-informetrics/vol/20/issue/3",
+              "https://www.sciencedirect.com/journal/journal-of-informetrics/vol/20/issue/2",
+              "https://www.sciencedirect.com/journal/journal-of-informetrics/vol/20/issue/1",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726001070",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000921",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726001197",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726001240",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726001252",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726001264",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726001094?via%3Dihub",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726000532",
+              "https://www.sciencedirect.com/science/article/abs/pii/S175115772500121X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000076",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726000246",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000349",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000374",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000404",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000477",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726001008",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726001033",
+              "https://www.sciencedirect.com/science/article/abs/pii/S175115772600101X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726001069",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726001124",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726001021",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726000751",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000763",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000738",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000775",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000799",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726000908",
+              "https://www.sciencedirect.com/science/article/abs/pii/S175115772600091X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000301",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000350",
+              "https://www.sciencedirect.com/science/article/pii/S1751157726000362",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000398",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1751157726000325"
+            ],
+            "scope": "Self-contained per-ID formal catalogue reconciliation; all candidate original abstracts verified and final include/exclude decisions completed. Prior abstract gap retained as history; original snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-3fe12bcc6e",
@@ -54164,6 +54610,7 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
+          "abstract_nonresearch_excluded": 0,
           "abstract_supplement_required": 0,
           "collection_state_resolution": {
             "status": "resolved_for_candidate_review",
@@ -54175,7 +54622,11 @@
               "https://api.crossref.org/journals/0049-089X/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000"
             ],
             "scope": "Historical full-catalogue abstract coverage gap resolved by exact complete current reference reconciliation; current candidate originals/evidence and own reviews are complete. No snapshot edit."
-          }
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-437bcb1511",
@@ -54211,14 +54662,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete",
-            "AI4S候选缺少摘要：1 篇。"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "为缺摘要的AI4S候选补充可核实的摘要或证据，无法判断的论文标为待定。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -54232,7 +54677,24 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 1
+          "abstract_nonresearch_excluded": 1,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:35:28.536696+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/energy/issues",
+              "https://ideas.repec.org/s/eee/energy.html"
+            ],
+            "scope": "Complete per-DOI reliable reference reconciliation with exact original snapshot identity preservation and individually documented unassigned/time-unproven exclusions under explicit owner cutoff policy; Erratum abstract handling must use truthful verified document-type exemption, not a fabricated no-publisher-abstract claim."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-454594cd31",
@@ -54637,13 +55099,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -54657,7 +55114,31 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/issues",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/123/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/124/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/125/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/126/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/127/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/128/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/129/suppl/C",
+              "https://www.sciencedirect.com/journal/clinical-psychology-review/vol/130/suppl/C"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-4a8bd2ddf7",
@@ -54991,9 +55472,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -55007,7 +55486,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-5514e73d4c",
@@ -55862,9 +56346,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -55878,7 +56360,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-637d3c6893",
@@ -56548,12 +57035,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -56567,7 +57050,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:53:14.547338+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/0169-409X/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000"
+            ],
+            "scope": "Full exact same-scope reliable-reference reconciliation and completed own candidate reviews; scientific evidence insufficiency explicitly closed under owner authorization without changing raw records or snapshot."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-6f25cc9655",
@@ -57632,9 +58131,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -57648,7 +58145,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-7cc3932475",
@@ -58387,12 +58889,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -58406,7 +58904,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 3,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:35:28.536696+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/2213-1779/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000"
+            ],
+            "scope": "Historical full-catalogue abstract gap resolved after per-ID canonical reconciliation and individually documented unassigned raw identities; current candidate originals/reviews complete; no snapshot edit."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-8a3cfd2781",
@@ -59167,13 +59681,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -59187,7 +59696,74 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/issues",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/1",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/2",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/3",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/4",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/5",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/6",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/7",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/8",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/9",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/10",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/11",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/vol/17/issue/12",
+              "https://www.sciencedirect.com/journal/advances-in-nutrition/articles-in-press",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002133",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002170",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002200",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000402",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000815",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000359",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001699",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001742",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001705",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001729",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001730",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001717",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002017",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002042",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002145",
+              "https://www.sciencedirect.com/science/article/pii/S216183132500105X",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002157",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002212",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002224",
+              "https://www.sciencedirect.com/science/article/pii/S2161831325002236",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000219",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000256",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000591",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000372",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000608",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001031",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001109",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326000827",
+              "https://www.sciencedirect.com/science/article/pii/S216183132600102X",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001110",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001249",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001067",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001420",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001481",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001407",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001419",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001390",
+              "https://www.sciencedirect.com/science/article/pii/S2161831326001614"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-9596fa43cd",
@@ -59339,12 +59915,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -59358,7 +59930,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:35:09.301630+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/2468-1253/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+              "https://www.sciencedirect.com/journal/the-lancet-gastroenterology-and-hepatology/issues"
+            ]
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-96be195ee8",
@@ -59747,12 +60335,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -59766,7 +60350,26 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:51:11.017747+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/technovation/issues",
+              "https://ideas.repec.org/s/eee/techno.html",
+              "https://ideas.repec.org/s/eee/techno2.html",
+              "https://api.crossref.org/journals/0166-4972/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A"
+            ],
+            "scope": "Self-contained per-ID formal catalogue reconciliation; all candidate original abstracts verified and final include/exclude decisions completed. Prior abstract gap retained as history; original snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-9d1d0d3a73",
@@ -59958,9 +60561,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -59974,7 +60575,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-9ff3577364",
@@ -60250,14 +60856,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete",
-            "AI4S候选缺少摘要：4 篇。"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "为缺摘要的AI4S候选补充可核实的摘要或证据，无法判断的论文标为待定。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -60271,7 +60871,24 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 1,
-          "abstract_supplement_required": 4
+          "abstract_nonresearch_excluded": 4,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T05:01:48.390048+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/0735-1097/works",
+              "https://www.jacc.org/loi/jacc/group/d2020.y2026"
+            ],
+            "scope": "Full publisher reference and per-ID cutoff reconciliation complete; current candidates original abstracts/valid documented exemptions and final decisions complete. Historical missingness retained, original snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-a6cfe198b1",
@@ -60474,9 +61091,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -60490,7 +61105,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 1,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-a8a43dcc50",
@@ -60702,13 +61322,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -60722,7 +61337,35 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/issues",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/212/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/213/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/214/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/215/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/216/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/217/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/218/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/219/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/220/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/221/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/222/suppl/C",
+              "https://www.sciencedirect.com/journal/soil-biology-and-biochemistry/vol/223/suppl/C"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-af35c70bf5",
@@ -60879,13 +61522,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -60899,7 +61537,154 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 1,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:57:31.819744+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/issues",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/articles-in-press",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/1",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/2",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/3",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/4",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/5",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/6",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/7",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/8",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/9",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/10",
+              "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/11",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000293",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002851",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003133",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442225003801",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226001924",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004326",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004235",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004247",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004521",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004843",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004375",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004399",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004405",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004806",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004272",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004296",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004533",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004417",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004818",
+              "https://www.nature.com/articles/s41593-024-01737-w",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004958",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004946",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000013",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000037",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004338",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004302",
+              "https://www.sciencedirect.com/science/article/pii/S147444222500448X",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004363",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004387",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004284",
+              "https://www.sciencedirect.com/science/article/pii/S147444222500434X",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004351",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000426",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000384",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000396",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000554",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000414",
+              "https://www.sciencedirect.com/science/article/pii/S147444222500496X",
+              "https://www.sciencedirect.com/science/article/pii/S147444222600044X",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000530",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000542",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000864",
+              "https://www.sciencedirect.com/science/article/pii/S147444222600092X",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000876",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000992",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000839",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000918",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001250",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001298",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001274",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001286",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001663",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001651",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001687",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001900",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001948",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002127",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001997",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002474",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002425",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002322",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002401",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002796",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002802",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002863",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226002899",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003169",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003182",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003157",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003194",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003583",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003595",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226003649",
+              "https://www.sciencedirect.com/science/article/pii/S147444222600373X",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000049",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004879",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004909",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004880",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004892",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000025",
+              "https://www.sciencedirect.com/science/article/pii/S1474442225004867",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000475",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000487",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000499",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000505",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000517",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000943",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000955",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000815",
+              "https://www.sciencedirect.com/science/article/pii/S147444222600133X",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001341",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001353",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001365",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001377",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001389",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001742",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226001754",
+              "https://www.sciencedirect.com/science/article/pii/S1474442226000803",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002103",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002115",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002528",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002541",
+              "https://www.sciencedirect.com/science/article/abs/pii/S147444222600253X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002450",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002346",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002553",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002929",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002930",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002942",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002966",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226002875",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003273",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003285",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003297",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003303",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003698",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003704",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003546",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1474442226003716"
+            ],
+            "scope": "Exact catalogue proof prepared separately from scientific review closure. Snapshot paper count remains immutable; current raw already contains every verified addition."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-b1526e25bf",
@@ -61310,9 +62095,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -61326,7 +62109,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-b65bc153a0",
@@ -61640,12 +62428,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -61659,7 +62443,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:33:26.582268+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/1359-6462/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+              "https://www.sciencedirect.com/journal/scripta-materialia/issues"
+            ]
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-bdffac0a5c",
@@ -61778,15 +62578,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete",
-            "AI4S候选缺少摘要：5 篇。"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。",
-            "为缺摘要的AI4S候选补充可核实的摘要或证据，无法判断的论文标为待定。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -61800,7 +62593,38 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 5
+          "abstract_nonresearch_excluded": 5,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://pubmed.ncbi.nlm.nih.gov/?term=0091-6749%5BISSN%5D+AND+2026%5BDP%5D",
+              "https://www.em-consulte.com/revue/YMAI/157/2S/programs-and-abstracts-of-papers-to-be-presented-d",
+              "https://www.em-consulte.com/it/article/1831036/figures/practall-2025-artificial-intelligence-application-",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/158/issue/5",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/158/issue/4",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/158/issue/3",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/158/issue/2",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/158/issue/1",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/6",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/5",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/4",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/3",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/2",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/2/suppl/S",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/vol/157/issue/1",
+              "https://www.sciencedirect.com/journal/journal-of-allergy-and-clinical-immunology/issues"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-bfcb6ab02b",
@@ -62505,13 +63329,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -62525,7 +63344,27 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/issues",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/49/suppl/C",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/50/suppl/C",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/51/suppl/C",
+              "https://www.sciencedirect.com/journal/trends-in-environmental-analytical-chemistry/vol/52/suppl/C"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-ca8fb4629a",
@@ -62861,9 +63700,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -62877,7 +63714,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-d2017db5cc",
@@ -62990,12 +63832,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -63009,7 +63847,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:35:28.536696+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/0959-4752/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000"
+            ],
+            "scope": "Historical full-catalogue abstract gap resolved after per-ID canonical reconciliation and individually documented unassigned raw identities; current candidate originals/reviews complete; no snapshot edit."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-d2025a16cb",
@@ -63301,9 +64155,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -63317,7 +64169,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-d4f2c6db6c",
@@ -64132,12 +64989,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -64151,7 +65004,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:45:07.733099+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/2213-8587/works?filter=from-print-pub-date%3A2026-01-01%2Cuntil-print-pub-date%3A2026-12-31&rows=1000&cursor=%2A",
+              "https://www.sciencedirect.com/journal/the-lancet-diabetes-and-endocrinology/issues"
+            ]
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-e040f3f32c",
@@ -64781,12 +65650,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -64800,7 +65665,23 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:53:14.547338+00:00",
+            "evidence_urls": [
+              "https://api.crossref.org/journals/0168-3659/works?filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=1000"
+            ],
+            "scope": "Full exact same-scope reliable-reference reconciliation and completed own candidate reviews; scientific evidence insufficiency explicitly closed under owner authorization without changing raw records or snapshot."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-eb06e3a648",
@@ -64944,13 +65825,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -64964,7 +65840,73 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/issues",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/1",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/2",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/3",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/4",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/5",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/6",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/7",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/8",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/9",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/10",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/vol/42/issue/11",
+              "https://www.sciencedirect.com/journal/trends-in-parasitology/articles-in-press",
+              "https://shop.elsevier.com/journals/trends-in-parasitology/1471-4922",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225003241",
+              "https://www.sciencedirect.com/science/article/pii/S1471492225002934",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225002247",
+              "https://www.sciencedirect.com/science/article/abs/pii/S147149222500220X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225003575",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225003599",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225002909",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225002600",
+              "https://www.sciencedirect.com/science/article/pii/S147149222500282X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000437",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000425",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492225003022",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000012",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000127",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226001030",
+              "https://www.sciencedirect.com/science/article/pii/S1471492226001029",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000085",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000966",
+              "https://www.sciencedirect.com/science/article/pii/S1471492225003757",
+              "https://www.sciencedirect.com/science/article/pii/S147149222600070X",
+              "https://www.sciencedirect.com/science/article/pii/S1471492226001340",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226000978",
+              "https://www.sciencedirect.com/science/article/pii/S1471492226001364",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226001650",
+              "https://www.sciencedirect.com/science/article/pii/S1471492226000115",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226001649",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226001972",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226002059",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226001960",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226001911",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226002047",
+              "https://www.sciencedirect.com/science/article/pii/S1471492226002096",
+              "https://www.sciencedirect.com/science/article/abs/pii/S147149222600231X",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226002126",
+              "https://www.sciencedirect.com/science/article/pii/S1471492226002746",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226002813",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1471492226002369"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "j-ed2487e684",
@@ -66466,9 +67408,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -66482,7 +67422,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "mm",
@@ -66933,13 +67878,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -66953,7 +67893,35 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.nature.com/natcardiovascres/volumes",
+              "https://www.nature.com/natcardiovascres/volumes/5",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/11",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/10",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/9",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/8",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/7",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/6",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/5",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/4",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/3",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/2",
+              "https://www.nature.com/natcardiovascres/volumes/5/issues/1"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "natcatal",
@@ -67540,9 +68508,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -67556,7 +68522,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "natrevmats",
@@ -68083,13 +69054,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -68103,7 +69069,37 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:32:55.910531+00:00",
+            "evidence_urls": [
+              "https://www.nature.com/bmt/volumes",
+              "https://www.nature.com/bmt/volumes/61",
+              "https://www.nature.com/bmt/volumes/61/issues/11",
+              "https://www.nature.com/bmt/volumes/61/issues/10",
+              "https://www.nature.com/bmt/volumes/61/issues/9",
+              "https://www.nature.com/bmt/volumes/61/issues/8",
+              "https://www.nature.com/bmt/volumes/61/issues/7",
+              "https://www.nature.com/bmt/volumes/61/issues/6",
+              "https://www.nature.com/bmt/volumes/61/issues/5",
+              "https://www.nature.com/bmt/volumes/61/issues/4",
+              "https://www.nature.com/bmt/volumes/61/issues/3",
+              "https://www.nature.com/bmt/volumes/61/issues/2",
+              "https://www.nature.com/bmt/volumes/61/issues/1",
+              "https://www.nature.com/bmt/articles?type=abstracts-collection&year=2026",
+              "https://www.nature.com/collections/fbecijehee"
+            ],
+            "scope": "Complete all-document official directory reconciled by exact identities to immutable original snapshot population, verified additions and per-record formal-scope exclusions; complete candidate review; snapshot unchanged."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nature-cddiscovery",
@@ -68298,13 +69294,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -68318,7 +69309,33 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:54:08.935141+00:00",
+            "evidence_urls": [
+              "https://www.nature.com/ejhg/volumes/34",
+              "https://www.nature.com/ejhg/volumes/34/issues/1",
+              "https://www.nature.com/ejhg/volumes/34/issues/2",
+              "https://www.nature.com/ejhg/volumes/34/issues/3",
+              "https://www.nature.com/ejhg/volumes/34/issues/4",
+              "https://www.nature.com/ejhg/volumes/34/issues/5",
+              "https://www.nature.com/ejhg/volumes/34/issues/6",
+              "https://www.nature.com/ejhg/volumes/34/issues/7",
+              "https://www.nature.com/ejhg/volumes/34/issues/8",
+              "https://www.nature.com/ejhg/volumes/34/issues/9",
+              "https://www.nature.com/ejhg/volumes/34/issues/10",
+              "https://www.nature.com/ejhg/volumes/34/issues/11"
+            ]
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nature-ijo",
@@ -68357,9 +69374,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -68373,7 +69388,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nature-laban",
@@ -68692,9 +69712,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -68708,7 +69726,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nature-onc",
@@ -68791,9 +69814,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -68807,7 +69828,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nature-palcomms",
@@ -69509,9 +70535,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -69525,7 +70549,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "neuro",
@@ -70650,9 +71679,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -70666,7 +71693,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "npjmatdeg",
@@ -70868,9 +71900,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -70884,7 +71914,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "npjprecisiononcology",
@@ -71006,9 +72041,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -71022,7 +72055,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "npjregenmed",
@@ -71059,9 +72097,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -71075,7 +72111,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "npjsba",
@@ -71723,13 +72764,8 @@
             "pending": 0,
             "unreviewed": 0
           },
-          "issues": [
-            "采集状态尚未完成：abstract_incomplete"
-          ],
-          "actions": [
-            "检查采集状态与失败日志，必要时补采。",
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "issues": [],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -71743,7 +72779,34 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "collection_state_resolution": {
+            "status": "resolved_for_candidate_review",
+            "original_state": "abstract_incomplete",
+            "reason": "full_audited_catalogue_candidates_complete",
+            "checked_by": "李雪婷",
+            "checked_at": "2026-11-19T04:57:31.819744+00:00",
+            "evidence_urls": [
+              "https://www.nature.com/nrendo/volumes/22/issues/12",
+              "https://www.nature.com/nrendo/volumes/22/issues/11",
+              "https://www.nature.com/nrendo/volumes/22/issues/10",
+              "https://www.nature.com/nrendo/volumes/22/issues/9",
+              "https://www.nature.com/nrendo/volumes/22/issues/8",
+              "https://www.nature.com/nrendo/volumes/22/issues/7",
+              "https://www.nature.com/nrendo/volumes/22/issues/6",
+              "https://www.nature.com/nrendo/volumes/22/issues/5",
+              "https://www.nature.com/nrendo/volumes/22/issues/4",
+              "https://www.nature.com/nrendo/volumes/22/issues/3",
+              "https://www.nature.com/nrendo/volumes/22/issues/2",
+              "https://www.nature.com/nrendo/volumes/22/issues/1"
+            ],
+            "scope": "Exact catalogue proof prepared separately from scientific review closure. Snapshot paper count remains immutable; current raw already contains every verified addition."
+          },
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nrg",
@@ -71899,9 +72962,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -71915,7 +72976,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nrm",
@@ -72162,9 +73228,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -72178,7 +73242,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nrpsychol",
@@ -72285,9 +73354,7 @@
             "unreviewed": 0
           },
           "issues": [],
-          "actions": [
-            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
-          ],
+          "actions": [],
           "files": [
             "reviews/2026/zch66883-lixueting.json",
             "reviews/2026/feedback/zch66883-lixueting.json"
@@ -72301,7 +73368,12 @@
           "abstract_not_required": 0,
           "abstract_full_text_reviewed": 0,
           "abstract_closed_by_owner": 0,
-          "abstract_supplement_required": 0
+          "abstract_nonresearch_excluded": 0,
+          "abstract_supplement_required": 0,
+          "completion_status": "complete",
+          "delivery_checked_at": "2026-11-19T07:02:39.826463+00:00",
+          "delivery_repository": "https://github.com/Oliverdesu/ai4s-crawler/blob/cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d/",
+          "closure_summary": "再无需要关注的；已通过本来源最终审核、摘要凭据与目录对账校验。"
         },
         {
           "code": "nrurol",
@@ -73867,8 +74939,8 @@
           "delivered": 51,
           "official": 51,
           "pending": 0,
-          "open_issues": 25,
-          "status": "in_progress",
+          "open_issues": 0,
+          "status": "complete",
           "last_update": {
             "at": "2026-11-18T21:32:59-08:00",
             "author": "h10",
@@ -74396,10 +75468,10 @@
         },
         "2025": {
           "sources": 51,
-          "delivered": 1,
-          "official": 1,
-          "pending": 0,
-          "open_issues": 51,
+          "delivered": 6,
+          "official": 5,
+          "pending": 13,
+          "open_issues": 46,
           "status": "in_progress"
         },
         "2026": {
@@ -74407,12 +75479,12 @@
           "delivered": 51,
           "official": 51,
           "pending": 0,
-          "open_issues": 25,
-          "status": "in_progress"
+          "open_issues": 0,
+          "status": "complete"
         }
       },
       "sources": 153,
-      "delivered": 91,
+      "delivered": 96,
       "not_started": [],
       "last_update": {
         "at": "2026-11-18T21:32:59-08:00",
@@ -74477,5 +75549,25 @@
     "history_available": true,
     "commit": "cb9d6b80503de3c7fc84f64dec46fc57cfd7d7e2",
     "commits_scanned": 1241
-  }
+  },
+  "owner_delivery_overlays": [
+    {
+      "owner": "李雪婷",
+      "year": 2026,
+      "checked_at": "2026-11-19T07:02:39.826463+00:00",
+      "input_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "summary_file": "reviews/2026/lixueting-completion/summary.json",
+      "baseline_generated_commit": "cb9d6b80503de3c7fc84f64dec46fc57cfd7d7e2",
+      "unchanged_other_owners_and_years": true,
+      "reason": "Personal branch contained stale derived action/monitor state after final review delivery. Only own2026 derived rows regenerated from validated source evidence."
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T07:09:21.126736+00:00",
+      "input_commit": "cb0a7fcb7e18468e57d1ecf3273d9deb6c846a2d",
+      "reason": "Current personal screening checkpoint; five complete sources and one partially reviewed conference. Remaining work is retained.",
+      "unchanged_other_owners_and_years": true
+    }
+  ]
 }
