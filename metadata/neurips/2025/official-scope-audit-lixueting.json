@@ -11,27 +11,27 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核215/351初候选，184纳入、31排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余136初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "当前已逐篇审核255/351初候选，217纳入、38排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余96初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 184,
-      "exclude": 31,
+      "include": 217,
+      "exclude": 38,
       "pending": 0,
-      "unreviewed": 136
+      "unreviewed": 96
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "136篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "96篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余136初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续逐篇审核余96初候选；核全Main及其他正式分轨漏采漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:20:54.523693+00:00"
+    "checked_at": "2026-11-19T07:25:16.554227+00:00"
   },
   "catalogue_main_track": {
     "official_count": 5286,
@@ -2032,6 +2032,458 @@
             "动力系统建模"
           ],
           "rationale": "FADE以可学习历史注意力核替代固定分数阶记忆权重，建立有界/适定/收敛的连续动力模型，实际在流体流动等复杂动力任务评测。AI对具有记忆依赖的物理系统进行建模，不仅使用分数阶术语。",
+          "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-twenty3-plans",
+      "checked_at": "2026-11-19T07:23:17.077491+00:00",
+      "count": 20,
+      "decisions": {
+        "include": 16,
+        "exclude": 4
+      },
+      "records": [
+        {
+          "id": "NOUF43YrIL",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "分子性质预测"
+          ],
+          "rationale": "必要全文§4.2（PDF pp7–8）核实Mol-LLaMA实际在PAMPA人工膜通透性及BBBP性质预测评测，融合分子编码器与LLM知识推理，给出性质判断及解释。存在明确分子物性推断，不只开放式化学助手回答的偏好评分。",
+          "location": "正式全文§4.2, PDF pp7–8, Table4；AppendixA.2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "NC7FPrUpKi",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "图神经常微分方程",
+            "动力系统建模"
+          ],
+          "rationale": "必要全文§4.1（PDF pp6–7）核实PENG-CDE对动态拓扑上牛顿冷却热扩散及Michaelis–Menten基因调控动力学进行插值/外推学习，另含真实England-COVID数据任务。置换等变神经受控微分方程实际模拟物理/生物动态，不仅泛图分类。",
+          "location": "正式全文§4.1–4.2, PDF pp6–8, Tables1–2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "N7Vg94l0gA",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "预训练",
+            "多模态学习",
+            "光谱分析"
+          ],
+          "rationale": "MS-BART将质谱和分子结构映射到共享词汇，以计算指纹–分子配对预训练、实验谱微调及化学反馈减少结构幻觉，在MassSpecGym/NPLIB1结构解析评测。AI直接从质谱识别分子。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "MtdC1XS6RN",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "流匹配",
+            "细胞轨迹推断"
+          ],
+          "rationale": "unbalanced probability flow inference以Fokker–Planck拉格朗日形式学习含增殖/死亡的细胞随机动力学，分离漂移、内禀噪声与增长，并在模拟和真实单细胞RNA-seq数据重建细胞命运过程。AI直接反演生物动力学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Mr5Pyb3MLk",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "强化学习",
+            "科学问题推理"
+          ],
+          "rationale": "ether0用577790个实验支持的有机分子化学任务强化学习后训练，输出自然语言推理和化学结构，实际评测化学预测/生成能力。是面向明确化学科学任务的专用推理模型，不只泛领域展望。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "MpJkAzwUtl",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "语言模型",
+            "蛋白质设计"
+          ],
+          "rationale": "ProDVa根据功能文本动态检索天然蛋白片段，结合蛋白语言模型生成序列；实际验证功能对齐、pLDDT和PAE结构可行性，改进低数据量条件下可折叠蛋白设计。未将预测折叠评分等同湿实验成功。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "MhOhzdjK0e",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "深度学习",
+            "动力系统最优控制"
+          ],
+          "rationale": "用两个神经网络交替近似策略和值函数，根据连续时间动态规划/HJB方程求解含跳跃的有限时域随机控制问题并评估高维精度与可扩展性。AI直接近似数学随机控制解，而非仅以物理术语解释训练。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "MfBw0dlBfi",
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "图神经网络",
+            "扩散模型",
+            "材料力学响应预测"
+          ],
+          "rationale": "ROBIN结合滚动扩散批量推理与代数多重网格层次消息传递，在二维/三维几何、材料及接触非线性固体力学任务模拟梁弯曲和多体接触，改善长程关联与长时误差。明确物理工程学习模拟。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "M96edY67nS",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "蛋白质序列结构共设计"
+          ],
+          "rationale": "将AlphaFold3类结构扩散模块增加序列扩散头并整体微调，以抗原为条件共同设计抗体/纳米抗体序列结构，实际比较CDR-H3序列恢复及结构准确性。AI直接支持抗体分子工程。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "M6l3pyvUfr",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "多模态学习",
+            "分子性质预测"
+          ],
+          "rationale": "TRIDENT融合SMILES、文本和分类功能注释，以全局三模态几何对齐与局部子结构–文本对应学习分子结构功能关系，并在18项分子性质任务实测。AI直接建立分子性质表示。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "LlEJZ7x0R8",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "流匹配",
+            "细胞轨迹推断"
+          ],
+          "rationale": "mvOU-OTFM以非对称Ornstein–Uhlenbeck参考过程建模非平衡非梯度力，用流/得分匹配在端点群体观测间重建最可能演化，并在合成和真实单细胞数据上验证精度与速度。AI直接学习生物非平衡动力学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "LRYgQuz7kY",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "必要全文§5（PDF pp6–8）确认Eikonal PDE用于通用离线目标条件RL价值正则，实验主要为OGBench的迷宫、模拟运动及接触操作任务，研究结论是价值函数泛化/拼接性能；未展开独立物理方程研究、具体机器人系统设计或实验验证。保留其确有仿真接触操作的事实，按通用RL性能研究排除。",
+          "location": "正式全文§5, PDF pp6–8, Figure2 and Tables1–2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "L3UfIfNxb7",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "必要全文§4.3（PDF pp9–10）核实确使用TCGA肝癌365样本、305471组学特征估计部分相关图，但仅报告半光滑Newton与原优化器的目标残差、收敛迭代、耗时和非零项更新；未分析或验证生物调控关系。主贡献为数值优化提速，不能仅因使用真实组学数据作计算性能演示而纳入。",
+          "location": "正式全文§4.3, PDF pp9–10, Figures2–3 and Table3",
+          "pdf_evidence": true
+        },
+        {
+          "id": "KxcysQw6Ma",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "必要全文§5（PDF pp7–9）显示NeuralLio主要研究连续域泛化及参数流形，在合成2-Moons/MNIST、fMoW、ArXiv、Yearbook、Traffic并列比较分类/回归误差；未展开特定遥感或交通科学问题研究。几何/代数理论用于通用模型泛化，领域数据性能演示不单独支持AI4S。",
+          "location": "正式全文§5–5.2, PDF pp7–9",
+          "pdf_evidence": true
+        },
+        {
+          "id": "KvWGmvuuKR",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "等变神经网络",
+            "材料性质预测"
+          ],
+          "rationale": "SPFrame用局部不变框架和全局等变框架兼顾晶体局域异质性及SO(3)旋转对称，实际在多项晶体性质预测任务改进学习模型。AI直接针对晶体材料结构–性质关系。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "KQoVgPOM1S",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息神经网络",
+            "偏微分方程求解"
+          ],
+          "rationale": "HB-PINN以预训练初始化、内部域主网络和边界距离网络共同求解复杂边界Navier–Stokes，在圆柱尾流与分段入口受阻腔流验证内部/边界精度。AI实质求解流体方程。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "K6M7QmN1wQ",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "语言模型",
+            "基因变异效应预测"
+          ],
+          "rationale": "LFB对处于相似选择压力的序列模型评分求平均以削弱系统发育和采样偏差，不需重训蛋白/基因组语言模型；在大规模深度突变扫描及临床变异数据提升效应预测。直接研究遗传变异适应度作用。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JzCjNJlSxI",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "流匹配",
+            "微调",
+            "分子性质优化"
+          ],
+          "rationale": "必要全文§6（PDF p8）核实FDC微调QM9上的FlowMol，以GFN1-xTB单点总能量为具体优化目标，提高前0.2%分子的能量表现；并区别于同文仅图像美学的桥梁生成。存在可计算量子化学目标的真实分子设计实验。",
+          "location": "正式全文§6, PDF pp7–8, Molecular design for single-point energy minimization",
+          "pdf_evidence": true
+        },
+        {
+          "id": "JxBA9OJExP",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "DNAEdit中的DNA明确指Direct Noise Alignment，研究为通用文本引导图像编辑、轨迹反演漂移及背景保留，DNA-Bench也是图像长提示基准；没有DNA生物序列或独立科学/工程任务。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Jom8tNYuQI",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "扩散模型",
+            "分子构象生成",
+            "分子对接"
+          ],
+          "rationale": "在Lie群表示空间进行广义得分匹配和Langevin扩散，实际用于SO(3)分子构象生成与配体特异SE(3)变换的分子对接，并优于直接群流形扩散。AI直接建模分子几何及相互作用。",
+          "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-twenty4-plans",
+      "checked_at": "2026-11-19T07:25:16.554227+00:00",
+      "count": 20,
+      "decisions": {
+        "exclude": 3,
+        "include": 17
+      },
+      "records": [
+        {
+          "id": "JjTLq7SXaB",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "TopER以拓扑演化速率构建低维可解释图嵌入，主要在分子、生物、社交图数据上报告分类、聚类和可视化性能。摘要未给出具体科学研究对象或实质科学分析贡献，领域数据演示不足以单独纳入。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JenfC3ovzU",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "归一化流",
+            "平衡态采样"
+          ],
+          "rationale": "Prose使用肽分子动力学轨迹训练可迁移全原子归一化流，跨序列长度零样本提出不相关平衡构象，并作为采样算法提议分布及重要性微调提升采样。直接研究分子构象平衡采样的计算化学问题。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JeXkIy0JyM",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "强化学习",
+            "基因调控建模"
+          ],
+          "rationale": "Ctrl-DNA将细胞类型特异调控DNA设计表述为带脱靶约束的优化，强化学习引导基因组语言模型产生启动子/增强子并实测活性、特异性及转录因子结合基序。AI直接设计基因表达调控序列。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JYcMMJihdR",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "提出Hessian感知量子零阶极小极大优化器及查询复杂度加速，扩展至非凸优化；未显示AI/机器学习方法实际用于独立科学任务。量子计算和优化理论本身不等同AI4S。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JYB6wFcbky",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "符号回归",
+            "科学规律发现"
+          ],
+          "rationale": "GSR用置换不变表达图压缩等价解析式，结合约束感知神经引导MCTS和物理定律先验，在真实科学与合成数据上发现底层解析关系。AI实质用于可解释科学规律发现。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JSbVO7dNYE",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "图神经网络",
+            "蛋白质功能预测",
+            "药物靶点结合亲和力预测"
+          ],
+          "rationale": "必要全文§5（PDF pp7–9）明确SSHG按蛋白二级结构基元构建多尺度几何图，实际评测EC酶反应分类与PDBbind蛋白–配体结合亲和力，兼顾精度、未见蛋白泛化和效率。科学任务已有具体功能/结合指标。",
+          "location": "正式全文§5–5.2, PDF pp7–9, Tables2–3",
+          "pdf_evidence": true
+        },
+        {
+          "id": "JPoQca8CSg",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "生成建模",
+            "化学合成规划"
+          ],
+          "rationale": "MoleBridge通过自回归延伸和离散Markov桥去噪，生成分子合成路径后缀表示，将无可合成保证的候选投射到可合成化学空间，并实际验证路径预测。AI直接用于分子合成路径设计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JPjMXgQQxk",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "分子构象生成"
+          ],
+          "rationale": "LD-FPG用图网络潜表示及扩散生成完整侧链重原子的蛋白构象，在膜环境多巴胺D2受体2微秒MD轨迹上再现全原子结构和二面角分布。直接学习动态蛋白构象系综，原始MD数据不是湿实验结构。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JMq90N6lLe",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "隐式神经表示",
+            "生成建模",
+            "抗体设计"
+          ],
+          "rationale": "FuncBind以神经场连续原子密度及得分生成模型统一靶点条件全原子设计，覆盖小分子、大环肽和抗体CDR；摘要明确报告CDR-H3重新设计获得体外新抗体结合体。AI直接用于分子/蛋白结合设计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "JML6Zi5J0s",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "贝叶斯优化",
+            "药物设计"
+          ],
+          "rationale": "MOCOBO以覆盖型采集函数用少数设计同时覆盖多个目标，实际开展肽/分子设计，并报告所得肽体外对耐药病原体具高效力。AI直接支持抗感染药物发现，不只优化理论的领域动机。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "IkfBLlYuHA",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "研究嵌套期望等非线性Monte Carlo的量子内嵌量子算法与最优查询复杂度，未展示AI模型实际参与科学问题。量子加速数值估计不能自动视为AI4S。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "IjMZfMVyLF",
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "贝叶斯优化",
+            "集成电路设计"
+          ],
+          "rationale": "必要全文§3.1–3.4及§4.1–4.2核实qNEHVI多目标贝叶斯优化联合搜索加速器核心数、处理阵列、存储配置和模型，约束22nm/8bit/算力，并以仿真及真实GPU测量验证能耗/时延估计。AI实质进行芯片架构与碳足迹工程设计，不只报告模型压缩效率。",
+          "location": "正式全文§3–4.2, PDF pp4–7, Table1",
+          "pdf_evidence": true
+        },
+        {
+          "id": "Iguyg0LULD",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "物理信息学习",
+            "细胞轨迹推断"
+          ],
+          "rationale": "Var-RUOT将含增长的非平衡最优输运必要条件与最小作用量嵌入学习标量场，并结合生物增长先验，在真实单细胞/模拟数据从少数快照重建动力学。AI直接推断生物状态演化。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Ice2BHIumz",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "贝叶斯优化",
+            "蛋白质序列优化"
+          ],
+          "rationale": "以数百个实验序列–适应度标注为条件，比较分类器引导、后验采样和Thompson式自适应选择来优化蛋白生成；目标是低通量实验支持的蛋白适应度。未据摘要推断本论文额外开展了新湿实验。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "IJryQAOy0p",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "扩散模型",
+            "分子生成",
+            "分子性质优化"
+          ],
+          "rationale": "必要全文§5.2（PDF p8）核实ReMDM在QM9上通过离散条件引导提高新颖分子的环数，并在附录评测QED类药性；计算有效性、新颖性及性质优化前沿。方法虽也用于文本/图像，存在实际受控分子设计实验。",
+          "location": "正式全文§5.2, PDF p8, Figure4；AppendixE.4.1",
+          "pdf_evidence": true
+        },
+        {
+          "id": "Hhc5McwASX",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "分子构象生成"
+          ],
+          "rationale": "FDBM以近似分数布朗运动表达非Markov记忆，学习配对数据的未来状态和无配对桥；实际预测未来蛋白构象并以Cα原子RMSD比较。AI直接预测动态蛋白结构，不只一般图像翻译。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Hh8ebJYQs3",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "数据驱动降阶学习",
+            "偏微分方程求解"
+          ],
+          "rationale": "在粗化PDE场上增添高分辨输入提取的空间潜变量，建立支持局部交互和硬物理约束的混合表示，实际改善多PDE任务细粗尺度预测的速度–精度权衡。AI直接模拟物理解场。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "HXFvNkNt0n",
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "神经算子",
+            "流体动力学模拟"
+          ],
+          "rationale": "GAOT结合几何嵌入、多尺度图注意编码/解码及Transformer，学习任意域PDE解算子，明确在三套大规模三维工业CFD数据上验证精度和效率。AI直接支撑工程流体模拟。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "HUUQmnwUIx",
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "图神经网络",
+            "集成电路设计"
+          ],
+          "rationale": "FALCON以性能分类选拓扑、边中心GNN前向性能代理和梯度参数反推，结合寄生/频率效应与版图规则，基于Spectre模拟百万个20拓扑毫米波电路开展布局约束设计。AI实际自动化模拟电路工程综合。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "HFcQGutJJn",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息神经网络",
+            "不确定性量化"
+          ],
+          "rationale": "EFI用窄颈超网络学习PINN参数并基于观测随机误差构造可信不确定性区间，解决科学物理信息学习中先验/dropout率依赖问题。属于直接提升科学方程学习可靠性的专门方法，未将一般模型不确定性泛称物理应用。",
           "location": "输入摘要；正式论文集Abstract"
         }
       ]
