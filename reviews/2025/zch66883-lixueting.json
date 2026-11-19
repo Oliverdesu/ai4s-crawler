@@ -141678,5 +141678,373 @@
         }
       ]
     }
+  },
+  {
+    "id": "10.1038/s41536-025-00418-x",
+    "venue": "npjregenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Single cell transcriptomics of human kidney organoid endothelium reveals vessel growth processes and arterial maturation upon transplantation",
+    "authors": [
+      "Marije Koning",
+      "Sébastien J. Dumas",
+      "Elda Meta",
+      "Ellen Lievers",
+      "Annemarie M. A. de Graaf",
+      "Mila Borri",
+      "Lynn J. Nai Chung Tong",
+      "Xue Liang",
+      "Ping Liu",
+      "Fang Chen",
+      "Lin Lin",
+      "Yonglun Luo",
+      "Peter Carmeliet",
+      "Cathelijne W. van den Berg",
+      "Ton J. Rabelink"
+    ],
+    "author_ids": [],
+    "abstract": "Kidney organoids derived from human induced pluripotent stem cells lack a proper vasculature, hampering their applicability. Transplantation prevents the loss of organoid endothelial cells (ECs) observed in vitro, and promotes vascularization. In this study, we transplanted kidney organoids in chicken embryos and deployed single-cell RNA sequencing of ~12,000 organoid ECs to delineate their molecular landscape and identify key changes associated with transplantation. Transplantation significantly altered EC phenotypic composition. Consistent with angiogenesis, proliferating EC populations expanded 8 days after transplantation. Importantly, ECs underwent a major vein-to-arterial phenotypic shift. One of the transplantation-specific arterial EC populations, characterized by laminar shear stress response and Notch signalling, showed a similar transcriptome as human fetal kidney arterial/afferent arteriolar ECs. Consistently, transplantation-induced transcriptional changes involved proangiogenic and arteriogenic SOX7 transcription factor upregulation and regulon enrichment. These findings point to blood flow and candidate transcription factors such as SOX7 as possible targets to enhance kidney organoid vascularization.",
+    "keywords": [
+      "Nephrons",
+      "Transcriptomics",
+      "Angiogenesis",
+      "Stem cells",
+      "Stem-cell differentiation"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41536-025-00418-x",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41536-025-00418-x",
+    "pdf_url": "https://www.nature.com/articles/s41536-025-00418-x.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-07-01",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Regenerative Medicine",
+    "issn": "2057-3995",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "用SCENIC转录因子—靶基因网络学习识别移植肾类器官内皮的SOX7等调控变化，结合血管成熟实验研究动脉化；原文结果明确实际运行SCENIC，所引方法论文确认树集成推断步骤，不把普通PCA/UMAP本身当AI。",
+      "evidence_location": "正文 Transplantation greatly affects the kidney organoid endothelial cell transcriptome 及图1f；SCENIC原方法补图1/GENIE3说明",
+      "verified_metadata": {
+        "title": "Single cell transcriptomics of human kidney organoid endothelium reveals vessel growth processes and arterial maturation upon transplantation",
+        "authors": [
+          "Koning, Marije",
+          "Dumas, Sébastien J.",
+          "Meta, Elda",
+          "Lievers, Ellen",
+          "de Graaf, Annemarie M. A.",
+          "Borri, Mila",
+          "Nai Chung Tong, Lynn J.",
+          "Liang, Xue",
+          "Liu, Ping",
+          "Chen, Fang",
+          "Lin, Lin",
+          "Luo, Yonglun",
+          "Carmeliet, Peter",
+          "van den Berg, Cathelijne W.",
+          "Rabelink, Ton J."
+        ],
+        "doi": "10.1038/s41536-025-00418-x",
+        "url": "https://www.nature.com/articles/s41536-025-00418-x",
+        "pdf_url": "https://www.nature.com/articles/s41536-025-00418-x.pdf",
+        "abstract": "Kidney organoids derived from human induced pluripotent stem cells lack a proper vasculature, hampering their applicability. Transplantation prevents the loss of organoid endothelial cells (ECs) observed in vitro, and promotes vascularization. In this study, we transplanted kidney organoids in chicken embryos and deployed single-cell RNA sequencing of ~12,000 organoid ECs to delineate their molecular landscape and identify key changes associated with transplantation. Transplantation significantly altered EC phenotypic composition. Consistent with angiogenesis, proliferating EC populations expanded 8 days after transplantation. Importantly, ECs underwent a major vein-to-arterial phenotypic shift. One of the transplantation-specific arterial EC populations, characterized by laminar shear stress response and Notch signalling, showed a similar transcriptome as human fetal kidney arterial/afferent arteriolar ECs. Consistently, transplantation-induced transcriptional changes involved proangiogenic and arteriogenic SOX7 transcription factor upregulation and regulon enrichment. These findings point to blood flow and candidate transcription factors such as SOX7 as possible targets to enhance kidney organoid vascularization.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41536-025-00418-x",
+          "https://www.nature.com/articles/nmeth.4463"
+        ],
+        "primary_html_sha256": "32e6480e234c89a481d764c50aefcc619e22016297cab670260e3a0b12eeccc1",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留",
+        "full_text_evidence_location": "正文 Transplantation greatly affects the kidney organoid endothelial cell transcriptome 及图1f；SCENIC原方法补图1/GENIE3说明",
+        "full_text_checked_at": "2026-11-19T12:03:07.290605+00:00",
+        "method_identification_note": "本文实际使用所引SCENIC工作流；原方法含GENIE3随机森林/GRNBoost树集成推断。未锁定本文的具体树实现，不额外标随机森林。"
+      },
+      "checked_at": "2026-11-19T12:03:07.290605+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正文 Transplantation greatly affects the kidney organoid endothelial cell transcriptome 及图1f；SCENIC原方法补图1/GENIE3说明",
+          "rationale": "用SCENIC转录因子—靶基因网络学习识别移植肾类器官内皮的SOX7等调控变化，结合血管成熟实验研究动脉化；原文结果明确实际运行SCENIC，所引方法论文确认树集成推断步骤，不把普通PCA/UMAP本身当AI。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习",
+          "label_en": "Machine learning",
+          "evidence_location": "正文 Transplantation greatly affects the kidney organoid endothelial cell transcriptome 及图1f；SCENIC原方法补图1/GENIE3说明",
+          "rationale": "用SCENIC转录因子—靶基因网络学习识别移植肾类器官内皮的SOX7等调控变化，结合血管成熟实验研究动脉化；原文结果明确实际运行SCENIC，所引方法论文确认树集成推断步骤，不把普通PCA/UMAP本身当AI。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41536-025-00442-x",
+    "venue": "npjregenmed",
+    "year": 2025,
+    "track": null,
+    "title": "Label-free in-line characterization of immune cell culture using quantitative phase imaging",
+    "authors": [
+      "Caroline E. Serafini",
+      "Viswanath Gorti",
+      "Paloma Casteleiro Costa",
+      "Aaron D. Silva Trenkle",
+      "Bharat Kanwar",
+      "Bryan Wang",
+      "Brian Wicker",
+      "Linda E. Kippner",
+      "Isaac LeCompte",
+      "Rui Qi Chen",
+      "Benjamin Joffe",
+      "Ye Li",
+      "Annie C. Bowles-Welch",
+      "Jing Li",
+      "Christine E. Brown",
+      "Gabriel A. Kwong",
+      "Stephen Balakirsky",
+      "Krishnendu Roy",
+      "Francisco E. Robles"
+    ],
+    "author_ids": [],
+    "abstract": "Cell therapies, such as T cell immunotherapies, hold significant promise for treating complex diseases; however, their widespread adoption has been hindered by challenges related to monitoring cells during culture, which has affected their consistency, potency, and cost. Here, we present a compact, low-cost, label-free quantitative phase imaging (QPI) platform to enable continuous, non-destructive, in-line monitoring of T cell cultures within bioreactors. We further develop quantitative, image-based assays that accurately characterizes T cell culture viability and activation from over 50 independent donors-including therapeutically relevant CAR-T cells — while also preserving culture sterility and eliminating the need for disruptive sampling and endpoint assays. Our findings establish a QPI-pipeline for label-free, in-line cell monitoring and characterization which can significantly improve cell manufacturing processes.",
+    "keywords": [
+      "Biotechnology",
+      "Cell therapies",
+      "Medical research",
+      "Immunotherapy"
+    ],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41536-025-00442-x",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://www.nature.com/articles/s41536-025-00442-x",
+    "pdf_url": "https://www.nature.com/articles/s41536-025-00442-x.pdf",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-11-27",
+    "source": "crossref.org+nature.com",
+    "venue_type": "journal",
+    "journal_title": "npj Regenerative Medicine",
+    "issn": "2057-3995",
+    "article_type": "Article",
+    "screening_status": "ready",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "以ResNet从无标记定量相位单细胞图像分类T细胞存活及激活状态，70/30训练测试并在不同供者/培养条件验证，直接贡献细胞治疗生产在线监测。",
+      "evidence_location": "正文活死/激活分类结果；Methods Network creation and testing",
+      "verified_metadata": {
+        "title": "Label-free in-line characterization of immune cell culture using quantitative phase imaging",
+        "authors": [
+          "Serafini, Caroline E.",
+          "Gorti, Viswanath",
+          "Casteleiro Costa, Paloma",
+          "Silva Trenkle, Aaron D.",
+          "Kanwar, Bharat",
+          "Wang, Bryan",
+          "Wicker, Brian",
+          "Kippner, Linda E.",
+          "LeCompte, Isaac",
+          "Chen, Rui Qi",
+          "Joffe, Benjamin",
+          "Li, Ye",
+          "Bowles-Welch, Annie C.",
+          "Li, Jing",
+          "Brown, Christine E.",
+          "Kwong, Gabriel A.",
+          "Balakirsky, Stephen",
+          "Roy, Krishnendu",
+          "Robles, Francisco E."
+        ],
+        "doi": "10.1038/s41536-025-00442-x",
+        "url": "https://www.nature.com/articles/s41536-025-00442-x",
+        "pdf_url": "https://www.nature.com/articles/s41536-025-00442-x.pdf",
+        "abstract": "Cell therapies, such as T cell immunotherapies, hold significant promise for treating complex diseases; however, their widespread adoption has been hindered by challenges related to monitoring cells during culture, which has affected their consistency, potency, and cost. Here, we present a compact, low-cost, label-free quantitative phase imaging (QPI) platform to enable continuous, non-destructive, in-line monitoring of T cell cultures within bioreactors. We further develop quantitative, image-based assays that accurately characterizes T cell culture viability and activation from over 50 independent donors-including therapeutically relevant CAR-T cells — while also preserving culture sterility and eliminating the need for disruptive sampling and endpoint assays. Our findings establish a QPI-pipeline for label-free, in-line cell monitoring and characterization which can significantly improve cell manufacturing processes.",
+        "volume": "10",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s41536-025-00442-x"
+        ],
+        "primary_html_sha256": "d0fad3708c7b139ab6e2031b614fda0f115ec489f06eda1d0fb8e23c5809a4be",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留",
+        "full_text_evidence_location": "正文活死/激活分类结果；Methods Network creation and testing",
+        "full_text_checked_at": "2026-11-19T12:03:07.290605+00:00"
+      },
+      "checked_at": "2026-11-19T12:03:07.290605+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正文活死/激活分类结果；Methods Network creation and testing",
+          "rationale": "以ResNet从无标记定量相位单细胞图像分类T细胞存活及激活状态，70/30训练测试并在不同供者/培养条件验证，直接贡献细胞治疗生产在线监测。"
+        },
+        {
+          "axis": "method",
+          "label": "神经网络",
+          "label_en": "Neural network",
+          "evidence_location": "正文活死/激活分类结果；Methods Network creation and testing",
+          "rationale": "以ResNet从无标记定量相位单细胞图像分类T细胞存活及激活状态，70/30训练测试并在不同供者/培养条件验证，直接贡献细胞治疗生产在线监测。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10.1038/s41387-025-00372-z",
+    "venue": "nature-nutd",
+    "year": 2025,
+    "track": null,
+    "title": "Novel first-trimester serum biomarkers for early prediction of gestational diabetes mellitus",
+    "authors": [
+      "Siqi Tian",
+      "Mingxi Liu",
+      "Shuwen Han",
+      "Haiqi Wu",
+      "Rencai Qin",
+      "Kongyang Ma",
+      "Lianlian Liu",
+      "Hongjin Zhao",
+      "Yan Li"
+    ],
+    "author_ids": [
+      "https://orcid.org/0000-0001-5296-2293",
+      "https://orcid.org/0000-0003-1813-8115"
+    ],
+    "abstract": "BACKGROUND: Gestational diabetes mellitus (GDM) is a common obstetric complication worldwide that seriously threatens maternal and fetal health. As the number of women conceiving through in vitro fertilization (IVF) continues to rise, this population is recognized as being at an elevated risk for GDM. However, there is still no consensus on the early prediction of GDM in IVF patients due to the lack of reliable biomarkers. METHODS: We compared the first-trimester serum cytokine and antibody profiles in 38 GDM women and 38 matched controls undergoing IVF treatment, based on the extensive human biobank of our large‑scale assisted reproductive cohort platform. The 76 samples were divided into a training set (n = 53) and a testing set (n = 23) using a 7:3 ratio, and five diverse machine-learning models for predicting GDM were constructed. RESULTS: By combining the top five differentially expressed first‑trimester serum biomarkers [including total immunoglobulin (Ig)G, total IgM, interleukin (IL)-7, anti‑phosphatidylserine (aPS)-IgG immune complexes (IC), and IL-15], a novel early prediction model was constructed, which achieved superior predictive value [area under the curve (AUC) and 95% confidence interval (CI) 0.906 (0.840-0.971), with a sensitivity of 75% and a specificity of 94.7%] for GDM development. The eXtreme Gradient Boosting (XGBoost) model achieved an AUC of 0.995 (95% CI: 0.995-1.000, P < 0.001) for the training set and 0.867 (95% CI: 0.789-0.952, P < 0.001) for the test set in predicting GDM. CONCLUSIONS: We identified a set of novel first‑trimester serum cytokines and immune-related biomarkers and constructed an efficient first‑trimester prediction model for GDM in IVF population. These findings are expected to aid in the development of early predictive strategies for GDM and offer immunological insights for further mechanistic studies of GDM.",
+    "keywords": [],
+    "tldr": null,
+    "primary_area": null,
+    "presentation": null,
+    "doi": "10.1038/s41387-025-00372-z",
+    "pages": null,
+    "bibtex": null,
+    "url": "https://doi.org/10.1038/s41387-025-00372-z",
+    "pdf_url": null,
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-04-12",
+    "source": "crossref.org+openalex.org",
+    "venue_type": "journal",
+    "journal_title": "Nutrition &amp; Diabetes",
+    "issn": "2044-4052",
+    "article_type": "unknown",
+    "screening_status": "needs_article_type",
+    "conference_title": null,
+    "ccf_rank": null,
+    "ccf_field": null,
+    "ccf_catalog_version": null,
+    "ccf_paper_status": null,
+    "dblp_key": null,
+    "dblp_toc": null,
+    "booktitle": null,
+    "publisher_url": "https://www.nature.com/articles/s41387-025-00372-z",
+    "ai4s_hits": [
+      "antibody"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_tags": [
+      "AI for 生命科学"
+    ],
+    "ai4s_keywords": [
+      "antibody"
+    ],
+    "ai4s_tagging": {
+      "taxonomy_version": "1.2",
+      "basis": "metadata_rules",
+      "status": "needs_review",
+      "evidence": {
+        "AI for 生命科学": [
+          "antibody"
+        ]
+      },
+      "method_evidence": []
+    },
+    "ai4s_review": {
+      "schema_version": 2,
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "batch_id": "lixueting-2025-continuous-three-npj",
+      "decision": "include",
+      "rationale": "基于IVF妊娠38例GDM及38例对照首孕期血清免疫标志训练五种机器学习预测模型，按53/23训练测试并报告XGBoost测试AUC，AI实际支持妊娠糖尿病早期风险预测。",
+      "evidence_location": "官网原摘要Methods/Results及元数据",
+      "verified_metadata": {
+        "title": "Novel first-trimester serum biomarkers for early prediction of gestational diabetes mellitus",
+        "authors": [
+          "Tian, Siqi",
+          "Liu, Mingxi",
+          "Han, Shuwen",
+          "Wu, Haiqi",
+          "Qin, Rencai",
+          "Ma, Kongyang",
+          "Liu, Lianlian",
+          "Zhao, Hongjin",
+          "Li, Yan"
+        ],
+        "doi": "10.1038/s41387-025-00372-z",
+        "url": "https://doi.org/10.1038/s41387-025-00372-z",
+        "pdf_url": "https://www.nature.com/articles/s41387-025-00372-z.pdf",
+        "abstract": "Background Gestational diabetes mellitus (GDM) is a common obstetric complication worldwide that seriously threatens maternal and fetal health. As the number of women conceiving through in vitro fertilization (IVF) continues to rise, this population is recognized as being at an elevated risk for GDM. However, there is still no consensus on the early prediction of GDM in IVF patients due to the lack of reliable biomarkers. Methods We compared the first-trimester serum cytokine and antibody profiles in 38 GDM women and 38 matched controls undergoing IVF treatment, based on the extensive human biobank of our large‑scale assisted reproductive cohort platform. The 76 samples were divided into a training set ( n = 53) and a testing set ( n = 23) using a 7:3 ratio, and five diverse machine-learning models for predicting GDM were constructed. Results By combining the top five differentially expressed first‑trimester serum biomarkers [including total immunoglobulin (Ig)G, total IgM, interleukin (IL)-7, anti‑phosphatidylserine (aPS)-IgG immune complexes (IC), and IL-15], a novel early prediction model was constructed, which achieved superior predictive value [area under the curve (AUC) and 95% confidence interval (CI) 0.906 (0.840-0.971), with a sensitivity of 75% and a specificity of 94.7%] for GDM development. The eXtreme Gradient Boosting (XGBoost) model achieved an AUC of 0.995 (95% CI: 0.995-1.000, P < 0.001) for the training set and 0.867 (95% CI: 0.789-0.952, P < 0.001) for the test set in predicting GDM. Conclusions We identified a set of novel first‑trimester serum cytokines and immune-related biomarkers and constructed an efficient first‑trimester prediction model for GDM in IVF population. These findings are expected to aid in the development of early predictive strategies for GDM and offer immunological insights for further mechanistic studies of GDM.",
+        "volume": "15",
+        "formal_publication_year": 2025,
+        "article_type": "Article",
+        "evidence_urls": [
+          "https://doi.org/10.1038/s41387-025-00372-z"
+        ],
+        "primary_html_sha256": "72f70bba055ce638ae3509c3ffe6323d0aef036f4a34d7d0d6bf24122d998dc7",
+        "abstract_provenance": "出版社官网原摘要，输入字段保留"
+      },
+      "checked_at": "2026-11-19T12:03:07.290605+00:00",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "官网原摘要Methods/Results及元数据",
+          "rationale": "基于IVF妊娠38例GDM及38例对照首孕期血清免疫标志训练五种机器学习预测模型，按53/23训练测试并报告XGBoost测试AUC，AI实际支持妊娠糖尿病早期风险预测。"
+        },
+        {
+          "axis": "method",
+          "label": "梯度提升树",
+          "label_en": "Gradient-boosted decision trees",
+          "evidence_location": "官网原摘要Methods/Results及元数据",
+          "rationale": "基于IVF妊娠38例GDM及38例对照首孕期血清免疫标志训练五种机器学习预测模型，按53/23训练测试并报告XGBoost测试AUC，AI实际支持妊娠糖尿病早期风险预测。"
+        }
+      ]
+    }
   }
 ]

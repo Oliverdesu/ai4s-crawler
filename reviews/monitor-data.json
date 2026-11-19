@@ -42743,24 +42743,32 @@
           "snapshot_candidates": 1,
           "candidates": 1,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 54,
+          "official_scope": "2025正式年度卷15全部54目录条目；官网年度分页末页无Next，逐DOI集合核对；研究及实质综述精筛，非研究文类保留。",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。",
-            "尚未找到逐篇审核交付。"
+          "coverage_note": "官网全部54条目录与原始记录逐DOI完全一致，无缺漏、额外或重复。全部题名及目录描述召回，指定边界原摘要/必要正文复核；现1科学候选均有原摘要并审核完成，补入0条原始已采集的漏筛。",
+          "evidence_urls": [
+            "https://www.nature.com/nutd/articles?year=2025&searchType=journalSearch&sort=PubDate",
+            "https://www.nature.com/nutd/articles?searchType=journalSearch&sort=PubDate&year=2025&page=2",
+            "https://www.nature.com/nutd/articles?searchType=journalSearch&sort=PubDate&year=2025&page=3"
           ],
+          "decisions": {
+            "include": 1,
+            "exclude": 0,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。",
-            "提交逐篇审核结果或说明当前进度。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 1,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
@@ -42820,19 +42828,23 @@
           "snapshot_candidates": 0,
           "candidates": 0,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 51,
+          "official_scope": "2025正式年度卷14全部51目录条目；官网年度分页末页无Next，逐DOI集合核对；研究及实质综述精筛，非研究文类保留。",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
+          "coverage_note": "官网全部51条目录与原始记录逐DOI完全一致，无缺漏、额外或重复。全部题名及目录描述召回，指定边界原摘要/必要正文复核；现0科学候选均有原摘要并审核完成，补入0条原始已采集的漏筛。",
+          "evidence_urls": [
+            "https://www.nature.com/oncsis/articles?year=2025&searchType=journalSearch&sort=PubDate",
+            "https://www.nature.com/oncsis/articles?searchType=journalSearch&sort=PubDate&year=2025&page=2",
+            "https://www.nature.com/oncsis/articles?searchType=journalSearch&sort=PubDate&year=2025&page=3"
+          ],
           "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。"
-          ],
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
           "final_included": null,
           "final_missing_abstract": null,
@@ -44666,24 +44678,35 @@
           "papers": 61,
           "papers_missing_abstract": 0,
           "snapshot_candidates": 0,
-          "candidates": 0,
+          "candidates": 2,
           "missing_abstract": 0,
-          "official_total": null,
-          "official_scope": "",
+          "official_total": 61,
+          "official_scope": "2025正式年度卷10全部61目录条目；官网年度分页末页无Next，逐DOI集合核对；研究及实质综述精筛，非研究文类保留。",
           "reference_check": null,
-          "coverage_note": "",
-          "evidence_urls": [],
-          "decisions": null,
-          "issues": [
-            "官网同口径总数尚未确认。"
+          "coverage_note": "官网全部61条目录与原始记录逐DOI完全一致，无缺漏、额外或重复。全部题名及目录描述召回，指定边界原摘要/必要正文复核；现2科学候选均有原摘要并审核完成，补入2条原始已采集的漏筛。",
+          "evidence_urls": [
+            "https://www.nature.com/npjregenmed/articles?year=2025&searchType=journalSearch&sort=PubDate",
+            "https://www.nature.com/npjregenmed/articles?searchType=journalSearch&sort=PubDate&year=2025&page=2",
+            "https://www.nature.com/npjregenmed/articles?searchType=journalSearch&sort=PubDate&year=2025&page=3",
+            "https://www.nature.com/npjregenmed/articles?searchType=journalSearch&sort=PubDate&year=2025&page=4"
           ],
+          "decisions": {
+            "include": 2,
+            "exclude": 0,
+            "pending": 0,
+            "unreviewed": 0
+          },
+          "issues": [],
           "actions": [
-            "核对官网全年目录，或使用可靠替代来源完成同口径对账并记录证据。"
+            "核对已报告的官网总数与采集范围、年份和文献类型是否可比。"
           ],
-          "files": [],
+          "files": [
+            "reviews/2025/zch66883-lixueting.json",
+            "reviews/2025/feedback/zch66883-lixueting.json"
+          ],
           "snapshot_at": "2026-11-09T10:51:18+08:00",
-          "final_included": null,
-          "final_missing_abstract": null,
+          "final_included": 2,
+          "final_missing_abstract": 0,
           "unsynced_included": 0,
           "unsynced_missing_abstract": 0,
           "abstract_recovered": 0,
@@ -47213,10 +47236,10 @@
         {
           "owner": "李雪婷",
           "sources": 51,
-          "delivered": 11,
-          "official": 11,
+          "delivered": 13,
+          "official": 14,
           "pending": 0,
-          "open_issues": 40,
+          "open_issues": 37,
           "status": "in_progress",
           "last_update": {
             "at": "2026-11-18T21:32:59-08:00",
@@ -75543,10 +75566,10 @@
         },
         "2025": {
           "sources": 51,
-          "delivered": 11,
-          "official": 11,
+          "delivered": 13,
+          "official": 14,
           "pending": 0,
-          "open_issues": 40,
+          "open_issues": 37,
           "status": "in_progress"
         },
         "2026": {
@@ -75559,7 +75582,7 @@
         }
       },
       "sources": 153,
-      "delivered": 101,
+      "delivered": 103,
       "not_started": [],
       "last_update": {
         "at": "2026-11-18T21:32:59-08:00",
@@ -75938,6 +75961,14 @@
       "checked_at": "2026-11-19T12:00:36.758799+00:00",
       "input_commit": "d56dc553e8cd801d224a13fe5c307c2ae4020cf0",
       "reason": "Current personal screening checkpoint; Eleven complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
+      "unchanged_other_owners_and_years": true
+    },
+    {
+      "owner": "李雪婷",
+      "year": 2025,
+      "checked_at": "2026-11-19T12:04:15.009812+00:00",
+      "input_commit": "34934e56e24a6d415ff6f318dcafcf6a69cfd585",
+      "reason": "Current personal screening checkpoint; Fourteen complete sources including the full NeurIPS formal proceedings. Remaining sources are retained.",
       "unchanged_other_owners_and_years": true
     }
   ]
