@@ -1,0 +1,24 @@
+{
+  "main_commit": "2d873d818c6ebd1edc9c406554d22379f219d5e2",
+  "monitor_commit": "0bf3a17415f3e06ec565b80071c6168c0161bc1a",
+  "generated_at": "2026-11-19T10:08:42.507835+00:00",
+  "source_count": 51,
+  "included": 2299,
+  "included_missing": 0,
+  "required_backfill": 0,
+  "issues": 0,
+  "original_no_abstract_body_reviewed": 5,
+  "status": "published_and_public_browser_verified",
+  "public_url": "https://bupt-ai4s.github.io/review-monitor.html",
+  "browser_verified_at": "2026-11-19T10:10:57.765457+00:00",
+  "browser_filters": {
+    "year": 2026,
+    "owner": "李雪婷",
+    "all_sources": 51,
+    "sources_with_todos": 0
+  },
+  "all_51_sources_without_issues": true,
+  "original_abstract_fields_and_scientific_decisions_unchanged": true,
+  "workflow_run": "https://github.com/BUPT-AI4S/ai4s-crawler/actions/runs/44502630499",
+  "workflow_conclusion": "success"
+}

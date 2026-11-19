@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "all_five_content_decisions": "include",
+  "before_missing": 5,
+  "after_missing": 0,
+  "original_missingness_preserved": 5,
+  "required_backfill": 0,
+  "other_owners_and_years_unchanged": true,
+  "idempotent": true,
+  "negative_cases": [
+    "missing proof",
+    "stale snapshot",
+    "wrong owner",
+    "conflicting review",
+    "candidate mismatch",
+    "missing body evidence",
+    "pending decision",
+    "unlisted future record"
+  ],
+  "script_sha256": "8f00b1eea26f6cd258b2bf82f1b9be04434d9e03b61dc3fd45e65838cc62a406"
+}
