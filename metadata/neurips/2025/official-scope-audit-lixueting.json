@@ -11,11 +11,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选全部结案；全正式5887目录对账、601缺采原记录恢复完成。另已核122条分轨漏筛纳入，现473候选均已审且有原摘要。Main全目录召回和其他分轨101条题名线索仍待科学核验，不声明整源完成。",
-    "candidate_total": 473,
+    "coverage_note": "初始351候选全部结案；全正式5887目录对账、601缺采原记录恢复完成。另已核159条分轨漏筛纳入，现510候选均已审且有原摘要。Main全目录召回和其他分轨53条题名线索仍待科学核验，不声明整源完成。",
+    "candidate_total": 510,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 422,
+      "include": 459,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -24,7 +24,7 @@
     "work_status": "in_progress",
     "issues": [
       "Main5286全目录科学召回尚未完成。",
-      "101条其他分轨题名线索尚待摘要及必要正文核验。"
+      "53条其他分轨题名线索尚待摘要及必要正文核验。"
     ],
     "next_actions": [
       "继续完整Main目录召回和其他分轨科学核验；仅确认AI科研贡献后升级漏筛候选。"
@@ -32,11 +32,11 @@
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T08:12:32.066620+00:00",
-    "candidate_count": 473,
-    "own_review_count": 473,
+    "checked_at": "2026-11-19T08:15:53.036042+00:00",
+    "candidate_count": 510,
+    "own_review_count": 510,
     "own_review_counts": {
-      "include": 422,
+      "include": 459,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -98139,10 +98139,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T08:12:32.066620+00:00",
+      "checked_at": "2026-11-19T08:15:53.036042+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 473,
-      "candidate_ids_sha256": "e72b4859ea64b8347edbc23a8e20177235473d853492f73ed98da5b1471a1133",
+      "candidate_count": 510,
+      "candidate_ids_sha256": "1ea3e27466b0278ed8a18e62b74b4d2135ccc8bc8e2626391acc1df3a4c6d711",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
@@ -101886,54 +101886,6 @@
     }
   ],
   "extra_title_recall_pending_indices": [
-    351,
-    352,
-    356,
-    358,
-    359,
-    360,
-    363,
-    364,
-    365,
-    367,
-    368,
-    369,
-    370,
-    373,
-    376,
-    379,
-    380,
-    381,
-    389,
-    390,
-    394,
-    395,
-    396,
-    400,
-    401,
-    402,
-    403,
-    404,
-    406,
-    407,
-    408,
-    410,
-    412,
-    415,
-    417,
-    421,
-    424,
-    426,
-    432,
-    434,
-    438,
-    440,
-    442,
-    443,
-    447,
-    454,
-    455,
-    456,
     458,
     460,
     462,
@@ -102192,6 +102144,72 @@
       "decision": "not_promoted",
       "evidence_location": "出版社原摘要",
       "rationale": "覆盖285学科的一般研究生知识/推理问答与AGI能力测量，未确立具体科学研究问题或工作流贡献。"
+    },
+    {
+      "index": 352,
+      "decision": "not_promoted",
+      "evidence_location": "出版社Position Paper原摘要",
+      "rationale": "主张数字医疗模型部署后统计监测规范的立场建议，未报告实际原创验证或对既有AI科研的实质综述。"
+    },
+    {
+      "index": 356,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "红外小目标视觉检测的通用指标/错误分析框架，未确定具体外部科学或工程研究任务；传感波段本身不足以自动纳入。"
+    },
+    {
+      "index": 363,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "社交平台隐性广告审核的常规业务分类，未建立独立传播学或社会科学研究问题。"
+    },
+    {
+      "index": 364,
+      "decision": "not_promoted",
+      "evidence_location": "出版社Position Paper原摘要",
+      "rationale": "倡导模拟思维的概念范式与评测原则，中心为立场论证，没有经真实社会行为核验的原创科研结果。"
+    },
+    {
+      "index": 365,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "以更高交易回报和因子策略自动化为目标的量化投资业务系统，未明确研究市场机制或经济科学假说。"
+    },
+    {
+      "index": 367,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "城市客户配送的营运路由优化基准，未形成外部科学或物理工程研究任务，按常规物流业务应用不升级。"
+    },
+    {
+      "index": 370,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "法律判决业务预测模型适应法规变更，未实际研究制度变迁的社会作用或其他科学问题。"
+    },
+    {
+      "index": 373,
+      "decision": "not_promoted",
+      "evidence_location": "出版社Position Paper原摘要",
+      "rationale": "提出Biology-Informed ML生态与四支柱路线图的立场文，主体是未来建议而非已实施AI生物研究的实质综述。"
+    },
+    {
+      "index": 403,
+      "decision": "not_promoted",
+      "evidence_location": "出版社Position Paper原摘要",
+      "rationale": "倡导人体姿态估计隐私评测的规范性立场文，不是原创AI科研或实质综述。"
+    },
+    {
+      "index": 410,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "物理渲染的眩光数据用于通用图像去伪影/视觉质量恢复，未具体建立AI参与外部科学量测或工程性质研究。"
+    },
+    {
+      "index": 438,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "一般建筑场景3D布局重建与分割视觉基准，未显示结构、设备或建筑性能等具体工程研究任务。"
     }
   ],
   "extra_scientific_batches": [
@@ -103449,6 +103467,435 @@
             "基准评测"
           ],
           "rationale": "构建地理遥感推理分割数据与多模态预训练资源，训练LISAt识别复杂遥感场景、响应空间查询并分割目标，AI直接支持地理场景分析。",
+          "location": "出版社原摘要"
+        }
+      ]
+    },
+    {
+      "batch_id": "extra-seventh-plans",
+      "checked_at": "2026-11-19T08:15:53.036042+00:00",
+      "plans": [
+        {
+          "index": 351,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "多模态学习",
+            "基准评测"
+          ],
+          "rationale": "用真实车路平台4D雷达、LiDAR和多相机建立不同天气及车路协同感知任务，提供3D目标真值和综合模型评测，直接支持自动驾驶传感融合研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 358,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "以2757位患者全身PET/CT与越南语报告训练评测VLM，核查报告生成、影像问答与肺癌诊断局限，AI直接支持多模态医学影像分析。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 359,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "自监督学习",
+            "预训练",
+            "基准评测"
+          ],
+          "rationale": "以跨传感器/生态系统高光谱数据预训练低标注回归模型，实际预测叶碳与叶质量等功能性状并检验分布外泛化，AI直接支持植物表型与生态研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 360,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "针对七类经典图组合优化问题建立65数据集及统一神经求解器，实际分解比较学习部分对TSP、独立集、割等数学求解性能的贡献。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 368,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "机器学习",
+            "主动学习",
+            "基准评测"
+          ],
+          "rationale": "以1200余连续流化学工况建立溶剂选择/产率预测数据，实际比较回归、迁移与主动学习，AI直接支持可持续化学反应溶剂替代。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 369,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "采集真实无人机噪声和人存在声音的多机型/油门/麦克风数据，提供噪声抑制与人存在检测及硬件布置权衡的专用基准，直接支持低能见度搜救声学传感工程。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 376,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "按视障人群安全步行需求构建多视角传感轨迹和危险导航问题，实际比较VLM并在真实数据验证微调模型，AI直接参与辅助导航安全研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 379,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "目标检测",
+            "基准评测"
+          ],
+          "rationale": "以驾驶罕见场景构建3D目标标注并比较开放世界感知及专用模型，提出视觉3D检测和集成基线，AI直接支持自动驾驶未知目标感知。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 380,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "汇集轨道/地面火星影像，实际比较模型识别撞击坑、锥体、巨石和霜冻等行星地质特征，直接服务火星地质科学研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 381,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "多模态学习",
+            "基准评测"
+          ],
+          "rationale": "在真实城市多路口同步车辆与路侧光学/热成像/LiDAR，实际比较协作感知算法，研究跨路口交通场景泛化和遮挡感知工程。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 389,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "以工业资产故障机制与传感器关系构建专家问题，实际评测LLM、知识库智能体及特征选择管线，并在三个真实故障预测数据集检验建模决策作用，AI直接支持设备可靠性研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 390,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "视觉语言模型",
+            "强化学习",
+            "基准评测"
+          ],
+          "rationale": "对真实驾驶数据的方向、深度、距离与前后关系进行VLM评测，并以空间准确性/逻辑奖励实施GRPO适配，直接支持驾驶环境空间感知建模。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 394,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "依据化学知识建立分布外分子性质任务，比较150余模型–任务组合并分析结构、表征、预训练等对物理化学性质泛化的影响，AI研究对象明确。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 395,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "将43名参与者真实自报情绪/大五人格与视觉生理信号配对，实际比较学习型情绪和人格推断基线，AI直接建模真实人类心理与行为驱动状态。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 396,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "大语言模型",
+            "科学智能体",
+            "基准评测"
+          ],
+          "rationale": "以医生策展病例开展多轮主动病史采集、检查选择和诊断，实际分析LLM诊断锚定、过早结束等失败，AI直接参与临床诊断推理研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 400,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "超图学习",
+            "神经活动解码",
+            "基准评测"
+          ],
+          "rationale": "采集临床sEEG–语音配对数据并提出多频段时空超图网络HyperSpeech，实际重建听觉语音并以客观与人评验证，AI直接参与脑–语音感知解码。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 401,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "Transformer 架构",
+            "基准评测"
+          ],
+          "rationale": "整合80,000余抗菌肽及生物功能层次标签，训练结构/序列Transformer预测抗菌、抗真菌等多标签活性，AI直接支持抗微生物肽功能发现。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 402,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "按245类官能团标注结构位置并建立分子性质回归/分类推理，实际比较LLM解释单/多官能团作用和分子性质差异，AI直接研究分子结构–性质关系。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 404,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "将灾害事件时序卫星影像、地理位置和报道注释配对，实际微调MLLM改善灾害进程监测，AI直接支持自然灾害遥感分析。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 406,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "建立多中心帕金森步态与UPDRS临床评分数据，实际比较动作编码器和传统步态特征、预训练及跨域临床严重度预测，AI直接参与神经疾病运动评估。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 407,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "以全球50城遥感问题构建23类地球观测感知/推理任务，实际比较专用与通用视觉语言模型，直接提供遥感地表分析能力评测。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 408,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "机器学习原子势",
+            "基准评测"
+          ],
+          "rationale": "对学习型原子间势实际评估化学反应、极端稳定性、热力学性质和物理现象，分析泄漏与DFT误差指标局限，AI直接服务原子/分子材料模型的物理验证。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 412,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "对比学习",
+            "预训练",
+            "基准评测"
+          ],
+          "rationale": "以医学教学图文和空间鼠标标注构建医学定位数据，实际训练GenMedClip并在12个医学影像领域测试，AI直接支持医学图像与语言对应表征。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 415,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "发布ABRACADABRA暗物质实验超长时序、去噪指标和完整粒子物理分析流程，直接建立AI信号提取到可发表暗物质搜索结果的科学评测任务。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 417,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "大语言模型",
+            "科学研究能力评测",
+            "基准评测"
+          ],
+          "rationale": "评测LLM编制天文专用数据处理/分析及可视化工作流，以专业天文学者验证判断，实际分析科研输出的正确性，直接支持天文计算研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 421,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "在九类分子性质分类/回归数据上比较分子结构图像与文本融合、视觉编码适配和LoRA，AI直接预测化学分子性质及其泛化。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 424,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "数学定理自动证明",
+            "基准评测"
+          ],
+          "rationale": "针对不等式严格证明建立界估计/关系预测和逐步证明核验任务，比较29个LLM的演绎错误与最终答案偏差，AI直接参与数学不等式证明研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 426,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "以OEIS整数数列要求模型生成真实计算算法而非查表，比较1000序列的程序化数学求解与作弊检测，直接支持整数序列算法发现研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 432,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经网络",
+            "神经活动解码",
+            "基准评测"
+          ],
+          "rationale": "以跨1242天猕猴皮层放电及手指运动数据分析神经漂移，实际比较线性与神经网络运动解码，AI直接支持长期脑机接口与神经群体研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 434,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "大语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "构建含诊断、药学及多模态判读的中医药任务，实际训练推理模型并与通用/专用LLM比较，研究医学领域任务表现；不将数据集开头的疗效措辞当临床疗效证明。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 440,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "多模态学习",
+            "基准评测"
+          ],
+          "rationale": "对28种化合物处理的细胞配对RNA和Cell Painting数据，实际比较多模态/多profile及基础模型识别处理与作用机制，AI直接研究细胞化学干预响应。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 442,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "多模态学习",
+            "基准评测"
+          ],
+          "rationale": "标注真实火灾类型、环境及风险并实际验证检测、生成和视觉语言风险推理，提供消防安全感知技术的专用研究资源。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 443,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "图神经网络",
+            "基准评测"
+          ],
+          "rationale": "生成不同电网负荷/出力/拓扑及N–1/N–2故障的潮流物理解，实际比较GNN和传统求解器在接近电压稳定边界的表现，AI直接参与电力系统计算。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 447,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "以Hubble观测构建保持光通量的星场超分数据及物理通量误差，提出并评测FISR恢复天文光度一致的高分辨率图，AI直接支持天体观测定量重建。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 454,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "为330万分子提供DFT电子密度真值，实际比较学习模型进行密度预测、检索和生成并核精度/计算成本，AI直接研究分子电子结构。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 455,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "大语言模型",
+            "基准评测"
+          ],
+          "rationale": "按水文、大气动力/物理、地球物理和物理海洋学建立研究生专项问题，实际比较通用/推理/数学与气候LLM，直接评测大气科学求解与概念理解。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 456,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "大语言模型",
+            "科学智能体",
+            "基准评测"
+          ],
+          "rationale": "在医学影像问答、临床EHR预测等任务比较多智能体、单LLM与传统专用方法，分析真实医疗问题中的收益与成本，AI实际支持具体医学研究任务。",
           "location": "出版社原摘要"
         }
       ]
