@@ -1,0 +1,105 @@
+{
+  "owner": "李雪婷",
+  "year": 2026,
+  "checked_at": "2026-11-19T09:43:47.973229+00:00",
+  "question": "Why are five included papers still missing abstracts?",
+  "conclusion": "All five were published without standalone abstracts and have owner-authorized original-body evidence. Physical null count is 5; required abstract backfill is 0. Original fields remain unchanged.",
+  "records": [
+    {
+      "id": "10.1016/s1474-4422(25)00453-3",
+      "title": "Epilepsy research in 2025: sudden unexpected death in epilepsy, artifical intelligence and seizure classification",
+      "venue": "j-af35c70bf5",
+      "decision": "include",
+      "original_abstract": null,
+      "verified_abstract": null,
+      "full_text_evidence_location": "合法原始正文p16开篇及p18 SpikeNet2相关段，NLM41389814完整记录无Abstract；p17未读",
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1474442225004533",
+        "https://www.sciencedirect.com/science/article/pii/S147444222500448X",
+        "https://www.sciencedirect.com/journal/the-lancet-neurology/vol/25/issue/1"
+      ],
+      "original_has_no_standalone_abstract": true,
+      "required_abstract_backfill": false,
+      "review_basis": "Original body relevant sections verified; no generated abstract."
+    },
+    {
+      "id": "10.1016/j.chmed.2026.08.014",
+      "title": "Identification of PDE4D as a common molecular target of five bufadienolides from Liushen Pill in experimental acute pharyngitis",
+      "venue": "j-a847fdc23a",
+      "decision": "include",
+      "original_abstract": null,
+      "verified_abstract": null,
+      "full_text_evidence_location": "原始全文全部TITLE/INTRO正文passages，24批次QMDH V1.30及Pearson/PLS/SVR方法段",
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1674638426001310",
+        "https://www.sciencedirect.com/journal/chinese-herbal-medicines/vol/18/issue/4",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712334/",
+        "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC13712334/unicode",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.chmed.2026.08.014%22&format=json&resultType=core"
+      ],
+      "original_has_no_standalone_abstract": true,
+      "required_abstract_backfill": false,
+      "review_basis": "Original body relevant sections verified; no generated abstract."
+    },
+    {
+      "id": "10.1016/j.jchf.2025.102851",
+      "title": "Artificial Intelligence to Extract Structured Details From Unstructured Medical Records in a Global Heart Failure Trial",
+      "venue": "j-896c5ba968",
+      "decision": "include",
+      "original_abstract": null,
+      "verified_abstract": null,
+      "full_text_evidence_location": "合法公开PMC版本Methods及Clinical Perspective（网页索引可读；无独立原摘要，不生成摘要）",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12949679/",
+        "https://pubmed.ncbi.nlm.nih.gov/41493411/",
+        "https://www.sciencedirect.com/science/article/pii/S2213177925007814",
+        "https://api.crossref.org/works/10.1016/j.jchf.2025.102851"
+      ],
+      "original_has_no_standalone_abstract": true,
+      "required_abstract_backfill": false,
+      "review_basis": "Original body relevant sections verified; no generated abstract."
+    },
+    {
+      "id": "10.1016/j.jchf.2026.103161",
+      "title": "Echo-Based, Artificial Intelligence Algorithm Identifies Future Heart Failure Cases",
+      "venue": "j-896c5ba968",
+      "decision": "include",
+      "original_abstract": null,
+      "verified_abstract": null,
+      "full_text_evidence_location": "官方JACC原文Methods/Results/Conclusions（网页索引可读；无独立原摘要，不生成摘要）",
+      "source_urls": [
+        "https://www.jacc.org/doi/10.1016/j.jchf.2026.103161",
+        "https://pubmed.ncbi.nlm.nih.gov/42233897/",
+        "https://www.sciencedirect.com/science/article/pii/S2213177926002611",
+        "https://api.crossref.org/works/10.1016/j.jchf.2026.103161"
+      ],
+      "original_has_no_standalone_abstract": true,
+      "required_abstract_backfill": false,
+      "review_basis": "Original body relevant sections verified; no generated abstract."
+    },
+    {
+      "id": "10.1016/j.jchf.2026.103188",
+      "title": "Noninvasive Wearable-Based Algorithm to Predict Worsening Heart Failure by Change in Natriuretic Peptide Levels",
+      "venue": "j-896c5ba968",
+      "decision": "include",
+      "original_abstract": null,
+      "verified_abstract": null,
+      "full_text_evidence_location": "JACC正式公开原文Methods/Results，锁定XGBoost及独立时间验证",
+      "source_urls": [
+        "https://www.jacc.org/doi/10.1016/j.jchf.2026.103188",
+        "https://www.sciencedirect.com/science/article/pii/S221317792600288X",
+        "https://api.crossref.org/works/10.1016/j.jchf.2026.103188"
+      ],
+      "original_has_no_standalone_abstract": true,
+      "required_abstract_backfill": false,
+      "review_basis": "Original body relevant sections verified; no generated abstract."
+    }
+  ],
+  "recheck_evidence": {
+    "10.1016/s1474-4422(25)00453-3": "Original publisher preview p16 begins with body text; archived full NLM XML PMID41389814 has zero Abstract elements. Previously verified p18 scientific-AI evidence retained.",
+    "10.1016/j.chmed.2026.08.014": "PMC original body opens To the Editor; QMDH/SVR methods are substantive; no standalone Abstract.",
+    "10.1016/j.jchf.2025.102851": "PMC original body opens INTRODUCTION, METHODS, RESULTS without standalone Abstract.",
+    "10.1016/j.jchf.2026.103161": "Normal browser verified publisher volume14 issue10 body, Methods and Results; no Abstract section. DOM saved locally.",
+    "10.1016/j.jchf.2026.103188": "Normal browser verified publisher volume14 issue11 body, Methods and Results; no Abstract section. Clinical question figure is not relabeled as abstract. DOM saved locally."
+  }
+}
