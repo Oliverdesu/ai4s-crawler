@@ -6576,26 +6576,26 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核275/351初候选，234纳入、41排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余76初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "当前已逐篇审核295/351初候选，251纳入、44排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余56初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 234,
-      "exclude": 41,
+      "include": 251,
+      "exclude": 44,
       "pending": 0,
-      "unreviewed": 76
+      "unreviewed": 56
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "76篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "56篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余76初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续逐篇审核余56初候选；核全Main及其他正式分轨漏采漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:28:30.131608+00:00"
+    "checked_at": "2026-11-19T07:31:01.976301+00:00"
   }
 ]

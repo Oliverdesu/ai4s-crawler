@@ -11,27 +11,27 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "当前已逐篇审核275/351初候选，234纳入、41排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余76初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
+    "coverage_note": "当前已逐篇审核295/351初候选，251纳入、44排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余56初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 234,
-      "exclude": 41,
+      "include": 251,
+      "exclude": 44,
       "pending": 0,
-      "unreviewed": 76
+      "unreviewed": 56
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "76篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "56篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核余76初候选；核全Main及其他正式分轨漏采漏筛。"
+      "继续逐篇审核余56初候选；核全Main及其他正式分轨漏采漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:28:30.131608+00:00"
+    "checked_at": "2026-11-19T07:31:01.976301+00:00"
   },
   "catalogue_main_track": {
     "official_count": 5286,
@@ -2712,6 +2712,234 @@
           "rationale": "必要全文§4.2（PDF pp9–10）核实LeapFactual在Galaxy10 DECaLS十类星系形态上生成受分类约束的反事实图像，研究形态特征变化并作为辅助训练数据改善分类。属于天文分类的模型解释/训练数据方法；生成图和代理标签不等同新观测或经验证的星系物理演化。",
           "location": "正式全文§4.2, PDF pp9–10, Figure6 and Table3",
           "pdf_evidence": true
+        }
+      ]
+    },
+    {
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "count": 20,
+      "decisions": {
+        "exclude": 3,
+        "include": 17
+      },
+      "records": [
+        {
+          "id": "D7zMB5uEHw",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "提出随机森林自编码的嵌入、可逆压缩和一致性理论，以表格、图像、基因组数据演示通用可视化、聚类及去噪。摘要没有具体生物科学任务或科学分析结果，不能仅凭基因组数据演示纳入。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "CrxR6CYeQn",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "图神经网络",
+            "蛋白质突变效应预测"
+          ],
+          "rationale": "H3-DDG用超图层次注意力捕捉局部/全局多体突变效应，实际预测结合自由能变化，在SKEMPI/BindingGYM及SARS-CoV-2抗体案例验证。AI直接研究蛋白相互作用与突变工程。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "CmY6DzEG7Z",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经算子",
+            "动力系统建模"
+          ],
+          "rationale": "NOBLE把可解释神经元特征的频率调制嵌入映射为注流诱导胞体电压分布，在生物真实模型合成数据训练并用真实神经实验响应验证泛化及试次变异。直接近似神经元生物物理动力学。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "CmKar1zptJ",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "分子性质预测"
+          ],
+          "rationale": "RankRefine利用专家或通用LLM分子相对性质排序，与原回归器按逆方差结合，无需重训即可在低标签分子性质预测减少MAE。AI实际注入分子科学知识改进定量预测。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "CDEbgwJ6ET",
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "图神经网络",
+            "科学模拟网格适配"
+          ],
+          "rationale": "AMBER层次GNN迭代预测FEM局部单元尺寸场，依据专家网格训练并自动投影标签，实际在二维/三维物理、机械零件和工业设计生成自适应网格。AI直接支持物理工程模拟准备。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "CCbXvvcdF9",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "生物分子复合物结构预测"
+          ],
+          "rationale": "分层高斯混合和部件发现框架从高噪声二维cryo-EM影像重建三维生物分子，分离非刚性构象及组分缺失，在复杂真实实验数据和CryoBench揭示有生物意义结构。AI直接学习分子异质性。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "C7BIQRM57T",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "流匹配",
+            "细胞轨迹推断"
+          ],
+          "rationale": "必要全文§4（PDF pp7–9）核实3MSBM在胚样体27天五阶段单细胞分化、墨西哥湾海流及北京PM2.5等实际数据推断缺失时点与轨迹，学习多边际动量Schrödinger桥。具体生物/环境动态作用已确认。",
+          "location": "正式全文§4.1–4.4, PDF pp7–9, Tables2–5",
+          "pdf_evidence": true
+        },
+        {
+          "id": "BpwIPxSSdb",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "SSME用半监督混合估计分类器分数与标签联合分布，以少量标签评估AUC/准确率，医疗、分子、内容审核和文本仅作为通用评估方法的实证域。摘要未给出对独立科学任务的具体建模或发现贡献，按通用模型评估研究排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "BpSGN4pErp",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "物理信息学习",
+            "Transformer 架构",
+            "动力系统状态估计"
+          ],
+          "rationale": "必要全文§3.2（PDF pp4–5）确认NUTS不仅数值求解：时空Transformer估计初始场，超网络预测有效扩散张量，视觉Transformer恢复涡尺度结构，ResNet学习源汇并以守恒损失联合训练。实际从稀疏观测重建磷酸盐/硝酸盐海表营养场。",
+          "location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "BlLAmMFEzJ",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "流匹配",
+            "生物分子复合物结构预测",
+            "分子对接"
+          ],
+          "rationale": "NeuralPLexer3用物理启发流生成模型预测蛋白与生物复合物相互作用结构，实际验证盲对接、物理有效性和配体诱导构象改变。AI直接支撑结构导向药物发现。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "BL5r7hu9GD",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "蛋白质骨架生成"
+          ],
+          "rationale": "EnzyControl以酶底物配对及MSA催化位点为条件，用EnzyAdapter将预训练motif-scaffolding模型扩展为底物感知，在EnzyBind/EnzyBench评价结构与功能指标。AI实际进行功能/底物特异酶骨架设计，配对数据源为已验证结构数据。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "B7Bc9xzl2o",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "检索增强生成",
+            "扩散模型",
+            "蛋白质设计"
+          ],
+          "rationale": "RADiAnce在共享对比潜空间检索已知结合界面并用条件潜扩散生成新蛋白结合体，实际比较亲和力、几何/作用恢复及跨肽/抗体/蛋白片段域泛化。AI直接设计靶向蛋白结合界面。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "B5fFInNlhZ",
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "物理信息学习",
+            "扩散模型",
+            "动力系统状态估计"
+          ],
+          "rationale": "PPIDM在扩散学习中嵌入已知物理算子并减弱未知动力差异，对海表叶绿素这一受物理/生物共同驱动的浓度场重建，实测优于忽略物理或误当物理完备的方法。AI直接估计海洋生物地球化学状态。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "AuOZDp4gy7",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "AliO以时域/频域输出对齐损失和TAM指标改善通用长期时序预测器在滞后输入中的一致性；天气和电力只作为背景动机，摘要实证集中通用对齐/误差百分比。未给出独立科学研究任务，按通用时序模型方法排除。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "AlRJVX5CRi",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "深度学习",
+            "电子结构预测"
+          ],
+          "rationale": "必要全文§3.2（PDF pp8–9）确认OMM/Sanger神经网络实际求解二维氢原子定态Schrödinger本征函数，并以逆算子技巧验证无限势阱/谐振子低能模态。虽另含RL和视觉表征实验，确有量子物理谱求解任务。",
+          "location": "正式全文§3.2–3.2.2, PDF pp8–9, Figure2；AppendixC.2",
+          "pdf_evidence": true
+        },
+        {
+          "id": "Aj3wL41C7p",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息神经网络",
+            "偏微分方程求解"
+          ],
+          "rationale": "NeuSA学习PDE谱基投影并与神经ODE因果时间演化结合，以经典方法初始化，实际求解变系数线性/非线性波动方程，缓解谱偏置和非因果收敛。AI直接用于科学方程计算。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "ATewcZPbDj",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "生成建模",
+            "分子生成"
+          ],
+          "rationale": "针对三维几何分子生成的原子置换顺序与特征调整两阶段，设计几何先验和一致性参数目标，在保留分子生成质量下减少采样步数。是分子几何结构生成的专门方法贡献，非一般LLM推理提速。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "APXcX7z1Bi",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "蛋白质结合位点预测"
+          ],
+          "rationale": "UniSite-DS按唯一蛋白整合跨结构多结合位点，UniSite用双射匹配集合预测损失端到端检测配体口袋，并用IoU-AP更准确评估。AI直接研究蛋白结合位点且补充相应科学数据资源。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "AHjspi4R22",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "强化学习",
+            "扩散模型",
+            "蛋白质设计"
+          ],
+          "rationale": "GLID²E以截断似然约束和奖励塑形无梯度微调离散扩散，在DNA及蛋白序列系统实测功能导向设计和多目标优化。AI直接生成/优化生物功能序列。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "A5O41ntKjk",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "不确定性量化",
+            "单细胞状态解耦与扰动预测"
+          ],
+          "rationale": "PRESCRIBE以多变量深度证据回归联合估计基因扰动预测的模型/数据不确定性，置信度与实测误差相关并能过滤不可信预测，改善未见基因扰动的单细胞响应。直接用于细胞干预效应科学预测。",
+          "location": "输入摘要；正式论文集Abstract"
         }
       ]
     }

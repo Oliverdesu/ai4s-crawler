@@ -27377,5 +27377,2082 @@
         }
       ]
     }
+  },
+  {
+    "id": "D7zMB5uEHw",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Autoencoding Random Forests",
+    "authors": [
+      "Binh Duc Vu",
+      "Jan Kapar",
+      "Marvin N. Wright",
+      "David Watson"
+    ],
+    "author_ids": [
+      "~Binh_Duc_Vu1",
+      "~Jan_Kapar1",
+      "~Marvin_N._Wright1",
+      "~David_Watson2"
+    ],
+    "abstract": "We propose a principled method for autoencoding with random forests. Our strategy builds on foundational results from nonparametric statistics and spectral graph theory to learn a low-dimensional embedding of the model that optimally represents relationships in the data. We provide exact and approximate solutions to the decoding problem via constrained optimization, split relabeling, and nearest neighbors regression. These methods effectively invert the compression pipeline, establishing a map from the embedding space back to the input space using splits learned by the ensemble's constituent trees. The resulting decoders are universally consistent under common regularity assumptions. The procedure works with supervised or unsupervised models, providing a window into conditional or joint distributions. We demonstrate various applications of this autoencoder, including powerful new tools for visualization, compression, clustering, and denoising. Experiments illustrate the ease and utility of our method in a wide range of settings, including tabular, image, and genomic data.",
+    "keywords": [
+      "Random Forests",
+      "Compression",
+      "Kernel Methods",
+      "Constrained Optimization",
+      "Nearest Neighbors"
+    ],
+    "tldr": "We propose a random forest autoencoder with applications in tabular, image and genomic data.",
+    "primary_area": "general_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ vu2025autoencoding, title={Autoencoding Random Forests}, author={Binh Duc Vu and Jan Kapar and Marvin N. Wright and David Watson}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=D7zMB5uEHw} }",
+    "url": "https://openreview.net/forum?id=D7zMB5uEHw",
+    "pdf_url": "https://openreview.net/pdf?id=D7zMB5uEHw",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bgenomics?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "提出随机森林自编码的嵌入、可逆压缩和一致性理论，以表格、图像、基因组数据演示通用可视化、聚类及去噪。摘要没有具体生物科学任务或科学分析结果，不能仅凭基因组数据演示纳入。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Autoencoding Random Forests",
+        "authors": [
+          "Vu, Binh",
+          "Kapar, Jan",
+          "Wright, Marvin",
+          "Watson, David"
+        ],
+        "doi": "10.52202/085713-5487",
+        "volume": "38",
+        "pages": "164511–164544",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f06d28d0fd9f36c3d7fadab88b4cfe4e-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f06d28d0fd9f36c3d7fadab88b4cfe4e-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "We propose a principled method for autoencoding with random forests. Our strategy builds on foundational results from nonparametric statistics and spectral graph theory to learn a low-dimensional embedding of the model that optimally represents relationships in the data.  We provide exact and approximate solutions to the decoding problem via constrained optimization, split relabeling, and nearest neighbors regression. These methods effectively invert the compression pipeline, establishing a map from the embedding space back to the input space using splits learned by the ensemble's constituent trees. The resulting decoders are universally consistent under common regularity assumptions. The procedure works with supervised or unsupervised models, providing a window into conditional or joint distributions. We demonstrate various applications of this autoencoder, including powerful new tools for visualization, compression, clustering, and denoising. Experiments illustrate the ease and utility of our method in a wide range of settings, including tabular, image, and genomic data.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f06d28d0fd9f36c3d7fadab88b4cfe4e-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": []
+    }
+  },
+  {
+    "id": "CrxR6CYeQn",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Accurately Predicting Protein Mutational Effects via a Hierarchical Many-Body Attention Network",
+    "authors": [
+      "Dahao Xu",
+      "Jiahua Rao",
+      "Mingming Zhu",
+      "Jixian Zhang",
+      "Wei Lu",
+      "Shuangjia Zheng",
+      "Yuedong Yang"
+    ],
+    "author_ids": [
+      "~Dahao_Xu1",
+      "~Jiahua_Rao1",
+      "~Mingming_Zhu1",
+      "~Jixian_Zhang1",
+      "~Wei_Lu12",
+      "~Shuangjia_Zheng2",
+      "~Yuedong_Yang1"
+    ],
+    "abstract": "Predicting changes in binding free energy ($\\Delta\\Delta G$) is essential for understanding protein-protein interactions, which are critical in drug design and protein engineering. However, existing methods often rely on pre-trained knowledge and heuristic features, limiting their ability to accurately model complex mutation effects, particularly higher-order and many-body interactions. To address these challenges, we propose H3-DDG, a Hypergraph-driven Hierarchical network to capture Higher-order many-body interactions across multiple scales. By introducing a hierarchical communication mechanism, H3-DDG effectively models both local and global mutational effects. Experimental results demonstrate state-of-the-art performance on multiple benchmarks. On the SKEMPI v2 dataset, H3-DDG achieves a Pearson correlation of 0.75, improving multi-point mutations prediction by 12.10%. On the challenging BindingGYM dataset, it outperforms Prompt-DDG and BA-DDG by 62.61% and 34.26%, respectively. Ablation and efficiency analyses demonstrate its robustness and scalability, while a case study on SARS-CoV-2 antibodies highlights its practical value in improving binding affinity for therapeutic design.",
+    "keywords": [
+      "Protein Mutational Effects",
+      "Protein-Protein Interactions",
+      "Binding Free Energy",
+      "Hierarchical Many-Body Attention"
+    ],
+    "tldr": "We present H3-DDG, a model that predicts binding free energy changes by modeling higher-order many-body interactions, achieving state-of-the-art performance in protein mutational effect prediction.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ xu2025accurately, title={Accurately Predicting Protein Mutational Effects via a Hierarchical Many-Body Attention Network}, author={Dahao Xu and Jiahua Rao and Mingming Zhu and Jixian Zhang and Wei Lu and Shuangjia Zheng and Yuedong Yang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=CrxR6CYeQn} }",
+    "url": "https://openreview.net/forum?id=CrxR6CYeQn",
+    "pdf_url": "https://openreview.net/pdf?id=CrxR6CYeQn",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "drug design",
+      "binding affinity",
+      "\\bproteins?\\b",
+      "many-body"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "H3-DDG用超图层次注意力捕捉局部/全局多体突变效应，实际预测结合自由能变化，在SKEMPI/BindingGYM及SARS-CoV-2抗体案例验证。AI直接研究蛋白相互作用与突变工程。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Accurately Predicting Protein Mutational Effects via a Hierarchical Many-Body Attention Network",
+        "authors": [
+          "Xu, Dahao",
+          "Rao, Jiahua",
+          "Zhu, Mingming",
+          "Zhang, Jixian",
+          "Lu, Wei",
+          "Zheng, Shuangjia",
+          "Yang, Yuedong"
+        ],
+        "doi": "10.52202/085713-1408",
+        "volume": "38",
+        "pages": "42296–42318",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3c2fd72a28fb98facf98546727320249-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3c2fd72a28fb98facf98546727320249-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Predicting changes in binding free energy ($\\Delta\\Delta G$) is essential for understanding protein-protein interactions, which are critical in drug design and protein engineering. However, existing methods often rely on pre-trained knowledge and heuristic features, limiting their ability to accurately model complex mutation effects, particularly higher-order and many-body interactions. To address these challenges, we propose H3-DDG, a Hypergraph-driven Hierarchical network to capture Higher-order many-body interactions across multiple scales. By introducing a hierarchical communication mechanism, H3-DDG effectively models both local and global mutational effects. Experimental results demonstrate state-of-the-art performance on multiple benchmarks. On the SKEMPI v2 dataset, H3-DDG achieves a Pearson correlation of 0.75, improving multi-point mutations prediction by 12.10%. On the challenging BindingGYM dataset, it outperforms Prompt-DDG and BA-DDG by 62.61% and 34.26%, respectively. Ablation and efficiency analyses demonstrate its robustness and scalability, while a case study on SARS-CoV-2 antibodies highlights its practical value in improving binding affinity for therapeutic design.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3c2fd72a28fb98facf98546727320249-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "H3-DDG用超图层次注意力捕捉局部/全局多体突变效应，实际预测结合自由能变化，在SKEMPI/BindingGYM及SARS-CoV-2抗体案例验证。AI直接研究蛋白相互作用与突变工程。"
+        },
+        {
+          "axis": "method",
+          "label": "图神经网络",
+          "label_en": "Graph neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "H3-DDG用超图层次注意力捕捉局部/全局多体突变效应，实际预测结合自由能变化，在SKEMPI/BindingGYM及SARS-CoV-2抗体案例验证。AI直接研究蛋白相互作用与突变工程。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质突变效应预测",
+          "label_en": "Protein mutation effect prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "H3-DDG用超图层次注意力捕捉局部/全局多体突变效应，实际预测结合自由能变化，在SKEMPI/BindingGYM及SARS-CoV-2抗体案例验证。AI直接研究蛋白相互作用与突变工程。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CmY6DzEG7Z",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "NOBLE - Neural Operator with Biologically-informed Latent Embeddings to Capture Experimental Variability in Biological Neuron Models",
+    "authors": [
+      "Luca Ghafourpour",
+      "Valentin Duruisseaux",
+      "Bahareh Tolooshams",
+      "Philip H. Wong",
+      "Costas A. Anastassiou",
+      "Anima Anandkumar"
+    ],
+    "author_ids": [
+      "~Luca_Ghafourpour1",
+      "~Valentin_Duruisseaux1",
+      "~Bahareh_Tolooshams1",
+      "~Philip_H._Wong1",
+      "~Costas_A._Anastassiou1",
+      "~Anima_Anandkumar1"
+    ],
+    "abstract": "Characterizing the cellular properties of neurons is fundamental to understanding their function in the brain. In this quest, the generation of bio-realistic models is central towards integrating multimodal cellular data sets and establishing causal relationships. However, current modeling approaches remain constrained by the limited availability and intrinsic variability of experimental neuronal data. The deterministic formalism of bio-realistic models currently precludes accounting for the natural variability observed experimentally. While deep learning is becoming increasingly relevant in this space, it fails to capture the full biophysical complexity of neurons, their nonlinear voltage dynamics, and variability. To address these shortcomings, we introduce $\\texttt{NOBLE}$, a neural operator framework that learns a mapping from a continuous frequency-modulated embedding of interpretable neuron features to the somatic voltage response induced by current injection. Trained on synthetic data generated from bio-realistic neuron models, $\\texttt{NOBLE}$ predicts distributions of neural dynamics accounting for the intrinsic experimental variability. Unlike conventional bio-realistic neuron models, interpolating within the embedding space offers models whose dynamics are consistent with experimentally observed responses. $\\texttt{NOBLE}$ enables the efficient generation of synthetic neurons that closely resemble experimental data and exhibit trial-to-trial variability, offering a $4200$× speedup over the numerical solver. $\\texttt{NOBLE}$ is the first scaled-up deep learning framework that validates its generalization with real experimental data. To this end, $\\texttt{NOBLE}$ captures fundamental neural properties in a unique and emergent manner that opens the door to a better understanding of cellular composition and computations, neuromorphic architectures, large-scale brain circuits, and general neuroAI applications.",
+    "keywords": [
+      "Computational Neuroscience",
+      "Neural Dynamics",
+      "Neural Operators",
+      "Ensemble Surrogate Modeling",
+      "Interpretable Latent Embeddings"
+    ],
+    "tldr": "A neural operator framework that maps biologically interpretable embeddings of neuron models to realistic neuronal responses, thereby enabling the fast generation of ensembles of neuron models that capture experimental variability.",
+    "primary_area": "neuroscience_and_cognitive_science",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ghafourpour2025noble, title={{NOBLE} - Neural Operator with Biologically-informed Latent Embeddings to Capture Experimental Variability in Biological Neuron Models}, author={Luca Ghafourpour and Valentin Duruisseaux and Bahareh Tolooshams and Philip H. Wong and Costas A. Anastassiou and Anima Anandkumar}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=CmY6DzEG7Z} }",
+    "url": "https://openreview.net/forum?id=CmY6DzEG7Z",
+    "pdf_url": "https://openreview.net/pdf?id=CmY6DzEG7Z",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "NOBLE把可解释神经元特征的频率调制嵌入映射为注流诱导胞体电压分布，在生物真实模型合成数据训练并用真实神经实验响应验证泛化及试次变异。直接近似神经元生物物理动力学。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "NOBLE - Neural Operator with Biologically-informed Latent Embeddings to Capture Experimental Variability in Biological Neuron Models",
+        "authors": [
+          "Ghafourpour, Luca",
+          "Duruisseaux, Valentin",
+          "Tolooshams, Bahareh",
+          "Wong, Philip",
+          "Anastassiou, Costas",
+          "Anandkumar, Animashree"
+        ],
+        "doi": "10.52202/085713-3314",
+        "volume": "38",
+        "pages": "99198–99230",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ec3ae4d5ad40d1a53627fadde960d4c-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8ec3ae4d5ad40d1a53627fadde960d4c-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Characterizing the cellular properties of  neurons is fundamental to understanding their function in the brain. In this quest, the generation of bio-realistic models is central towards integrating multimodal cellular data sets and establishing causal relationships. However, current modeling approaches remain constrained by the limited availability and intrinsic variability of experimental neuronal data. The deterministic formalism of bio-realistic models currently precludes accounting for the natural variability observed experimentally. While deep learning is becoming increasingly relevant in this space, it fails to capture the full biophysical complexity of neurons, their nonlinear voltage dynamics, and variability. To address these shortcomings, we introduce $\\texttt{NOBLE}$, a neural operator framework that learns a mapping from a continuous frequency-modulated embedding of interpretable neuron features to the somatic voltage response induced by current injection. Trained on synthetic data generated from bio-realistic neuron models, $\\texttt{NOBLE}$ predicts distributions of neural dynamics accounting for the intrinsic experimental variability. Unlike conventional bio-realistic neuron models, interpolating within the embedding space offers models whose dynamics are consistent with experimentally observed responses. $\\texttt{NOBLE}$ enables the efficient generation of synthetic neurons that closely resemble experimental data and exhibit trial-to-trial variability, offering a $4200$× speedup over the numerical solver. $\\texttt{NOBLE}$ is the first scaled-up deep learning framework that validates its generalization with real experimental data. To this end, $\\texttt{NOBLE}$ captures fundamental neural properties in a unique and emergent manner that opens the door to a better understanding of cellular composition and computations, neuromorphic architectures, large-scale brain circuits, and general neuroAI applications.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8ec3ae4d5ad40d1a53627fadde960d4c-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NOBLE把可解释神经元特征的频率调制嵌入映射为注流诱导胞体电压分布，在生物真实模型合成数据训练并用真实神经实验响应验证泛化及试次变异。直接近似神经元生物物理动力学。"
+        },
+        {
+          "axis": "method",
+          "label": "神经算子",
+          "label_en": "Neural operator",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NOBLE把可解释神经元特征的频率调制嵌入映射为注流诱导胞体电压分布，在生物真实模型合成数据训练并用真实神经实验响应验证泛化及试次变异。直接近似神经元生物物理动力学。"
+        },
+        {
+          "axis": "task",
+          "label": "动力系统建模",
+          "label_en": "Dynamical system modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NOBLE把可解释神经元特征的频率调制嵌入映射为注流诱导胞体电压分布，在生物真实模型合成数据训练并用真实神经实验响应验证泛化及试次变异。直接近似神经元生物物理动力学。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CmKar1zptJ",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Post Hoc Regression Refinement via Pairwise Rankings",
+    "authors": [
+      "Kevin Tirta Wijaya",
+      "Michael Sun",
+      "Minghao Guo",
+      "Hans-peter Seidel",
+      "Wojciech Matusik",
+      "Vahid Babaei"
+    ],
+    "author_ids": [
+      "~Kevin_Tirta_Wijaya1",
+      "~Michael_Sun1",
+      "~Minghao_Guo1",
+      "~Hans-peter_Seidel1",
+      "~Wojciech_Matusik2",
+      "~Vahid_Babaei1"
+    ],
+    "abstract": "Accurate prediction of continuous properties is essential to many scientific and engineering tasks. Although deep-learning regressors excel with abundant labels, their accuracy deteriorates in data-scarce regimes. We introduce RankRefine, a model-agnostic, plug-and-play post-hoc refinement technique that injects expert knowledge through pairwise rankings. Given a query item and a small reference set with known properties, RankRefine combines the base regressor’s output with a rank-based estimate via inverse-variance weighting, requiring no retraining. In molecular property prediction task, RankRefine achieves up to 10\\% relative reduction in mean absolute error using only 20 pairwise comparisons obtained through a general-purpose large language model (LLM) with no finetuning. As rankings provided by human experts or general-purpose LLMs are sufficient for improving regression across diverse domains, RankRefine offers practicality and broad applicability, especially in low-data settings.",
+    "keywords": [
+      "prediction refinement",
+      "pairwise ranking",
+      "molecular property prediction"
+    ],
+    "tldr": null,
+    "primary_area": "general_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wijaya2025post, title={Post Hoc Regression Refinement via Pairwise Rankings}, author={Kevin Tirta Wijaya and Michael Sun and Minghao Guo and Hans-peter Seidel and Wojciech Matusik and Vahid Babaei}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=CmKar1zptJ} }",
+    "url": "https://openreview.net/forum?id=CmKar1zptJ",
+    "pdf_url": "https://openreview.net/pdf?id=CmKar1zptJ",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecular property",
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "RankRefine利用专家或通用LLM分子相对性质排序，与原回归器按逆方差结合，无需重训即可在低标签分子性质预测减少MAE。AI实际注入分子科学知识改进定量预测。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Post Hoc Regression Refinement via Pairwise Rankings",
+        "authors": [
+          "Wijaya, Kevin Tirta",
+          "Sun, Michael",
+          "Guo, Minghao",
+          "Seidel, Hans-peter",
+          "Matusik, Wojciech",
+          "Babaei, Vahid"
+        ],
+        "doi": "10.52202/085713-0018",
+        "volume": "38",
+        "pages": "520–544",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/00e49fcb98ab1bbf0cdf6cb1cdb84712-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/00e49fcb98ab1bbf0cdf6cb1cdb84712-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Accurate prediction of continuous properties is essential to many scientific and engineering tasks. Although deep-learning regressors excel with abundant labels, their accuracy deteriorates in data-scarce regimes. We introduce RankRefine, a model-agnostic, plug-and-play post-hoc refinement technique that injects expert knowledge through pairwise rankings. Given a query item and a small reference set with known properties, RankRefine combines the base regressor’s output with a rank-based estimate via inverse-variance weighting, requiring no retraining. In molecular property prediction task, RankRefine achieves up to 10\\% relative reduction in mean absolute error using only 20 pairwise comparisons obtained through a general-purpose large language model (LLM) with no finetuning. As rankings provided by human experts or general-purpose LLMs are sufficient for improving regression across diverse domains, RankRefine offers practicality and broad applicability, especially in low-data settings.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/00e49fcb98ab1bbf0cdf6cb1cdb84712-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RankRefine利用专家或通用LLM分子相对性质排序，与原回归器按逆方差结合，无需重训即可在低标签分子性质预测减少MAE。AI实际注入分子科学知识改进定量预测。"
+        },
+        {
+          "axis": "method",
+          "label": "语言模型",
+          "label_en": "Language model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RankRefine利用专家或通用LLM分子相对性质排序，与原回归器按逆方差结合，无需重训即可在低标签分子性质预测减少MAE。AI实际注入分子科学知识改进定量预测。"
+        },
+        {
+          "axis": "task",
+          "label": "分子性质预测",
+          "label_en": "Molecular property prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RankRefine利用专家或通用LLM分子相对性质排序，与原回归器按逆方差结合，无需重训即可在低标签分子性质预测减少MAE。AI实际注入分子科学知识改进定量预测。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CDEbgwJ6ET",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "AMBER: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction",
+    "authors": [
+      "Niklas Freymuth",
+      "Tobias Würth",
+      "Nicolas Schreiber",
+      "Balázs Gyenes",
+      "Andreas Boltres",
+      "Johannes Mitsch",
+      "Aleksandar Taranovic",
+      "Tai Hoang",
+      "Philipp Dahlinger",
+      "Philipp Becker",
+      "Luise Kärger",
+      "Gerhard Neumann"
+    ],
+    "author_ids": [
+      "~Niklas_Freymuth1",
+      "~Tobias_Würth1",
+      "~Nicolas_Schreiber1",
+      "~Balázs_Gyenes1",
+      "~Andreas_Boltres1",
+      "~Johannes_Mitsch1",
+      "~Aleksandar_Taranovic1",
+      "~Tai_Hoang1",
+      "~Philipp_Dahlinger1",
+      "~Philipp_Becker1",
+      "~Luise_Kärger1",
+      "~Gerhard_Neumann2"
+    ],
+    "abstract": "The cost and accuracy of simulating complex physical systems using the Finite Element Method (FEM) scales with the resolution of the underlying mesh. Adaptive meshes improve computational efficiency by refining resolution in critical regions, but typically require task-specific heuristics or cumbersome manual design by a human expert. We propose Adaptive Meshing By Expert Reconstruction (AMBER), a supervised learning approach to mesh adaptation. Starting from a coarse mesh, AMBER iteratively predicts the sizing field, i.e., a function mapping from the geometry to the local element size of the target mesh, and uses this prediction to produce a new intermediate mesh using an out-of-the-box mesh generator. This process is enabled through a hierarchical graph neural network, and relies on data augmentation by automatically projecting expert labels onto AMBER-generated data during training. We evaluate AMBER on 2D and 3D datasets, including classical physics problems, mechanical components, and real-world industrial designs with human expert meshes. AMBER generalizes to unseen geometries and consistently outperforms multiple recent baselines, including ones using Graph and Convolutional Neural Networks, and Reinforcement Learning-based approaches.",
+    "keywords": [
+      "Mesh Generation",
+      "Graph Neural Networks",
+      "Learned Simulation",
+      "AI4Science"
+    ],
+    "tldr": "We iteratively predict target resolutions on intermediate meshes to generate fine-grained adaptive meshes on novel geometries.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ freymuth2025amber, title={{AMBER}: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction}, author={Niklas Freymuth and Tobias W{\\\"u}rth and Nicolas Schreiber and Bal{\\'a}zs Gyenes and Andreas Boltres and Johannes Mitsch and Aleksandar Taranovic and Tai Hoang and Philipp Dahlinger and Philipp Becker and Luise K{\\\"a}rger and Gerhard Neumann}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=CDEbgwJ6ET} }",
+    "url": "https://openreview.net/forum?id=CDEbgwJ6ET",
+    "pdf_url": "https://openreview.net/pdf?id=CDEbgwJ6ET",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "ai4science"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "AMBER层次GNN迭代预测FEM局部单元尺寸场，依据专家网格训练并自动投影标签，实际在二维/三维物理、机械零件和工业设计生成自适应网格。AI直接支持物理工程模拟准备。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "AMBER: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction",
+        "authors": [
+          "Freymuth, Niklas",
+          "Würth, Tobias",
+          "Schreiber, Nicolas",
+          "Gyenes, Balázs",
+          "Boltres, Andreas",
+          "Mitsch, Johannes",
+          "Taranovic, Aleksandar",
+          "Hoang, Tai",
+          "Dahlinger, Philipp",
+          "Becker, Philipp",
+          "Kärger, Luise",
+          "Neumann, Gerhard"
+        ],
+        "doi": "10.52202/085713-0803",
+        "volume": "38",
+        "pages": "23797–23835",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/221b2665260a582f7eb821b9871e8001-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/221b2665260a582f7eb821b9871e8001-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The cost and accuracy of simulating complex physical systems using the Finite Element Method (FEM) scales with the resolution of the underlying mesh. Adaptive meshes improve computational efficiency by refining resolution in critical regions, but typically require task-specific heuristics or cumbersome manual design by a human expert. We propose Adaptive Meshing By Expert Reconstruction (AMBER), a supervised learning approach to mesh adaptation. Starting from a coarse mesh, AMBER iteratively predicts the sizing field, i.e., a function mapping from the geometry to the local element size of the target mesh, and uses this prediction to produce a new intermediate mesh using an out-of-the-box mesh generator. This process is enabled through a hierarchical graph neural network, and relies on data augmentation by automatically projecting expert labels onto AMBER-generated data during training. We evaluate AMBER on 2D and 3D datasets, including classical physics problems, mechanical components, and real-world industrial designs with human expert meshes. AMBER generalizes to unseen geometries and consistently outperforms multiple recent baselines, including ones using Graph and Convolutional Neural Networks, and Reinforcement Learning-based approaches.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/221b2665260a582f7eb821b9871e8001-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于工程科学",
+          "label_en": "AI for engineering sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "AMBER层次GNN迭代预测FEM局部单元尺寸场，依据专家网格训练并自动投影标签，实际在二维/三维物理、机械零件和工业设计生成自适应网格。AI直接支持物理工程模拟准备。"
+        },
+        {
+          "axis": "method",
+          "label": "图神经网络",
+          "label_en": "Graph neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "AMBER层次GNN迭代预测FEM局部单元尺寸场，依据专家网格训练并自动投影标签，实际在二维/三维物理、机械零件和工业设计生成自适应网格。AI直接支持物理工程模拟准备。"
+        },
+        {
+          "axis": "task",
+          "label": "科学模拟网格适配",
+          "label_en": "Scientific simulation mesh adaptation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "AMBER层次GNN迭代预测FEM局部单元尺寸场，依据专家网格训练并自动投影标签，实际在二维/三维物理、机械零件和工业设计生成自适应网格。AI直接支持物理工程模拟准备。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CCbXvvcdF9",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Reconstructing Heterogeneous Biomolecules via Hierarchical Gaussian Mixtures and Part Discovery",
+    "authors": [
+      "Shayan Shekarforoush",
+      "David B. Lindell",
+      "Marcus A Brubaker",
+      "David J. Fleet"
+    ],
+    "author_ids": [
+      "~Shayan_Shekarforoush1",
+      "~David_B._Lindell1",
+      "~Marcus_A_Brubaker1",
+      "~David_J._Fleet1"
+    ],
+    "abstract": "Cryo-EM is a transformational paradigm in molecular biology where computational methods are used to infer 3D molecular structure at atomic resolution from extremely noisy 2D electron microscope images. At the forefront of research is how to model the structure when the imaged particles exhibit non-rigid conformational flexibility and compositional variation where parts are sometimes missing. We introduce a novel 3D reconstruction framework with a hierarchical Gaussian mixture model, inspired in part by Gaussian Splatting for 4D scene reconstruction. In particular, the structure of the model is grounded in an initial process that infers a part-based segmentation of the particle, providing essential inductive bias in order to handle both conformational and compositional variability. The framework, called \\methodName, is shown to reveal biologically meaningful structures on complex experimental datasets, and establishes a new state-of-the-art on CryoBench, a benchmark for cryo-EM heterogeneity methods.",
+    "keywords": [
+      "Cryo-EM 3D Reconstruction",
+      "Gaussian Mixture Models",
+      "Part Discovery"
+    ],
+    "tldr": "We present a part-aware hierarchical GMM-based density model to tackle cryo-EM heterogeneous reconstruction.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ shekarforoush2025reconstructing, title={Reconstructing Heterogeneous Biomolecules via Hierarchical Gaussian Mixtures and Part Discovery}, author={Shayan Shekarforoush and David B. Lindell and Marcus A Brubaker and David J. Fleet}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=CCbXvvcdF9} }",
+    "url": "https://openreview.net/forum?id=CCbXvvcdF9",
+    "pdf_url": "https://openreview.net/pdf?id=CCbXvvcdF9",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "cryo-em"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "分层高斯混合和部件发现框架从高噪声二维cryo-EM影像重建三维生物分子，分离非刚性构象及组分缺失，在复杂真实实验数据和CryoBench揭示有生物意义结构。AI直接学习分子异质性。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Reconstructing Heterogeneous Biomolecules via Hierarchical Gaussian Mixtures and Part Discovery",
+        "authors": [
+          "Shekarforoush, Shayan",
+          "Lindell, David",
+          "Brubaker, Marcus",
+          "Fleet, David"
+        ],
+        "doi": "10.52202/085713-2538",
+        "volume": "38",
+        "pages": "75568–75587",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6d48a60086e5bfb5e3099f098bd4bf8e-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/6d48a60086e5bfb5e3099f098bd4bf8e-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Cryo-EM is a transformational paradigm in molecular biology where computational methods are used to infer 3D molecular structure at atomic resolution from extremely noisy 2D electron microscope images. At the forefront of research is how to model the structure when the imaged particles exhibit non-rigid conformational flexibility and compositional variation where parts are sometimes missing. We introduce a novel 3D reconstruction framework with a hierarchical Gaussian mixture model, inspired in part by Gaussian Splatting for 4D scene reconstruction.  In particular, the structure of the model is grounded in an initial process that infers a part-based segmentation of the particle, providing essential inductive bias in order to handle both conformational and compositional variability.  The framework, called \\methodName, is shown to reveal biologically meaningful structures on complex experimental datasets, and establishes a new state-of-the-art on CryoBench, a benchmark for cryo-EM heterogeneity methods.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6d48a60086e5bfb5e3099f098bd4bf8e-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "分层高斯混合和部件发现框架从高噪声二维cryo-EM影像重建三维生物分子，分离非刚性构象及组分缺失，在复杂真实实验数据和CryoBench揭示有生物意义结构。AI直接学习分子异质性。"
+        },
+        {
+          "axis": "method",
+          "label": "生成建模",
+          "label_en": "Generative modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "分层高斯混合和部件发现框架从高噪声二维cryo-EM影像重建三维生物分子，分离非刚性构象及组分缺失，在复杂真实实验数据和CryoBench揭示有生物意义结构。AI直接学习分子异质性。"
+        },
+        {
+          "axis": "task",
+          "label": "生物分子复合物结构预测",
+          "label_en": "Biomolecular complex structure prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "分层高斯混合和部件发现框架从高噪声二维cryo-EM影像重建三维生物分子，分离非刚性构象及组分缺失，在复杂真实实验数据和CryoBench揭示有生物意义结构。AI直接学习分子异质性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C7BIQRM57T",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Momentum Multi-Marginal Schrödinger Bridge Matching",
+    "authors": [
+      "Panagiotis Theodoropoulos",
+      "Augustinos D Saravanos",
+      "Evangelos Theodorou",
+      "Guan-Horng Liu"
+    ],
+    "author_ids": [
+      "~Panagiotis_Theodoropoulos1",
+      "~Augustinos_D_Saravanos1",
+      "~Evangelos_Theodorou1",
+      "~Guan-Horng_Liu1"
+    ],
+    "abstract": "Understanding complex systems by inferring trajectories from sparse sample snapshots is a fundamental challenge in a wide range of domains, e.g., single-cell biology, meteorology, and economics. Despite advancements in Bridge and Flow matching frameworks, current methodologies rely on pairwise interpolation between adjacent snapshots. This hinders their ability to capture long-range temporal dependencies and potentially affects the coherence of the inferred trajectories. To address these issues, we introduce Momentum Multi-Marginal Schrödinger Bridge Matching (3MSBM), a novel matching framework that learns smooth measure-valued splines for stochastic systems that satisfy multiple positional constraints. This is achieved by lifting the dynamics to phase space and generalizing stochastic bridges to be conditioned on several points, forming a multi-marginal conditional stochastic optimal control problem. The underlying dynamics are then learned by minimizing a variational objective, having fixed the path induced by the multi-marginal conditional bridge. As a matching approach, 3MSBM learns transport maps that preserve intermediate marginals throughout training, significantly improving convergence and scalability. Extensive experimentation in a series of real-world applications validates the superior performance of 3MSBM compared to existing methods in capturing complex dynamics with temporal dependencies, opening new avenues for training matching frameworks in multi-marginal settings.",
+    "keywords": [
+      "Diffusion models",
+      "Schrödinger bridge",
+      "Distribution matching",
+      "Trajectory Inference"
+    ],
+    "tldr": "We introduce Momentum Multi-Marginal Schrödinger Bridge Matching (3MSBM), a novel matching framework that learns smooth trajectories for stochastic systems that satisfy multiple positional constraints.",
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ theodoropoulos2025momentum, title={Momentum Multi-Marginal Schr\\\"odinger Bridge Matching}, author={Panagiotis Theodoropoulos and Augustinos D Saravanos and Evangelos Theodorou and Guan-Horng Liu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=C7BIQRM57T} }",
+    "url": "https://openreview.net/forum?id=C7BIQRM57T",
+    "pdf_url": "https://openreview.net/pdf?id=C7BIQRM57T",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "single-cell"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§4（PDF pp7–9）核实3MSBM在胚样体27天五阶段单细胞分化、墨西哥湾海流及北京PM2.5等实际数据推断缺失时点与轨迹，学习多边际动量Schrödinger桥。具体生物/环境动态作用已确认。",
+      "evidence_location": "正式全文§4.1–4.4, PDF pp7–9, Tables2–5",
+      "verified_metadata": {
+        "title": "Momentum Multi-Marginal Schrödinger Bridge Matching",
+        "authors": [
+          "Theodoropoulos, Panagiotis",
+          "Saravanos, Augustinos",
+          "Theodorou, Evangelos",
+          "Liu, Guan-Horng"
+        ],
+        "doi": "10.52202/085713-2877",
+        "volume": "38",
+        "pages": "85885–85922",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c3875b86bd2b0639ab1e858c678af40-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/7c3875b86bd2b0639ab1e858c678af40-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Understanding complex systems by inferring trajectories from sparse sample snapshots is a fundamental challenge in a wide range of domains, e.g., single-cell biology, meteorology, and economics. Despite advancements in Bridge and Flow matching frameworks, current methodologies rely on pairwise interpolation between adjacent snapshots. This hinders their ability to capture long-range temporal dependencies and potentially affects the coherence of the inferred trajectories. To address these issues, we introduce Momentum Multi-Marginal Schrödinger Bridge Matching (3MSBM), a novel matching framework that learns smooth measure-valued splines for stochastic systems that satisfy multiple positional constraints. This is achieved by lifting the dynamics to phase space and generalizing stochastic bridges to be conditioned on several points, forming a multi-marginal conditional stochastic optimal control problem. The underlying dynamics are then learned by minimizing a variational objective, having fixed the path induced by the multi-marginal conditional bridge. As a matching approach, 3MSBM learns transport maps that preserve intermediate marginals throughout training, significantly improving convergence and scalability. Extensive experimentation in a series of real-world applications validates the superior performance of 3MSBM compared to existing methods in capturing complex dynamics with temporal dependencies, opening new avenues for training matching frameworks in multi-marginal settings.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c3875b86bd2b0639ab1e858c678af40-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/7c3875b86bd2b0639ab1e858c678af40-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§4.1–4.4, PDF pp7–9, Tables2–5",
+        "pdf_sha256": "658a16341331a4f72014efa6d9055193b605bacaa9195651653ac814263f7e6c"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正式全文§4.1–4.4, PDF pp7–9, Tables2–5",
+          "rationale": "必要全文§4（PDF pp7–9）核实3MSBM在胚样体27天五阶段单细胞分化、墨西哥湾海流及北京PM2.5等实际数据推断缺失时点与轨迹，学习多边际动量Schrödinger桥。具体生物/环境动态作用已确认。"
+        },
+        {
+          "axis": "method",
+          "label": "流匹配",
+          "label_en": "Flow matching",
+          "evidence_location": "正式全文§4.1–4.4, PDF pp7–9, Tables2–5",
+          "rationale": "必要全文§4（PDF pp7–9）核实3MSBM在胚样体27天五阶段单细胞分化、墨西哥湾海流及北京PM2.5等实际数据推断缺失时点与轨迹，学习多边际动量Schrödinger桥。具体生物/环境动态作用已确认。"
+        },
+        {
+          "axis": "task",
+          "label": "细胞轨迹推断",
+          "label_en": "Cell trajectory inference",
+          "evidence_location": "正式全文§4.1–4.4, PDF pp7–9, Tables2–5",
+          "rationale": "必要全文§4（PDF pp7–9）核实3MSBM在胚样体27天五阶段单细胞分化、墨西哥湾海流及北京PM2.5等实际数据推断缺失时点与轨迹，学习多边际动量Schrödinger桥。具体生物/环境动态作用已确认。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BpwIPxSSdb",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Evaluating multiple models using labeled and unlabeled data",
+    "authors": [
+      "Divya M Shanmugam",
+      "Shuvom Sadhuka",
+      "Manish Raghavan",
+      "John Guttag",
+      "Bonnie Berger",
+      "Emma Pierson"
+    ],
+    "author_ids": [
+      "~Divya_M_Shanmugam1",
+      "~Shuvom_Sadhuka1",
+      "~Manish_Raghavan1",
+      "~John_Guttag2",
+      "~Bonnie_Berger1",
+      "~Emma_Pierson1"
+    ],
+    "abstract": "It is difficult to evaluate machine learning classifiers without large labeled datasets, which are often unavailable. In contrast, unlabeled data is plentiful, but not easily used for evaluation. Here, we introduce Semi-Supervised Model Evaluation (SSME), a method that uses both labeled and unlabeled data to evaluate machine learning classifiers. The key idea is to estimate the joint distribution of ground truth labels and classifier scores using a semi-supervised mixture model. The semi-supervised mixture model allows SSME to learn from three sources of information: unlabeled data, multiple classifiers, and probabilistic classifier scores. Once fit, the mixture model enables estimation of any metric that is a function of classifier scores and ground truth labels (e.g., accuracy or AUC). We derive theoretical bounds on the error of these estimates, showing that estimation error decreases with the number of classifiers and the amount of unlabeled data. We present experiments in four domains where obtaining large labeled datasets is often impractical: healthcare, content moderation, molecular property prediction, and text classification. Our results demonstrate that SSME estimates performance more accurately than do competing methods, reducing error by 5.1x relative to using labeled data alone and 2.4x relative to the next best method.",
+    "keywords": [
+      "evaluation",
+      "mixture models",
+      "semi-supervised learning"
+    ],
+    "tldr": "We propose a new evaluation method that makes use of three sources of information (unlabeled data, multiple classifiers, and probabilistic classifier scores) to produce more accurate performance estimates than prior work.",
+    "primary_area": "evaluation",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ shanmugam2025evaluating, title={Evaluating multiple models using labeled and unlabeled data}, author={Divya M Shanmugam and Shuvom Sadhuka and Manish Raghavan and John Guttag and Bonnie Berger and Emma Pierson}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=BpwIPxSSdb} }",
+    "url": "https://openreview.net/forum?id=BpwIPxSSdb",
+    "pdf_url": "https://openreview.net/pdf?id=BpwIPxSSdb",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecular property",
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "SSME用半监督混合估计分类器分数与标签联合分布，以少量标签评估AUC/准确率，医疗、分子、内容审核和文本仅作为通用评估方法的实证域。摘要未给出对独立科学任务的具体建模或发现贡献，按通用模型评估研究排除。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Evaluating multiple models using labeled and unlabeled data",
+        "authors": [
+          "Shanmugam, Divya",
+          "Sadhuka, Shuvom",
+          "Raghavan, Manish",
+          "Guttag, John",
+          "Berger, Bonnie",
+          "Pierson, Emma"
+        ],
+        "doi": "10.52202/085713-1029",
+        "volume": "38",
+        "pages": "30612–30648",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2c0e78cc177dfeca260ef990a8c99209-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2c0e78cc177dfeca260ef990a8c99209-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "It is difficult to evaluate machine learning classifiers without large labeled datasets, which are often unavailable. In contrast, unlabeled data is plentiful, but not easily used for evaluation.  Here, we introduce Semi-Supervised Model Evaluation (SSME), a method that uses both labeled and unlabeled data to evaluate machine learning classifiers. The key idea is to estimate the joint distribution of ground truth labels and classifier scores using a semi-supervised mixture model. The semi-supervised mixture model allows SSME to learn from three sources of information: unlabeled data, multiple classifiers, and probabilistic classifier scores. Once fit, the mixture model enables estimation of any metric that is a function of classifier scores and ground truth labels (e.g., accuracy or AUC). We derive theoretical bounds on the error of these estimates, showing that estimation error decreases with the number of classifiers and the amount of unlabeled data. We present experiments in four domains where obtaining large labeled datasets is often impractical: healthcare, content moderation, molecular property prediction, and text classification. Our results demonstrate that SSME estimates performance more accurately than do competing methods, reducing error by 5.1x relative to using labeled data alone and 2.4x relative to the next best method.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2c0e78cc177dfeca260ef990a8c99209-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": []
+    }
+  },
+  {
+    "id": "BpSGN4pErp",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "NUTS: Eddy-Robust Reconstruction of Surface Ocean Nutrients via Two-Scale Modeling",
+    "authors": [
+      "Hao Zheng",
+      "Shiyu Liang",
+      "Yuting Zheng",
+      "Chaofan Sun",
+      "LEI BAI",
+      "Enhui Liao"
+    ],
+    "author_ids": [
+      "~Hao_Zheng9",
+      "~Shiyu_Liang1",
+      "~Yuting_Zheng2",
+      "~Chaofan_Sun1",
+      "~LEI_BAI1",
+      "~Enhui_Liao1"
+    ],
+    "abstract": "Reconstructing ocean surface nutrients from sparse observations is critical for understanding long-term biogeochemical cycles. Most prior work focuses on reconstructing atmospheric fields and treats the reconstruction problem as image inpainting, assuming smooth, single-scale dynamics. In contrast, nutrient transport follows advection–diffusion dynamics under nonstationary, multiscale ocean flow. This mismatch leads to instability, as small errors in unresolved eddies can propagate through time and distort nutrient predictions. To address this, we introduce NUTS, a two-scale reconstruction model that decouples large-scale transport and mesoscale variability. The homogenized solver captures stable, coarse-scale advection under filtered flow. A refinement module then restores mesoscale detail conditioned on the residual eddy field. NUTS is stable, interpretable, and robust to mesoscale perturbations, with theoretical guarantees from homogenization theory. NUTS outperforms all data-driven baselines in global reconstruction and achieves site-wise accuracy comparable to numerical models. On real observations, NUTS reduces NRMSE by 79.9% for phosphate and 19.3% for nitrate over the best baseline. Ablation studies validate the effectiveness of each module.",
+    "keywords": [
+      "Oceanic Nutrients Reconstruction",
+      "Advection-Diffusion"
+    ],
+    "tldr": null,
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zheng2025nuts, title={{NUTS}: Eddy-Robust Reconstruction of Surface Ocean Nutrients via Two-Scale Modeling}, author={Hao Zheng and Shiyu Liang and Yuting Zheng and Chaofan Sun and LEI BAI and Enhui Liao}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=BpSGN4pErp} }",
+    "url": "https://openreview.net/forum?id=BpSGN4pErp",
+    "pdf_url": "https://openreview.net/pdf?id=BpSGN4pErp",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "atmospheric"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§3.2（PDF pp4–5）确认NUTS不仅数值求解：时空Transformer估计初始场，超网络预测有效扩散张量，视觉Transformer恢复涡尺度结构，ResNet学习源汇并以守恒损失联合训练。实际从稀疏观测重建磷酸盐/硝酸盐海表营养场。",
+      "evidence_location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+      "verified_metadata": {
+        "title": "NUTS: Eddy-Robust Reconstruction of Surface Ocean Nutrients via Two-Scale Modeling",
+        "authors": [
+          "Zheng, Hao",
+          "Liang, Shiyu",
+          "Zheng, Yuting",
+          "Sun, Chaofan",
+          "BAI, LEI",
+          "Liao, Enhui"
+        ],
+        "doi": "10.52202/085713-1416",
+        "volume": "38",
+        "pages": "42530–42550",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3cb18c3c31ff1b77b97f4512abd5e4a6-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3cb18c3c31ff1b77b97f4512abd5e4a6-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Reconstructing ocean surface nutrients from sparse observations is critical for understanding long-term biogeochemical cycles.  Most prior work focuses on reconstructing atmospheric fields and treats the reconstruction problem as image inpainting, assuming smooth, single-scale dynamics. In contrast, nutrient transport follows advection–diffusion dynamics under nonstationary, multiscale ocean flow. This mismatch leads to instability, as small errors in unresolved eddies can propagate through time and distort nutrient predictions. To address this, we introduce NUTS, a two-scale reconstruction model that decouples large-scale transport and mesoscale variability. The homogenized solver captures stable, coarse-scale advection under filtered flow. A refinement module then restores mesoscale detail conditioned on the residual eddy field. NUTS is stable, interpretable, and robust to mesoscale perturbations, with theoretical guarantees from homogenization theory. NUTS outperforms all data-driven baselines in global reconstruction and achieves site-wise accuracy comparable to  numerical models. On real observations, NUTS reduces NRMSE by 79.9% for phosphate and 19.3% for nitrate over the best baseline. Ablation studies validate the effectiveness of each module.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3cb18c3c31ff1b77b97f4512abd5e4a6-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/3cb18c3c31ff1b77b97f4512abd5e4a6-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+        "pdf_sha256": "03ff4bb2fe8159eaef922caf0d64c8df2c2c8af249a96470576f37953385d881"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+          "rationale": "必要全文§3.2（PDF pp4–5）确认NUTS不仅数值求解：时空Transformer估计初始场，超网络预测有效扩散张量，视觉Transformer恢复涡尺度结构，ResNet学习源汇并以守恒损失联合训练。实际从稀疏观测重建磷酸盐/硝酸盐海表营养场。"
+        },
+        {
+          "axis": "method",
+          "label": "物理信息学习",
+          "label_en": "Physics-informed learning",
+          "evidence_location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+          "rationale": "必要全文§3.2（PDF pp4–5）确认NUTS不仅数值求解：时空Transformer估计初始场，超网络预测有效扩散张量，视觉Transformer恢复涡尺度结构，ResNet学习源汇并以守恒损失联合训练。实际从稀疏观测重建磷酸盐/硝酸盐海表营养场。"
+        },
+        {
+          "axis": "method",
+          "label": "Transformer 架构",
+          "label_en": "Transformer",
+          "evidence_location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+          "rationale": "必要全文§3.2（PDF pp4–5）确认NUTS不仅数值求解：时空Transformer估计初始场，超网络预测有效扩散张量，视觉Transformer恢复涡尺度结构，ResNet学习源汇并以守恒损失联合训练。实际从稀疏观测重建磷酸盐/硝酸盐海表营养场。"
+        },
+        {
+          "axis": "task",
+          "label": "动力系统状态估计",
+          "label_en": "Dynamical state estimation",
+          "evidence_location": "正式全文§3.1–3.2, PDF pp3–5, Figure2",
+          "rationale": "必要全文§3.2（PDF pp4–5）确认NUTS不仅数值求解：时空Transformer估计初始场，超网络预测有效扩散张量，视觉Transformer恢复涡尺度结构，ResNet学习源汇并以守恒损失联合训练。实际从稀疏观测重建磷酸盐/硝酸盐海表营养场。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BlLAmMFEzJ",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "NeuralPLexer3: Accurate Biomolecular Complex Structure Prediction with Flow Models",
+    "authors": [
+      "Zhuoran Qiao",
+      "Feizhi Ding",
+      "Thomas Dresselhaus",
+      "Mia A. Rosenfeld",
+      "Xiaotian Han",
+      "Owen Lewis Howell",
+      "Aniketh Iyengar",
+      "Stephen Opalenski",
+      "Anders S Christensen",
+      "Sai Krishna Sirumalla",
+      "Fred Manby",
+      "Thomas Miller",
+      "Matthew Welborn"
+    ],
+    "author_ids": [
+      "~Zhuoran_Qiao1",
+      "~Feizhi_Ding1",
+      "~Thomas_Dresselhaus1",
+      "~Mia_A._Rosenfeld1",
+      "~Xiaotian_Han1",
+      "~Owen_Lewis_Howell1",
+      "~Aniketh_Iyengar1",
+      "~Stephen_Opalenski1",
+      "~Anders_S_Christensen1",
+      "~Sai_Krishna_Sirumalla1",
+      "~Fred_Manby1",
+      "~Thomas_Miller2",
+      "~Matthew_Welborn1"
+    ],
+    "abstract": "Biomolecular structure determination is essential to a mechanistic understanding of diseases and the development of novel therapeutics. Machine-learning-based structure prediction methods have made significant advancements by computationally predicting protein and bioassembly structures from sequences and molecular topology alone. Despite substantial progress in the field, challenges remain to deliver structure prediction models to real-world drug discovery. Here, we present NeuralPLexer3 -- a physics-inspired flow-based generative model that achieves state-of-the-art prediction accuracy on key biomolecular interaction types and improves training and sampling efficiency compared to its predecessors and alternative methodologies. Examined through existing and new benchmarks, NeuralPLexer3 excels in areas crucial to structure-based drug design, including blind docking, physical validity, and ligand-induced protein conformational changes.",
+    "keywords": [
+      "Co-folding",
+      "flow matching",
+      "biomolecules",
+      "computational drug discovery"
+    ],
+    "tldr": "We introduce NeuralPLexer 3, a physics‑guided flow‑based generative model that delivers state‑of‑the‑art, seconds‑fast predictions of diverse biomolecular complex structures.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ qiao2025neuralplexer, title={Neural{PL}exer3: Accurate Biomolecular Complex Structure Prediction with Flow Models}, author={Zhuoran Qiao and Feizhi Ding and Thomas Dresselhaus and Mia A. Rosenfeld and Xiaotian Han and Owen Lewis Howell and Aniketh Iyengar and Stephen Opalenski and Anders S Christensen and Sai Krishna Sirumalla and Fred Manby and Thomas Miller and Matthew Welborn}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=BlLAmMFEzJ} }",
+    "url": "https://openreview.net/forum?id=BlLAmMFEzJ",
+    "pdf_url": "https://openreview.net/pdf?id=BlLAmMFEzJ",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecular\\b",
+      "drug discovery",
+      "drug design",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "NeuralPLexer3用物理启发流生成模型预测蛋白与生物复合物相互作用结构，实际验证盲对接、物理有效性和配体诱导构象改变。AI直接支撑结构导向药物发现。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "NeuralPLexer3: Accurate Biomolecular Complex Structure Prediction with Flow Models",
+        "authors": [
+          "Qiao, Jarren Zhuoran",
+          "Ding, Feizhi",
+          "Dresselhaus, Thomas",
+          "Rosenfeld, Mia",
+          "Han, Xiaotian",
+          "Howell, Owen",
+          "Iyengar, Aniketh",
+          "Opalenski, Stephen",
+          "Christensen, Anders",
+          "Sirumalla, Sai Krishna",
+          "Manby, Fred",
+          "Miller, Thomas",
+          "Welborn, Matthew"
+        ],
+        "doi": "10.52202/085713-0001",
+        "volume": "38",
+        "pages": "1–38",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0010031a1b4910aa67edbda26a705518-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0010031a1b4910aa67edbda26a705518-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Biomolecular structure determination is essential to a mechanistic understanding of diseases and the development of novel therapeutics. Machine-learning-based structure prediction methods have made significant advancements by computationally predicting protein and bioassembly structures from sequences and molecular topology alone. Despite substantial progress in the field, challenges remain to deliver structure prediction models to real-world drug discovery. Here, we present NeuralPLexer3 -- a physics-inspired flow-based generative model that achieves state-of-the-art prediction accuracy on key biomolecular interaction types and improves training and sampling efficiency compared to its predecessors and alternative methodologies. Examined through existing and new benchmarks, NeuralPLexer3 excels in areas crucial to structure-based drug design, including blind docking, physical validity, and ligand-induced protein conformational changes.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0010031a1b4910aa67edbda26a705518-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuralPLexer3用物理启发流生成模型预测蛋白与生物复合物相互作用结构，实际验证盲对接、物理有效性和配体诱导构象改变。AI直接支撑结构导向药物发现。"
+        },
+        {
+          "axis": "method",
+          "label": "流匹配",
+          "label_en": "Flow matching",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuralPLexer3用物理启发流生成模型预测蛋白与生物复合物相互作用结构，实际验证盲对接、物理有效性和配体诱导构象改变。AI直接支撑结构导向药物发现。"
+        },
+        {
+          "axis": "task",
+          "label": "生物分子复合物结构预测",
+          "label_en": "Biomolecular complex structure prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuralPLexer3用物理启发流生成模型预测蛋白与生物复合物相互作用结构，实际验证盲对接、物理有效性和配体诱导构象改变。AI直接支撑结构导向药物发现。"
+        },
+        {
+          "axis": "task",
+          "label": "分子对接",
+          "label_en": "Molecular docking",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuralPLexer3用物理启发流生成模型预测蛋白与生物复合物相互作用结构，实际验证盲对接、物理有效性和配体诱导构象改变。AI直接支撑结构导向药物发现。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BL5r7hu9GD",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation",
+    "authors": [
+      "Chao Song",
+      "Zhiyuan Liu",
+      "Han Huang",
+      "Liang Wang",
+      "Qiong Wang",
+      "Jian-Yu Shi",
+      "Hui Yu",
+      "Yihang Zhou",
+      "Yang Zhang"
+    ],
+    "author_ids": [
+      "~Chao_Song4",
+      "~Zhiyuan_Liu5",
+      "~Han_Huang5",
+      "~Liang_Wang16",
+      "~Qiong_Wang7",
+      "~Jian-Yu_Shi1",
+      "~Hui_Yu7",
+      "~Yihang_Zhou4",
+      "~Yang_Zhang76"
+    ],
+    "abstract": "Designing enzyme backbones with substrate-specific functionality is a critical challenge in computational protein engineering. Current generative models excel in protein design but face limitations in binding data, substrate-specific control, and flexibility for de novo enzyme backbone generation. To address this, we introduce **EnzyBind**, a dataset with 11,100 experimentally validated enzyme-substrate pairs specifically curated from PDBbind. Building on this, we propose **EnzyControl**, a method that enables functional and substrate-specific control in enzyme backbone generation. Our approach generates enzyme backbones conditioned on MSA-annotated catalytic sites and their corresponding substrates, which are automatically extracted from curated enzyme-substrate data. At the core of EnzyControl is **EnzyAdapter**, a lightweight, modular component integrated into a pretrained motif-scaffolding model, allowing it to become substrate-aware. A two-stage training paradigm further refines the model's ability to generate accurate and functional enzyme structures. Experiments show that our EnzyControl achieves the best performance across structural and functional metrics on EnzyBind and EnzyBench benchmarks, with particularly notable improvements of 13% in designability and 13% in catalytic efficiency compared to the baseline models. The code is released at https://github.com/Vecteur-libre/EnzyControl.",
+    "keywords": [
+      "enzyme backbone generation",
+      "functional guidance",
+      "substrate specificity",
+      "adapter"
+    ],
+    "tldr": "We propose EnzyControl, a method that integrates a lightweight, modular component into a pretrained motif-scaffolding model to enable functional and substrate-specific control over enzyme backbone generation.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ song2025enzycontrol, title={EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation}, author={Chao Song and Zhiyuan Liu and Han Huang and Liang Wang and Qiong Wang and Jian-Yu Shi and Hui Yu and Yihang Zhou and Yang Zhang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=BL5r7hu9GD} }",
+    "url": "https://openreview.net/forum?id=BL5r7hu9GD",
+    "pdf_url": "https://openreview.net/pdf?id=BL5r7hu9GD",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "EnzyControl以酶底物配对及MSA催化位点为条件，用EnzyAdapter将预训练motif-scaffolding模型扩展为底物感知，在EnzyBind/EnzyBench评价结构与功能指标。AI实际进行功能/底物特异酶骨架设计，配对数据源为已验证结构数据。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation",
+        "authors": [
+          "Song, Chao",
+          "LIU, ZHIYUAN",
+          "Huang, Han",
+          "Wang, Liang",
+          "Wang, Qiong",
+          "Shi, Jian-Yu",
+          "Yu, Hui",
+          "Zhou, Yihang",
+          "Zhang, Yang"
+        ],
+        "doi": "10.52202/085713-5123",
+        "volume": "38",
+        "pages": "153176–153206",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e11afe29671baa67c9f15fa77fc97357-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e11afe29671baa67c9f15fa77fc97357-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Designing enzyme backbones with substrate-specific functionality is a critical challenge in computational protein engineering. Current generative models excel in protein design but face limitations in binding data, substrate-specific control, and flexibility for de novo enzyme backbone generation. To address this, we introduce EnzyBind, a dataset with 11,100 experimentally validated enzyme-substrate pairs specifically curated from PDBbind. Building on this, we propose EnzyControl, a method that enables functional and substrate-specific control in enzyme backbone generation. Our approach generates enzyme backbones conditioned on MSA-annotated catalytic sites and their corresponding substrates, which are automatically extracted from curated enzyme-substrate data. At the core of EnzyControl is EnzyAdapter, a lightweight, modular component integrated into a pretrained motif-scaffolding model, allowing it to become substrate-aware. A two-stage training paradigm further refines the model's ability to generate accurate and functional enzyme structures. Experiments show that our EnzyControl achieves the best performance across structural and functional metrics on EnzyBind and EnzyBench benchmarks, with particularly notable improvements of 13% in designability and 13% in catalytic efficiency compared to the baseline models. The code is released at https://github.com/Vecteur-libre/EnzyControl.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e11afe29671baa67c9f15fa77fc97357-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "EnzyControl以酶底物配对及MSA催化位点为条件，用EnzyAdapter将预训练motif-scaffolding模型扩展为底物感知，在EnzyBind/EnzyBench评价结构与功能指标。AI实际进行功能/底物特异酶骨架设计，配对数据源为已验证结构数据。"
+        },
+        {
+          "axis": "method",
+          "label": "生成建模",
+          "label_en": "Generative modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "EnzyControl以酶底物配对及MSA催化位点为条件，用EnzyAdapter将预训练motif-scaffolding模型扩展为底物感知，在EnzyBind/EnzyBench评价结构与功能指标。AI实际进行功能/底物特异酶骨架设计，配对数据源为已验证结构数据。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质骨架生成",
+          "label_en": "Protein backbone generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "EnzyControl以酶底物配对及MSA催化位点为条件，用EnzyAdapter将预训练motif-scaffolding模型扩展为底物感知，在EnzyBind/EnzyBench评价结构与功能指标。AI实际进行功能/底物特异酶骨架设计，配对数据源为已验证结构数据。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "B7Bc9xzl2o",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Latent Retrieval Augmented Generation of Cross-Domain Protein Binders",
+    "authors": [
+      "Zishen Zhang",
+      "Xiangzhe Kong",
+      "Wenbing Huang",
+      "Yang Liu"
+    ],
+    "author_ids": [
+      "~Zishen_Zhang1",
+      "~Xiangzhe_Kong1",
+      "~Wenbing_Huang1",
+      "~Yang_Liu19"
+    ],
+    "abstract": "Designing protein binders targeting specific sites, which requires to generate realistic and functional interaction patterns, is a fundamental challenge in drug discovery. Current structure-based generative models are limited in generating nterfaces with sufficient rationality and interpretability. In this paper, we propose **R**etrieval-**A**ugmented **Di**ffusion for **A**lig**n**ed interfa**ce** (**RADiAnce**), a new framework that leverages known interfaces to guide the design of novel binders. By unifying retrieval and generation in a shared contrastive latent space, our model efficiently identifies relevant interfaces for a given binding site and seamlessly integrates them through a conditional latent diffusion generator, enabling cross-domain interface transfer. Extensive exeriments show that **RADiAnce** significantly outperforms baseline models across multiple metrics, including binding affinity and recovery of geometries and interactions. Additional experimental results validate cross-domain generalization, demonstrating that retrieving interfaces from diverse domains, such as peptides, antibodies, and protein fragments, enhances the generation performance of binders for other domains. Our work establishes a new paradigm for protein binder design that successfully bridges retrieval-based knowledge and generative AI, opening new possibilities for drug discovery.",
+    "keywords": [
+      "Drug Discovery",
+      "Geometric Latent Diffusion",
+      "Retrieval Augmented Generation",
+      "Antibody Design",
+      "Peptide Design"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhang2025latent, title={Latent Retrieval Augmented Generation of Cross-Domain Protein Binders}, author={Zishen Zhang and Xiangzhe Kong and Wenbing Huang and Yang Liu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=B7Bc9xzl2o} }",
+    "url": "https://openreview.net/forum?id=B7Bc9xzl2o",
+    "pdf_url": "https://openreview.net/pdf?id=B7Bc9xzl2o",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "drug discovery",
+      "binding affinity",
+      "antibody",
+      "\\bproteins?\\b",
+      "\\bpeptide\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "RADiAnce在共享对比潜空间检索已知结合界面并用条件潜扩散生成新蛋白结合体，实际比较亲和力、几何/作用恢复及跨肽/抗体/蛋白片段域泛化。AI直接设计靶向蛋白结合界面。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Latent Retrieval Augmented Generation of Cross-Domain Protein Binders",
+        "authors": [
+          "Zhang, Zishen",
+          "Kong, Xiangzhe",
+          "Huang, Wenbing",
+          "Liu, Yang"
+        ],
+        "doi": "10.52202/085713-2514",
+        "volume": "38",
+        "pages": "74868–74896",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6c8275280c7232ed134203890f49c077-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/6c8275280c7232ed134203890f49c077-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Designing protein binders targeting specific sites, which requires to generate realistic and functional interaction patterns, is a fundamental challenge in drug discovery. Current structure-based generative models are limited in generating nterfaces with sufficient rationality and interpretability. In this paper, we propose Retrieval-Augmented Diffusion for Aligned interface (RADiAnce), a new framework that leverages known interfaces to guide the design of novel binders. By unifying retrieval and generation in a shared contrastive latent space, our model efficiently identifies relevant interfaces for a given binding site and seamlessly integrates them through a conditional latent diffusion generator, enabling cross-domain interface transfer. Extensive exeriments show that RADiAnce significantly outperforms baseline models across multiple metrics, including binding affinity and recovery of geometries and interactions. Additional experimental results validate cross-domain generalization, demonstrating that retrieving interfaces from diverse domains, such as peptides, antibodies, and protein fragments, enhances the generation performance of binders for other domains. Our work establishes a new paradigm for protein binder design that successfully bridges retrieval-based knowledge and generative AI, opening new possibilities for drug discovery.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6c8275280c7232ed134203890f49c077-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RADiAnce在共享对比潜空间检索已知结合界面并用条件潜扩散生成新蛋白结合体，实际比较亲和力、几何/作用恢复及跨肽/抗体/蛋白片段域泛化。AI直接设计靶向蛋白结合界面。"
+        },
+        {
+          "axis": "method",
+          "label": "检索增强生成",
+          "label_en": "Retrieval-augmented generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RADiAnce在共享对比潜空间检索已知结合界面并用条件潜扩散生成新蛋白结合体，实际比较亲和力、几何/作用恢复及跨肽/抗体/蛋白片段域泛化。AI直接设计靶向蛋白结合界面。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RADiAnce在共享对比潜空间检索已知结合界面并用条件潜扩散生成新蛋白结合体，实际比较亲和力、几何/作用恢复及跨肽/抗体/蛋白片段域泛化。AI直接设计靶向蛋白结合界面。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质设计",
+          "label_en": "Protein design",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "RADiAnce在共享对比潜空间检索已知结合界面并用条件潜扩散生成新蛋白结合体，实际比较亲和力、几何/作用恢复及跨肽/抗体/蛋白片段域泛化。AI直接设计靶向蛋白结合界面。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "B5fFInNlhZ",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Partial Physics Informed Diffusion Model for Ocean Chlorophyll Concentration Reconstruction",
+    "authors": [
+      "Qianxun Xu",
+      "Zuchuan Li"
+    ],
+    "author_ids": [
+      "~Qianxun_Xu1",
+      "~Zuchuan_Li1"
+    ],
+    "abstract": "The integration of big data, physical laws, and machine learning algorithms has shown potential to improve the estimation and understanding of complex real-world systems. However, effectively incorporating physical laws with uncertainties into machine learning algorithms remains understudied. In this work, we bridge this gap by developing the Partial Physics Informed Diffusion Model (PPIDM), a novel framework that integrates known physical principles through a physics operator while reducing the impact of unknown dynamics by minimizing related discrepancies. We showcase PPIDM’s capabilities using ocean surface chlorophyll concentration data, which are influenced by both physical and biological processes, while the latter is poorly constrained. Experimental results reveal that PPIDM achieves substantially improved prediction accuracy and stability, significantly outperforming baseline methods that either neglect physics entirely or impose incomplete physical constraints under the assumption of completeness.",
+    "keywords": [
+      "Diffusion Models",
+      "Physics-Informed Machine Learning",
+      "Ocean Data Reconstruction"
+    ],
+    "tldr": "Generation of physically plausible results when only observations and partial physics knowledge of the system is available.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ xu2025partial, title={Partial Physics Informed Diffusion Model for Ocean Chlorophyll Concentration Reconstruction}, author={Qianxun Xu and Zuchuan Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=B5fFInNlhZ} }",
+    "url": "https://openreview.net/forum?id=B5fFInNlhZ",
+    "pdf_url": "https://openreview.net/pdf?id=B5fFInNlhZ",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "physics-informed",
+      "physics informed"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "PPIDM在扩散学习中嵌入已知物理算子并减弱未知动力差异，对海表叶绿素这一受物理/生物共同驱动的浓度场重建，实测优于忽略物理或误当物理完备的方法。AI直接估计海洋生物地球化学状态。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Partial Physics Informed Diffusion Model for Ocean Chlorophyll Concentration Reconstruction",
+        "authors": [
+          "Xu, Qianxun",
+          "Li, Zuchuan"
+        ],
+        "doi": "10.52202/085713-5230",
+        "volume": "38",
+        "pages": "156490–156507",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e57cd5735565b737b2c2afe56daca99b-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e57cd5735565b737b2c2afe56daca99b-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The integration of big data, physical laws, and machine learning algorithms has shown potential to improve the estimation and understanding of complex real-world systems. However, effectively incorporating physical laws with uncertainties into machine learning algorithms remains understudied. In this work, we bridge this gap by developing the Partial Physics Informed Diffusion Model (PPIDM), a novel framework that integrates known physical principles through a physics operator while reducing the impact of unknown dynamics by minimizing related discrepancies. We showcase PPIDM’s capabilities using ocean surface chlorophyll concentration data, which are influenced by both physical and biological processes, while the latter is poorly constrained. Experimental results reveal that PPIDM achieves substantially improved prediction accuracy and stability, significantly outperforming baseline methods that either neglect physics entirely or impose incomplete physical constraints under the assumption of completeness.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e57cd5735565b737b2c2afe56daca99b-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PPIDM在扩散学习中嵌入已知物理算子并减弱未知动力差异，对海表叶绿素这一受物理/生物共同驱动的浓度场重建，实测优于忽略物理或误当物理完备的方法。AI直接估计海洋生物地球化学状态。"
+        },
+        {
+          "axis": "method",
+          "label": "物理信息学习",
+          "label_en": "Physics-informed learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PPIDM在扩散学习中嵌入已知物理算子并减弱未知动力差异，对海表叶绿素这一受物理/生物共同驱动的浓度场重建，实测优于忽略物理或误当物理完备的方法。AI直接估计海洋生物地球化学状态。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PPIDM在扩散学习中嵌入已知物理算子并减弱未知动力差异，对海表叶绿素这一受物理/生物共同驱动的浓度场重建，实测优于忽略物理或误当物理完备的方法。AI直接估计海洋生物地球化学状态。"
+        },
+        {
+          "axis": "task",
+          "label": "动力系统状态估计",
+          "label_en": "Dynamical state estimation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PPIDM在扩散学习中嵌入已知物理算子并减弱未知动力差异，对海表叶绿素这一受物理/生物共同驱动的浓度场重建，实测优于忽略物理或误当物理完备的方法。AI直接估计海洋生物地球化学状态。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AuOZDp4gy7",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasting",
+    "authors": [
+      "Kwangryeol Park",
+      "Jaeho Kim",
+      "Seulki Lee"
+    ],
+    "author_ids": [
+      "~Kwangryeol_Park1",
+      "~Jaeho_Kim1",
+      "~Seulki_Lee1"
+    ],
+    "abstract": "Long-term Time Series Forecasting (LTSF) tasks, which leverage the current data sequence as input to predict the future sequence, have become increasingly crucial in real-world applications such as weather forecasting and planning of electricity consumption. However, state-of-the-art LTSF models often fail to achieve prediction output alignment for the same timestamps across lagged input sequences. Instead, these models exhibit low output alignment, resulting in fluctuation in prediction outputs for the same timestamps, undermining the model's reliability. To address this, we propose AliO (Align Outputs), a novel approach designed to improve the output alignment of LTSF models by reducing the discrepancies between prediction outputs for the same timestamps in both the time and frequency domains. To measure output alignment, we introduce a new metric, TAM (Time Alignment Metric), which quantifies the alignment between prediction outputs, whereas existing metrics such as MSE only capture the distance between prediction outputs and ground truths. Experimental results show that AliO effectively improves the output alignment, i.e., up to 58.2\\% in TAM, while maintaining or enhancing the forecasting performance (up to 27.5\\%). This improved output alignment increases the reliability of the LTSF models, making them more applicable in real-world scenarios. The code implementation is on an anonymous GitHub repository.",
+    "keywords": [
+      "Forecasting",
+      "Novel challenge"
+    ],
+    "tldr": "In the field of predictable time series forecasting task, the newly identified issue of output alignment, the metrics to evaluate it, and potential solutions.",
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ park2025alio, title={AliO: Output Alignment Matters in Long-Term Time Series Forecasting}, author={Kwangryeol Park and Jaeho Kim and Seulki Lee}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=AuOZDp4gy7} }",
+    "url": "https://openreview.net/forum?id=AuOZDp4gy7",
+    "pdf_url": "https://openreview.net/pdf?id=AuOZDp4gy7",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "weather forecast",
+      "weather forecasting"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "AliO以时域/频域输出对齐损失和TAM指标改善通用长期时序预测器在滞后输入中的一致性；天气和电力只作为背景动机，摘要实证集中通用对齐/误差百分比。未给出独立科学研究任务，按通用时序模型方法排除。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasting",
+        "authors": [
+          "Park, Kwangryeol",
+          "Kim, Jaeho",
+          "Lee, Seulki"
+        ],
+        "doi": "10.52202/085713-3992",
+        "volume": "38",
+        "pages": "119563–119608",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ad52f9c2b232a719963a620dcf88fbe5-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/ad52f9c2b232a719963a620dcf88fbe5-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Long-term Time Series Forecasting (LTSF) tasks, which leverage the current data sequence as input to predict the future sequence, have become increasingly crucial in real-world applications such as weather forecasting and planning of electricity consumption. However, state-of-the-art LTSF models often fail to achieve prediction output alignment for the same timestamps across lagged input sequences. Instead, these models exhibit low output alignment, resulting in fluctuation in prediction outputs for the same timestamps, undermining the model's reliability. To address this, we propose AliO (Align Outputs), a novel approach designed to improve the output alignment of LTSF models by reducing the discrepancies between prediction outputs for the same timestamps in both the time and frequency domains. To measure output alignment, we introduce a new metric, TAM (Time Alignment Metric), which quantifies the alignment between prediction outputs, whereas existing metrics such as MSE only capture the distance between prediction outputs and ground truths. Experimental results show that AliO effectively improves the output alignment, i.e., up to 58.2\\% in TAM, while maintaining or enhancing the forecasting performance (up to 27.5\\%). This improved output alignment increases the reliability of the LTSF models, making them more applicable in real-world scenarios. The code implementation is on an anonymous GitHub repository.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ad52f9c2b232a719963a620dcf88fbe5-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": []
+    }
+  },
+  {
+    "id": "AlRJVX5CRi",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Revisiting Orbital Minimization Method for Neural Operator Decomposition",
+    "authors": [
+      "Jongha Jon Ryu",
+      "Samuel Zhou",
+      "Gregory W. Wornell"
+    ],
+    "author_ids": [
+      "~Jongha_Jon_Ryu1",
+      "~Samuel_Zhou1",
+      "~Gregory_W._Wornell1"
+    ],
+    "abstract": "Spectral decomposition of linear operators plays a central role in many areas of machine learning and scientific computing. Recent work has explored training neural networks to approximate eigenfunctions of such operators, enabling scalable approaches to representation learning, dynamical systems, and partial differential equations (PDEs). In this paper, we revisit a classical optimization framework from the computational physics literature known as the *orbital minimization method* (OMM), originally proposed in the 1990s for solving eigenvalue problems in computational chemistry. We provide a simple linear-algebraic proof of the consistency of the OMM objective, and reveal connections between this method and several ideas that have appeared independently across different domains. Our primary goal is to justify its broader applicability in modern learning pipelines. We adapt this framework to train neural networks to decompose positive semidefinite operators, and demonstrate its practical advantages across a range of benchmark tasks. Our results highlight how revisiting classical numerical methods through the lens of modern theory and computation can provide not only a principled approach for deploying neural networks in numerical simulation, but also effective and scalable tools for machine learning.",
+    "keywords": [
+      "spectral decomposition",
+      "self-adjoint positive definite operator",
+      "structured representation learning",
+      "streaming algorithm"
+    ],
+    "tldr": "We revisit the orbital minimization method (OMM) from computational chemistry and demonstrate its utility as a simple, principled, and scalable approach for modern machine learning.",
+    "primary_area": "general_machine_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ryu2025revisiting, title={Revisiting Orbital Minimization Method for Neural Operator Decomposition}, author={Jongha Jon Ryu and Samuel Zhou and Gregory W. Wornell}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=AlRJVX5CRi} }",
+    "url": "https://openreview.net/forum?id=AlRJVX5CRi",
+    "pdf_url": "https://openreview.net/pdf?id=AlRJVX5CRi",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator",
+      "partial differential",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§3.2（PDF pp8–9）确认OMM/Sanger神经网络实际求解二维氢原子定态Schrödinger本征函数，并以逆算子技巧验证无限势阱/谐振子低能模态。虽另含RL和视觉表征实验，确有量子物理谱求解任务。",
+      "evidence_location": "正式全文§3.2–3.2.2, PDF pp8–9, Figure2；AppendixC.2",
+      "verified_metadata": {
+        "title": "Revisiting Orbital Minimization Method for Neural Operator Decomposition",
+        "authors": [
+          "Ryu, Jongha (Jon)",
+          "Zhou, Samuel",
+          "Wornell, Gregory"
+        ],
+        "doi": "10.52202/085713-3822",
+        "volume": "38",
+        "pages": "114671–114702",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a6805b5564bd8d813a81c4b5a97e5ca6-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a6805b5564bd8d813a81c4b5a97e5ca6-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Spectral decomposition of linear operators plays a central role in many areas of machine learning and scientific computing. Recent work has explored training neural networks to approximate eigenfunctions of such operators, enabling scalable approaches to representation learning, dynamical systems, and partial differential equations (PDEs). In this paper, we revisit a classical optimization framework from the computational physics literature known as the orbital minimization method (OMM), originally proposed in the 1990s for solving eigenvalue problems in computational chemistry. We provide a simple linear-algebraic proof of the consistency of the OMM objective, and reveal connections between this method and several ideas that have appeared independently across different domains. Our primary goal is to justify its broader applicability in modern learning pipelines. We adapt this framework to train neural networks to decompose positive semidefinite operators, and demonstrate its practical advantages across a range of benchmark tasks. Our results highlight how revisiting classical numerical methods through the lens of modern theory and computation can provide not only a principled approach for deploying neural networks in numerical simulation, but also effective and scalable tools for machine learning.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a6805b5564bd8d813a81c4b5a97e5ca6-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/a6805b5564bd8d813a81c4b5a97e5ca6-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§3.2–3.2.2, PDF pp8–9, Figure2；AppendixC.2",
+        "pdf_sha256": "6526130ce59c0603dda87496d9602e70143e89ccc1ac9f5379933249c171f610"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "正式全文§3.2–3.2.2, PDF pp8–9, Figure2；AppendixC.2",
+          "rationale": "必要全文§3.2（PDF pp8–9）确认OMM/Sanger神经网络实际求解二维氢原子定态Schrödinger本征函数，并以逆算子技巧验证无限势阱/谐振子低能模态。虽另含RL和视觉表征实验，确有量子物理谱求解任务。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "正式全文§3.2–3.2.2, PDF pp8–9, Figure2；AppendixC.2",
+          "rationale": "必要全文§3.2（PDF pp8–9）确认OMM/Sanger神经网络实际求解二维氢原子定态Schrödinger本征函数，并以逆算子技巧验证无限势阱/谐振子低能模态。虽另含RL和视觉表征实验，确有量子物理谱求解任务。"
+        },
+        {
+          "axis": "task",
+          "label": "电子结构预测",
+          "label_en": "Electronic structure prediction",
+          "evidence_location": "正式全文§3.2–3.2.2, PDF pp8–9, Figure2；AppendixC.2",
+          "rationale": "必要全文§3.2（PDF pp8–9）确认OMM/Sanger神经网络实际求解二维氢原子定态Schrödinger本征函数，并以逆算子技巧验证无限势阱/谐振子低能模态。虽另含RL和视觉表征实验，确有量子物理谱求解任务。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Aj3wL41C7p",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Neuro-Spectral Architectures for Causal Physics-Informed Networks",
+    "authors": [
+      "Arthur Bizzi",
+      "Leonardo M. Moreira",
+      "Márcio Marques",
+      "Leonardo Mendonça",
+      "Christian Júnior de Oliveira",
+      "Vitor Balestro",
+      "Lucas dos Santos Fernandez",
+      "Daniel Yukimura",
+      "Pavel Petrov",
+      "João M. Pereira",
+      "Tiago Novello",
+      "Lucas Nissenbaum"
+    ],
+    "author_ids": [
+      "~Arthur_Bizzi1",
+      "~Leonardo_M._Moreira1",
+      "~Márcio_Marques1",
+      "~Leonardo_Mendonça1",
+      "~Christian_Júnior_de_Oliveira1",
+      "~Vitor_Balestro1",
+      "~Lucas_dos_Santos_Fernandez1",
+      "~Daniel_Yukimura1",
+      "~Pavel_Petrov1",
+      "~João_M._Pereira1",
+      "~Tiago_Novello1",
+      "~Lucas_Nissenbaum1"
+    ],
+    "abstract": "Physics-Informed Neural Networks (PINNs) have emerged as a powerful frame- work for solving partial differential equations (PDEs). However, standard MLP- based PINNs often fail to converge when dealing with complex initial value problems, leading to solutions that violate causality and suffer from a spectral bias towards low-frequency components. To address these issues, we introduce NeuSA (Neuro-Spectral Architectures), a novel class of PINNs inspired by classi- cal spectral methods, designed to solve linear and nonlinear PDEs with variable coefficients. NeuSA learns a projection of the underlying PDE onto a spectral basis, leading to a finite-dimensional representation of the dynamics which is then integrated with an adapted Neural ODE (NODE). This allows us to overcome spectral bias, by leveraging the high-frequency components enabled by the spectral representation; to enforce causality, by inheriting the causal structure of NODEs, and to start training near the target solution, by means of an initialization scheme based on classical methods. We validate NeuSA on canonical benchmarks for lin- ear and nonlinear wave equations, demonstrating strong performance as compared to other architectures, with faster convergence, improved temporal consistency and superior predictive accuracy. Code and pretrained models are available in https://github.com/arthur-bizzi/neusa.",
+    "keywords": [
+      "Physics-informed neural networks",
+      "spectral methods",
+      "causality"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ bizzi2025neurospectral, title={Neuro-Spectral Architectures for Causal Physics-Informed Networks}, author={Arthur Bizzi and Leonardo M. Moreira and M{\\'a}rcio Marques and Leonardo Mendon{\\c{c}}a and Christian J{\\'u}nior de Oliveira and Vitor Balestro and Lucas dos Santos Fernandez and Daniel Yukimura and Pavel Petrov and Jo{\\~a}o M. Pereira and Tiago Novello and Lucas Nissenbaum}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Aj3wL41C7p} }",
+    "url": "https://openreview.net/forum?id=Aj3wL41C7p",
+    "pdf_url": "https://openreview.net/pdf?id=Aj3wL41C7p",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "physics-informed",
+      "partial differential",
+      "\\bpinns?\\b",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "NeuSA学习PDE谱基投影并与神经ODE因果时间演化结合，以经典方法初始化，实际求解变系数线性/非线性波动方程，缓解谱偏置和非因果收敛。AI直接用于科学方程计算。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Neuro-Spectral Architectures for Causal Physics-Informed Networks",
+        "authors": [
+          "Bizzi, Arthur",
+          "Moreira, Leonardo",
+          "Marques, Márcio",
+          "Mendonça, Leonardo",
+          "de Oliveira, Christian",
+          "Balestro, Vitor",
+          "dos Santos Fernandez, Lucas",
+          "Yukimura, Daniel",
+          "Petrov, Pavel",
+          "Pereira, João",
+          "Novello, Tiago",
+          "Nissenbaum, Lucas"
+        ],
+        "doi": "10.52202/085713-1818",
+        "volume": "38",
+        "pages": "54419–54449",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e52bbb99690d1e05c7ef7b4c8b3569a-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4e52bbb99690d1e05c7ef7b4c8b3569a-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Physics-Informed Neural Networks (PINNs) have emerged as a powerful frame- work for solving partial differential equations (PDEs). However, standard MLP- based PINNs often fail to converge when dealing with complex initial value problems, leading to solutions that violate causality and suffer from a spectral bias towards low-frequency components. To address these issues, we introduce NeuSA (Neuro-Spectral Architectures), a novel class of PINNs inspired by classi- cal spectral methods, designed to solve linear and nonlinear PDEs with variable coefficients. NeuSA learns a projection of the underlying PDE onto a spectral basis, leading to a finite-dimensional representation of the dynamics which is then integrated with an adapted Neural ODE (NODE). This allows us to overcome spectral bias, by leveraging the high-frequency components enabled by the spectral representation; to enforce causality, by inheriting the causal structure of NODEs, and to start training near the target solution, by means of an initialization scheme based on classical methods. We validate NeuSA on canonical benchmarks for lin- ear and nonlinear wave equations, demonstrating strong performance as compared to other architectures, with faster convergence, improved temporal consistency and superior predictive accuracy. Code and pretrained models are available in https://github.com/arthur-bizzi/neusa.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e52bbb99690d1e05c7ef7b4c8b3569a-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuSA学习PDE谱基投影并与神经ODE因果时间演化结合，以经典方法初始化，实际求解变系数线性/非线性波动方程，缓解谱偏置和非因果收敛。AI直接用于科学方程计算。"
+        },
+        {
+          "axis": "method",
+          "label": "物理信息神经网络",
+          "label_en": "Physics-informed neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuSA学习PDE谱基投影并与神经ODE因果时间演化结合，以经典方法初始化，实际求解变系数线性/非线性波动方程，缓解谱偏置和非因果收敛。AI直接用于科学方程计算。"
+        },
+        {
+          "axis": "task",
+          "label": "偏微分方程求解",
+          "label_en": "Partial differential equation solving",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "NeuSA学习PDE谱基投影并与神经ODE因果时间演化结合，以经典方法初始化，实际求解变系数线性/非线性波动方程，缓解谱偏置和非因果收敛。AI直接用于科学方程计算。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ATewcZPbDj",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Accelerating 3D Molecule Generative Models with Trajectory Diagnosis",
+    "authors": [
+      "Zhilong Zhang",
+      "Yuxuan Song",
+      "Yichun Wang",
+      "Jingjing Gong",
+      "Hanlin Wu",
+      "Dongzhan Zhou",
+      "Hao Zhou",
+      "Wei-Ying Ma"
+    ],
+    "author_ids": [
+      "~Zhilong_Zhang1",
+      "~Yuxuan_Song2",
+      "~Yichun_Wang1",
+      "~Jingjing_Gong3",
+      "~Hanlin_Wu1",
+      "~Dongzhan_Zhou1",
+      "~Hao_Zhou5",
+      "~Wei-Ying_Ma2"
+    ],
+    "abstract": "Geometric molecule generative models have found expanding applications across various scientific domains, but their generation inefficiency has become a critical bottleneck. Through a systematic investigation of the generative trajectory, we discover a unique challenge for molecule geometric graph generation: generative models require determining the permutation order of atoms in the molecule before refining its atomic feature values. Based on this insight, we decompose the generation process into permutation phase and adjustment phase, and propose a geometric-informed prior and consistency parameter objective to accelerate each phase. Extensive experiments demonstrate that our approach achieves competitive performance with approximately 10 sampling steps, 7.5 × faster than previous state-of-the-art models and approximately 100 × faster than diffusion-based models, offering a significant step towards scalable molecular generation.",
+    "keywords": [
+      "3D Molecule Generation",
+      "Fast Generation",
+      "Drug Design"
+    ],
+    "tldr": "A novel method for fast 3D molecule generation",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhang2025accelerating, title={Accelerating 3D Molecule Generative Models with Trajectory Diagnosis}, author={Zhilong Zhang and Yuxuan Song and Yichun Wang and Jingjing Gong and Hanlin Wu and Dongzhan Zhou and Hao Zhou and Wei-Ying Ma}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ATewcZPbDj} }",
+    "url": "https://openreview.net/forum?id=ATewcZPbDj",
+    "pdf_url": "https://openreview.net/pdf?id=ATewcZPbDj",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecule generation",
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b",
+      "drug design"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "针对三维几何分子生成的原子置换顺序与特征调整两阶段，设计几何先验和一致性参数目标，在保留分子生成质量下减少采样步数。是分子几何结构生成的专门方法贡献，非一般LLM推理提速。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Accelerating 3D Molecule Generative Models with Trajectory Diagnosis",
+        "authors": [
+          "Zhang, Zhilong",
+          "Song, Yuxuan",
+          "Wang, Yichun",
+          "Gong, Jingjing",
+          "Wu, Hanlin",
+          "Zhou, Dongzhan",
+          "Zhou, Hao",
+          "Ma, Wei-Ying"
+        ],
+        "doi": "10.52202/085713-1168",
+        "volume": "38",
+        "pages": "34818–34846",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/319e96498360f5f6f8f21623b509b8ca-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/319e96498360f5f6f8f21623b509b8ca-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Geometric molecule generative models have found expanding applications across various scientific domains, but their generation inefficiency has become a critical bottleneck. Through a systematic investigation of the generative trajectory, we discover a unique challenge for molecule geometric graph generation: generative models require determining the permutation order of atoms in the molecule before refining its atomic feature values. Based on this insight, we decompose the generation process into permutation phase and adjustment phase, and propose a geometric-informed prior and consistency parameter objective to accelerate each phase. Extensive experiments demonstrate that our approach achieves competitive performance with approximately 10 sampling steps, 7.5 × faster than previous state-of-the-art models and approximately 100 × faster than diffusion-based models, offering a significant step towards scalable molecular generation.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/319e96498360f5f6f8f21623b509b8ca-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "针对三维几何分子生成的原子置换顺序与特征调整两阶段，设计几何先验和一致性参数目标，在保留分子生成质量下减少采样步数。是分子几何结构生成的专门方法贡献，非一般LLM推理提速。"
+        },
+        {
+          "axis": "method",
+          "label": "生成建模",
+          "label_en": "Generative modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "针对三维几何分子生成的原子置换顺序与特征调整两阶段，设计几何先验和一致性参数目标，在保留分子生成质量下减少采样步数。是分子几何结构生成的专门方法贡献，非一般LLM推理提速。"
+        },
+        {
+          "axis": "task",
+          "label": "分子生成",
+          "label_en": "Molecule generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "针对三维几何分子生成的原子置换顺序与特征调整两阶段，设计几何先验和一致性参数目标，在保留分子生成质量下减少采样步数。是分子几何结构生成的专门方法贡献，非一般LLM推理提速。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "APXcX7z1Bi",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "UniSite: The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection",
+    "authors": [
+      "Jigang Fan",
+      "QuanLin Wu",
+      "Shengjie Luo",
+      "Liwei Wang"
+    ],
+    "author_ids": [
+      "~Jigang_Fan2",
+      "~QuanLin_Wu1",
+      "~Shengjie_Luo1",
+      "~Liwei_Wang1"
+    ],
+    "abstract": "The detection of ligand binding sites for proteins is a fundamental step in Structure-Based Drug Design. Despite notable advances in recent years, existing methods, datasets, and evaluation metrics are confronted with several key challenges: (1) current datasets and methods are centered on individual protein–ligand complexes and neglect that diverse binding sites may exist across multiple complexes of the same protein, introducing significant statistical bias; (2) ligand binding site detection is typically modeled as a discontinuous workflow, employing binary segmentation and subsequent clustering algorithms; (3) traditional evaluation metrics do not adequately reflect the actual performance of different binding site prediction methods. To address these issues, we first introduce UniSite-DS, the first UniProt (Unique Protein)-centric ligand binding site dataset, which contains 4.81 times more multi-site data and 2.08 times more overall data compared to the previously most widely used datasets. We then propose UniSite, the first end-to-end ligand binding site detection framework supervised by set prediction loss with bijective matching. In addition, we introduce Average Precision based on Intersection over Union (IoU) as a more accurate evaluation metric for ligand binding site prediction. Extensive experiments on UniSite-DS and several representative benchmark datasets demonstrate that IoU-based Average Precision provides a more accurate reflection of prediction quality, and that UniSite outperforms current state-of-the-art methods in ligand binding site detection. The dataset and codes will be made publicly available at https://github.com/quanlin-wu/unisite.",
+    "keywords": [
+      "Ligand Binding Site Detection",
+      "Ligand Binding Site Prediction",
+      "Drug Discovery",
+      "Structure Based Drug Discovery"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "spotlight",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ fan2025unisite, title={UniSite: The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection}, author={Jigang Fan and QuanLin Wu and Shengjie Luo and Liwei Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=APXcX7z1Bi} }",
+    "url": "https://openreview.net/forum?id=APXcX7z1Bi",
+    "pdf_url": "https://openreview.net/pdf?id=APXcX7z1Bi",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "drug discovery",
+      "drug design",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "UniSite-DS按唯一蛋白整合跨结构多结合位点，UniSite用双射匹配集合预测损失端到端检测配体口袋，并用IoU-AP更准确评估。AI直接研究蛋白结合位点且补充相应科学数据资源。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "UniSite: The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection",
+        "authors": [
+          "Fan, Jigang",
+          "Wu, Quanlin",
+          "Luo, Shengjie",
+          "Wang, Liwei"
+        ],
+        "doi": "10.52202/085713-3442",
+        "volume": "38",
+        "pages": "102950–102977",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/94f093b41fc2666376fb1f667fe282f3-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/94f093b41fc2666376fb1f667fe282f3-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The detection of ligand binding sites for proteins is a fundamental step in Structure-Based Drug Design. Despite notable advances in recent years, existing methods, datasets, and evaluation metrics are confronted with several key challenges: (1) current datasets and methods are centered on individual protein–ligand complexes and neglect that diverse binding sites may exist across multiple complexes of the same protein, introducing significant statistical bias; (2) ligand binding site detection is typically modeled as a discontinuous workflow, employing binary segmentation and subsequent clustering algorithms; (3) traditional evaluation metrics do not adequately reflect the actual performance of different binding site prediction methods. To address these issues, we first introduce UniSite-DS, the first UniProt (Unique Protein)-centric ligand binding site dataset, which contains 4.81 times more multi-site data and 2.08 times more overall data compared to the previously most widely used datasets. We then propose UniSite, the first end-to-end ligand binding site detection framework supervised by set prediction loss with bijective matching. In addition, we introduce Average Precision based on Intersection over Union (IoU) as a more accurate evaluation metric for ligand binding site prediction. Extensive experiments on UniSite-DS and several representative benchmark datasets demonstrate that IoU-based Average Precision provides a more accurate reflection of prediction quality, and that UniSite outperforms current state-of-the-art methods in ligand binding site detection. The dataset and codes will be made publicly available at https://github.com/quanlin-wu/unisite.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/94f093b41fc2666376fb1f667fe282f3-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "UniSite-DS按唯一蛋白整合跨结构多结合位点，UniSite用双射匹配集合预测损失端到端检测配体口袋，并用IoU-AP更准确评估。AI直接研究蛋白结合位点且补充相应科学数据资源。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "UniSite-DS按唯一蛋白整合跨结构多结合位点，UniSite用双射匹配集合预测损失端到端检测配体口袋，并用IoU-AP更准确评估。AI直接研究蛋白结合位点且补充相应科学数据资源。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质结合位点预测",
+          "label_en": "Protein binding-site prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "UniSite-DS按唯一蛋白整合跨结构多结合位点，UniSite用双射匹配集合预测损失端到端检测配体口袋，并用IoU-AP更准确评估。AI直接研究蛋白结合位点且补充相应科学数据资源。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AHjspi4R22",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "GLID$^2$E: A Gradient-Free Lightweight Fine-tune Approach for Discrete Biological Sequence Design",
+    "authors": [
+      "Hanqun Cao",
+      "Haosen Shi",
+      "Chenyu Wang",
+      "Sinno Jialin Pan",
+      "Pheng-Ann Heng"
+    ],
+    "author_ids": [
+      "~Hanqun_Cao2",
+      "~Haosen_Shi1",
+      "~Chenyu_Wang7",
+      "~Sinno_Jialin_Pan1",
+      "~Pheng-Ann_Heng1"
+    ],
+    "abstract": "The design of biological sequences is essential for engineering functional biomolecules that contribute to advancements in human health and biotechnology. Recent advances in diffusion models, with their generative power and efficient conditional sampling, have made them a promising approach for sequence generation. To enhance model performance on limited data and enable multi-objective design and optimization, reinforcement learning (RL)-based fine-tuning has shown great potential. However, existing post-sampling and fine-tuning methods either lack stability in discrete optimization when avoiding gradients or incur high computational costs when employing gradient-based approaches, creating significant challenges for achieving both control and stability in the tuning process. To address these limitations, we propose GLID$^2$E, a gradient-free RL-based tuning approach for discrete diffusion models. Our method introduces a clipped likelihood constraint to regulate the exploration space and implements reward shaping to better align the generative process with design objectives, ensuring a more stable and efficient tuning process. By integrating these techniques, GLID$^2$E mitigates training instabilities commonly encountered in RL and diffusion-based frameworks, enabling robust optimization even in challenging biological design tasks. In the DNA sequence and protein sequence design systems, GLID$^2$E achieves competitive performance in function-based design while maintaining computational efficiency and a flexible tuning mechanism.",
+    "keywords": [
+      "Deep learning",
+      "Protein design",
+      "Diffusion Model",
+      "Reinforcement learning",
+      "DNA design",
+      "Protein inverse folding"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ cao2025glide, title={{GLID}\\${\\textasciicircum}2\\$E: A Gradient-Free Lightweight Fine-tune Approach for Discrete Biological Sequence Design}, author={Hanqun Cao and Haosen Shi and Chenyu Wang and Sinno Jialin Pan and Pheng-Ann Heng}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=AHjspi4R22} }",
+    "url": "https://openreview.net/forum?id=AHjspi4R22",
+    "pdf_url": "https://openreview.net/pdf?id=AHjspi4R22",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bproteins?\\b",
+      "\\bdna\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "GLID²E以截断似然约束和奖励塑形无梯度微调离散扩散，在DNA及蛋白序列系统实测功能导向设计和多目标优化。AI直接生成/优化生物功能序列。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "GLID$^2$E: A Gradient-Free Lightweight Fine-tune Approach for Discrete Biological Sequence Design",
+        "authors": [
+          "Cao, Hanqun",
+          "Shi, Haosen",
+          "Wang, Chenyu",
+          "Pan, Sinno",
+          "Heng, Pheng-Ann"
+        ],
+        "doi": "10.52202/085713-4672",
+        "volume": "38",
+        "pages": "139875–139898",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/cc84bfabe6389d8883fc2071c848f62a-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/cc84bfabe6389d8883fc2071c848f62a-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The design of biological sequences is essential for engineering functional biomolecules that contribute to advancements in human health and biotechnology. Recent advances in diffusion models, with their generative power and efficient conditional sampling, have made them a promising approach for sequence generation. To enhance model performance on limited data and enable multi-objective design and optimization, reinforcement learning (RL)-based fine-tuning has shown great potential. However, existing post-sampling and fine-tuning methods either lack stability in discrete optimization when avoiding gradients or incur high computational costs when employing gradient-based approaches, creating significant challenges for achieving both control and stability in the tuning process. To address these limitations, we propose GLID$^2$E, a gradient-free RL-based tuning approach for discrete diffusion models. Our method introduces a clipped likelihood constraint to regulate the exploration space and implements reward shaping to better align the generative process with design objectives, ensuring a more stable and efficient tuning process.  By integrating these techniques, GLID$^2$E mitigates training instabilities commonly encountered in RL and diffusion-based frameworks, enabling robust optimization even in challenging biological design tasks. In the DNA sequence and protein sequence design systems, GLID$^2$E achieves competitive performance in function-based design while maintaining computational efficiency and a flexible tuning mechanism.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/cc84bfabe6389d8883fc2071c848f62a-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GLID²E以截断似然约束和奖励塑形无梯度微调离散扩散，在DNA及蛋白序列系统实测功能导向设计和多目标优化。AI直接生成/优化生物功能序列。"
+        },
+        {
+          "axis": "method",
+          "label": "强化学习",
+          "label_en": "Reinforcement learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GLID²E以截断似然约束和奖励塑形无梯度微调离散扩散，在DNA及蛋白序列系统实测功能导向设计和多目标优化。AI直接生成/优化生物功能序列。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GLID²E以截断似然约束和奖励塑形无梯度微调离散扩散，在DNA及蛋白序列系统实测功能导向设计和多目标优化。AI直接生成/优化生物功能序列。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质设计",
+          "label_en": "Protein design",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GLID²E以截断似然约束和奖励塑形无梯度微调离散扩散，在DNA及蛋白序列系统实测功能导向设计和多目标优化。AI直接生成/优化生物功能序列。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "A5O41ntKjk",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation",
+    "authors": [
+      "Jiabei Cheng",
+      "Changxi Chi",
+      "Jingbo Zhou",
+      "Hongyi Xin",
+      "Jun Xia"
+    ],
+    "author_ids": [
+      "~Jiabei_Cheng2",
+      "~Changxi_Chi1",
+      "~Jingbo_Zhou2",
+      "~Hongyi_Xin1",
+      "~Jun_Xia1"
+    ],
+    "abstract": "In single-cell perturbation prediction, a central task is to forecast the effects of perturbing a gene unseen in the training data. The efficacy of such predictions depends on two factors: (1) the similarity of the target gene to those covered in the training data, which informs model (epistemic) uncertainty, and (2) the quality of the corresponding training data, which reflects data (aleatoric) uncertainty. Both factors are critical for determining the reliability of a prediction, particularly as gene perturbation is an inherently stochastic biochemical process. In this paper, we propose PRESCRIBE (PREdicting Single-Cell Response wIth Bayesian Estimation), a multivariate deep evidential regression framework designed to measure both sources of uncertainty jointly. Our analysis demonstrates that PRESCRIBE effectively estimates a confidence score for each prediction, which strongly correlates with its empirical accuracy. This capability enables the filtering of untrustworthy results, and in our experiments, it achieves steady accuracy improvements of over 3% compared to comparable baselines.",
+    "keywords": [
+      "Single-cell biology",
+      "bioinformatics",
+      "gene expression",
+      "transcriptomics",
+      "uncertainty estimation"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ cheng2025prescribe, title={{PRESCRIBE}: Predicting Single-Cell Responses with Bayesian Estimation}, author={Jiabei Cheng and Changxi Chi and Jingbo Zhou and Hongyi Xin and Jun Xia}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=A5O41ntKjk} }",
+    "url": "https://openreview.net/forum?id=A5O41ntKjk",
+    "pdf_url": "https://openreview.net/pdf?id=A5O41ntKjk",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "single-cell",
+      "gene expression"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty6-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "PRESCRIBE以多变量深度证据回归联合估计基因扰动预测的模型/数据不确定性，置信度与实测误差相关并能过滤不可信预测，改善未见基因扰动的单细胞响应。直接用于细胞干预效应科学预测。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation",
+        "authors": [
+          "Cheng, Jiabei",
+          "Chi, Changxi",
+          "Zhou, Jingbo",
+          "Xin, Hongyi",
+          "Xia, Jun"
+        ],
+        "doi": "10.52202/085713-4868",
+        "volume": "38",
+        "pages": "145457–145489",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d6383e7643415842b48a5077a1b09c98-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d6383e7643415842b48a5077a1b09c98-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "In single-cell perturbation prediction, a central task is to forecast the effects of perturbing a gene unseen in the training data. The efficacy of such predictions depends on two factors: (1) the similarity of the target gene to those covered in the training data, which informs model (epistemic) uncertainty, and (2) the quality of the corresponding training data, which reflects data (aleatoric) uncertainty. Both factors are critical for determining the reliability of a prediction, particularly as gene perturbation is an inherently stochastic biochemical process. In this paper, we propose PRESCRIBE (PREdicting Single-Cell Response wIth Bayesian Estimation), a multivariate deep evidential regression framework designed to measure both sources of uncertainty jointly. Our analysis demonstrates that PRESCRIBE effectively estimates a confidence score for each prediction, which strongly correlates with its empirical accuracy. This capability enables the filtering of untrustworthy results, and in our experiments, it achieves steady accuracy improvements of over 3% compared to comparable baselines.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d6383e7643415842b48a5077a1b09c98-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:31:01.976301+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PRESCRIBE以多变量深度证据回归联合估计基因扰动预测的模型/数据不确定性，置信度与实测误差相关并能过滤不可信预测，改善未见基因扰动的单细胞响应。直接用于细胞干预效应科学预测。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PRESCRIBE以多变量深度证据回归联合估计基因扰动预测的模型/数据不确定性，置信度与实测误差相关并能过滤不可信预测，改善未见基因扰动的单细胞响应。直接用于细胞干预效应科学预测。"
+        },
+        {
+          "axis": "method",
+          "label": "不确定性量化",
+          "label_en": "Uncertainty quantification",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PRESCRIBE以多变量深度证据回归联合估计基因扰动预测的模型/数据不确定性，置信度与实测误差相关并能过滤不可信预测，改善未见基因扰动的单细胞响应。直接用于细胞干预效应科学预测。"
+        },
+        {
+          "axis": "task",
+          "label": "单细胞状态解耦与扰动预测",
+          "label_en": "Single-cell state disentanglement and perturbation prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PRESCRIBE以多变量深度证据回归联合估计基因扰动预测的模型/数据不确定性，置信度与实测误差相关并能过滤不可信预测，改善未见基因扰动的单细胞响应。直接用于细胞干预效应科学预测。"
+        }
+      ]
+    }
   }
 ]
