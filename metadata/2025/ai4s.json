@@ -1177942,5 +1177942,1546 @@
   "project_url": null,
   "published": "2025-09-18",
   "source": "openreview"
+},
+{
+  "id": "4YKlo58RcQ",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Scaling and context steer LLMs along the same computational path as the human brain",
+  "authors": [
+    "Joséphine Raugel",
+    "Jérémy Rapin",
+    "Stéphane d'Ascoli",
+    "Valentin Wyart",
+    "Jean-Remi King"
+  ],
+  "author_ids": [
+    "~Joséphine_Raugel2",
+    "~Jérémy_Rapin1",
+    "~Stéphane_d'Ascoli1",
+    "~Valentin_Wyart1",
+    "~Jean-Remi_King1"
+  ],
+  "abstract": "Recent studies suggest that the representations learned by large language models (LLMs) are partially aligned to those of the human brain. However, whether this representational alignment arises from a similar sequence of computations remains elusive. In this study, we explore this question by examining temporally-resolved brain signals of participants listening to 10 hours of an audiobook. We study these neural dynamics jointly with a benchmark encompassing 17 LLMs varying in size and architecture type. Our analyses reveal that LLMs and the brain generate representations in a similar order: specifically, activations in the initial layers of LLMs tend to best align with early brain responses, while the deeper layers of LLMs tend to best align with later brain responses. This brain-LLM alignment is consistent across transformers and recurrent architectures. However, its emergence depends on both model size and context length. Overall, the alignment between LLMs and the brain provides novel elements supporting a partial convergence between biological and artificial neural networks.",
+  "keywords": [
+    "Large Language Models",
+    "LLMs",
+    "Emergence",
+    "Neuroscience",
+    "Brain",
+    "Alignment",
+    "Language",
+    "Magnetoencephalography"
+  ],
+  "tldr": "Emergence of an alignment between LLMs' and the brain's computational dynamics, and key factors allowing it : scaling and context size.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ raugel2025scaling, title={Scaling and context steer {LLM}s along the same computational path as the human brain}, author={Jos{\\'e}phine Raugel and J{\\'e}r{\\'e}my Rapin and St{\\'e}phane d'Ascoli and Valentin Wyart and Jean-Remi King}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=4YKlo58RcQ} }",
+  "url": "https://openreview.net/forum?id=4YKlo58RcQ",
+  "pdf_url": "https://openreview.net/pdf?id=4YKlo58RcQ",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "hT7Nj7SAQb",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Cross-Modal Representational Knowledge Distillation for Enhanced Spike-informed LFP Modeling",
+  "authors": [
+    "Eray Erturk",
+    "Saba Hashemi",
+    "Maryam M. Shanechi"
+  ],
+  "author_ids": [
+    "~Eray_Erturk1",
+    "~Saba_Hashemi1",
+    "~Maryam_M._Shanechi1"
+  ],
+  "abstract": "Local field potentials (LFPs) can be routinely recorded alongside spiking activity in intracortical neural experiments, measure a larger complementary spatiotemporal scale of brain activity for scientific inquiry, and can offer practical advantages over spikes, including greater long-term stability, robustness to electrode degradation, and lower power requirements. Despite these advantages, recent neural modeling frameworks have largely focused on spiking activity since LFP signals pose inherent modeling challenges due to their aggregate, population-level nature, often leading to lower predictive power for downstream task variables such as motor behavior. To address this challenge, we introduce a cross-modal knowledge distillation framework that transfers high-fidelity representational knowledge from pretrained multi-session spike transformer models to LFP transformer models. Specifically, we first train a teacher spike model across multiple recording sessions using a masked autoencoding objective with a session-specific neural tokenization strategy. We then align the latent representations of the student LFP model to those of the teacher spike model. Our results show that the distilled LFP models consistently outperform single- and multi-session LFP baselines in both fully unsupervised and supervised settings, and can generalize to other sessions without additional distillation while maintaining superior performance. These findings demonstrate that cross-modal knowledge distillation is a powerful and scalable approach for leveraging high-performing spike models to develop more accurate LFP models.",
+  "keywords": [
+    "Knowledge distillation",
+    "Multi-session models",
+    "Neural decoding",
+    "Neuroscience"
+  ],
+  "tldr": null,
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ erturk2025crossmodal, title={Cross-Modal Representational Knowledge Distillation for Enhanced Spike-informed {LFP} Modeling}, author={Eray Erturk and Saba Hashemi and Maryam M. Shanechi}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=hT7Nj7SAQb} }",
+  "url": "https://openreview.net/forum?id=hT7Nj7SAQb",
+  "pdf_url": "https://openreview.net/pdf?id=hT7Nj7SAQb",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Z01gNsO9SW",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Learning to Control Free-Form Soft Swimmers",
+  "authors": [
+    "Changyu Hu",
+    "Yanke Qu",
+    "Qiuan Yang",
+    "Xiaoyu Xiong",
+    "Kui Wu",
+    "Wei Li",
+    "Tao Du"
+  ],
+  "author_ids": [
+    "~Changyu_Hu2",
+    "~Yanke_Qu1",
+    "~Qiuan_Yang1",
+    "~Xiaoyu_Xiong1",
+    "~Kui_Wu2",
+    "~Wei_Li135",
+    "~Tao_Du1"
+  ],
+  "abstract": "Swimming in nature achieves remarkable performance through diverse morphological adaptations and intricate solid-fluid interaction, yet exploring this capability in artificial soft swimmers remains challenging due to the high-dimensional control complexity and the computational cost of resolving hydrodynamic details. Traditional approaches often rely on morphology-dependent heuristics and simplified fluid models, which constrain exploration and preclude advanced strategies like vortex exploitation. To address this, we propose an automated framework that combines a unified, reduced-mode control space with a high-fidelity GPU-accelerated simulator. Our control space naturally captures deformation patterns for diverse morphologies, minimizing manual design, while our simulator efficiently resolves the crucial fluid-structure interactions required for learning. We evaluate our method on a wide range of morphologies, from bio-inspired to unconventional. From this general framework, high-performance swimming patterns emerge that qualitatively reproduce canonical gaits observed in nature without requiring domain-specific priors, where state-of-the-art baselines often fail, particularly on complex topologies like a torus. Our work lays a foundation for future opportunities in automated co-design of soft robots in complex hydrodynamic environments. The code is available at https://github.com/changyu-hu/FreeFlow.",
+  "keywords": [
+    "Soft Swimmer Agents",
+    "Swimming Simulation Environment",
+    "Morphological Generalization",
+    "Reinforcement Learning"
+  ],
+  "tldr": null,
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ hu2025learning, title={Learning to Control Free-Form Soft Swimmers}, author={Changyu Hu and Yanke Qu and Qiuan Yang and Xiaoyu Xiong and Kui Wu and Wei Li and Tao Du}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Z01gNsO9SW} }",
+  "url": "https://openreview.net/forum?id=Z01gNsO9SW",
+  "pdf_url": "https://openreview.net/pdf?id=Z01gNsO9SW",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "P4KjfMrVNU",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Hierarchical Information Aggregation for Incomplete Multimodal Alzheimer's Disease Diagnosis",
+  "authors": [
+    "Chengliang Liu",
+    "Yuanxi Que",
+    "Qihao Xu",
+    "Yabo Liu",
+    "Jie Wen",
+    "Jinghua Wang",
+    "Xiaoling Luo"
+  ],
+  "author_ids": [
+    "~Chengliang_Liu1",
+    "~Yuanxi_Que1",
+    "~Qihao_Xu2",
+    "~Yabo_Liu1",
+    "~Jie_Wen4",
+    "~Jinghua_Wang2",
+    "~Xiaoling_Luo2"
+  ],
+  "abstract": "Alzheimer's Disease (AD) poses a significant health threat to the aging population, underscoring the critical need for early diagnosis to delay disease progression and improve patient quality of life. Recent advances in heterogeneous multimodal artificial intelligence (AI) have facilitated comprehensive joint diagnosis, yet practical clinical scenarios frequently encounter incomplete modalities due to factors like high acquisition costs or radiation risks. Moreover, traditional convolution-based architecture face inherent limitations in capturing long-range dependencies and handling heterogeneous medical data efficiently. To address these challenges, in our proposed heterogeneous multimodal diagnostic framework (HAD), we develop a multi-view Hilbert curve-based Mamba block and a hierarchical spatial feature extraction module to simultaneously capture local spatial features and global dependencies, effectively alleviating spatial discontinuities introduced by voxel serialization. Furthermore, to balance semantic consistency and modal specificity, we build a unified mutual information learning objective in the heterogeneous multimodal embedding space, which maintains effective learning of modality-specific information to avoid modality collapse caused by model preference. Extensive experiments demonstrate that our HAD significantly outperforms state-of-the-art methods in various modality-missing scenarios, providing an efficient and reliable solution for early-stage AD diagnosis.",
+  "keywords": [
+    "Incomplete Multimodal Learning",
+    "State Space Model",
+    "Alzheimer's Disease Diagnosis"
+  ],
+  "tldr": "The framework is capable of processing multimodal data with arbitrary missing modalities, providing a flexible solution for AD diagnosis.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ liu2025hierarchical, title={Hierarchical Information Aggregation for Incomplete Multimodal Alzheimer's Disease Diagnosis}, author={Chengliang Liu and Yuanxi Que and Qihao Xu and Yabo Liu and Jie Wen and Jinghua Wang and Xiaoling Luo}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=P4KjfMrVNU} }",
+  "url": "https://openreview.net/forum?id=P4KjfMrVNU",
+  "pdf_url": "https://openreview.net/pdf?id=P4KjfMrVNU",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "i9zoexiRFA",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Fairness under Competition",
+  "authors": [
+    "Ronen Gradwohl",
+    "Eilam Shapira",
+    "Moshe Tennenholtz"
+  ],
+  "author_ids": [
+    "~Ronen_Gradwohl2",
+    "~Eilam_Shapira1",
+    "~Moshe_Tennenholtz1"
+  ],
+  "abstract": "Algorithmic fairness has emerged as a central issue in ML, and it has become standard practice to adjust ML algorithms so that they will satisfy fairness requirements such as Equal Opportunity. In this paper we consider the effects of adopting such fair classifiers on the overall level of _ecosystem fairness_. Specifically, we introduce the study of fairness with competing firms, and demonstrate the failure of fair classifiers in yielding fair ecosystems. Our results quantify the loss of fairness in systems, under a variety of conditions, based on classifiers' correlation and the level of their data overlap. We show that even if competing classifiers are individually fair, the ecosystem's outcome may be unfair; and that adjusting biased algorithms to improve their individual fairness may lead to an overall decline in ecosystem fairness. In addition to these theoretical results, we also provide supporting experimental evidence. Together, our model and results provide a novel and essential call for action.",
+  "keywords": [
+    "fairness",
+    "classification",
+    "strategic machine learning",
+    "competition"
+  ],
+  "tldr": "We study fair classification when multiple classifiers compete, and show that even if individual classifiers are fair the outcome may not be.",
+  "primary_area": "social_and_economic_aspects_of_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ gradwohl2025fairness, title={Fairness under Competition}, author={Ronen Gradwohl and Eilam Shapira and Moshe Tennenholtz}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=i9zoexiRFA} }",
+  "url": "https://openreview.net/forum?id=i9zoexiRFA",
+  "pdf_url": "https://openreview.net/pdf?id=i9zoexiRFA",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Dt5vRmUjAv",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Decomposing stimulus-specific sensory neural information via diffusion models",
+  "authors": [
+    "Steeve Laquitaine",
+    "Simone Azeglio",
+    "Carlo Paris",
+    "Ulisse Ferrari",
+    "Matthew Chalk"
+  ],
+  "author_ids": [
+    "~Steeve_Laquitaine1",
+    "~Simone_Azeglio1",
+    "~Carlo_Paris1",
+    "~Ulisse_Ferrari1",
+    "~Matthew_Chalk1"
+  ],
+  "abstract": "A central question in sensory neuroscience is how much, but also what information neurons transmit about the world. While Shannon’s information theory provides a principled framework to quantify the amount of information neurons encode about all stimuli, it does not reveal which stimuli contribute most, or what stimulus features are encoded. As a concrete example, it is known that neurons in the early visual cortex are 'sensitive' to stimuli in a small region of space (their receptive field). However, it is not clear how such simple intuitions carry to more complex scenarios, e.g. with large, noisy & non-linear population of neurons and high-dimensional stimuli. Several previous measures of neural sensitivity have been proposed. For example, the Fisher information quantifies the sensitivity of neural responses to infinitesimal stimulus perturbations. However, as the Fisher is not a valid decomposition of the mutual information it cannot say how different stimuli contribute to the total encoded information. On the other hand, previous works have proposed stimulus dependent decompositions of mutual information, which define a function $ I(x) $ such that $ I(R; X) = \\mathbb{E}[I(x)] $. However, this decomposition is inherently ill-posed: infinitely many functions $I(x)$ satisfy the constraint, with no principled way to select among them. Further, different decompositions behave in qualitatively different ways, making it hard to interpret what are they are telling us. Finally, most proposed decompositions are computationally intractable for the high-dimensional stimuli and non-linear encoding models relevant for neuroscience. To resolve these limitations, we propose a set of axioms that any stimulus specific and feature-specific information decomposition should satisfy in order to serve as a meaningful and interpretable measure of neural sensitivity. These axioms formalize intuitive desiderata: that the information assigned to each stimulus, and stimulus feature, should be non-negative, and additive with respect to repeated measurements. We also require the decomposition to respect a form of locality: changes in how a neuron responds to a stimulus $ x $ should not affect the information attributed to a distant stimulus $ x' $. Finally, the attribution must be insensitive to irrelevant features, which do not contribute to the total information. Together, these constraints ensure that the decomposition is both interpretable and theoretically grounded. We show that existing decompositions violate one or more of these axioms, limiting their interpretability and use as information theoretic measures of neural sensitivity. We then introduce a novel decomposition that satisfies all of our axioms. It generalizes Fisher information by capturing neural sensitivity to both infinitesimal and finite stimulus perturbations. Moreover, it supports further decomposition across individual stimulus features (e.g., image pixels), enabling fine-grained analysis of neural representations. Beyond satisfying our theoretical axioms, our decomposition is computationally tractable for large neural populations and high-dimensional naturalistic stimuli, through the use of diffusion models. We demonstrate the power of our method by quantifying the information encoded by a model of visual neurons about individual images and pixels. Our approach uncovers aspects of the neural code that are not picked up by standard methods, such as the Fisher information, and opens the door to similar analyses in higher-order sensory areas, and artificial neural networks.",
+  "keywords": [
+    "Neuroscience",
+    "Neural coding",
+    "Information theory",
+    "Efficient coding",
+    "Diffusion models"
+  ],
+  "tldr": "We propose a stimulus-wise decomposition of the mutual information that is (1) principled (axiomatic justification), (2) tractable (estimated via diffusion models), and then we demonstrate it's application on a model of visual neurons.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ laquitaine2025decomposing, title={Decomposing stimulus-specific sensory neural information via diffusion models}, author={Steeve Laquitaine and Simone Azeglio and Carlo Paris and Ulisse Ferrari and Matthew Chalk}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Dt5vRmUjAv} }",
+  "url": "https://openreview.net/forum?id=Dt5vRmUjAv",
+  "pdf_url": "https://openreview.net/pdf?id=Dt5vRmUjAv",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "hsf4gi5iEN",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "TokMan:Tokenize Manhattan Mask Optimization for Inverse Lithography",
+  "authors": [
+    "Yiwen Wu",
+    "Yuyang Chen",
+    "Ye Xia",
+    "Yao Zhao",
+    "Jingya Wang",
+    "Xuming He",
+    "Hao GENG",
+    "Jingyi Yu"
+  ],
+  "author_ids": [
+    "~Yiwen_Wu2",
+    "~Yuyang_Chen4",
+    "~Ye_Xia3",
+    "~Yao_Zhao13",
+    "~Jingya_Wang3",
+    "~Xuming_He3",
+    "~Hao_GENG3",
+    "~Jingyi_Yu5"
+  ],
+  "abstract": "Manhattan representations, defined by axis-aligned, orthogonal structures, are widely used in vision, robotics, and semiconductor design for their geometric regularity and algorithmic simplicity. In integrated circuit (IC) design, Manhattan geometry is key for routing, design rule checking, and lithographic manufacturability. However, as feature sizes shrink, optical system distortions lead to inconsistency between intended layout and printed wafer. Although Inverse Lithography Technology(ILT) is proposed to compensates these effects, learning-based ILT methods, while achieving high simulation fidelity, often generate curvilinear masks on continuous pixel grids, violating Manhattan constraints. Therefore, we propose TokMan, the first framework to formulate mask optimization as a discrete, structure-aware sequence modeling task. Our method leverages a Diffusion Transformer to tokenize layouts into discrete geometric primitives with polygon-wise dependencies and denoise Manhattan-aligned point sequences corrupted by optical proximity effects, while ensuring binary, manufacturable masks. Trained with self-supervised lithographic feedback through differentiable simulation and refined with ILT post-processing, TokMan achieves state-of-the-art fidelity, runtime efficiency, and strict manufacturing compliance on a large-scale dataset of IC layouts.",
+  "keywords": [
+    "Structured Tokenization",
+    "Manhattan represenetation",
+    "Inverse Rendering"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ wu2025tokmantokenize, title={TokMan:Tokenize Manhattan Mask Optimization for Inverse Lithography}, author={Yiwen Wu and Yuyang Chen and Ye Xia and Yao Zhao and Jingya Wang and Xuming He and Hao GENG and Jingyi Yu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=hsf4gi5iEN} }",
+  "url": "https://openreview.net/forum?id=hsf4gi5iEN",
+  "pdf_url": "https://openreview.net/pdf?id=hsf4gi5iEN",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "CYG3kmFsgM",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Pragmatic Heterogeneous Collaborative Perception via Generative Communication Mechanism",
+  "authors": [
+    "Junfei Zhou",
+    "Penglin Dai",
+    "Quanmin Wei",
+    "Bingyi Liu",
+    "Xiao Wu",
+    "Jianping Wang"
+  ],
+  "author_ids": [
+    "~Junfei_Zhou1",
+    "~Penglin_Dai2",
+    "~Quanmin_Wei1",
+    "~Bingyi_Liu1",
+    "~Xiao_Wu1",
+    "~Jianping_Wang1"
+  ],
+  "abstract": "Multi-agent collaboration enhances the perception capabilities of individual agents through information sharing. However, in real-world applications, differences in sensors and models across heterogeneous agents inevitably lead to domain gaps during collaboration. Existing approaches based on adaptation and reconstruction fail to support *pragmatic heterogeneous collaboration* due to two key limitations: (1) Intrusive retraining of the encoder or core modules disrupts the established semantic consistency among agents; and (2) accommodating new agents incurs high computational costs, limiting scalability. To address these challenges, we present a novel **Gen**erative **Comm**unication mechanism (GenComm) that facilitates seamless perception across heterogeneous multi-agent systems through feature generation, without altering the original network, and employs lightweight numerical alignment of spatial information to efficiently integrate new agents at minimal cost. Specifically, a tailored Deformable Message Extractor is designed to extract spatial message for each collaborator, which is then transmitted in place of intermediate features. The Spatial-Aware Feature Generator, utilizing a conditional diffusion model, generates features aligned with the ego agent's semantic space while preserving the spatial information of the collaborators. These generated features are further refined by a Channel Enhancer before fusion. Experiments conducted on the OPV2V-H, DAIR-V2X and V2X-Real datasets demonstrate that GenComm outperforms existing state-of-the-art methods, achieving an 81\\% reduction in both computational cost and parameter count when incorporating new agents. Our code is available at https://github.com/jeffreychou777/GenComm.",
+  "keywords": [
+    "Collaborative Perception; Heterogeneous Collaboration; Diffusion model"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhou2025pragmatic, title={Pragmatic Heterogeneous Collaborative Perception via Generative Communication Mechanism}, author={Junfei Zhou and Penglin Dai and Quanmin Wei and Bingyi Liu and Xiao Wu and Jianping Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=CYG3kmFsgM} }",
+  "url": "https://openreview.net/forum?id=CYG3kmFsgM",
+  "pdf_url": "https://openreview.net/pdf?id=CYG3kmFsgM",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "eXO6g7BmOA",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation",
+  "authors": [
+    "Raktim Gautam Goswami",
+    "Prashanth Krishnamurthy",
+    "Yann LeCun",
+    "Farshad Khorrami"
+  ],
+  "author_ids": [
+    "~Raktim_Gautam_Goswami1",
+    "~Prashanth_Krishnamurthy1",
+    "~Yann_LeCun1",
+    "~Farshad_Khorrami1"
+  ],
+  "abstract": "Visual imitation learning enables robotic agents to acquire skills by observing expert demonstration videos. In the one-shot setting, the agent generates a policy after observing a single expert demonstration without additional fine-tuning. Existing approaches typically train and evaluate on the same set of tasks, varying only object configurations, and struggle to generalize to unseen tasks with different semantic or structural requirements. While some recent methods attempt to address this, they exhibit low success rates on hard test tasks that, despite being visually similar to some training tasks, differ in context and require distinct responses. Additionally, most existing methods lack an explicit model of environment dynamics, limiting their ability to reason about future states. To address these limitations, we propose a novel framework for one-shot visual imitation learning via world-model-guided trajectory generation. Given an expert demonstration video and the agent’s initial observation, our method leverages a learned world model to predict a sequence of latent states and actions. This latent trajectory is then decoded into physical waypoints that guide the agent’s execution. Our method is evaluated on two simulated benchmarks and three real-world robotic platforms, where it consistently outperforms prior approaches, with over 30% improvement in some cases.",
+  "keywords": [
+    "One-Shot Visual Imitation Learning",
+    "World Model",
+    "Robot Learning"
+  ],
+  "tldr": null,
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ goswami2025osviwm, title={{OSVI}-{WM}: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation}, author={Raktim Gautam Goswami and Prashanth Krishnamurthy and Yann LeCun and Farshad Khorrami}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=eXO6g7BmOA} }",
+  "url": "https://openreview.net/forum?id=eXO6g7BmOA",
+  "pdf_url": "https://openreview.net/pdf?id=eXO6g7BmOA",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Jzr9VOiJYd",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Contimask: Explaining Irregular Time Series via Perturbations in Continuous Time",
+  "authors": [
+    "Max Moebus",
+    "Björn Braun",
+    "Christian Holz"
+  ],
+  "author_ids": [
+    "~Max_Moebus1",
+    "~Björn_Braun1",
+    "~Christian_Holz1"
+  ],
+  "abstract": "Explaining black-box models for time series data is critical for the wide-scale adoption of deep learning techniques across domains such as healthcare. Recently, explainability methods for deep time series models have seen significant progress by adopting saliency methods that perturb masked segments of time series to uncover their importance towards the prediction of black-box models. Thus far, such methods have been largely restricted to regular time series. Irregular time series, however, sampled at irregular time intervals and potentially with missing values, are the dominant form of time series in various critical domains (e.g., hospital records). In this paper, we conduct the first evaluation of saliency methods for the interpretation of irregular time series models. We first translate techniques for regular time series into the continuous time realm of irregular time series and show under which circumstances such techniques are still applicable. However, existing perturbation techniques neglect the timing and structure of observed data, e.g., informative missingness when data is not missing at random. Thus, we propose Contimask, a simple framework to also apply non-differentiable perturbations, such as simulating that parts of the data had not been observed using NeuroEvolution. Doing so, we successfully detect how structural differences in the data can bias irregular time series models on a real-world sepsis prediction task where 90% of the data is missing. Source code is available on GitHub.",
+  "keywords": [
+    "Irregular Time Series",
+    "Explainability",
+    "Interpretability",
+    "Explanations",
+    "Perturbations"
+  ],
+  "tldr": "Contimask is the first post-hoc explainer for irregular time series models capable of explaining models that besides the value of observed data factor in missingness or time intensity.",
+  "primary_area": "social_and_economic_aspects_of_machine_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ moebus2025contimask, title={Contimask: Explaining Irregular Time Series via Perturbations in Continuous Time}, author={Max Moebus and Bj{\\\"o}rn Braun and Christian Holz}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Jzr9VOiJYd} }",
+  "url": "https://openreview.net/forum?id=Jzr9VOiJYd",
+  "pdf_url": "https://openreview.net/pdf?id=Jzr9VOiJYd",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "xVI8g50Qfk",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Error Forcing in Recurrent Neural Networks",
+  "authors": [
+    "A Erdem Sağtekin",
+    "Colin Bredenberg",
+    "Cristina Savin"
+  ],
+  "author_ids": [
+    "~A_Erdem_Sağtekin1",
+    "~Colin_Bredenberg1",
+    "~Cristina_Savin1"
+  ],
+  "abstract": "How should feedback influence recurrent neural network (RNN) learning? One way to address the known limitations of backpropagation through time is to directly adjust neural activities during the learning process. However, it remains unclear how to effectively use feedback to shape RNN dynamics. Here, we introduce error forcing (EF), where the network activity is guided orthogonally toward the zero-error manifold during learning. This method contrasts with alternatives like teaching forcing, which impose stronger constraints on neural activity and thus induce larger feedback influence on circuit dynamics. Furthermore, EF can be understood from a Bayesian perspective as a form of approximate dynamic inference. Empirically, EF consistently outperforms other learning algorithms across several tasks and its benefits persist when additional biological constraints are taken into account. Overall, EF is a powerful temporal credit assignment mechanism and a promising candidate model for learning in biological systems.",
+  "keywords": [
+    "recurrent neural networks",
+    "bio-plausible learning"
+  ],
+  "tldr": "A more effective way of forcing RNN dynamics during supervised learning.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ sagtekin2025error, title={Error Forcing in Recurrent Neural Networks}, author={A Erdem Sa{\\u{g}}tekin and Colin Bredenberg and Cristina Savin}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=xVI8g50Qfk} }",
+  "url": "https://openreview.net/forum?id=xVI8g50Qfk",
+  "pdf_url": "https://openreview.net/pdf?id=xVI8g50Qfk",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "ErEaq1UNaQ",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Predictive Preference Learning from Human Interventions",
+  "authors": [
+    "Haoyuan Cai",
+    "Zhenghao Peng",
+    "Bolei Zhou"
+  ],
+  "author_ids": [
+    "~Haoyuan_Cai1",
+    "~Zhenghao_Peng1",
+    "~Bolei_Zhou5"
+  ],
+  "abstract": "Learning from human involvement aims to incorporate the human subject to monitor and correct agent behavior errors. Although most interactive imitation learning methods focus on correcting the agent’s action at the current state, they do not adjust its actions in future states, which may be potentially more hazardous. To address this, we introduce Predictive Preference Learning from Human Interventions (PPL), which leverages the implicit preference signals contained in human interventions to inform predictions of future rollouts. The key idea of PPL is to bootstrap each human intervention into L future time steps, called the preference horizon, with the assumption that the agent follows the same action and the human makes the same intervention in the preference horizon. By applying preference optimization on these future states, expert corrections are propagated into the safety-critical regions where the agent is expected to explore, significantly improving learning efficiency and reducing human demonstrations needed. We evaluate our approach with experiments on both autonomous driving and robotic manipulation benchmarks and demonstrate its efficiency and generality. Our theoretical analysis further shows that selecting an appropriate preference horizon L balances coverage of risky states with label correctness, thereby bounding the algorithmic optimality gap. Demo and code are available at: https://metadriverse.github.io/ppl.",
+  "keywords": [
+    "Imitation Learning",
+    "Human-in-the-loop Reinforcement Learning",
+    "Shared Autonomy",
+    "Learning from Human Preference"
+  ],
+  "tldr": null,
+  "primary_area": "reinforcement_learning",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ cai2025predictive, title={Predictive Preference Learning from Human Interventions}, author={Haoyuan Cai and Zhenghao Peng and Bolei Zhou}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=ErEaq1UNaQ} }",
+  "url": "https://openreview.net/forum?id=ErEaq1UNaQ",
+  "pdf_url": "https://openreview.net/pdf?id=ErEaq1UNaQ",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "avZ01E4aYt",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Adv-BMT: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation",
+  "authors": [
+    "Yuxin Liu",
+    "Zhenghao Peng",
+    "Xuanhao Cui",
+    "Bolei Zhou"
+  ],
+  "author_ids": [
+    "~Yuxin_Liu6",
+    "~Zhenghao_Peng1",
+    "~Xuanhao_Cui1",
+    "~Bolei_Zhou5"
+  ],
+  "abstract": "Scenario-based testing is essential for validating the performance of autonomous driving (AD) systems. However, such testing is limited by the scarcity of long-tailed, safety-critical scenarios in existing datasets collected in the real world. To tackle the data issue, we propose the Adv-BMT framework, which augments real-world scenarios with diverse and realistic adversarial interactions. The core component of Adv-BMT is a bidirectional motion transformer (BMT) model to perform inverse traffic motion predictions, which takes the last frame of the scenario as input and reconstruct the traffic in the inverse of chronological order, till the initial time step. The Adv-BMT framework is a two-stage pipeline: it first conducts adversarial initializations and then inverse motion predictions. Different from previous work, we do not need any collision data for pretraining and are still able to generate realistic and diverse collision interactions. Our experimental results validate the quality of generated collision scenarios by Adv-BMT: training in our augmented dataset would reduce episode collision rates by 20\\% compared to previous work. The code will be made available.",
+  "keywords": [
+    "autonomous driving",
+    "reinforcement learning",
+    "robotics"
+  ],
+  "tldr": "We propose the Adv-BMT framework to augment real-world scenarios with diverse and realistic adversarial interactions.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ liu2025advbmt, title={Adv-{BMT}: Bidirectional Motion Transformer for Safety-Critical Traffic Scenario Generation}, author={Yuxin Liu and Zhenghao Peng and Xuanhao Cui and Bolei Zhou}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=avZ01E4aYt} }",
+  "url": "https://openreview.net/forum?id=avZ01E4aYt",
+  "pdf_url": "https://openreview.net/pdf?id=avZ01E4aYt",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "1GIQOV3NAj",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Tru-POMDP: Task Planning Under Uncertainty via Tree of Hypotheses and Open-Ended POMDPs",
+  "authors": [
+    "Wenjing Tang",
+    "Xinyu He",
+    "Yongxi Huang",
+    "Yunxiao Xiao",
+    "Cewu Lu",
+    "Panpan Cai"
+  ],
+  "author_ids": [
+    "~Wenjing_Tang3",
+    "~Xinyu_He10",
+    "~Yongxi_Huang1",
+    "~Yunxiao_Xiao1",
+    "~Cewu_Lu3",
+    "~Panpan_Cai1"
+  ],
+  "abstract": "Task planning under uncertainty is essential for home-service robots operating in the real world. Tasks involve ambiguous human instructions, hidden or unknown object locations, and open-vocabulary object types, leading to significant open-ended uncertainty and a boundlessly large planning space. To address these challenges, we propose Tru-POMDP, a planner that combines structured belief generation using Large Language Models (LLMs) with principled POMDP planning. Tru-POMDP introduces a hierarchical Tree of Hypotheses (TOH), which systematically queries an LLM to construct high-quality particle beliefs over possible world states and human goals. We further formulate an open-ended POMDP model that enables rigorous Bayesian belief tracking and efficient belief-space planning over these LLM-generated hypotheses. Experiments on complex object rearrangement tasks across diverse kitchen environments show that Tru-POMDP significantly outperforms state-of-the-art LLM-based and LLM-tree-search hybrid planners, achieving higher success rates with significantly better plans, stronger robustness to ambiguity and occlusion, and greater planning efficiency.",
+  "keywords": [
+    "Robotics",
+    "Planning under uncertainty",
+    "Robot task planning",
+    "Large language models",
+    "POMDPs"
+  ],
+  "tldr": "Tru-POMDP combines rigorous POMDP planning with structured belief generation via Large Language Models (LLMs).",
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ tang2025trupomdp, title={Tru-{POMDP}: Task Planning Under Uncertainty via Tree of Hypotheses and Open-Ended {POMDP}s}, author={Wenjing Tang and Xinyu He and Yongxi Huang and Yunxiao Xiao and Cewu Lu and Panpan Cai}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=1GIQOV3NAj} }",
+  "url": "https://openreview.net/forum?id=1GIQOV3NAj",
+  "pdf_url": "https://openreview.net/pdf?id=1GIQOV3NAj",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "XUks1Y96NR",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Reinforcement Learning with Action Chunking",
+  "authors": [
+    "Qiyang Li",
+    "Zhiyuan Zhou",
+    "Sergey Levine"
+  ],
+  "author_ids": [
+    "~Qiyang_Li1",
+    "~Zhiyuan_Zhou2",
+    "~Sergey_Levine1"
+  ],
+  "abstract": "We present Q-chunking, a simple yet effective recipe for improving reinforcement learning (RL) algorithms for long-horizon, sparse-reward tasks. Our recipe is designed for the offline-to-online RL setting, where the goal is to leverage an offline prior dataset to maximize the sample-efficiency of online learning. Effective exploration and sample-efficient learning remain central challenges in this setting, as it is not obvious how the offline data should be utilized to acquire a good exploratory policy. Our key insight is that action chunking, a technique popularized in imitation learning where sequences of future actions are predicted rather than a single action at each timestep, can be applied to temporal difference (TD)-based RL methods to mitigate the exploration challenge. Q-chunking adopts action chunking by directly running RL in a *chunked* action space, enabling the agent to (1) leverage temporally consistent behaviors from offline data for more effective online exploration and (2) use unbiased $n$-step backups for more stable and efficient TD learning. Our experimental results demonstrate that Q-chunking exhibits strong offline performance and online sample efficiency, outperforming prior best offline-to-online methods on a range of long-horizon, sparse-reward manipulation tasks.",
+  "keywords": [
+    "reinforcement learning",
+    "offline-to-online RL",
+    "exploration"
+  ],
+  "tldr": "We propose Q-chunking, a simple, effective offline-to-online RL method that uses action chunking to improve value propagation and exploration via temporally coherent actions.",
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ li2025reinforcement, title={Reinforcement Learning with Action Chunking}, author={Qiyang Li and Zhiyuan Zhou and Sergey Levine}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=XUks1Y96NR} }",
+  "url": "https://openreview.net/forum?id=XUks1Y96NR",
+  "pdf_url": "https://openreview.net/pdf?id=XUks1Y96NR",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "TubIV2Q4Ck",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Coupled Data and Measurement Space Dynamics for Enhanced Diffusion Posterior Sampling",
+  "authors": [
+    "Shayan Mohajer Hamidi",
+    "Ben Liang",
+    "EN-HUI YANG"
+  ],
+  "author_ids": [
+    "~Shayan_Mohajer_Hamidi1",
+    "~Ben_Liang1",
+    "~EN-HUI_YANG1"
+  ],
+  "abstract": "Inverse problems, where the goal is to recover an unknown signal from noisy or incomplete measurements, are central to applications in medical imaging, remote sensing, and computational biology. Diffusion models have recently emerged as powerful priors for solving such problems. However, existing methods either rely on projection-based techniques that enforce measurement consistency through heuristic updates, or they approximate the likelihood $p(\\boldsymbol{y} \\mid \\boldsymbol{x})$, often resulting in artifacts and instability under complex or high-noise conditions. To address these limitations, we propose a novel framework called coupled data and measurement space diffusion posterior sampling (C-DPS), which eliminates the need for constraint tuning or likelihood approximation. C-DPS introduces a forward stochastic process in the measurement space $\\{\\boldsymbol{y}_t\\}$, evolving in parallel with the data-space diffusion $\\{\\boldsymbol{x}_t\\}$, which enables the derivation of a closed-form posterior $p(\\boldsymbol{x}_{t-1} \\mid \\boldsymbol{x}_t, \\boldsymbol{y}_{t-1})$. This coupling allows for accurate and recursive sampling based on a well-defined posterior distribution. Empirical results demonstrate that C-DPS consistently outperforms existing baselines, both qualitatively and quantitatively, across multiple inverse problem benchmarks.",
+  "keywords": [
+    "Diffusion Models",
+    "Inverse Problems",
+    "Posterior Sampling"
+  ],
+  "tldr": null,
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ hamidi2025coupled, title={Coupled Data and Measurement Space Dynamics for Enhanced Diffusion Posterior Sampling}, author={Shayan Mohajer Hamidi and Ben Liang and EN-HUI YANG}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=TubIV2Q4Ck} }",
+  "url": "https://openreview.net/forum?id=TubIV2Q4Ck",
+  "pdf_url": "https://openreview.net/pdf?id=TubIV2Q4Ck",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "gzQYPO0d7b",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "DAIL: Beyond Task Ambiguity for Language-Conditioned Reinforcement Learning",
+  "authors": [
+    "Runpeng Xie",
+    "Quanwei Wang",
+    "Hao Hu",
+    "Zherui Zhou",
+    "Ni Mu",
+    "Xiyun Li",
+    "Yiqin Yang",
+    "Shuang Xu",
+    "Qianchuan Zhao",
+    "Bo XU"
+  ],
+  "author_ids": [
+    "~Runpeng_Xie2",
+    "~Quanwei_Wang1",
+    "~Hao_Hu3",
+    "~Zherui_Zhou1",
+    "~Ni_Mu1",
+    "~Xiyun_Li1",
+    "~Yiqin_Yang1",
+    "~Shuang_Xu6",
+    "~Qianchuan_Zhao1",
+    "~Bo_XU10"
+  ],
+  "abstract": "Comprehending natural language and following human instructions are critical capabilities for intelligent agents. However, the flexibility of linguistic instructions induces substantial ambiguity across language-conditioned tasks, severely degrading algorithmic performance. To address these limitations, we present a novel method named DAIL (Distributional Aligned Learning), featuring two key components: distributional policy and semantic alignment. Specifically, we provide theoretical results that the value distribution estimation mechanism enhances task differentiability. Meanwhile, the semantic alignment module captures the correspondence between trajectories and linguistic instructions. Extensive experimental results on both structured and visual observation benchmarks demonstrate that DAIL effectively resolves instruction ambiguities, achieving superior performance to baseline methods. Our implementation is available at https://github.com/RunpengXie/Distributional-Aligned-Learning.",
+  "keywords": [
+    "Offline Reinforcement Learning",
+    "Language-conditioned Reinforcement Learning",
+    "Representation Learning"
+  ],
+  "tldr": "This work presents DAIL, a semantic aligned reinforcement learning method that improves task discrimination and generalization in language-conditioned problems.",
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ xie2025dail, title={{DAIL}: Beyond Task Ambiguity for Language-Conditioned Reinforcement Learning}, author={Runpeng Xie and Quanwei Wang and Hao Hu and Zherui Zhou and Ni Mu and Xiyun Li and Yiqin Yang and Shuang Xu and Qianchuan Zhao and Bo XU}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=gzQYPO0d7b} }",
+  "url": "https://openreview.net/forum?id=gzQYPO0d7b",
+  "pdf_url": "https://openreview.net/pdf?id=gzQYPO0d7b",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "fYSPRGmS6l",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "MoRE-Brain: Routed Mixture of Experts for Interpretable and Generalizable Cross-Subject fMRI Visual Decoding",
+  "authors": [
+    "YUXIANG WEI",
+    "Yanteng Zhang",
+    "Xi Xiao",
+    "Tianyang Wang",
+    "Xiao Wang",
+    "Vince Calhoun"
+  ],
+  "author_ids": [
+    "~YUXIANG_WEI3",
+    "~Yanteng_Zhang1",
+    "~Xi_Xiao2",
+    "~Tianyang_Wang1",
+    "~Xiao_Wang21",
+    "~Vince_Calhoun1"
+  ],
+  "abstract": "Decoding visual experiences from fMRI offers a powerful avenue to understand human perception and develop advanced brain-computer interfaces. However, current progress often prioritizes maximizing reconstruction fidelity while overlooking interpretability, an essential aspect for deriving neuroscientific insight. To address this gap, we propose MoRE-Brain, a neuro-inspired framework designed for high-fidelity, adaptable, and interpretable visual reconstruction. MoRE-Brain uniquely employs a hierarchical Mixture-of-Experts architecture where distinct experts process fMRI signals from functionally related voxel groups, mimicking specialized brain networks. The experts are first trained to encode fMRI into the frozen CLIP space. A finetuned diffusion model then synthesizes images, guided by expert outputs through a novel dual-stage routing mechanism that dynamically weighs expert contributions across the diffusion process. MoRE-Brain offers three main advancements: First, it introduces a novel Mixture-of-Experts architecture grounded in brain network principles for neuro-decoding. Second, it achieves efficient cross-subject generalization by sharing core expert networks while adapting only subject-specific routers. Third, it provides enhanced mechanistic insight, as the explicit routing reveals precisely how different modeled brain regions shape the semantic and spatial attributes of the reconstructed image. Extensive experiments validate MoRE-Brain’s high reconstruction fidelity, with bottleneck analyses further demonstrating its effective utilization of fMRI signals, distinguishing genuine neural decoding from over-reliance on generative priors. Consequently, MoRE-Brain marks a substantial advance towards more generalizable and interpretable fMRI-based visual decoding.",
+  "keywords": [
+    "brain decoding; visual reconstruction; fMRI"
+  ],
+  "tldr": null,
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ wei2025morebrain, title={Mo{RE}-Brain: Routed Mixture of Experts for Interpretable and Generalizable Cross-Subject f{MRI} Visual Decoding}, author={YUXIANG WEI and Yanteng Zhang and Xi Xiao and Tianyang Wang and Xiao Wang and Vince Calhoun}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=fYSPRGmS6l} }",
+  "url": "https://openreview.net/forum?id=fYSPRGmS6l",
+  "pdf_url": "https://openreview.net/pdf?id=fYSPRGmS6l",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "11fe8wKkmk",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Fully Autonomous Neuromorphic Navigation and Dynamic Obstacle Avoidance",
+  "authors": [
+    "Xiaochen Shang",
+    "Luo Pengwei",
+    "Xinning Wang",
+    "Jiayue Zhao",
+    "Huilin Ge",
+    "Bo Dong",
+    "Xin Yang"
+  ],
+  "author_ids": [
+    "~Xiaochen_Shang1",
+    "~Luo_Pengwei1",
+    "~Xinning_Wang1",
+    "~Jiayue_Zhao2",
+    "~Huilin_Ge1",
+    "~Bo_Dong7",
+    "~Xin_Yang8"
+  ],
+  "abstract": "Unmanned aerial vehicles could accurately accomplish complex navigation and obstacle avoidance tasks under external control. However, enabling unmanned aerial vehicles (UAVs) to rely solely on onboard computation and sensing for real-time navigation and dynamic obstacle avoidance remains a significant challenge due to stringent latency and energy constraints. Inspired by the efficiency of biological systems, we propose a fully neuromorphic framework achieving end-to-end obstacle avoidance during navigation with an overall latency of just 2.3 milliseconds. Specifically, our bio-inspired approach enables accurate moving object detection and avoidance without requiring target recognition or trajectory computation. Additionally, we introduce the first monocular event-based pose correction dataset with over 50,000 paired and labeled event streams. We validate our system on an autonomous quadrotor using only onboard resources, demonstrating reliable navigation and avoidance of diverse obstacles moving at speeds up to 10 m/s.",
+  "keywords": [
+    "neuromorphic",
+    "bio-inspred algorithm",
+    "dynamic obstacle avoidance",
+    "navigation",
+    "UAV",
+    "autonomous robots",
+    "event camera"
+  ],
+  "tldr": "A fully autonomous neuromorphic pipeline for tiny autonomous UAV to navigate and avoid dynamic obstacles under various light conditions in less than 2.3 ms with energy consumption reduced to 21% of traditional architecture.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ shang2025fully, title={Fully Autonomous Neuromorphic Navigation and Dynamic Obstacle Avoidance}, author={Xiaochen Shang and Luo Pengwei and Xinning Wang and Jiayue Zhao and Huilin Ge and Bo Dong and Xin Yang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=11fe8wKkmk} }",
+  "url": "https://openreview.net/forum?id=11fe8wKkmk",
+  "pdf_url": "https://openreview.net/pdf?id=11fe8wKkmk",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "kp9B9iQDIt",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Object-centric 3D Motion Field for Robot Learning from Human Videos",
+  "authors": [
+    "Zhao-Heng Yin",
+    "Sherry Yang",
+    "Pieter Abbeel"
+  ],
+  "author_ids": [
+    "~Zhao-Heng_Yin1",
+    "~Sherry_Yang1",
+    "~Pieter_Abbeel2"
+  ],
+  "abstract": "Learning robot control policies from human videos is a promising direction for scaling up robot learning. However, how to extract action knowledge (or action representations) from videos for policy learning remains a key challenge. Existing action representations such as video frames, pixelflow, and pointcloud flow have inherent limitations such as modeling complexity or loss of information. In this paper, we propose to use object-centric 3D motion field to represent actions for robot learning from human videos, and present a novel framework for extracting this representation from videos for zero-shot control. We introduce two novel components. First, a novel training pipeline for training a ``denoising'' 3D motion field estimator to extract fine object 3D motions from human videos with noisy depth robustly. Second, a dense object-centric 3D motion field prediction architecture that favors both cross-embodiment transfer and policy generalization to background. We evaluate the system in real world setups. Experiments show that our method reduces 3D motion estimation error by over 50% compared to the latest method, achieve 55% average success rate in diverse tasks where prior approaches fail ($\\lesssim 10$\\%), and can even acquire fine-grained manipulation skills like insertion.",
+  "keywords": [
+    "Learning from videos; Robot Learning; 3D Perception"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ yin2025objectcentric, title={Object-centric 3D Motion Field for Robot Learning from Human Videos}, author={Zhao-Heng Yin and Sherry Yang and Pieter Abbeel}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=kp9B9iQDIt} }",
+  "url": "https://openreview.net/forum?id=kp9B9iQDIt",
+  "pdf_url": "https://openreview.net/pdf?id=kp9B9iQDIt",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "WQq5JPGQ0C",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "RadZero: Similarity-Based Cross-Attention for Explainable Vision-Language Alignment in Chest X-ray with Zero-Shot Multi-Task Capability",
+  "authors": [
+    "Jonggwon Park",
+    "Byungmu Yoon",
+    "Soobum Kim",
+    "Kyoyun Choi"
+  ],
+  "author_ids": [
+    "~Jonggwon_Park1",
+    "~Byungmu_Yoon1",
+    "~Soobum_Kim2",
+    "~Kyoyun_Choi1"
+  ],
+  "abstract": "Recent advancements in multimodal models have significantly improved vision-language (VL) alignment in radiology. However, existing approaches struggle to effectively utilize complex radiology reports for learning and offer limited interpretability through attention probability visualizations. To address these challenges, we introduce $\\textbf{RadZero}$, a novel framework for VL alignment in chest X-ray with zero-shot multi-task capability. A key component of our approach is $\\textbf{VL-CABS}$ ($\\textbf{V}$ision-$\\textbf{L}$anguage $\\textbf{C}$ross-$\\textbf{A}$ttention $\\textbf{B}$ased on $\\textbf{S}$imilarity), which aligns text embeddings with local image features for interpretable, fine-grained VL reasoning. RadZero leverages large language models to extract concise semantic sentences from radiology reports and employs multi-positive contrastive training to effectively capture relationships between images and multiple relevant textual descriptions. It uses a pre-trained vision encoder with additional trainable Transformer layers, allowing efficient high-resolution image processing. By computing similarity between text embeddings and local image patch features, VL-CABS enables zero-shot inference with similarity probability for classification, and pixel-level VL similarity maps for grounding and segmentation. Experimental results on public chest radiograph benchmarks show that RadZero outperforms state-of-the-art methods in zero-shot classification, grounding, and segmentation. Furthermore, VL similarity map analysis highlights the potential of VL-CABS for improving explainability in VL alignment. Additionally, qualitative evaluation demonstrates RadZero's capability for open-vocabulary semantic segmentation, further validating its effectiveness in medical imaging. Code is available at https://github.com/deepnoid-ai/RadZero.",
+  "keywords": [
+    "medical imaging",
+    "multimodal learning",
+    "zero-shot learning",
+    "vision-language alignment",
+    "explainable ai"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ park2025radzero, title={RadZero: Similarity-Based Cross-Attention for Explainable Vision-Language Alignment in Chest X-ray with Zero-Shot Multi-Task Capability}, author={Jonggwon Park and Byungmu Yoon and Soobum Kim and Kyoyun Choi}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=WQq5JPGQ0C} }",
+  "url": "https://openreview.net/forum?id=WQq5JPGQ0C",
+  "pdf_url": "https://openreview.net/pdf?id=WQq5JPGQ0C",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "MlJyAvQaxp",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data",
+  "authors": [
+    "Xiaoyang Liu",
+    "Kangjie Bao",
+    "Jiashuo Zhang",
+    "Yunqi Liu",
+    "Yu Chen",
+    "Yuntian Liu",
+    "Yang Jiao",
+    "Tao Luo"
+  ],
+  "author_ids": [
+    "~Xiaoyang_Liu8",
+    "~Kangjie_Bao1",
+    "~Jiashuo_Zhang3",
+    "~Yunqi_Liu4",
+    "~Yu_Chen53",
+    "~Yuntian_Liu1",
+    "~Yang_Jiao11",
+    "~Tao_Luo3"
+  ],
+  "abstract": "Autoformalization, the automatic translation of mathematical content from natural language into machine-verifiable formal languages, has seen significant progress driven by advances in large language models (LLMs). Nonetheless, a primary barrier to further improvements is the limited availability of parallel corpora that map informal mathematical text to its formal counterpart. To address this limitation, we propose ATLAS (Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data), a novel data generation framework designed to produce large-scale, high-quality parallel corpora of theorem statements. Distinct from prior approaches, ATLAS begins with a concept repository, accelerates the improvement of the student model through expert iteration combined with knowledge distillation, and introduces two novel augmentation strategies that exploit the structural characteristics of formal languages. Running the proposed ATLAS framework for 10 iterations, we construct an undergraduate-level dataset of 117k theorem statements and develop the ATLAS Translator by fine-tuning Llama3.1-8B-Instruct with LoRA. This model establishes a new state of the art, demonstrating statistically significant improvements over both the Herald Translator and the Kimina-Autoformalizer across all benchmarks (p<0.05, two-sided t-test). Furthermore, we demonstrate that the full-parameter fine-tuning of a stronger base model on the ATLAS dataset leads to superior performance. The datasets, model, and code are available at https://github.com/XiaoyangLiu-sjtu/ATLAS.",
+  "keywords": [
+    "Autoformalization",
+    "Formal Mathematics",
+    "Lean 4",
+    "Automated theorem proving",
+    "Dataset"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ liu2025atlas, title={{ATLAS}: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data}, author={Xiaoyang Liu and Kangjie Bao and Jiashuo Zhang and Yunqi Liu and Yu Chen and Yuntian Liu and Yang Jiao and Tao Luo}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=MlJyAvQaxp} }",
+  "url": "https://openreview.net/forum?id=MlJyAvQaxp",
+  "pdf_url": "https://openreview.net/pdf?id=MlJyAvQaxp",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "k0wyi4cOGy",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "KARMA: Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+  "authors": [
+    "Yuxing Lu",
+    "Wei Wu",
+    "Xukai Zhao",
+    "Rui Peng",
+    "Jinzhuo Wang"
+  ],
+  "author_ids": [
+    "~Yuxing_Lu1",
+    "~Wei_Wu28",
+    "~Xukai_Zhao1",
+    "~Rui_Peng3",
+    "~Jinzhuo_Wang1"
+  ],
+  "abstract": "Maintaining comprehensive and up-to-date knowledge graphs (KGs) is critical for modern AI systems, but manual curation struggles to scale with the rapid growth of scientific literature. This paper presents KARMA, a novel framework employing multi-agent large language models (LLMs) to automate KG enrichment through structured analysis of unstructured text. Our approach employs nine collaborative agents, spanning entity discovery, relation extraction, schema alignment, and conflict resolution that iteratively parse documents, verify extracted knowledge, and integrate it into existing graph structures while adhering to domain-specific schema. Experiments on 1,200 PubMed articles from three different domains demonstrate the effectiveness of KARMA in knowledge graph enrichment, with the identification of up to 38,230 new entities while achieving 83.1\\% LLM-verified correctness and reducing conflict edges by 18.6\\% through multi-layer assessments.",
+  "keywords": [
+    "Knowledge Graphs",
+    "Multi Agent System"
+  ],
+  "tldr": "KARMA is a multi-agent LLM framework that automatically update and expand knowledge graphs from scientific papers. By using nine specialized agents, KARMA successfully add new entities with high verified accuracy and reduce inconsistencies.",
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ lu2025karma, title={{KARMA}: Leveraging Multi-Agent {LLM}s for Automated Knowledge Graph Enrichment}, author={Yuxing Lu and Wei Wu and Xukai Zhao and Rui Peng and Jinzhuo Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=k0wyi4cOGy} }",
+  "url": "https://openreview.net/forum?id=k0wyi4cOGy",
+  "pdf_url": "https://openreview.net/pdf?id=k0wyi4cOGy",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "N3UNXzWRRG",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "FreqPolicy: Frequency Autoregressive Visuomotor Policy with Continuous Tokens",
+  "authors": [
+    "Yiming Zhong",
+    "Yumeng Liu",
+    "Chuyang Xiao",
+    "Zemin Yang",
+    "Youzhuo Wang",
+    "Yufei Zhu",
+    "Ye Shi",
+    "Yujing Sun",
+    "Xinge Zhu",
+    "Yuexin Ma"
+  ],
+  "author_ids": [
+    "~Yiming_Zhong4",
+    "~Yumeng_Liu1",
+    "~Chuyang_Xiao1",
+    "~Zemin_Yang1",
+    "~Youzhuo_Wang1",
+    "~Yufei_Zhu3",
+    "~Ye_Shi1",
+    "~Yujing_Sun3",
+    "~Xinge_Zhu3",
+    "~Yuexin_Ma2"
+  ],
+  "abstract": "Learning effective visuomotor policies for robotic manipulation is challenging, as it requires generating precise actions while maintaining computational efficiency. Existing methods remain unsatisfactory due to inherent limitations in the essential action representation and the basic network architectures. We observe that representing actions in the frequency domain captures the structured nature of motion more effectively: low-frequency components reflect global movement patterns, while high-frequency components encode fine local details. Additionally, robotic manipulation tasks of varying complexity demand different levels of modeling precision across these frequency bands. Motivated by this, we propose a novel paradigm for visuomotor policy learning that progressively models hierarchical frequency components. To further enhance precision, we introduce continuous latent representations that maintain smoothness and continuity in the action space. Extensive experiments across diverse 2D and 3D robotic manipulation benchmarks demonstrate that our approach outperforms existing methods in both accuracy and efficiency, showcasing the potential of a frequency-domain autoregressive framework with continuous tokens for generalized robotic manipulation.Code is available at https://github.com/4DVLab/Freqpolicy",
+  "keywords": [
+    "Robot Action Generation",
+    "Visuomotor Policy Learning",
+    "Frequency-domain Modeling",
+    "Continuous Latent Representation"
+  ],
+  "tldr": "This paper explores the representation of robot actions in the frequency domain and introduces FreqPolicy, a novel frequency-domain autoregressive framework for hierarchical robotic action generation.",
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhong2025freqpolicy, title={FreqPolicy: Frequency Autoregressive Visuomotor Policy with Continuous Tokens}, author={Yiming Zhong and Yumeng Liu and Chuyang Xiao and Zemin Yang and Youzhuo Wang and Yufei Zhu and Ye Shi and Yujing Sun and Xinge Zhu and Yuexin Ma}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=N3UNXzWRRG} }",
+  "url": "https://openreview.net/forum?id=N3UNXzWRRG",
+  "pdf_url": "https://openreview.net/pdf?id=N3UNXzWRRG",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "pBFVoll8Xa",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "General-Reasoner: Advancing LLM Reasoning Across All Domains",
+  "authors": [
+    "Xueguang Ma",
+    "Qian Liu",
+    "Dongfu Jiang",
+    "Ge Zhang",
+    "Zejun MA",
+    "Wenhu Chen"
+  ],
+  "author_ids": [
+    "~Xueguang_Ma1",
+    "~Qian_Liu2",
+    "~Dongfu_Jiang1",
+    "~Ge_Zhang5",
+    "~Zejun_MA1",
+    "~Wenhu_Chen3"
+  ],
+  "abstract": "Reinforcement learning (RL) has recently demonstrated strong potential in enhancing the reasoning capabilities of large language models (LLMs). Particularly, the \"Zero\" reinforcement learning introduced by Deepseek-R1-Zero, enables direct RL training of base LLMs without relying on an intermediate supervised fine-tuning stage. Despite these advancements, current works for LLM reasoning mainly focus on mathematical and coding domains, largely due to data abundance and the ease of answer verification. This limits the applicability and generalization of such models to broader domains, where questions often have diverse answer representations, and data is more scarce. In this paper, we propose General-Reasoner, a novel training framework designed to enhance LLM reasoning capabilities across diverse domains. Our key contributions include: (1) constructing a large-scale, high-quality dataset of questions with verifiable answers curated by web crawling, covering a wide range of disciplines; and (2) developing a generative model-based answer verifier, which replaces traditional rule-based verification with the capability of chain-of-thought and context-awareness. We train a series of models and evaluate them on a wide range of datasets covering wide domains like physics, chemistry, finance, electronics etc. Our comprehensive evaluation across these 12 benchmarks (e.g. MMLU-Pro, GPQA, SuperGPQA, TheoremQA, BBEH and MATH AMC) demonstrates that General-Reasoner outperforms existing baseline methods, achieving robust and generalizable reasoning performance while maintaining superior effectiveness in mathematical reasoning tasks.",
+  "keywords": [
+    "large language model",
+    "reasoning",
+    "reinforcement learning"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ ma2025generalreasoner, title={General-Reasoner: Advancing {LLM} Reasoning Across All Domains}, author={Xueguang Ma and Qian Liu and Dongfu Jiang and Ge Zhang and Zejun MA and Wenhu Chen}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=pBFVoll8Xa} }",
+  "url": "https://openreview.net/forum?id=pBFVoll8Xa",
+  "pdf_url": "https://openreview.net/pdf?id=pBFVoll8Xa",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "cnrwqlr8dg",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "What Moves the Eyes: Doubling Mechanistic Model Performance Using Deep Networks to Discover and Test Cognitive Hypotheses",
+  "authors": [
+    "Federico D'Agostino",
+    "Lisa Schwetlick",
+    "Matthias Bethge",
+    "Matthias Kuemmerer"
+  ],
+  "author_ids": [
+    "~Federico_D'Agostino1",
+    "~Lisa_Schwetlick1",
+    "~Matthias_Bethge1",
+    "~Matthias_Kuemmerer1"
+  ],
+  "abstract": "Understanding how humans move their eyes to gather visual information is a central question in neuroscience, cognitive science, and vision research. While recent deep learning (DL) models achieve state-of-the-art performance in predicting human scanpaths, their underlying decision processes remain opaque. At an opposite end of the modeling spectrum, cognitively inspired mechanistic models aim to explain scanpath behavior through interpretable cognitive mechanisms but lag far behind in predictive accuracy. In this work, we bridge this gap by using a high-performing deep model—DeepGaze III—to discover and test mechanisms that improve a leading mechanistic model, SceneWalk. By identifying individual fixations where DeepGaze III succeeds and SceneWalk fails, we isolate behaviorally meaningful discrepancies and use them to motivate targeted extensions of the mechanistic framework. These include time-dependent temperature scaling, saccadic momentum and an adaptive cardinal attention bias: Simple, interpretable additions that substantially boost predictive performance. With these extensions, SceneWalk’s explained variance on the MIT1003 dataset doubles from 35% to 70%, setting a new state of the art in mechanistic scanpath prediction. Our findings show how performance-optimized neural networks can serve as tools for cognitive model discovery, offering a new path toward interpretable and high-performing models of visual behavior. Our code is available at https://github.com/bethgelab/what-moves-the-eyes",
+  "keywords": [
+    "eye movements",
+    "scanpaths",
+    "mechanistic modelling",
+    "benchmarking",
+    "cognitive",
+    "data-driven",
+    "behaviour"
+  ],
+  "tldr": "A systematic fixation-level comparison of a performance-optimized DNN scanpath model and a mechanistic cognitive reveals behaviourally relevant mechanisms that can be added to the mechanistic model to substantially improve performance",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ d'agostino2025what, title={What Moves the Eyes: Doubling Mechanistic Model Performance Using Deep Networks to Discover and Test Cognitive Hypotheses}, author={Federico D'Agostino and Lisa Schwetlick and Matthias Bethge and Matthias Kuemmerer}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=cnrwqlr8dg} }",
+  "url": "https://openreview.net/forum?id=cnrwqlr8dg",
+  "pdf_url": "https://openreview.net/pdf?id=cnrwqlr8dg",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "Tt3XLyuDrE",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Transformer brain encoders explain human high-level visual responses",
+  "authors": [
+    "Hossein Adeli",
+    "Minni Sun",
+    "Nikolaus Kriegeskorte"
+  ],
+  "author_ids": [
+    "~Hossein_Adeli1",
+    "~Minni_Sun1",
+    "~Nikolaus_Kriegeskorte3"
+  ],
+  "abstract": "A major goal of neuroscience is to understand brain computations during visual processing in naturalistic settings. A dominant approach is to use image-computable deep neural networks trained with different task objectives as a basis for linear encoding models. However, in addition to requiring estimation of a large number of linear encoding parameters, this approach ignores the structure of the feature maps both in the brain and the models. Recently proposed alternatives factor the linear mapping into separate sets of spatial and feature weights, thus finding static receptive fields for units, which is appropriate only for early visual areas. In this work, we employ the attention mechanism used in the transformer architecture to study how retinotopic visual features can be dynamically routed to category-selective areas in high-level visual processing. We show that this computational motif is significantly more powerful than alternative methods in predicting brain activity during natural scene viewing, across different feature basis models and modalities. We also show that this approach is inherently more interpretable as the attention-routing signals for different high-level categorical areas can be easily visualized for any input image. Given its high performance at predicting brain responses to novel images, the model deserves consideration as a candidate mechanistic model of how visual information from retinotopic maps is routed in the human brain based on the relevance of the input content to different category-selective regions. Our code is available at \\href{https://github.com/Hosseinadeli/transformer_brain_encoder/}{https://github.com/Hosseinadeli/transformer\\_brain\\_encoder/}.",
+  "keywords": [
+    "Brain encoding",
+    "visual processing",
+    "transformers"
+  ],
+  "tldr": "We present a transformer brain encoder that achieves state of the art performance, by leveraging brain-region to image-feature cross-attention mechanism, efficiently mapping high-dimensional retinotopic features to brain areas.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ adeli2025transformer, title={Transformer brain encoders explain human high-level visual responses}, author={Hossein Adeli and Minni Sun and Nikolaus Kriegeskorte}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=Tt3XLyuDrE} }",
+  "url": "https://openreview.net/forum?id=Tt3XLyuDrE",
+  "pdf_url": "https://openreview.net/pdf?id=Tt3XLyuDrE",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "q3CU6ltlqE",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "D$^2$GS: Dense Depth Regularization for LiDAR-free Urban Scene Reconstruction",
+  "authors": [
+    "Kejing Xia",
+    "Jidong Jia",
+    "Ke Jin",
+    "Yucai Bai",
+    "Li Sun",
+    "Dacheng Tao",
+    "Youjian Zhang"
+  ],
+  "author_ids": [
+    "~Kejing_Xia1",
+    "~Jidong_Jia1",
+    "~Ke_Jin6",
+    "~Yucai_Bai1",
+    "~Li_Sun10",
+    "~Dacheng_Tao1",
+    "~Youjian_Zhang1"
+  ],
+  "abstract": "Recently, Gaussian Splatting (GS) has shown great potential for urban scene reconstruction in the field of autonomous driving. However, current urban scene reconstruction methods often depend on multimodal sensors as inputs, $\\textit{i.e.}$ LiDAR and images. Though the geometry prior provided by LiDAR point clouds can largely mitigate ill-posedness in reconstruction, acquiring such accurate LiDAR data is still challenging in practice: i) precise spatiotemporal calibration between LiDAR and other sensors is required, as they may not capture data simultaneously; ii) reprojection errors arise from spatial misalignment when LiDAR and cameras are mounted at different locations. To avoid the difficulty of acquiring accurate LiDAR depth, we propose ${D}^2GS$, a LiDAR-free urban scene reconstruction framework. In this work, we obtain geometry priors that are as effective as LiDAR while being denser and more accurate. $\\textbf{First}$, we initialize a dense point cloud by back-projecting multi-view metric depth predictions. This point cloud is then optimized by a Progressive Pruning strategy to improve the global consistency. $\\textbf{Second}$, we jointly refine Gaussian geometry and predicted dense metric depth via a Depth Enhancer. Specifically, we leverage diffusion priors from a depth foundation model to enhance the depth maps rendered by Gaussians. In turn, the enhanced depths provide stronger geometric constraints during Gaussian training. $\\textbf{Finally}$, we improve the accuracy of ground geometry by constraining the shape and normal attributes of Gaussians within road regions. Extensive experiments on the Waymo dataset demonstrate that our method consistently outperforms state-of-the-art methods, producing more accurate geometry even when compared with those using ground-truth LiDAR data.",
+  "keywords": [
+    "Urban scenes reconstruction",
+    "Gaussian Splatting",
+    "Depth estimation"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ xia2025dgs, title={D\\${\\textasciicircum}2\\${GS}: Dense Depth Regularization for Li{DAR}-free Urban Scene Reconstruction}, author={Kejing Xia and Jidong Jia and Ke Jin and Yucai Bai and Li Sun and Dacheng Tao and Youjian Zhang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=q3CU6ltlqE} }",
+  "url": "https://openreview.net/forum?id=q3CU6ltlqE",
+  "pdf_url": "https://openreview.net/pdf?id=q3CU6ltlqE",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "BkSRQ1y37l",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images",
+  "authors": [
+    "Jiao Tang",
+    "WEI SHAO",
+    "Daoqiang Zhang"
+  ],
+  "author_ids": [
+    "~Jiao_Tang1",
+    "~WEI_SHAO7",
+    "~Daoqiang_Zhang1"
+  ],
+  "abstract": "The whole-slide pathology images (WSIs) are widely recognized as the golden standard for cancer survival analysis. However, due to the high-resolution of WSIs, the existing studies require dividing WSIs into patches and identify key components before building the survival prediction system, which is time-consuming and cannot reflect the overall spatial organization of WSIs. Inspired by the fact that the spatial interactions among different tumor microenvironment (TME) components in WSIs are associated with the cancer prognosis, some studies attempt to capture the complex interactions among different TME components to improve survival predictions. However, they require extra efforts for building the TME segmentation model, which involves substantial annotation workloads on different TME components and is independent to the construction of the survival prediction model. To address the above issues, we propose ZTSurv, a novel end-to-end cancer survival analysis framework via efficient zero-shot TME segmentation on low-resolution WSIs. Specifically, by leveraging tumor infiltrating lymphocyte (TIL) maps on the 50x down-sampled WSIs, ZTSurv enables zero-shot segmentation on other two important TME components (i.e., tumor and stroma) that can reduce the annotation efforts from the pathologists. Then, based on the visual and semantic information extracted from different TME components, we construct a heterogeneous graph to capture their spatial intersections for clinical outcome prediction. We validate ZTSurv across four cancer cohorts derived from The Cancer Genome Atlas (TCGA), and the experimental results indicate that our method can not only achieve superior prediction results but also significantly reduce the computational costs in comparison with the state-of-the-art methods.",
+  "keywords": [
+    "Cancer Survival Analysis，Zero-shot Tumor Microenvironment Segmentation，Low-resolution Whole Slide Pathology Images"
+  ],
+  "tldr": null,
+  "primary_area": "machine_learning_for_sciences",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ tang2025cancer, title={Cancer Survival Analysis via Zero-shot Tumor Microenvironment Segmentation on Low-resolution Whole Slide Pathology Images}, author={Jiao Tang and WEI SHAO and Daoqiang Zhang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=BkSRQ1y37l} }",
+  "url": "https://openreview.net/forum?id=BkSRQ1y37l",
+  "pdf_url": "https://openreview.net/pdf?id=BkSRQ1y37l",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "eYVFs6TfQ0",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Efficient Allocation of Working Memory Resource for Utility Maximization in Humans and Recurrent Neural Networks",
+  "authors": [
+    "Qingqing Yang",
+    "Hsin-Hung Li"
+  ],
+  "author_ids": [
+    "~Qingqing_Yang2",
+    "~Hsin-Hung_Li1"
+  ],
+  "abstract": "Working memory (WM) supports the temporary retention of task-relevant information. It is limited in capacity and inherently noisy. The ability to flexibly allocate WM resource is a hallmark of adaptive behavior. While it is well established that WM resource can be prioritized via selective attention, whether they can be allocated based on reward incentive alone remains under debate—raising open questions about whether humans can efficiently allocate WM resource based on utility. To address this, we conducted behavioral experiments using orientations as stimuli. Participants first learned stimulus–reward associations and then performed a delayed estimate WM task. We found that WM precision, indexed by the variability of memory reports, reflected both natural stimulus priors and utility-based allocation. The effects from reward and prior on memory variability both grew over time, indicating their effects in stabilizing memory representations. In contrast, memory bias was largely unaffected by time or reward. To interpret these findings, we extended efficient coding theory by incorporating time and reformulating the objective from minimizing estimation loss to maximizing expected utility. We showed that the behavioral results were consistent with an observer that efficiently allocates WM resource over time to maximize utility. Lastly, we trained recurrent neural networks (RNNs) to perform the same WM task under a 2×2 design: prior (uniform vs. natural) × reward policy (baseline vs. reward context). Human-like behaviors emerged in RNNs: memory was more stable (lower variability) for stimuli associated with higher probability or rewards, and these effects increased over time. Transfer learning showed that recurrent dynamics were crucial for adapting to different priors and reward policies. Together, these results provide converging behavioral and computational evidence that WM resource allocation is shaped by environmental statistics and rewards, offering insight into how intelligent systems can dynamically optimize memory for utility under resource constraints.",
+  "keywords": [
+    "working memory",
+    "reward maximization",
+    "biologically inspired networks",
+    "efficient coding",
+    "recurrent neural networks"
+  ],
+  "tldr": "Humans and recurrent neural networks both allocate working memory resource to maximize utility, shaped by natural stimulus statistics and learned stimulus-reward association.",
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ yang2025efficient, title={Efficient Allocation of Working Memory Resource for Utility Maximization in Humans and Recurrent Neural Networks}, author={Qingqing Yang and Hsin-Hung Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=eYVFs6TfQ0} }",
+  "url": "https://openreview.net/forum?id=eYVFs6TfQ0",
+  "pdf_url": "https://openreview.net/pdf?id=eYVFs6TfQ0",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "SoqzNbcBjy",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Spiral: Semantic-Aware Progressive LiDAR Scene Generation and Understanding",
+  "authors": [
+    "Dekai Zhu",
+    "Yixuan Hu",
+    "Youquan Liu",
+    "Dongyue Lu",
+    "Lingdong Kong",
+    "Slobodan Ilic"
+  ],
+  "author_ids": [
+    "~Dekai_Zhu1",
+    "~Yixuan_Hu1",
+    "~Youquan_Liu1",
+    "~Dongyue_Lu1",
+    "~Lingdong_Kong1",
+    "~Slobodan_Ilic3"
+  ],
+  "abstract": "Leveraging diffusion models, 3D LiDAR scene generation has achieved great success in both range-view and voxel-based representations. While recent voxel-based approaches can generate both geometric structures and semantic labels, existing range-view methods are limited to producing unlabeled LiDAR scenes. Relying on pretrained segmentation models to predict the semantic maps often results in suboptimal cross-modal consistency. To address this limitation while preserving the advantages of range-view representations, such as computational efficiency and simplified network design, we propose Spiral, a novel range-view LiDAR diffusion model that simultaneously generates depth, reflectance images, and semantic maps. Furthermore, we introduce novel semantic-aware metrics to evaluate the quality of the generated labeled range-view data. Experiments on SemanticKITTI and nuScenes datasets demonstrate that Spiral achieves state-of-the-art performance with the smallest parameter size, outperforming two-step methods that combine the best available generative and segmentation models. Additionally, we validate that Spiral’s generated range images can be effectively used for synthetic data augmentation in the downstream segmentation training, significantly reducing the labeling effort on LiDAR data.",
+  "keywords": [
+    "LiDAR Diffusion",
+    "LiDAR Generation",
+    "LiDAR Semantic Segmentation"
+  ],
+  "tldr": "Spiral is a new type of LiDAR generation model that enables semantic awareness and progressive diffusion.",
+  "primary_area": "applications",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ zhu2025spiral, title={Spiral: Semantic-Aware Progressive Li{DAR} Scene Generation and Understanding}, author={Dekai Zhu and Yixuan Hu and Youquan Liu and Dongyue Lu and Lingdong Kong and Slobodan Ilic}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=SoqzNbcBjy} }",
+  "url": "https://openreview.net/forum?id=SoqzNbcBjy",
+  "pdf_url": "https://openreview.net/pdf?id=SoqzNbcBjy",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "d6WUTRJqP3",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Seemingly Redundant Modules Enhance Robust Odor Learning in Fruit Flies",
+  "authors": [
+    "HaiYang Li",
+    "Liao Yu",
+    "Qiang Yu",
+    "Yunliang Zang"
+  ],
+  "author_ids": [
+    "~HaiYang_Li2",
+    "~Liao_Yu4",
+    "~Qiang_Yu2",
+    "~Yunliang_Zang1"
+  ],
+  "abstract": "Biological circuits have evolved to incorporate multiple modules that perform similar functions. In the fly olfactory circuit, both lateral inhibition (LI) and neuronal spike frequency adaptation (SFA) are thought to enhance pattern separation for odor learning. However, it remains unclear whether these mechanisms play redundant or distinct roles in this process. In this study, we present a computational model of the fly olfactory circuit to investigate odor discrimination under varying noise conditions that simulate complex environments. Our results show that LI primarily enhances odor discrimination in low‑ and medium‑noise scenarios, but this benefit diminishes and may reverse under higher‑noise conditions. In contrast, SFA consistently improves discrimination across all noise levels. LI is preferentially engaged in low‑ and medium‑noise environments, whereas SFA dominates in high‑noise settings. When combined, these two sparsification mechanisms enable optimal discrimination performance. This work demonstrates that seemingly redundant modules in biological circuits can, in fact, be essential for achieving optimal learning in complex contexts.",
+  "keywords": [
+    "olfactory representations; lateral inhibition；spike frequency adaptation;pattern classification；spiking neural networks"
+  ],
+  "tldr": null,
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ li2025seemingly, title={Seemingly Redundant Modules Enhance Robust Odor Learning in Fruit Flies}, author={HaiYang Li and Liao Yu and Qiang Yu and Yunliang Zang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=d6WUTRJqP3} }",
+  "url": "https://openreview.net/forum?id=d6WUTRJqP3",
+  "pdf_url": "https://openreview.net/pdf?id=d6WUTRJqP3",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "vFLrQgI6MW",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Boundary-to-Region Supervision for Offline Safe Reinforcement Learning",
+  "authors": [
+    "Huikang Su",
+    "Dengyun Peng",
+    "Zifeng Zhuang",
+    "YuHan Liu",
+    "Qiguang Chen",
+    "Donglin Wang",
+    "Qinghe Liu"
+  ],
+  "author_ids": [
+    "~Huikang_Su1",
+    "~Dengyun_Peng1",
+    "~Zifeng_Zhuang1",
+    "~YuHan_Liu20",
+    "~Qiguang_Chen1",
+    "~Donglin_Wang1",
+    "~Qinghe_Liu2"
+  ],
+  "abstract": "Offline safe reinforcement learning aims to learn policies that satisfy predefined safety constraints from static datasets. Existing sequence-model-based methods condition action generation on symmetric input tokens for return-to-go and cost-to-go, neglecting their intrinsic asymmetry: RTG serves as a flexible performance target, while CTG should represent a rigid safety boundary. This symmetric conditioning leads to unreliable constraint satisfaction, especially when encountering out-of-distribution cost trajectories. To address this, we propose Boundary-to-Region (B2R), a framework that enables asymmetric conditioning through cost signal realignment . B2R redefines CTG as a boundary constraint under a fixed safety budget, unifying the cost distribution of all feasible trajectories while preserving reward structures. Combined with rotary positional embeddings , it enhances exploration within the safe region. Experimental results show that B2R satisfies safety constraints in 35 out of 38 safety-critical tasks while achieving superior reward performance over baseline methods. This work highlights the limitations of symmetric token conditioning and establishes a new theoretical and practical approach for applying sequence models to safe RL.",
+  "keywords": [
+    "Offline safe reinforcement learning"
+  ],
+  "tldr": null,
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ su2025boundarytoregion, title={Boundary-to-Region Supervision for Offline Safe Reinforcement Learning}, author={Huikang Su and Dengyun Peng and Zifeng Zhuang and YuHan Liu and Qiguang Chen and Donglin Wang and Qinghe Liu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=vFLrQgI6MW} }",
+  "url": "https://openreview.net/forum?id=vFLrQgI6MW",
+  "pdf_url": "https://openreview.net/pdf?id=vFLrQgI6MW",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "0fZoqVoc0o",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes",
+  "authors": [
+    "Fang Li",
+    "Hao Zhang",
+    "Narendra Ahuja"
+  ],
+  "author_ids": [
+    "~Fang_Li8",
+    "~Hao_Zhang47",
+    "~Narendra_Ahuja1"
+  ],
+  "abstract": "Although COLMAP has long remained the predominant method for camera parameter optimization in static scenes, it is constrained by its lengthy runtime and reliance on ground truth (GT) motion masks for application to dynamic scenes. Many efforts attempted to improve it by incorporating more priors as supervision such as GT focal length, motion masks, 3D point clouds, camera poses, and metric depth, which, however, are typically unavailable in casually captured RGB videos. In this paper, we propose a novel method for more accurate and efficient camera parameter optimization in dynamic scenes solely supervised by a single RGB video, dubbed $\\textbf{\\textit{ROS-Cam}}$. Our method consists of three key components: (1) Patch-wise Tracking Filters, to establish robust and maximally sparse hinge-like relations across the RGB video. (2) Outlier-aware Joint Optimization, for efficient camera parameter optimization by adaptive down-weighting of moving outliers, without reliance on motion priors. (3) A Two-stage Optimization Strategy, to enhance stability and optimization speed by a trade-off between the Softplus limits and convex minima in losses. We visually and numerically evaluate our camera estimates. To further validate accuracy, we feed the camera estimates into a 4D reconstruction method and assess the resulting 3D scenes, and rendered 2D RGB and depth maps. We perform experiments on 4 real-world datasets (NeRF-DS, DAVIS, iPhone, and TUM-dynamics) and 1 synthetic dataset (MPI-Sintel), demonstrating that our method estimates camera parameters more efficiently and accurately with a single RGB video as the only supervision.",
+  "keywords": [
+    "4D reconstruction",
+    "camera parameter optimization; visual localization"
+  ],
+  "tldr": null,
+  "primary_area": "applications",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ li2025rgbonly, title={{RGB}-Only Supervised Camera Parameter Optimization in Dynamic Scenes}, author={Fang Li and Hao Zhang and Narendra Ahuja}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=0fZoqVoc0o} }",
+  "url": "https://openreview.net/forum?id=0fZoqVoc0o",
+  "pdf_url": "https://openreview.net/pdf?id=0fZoqVoc0o",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "24tuzE5KZc",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "OPTFM: A Scalable Multi-View Graph Transformer for Hierarchical Pre-Training in Combinatorial Optimization",
+  "authors": [
+    "Hao Yuan",
+    "Wenli Ouyang",
+    "Changwen Zhang",
+    "Congrui Li",
+    "Yong Sun"
+  ],
+  "author_ids": [
+    "~Hao_Yuan5",
+    "~Wenli_Ouyang1",
+    "~Changwen_Zhang1",
+    "~Congrui_Li1",
+    "~Yong_Sun1"
+  ],
+  "abstract": "Foundation Models (FMs) have demonstrated remarkable success in fields like computer vision and natural language processing, yet their application to combinatorial optimization remains underexplored. Optimization problems, often modeled as graphs, pose unique challenges due to their diverse structures, varying distributions, and NP-hard complexity. To address these challenges, we propose OPTFM, the first graph foundation model for general combinatorial optimization. OPTFM introduces a scalable multi-view graph transformer with hybrid self-attention and cross-attention to model large-scale heterogeneous graphs in $O(N)$ time complexity while maintaining semantic consistency throughout the attention computation. A Dual-level pre-training framework integrates node-level graph reconstruction and instance-level contrastive learning, enabling robust and adaptable representations at multiple levels. Experimental results across diverse optimization tasks show that models trained on OPTFM embeddings without fine-tuning consistently outperform task-specific approaches, establishing a new benchmark for solving combinatorial optimization problems.",
+  "keywords": [
+    "combinatorial optimization",
+    "foundation model",
+    "graph transformer",
+    "hierarchical pre-training"
+  ],
+  "tldr": null,
+  "primary_area": "optimization",
+  "presentation": "spotlight",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ yuan2025optfm, title={{OPTFM}: A Scalable Multi-View Graph Transformer for Hierarchical Pre-Training in Combinatorial Optimization}, author={Hao Yuan and Wenli Ouyang and Changwen Zhang and Congrui Li and Yong Sun}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=24tuzE5KZc} }",
+  "url": "https://openreview.net/forum?id=24tuzE5KZc",
+  "pdf_url": "https://openreview.net/pdf?id=24tuzE5KZc",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "yI55mj6anU",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Prompt Tuning Decision Transformers with Structured and Scalable Bandits",
+  "authors": [
+    "Finn Rietz",
+    "Oleg Smirnov",
+    "Sara Karimi",
+    "Lele Cao"
+  ],
+  "author_ids": [
+    "~Finn_Rietz1",
+    "~Oleg_Smirnov1",
+    "~Sara_Karimi2",
+    "~Lele_Cao1"
+  ],
+  "abstract": "Prompt tuning has emerged as a key technique for adapting large pre-trained Decision Transformers (DTs) in offline Reinforcement Learning (RL), particularly in multi-task and few-shot settings. The Prompting Decision Transformer (PDT) enables task generalization via trajectory prompts sampled uniformly from expert demonstrations -- without accounting for prompt informativeness. In this work, we propose a bandit-based prompt-tuning method that learns to construct optimal trajectory prompts from demonstration data at inference time. We devise a structured bandit architecture operating in the trajectory prompt space, achieving linear rather than combinatorial scaling with prompt size. Additionally, we show that the pre-trained PDT itself can serve as a powerful feature extractor for the bandit, enabling efficient reward modeling across various environments. We theoretically establish regret bounds and demonstrate empirically that our method consistently enhances performance across a wide range of tasks, high-dimensional environments, and out-of-distribution scenarios, outperforming existing baselines in prompt tuning.",
+  "keywords": [
+    "Reinforcement Learning",
+    "Decision Transformer",
+    "Prompt tuning",
+    "Bandits",
+    "Multi-task transfer"
+  ],
+  "tldr": "We provide a scalable bandit architecture for prompt tuning of decision transformers for increased downstream performance.",
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ rietz2025prompt, title={Prompt Tuning Decision Transformers with Structured and Scalable Bandits}, author={Finn Rietz and Oleg Smirnov and Sara Karimi and Lele Cao}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=yI55mj6anU} }",
+  "url": "https://openreview.net/forum?id=yI55mj6anU",
+  "pdf_url": "https://openreview.net/pdf?id=yI55mj6anU",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "jCGwSLwOt9",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Less but More: Linear Adaptive Graph Learning Empowering Spatiotemporal Forecasting",
+  "authors": [
+    "Jiaming Ma",
+    "Binwu Wang",
+    "Guanjun Wang",
+    "Kuo Yang",
+    "Zhengyang Zhou",
+    "Pengkun Wang",
+    "Xu Wang",
+    "Yang Wang"
+  ],
+  "author_ids": [
+    "~Jiaming_Ma2",
+    "~Binwu_Wang1",
+    "~Guanjun_Wang1",
+    "~Kuo_Yang2",
+    "~Zhengyang_Zhou1",
+    "~Pengkun_Wang1",
+    "~Xu_Wang16",
+    "~Yang_Wang32"
+  ],
+  "abstract": "The effectiveness of Spatiotemporal Graph Neural Networks (STGNNs) critically hinges on the quality of the underlying graph topology. While end-to-end adaptive graph learning methods have demonstrated promising results in capturing latent spatiotemporal dependencies, they often suffer from high computational complexity and limited expressive capacity. In this paper, we propose MAGE for efficient spatiotemporal forecasting. We first conduct a theoretical analysis demonstrating that the ReLU activation function employed in existing methods amplifies edge-level noise during graph topology learning, thereby compromising the fidelity of the learned graph structures. To enhance model expressiveness, we introduce a sparse yet balanced mixture-of-experts strategy, where each expert perceives the unique underlying graph through kernel-based functions and operates with linear complexity relative to the number of nodes. The sparsity mechanism ensures that each node interacts exclusively with compatible experts, while the balancing mechanism promotes uniform activation across all experts, enabling diverse and adaptive graph representations. Furthermore, we theoretically establish that a single graph convolution using the learned graph in MAGE is mathematically equivalent to multiple convolutional steps under conventional graphs. We evaluate MAGE against advanced baselines on multiple real-world spatiotemporal datasets. MAGE achieves competitive performance while maintaining strong computational efficiency.",
+  "keywords": [
+    "Spatiotemporal learning; Graph Representation Learning; Time Series; Deep Learning"
+  ],
+  "tldr": null,
+  "primary_area": "deep_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ ma2025less, title={Less but More: Linear Adaptive Graph Learning Empowering Spatiotemporal Forecasting}, author={Jiaming Ma and Binwu Wang and Guanjun Wang and Kuo Yang and Zhengyang Zhou and Pengkun Wang and Xu Wang and Yang Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=jCGwSLwOt9} }",
+  "url": "https://openreview.net/forum?id=jCGwSLwOt9",
+  "pdf_url": "https://openreview.net/pdf?id=jCGwSLwOt9",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "OEp1J4V2fN",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "IOSTOM: Offline Imitation Learning from Observations via State Transition Occupancy Matching",
+  "authors": [
+    "Quang Anh Pham",
+    "Janaka Chathuranga Brahmanage",
+    "Tien Anh Mai",
+    "Akshat Kumar"
+  ],
+  "author_ids": [
+    "~Quang_Anh_Pham1",
+    "~Janaka_Chathuranga_Brahmanage1",
+    "~Tien_Anh_Mai1",
+    "~Akshat_Kumar1"
+  ],
+  "abstract": "Offline Learning from Observations (LfO) focuses on enabling agents to imitate expert behavior using datasets that contain only expert state trajectories and separate transition data with suboptimal actions. This setting is both practical and critical in real-world scenarios where direct environment interaction or access to expert action labels is costly, risky, or infeasible. Most existing LfO methods attempt to solve this problem through state or state-action occupancy matching. They typically rely on pretraining a discriminator to differentiate between expert and non-expert states, which could introduce errors and instability—especially when the discriminator is poorly trained. While recent discriminator-free methods have emerged, they generally require substantially more data, limiting their practicality in low-data regimes. In this paper, we propose IOSTOM ($\\textit{Imitation from Observation via State Transition Occupancy Matching}$), a novel offline LfO algorithm designed to overcome these limitations. Our approach formulates a learning objective based on the joint state visitation distribution. A key distinction of IOSTOM is that it first excludes actions entirely from the training objective. Instead, we learn an $\\textit{implicit policy}$ that models transition probabilities between states, resulting in a more compact and stable optimization problem. To recover the expert policy, we introduce an efficient action inference mechanism that $\\textit{avoids training an inverse dynamics model}$. Extensive empirical evaluations across diverse offline LfO benchmarks show that IOSTOM substantially outperforms state-of-the-art methods, demonstrating both improved performance and data efficiency.",
+  "keywords": [
+    "Learning from Observations",
+    "Imitation Learning"
+  ],
+  "tldr": null,
+  "primary_area": "reinforcement_learning",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ pham2025iostom, title={{IOSTOM}: Offline Imitation Learning from Observations via State Transition Occupancy Matching}, author={Quang Anh Pham and Janaka Chathuranga Brahmanage and Tien Anh Mai and Akshat Kumar}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=OEp1J4V2fN} }",
+  "url": "https://openreview.net/forum?id=OEp1J4V2fN",
+  "pdf_url": "https://openreview.net/pdf?id=OEp1J4V2fN",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
+},
+{
+  "id": "NY3LzmUXl7",
+  "venue": "neurips",
+  "year": 2025,
+  "track": "main",
+  "title": "Riemannian Flow Matching for Brain Connectivity Matrices via Pullback Geometry",
+  "authors": [
+    "Antoine Collas",
+    "Ce Ju",
+    "Nicolas Salvy",
+    "Bertrand Thirion"
+  ],
+  "author_ids": [
+    "~Antoine_Collas1",
+    "~Ce_Ju1",
+    "~Nicolas_Salvy1",
+    "~Bertrand_Thirion1"
+  ],
+  "abstract": "Generating realistic brain connectivity matrices is key to analyzing population heterogeneity in brain organization, understanding disease, and augmenting data in challenging classification problems. Functional connectivity matrices lie in constrained spaces—such as the set of symmetric positive definite or correlation matrices—that can be modeled as Riemannian manifolds. However, using Riemannian tools typically requires redefining core operations (geodesics, norms, integration), making generative modeling computationally inefficient. In this work, we propose DiffeoCFM, an approach that enables conditional flow matching (CFM) on matrix manifolds by exploiting pullback metrics induced by global diffeomorphisms on Euclidean spaces. We show that Riemannian CFM with such metrics is equivalent to applying standard CFM after data transformation. This equivalence allows efficient vector field learning, and fast sampling with standard ODE solvers. We instantiate DiffeoCFM with two different settings: the matrix logarithm for covariance matrices and the normalized Cholesky decomposition for correlation matrices. We evaluate DiffeoCFM on three large-scale fMRI datasets with more than $4600$ scans from $2800$ subjects (ADNI, ABIDE, OASIS‑3) and two EEG motor imagery datasets with over $30000$ trials from $26$ subjects (BNCI2014‑002 and BNCI2015‑001). It enables fast training and achieves state-of-the-art performance, all while preserving manifold constraints. Code: https://github.com/antoinecollas/DiffeoCFM",
+  "keywords": [
+    "brain connectivity",
+    "Riemannian geometry",
+    "covariance matrix",
+    "fmri",
+    "diffeomorphism",
+    "generative model"
+  ],
+  "tldr": null,
+  "primary_area": "neuroscience_and_cognitive_science",
+  "presentation": "poster",
+  "doi": null,
+  "pages": null,
+  "bibtex": "@inproceedings{ collas2025riemannian, title={Riemannian Flow Matching for Brain Connectivity Matrices via Pullback Geometry}, author={Antoine Collas and Ce Ju and Nicolas Salvy and Bertrand Thirion}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=NY3LzmUXl7} }",
+  "url": "https://openreview.net/forum?id=NY3LzmUXl7",
+  "pdf_url": "https://openreview.net/pdf?id=NY3LzmUXl7",
+  "code_url": null,
+  "project_url": null,
+  "published": "2025-09-18",
+  "source": "openreview"
 }
 ]
