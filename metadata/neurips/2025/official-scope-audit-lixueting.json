@@ -11,11 +11,11 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": 5887,
     "official_scope": "Complete formal NeurIPS2025 volume38 proceedings: Main Conference5286, Datasets and Benchmarks497, Position40, CreativeAI64; workshops excluded. Official online citation dates in2026 preserved separately from formal conference year2025. Original snapshot Main5286 retained;601 verified track supplements recovered.",
-    "coverage_note": "初始351候选全部结案；全正式5887目录对账、601缺采原记录恢复完成。另已核32条分轨漏筛纳入，现383候选均已审且有原摘要。Main全目录召回和其他分轨215条题名线索仍待科学核验，不声明整源完成。",
-    "candidate_total": 383,
+    "coverage_note": "初始351候选全部结案；全正式5887目录对账、601缺采原记录恢复完成。另已核50条分轨漏筛纳入，现401候选均已审且有原摘要。Main全目录召回和其他分轨193条题名线索仍待科学核验，不声明整源完成。",
+    "candidate_total": 401,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 332,
+      "include": 350,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -24,7 +24,7 @@
     "work_status": "in_progress",
     "issues": [
       "Main5286全目录科学召回尚未完成。",
-      "215条其他分轨题名线索尚待摘要及必要正文核验。"
+      "193条其他分轨题名线索尚待摘要及必要正文核验。"
     ],
     "next_actions": [
       "继续完整Main目录召回和其他分轨科学核验；仅确认AI科研贡献后升级漏筛候选。"
@@ -32,11 +32,11 @@
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T08:00:18.232223+00:00",
-    "candidate_count": 383,
-    "own_review_count": 383,
+    "checked_at": "2026-11-19T08:03:02.158485+00:00",
+    "candidate_count": 401,
+    "own_review_count": 401,
     "own_review_counts": {
-      "include": 332,
+      "include": 350,
       "exclude": 51,
       "pending": 0,
       "unreviewed": 0
@@ -98139,10 +98139,10 @@
     "review_scope": {
       "status": "current_candidates_and_verified_additions",
       "checked_by": "李雪婷",
-      "checked_at": "2026-11-19T08:00:18.232223+00:00",
+      "checked_at": "2026-11-19T08:03:02.158485+00:00",
       "candidate_file": "metadata/2025/ai4s.json",
-      "candidate_count": 383,
-      "candidate_ids_sha256": "aef66755ccf34d4535cd092616862519d90f9c38dd3793a38ffd68aa68f7fe86",
+      "candidate_count": 401,
+      "candidate_ids_sha256": "b89574788b3dfde271b28be6fd06e406036188cea8df0b0c78cc681815518551",
       "review_file": "reviews/2025/zch66883-lixueting.json",
       "audit_file": "metadata/neurips/2025/official-scope-audit-lixueting.json"
     }
@@ -101886,28 +101886,6 @@
     }
   ],
   "extra_title_recall_pending_indices": [
-    111,
-    112,
-    113,
-    114,
-    115,
-    117,
-    118,
-    119,
-    120,
-    124,
-    125,
-    127,
-    130,
-    132,
-    133,
-    134,
-    135,
-    136,
-    138,
-    140,
-    142,
-    143,
     146,
     150,
     151,
@@ -102162,6 +102140,30 @@
       "decision": "not_promoted",
       "evidence_location": "出版社原摘要",
       "rationale": "普通日常目标推断与助手交互，未确立科学研究或专用工程研究任务。"
+    },
+    {
+      "index": 111,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "构建比特币交易流图与采样/数据库工具，ML异常检测和市场分析主要为可供将来研究的用途，摘要未展示实质AI科研建模；不把交易网络规模或一般图工具自动计为AI4S。"
+    },
+    {
+      "index": 124,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "研究专业CAD软件的通用UI动作模仿及视觉问答，贡献指向界面操作和长序列交互，未显示物理性能或科学设计对象的实质研究。"
+    },
+    {
+      "index": 140,
+      "decision": "not_promoted",
+      "evidence_location": "出版社原摘要",
+      "rationale": "以多语言数学数据评测语言一致性、翻译与推理长度，核心问题是通用语言能力；现证据未显示对数学科学问题的直接方法或研究任务贡献。"
+    },
+    {
+      "index": 142,
+      "decision": "not_promoted",
+      "evidence_location": "出版社Position Paper原摘要及分轨",
+      "rationale": "主张建立代理模型报告规范的立场文章，无原创AI科研结果或既有研究实质综述，按观点建议文类不升级候选。"
     }
   ],
   "extra_scientific_batches": [
@@ -102361,6 +102363,222 @@
           "rationale": "公开正文4.2明确用EEG/fNIRS时频特征训练支持向量模型回归连续效价/唤醒度并进行三分类、受试者内三折验证；AI实际参与动态情绪与脑信号关联解码。",
           "location": "原摘要；正文4.2 Supervised Learning第7页及附录E",
           "pdf_evidence": true
+        }
+      ]
+    },
+    {
+      "batch_id": "extra-third-plans",
+      "checked_at": "2026-11-19T08:03:02.158485+00:00",
+      "plans": [
+        {
+          "index": 112,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "在145家医疗中心的胰腺CT上建立专家验证肿瘤/周边器官分割数据，实际训练AI模型并检验规模与解剖注释对肿瘤检测定位分割的贡献，具有直接医学影像任务。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 113,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "以无人机影像和正射地理数据进行6自由度定位与相机标定；正文实际评估SuperPoint/SuperGlue、LoFTR、RoMA等学习型匹配器，并结合DSM构建3D–2D对应求解位姿。AI直接支持航空定位工程。",
+          "location": "原摘要；正文定位/标定流程及Matcher实验表",
+          "pdf_evidence": true
+        },
+        {
+          "index": 114,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "整理约50万条药物配方到电池电解液等混合物数据、11种性质预测任务，实际比较深度学习混合分子模型及特定泛化划分，直接支持化学混合体系性质研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 115,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "建立2005–2023年42城多时相高分辨率遥感任务，比较18个MLLM并训练DVLChat开展城市扩张/转型、灾害与环境变化分析和分割；AI直接参与城市地表动态研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 117,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "以RGB反演偏振信息作为新的光学测量任务，比较恢复型与生成型深度模型的重建结果和物理信息估计局限，直接研究偏振信号重建而非仅一般图像观感。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 118,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "模仿学习",
+            "科学智能体",
+            "基准评测"
+          ],
+          "rationale": "构建有物理/化学交互的实验室仿真与操作任务；正文5节实际训练ACT、Diffusion Policy和π0控制实验室操作并比较ID/OOD表现。仅认定仿真实验室具身操作研究，不把LLM推断化学变化当真实实验验证或自主实验室闭环。",
+          "location": "原摘要；正文5节模型、训练细节及表2–3",
+          "pdf_evidence": true
+        },
+        {
+          "index": 119,
+          "decision": "include",
+          "labels": [
+            "AI 用于社会科学",
+            "视觉语言模型",
+            "基准评测"
+          ],
+          "rationale": "与考古学者联合构建敦煌古文书图像及专家问题，按文献考古研究流程比较32个LMM的解读、鲁棒性与文化语境推理，直接支持古文书研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 120,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "机器学习",
+            "基准评测"
+          ],
+          "rationale": "从DNA/RNA/蛋白质实测突变适应度景观计算20项生物地形特征，实际比较数十个适应度预测模型在5300余景观上的准确性与优势，并发布组合完备实测数据，AI直接支持生物序列适应度研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 125,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "同步采集驾驶者RGB/NIR/毫米波及ECG、呼吸、血氧等真值，实际比较信号处理与深度学习模型完成非接触生理测量，直接研究真实驾驶条件的生命体征监测。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 127,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "构建几何、数论、代数和组合等数学任务的探索/组合/变换泛化对，使用符号、数值或图形方式核验解，比较并微调Qwen等模型，直接研究数学解题策略与创造性泛化。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 130,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "视觉语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "建立牙科全景X光的解剖属性、诊断、报告与对话数据，比较64个LVLM并实际进行监督微调改善牙科影像判读，AI科学对象与作用具体。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 132,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "大语言模型",
+            "多模态学习",
+            "基准评测"
+          ],
+          "rationale": "构建多层化学知识分子数据并训练KnowMol；正文实际评估按分子结构/理化描述生成分子及MoleculeNet的BACE、BBBP、HIV、毒性等性质任务，AI直接参与化学分子理解、生成与性质判别。",
+          "location": "原摘要；正文5.1、实验及表3 Molecular property prediction",
+          "pdf_evidence": true
+        },
+        {
+          "index": 133,
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "生成建模",
+            "基准评测"
+          ],
+          "rationale": "对给定组成的晶体结构生成进行材料专项评测研究，核查重复结构/多晶型划分和匹配指标，发布修正数据集与METRe/cRMSE量化模型结构多样性，直接改善AI晶体结构预测的科学验证。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 134,
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "强化学习",
+            "模仿学习",
+            "基准评测"
+          ],
+          "rationale": "为机器人超声解剖重建和骨科手术导航建立物理/GAN超声仿真，实际训练深度RL与视觉Transformer/扩散策略，并检验解剖重建及安全手术情境的策略学习，属于医学机器人研究。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 135,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "建立耦合常/随机微分动力系统及理想气候模型的真实因果图数据；正文实际比较NGC、CUTS+、TCDF等神经因果发现与传统方法，分析噪声/混杂/时滞对物理动力系统结构恢复的影响。",
+          "location": "原摘要；正文4节数据、实验方法与各方法结果表及CUTS+实现例",
+          "pdf_evidence": true
+        },
+        {
+          "index": 136,
+          "decision": "include",
+          "labels": [
+            "AI 用于工程科学",
+            "强化学习",
+            "多智能体强化学习",
+            "基准评测"
+          ],
+          "rationale": "以多无人机排球构建耦合运动控制与协作策略的物理任务，实际比较RL/MARL并设计分层策略，还在真实无人机零样本部署，具有明确机器人飞行控制工程验证。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 138,
+          "decision": "include",
+          "labels": [
+            "AI 用于地球宇宙科学",
+            "深度学习",
+            "基准评测"
+          ],
+          "rationale": "以NOAA专家烟羽注释构建卫星野火烟雾检测分割数据，实际使用学习型父模型选择时间对齐伪标签提升16万标注质量，AI直接支持野火烟羽遥感监测。",
+          "location": "出版社原摘要"
+        },
+        {
+          "index": 143,
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "大语言模型",
+            "微调",
+            "基准评测"
+          ],
+          "rationale": "构建25种量子算法到量子电路代码的设计实现数据与自动物理计算验证，实际比较LLM少样本和微调并分析量子电路错误，AI直接参与量子算法/电路设计专项研究。",
+          "location": "出版社原摘要"
         }
       ]
     }
