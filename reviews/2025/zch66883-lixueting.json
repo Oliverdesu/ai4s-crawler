@@ -29454,5 +29454,2155 @@
         }
       ]
     }
+  },
+  {
+    "id": "9vKJyCUfMH",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Tensor Decomposition Networks for Fast Machine Learning Interatomic Potential Computations",
+    "authors": [
+      "Yuchao Lin",
+      "Cong Fu",
+      "Zachary Krueger",
+      "Haiyang Yu",
+      "Maho Nakata",
+      "Jianwen Xie",
+      "Emine Kucukbenli",
+      "Xiaofeng Qian",
+      "Shuiwang Ji"
+    ],
+    "author_ids": [
+      "~Yuchao_Lin1",
+      "~Cong_Fu2",
+      "~Zachary_Krueger1",
+      "~Haiyang_Yu6",
+      "~Maho_Nakata1",
+      "~Jianwen_Xie1",
+      "~Emine_Kucukbenli1",
+      "~Xiaofeng_Qian1",
+      "~Shuiwang_Ji1"
+    ],
+    "abstract": "SO(3)-equivariant networks are the dominant models for machine learning interatomic potentials (MLIPs). The key operation of such networks is the Clebsch-Gordan (CG) tensor product, which is computationally expensive. To accelerate the computation, we develop tensor decomposition networks (TDNs) as a class of approximately equivariant networks whose CG tensor products are replaced by low-rank tensor decompositions, such as the CANDECOMP/PARAFAC (CP) decomposition. With the CP decomposition, we prove (i) a uniform bound on the induced error of SO(3)-equivariance, and (ii) the universality of approximating any equivariant bilinear map. To further reduce the number of parameters, we propose path-weight sharing that ties all multiplicity-space weights across the O(L^3) CG paths into a single shared parameter set without compromising equivariance, where L is the maximum angular degree. The resulting layer acts as a plug-and-play replacement for tensor products in existing networks, and the computational complexity of tensor products is reduced from O(L^6) to O(L^4). We evaluate TDNs on PubChemQCR, a newly curated molecular relaxation dataset containing 105 million DFT-calculated snapshots. We also use existing datasets, including OC20, and OC22. Results show that TDNs achieve competitive performance with dramatic speedup in computations. Our code is publicly available as part of the AIRS library (https://github.com/divelab/AIRS).",
+    "keywords": [
+      "Equivariant Neural Network",
+      "Tensor Product",
+      "Tensor Decomposition"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ lin2025tensor, title={Tensor Decomposition Networks for Fast Machine Learning Interatomic Potential Computations}, author={Yuchao Lin and Cong Fu and Zachary Krueger and Haiyang Yu and Maho Nakata and Jianwen Xie and Emine Kucukbenli and Xiaofeng Qian and Shuiwang Ji}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=9vKJyCUfMH} }",
+    "url": "https://openreview.net/forum?id=9vKJyCUfMH",
+    "pdf_url": "https://openreview.net/pdf?id=9vKJyCUfMH",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "TDN用低秩张量分解及路径权重共享替换学习原子势中的CG张量积，在1.05亿DFT弛豫快照及OC20/OC22上训练评估。专门改善分子/催化能量力模型计算，并有等变误差与表达能力保证。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Tensor Decomposition Networks for Fast Machine Learning Interatomic Potential Computations",
+        "authors": [
+          "Lin, Yuchao",
+          "Fu, Cong",
+          "Krueger, Zachary",
+          "Yu, Haiyang",
+          "Nakata, Maho",
+          "Xie, Jianwen",
+          "Kucukbenli, Emine",
+          "Qian, Xiaofeng",
+          "Ji, Shuiwang"
+        ],
+        "doi": "10.52202/085713-2958",
+        "volume": "38",
+        "pages": "88471–88495",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7fe3f83c15c1c96daf4689d358c9cadf-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/7fe3f83c15c1c96daf4689d358c9cadf-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "SO(3)-equivariant networks are the dominant models for machine learning interatomic potentials (MLIPs). The key operation of such networks is the Clebsch-Gordan (CG) tensor product, which is computationally expensive. To accelerate the computation, we develop tensor decomposition networks (TDNs) as a class of approximately equivariant networks whose CG tensor products are replaced by low-rank tensor decompositions, such as the CANDECOMP/PARAFAC (CP) decomposition. With the CP decomposition, we prove (i) a uniform bound on the induced error of SO(3)-equivariance, and (ii) the universality of approximating any equivariant bilinear map. To further reduce the number of parameters, we propose path-weight sharing that ties all multiplicity-space weights across the O(L^3) CG paths into a single shared parameter set without compromising equivariance, where L is the maximum angular degree. The resulting layer acts as a plug-and-play replacement for tensor products in existing networks, and the computational complexity of tensor products is reduced from O(L^6) to O(L^4). We evaluate TDNs on PubChemQCR, a newly curated molecular relaxation dataset containing 105 million DFT-calculated snapshots. We also use existing datasets, including OC20, and OC22. Results show that TDNs achieve competitive performance with dramatic speedup in computations. Our code is publicly available as part of the AIRS library (https://github.com/divelab/AIRS).",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7fe3f83c15c1c96daf4689d358c9cadf-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "TDN用低秩张量分解及路径权重共享替换学习原子势中的CG张量积，在1.05亿DFT弛豫快照及OC20/OC22上训练评估。专门改善分子/催化能量力模型计算，并有等变误差与表达能力保证。"
+        },
+        {
+          "axis": "method",
+          "label": "等变神经网络",
+          "label_en": "Equivariant neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "TDN用低秩张量分解及路径权重共享替换学习原子势中的CG张量积，在1.05亿DFT弛豫快照及OC20/OC22上训练评估。专门改善分子/催化能量力模型计算，并有等变误差与表达能力保证。"
+        },
+        {
+          "axis": "method",
+          "label": "机器学习原子势",
+          "label_en": "Machine-learned interatomic potential",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "TDN用低秩张量分解及路径权重共享替换学习原子势中的CG张量积，在1.05亿DFT弛豫快照及OC20/OC22上训练评估。专门改善分子/催化能量力模型计算，并有等变误差与表达能力保证。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9StiSCqeRw",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Eulerian Neural Network Informed by Chemical Transport for Air Quality Forecasting",
+    "authors": [
+      "Xukai Zhang",
+      "Shuliang Wang",
+      "Guangyin Jin",
+      "Ziqiang Yuan",
+      "Hanning Yuan",
+      "Sijie Ruan"
+    ],
+    "author_ids": [
+      "~Xukai_Zhang1",
+      "~Shuliang_Wang1",
+      "~Guangyin_Jin1",
+      "~Ziqiang_Yuan1",
+      "~Hanning_Yuan1",
+      "~Sijie_Ruan1"
+    ],
+    "abstract": "Air pollution remains one of the most critical environmental challenges globally, posing severe threats to public health, ecological sustainability, and climate governance. While existing physics-based and data-driven models have made progress in air quality forecasting, they often struggle to jointly capture the complex spatiotemporal dynamics and ensure spatial continuity of pollutant distributions. In this study, we introduce CTENet, a novel chemical transport deep learning model that embeds the Advection-Diffusion-Reaction equation into a Physics-Informed Neural Network (PINN) framework using an Eulerian representation to model the spatiotemporal evolution of pollutants. Extensive experiments on two real-world datasets demonstrate that CTENet consistently outperforms state-of-the-art (SOTA) baselines, achieving a remarkable RMSE improvement of 45.8% on the USA dataset and 21.0% on the China dataset.",
+    "keywords": [
+      "air quality prediction",
+      "chemical transport modeling",
+      "Eulerian neural network"
+    ],
+    "tldr": "Embedding physics to improve national air quality forecasts",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhang2025eulerian, title={Eulerian Neural Network Informed by Chemical Transport for Air Quality Forecasting}, author={Xukai Zhang and Shuliang Wang and Guangyin Jin and Ziqiang Yuan and Hanning Yuan and Sijie Ruan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=9StiSCqeRw} }",
+    "url": "https://openreview.net/forum?id=9StiSCqeRw",
+    "pdf_url": "https://openreview.net/pdf?id=9StiSCqeRw",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "physics-informed",
+      "\\bpinns?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "CTENet以Euler表示将平流–扩散–反应方程嵌入PINN，预测空气污染物连续时空演化，在美国/中国真实观测数据验证。AI直接用于化学输运与空气质量预报。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Eulerian Neural Network Informed by Chemical Transport for Air Quality Forecasting",
+        "authors": [
+          "Zhang, Xukai",
+          "Wang, Shuliang",
+          "Jin, Guangyin",
+          "Yuan, Ziqiang",
+          "Yuan, Hanning",
+          "Ruan, Sijie"
+        ],
+        "doi": "10.52202/085713-1128",
+        "volume": "38",
+        "pages": "33576–33601",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/305b2288122d46bf0641bdd86c9a7921-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Air pollution remains one of the most critical environmental challenges globally, posing severe threats to public health, ecological sustainability, and climate governance. While existing physics-based and data-driven models have made progress in air quality forecasting, they often struggle to jointly capture the complex spatiotemporal dynamics and ensure spatial continuity of pollutant distributions. In this study, we introduce CTENet, a novel chemical transport deep learning model that embeds the Advection-Diffusion-Reaction equation into a Physics-Informed Neural Network (PINN) framework using an Eulerian representation to model the spatiotemporal evolution of pollutants. Extensive experiments on two real-world datasets demonstrate that CTENet consistently outperforms state-of-the-art (SOTA) baselines, achieving a remarkable RMSE improvement of 45.8% on the USA dataset and 21.0% on the China dataset.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于地球宇宙科学",
+          "label_en": "AI for Earth and space sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CTENet以Euler表示将平流–扩散–反应方程嵌入PINN，预测空气污染物连续时空演化，在美国/中国真实观测数据验证。AI直接用于化学输运与空气质量预报。"
+        },
+        {
+          "axis": "method",
+          "label": "物理信息神经网络",
+          "label_en": "Physics-informed neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CTENet以Euler表示将平流–扩散–反应方程嵌入PINN，预测空气污染物连续时空演化，在美国/中国真实观测数据验证。AI直接用于化学输运与空气质量预报。"
+        },
+        {
+          "axis": "task",
+          "label": "环境空气污染浓度预测",
+          "label_en": "Ambient air pollutant concentration prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CTENet以Euler表示将平流–扩散–反应方程嵌入PINN，预测空气污染物连续时空演化，在美国/中国真实观测数据验证。AI直接用于化学输运与空气质量预报。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9PL1DIIB7e",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model",
+    "authors": [
+      "Qihao Duan",
+      "Bingding Huang",
+      "Zhenqiao Song",
+      "Irina Lehmann",
+      "Lei Gu",
+      "Roland Eils",
+      "Benjamin Wild"
+    ],
+    "author_ids": [
+      "~Qihao_Duan1",
+      "~Bingding_Huang1",
+      "~Zhenqiao_Song1",
+      "~Irina_Lehmann1",
+      "~Lei_Gu3",
+      "~Roland_Eils1",
+      "~Benjamin_Wild1"
+    ],
+    "abstract": "Large language models (LLMs) have revolutionized natural language processing and are increasingly applied to other sequential data types, including genetic sequences. However, adapting LLMs to genetics presents significant challenges. Capturing complex genomic interactions requires modeling long-range global dependencies within DNA sequences, where interactions often span over 10,000 base pairs, even within a single gene. This poses substantial computational demands under conventional model architectures and training paradigms. Additionally, traditional LLM training approaches are suboptimal for DNA sequences: autoregressive training, while efficient for training, only supports unidirectional sequence understanding. However, DNA is inherently bidirectional. For instance, bidirectional promoters regulate gene expression in both directions and govern approximately 11% of human gene expression. Masked language models (MLMs) enable bidirectional understanding. However, they are inefficient since only masked tokens contribute to loss calculations at each training step. To address these limitations, we introduce JanusDNA, the first bidirectional DNA foundation model built upon a novel pretraining paradigm, integrating the optimization efficiency of autoregressive modeling with the bidirectional comprehension capability of masked modeling. JanusDNA's architecture leverages a Mamba-Attention Mixture-of-Experts (MoE) design, combining the global, high-resolution context awareness of attention mechanisms with the efficient sequential representation learning capabilities of Mamba. The MoE layers further enhance the model's capacity through sparse parameter scaling, while maintaining manageable computational costs. Notably, JanusDNA can process up to 1 million base pairs at single-nucleotide resolution on a single 80GB GPU using its hybrid architecture. Extensive experiments and ablation studies demonstrate that JanusDNA achieves new state-of-the-art performance on three genomic representation benchmarks. Remarkably, JanusDNA surpasses models with 250x more activated parameters, underscoring its efficiency and effectiveness. Code available at https://anonymous.4open.science/r/JanusDNA/.",
+    "keywords": [
+      "genomics",
+      "foundation model",
+      "hybrid architecture",
+      "learning efficiency"
+    ],
+    "tldr": "JanusDNA, the first bidirectional DNA foundation model built upon a novel pretraining paradigm, integrating the optimization efficiency of autoregressive modeling with the bidirectional comprehension capability of masked modeling.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ duan2025janusdna, title={Janus{DNA}: A Powerful Bi-directional Hybrid {DNA} Foundation Model}, author={Qihao Duan and Bingding Huang and Zhenqiao Song and Irina Lehmann and Lei Gu and Roland Eils and Benjamin Wild}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=9PL1DIIB7e} }",
+    "url": "https://openreview.net/forum?id=9PL1DIIB7e",
+    "pdf_url": "https://openreview.net/pdf?id=9PL1DIIB7e",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "gene expression",
+      "\\bgenomics?\\b",
+      "\\bdna\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "JanusDNA为双向基因组理解设计预训练范式及Mamba–Attention–MoE混合模型，支持百万碱基单核苷酸分辨率并在三套基因组表征基准评测。科学对象和遗传序列模型贡献明确，非把一般LLM效率应用愿景当结果。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "JanusDNA: A Powerful Bi-directional Hybrid DNA Foundation Model",
+        "authors": [
+          "Duan, Qihao",
+          "Huang, Bingding",
+          "Song, Zhenqiao",
+          "Lehmann, Irina",
+          "Gu, Lei",
+          "Eils, Roland",
+          "Wild, Benjamin"
+        ],
+        "doi": "10.52202/085713-2314",
+        "volume": "38",
+        "pages": "68791–68818",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/638fdcfbbe10b2040b0b2b0dbfb2b2c0-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/638fdcfbbe10b2040b0b2b0dbfb2b2c0-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Large language models (LLMs) have revolutionized natural language processing and are increasingly applied to other sequential data types, including genetic sequences. However, adapting LLMs to genetics presents significant challenges. Capturing complex genomic interactions requires modeling long-range global dependencies within DNA sequences, where interactions often span over 10,000 base pairs, even within a single gene. This poses substantial computational demands under conventional model architectures and training paradigms. Additionally, traditional LLM training approaches are suboptimal for DNA sequences: autoregressive training, while efficient for training, only supports unidirectional sequence understanding. However, DNA is inherently bidirectional. For instance, bidirectional promoters regulate gene expression in both directions and govern approximately 11% of human gene expression. Masked language models (MLMs) enable bidirectional understanding. However, they are inefficient since only masked tokens contribute to loss calculations at each training step. To address these limitations, we introduce JanusDNA, the first bidirectional DNA foundation model built upon a novel pretraining paradigm, integrating the optimization efficiency of autoregressive modeling with the bidirectional comprehension capability of masked modeling. JanusDNA's architecture leverages a Mamba-Attention Mixture-of-Experts (MoE) design, combining the global, high-resolution context awareness of attention mechanisms with the efficient sequential representation learning capabilities of Mamba. The MoE layers further enhance the model's capacity through sparse parameter scaling, while maintaining manageable computational costs. Notably, JanusDNA can process up to 1 million base pairs at single-nucleotide resolution on a single 80GB GPU using its hybrid architecture. Extensive experiments and ablation studies demonstrate that JanusDNA achieves new state-of-the-art performance on three genomic representation benchmarks. Remarkably, JanusDNA surpasses models with 250x more activated parameters, underscoring its efficiency and effectiveness. Code available at https://anonymous.4open.science/r/JanusDNA/.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/638fdcfbbe10b2040b0b2b0dbfb2b2c0-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JanusDNA为双向基因组理解设计预训练范式及Mamba–Attention–MoE混合模型，支持百万碱基单核苷酸分辨率并在三套基因组表征基准评测。科学对象和遗传序列模型贡献明确，非把一般LLM效率应用愿景当结果。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "预训练",
+          "label_en": "Pretraining",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JanusDNA为双向基因组理解设计预训练范式及Mamba–Attention–MoE混合模型，支持百万碱基单核苷酸分辨率并在三套基因组表征基准评测。科学对象和遗传序列模型贡献明确，非把一般LLM效率应用愿景当结果。"
+        },
+        {
+          "axis": "method",
+          "label": "基因组语言模型",
+          "label_en": "Genomic language model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JanusDNA为双向基因组理解设计预训练范式及Mamba–Attention–MoE混合模型，支持百万碱基单核苷酸分辨率并在三套基因组表征基准评测。科学对象和遗传序列模型贡献明确，非把一般LLM效率应用愿景当结果。"
+        },
+        {
+          "axis": "contribution",
+          "label": "科学基础模型",
+          "label_en": "Scientific foundation model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JanusDNA为双向基因组理解设计预训练范式及Mamba–Attention–MoE混合模型，支持百万碱基单核苷酸分辨率并在三套基因组表征基准评测。科学对象和遗传序列模型贡献明确，非把一般LLM效率应用愿景当结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9AMNN3U7Ug",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "GeoAda: Efficiently Finetune Geometric Diffusion Models with Equivariant Adapters",
+    "authors": [
+      "Wanjia Zhao",
+      "Jiaqi Han",
+      "Siyi Gu",
+      "Mingjian Jiang",
+      "James Zou",
+      "Stefano Ermon"
+    ],
+    "author_ids": [
+      "~Wanjia_Zhao1",
+      "~Jiaqi_Han2",
+      "~Siyi_Gu1",
+      "~Mingjian_Jiang1",
+      "~James_Zou1",
+      "~Stefano_Ermon1"
+    ],
+    "abstract": "Geometric diffusion models have shown remarkable success in molecular dynamics and structure generation. However, efficiently fine-tuning them for downstream tasks with varying geometric controls remains underexplored. In this work, we propose an SE(3)-equivariant adapter framework (GeoAda) that enables flexible and parameter-efficient fine-tuning for controlled generative tasks without modifying the original model architecture. GeoAda introduces a structured adapter design: control signals are first encoded through coupling operators, then processed by a trainable copy of selected base model layers, and finally projected back via decoupling operators followed by an equivariant zero-initialized convolution. By fine-tuning only these lightweight adapter modules, GeoAda preserves the model’s geometric consistency while mitigating overfitting and catastrophic forgetting. We theoretically prove that the proposed adapters maintain SE(3)-equivariance, ensuring that the geometric inductive biases of the pretrained diffusion model remain intact during adaptation. We demonstrate the wide applicability of \\method across diverse geometric control types, including frame control, global control, subgraph control, and a broad range of application domains such as particle dynamics, molecular dynamics, human motion prediction, and molecule generation. Empirical results show that GeoAda achieves state-of-the-art fine-tuning performance while preserving original task accuracy, whereas other baselines experience significant performance degradation due to overfitting and catastrophic forgetting.",
+    "keywords": [
+      "Diffusion Models",
+      "Equivatriance",
+      "Geometic"
+    ],
+    "tldr": "We propose a general approach that unlocks the transferability of geometric diffusion models.",
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhao2025geoada, title={GeoAda: Efficiently Finetune Geometric Diffusion Models with Equivariant Adapters}, author={Wanjia Zhao and Jiaqi Han and Siyi Gu and Mingjian Jiang and James Zou and Stefano Ermon}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=9AMNN3U7Ug} }",
+    "url": "https://openreview.net/forum?id=9AMNN3U7Ug",
+    "pdf_url": "https://openreview.net/pdf?id=9AMNN3U7Ug",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecular dynamics",
+      "molecule generation",
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "GeoAda以SE(3)等变耦合/解耦适配器调控几何扩散，不改基础结构并减少遗忘，实际覆盖粒子/分子动力学及分子生成控制。AI直接参与几何物理系统的条件模拟和生成。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "GeoAda: Efficiently Finetune Geometric Diffusion Models with Equivariant Adapters",
+        "authors": [
+          "Zhao, Wanjia",
+          "Han, Jiaqi",
+          "Gu, Siyi",
+          "Jiang, Mingjian",
+          "Zou, James",
+          "Ermon, Stefano"
+        ],
+        "doi": "10.52202/085713-3172",
+        "volume": "38",
+        "pages": "94891–94918",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/88237ac4e9941b1be5c6d3c1ad408184-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/88237ac4e9941b1be5c6d3c1ad408184-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Geometric diffusion models have shown remarkable success in molecular dynamics and structure generation. However, efficiently fine-tuning them for downstream tasks with varying geometric controls remains underexplored. In this work, we propose an SE(3)-equivariant adapter framework (GeoAda) that enables flexible and parameter-efficient fine-tuning for controlled generative tasks without modifying the original model architecture.  GeoAda introduces a structured adapter design: control signals are first encoded through coupling operators, then processed by a trainable copy of selected base model layers, and finally projected back via decoupling operators followed by an equivariant zero-initialized convolution. By fine-tuning only these lightweight adapter modules, GeoAda preserves the model’s geometric consistency while mitigating overfitting and catastrophic forgetting. We theoretically prove that the proposed adapters maintain SE(3)-equivariance, ensuring that the geometric inductive biases of the pretrained diffusion model remain intact during adaptation. We demonstrate the wide applicability of \\method across diverse geometric control types, including frame control, global control, subgraph control, and a broad range of application domains such as particle dynamics, molecular dynamics, human motion prediction, and molecule generation. Empirical results show that  GeoAda achieves state-of-the-art fine-tuning performance while preserving original task accuracy, whereas other baselines experience significant performance degradation due to overfitting and catastrophic forgetting.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/88237ac4e9941b1be5c6d3c1ad408184-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GeoAda以SE(3)等变耦合/解耦适配器调控几何扩散，不改基础结构并减少遗忘，实际覆盖粒子/分子动力学及分子生成控制。AI直接参与几何物理系统的条件模拟和生成。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "微调",
+          "label_en": "Fine-tuning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GeoAda以SE(3)等变耦合/解耦适配器调控几何扩散，不改基础结构并减少遗忘，实际覆盖粒子/分子动力学及分子生成控制。AI直接参与几何物理系统的条件模拟和生成。"
+        },
+        {
+          "axis": "method",
+          "label": "等变神经网络",
+          "label_en": "Equivariant neural network",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GeoAda以SE(3)等变耦合/解耦适配器调控几何扩散，不改基础结构并减少遗忘，实际覆盖粒子/分子动力学及分子生成控制。AI直接参与几何物理系统的条件模拟和生成。"
+        },
+        {
+          "axis": "task",
+          "label": "分子动力学模拟",
+          "label_en": "Molecular dynamics simulation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "GeoAda以SE(3)等变耦合/解耦适配器调控几何扩散，不改基础结构并减少遗忘，实际覆盖粒子/分子动力学及分子生成控制。AI直接参与几何物理系统的条件模拟和生成。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90qt3kVYaE",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Hierarchical Implicit Neural Emulators",
+    "authors": [
+      "Ruoxi Jiang",
+      "Xiao Zhang",
+      "Karan Jakhar",
+      "Peter Y. Lu",
+      "Pedram Hassanzadeh",
+      "Michael Maire",
+      "Rebecca Willett"
+    ],
+    "author_ids": [
+      "~Ruoxi_Jiang1",
+      "~Xiao_Zhang11",
+      "~Karan_Jakhar1",
+      "~Peter_Y._Lu1",
+      "~Pedram_Hassanzadeh1",
+      "~Michael_Maire1",
+      "~Rebecca_Willett1"
+    ],
+    "abstract": "Neural PDE solvers offer a powerful tool for modeling complex dynamical systems, but often struggle with error accumulation over long time horizons and maintaining stability and physical consistency. We introduce a multiscale implicit neural emulator that enhances long-term prediction accuracy by conditioning on a hierarchy of lower-dimensional future state representations. Drawing inspiration from the stability properties of numerical implicit time-stepping methods, our approach leverages predictions several steps ahead in time at increasing compression rates for next-timestep refinements. By actively adjusting the temporal downsampling ratios, our design enables the model to capture dynamics across multiple granularities and enforce long-range temporal coherence. Experiments on turbulent fluid dynamics show that our method achieves high short-term accuracy and produces long-term stable forecasts, significantly outperforming autoregressive baselines while adding minimal computational overhead.",
+    "keywords": [
+      "Neural emulators; Long-term stability"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ jiang2025hierarchical, title={Hierarchical Implicit Neural Emulators}, author={Ruoxi Jiang and Xiao Zhang and Karan Jakhar and Peter Y. Lu and Pedram Hassanzadeh and Michael Maire and Rebecca Willett}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=90qt3kVYaE} }",
+    "url": "https://openreview.net/forum?id=90qt3kVYaE",
+    "pdf_url": "https://openreview.net/pdf?id=90qt3kVYaE",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "层次隐式神经模拟器用不同压缩率的多步未来状态修正下一时刻，维持长时动态一致性，实际在湍流动力学获得稳定长期预测。AI直接近似PDE物理演化。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Hierarchical Implicit Neural Emulators",
+        "authors": [
+          "Jiang, Ruoxi",
+          "Zhang, Xiao",
+          "Jakhar, Karan",
+          "Lu, Peter Y.",
+          "Hassanzadeh, Pedram",
+          "Maire, Michael",
+          "Willett, Rebecca"
+        ],
+        "doi": "10.52202/085713-2471",
+        "volume": "38",
+        "pages": "73718–73751",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6aa4967920e495e90aeeaa3acf18d019-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/6aa4967920e495e90aeeaa3acf18d019-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Neural PDE solvers offer a powerful tool for modeling complex dynamical systems, but often struggle with error accumulation over long time horizons and maintaining stability and physical consistency. We introduce a multiscale implicit neural emulator that enhances long-term prediction accuracy by conditioning on a hierarchy of lower-dimensional future state representations. Drawing inspiration from the stability properties of numerical implicit time-stepping methods, our approach leverages predictions several steps ahead in time at increasing compression rates for next-timestep refinements. By actively adjusting the temporal downsampling ratios, our design enables the model to capture dynamics across multiple granularities and enforce long-range temporal coherence. Experiments on turbulent fluid dynamics show that our method achieves high short-term accuracy and produces long-term stable forecasts, significantly outperforming autoregressive baselines while adding minimal computational overhead.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6aa4967920e495e90aeeaa3acf18d019-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "层次隐式神经模拟器用不同压缩率的多步未来状态修正下一时刻，维持长时动态一致性，实际在湍流动力学获得稳定长期预测。AI直接近似PDE物理演化。"
+        },
+        {
+          "axis": "method",
+          "label": "数据驱动降阶学习",
+          "label_en": "Data-driven reduced-order learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "层次隐式神经模拟器用不同压缩率的多步未来状态修正下一时刻，维持长时动态一致性，实际在湍流动力学获得稳定长期预测。AI直接近似PDE物理演化。"
+        },
+        {
+          "axis": "task",
+          "label": "流体动力学模拟",
+          "label_en": "Fluid dynamics simulation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "层次隐式神经模拟器用不同压缩率的多步未来状态修正下一时刻，维持长时动态一致性，实际在湍流动力学获得稳定长期预测。AI直接近似PDE物理演化。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8s0qknrCVK",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Iterative Foundation Model Fine-Tuning on Multiple Rewards",
+    "authors": [
+      "Pouya M. Ghari",
+      "simone sciabola",
+      "Ye Wang"
+    ],
+    "author_ids": [
+      "~Pouya_M._Ghari1",
+      "~simone_sciabola1",
+      "~Ye_Wang11"
+    ],
+    "abstract": "Fine-tuning foundation models has emerged as a powerful approach for generating objects with specific desired properties. Reinforcement learning (RL) provides an effective framework for this purpose, enabling models to generate outputs that maximize a given reward function. However, in many applications such as text generation and drug discovery, it can be suboptimal to optimize using a single reward signal, as multiple evaluation criteria are often necessary. This paper proposes a novel reinforcement learning-based method for fine-tuning foundation models using multiple reward signals. By employing an iterative fine-tuning strategy across these rewards, our approach generalizes state-of-the-art RL-based methods. We further provide a theoretical analysis that offers insights into the performance of multi-reward RL fine-tuning. Experimental results across diverse domains including text, biological sequence, and small molecule generation, demonstrate the effectiveness of the proposed algorithm compared to state-of-the-art baselines.",
+    "keywords": [
+      "Language Model Fine-Tuning",
+      "RLHF",
+      "Drug Discovery"
+    ],
+    "tldr": null,
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ghari2025iterative, title={Iterative Foundation Model Fine-Tuning on Multiple Rewards}, author={Pouya M. Ghari and simone sciabola and Ye Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=8s0qknrCVK} }",
+    "url": "https://openreview.net/forum?id=8s0qknrCVK",
+    "pdf_url": "https://openreview.net/pdf?id=8s0qknrCVK",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecule generation",
+      "\\bmolecules?\\b",
+      "drug discovery"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "提出多奖励迭代RL微调基础生成模型，实际实验包括生物序列和小分子多目标生成，不只文本奖励对齐。AI直接优化生物/化学设计对象的多个期望性质。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Iterative Foundation Model Fine-Tuning on Multiple Rewards",
+        "authors": [
+          "M. Ghari, Pouya",
+          "sciabola, simone",
+          "Wang, Ye"
+        ],
+        "doi": "10.52202/085713-5496",
+        "volume": "38",
+        "pages": "164827–164855",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f0c83294c80607fd95050efc2c636348-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f0c83294c80607fd95050efc2c636348-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Fine-tuning foundation models has emerged as a powerful approach for generating objects with specific desired properties. Reinforcement learning (RL) provides an effective framework for this purpose, enabling models to generate outputs that maximize a given reward function. However, in many applications such as text generation and drug discovery, it can be suboptimal to optimize using a single reward signal, as multiple evaluation criteria are often necessary. This paper proposes a novel reinforcement learning-based method for fine-tuning foundation models using multiple reward signals. By employing an iterative fine-tuning strategy across these rewards, our approach generalizes state-of-the-art RL-based methods. We further provide a theoretical analysis that offers insights into the performance of multi-reward RL fine-tuning. Experimental results across diverse domains including text, biological sequence, and small molecule generation, demonstrate the effectiveness of the proposed algorithm compared to state-of-the-art baselines.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f0c83294c80607fd95050efc2c636348-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "提出多奖励迭代RL微调基础生成模型，实际实验包括生物序列和小分子多目标生成，不只文本奖励对齐。AI直接优化生物/化学设计对象的多个期望性质。"
+        },
+        {
+          "axis": "method",
+          "label": "强化学习",
+          "label_en": "Reinforcement learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "提出多奖励迭代RL微调基础生成模型，实际实验包括生物序列和小分子多目标生成，不只文本奖励对齐。AI直接优化生物/化学设计对象的多个期望性质。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "微调",
+          "label_en": "Fine-tuning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "提出多奖励迭代RL微调基础生成模型，实际实验包括生物序列和小分子多目标生成，不只文本奖励对齐。AI直接优化生物/化学设计对象的多个期望性质。"
+        },
+        {
+          "axis": "task",
+          "label": "分子生成",
+          "label_en": "Molecule generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "提出多奖励迭代RL微调基础生成模型，实际实验包括生物序列和小分子多目标生成，不只文本奖励对齐。AI直接优化生物/化学设计对象的多个期望性质。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8hahZ1h9CG",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "PIVNO: Particle Image Velocimetry Neural Operator",
+    "authors": [
+      "Jie Xu",
+      "Xuesong Zhang",
+      "Jing Jiang",
+      "Qinghua Cui"
+    ],
+    "author_ids": [
+      "~Jie_Xu29",
+      "~Xuesong_Zhang2",
+      "~Jing_Jiang13",
+      "~Qinghua_Cui1"
+    ],
+    "abstract": "Particle Image Velocimetry (PIV) aims to infer underlying velocity fields from time-separated particle images, forming a PDE-constrained inverse problem governed by advection dynamics. Traditional cross-correlation methods and deep learning-based feature matching approaches often struggle with ambiguity, limited resolution, and generalization to real-world conditions. To address these challenges, we propose a PIV Neural Operator (PIVNO) framework that directly approximates the inverse mapping from paired particle images to flow fields within a function space. Leveraging a position informed Galerkin-style attention operator, PIVNO captures global flow structures while supporting resolution-adaptive inference across arbitrary subdomains. Moreover, to enhance real-world adaptability, we introduce a self-supervised fine-tuning scheme based on physical divergence constraints, enabling the model to generalize from synthetic to real experiments without requiring labeled data. Extensive evaluations demonstrate the accuracy, flexibility, and robustness of our approach across both simulated and experimental PIV datasets. Our code is at https://github.com/ZXS-Labs/PIVNO.",
+    "keywords": [
+      "PIV",
+      "Motion Field",
+      "Neural Operator",
+      "Self-supervised"
+    ],
+    "tldr": null,
+    "primary_area": "applications",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ xu2025pivno, title={{PIVNO}: Particle Image Velocimetry Neural Operator}, author={Jie Xu and Xuesong Zhang and Jing Jiang and Qinghua Cui}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=8hahZ1h9CG} }",
+    "url": "https://openreview.net/forum?id=8hahZ1h9CG",
+    "pdf_url": "https://openreview.net/pdf?id=8hahZ1h9CG",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "PIVNO将粒子图像对到流速场的反问题表述为函数空间神经算子，结合Galerkin注意力和散度物理自监督微调，在模拟及真实PIV实验测量验证。AI直接推断流体速度场并支持自适应分辨率。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "PIVNO: Particle Image Velocimetry Neural Operator",
+        "authors": [
+          "Jie, Xu",
+          "Zhang, Xuesong",
+          "Jiang, Jing",
+          "Cui, Qinghua"
+        ],
+        "doi": "10.52202/085713-2681",
+        "volume": "38",
+        "pages": "80211–80231",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/734f08e8d1e5521d256169f1297ea3c6-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/734f08e8d1e5521d256169f1297ea3c6-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Particle Image Velocimetry (PIV) aims to infer underlying velocity fields from time-separated particle images, forming a PDE-constrained inverse problem governed by advection dynamics. Traditional cross-correlation methods and deep learning-based feature matching approaches often struggle with ambiguity, limited resolution, and generalization to real-world conditions. To address these challenges, we propose a PIV Neural Operator (PIVNO) framework that directly approximates the inverse mapping from paired particle images to flow fields within a function space. Leveraging a position informed Galerkin-style attention operator, PIVNO captures global flow structures while supporting resolution-adaptive inference across arbitrary subdomains. Moreover, to enhance real-world adaptability, we introduce a self-supervised fine-tuning scheme based on physical divergence constraints, enabling the model to generalize from synthetic to real experiments without requiring labeled data. Extensive evaluations demonstrate the accuracy, flexibility, and robustness of our approach across both simulated and experimental PIV datasets. Our code is at https://github.com/ZXS-Labs/PIVNO.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/734f08e8d1e5521d256169f1297ea3c6-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于工程科学",
+          "label_en": "AI for engineering sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PIVNO将粒子图像对到流速场的反问题表述为函数空间神经算子，结合Galerkin注意力和散度物理自监督微调，在模拟及真实PIV实验测量验证。AI直接推断流体速度场并支持自适应分辨率。"
+        },
+        {
+          "axis": "method",
+          "label": "神经算子",
+          "label_en": "Neural operator",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PIVNO将粒子图像对到流速场的反问题表述为函数空间神经算子，结合Galerkin注意力和散度物理自监督微调，在模拟及真实PIV实验测量验证。AI直接推断流体速度场并支持自适应分辨率。"
+        },
+        {
+          "axis": "contribution",
+          "label": "科学测量",
+          "label_en": "Scientific measurement",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "PIVNO将粒子图像对到流速场的反问题表述为函数空间神经算子，结合Galerkin注意力和散度物理自监督微调，在模拟及真实PIV实验测量验证。AI直接推断流体速度场并支持自适应分辨率。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8Z3KnaYtw9",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "JAMUN: Bridging Smoothed Molecular Dynamics and Score-Based Learning for Conformational Ensemble Generation",
+    "authors": [
+      "Ameya Daigavane",
+      "Bodhi P. Vani",
+      "Darcy Davidson",
+      "Saeed Saremi",
+      "Joshua A Rackers",
+      "Joseph Kleinhenz"
+    ],
+    "author_ids": [
+      "~Ameya_Daigavane1",
+      "~Bodhi_P._Vani1",
+      "~Darcy_Davidson1",
+      "~Saeed_Saremi1",
+      "~Joshua_A_Rackers1",
+      "~Joseph_Kleinhenz1"
+    ],
+    "abstract": "Conformational ensembles of protein structures are immensely important both for understanding protein function and drug discovery in novel modalities such as cryptic pockets. Current techniques for sampling ensembles such as molecular dynamics (MD) are computationally inefficient, while many recent machine learning methods do not transfer to systems outside their training data. We propose JAMUN which performs MD in a smoothed, noised space of all-atom 3D conformations of molecules by utilizing the framework of walk-jump sampling. JAMUN enables ensemble generation for small peptides at rates of an order of magnitude faster than traditional molecular dynamics. The physical priors in JAMUN enables transferability to systems outside of its training data, even to peptides that are longer than those originally trained on. Our model, code and weights are available at https://github.com/prescient-design/jamun.",
+    "keywords": [
+      "Conformational Ensembles",
+      "Molecules",
+      "Protein Dynamics",
+      "Drug Discovery",
+      "Statistical Mechanics",
+      "Generative Models"
+    ],
+    "tldr": "Molecular dynamics in smoothed noisy spaces to accelerate conformational ensemble generation",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ daigavane2025jamun, title={{JAMUN}: Bridging Smoothed Molecular Dynamics and Score-Based Learning for Conformational Ensemble Generation}, author={Ameya Daigavane and Bodhi P. Vani and Darcy Davidson and Saeed Saremi and Joshua A Rackers and Joseph Kleinhenz}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=8Z3KnaYtw9} }",
+    "url": "https://openreview.net/forum?id=8Z3KnaYtw9",
+    "pdf_url": "https://openreview.net/pdf?id=8Z3KnaYtw9",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecular dynamics",
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b",
+      "protein structure",
+      "drug discovery",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "JAMUN以walk-jump框架在加噪平滑全原子构象空间进行MD，结合得分学习加快小肽构象系综生成，并借物理先验跨体系及序列长度迁移。AI直接支持计算分子构象采样。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "JAMUN: Bridging Smoothed Molecular Dynamics and Score-Based Learning for Conformational Ensemble Generation",
+        "authors": [
+          "Daigavane, Ameya",
+          "Vani, Bodhi",
+          "Davidson, Darcy",
+          "Saremi, Saeed",
+          "Rackers, Joshua",
+          "Kleinhenz, Joseph"
+        ],
+        "doi": "10.52202/085713-1236",
+        "volume": "38",
+        "pages": "36769–36801",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3476352269e5a76b91cb4670390f1b5c-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3476352269e5a76b91cb4670390f1b5c-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Conformational ensembles of protein structures are immensely important both for understanding protein function and drug discovery in novel modalities such as cryptic pockets. Current techniques for sampling ensembles such as molecular dynamics (MD) are computationally inefficient, while many recent machine learning methods do not transfer to systems outside their training data. We propose JAMUN which performs MD in a smoothed, noised space of all-atom 3D conformations of molecules by utilizing the framework of walk-jump sampling. JAMUN enables ensemble generation for small peptides at rates of an order of magnitude faster than traditional molecular dynamics. The physical priors in JAMUN enables transferability to systems outside of its training data, even to peptides that are longer than those originally trained on. Our model, code and weights are available at https://github.com/prescient-design/jamun.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3476352269e5a76b91cb4670390f1b5c-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JAMUN以walk-jump框架在加噪平滑全原子构象空间进行MD，结合得分学习加快小肽构象系综生成，并借物理先验跨体系及序列长度迁移。AI直接支持计算分子构象采样。"
+        },
+        {
+          "axis": "method",
+          "label": "生成建模",
+          "label_en": "Generative modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JAMUN以walk-jump框架在加噪平滑全原子构象空间进行MD，结合得分学习加快小肽构象系综生成，并借物理先验跨体系及序列长度迁移。AI直接支持计算分子构象采样。"
+        },
+        {
+          "axis": "task",
+          "label": "平衡态采样",
+          "label_en": "Equilibrium sampling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JAMUN以walk-jump框架在加噪平滑全原子构象空间进行MD，结合得分学习加快小肽构象系综生成，并借物理先验跨体系及序列长度迁移。AI直接支持计算分子构象采样。"
+        },
+        {
+          "axis": "task",
+          "label": "分子构象生成",
+          "label_en": "Molecular conformation generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "JAMUN以walk-jump框架在加噪平滑全原子构象空间进行MD，结合得分学习加快小肽构象系综生成，并借物理先验跨体系及序列长度迁移。AI直接支持计算分子构象采样。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7wdi1LaocD",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "AlphaFold Database Debiasing for Robust Inverse Folding",
+    "authors": [
+      "Cheng Tan",
+      "Zhenxiao Cao",
+      "Zhangyang Gao",
+      "Siyuan Li",
+      "Yufei Huang",
+      "Stan Z. Li"
+    ],
+    "author_ids": [
+      "~Cheng_Tan1",
+      "~Zhenxiao_Cao1",
+      "~Zhangyang_Gao1",
+      "~Siyuan_Li6",
+      "~Yufei_Huang4",
+      "~Stan_Z._Li2"
+    ],
+    "abstract": "The AlphaFold Protein Structure Database (AFDB) offers unparalleled structural coverage at near-experimental accuracy, positioning it as a valuable resource for data-driven protein design. However, its direct use in training deep models that are sensitive to fine-grained atomic geometry—such as inverse folding—exposes a critical limitation. Comparative analysis of structural feature distributions reveals that AFDB structures exhibit distinct statistical regularities, reflecting a systematic geometric bias that deviates from the conformational diversity found in experimentally determined structures from the Protein Data Bank (PDB). While AFDB structures are cleaner and more idealized, PDB structures capture the intrinsic variability and physical realism essential for generalization in downstream tasks. To address this discrepancy, we introduce a Debiasing Structure AutoEncoder (DeSAE) that learns to reconstruct native-like conformations from intentionally corrupted backbone geometries. By training the model to recover plausible structural states, DeSAE implicitly captures a more robust and natural structural manifold. At inference, applying DeSAE to AFDB structures produces debiased structures that significantly improve inverse folding performance across multiple benchmarks. This work highlights the critical impact of subtle systematic biases in predicted structures and presents a principled framework for debiasing, significantly boosting the performance of structure-based learning tasks like inverse folding.",
+    "keywords": [
+      "protein structure; protein design; AlphaFold"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ tan2025alphafold, title={AlphaFold Database Debiasing for Robust Inverse Folding}, author={Cheng Tan and Zhenxiao Cao and Zhangyang Gao and Siyuan Li and Yufei Huang and Stan Z. Li}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7wdi1LaocD} }",
+    "url": "https://openreview.net/forum?id=7wdi1LaocD",
+    "pdf_url": "https://openreview.net/pdf?id=7wdi1LaocD",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "protein structure",
+      "alphafold",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "DeSAE学习从受扰骨架恢复物理合理构象，纠正AFDB相对实验PDB的几何分布偏差，并在多个逆折叠基准提升结构驱动序列设计。AI实质校正科学结构数据并支持蛋白工程。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "AlphaFold Database Debiasing for Robust Inverse Folding",
+        "authors": [
+          "Tan, Cheng",
+          "Cao, Zhenxiao",
+          "Gao, Zhangyang",
+          "Li, Siyuan",
+          "Huang, Yufei",
+          "Li, Stan Z."
+        ],
+        "doi": "10.52202/085713-1954",
+        "volume": "38",
+        "pages": "58287–58317",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/54a1495b06c4ee2f07184afb9a37abda-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/54a1495b06c4ee2f07184afb9a37abda-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "The AlphaFold Protein Structure Database (AFDB) offers unparalleled structural coverage at near-experimental accuracy, positioning it as a valuable resource for data-driven protein design. However, its direct use in training deep models that are sensitive to fine-grained atomic geometry—such as inverse folding—exposes a critical limitation. Comparative analysis of structural feature distributions reveals that AFDB structures exhibit distinct statistical regularities, reflecting a systematic geometric bias that deviates from the conformational diversity found in experimentally determined structures from the Protein Data Bank (PDB). While AFDB structures are cleaner and more idealized, PDB structures capture the intrinsic variability and physical realism essential for generalization in downstream tasks. To address this discrepancy, we introduce a Debiasing Structure AutoEncoder (DeSAE) that learns to reconstruct native-like conformations from intentionally corrupted backbone geometries. By training the model to recover plausible structural states, DeSAE implicitly captures a more robust and natural structural manifold. At inference, applying DeSAE to AFDB structures produces debiased structures that significantly improve inverse folding performance across multiple benchmarks. This work highlights the critical impact of subtle systematic biases in predicted structures and presents a principled framework for debiasing, significantly boosting the performance of structure-based learning tasks like inverse folding.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/54a1495b06c4ee2f07184afb9a37abda-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "DeSAE学习从受扰骨架恢复物理合理构象，纠正AFDB相对实验PDB的几何分布偏差，并在多个逆折叠基准提升结构驱动序列设计。AI实质校正科学结构数据并支持蛋白工程。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "DeSAE学习从受扰骨架恢复物理合理构象，纠正AFDB相对实验PDB的几何分布偏差，并在多个逆折叠基准提升结构驱动序列设计。AI实质校正科学结构数据并支持蛋白工程。"
+        },
+        {
+          "axis": "task",
+          "label": "蛋白质逆折叠",
+          "label_en": "Protein inverse folding",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "DeSAE学习从受扰骨架恢复物理合理构象，纠正AFDB相对实验PDB的几何分布偏差，并在多个逆折叠基准提升结构驱动序列设计。AI实质校正科学结构数据并支持蛋白工程。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7tmVW6ZMmU",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "KINDLE: Knowledge-Guided Distillation for Prior-Free Gene Regulatory Network Inference",
+    "authors": [
+      "Rui Peng",
+      "Yuchen Lu",
+      "Qichen Sun",
+      "Yuxing Lu",
+      "Chi Zhang",
+      "Ziru Liu",
+      "Jinzhuo Wang"
+    ],
+    "author_ids": [
+      "~Rui_Peng3",
+      "~Yuchen_Lu5",
+      "~Qichen_Sun2",
+      "~Yuxing_Lu1",
+      "~Chi_Zhang57",
+      "~Ziru_Liu2",
+      "~Jinzhuo_Wang1"
+    ],
+    "abstract": "Gene regulatory network (GRN) inference serves as a cornerstone for deciphering cellular decision-making processes. Early approaches rely exclusively on gene expression data, thus their predictive power remain fundamentally constrained by the vast combinatorial space of potential gene-gene interactions. Subsequent methods integrate prior knowledge to mitigate this challenge by restricting the solution space to biologically plausible interactions. However, we argue that the effectiveness of these approaches is contingent upon the precision of prior information and the reduction in the search space will circumscribe the models' potential for novel biological discoveries. To address these limitations, we introduce KINDLE, a three-stage framework that decouples GRN inference from prior knowledge dependencies. KINDLE trains a teacher model that integrates prior knowledge with temporal gene expression dynamics and subsequently distills this encoded knowledge to a student model, enabling accurate GRN inference solely from expression data without access to any prior. KINDLE achieves state-of-the-art performance across four benchmark datasets. Notably, it successfully identifies key transcription factors governing mouse embryonic development and precisely characterizes their functional roles. In mouse hematopoietic stem cell data, KINDLE accurately predicts fate transition outcomes following knockout of two critical regulators (Gata1 and Spi1). These biological validations demonstrate our framework's dual capability in maintaining topological inference precision while preserving discovery potential for novel biological mechanisms.",
+    "keywords": [
+      "gene regulatory network"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ peng2025kindle, title={{KINDLE}: Knowledge-Guided Distillation for Prior-Free Gene Regulatory Network Inference}, author={Rui Peng and Yuchen Lu and Qichen Sun and Yuxing Lu and Chi Zhang and Ziru Liu and Jinzhuo Wang}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7tmVW6ZMmU} }",
+    "url": "https://openreview.net/forum?id=7tmVW6ZMmU",
+    "pdf_url": "https://openreview.net/pdf?id=7tmVW6ZMmU",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "gene expression"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "KINDLE先以先验与时间表达训练教师，再蒸馏至无需先验的学生，实际识别小鼠胚胎关键转录因子并预测Gata1/Spi1敲除后的造血命运转换。AI直接发现调控机制及干预结果。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "KINDLE: Knowledge-Guided Distillation for Prior-Free Gene Regulatory Network Inference",
+        "authors": [
+          "Peng, Rui",
+          "Lu, Yuchen",
+          "Sun, Qichen",
+          "Lu, Yuxing",
+          "Zhang, Chi",
+          "Liu, Ziru",
+          "Wang, Jinzhuo"
+        ],
+        "doi": "10.52202/085713-4173",
+        "volume": "38",
+        "pages": "125189–125217",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b61094e0bf5e9211456a2d2d8a03bb80-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b61094e0bf5e9211456a2d2d8a03bb80-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Gene regulatory network (GRN) inference serves as a cornerstone for deciphering cellular decision-making processes. Early approaches rely exclusively on gene expression data, thus their predictive power remain fundamentally constrained by the vast combinatorial space of potential gene-gene interactions. Subsequent methods integrate prior knowledge to mitigate this challenge by restricting the solution space to biologically plausible interactions. However, we argue that the effectiveness of these approaches is contingent upon the precision of prior information and the reduction in the search space will circumscribe the models' potential for novel biological discoveries. To address these limitations, we introduce KINDLE, a three-stage framework that decouples GRN inference from prior knowledge dependencies. KINDLE trains a teacher model that integrates prior knowledge with temporal gene expression dynamics and subsequently distills this encoded knowledge to a student model, enabling accurate GRN inference solely from expression data without access to any prior. KINDLE achieves state-of-the-art performance across four benchmark datasets. Notably, it successfully identifies key transcription factors governing mouse embryonic development and precisely characterizes their functional roles. In mouse hematopoietic stem cell data, KINDLE accurately predicts fate transition outcomes following knockout of two critical regulators (Gata1 and Spi1). These biological validations demonstrate our framework's dual capability in maintaining topological inference precision while preserving discovery potential for novel biological mechanisms.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b61094e0bf5e9211456a2d2d8a03bb80-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "KINDLE先以先验与时间表达训练教师，再蒸馏至无需先验的学生，实际识别小鼠胚胎关键转录因子并预测Gata1/Spi1敲除后的造血命运转换。AI直接发现调控机制及干预结果。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "KINDLE先以先验与时间表达训练教师，再蒸馏至无需先验的学生，实际识别小鼠胚胎关键转录因子并预测Gata1/Spi1敲除后的造血命运转换。AI直接发现调控机制及干预结果。"
+        },
+        {
+          "axis": "task",
+          "label": "基因调控网络推断",
+          "label_en": "Gene regulatory network inference",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "KINDLE先以先验与时间表达训练教师，再蒸馏至无需先验的学生，实际识别小鼠胚胎关键转录因子并预测Gata1/Spi1敲除后的造血命运转换。AI直接发现调控机制及干预结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7k7cubl1iL",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "CIDD: Collaborative Intelligence for Structure-Based Drug Design Empowered by LLMs",
+    "authors": [
+      "Bowen Gao",
+      "Yanwen Huang",
+      "Yiqiao Liu",
+      "Wenxuan Xie",
+      "Bowei He",
+      "Haichuan Tan",
+      "Wei-Ying Ma",
+      "Ya-Qin Zhang",
+      "Yanyan Lan"
+    ],
+    "author_ids": [
+      "~Bowen_Gao1",
+      "~Yanwen_Huang2",
+      "~Yiqiao_Liu2",
+      "~Wenxuan_Xie3",
+      "~Bowei_He1",
+      "~Haichuan_Tan1",
+      "~Wei-Ying_Ma2",
+      "~Ya-Qin_Zhang1",
+      "~Yanyan_Lan2"
+    ],
+    "abstract": "Structure-guided molecular generation is pivotal in early-stage drug discovery, enabling the design of compounds tailored to specific protein targets. However, despite recent advances in 3D generative modeling, particularly in improving docking scores, these methods often produce rare and intrinsically irrational molecular structures that deviate from drug-like chemical space. To quantify this issue, we propose a novel metric, the Molecule Reasonable Ratio (MRR), which measures structural rationality and reveals a critical gap between existing models and real-world approved drugs. To address this, we introduce the Collaborative Intelligence Drug Design (CIDD) framework, the first approach to unify the 3D interaction modeling capabilities of generative models with the general knowledge and reasoning power of large language models (LLMs). By leveraging LLM-based Chain-of-Thought reasoning, CIDD generates molecules that not only bind effectively to protein pockets but also exhibit strong structural drug-likeness, rationality, and synthetic accessibility. On the CrossDocked2020 benchmark, CIDD consistently improves drug-likeness metrics, including QED, SA, and MRR, across different base generative models, while maintaining competitive binding affinity. Notably, it raises the combined success rate (balancing drug-likeness and binding) from 15.72% to 34.59%, more than doubling previous results. These findings demonstrate the value of integrating knowledge reasoning with geometric generation to advance AI-driven drug design.",
+    "keywords": [
+      "Large Language Model",
+      "Drug Design"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ gao2025cidd, title={{CIDD}: Collaborative Intelligence for Structure-Based Drug Design Empowered by {LLM}s}, author={Bowen Gao and Yanwen Huang and Yiqiao Liu and Wenxuan Xie and Bowei He and Haichuan Tan and Wei-Ying Ma and Ya-Qin Zhang and Yanyan Lan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7k7cubl1iL} }",
+    "url": "https://openreview.net/forum?id=7k7cubl1iL",
+    "pdf_url": "https://openreview.net/pdf?id=7k7cubl1iL",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b",
+      "drug discovery",
+      "drug design",
+      "binding affinity",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "CIDD以LLM推理融合三维口袋相互作用生成，提出结构合理率并在CrossDocked2020同时改善QED、合成可及性、合理性和结合。AI直接生成符合药物化学约束的靶点分子。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "CIDD: Collaborative Intelligence for Structure-Based Drug Design Empowered by LLMs",
+        "authors": [
+          "Gao, Bowen",
+          "Huang, Yanwen",
+          "Liu, Yiqiao",
+          "Xie, Wenxuan",
+          "He, Bowei",
+          "Tan, Haichuan",
+          "Ma, Wei-Ying",
+          "Zhang, Ya-Qin",
+          "Lan, Yanyan"
+        ],
+        "doi": "10.52202/085713-0460",
+        "volume": "38",
+        "pages": "13651–13699",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14391f8ff68b7c51314f7897c581af9c-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/14391f8ff68b7c51314f7897c581af9c-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Structure-guided molecular generation is pivotal in early-stage drug discovery, enabling the design of compounds tailored to specific protein targets. However, despite recent advances in 3D generative modeling, particularly in improving docking scores, these methods often produce rare and intrinsically irrational molecular structures that deviate from drug-like chemical space. To quantify this issue, we propose a novel metric, the Molecule Reasonable Ratio (MRR), which measures structural rationality and reveals a critical gap between existing models and real-world approved drugs. To address this, we introduce the Collaborative Intelligence Drug Design (CIDD) framework, the first approach to unify the 3D interaction modeling capabilities of generative models with the general knowledge and reasoning power of large language models (LLMs). By leveraging LLM-based Chain-of-Thought reasoning, CIDD generates molecules that not only bind effectively to protein pockets but also exhibit strong structural drug-likeness, rationality, and synthetic accessibility. On the CrossDocked2020 benchmark, CIDD consistently improves drug-likeness metrics, including QED, SA, and MRR, across different base generative models, while maintaining competitive binding affinity. Notably, it raises the combined success rate (balancing drug-likeness and binding) from 15.72% to 34.59%, more than doubling previous results. These findings demonstrate the value of integrating knowledge reasoning with geometric generation to advance AI-driven drug design.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14391f8ff68b7c51314f7897c581af9c-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CIDD以LLM推理融合三维口袋相互作用生成，提出结构合理率并在CrossDocked2020同时改善QED、合成可及性、合理性和结合。AI直接生成符合药物化学约束的靶点分子。"
+        },
+        {
+          "axis": "method",
+          "label": "语言模型",
+          "label_en": "Language model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CIDD以LLM推理融合三维口袋相互作用生成，提出结构合理率并在CrossDocked2020同时改善QED、合成可及性、合理性和结合。AI直接生成符合药物化学约束的靶点分子。"
+        },
+        {
+          "axis": "task",
+          "label": "分子生成",
+          "label_en": "Molecule generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CIDD以LLM推理融合三维口袋相互作用生成，提出结构合理率并在CrossDocked2020同时改善QED、合成可及性、合理性和结合。AI直接生成符合药物化学约束的靶点分子。"
+        },
+        {
+          "axis": "task",
+          "label": "药物设计",
+          "label_en": "Drug design",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "CIDD以LLM推理融合三维口袋相互作用生成，提出结构合理率并在CrossDocked2020同时改善QED、合成可及性、合理性和结合。AI直接生成符合药物化学约束的靶点分子。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7cqKVDgFZQ",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Curly Flow Matching for Learning Non-gradient Field Dynamics",
+    "authors": [
+      "Katarina Petrović",
+      "Lazar Atanackovic",
+      "Viggo Moro",
+      "Kacper Kapuśniak",
+      "Ismail Ilkan Ceylan",
+      "Michael M. Bronstein",
+      "Joey Bose",
+      "Alexander Tong"
+    ],
+    "author_ids": [
+      "~Katarina_Petrović1",
+      "~Lazar_Atanackovic1",
+      "~Viggo_Moro1",
+      "~Kacper_Kapuśniak1",
+      "~Ismail_Ilkan_Ceylan2",
+      "~Michael_M._Bronstein1",
+      "~Joey_Bose1",
+      "~Alexander_Tong1"
+    ],
+    "abstract": "Modeling the transport dynamics of natural processes from population-level observations is a ubiquitous problem in the natural sciences. Such models rely on key assumptions about the underlying process in order to enable faithful learning of governing dynamics that mimic the actual system behavior. The de facto assumption in current approaches relies on the principle of least action that results in gradient field dynamics and leads to trajectories minimizing an energy functional between two probability measures. However, many real-world systems, such as cell cycles in single-cell RNA, are known to exhibit non-gradient, periodic behavior, which fundamentally cannot be captured by current state-of-the-art methods such as flow and bridge matching. In this paper, we introduce Curly Flow Matching (Curly-FM), a novel approach that is capable of learning non-gradient field dynamics by designing and solving a Schrödinger bridge problem with a non-zero drift reference process---in stark contrast to typical zero-drift reference processes---which is constructed using inferred velocities in addition to population snapshot data. We showcase Curly-FM by solving the trajectory inference problems for single cells, computational fluid dynamics, and ocean currents with approximate velocities. We demonstrate that Curly-FM can learn trajectories that better match both the reference process and population marginals. Curly-FM expands flow matching models beyond the modeling of populations and towards the modeling of known periodic behavior in physical systems. Our code repository is accessible at: https://github.com/kpetrovicc/curly-flow-matching.git",
+    "keywords": [
+      "Single-cell",
+      "Trajectory Inference",
+      "Schrödinger Bridge",
+      "Optimal Transport",
+      "Flow Matching"
+    ],
+    "tldr": "We learn non-gradient field dynamics by solving Schrödinger Bridge problem with non-zero reference process drift",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ petrovic2025curly, title={Curly Flow Matching for Learning Non-gradient Field Dynamics}, author={Katarina Petrovi{\\'c} and Lazar Atanackovic and Viggo Moro and Kacper Kapu{\\'s}niak and Ismail Ilkan Ceylan and Michael M. Bronstein and Joey Bose and Alexander Tong}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7cqKVDgFZQ} }",
+    "url": "https://openreview.net/forum?id=7cqKVDgFZQ",
+    "pdf_url": "https://openreview.net/pdf?id=7cqKVDgFZQ",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "single-cell",
+      "single cell",
+      "\\brna\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "Curly-FM利用速度与快照构造非零漂移Schrödinger参考过程，学习非梯度周期动力，实际解决单细胞周期、CFD和海流轨迹推断。AI直接刻画传统最小作用量梯度假设无法表达的科学演化。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Curly Flow Matching for Learning Non-gradient Field Dynamics",
+        "authors": [
+          "Petrović, Katarina",
+          "Atanackovic, Lazar",
+          "Moro, Viggo",
+          "Kapusniak, Kacper",
+          "Ceylan, Ismail Ilkan",
+          "Bronstein, Michael",
+          "Bose, Joey",
+          "Tong, Alexander"
+        ],
+        "doi": "10.52202/085713-4053",
+        "volume": "38",
+        "pages": "121544–121573",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b00692865928625ace212e89ded2decd-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b00692865928625ace212e89ded2decd-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Modeling the transport dynamics of natural processes from population-level observations is a ubiquitous problem in the natural sciences. Such models rely on key assumptions about the underlying process in order to enable faithful learning of governing dynamics that mimic the actual system behavior. The de facto assumption in current approaches relies on the principle of least action that results in gradient field dynamics and leads to trajectories minimizing an energy functional between two probability measures. However, many real-world systems, such as cell cycles in single-cell RNA, are known to exhibit non-gradient, periodic behavior, which fundamentally cannot be captured by current state-of-the-art methods such as flow and bridge matching. In this paper, we introduce Curly Flow Matching (Curly-FM), a novel approach that is capable of learning non-gradient field dynamics by designing and solving a Schrödinger bridge problem with a non-zero drift reference process---in stark contrast to typical zero-drift reference processes---which is constructed using inferred velocities in addition to population snapshot data. We showcase Curly-FM by solving the trajectory inference problems for single cells, computational fluid dynamics, and ocean currents with approximate velocities. We demonstrate that Curly-FM can learn trajectories that better match both the reference process and population marginals. Curly-FM expands flow matching models beyond the modeling of populations and towards the modeling of known periodic behavior in physical systems. Our code repository is accessible at: https://github.com/kpetrovicc/curly-flow-matching.git",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b00692865928625ace212e89ded2decd-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "Curly-FM利用速度与快照构造非零漂移Schrödinger参考过程，学习非梯度周期动力，实际解决单细胞周期、CFD和海流轨迹推断。AI直接刻画传统最小作用量梯度假设无法表达的科学演化。"
+        },
+        {
+          "axis": "method",
+          "label": "流匹配",
+          "label_en": "Flow matching",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "Curly-FM利用速度与快照构造非零漂移Schrödinger参考过程，学习非梯度周期动力，实际解决单细胞周期、CFD和海流轨迹推断。AI直接刻画传统最小作用量梯度假设无法表达的科学演化。"
+        },
+        {
+          "axis": "task",
+          "label": "细胞轨迹推断",
+          "label_en": "Cell trajectory inference",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "Curly-FM利用速度与快照构造非零漂移Schrödinger参考过程，学习非梯度周期动力，实际解决单细胞周期、CFD和海流轨迹推断。AI直接刻画传统最小作用量梯度假设无法表达的科学演化。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7M9JGaoAeC",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Infinite Neural Operators: Gaussian processes on functions",
+    "authors": [
+      "Daniel Augusto de Souza",
+      "Yuchen Zhu",
+      "Harry Jake Cunningham",
+      "Yuri Saporito",
+      "Diego Mesquita",
+      "Marc Peter Deisenroth"
+    ],
+    "author_ids": [
+      "~Daniel_Augusto_de_Souza1",
+      "~Yuchen_Zhu1",
+      "~Harry_Jake_Cunningham1",
+      "~Yuri_Saporito1",
+      "~Diego_Mesquita1",
+      "~Marc_Peter_Deisenroth1"
+    ],
+    "abstract": "A variety of infinitely wide neural architectures (e.g., dense NNs, CNNs, and transformers) induce Gaussian process (GP) priors over their outputs. These relationships provide both an accurate characterization of the prior predictive distribution and enable the use of GP machinery to improve the uncertainty quantification of deep neural networks. In this work, we extend this connection to neural operators (NOs), a class of models designed to learn mappings between function spaces. Specifically, we show conditions for when arbitrary-depth NOs with Gaussian-distributed convolution kernels converge to function-valued GPs. Based on this result, we show how to compute the covariance functions of these NO-GPs for two NO parametrizations, including the popular Fourier neural operator (FNO). With this, we compute the posteriors of these GPs in regression scenarios, including PDE solution operators. This work is an important step towards uncovering the inductive biases of current FNO architectures and opens a path to incorporate novel inductive biases for use in kernel-based operator learning methods.",
+    "keywords": [
+      "infinite-width neural networks",
+      "Gaussian process",
+      "neural operator"
+    ],
+    "tldr": null,
+    "primary_area": "probabilistic_methods",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ souza2025infinite, title={Infinite Neural Operators: Gaussian processes on functions}, author={Daniel Augusto de Souza and Yuchen Zhu and Harry Jake Cunningham and Yuri Saporito and Diego Mesquita and Marc Peter Deisenroth}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7M9JGaoAeC} }",
+    "url": "https://openreview.net/forum?id=7M9JGaoAeC",
+    "pdf_url": "https://openreview.net/pdf?id=7M9JGaoAeC",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator",
+      "fourier neural operator",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "推导无限宽神经算子到函数值GP的收敛和FNO协方差计算，并实际计算包括PDE解算子的回归后验。属于直接服务科学算子求解与不确定性的理论/方法研究，而非只提PDE愿景。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Infinite Neural Operators: Gaussian processes on functions",
+        "authors": [
+          "de Souza, Daniel Augusto",
+          "Zhu, Yuchen",
+          "Cunningham, Jake",
+          "Saporito, Yuri",
+          "Mesquita, Diego",
+          "Deisenroth, Marc"
+        ],
+        "doi": "10.52202/085713-4294",
+        "volume": "38",
+        "pages": "128939–128967",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/bb74d3d956cc960f693716b3595593d7-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/bb74d3d956cc960f693716b3595593d7-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "A variety of infinitely wide neural architectures (e.g., dense NNs, CNNs, and transformers) induce Gaussian process (GP) priors over their outputs. These relationships provide both an accurate characterization of the prior predictive distribution and enable the use of GP machinery to improve the uncertainty quantification of deep neural networks. In this work, we extend this connection to neural operators (NOs), a class of models designed to learn mappings between function spaces. Specifically, we show conditions for when arbitrary-depth NOs with Gaussian-distributed convolution kernels converge to function-valued GPs. Based on this result, we show how to compute the covariance functions of these NO-GPs for two NO parametrizations, including the popular Fourier neural operator (FNO). With this, we compute the posteriors of these GPs in regression scenarios, including PDE solution operators. This work is an important step towards uncovering the inductive biases of current FNO architectures and opens a path to incorporate novel inductive biases for use in kernel-based operator learning methods.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/bb74d3d956cc960f693716b3595593d7-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "推导无限宽神经算子到函数值GP的收敛和FNO协方差计算，并实际计算包括PDE解算子的回归后验。属于直接服务科学算子求解与不确定性的理论/方法研究，而非只提PDE愿景。"
+        },
+        {
+          "axis": "method",
+          "label": "神经算子",
+          "label_en": "Neural operator",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "推导无限宽神经算子到函数值GP的收敛和FNO协方差计算，并实际计算包括PDE解算子的回归后验。属于直接服务科学算子求解与不确定性的理论/方法研究，而非只提PDE愿景。"
+        },
+        {
+          "axis": "method",
+          "label": "高斯过程",
+          "label_en": "Gaussian process",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "推导无限宽神经算子到函数值GP的收敛和FNO协方差计算，并实际计算包括PDE解算子的回归后验。属于直接服务科学算子求解与不确定性的理论/方法研究，而非只提PDE愿景。"
+        },
+        {
+          "axis": "task",
+          "label": "偏微分方程求解",
+          "label_en": "Partial differential equation solving",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "推导无限宽神经算子到函数值GP的收敛和FNO协方差计算，并实际计算包括PDE解算子的回归后验。属于直接服务科学算子求解与不确定性的理论/方法研究，而非只提PDE愿景。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7L4NvUtZY3",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "FlashBias: Fast Computation of Attention with Bias",
+    "authors": [
+      "Haixu Wu",
+      "Minghao Guo",
+      "Yuezhou Ma",
+      "Yuanxu Sun",
+      "Jianmin Wang",
+      "Wojciech Matusik",
+      "Mingsheng Long"
+    ],
+    "author_ids": [
+      "~Haixu_Wu1",
+      "~Minghao_Guo1",
+      "~Yuezhou_Ma1",
+      "~Yuanxu_Sun1",
+      "~Jianmin_Wang1",
+      "~Wojciech_Matusik2",
+      "~Mingsheng_Long5"
+    ],
+    "abstract": "Attention with bias, which extends standard attention by introducing prior knowledge as an additive bias matrix to the query-key scores, has been widely deployed in vision, language, protein-folding and other advanced scientific models, underscoring its status as a key evolution of this foundational module. However, introducing bias terms creates a severe efficiency bottleneck in attention computation. It disrupts the tightly fused memory-compute pipeline that underlies the speed of accelerators like FlashAttention, thereby stripping away most of their performance gains and leaving biased attention computationally expensive. Surprisingly, despite its common usage, targeted efficiency optimization for attention with bias remains absent, which seriously hinders its application in complex tasks. Diving into the computation of FlashAttention, we prove that its optimal efficiency is determined by the rank of the attention weight matrix. Inspired by this theoretical result, this paper presents FlashBias based on the low-rank compressed sensing theory, which can provide fast-exact computation for many widely used attention biases and a fast-accurate approximation for biases in general formalizations. FlashBias can fully take advantage of the extremely optimized matrix multiplication operation in modern GPUs, achieving 1.5$\\times$ speedup for Pairformer in AlphaFold 3, and over 2$\\times$ speedup for attention with bias in vision and language models without loss of accuracy. Code is available at this repository: https://github.com/thuml/FlashBias.",
+    "keywords": [
+      "FlashAttention",
+      "Efficient Attention"
+    ],
+    "tldr": "This paper presents FlashBias to speed up computation of attention with bias, which brings 1.5x speedup for AlphaFold and 2x speedup for SwinV2.",
+    "primary_area": "deep_learning",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wu2025flashbias, title={FlashBias: Fast Computation of Attention with Bias}, author={Haixu Wu and Minghao Guo and Yuezhou Ma and Yuanxu Sun and Jianmin Wang and Wojciech Matusik and Mingsheng Long}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7L4NvUtZY3} }",
+    "url": "https://openreview.net/forum?id=7L4NvUtZY3",
+    "pdf_url": "https://openreview.net/pdf?id=7L4NvUtZY3",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "alphafold",
+      "\\bproteins?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "exclude",
+      "rationale": "FlashBias研究带偏置注意力的GPU计算融合、低秩压缩感知及无损/近似提速，AlphaFold3 Pairformer只作为算子效率演示。未开展独立蛋白/物理研究任务，按通用注意力计算提速排除。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "FlashBias: Fast Computation of Attention with Bias",
+        "authors": [
+          "Wu, Haixu",
+          "Guo, Minghao",
+          "Ma, Yuezhou",
+          "Sun, Yuanxu",
+          "Wang, Jianmin",
+          "Matusik, Wojciech",
+          "Long, Mingsheng"
+        ],
+        "doi": "10.52202/085713-0699",
+        "volume": "38",
+        "pages": "20729–20756",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1dc3d70df51a218497529df998a8a8ce-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1dc3d70df51a218497529df998a8a8ce-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Attention with bias, which extends standard attention by introducing prior knowledge as an additive bias matrix to the query-key scores, has been widely deployed in vision, language, protein-folding and other advanced scientific models, underscoring its status as a key evolution of this foundational module. However, introducing bias terms creates a severe efficiency bottleneck in attention computation. It disrupts the tightly fused memory-compute pipeline that underlies the speed of accelerators like FlashAttention, thereby stripping away most of their performance gains and leaving biased attention computationally expensive. Surprisingly, despite its common usage, targeted efficiency optimization for attention with bias remains absent, which seriously hinders its application in complex tasks. Diving into the computation of FlashAttention, we prove that its optimal efficiency is determined by the rank of the attention weight matrix. Inspired by this theoretical result, this paper presents FlashBias based on the low-rank compressed sensing theory, which can provide fast-exact computation for many widely used attention biases and a fast-accurate approximation for biases in general formalizations. FlashBias can fully take advantage of the extremely optimized matrix multiplication operation in modern GPUs, achieving 1.5$\\times$ speedup for Pairformer in AlphaFold 3, and over 2$\\times$ speedup for attention with bias in vision and language models without loss of accuracy. Code is available at this repository: https://github.com/thuml/FlashBias.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1dc3d70df51a218497529df998a8a8ce-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": []
+    }
+  },
+  {
+    "id": "7DyKKOU6HR",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Self-supervised Blending Structural Context of Visual Molecules for Robust Drug Interaction Prediction",
+    "authors": [
+      "Tengfei Ma",
+      "Kun Chen",
+      "Yongsheng Zang",
+      "Yujie Chen",
+      "Xuanbai Ren",
+      "Bosheng Song",
+      "hongxin xiang",
+      "Yiping Liu",
+      "xiangxiang Zeng"
+    ],
+    "author_ids": [
+      "~Tengfei_Ma2",
+      "~Kun_Chen11",
+      "~Yongsheng_Zang1",
+      "~Yujie_Chen10",
+      "~Xuanbai_Ren1",
+      "~Bosheng_Song1",
+      "~hongxin_xiang1",
+      "~Yiping_Liu3",
+      "~xiangxiang_Zeng1"
+    ],
+    "abstract": "Identifying drug-drug interactions (DDIs) is critical for ensuring drug safety and advancing drug development, a topic that has garnered significant research interest. While existing methods have made considerable progress, approaches relying solely on known DDIs face a key challenge when applied to drugs with limited data: insufficient exploration of the space of unlabeled pairwise drugs. To address these issues, we innovatively introduce S$^2$VM, a Self-supervised Visual pretraining framework for pair-wise Molecules, to fully fuse structural representations and explore the space of drug pairs for DDI prediction. S$^2$VM incorporates the explicit structure and correlations of visual molecules, such as the positional relationships and connectivity between functional substructures. Specifically, we blend the visual fragments of drug pairs into a unified input for joint encoding and then recover molecule-specific visual information for each drug individually. This approach integrates fine-grained structural representations from unlabeled drug pair data. By using visual fragments as anchors, S$^2$VM effectively captures the spatial information of local molecular components within visual molecules, resulting in more comprehensive embeddings of drug pairs. Experimental results show that S$^2$VM achieves state-of-the-art performance on widely used benchmarks, with Macro-F1 score improvements of 4.21% and 3.31%, respectively. Further extensive results and theoretical analysis demonstrate the effectiveness of S$^2$VM for both few-shot and novel drugs.",
+    "keywords": [
+      "Drug Interaction Prediction",
+      "Drug Discovery",
+      "Molecule Representation Learning"
+    ],
+    "tldr": "S²VM self-supervised learning from large unlabeled drug pairs, achieving SOTA DDI prediction and superior generalization/interpretability on novel/few-shot drugs.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ ma2025selfsupervised, title={Self-supervised Blending Structural Context of Visual Molecules for Robust Drug Interaction Prediction}, author={Tengfei Ma and Kun Chen and Yongsheng Zang and Yujie Chen and Xuanbai Ren and Bosheng Song and hongxin xiang and Yiping Liu and xiangxiang Zeng}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=7DyKKOU6HR} }",
+    "url": "https://openreview.net/forum?id=7DyKKOU6HR",
+    "pdf_url": "https://openreview.net/pdf?id=7DyKKOU6HR",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b",
+      "drug discovery"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "S²VM将药物对图像子结构混合编码再恢复单分子信息，利用未标注配对自监督学习空间结构，实际在少样本与新药条件预测DDI。AI直接研究药物相互作用和安全性。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Self-supervised Blending Structural Context of Visual Molecules for Robust Drug Interaction Prediction",
+        "authors": [
+          "Ma, Tengfei",
+          "Chen, Kun",
+          "Zang, Yongsheng",
+          "Chen, Yujie",
+          "Ren, Xuanbai",
+          "Song, Bosheng",
+          "Xiang, Hongxin",
+          "Liu, Yiping",
+          "Zeng, xiangxiang"
+        ],
+        "doi": "10.52202/085713-4435",
+        "volume": "38",
+        "pages": "133133–133161",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/c0ebffad509ae02bd60340690b1fdd5d-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/c0ebffad509ae02bd60340690b1fdd5d-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Identifying drug-drug interactions (DDIs) is critical for ensuring drug safety and advancing drug development, a topic that has garnered significant research interest. While existing methods have made considerable progress, approaches relying solely on known DDIs face a key challenge when applied to drugs with limited data: insufficient exploration of the space of unlabeled pairwise drugs.  To address these issues, we innovatively introduce S$^2$VM, a Self-supervised Visual pretraining framework for pair-wise Molecules, to fully fuse structural representations and explore the space of drug pairs for DDI prediction. S$^2$VM incorporates the explicit structure and correlations of visual molecules, such as the positional relationships and connectivity between functional substructures. Specifically, we blend the visual fragments of drug pairs into a unified input for joint encoding and then recover molecule-specific visual information for each drug individually. This approach integrates fine-grained structural representations from unlabeled drug pair data. By using visual fragments as anchors, S$^2$VM effectively captures the spatial information of local molecular components within visual molecules, resulting in more comprehensive embeddings of drug pairs. Experimental results show that S$^2$VM achieves state-of-the-art performance on widely used benchmarks, with Macro-F1 score improvements of 4.21% and 3.31%, respectively. Further extensive results and theoretical analysis demonstrate the effectiveness of S$^2$VM for both few-shot and novel drugs.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/c0ebffad509ae02bd60340690b1fdd5d-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "S²VM将药物对图像子结构混合编码再恢复单分子信息，利用未标注配对自监督学习空间结构，实际在少样本与新药条件预测DDI。AI直接研究药物相互作用和安全性。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "预训练",
+          "label_en": "Pretraining",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "S²VM将药物对图像子结构混合编码再恢复单分子信息，利用未标注配对自监督学习空间结构，实际在少样本与新药条件预测DDI。AI直接研究药物相互作用和安全性。"
+        },
+        {
+          "axis": "method",
+          "label": "自监督学习",
+          "label_en": "Self-supervised learning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "S²VM将药物对图像子结构混合编码再恢复单分子信息，利用未标注配对自监督学习空间结构，实际在少样本与新药条件预测DDI。AI直接研究药物相互作用和安全性。"
+        },
+        {
+          "axis": "task",
+          "label": "药物相互作用预测",
+          "label_en": "Drug-drug interaction prediction",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "S²VM将药物对图像子结构混合编码再恢复单分子信息，利用未标注配对自监督学习空间结构，实际在少样本与新药条件预测DDI。AI直接研究药物相互作用和安全性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6xL4MRFeJo",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Manipulating 3D Molecules in a Fixed-Dimensional E(3)-Equivariant Latent Space",
+    "authors": [
+      "Zitao Chen",
+      "Yinjun Jia",
+      "Zitong Tian",
+      "Wei-Ying Ma",
+      "Yanyan Lan"
+    ],
+    "author_ids": [
+      "~Zitao_Chen1",
+      "~Yinjun_Jia1",
+      "~Zitong_Tian1",
+      "~Wei-Ying_Ma2",
+      "~Yanyan_Lan2"
+    ],
+    "abstract": "Medicinal chemists often optimize drugs considering their 3D structures and designing structurally distinct molecules that retain key features, such as shapes, pharmacophores, or chemical properties. Previous deep learning approaches address this through supervised tasks like molecule inpainting or property-guided optimization. In this work, we propose a flexible zero-shot molecule manipulation method by navigating in a shared latent space of 3D molecules. We introduce a Variational AutoEncoder (VAE) for 3D molecules, named MolFLAE, which learns a fixed-dimensional, E(3)-equivariant latent space independent of atom counts. MolFLAE encodes 3D molecules using an E(3)-equivariant neural network into fixed number of latent nodes, distinguished by learned embeddings. The latent space is regularized, and molecular structures are reconstructed via a Bayesian Flow Network (BFN) conditioned on the encoder’s latent output. MolFLAE achieves competitive performance on standard unconditional 3D molecule generation benchmarks. Moreover, the latent space of MolFLAE enables zero-shot molecule manipulation, including atom number editing, structure reconstruction, and coordinated latent interpolation for both structure and properties. We further demonstrate our approach on a drug optimization task for the human glucocorticoid receptor, generating molecules with improved hydrophilicity while preserving key interactions, under computational evaluations. These results highlight the flexibility, robustness, and real-world utility of our method, opening new avenues for molecule editing and optimization.",
+    "keywords": [
+      "Drug Design;VAE;Deep Learninng;Molecule Generation;"
+    ],
+    "tldr": "We present the first variational autoencoder (VAE) model for 3D molecules that operates within a fixed-dimensional, E(3)-equivariant latent space, independent of atom counts.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ chen2025manipulating, title={Manipulating 3D Molecules in a Fixed-Dimensional E(3)-Equivariant Latent Space}, author={Zitao Chen and Yinjun Jia and Zitong Tian and Wei-Ying Ma and Yanyan Lan}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=6xL4MRFeJo} }",
+    "url": "https://openreview.net/forum?id=6xL4MRFeJo",
+    "pdf_url": "https://openreview.net/pdf?id=6xL4MRFeJo",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecule generation",
+      "\\bmolecules?\\b",
+      "\\bmolecular\\b",
+      "drug design"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "MolFLAE以固定维E(3)等变VAE潜空间和Bayesian Flow解码，支持原子数编辑/结构性质插值；在人糖皮质激素受体药物优化中计算验证改善亲水性且保持关键作用。AI直接操作三维分子并优化药物性质，结果限于计算评价。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Manipulating 3D Molecules in a Fixed-Dimensional E(3)-Equivariant Latent Space",
+        "authors": [
+          "Chen, Zitao",
+          "Jia, Yinjun",
+          "Tian, Zitong",
+          "Ma, Wei-Ying",
+          "Lan, Yanyan"
+        ],
+        "doi": "10.52202/085713-4829",
+        "volume": "38",
+        "pages": "144229–144258",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d4c9ec18537298f5b0ef9413cc92f728-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d4c9ec18537298f5b0ef9413cc92f728-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Medicinal chemists often optimize drugs considering their 3D structures and designing structurally distinct molecules that retain key features, such as shapes, pharmacophores, or chemical properties. Previous deep learning approaches address this through supervised tasks like molecule inpainting or property-guided optimization. In this work, we propose a flexible zero-shot molecule manipulation method by navigating in a shared latent space of 3D molecules. We introduce a Variational AutoEncoder (VAE) for 3D molecules, named MolFLAE, which learns a fixed-dimensional, E(3)-equivariant latent space independent of atom counts. MolFLAE encodes 3D molecules using an E(3)-equivariant neural network into fixed number of latent nodes, distinguished by learned embeddings. The latent space is regularized, and molecular structures are reconstructed via a Bayesian Flow Network (BFN) conditioned on the encoder’s latent output. MolFLAE achieves competitive performance on standard unconditional 3D molecule generation benchmarks. Moreover, the latent space of MolFLAE enables zero-shot molecule manipulation, including atom number editing, structure reconstruction, and coordinated latent interpolation for both structure and properties. We further demonstrate our approach on a drug optimization task for the human glucocorticoid receptor, generating molecules with improved hydrophilicity while preserving key interactions, under computational evaluations. These results highlight the flexibility, robustness, and real-world utility of our method, opening new avenues for molecule editing and optimization.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d4c9ec18537298f5b0ef9413cc92f728-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于物质科学",
+          "label_en": "AI for materials and chemical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MolFLAE以固定维E(3)等变VAE潜空间和Bayesian Flow解码，支持原子数编辑/结构性质插值；在人糖皮质激素受体药物优化中计算验证改善亲水性且保持关键作用。AI直接操作三维分子并优化药物性质，结果限于计算评价。"
+        },
+        {
+          "axis": "method",
+          "label": "变分自编码器",
+          "label_en": "Variational autoencoder",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MolFLAE以固定维E(3)等变VAE潜空间和Bayesian Flow解码，支持原子数编辑/结构性质插值；在人糖皮质激素受体药物优化中计算验证改善亲水性且保持关键作用。AI直接操作三维分子并优化药物性质，结果限于计算评价。"
+        },
+        {
+          "axis": "task",
+          "label": "分子生成",
+          "label_en": "Molecule generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MolFLAE以固定维E(3)等变VAE潜空间和Bayesian Flow解码，支持原子数编辑/结构性质插值；在人糖皮质激素受体药物优化中计算验证改善亲水性且保持关键作用。AI直接操作三维分子并优化药物性质，结果限于计算评价。"
+        },
+        {
+          "axis": "task",
+          "label": "分子性质优化",
+          "label_en": "Molecular property optimization",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "MolFLAE以固定维E(3)等变VAE潜空间和Bayesian Flow解码，支持原子数编辑/结构性质插值；在人糖皮质激素受体药物优化中计算验证改善亲水性且保持关键作用。AI直接操作三维分子并优化药物性质，结果限于计算评价。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6wbykApw7A",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Pareto-Optimal Energy Alignment for Designing Nature-Like Antibodies",
+    "authors": [
+      "Yibo Wen",
+      "Chenwei Xu",
+      "Jerry Yao-Chieh Hu",
+      "Kaize Ding",
+      "Han Liu"
+    ],
+    "author_ids": [
+      "~Yibo_Wen1",
+      "~Chenwei_Xu2",
+      "~Jerry_Yao-Chieh_Hu1",
+      "~Kaize_Ding1",
+      "~Han_Liu4"
+    ],
+    "abstract": "We present a three-stage framework for training deep learning models specializing in antibody sequence-structure co-design. We first pre-train a language model using millions of antibody sequence data. Then, we employ the learned representations to guide the training of a diffusion model for joint optimization over both sequence and structure of antibodies. During the final alignment stage, we optimize the model to favor antibodies with low repulsion and high attraction to the antigen binding site, enhancing the rationality and functionality of the designs. To mitigate conflicting energy preferences, we extend AbDPO (Antibody Direct Preference Optimization) to guide the model toward Pareto optimality under multiple energy-based alignment objectives. Furthermore, we adopt an iterative learning paradigm with temperature scaling, enabling the model to benefit from diverse online datasets without requiring additional data. In practice, our proposed methods achieve high stability and efficiency in producing a better Pareto front of antibody designs compared to top samples generated by baselines and previous alignment techniques. Through extensive experiments, we showcase the superior performance of our methods in generating nature-like antibodies with high binding affinity.",
+    "keywords": [
+      "Antibody Design",
+      "Diffusion Models",
+      "Model Alignment"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ wen2025paretooptimal, title={Pareto-Optimal Energy Alignment for Designing Nature-Like Antibodies}, author={Yibo Wen and Chenwei Xu and Jerry Yao-Chieh Hu and Kaize Ding and Han Liu}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=6wbykApw7A} }",
+    "url": "https://openreview.net/forum?id=6wbykApw7A",
+    "pdf_url": "https://openreview.net/pdf?id=6wbykApw7A",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "binding affinity",
+      "antibody"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "从抗体序列语言预训练到序列结构扩散，再以多能量AbDPO/Pareto对齐减小排斥增强抗原吸引，实际改善抗体设计Pareto前沿和结合评价。AI直接用于多目标抗体设计，未声称摘要未报告的湿实验验证。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Pareto-Optimal Energy Alignment for Designing Nature-Like Antibodies",
+        "authors": [
+          "Wen, Yibo",
+          "Xu, Chenwei",
+          "Hu, Jerry Yao-Chieh",
+          "Ding, Kaize",
+          "Liu, Han"
+        ],
+        "doi": "10.52202/085713-1541",
+        "volume": "38",
+        "pages": "46294–46321",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/41f994cacb08c9d2efc9340117e454f0-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/41f994cacb08c9d2efc9340117e454f0-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "We present a three-stage framework for training deep learning models specializing in antibody sequence-structure co-design. We first pre-train a language model using millions of antibody sequence data. Then, we employ the learned representations to guide the training of a diffusion model for joint optimization over both sequence and structure of antibodies.  During the final alignment stage, we optimize the model to favor antibodies with low repulsion and high attraction to the antigen binding site, enhancing the rationality and functionality of the designs. To mitigate conflicting energy preferences, we extend AbDPO (Antibody Direct Preference Optimization) to guide the model toward Pareto optimality under multiple energy-based alignment objectives.  Furthermore, we adopt an iterative learning paradigm with temperature scaling, enabling the model to benefit from diverse online datasets without requiring additional data. In practice, our proposed methods achieve high stability and efficiency in producing a better Pareto front of antibody designs compared to top samples generated by baselines and previous alignment techniques. Through extensive experiments, we showcase the superior performance of our methods in generating nature-like antibodies with high binding affinity.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/41f994cacb08c9d2efc9340117e454f0-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "从抗体序列语言预训练到序列结构扩散，再以多能量AbDPO/Pareto对齐减小排斥增强抗原吸引，实际改善抗体设计Pareto前沿和结合评价。AI直接用于多目标抗体设计，未声称摘要未报告的湿实验验证。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "从抗体序列语言预训练到序列结构扩散，再以多能量AbDPO/Pareto对齐减小排斥增强抗原吸引，实际改善抗体设计Pareto前沿和结合评价。AI直接用于多目标抗体设计，未声称摘要未报告的湿实验验证。"
+        },
+        {
+          "axis": "task",
+          "label": "抗体序列与结构协同设计",
+          "label_en": "Antibody sequence and structure co-design",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "从抗体序列语言预训练到序列结构扩散，再以多能量AbDPO/Pareto对齐减小排斥增强抗原吸引，实际改善抗体设计Pareto前沿和结合评价。AI直接用于多目标抗体设计，未声称摘要未报告的湿实验验证。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6hidr8PJ8F",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Spectral Convolutional Conditional Neural Processes",
+    "authors": [
+      "Peiman Mohseni",
+      "Nick Duffield"
+    ],
+    "author_ids": [
+      "~Peiman_Mohseni1",
+      "~Nick_Duffield1"
+    ],
+    "abstract": "Neural Processes (NPs) are meta-learning models that learn to map sets of observations to approximations of the corresponding posterior predictive distributions. By accommodating variable-sized, unstructured collections of observations and enabling probabilistic predictions at arbitrary query points, NPs provide a flexible framework for modeling functions over continuous domains. Since their introduction, numerous variants have emerged; however, early formulations shared a fundamental limitation: they compressed the observed data into finite-dimensional global representations via aggregation operations such as mean pooling. This strategy induces an intrinsic mismatch with the infinite-dimensional nature of the stochastic processes that NPs intend to model. Convolutional conditional neural processes (ConvCNPs) address this limitation by constructing infinite-dimensional functional embeddings processed through convolutional neural networks (CNNs) to enforce translation equivariance. Yet CNNs with local spatial kernels struggle to capture long-range dependencies without resorting to large kernels, which impose significant computational costs. To overcome this limitation, we propose spectral ConvCNPs (SConvCNPs), which perform global convolution in the frequency domain. Inspired by Fourier neural operators (FNOs) for learning solution operators of partial differential equations (PDEs), our approach directly parameterizes convolution kernels in the frequency domain, leveraging the relatively compact yet global Fourier representation of many natural signals. We validate the effectiveness of SConvCNPs on both synthetic and real-world datasets, demonstrating how ideas from operator learning can advance the capabilities of NPs.",
+    "keywords": [
+      "neural process",
+      "stochastic process",
+      "meta learning",
+      "fourier neural operator"
+    ],
+    "tldr": "SConvCNPs replace local convolutions in ConvCNPs with global Fourier-based convolutions, efficiently capturing long-range dependencies.",
+    "primary_area": "probabilistic_methods",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ mohseni2025spectral, title={Spectral Convolutional Conditional Neural Processes}, author={Peiman Mohseni and Nick Duffield}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=6hidr8PJ8F} }",
+    "url": "https://openreview.net/forum?id=6hidr8PJ8F",
+    "pdf_url": "https://openreview.net/pdf?id=6hidr8PJ8F",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "neural operator",
+      "fourier neural operator",
+      "partial differential",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "必要全文§4.2（PDF pp7–8）核实SConvCNP并非实际求解PDE，而是用频域神经过程对随机Lotka–Volterra捕食–被捕食数量轨迹从稀疏上下文作概率重建，另评测真实交通流。AI实质建模生态动力学；FNO/PDE只是架构启发，按实际任务标注。",
+      "evidence_location": "正式全文§4.2–4.3, PDF pp7–9, Table2 and Figure2",
+      "verified_metadata": {
+        "title": "Spectral Convolutional Conditional Neural Processes",
+        "authors": [
+          "Mohseni, Peiman",
+          "Duffield, Nick"
+        ],
+        "doi": "10.52202/085713-1350",
+        "volume": "38",
+        "pages": "40416–40446",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/39a5e95b048d8184d530bd0c81afa46a-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/39a5e95b048d8184d530bd0c81afa46a-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Neural Processes (NPs) are meta-learning models that learn to map sets of observations to approximations of the corresponding posterior predictive distributions. By accommodating variable-sized, unstructured collections of observations and enabling probabilistic predictions at arbitrary query points, NPs provide a flexible framework for modeling functions over continuous domains. Since their introduction, numerous variants have emerged; however, early formulations shared a fundamental limitation: they compressed the observed data into finite-dimensional global representations via aggregation operations such as mean pooling. This strategy induces an intrinsic mismatch with the infinite-dimensional nature of the stochastic processes that NPs intend to model. Convolutional conditional neural processes (ConvCNPs) address this limitation by constructing infinite-dimensional functional embeddings processed through convolutional neural networks (CNNs) to enforce translation equivariance. Yet CNNs with local spatial kernels struggle to capture long-range dependencies without resorting to large kernels, which impose significant computational costs. To overcome this limitation, we propose spectral ConvCNPs (SConvCNPs), which perform global convolution in the frequency domain. Inspired by Fourier neural operators (FNOs) for learning solution operators of partial differential equations (PDEs), our approach directly parameterizes convolution kernels in the frequency domain, leveraging the relatively compact yet global Fourier representation of many natural signals. We validate the effectiveness of SConvCNPs on both synthetic and real-world datasets, demonstrating how ideas from operator learning can advance the capabilities of NPs.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/39a5e95b048d8184d530bd0c81afa46a-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/39a5e95b048d8184d530bd0c81afa46a-Paper-Conference.pdf"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。",
+        "full_text_evidence_location": "正式全文§4.2–4.3, PDF pp7–9, Table2 and Figure2",
+        "pdf_sha256": "0186bede17e50919ae5b2eb7866a6528f33d5bf76fad18d854472a5f02ea4514"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "正式全文§4.2–4.3, PDF pp7–9, Table2 and Figure2",
+          "rationale": "必要全文§4.2（PDF pp7–8）核实SConvCNP并非实际求解PDE，而是用频域神经过程对随机Lotka–Volterra捕食–被捕食数量轨迹从稀疏上下文作概率重建，另评测真实交通流。AI实质建模生态动力学；FNO/PDE只是架构启发，按实际任务标注。"
+        },
+        {
+          "axis": "method",
+          "label": "深度学习",
+          "label_en": "Deep learning",
+          "evidence_location": "正式全文§4.2–4.3, PDF pp7–9, Table2 and Figure2",
+          "rationale": "必要全文§4.2（PDF pp7–8）核实SConvCNP并非实际求解PDE，而是用频域神经过程对随机Lotka–Volterra捕食–被捕食数量轨迹从稀疏上下文作概率重建，另评测真实交通流。AI实质建模生态动力学；FNO/PDE只是架构启发，按实际任务标注。"
+        },
+        {
+          "axis": "task",
+          "label": "动力系统状态估计",
+          "label_en": "Dynamical state estimation",
+          "evidence_location": "正式全文§4.2–4.3, PDF pp7–9, Table2 and Figure2",
+          "rationale": "必要全文§4.2（PDF pp7–8）核实SConvCNP并非实际求解PDE，而是用频域神经过程对随机Lotka–Volterra捕食–被捕食数量轨迹从稀疏上下文作概率重建，另评测真实交通流。AI实质建模生态动力学；FNO/PDE只是架构启发，按实际任务标注。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6QbbaEGkO7",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "Derivative-Free Guidance in Continuous and Discrete Diffusion Models with Soft Value-based Decoding",
+    "authors": [
+      "Xiner Li",
+      "Yulai Zhao",
+      "Chenyu Wang",
+      "Gabriele Scalia",
+      "Gökcen Eraslan",
+      "Surag Nair",
+      "Tommaso Biancalani",
+      "Shuiwang Ji",
+      "Aviv Regev",
+      "Sergey Levine",
+      "Masatoshi Uehara"
+    ],
+    "author_ids": [
+      "~Xiner_Li1",
+      "~Yulai_Zhao1",
+      "~Chenyu_Wang7",
+      "~Gabriele_Scalia1",
+      "~Gökcen_Eraslan1",
+      "~Surag_Nair1",
+      "~Tommaso_Biancalani1",
+      "~Shuiwang_Ji1",
+      "~Aviv_Regev1",
+      "~Sergey_Levine1",
+      "~Masatoshi_Uehara1"
+    ],
+    "abstract": "Diffusion models excel at capturing the natural design spaces of images, molecules, DNA, RNA, and protein sequences. However, rather than merely generating designs that are natural, we often aim to optimize downstream reward functions while preserving the naturalness of these design spaces. Existing methods for achieving this goal often require differentiable proxy models (e.g., classifier guidance or DPS) or involve computationally expensive fine-tuning of diffusion models (e.g., classifier-free guidance, RL-based fine-tuning). In our work, we propose a new method to address these challenges. Our algorithm is an iterative sampling method that integrates soft value functions, which looks ahead to how intermediate noisy states lead to high rewards in the future, into the standard inference procedure of pre-trained diffusion models. Notably, our approach avoids fine-tuning generative models and eliminates the need to construct differentiable models. This enables us to (1) directly utilize non-differentiable features/reward feedback, commonly used in many scientific domains, and (2) apply our method to recent discrete diffusion models in a principled way. Finally, we demonstrate the effectiveness of our algorithm across several domains, including image generation, molecule generation, and DNA/RNA sequence generation.",
+    "keywords": [
+      "Biomolecular design",
+      "Reward-guided generation",
+      "Diffusion models"
+    ],
+    "tldr": null,
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ li2025derivativefree, title={Derivative-Free Guidance in Continuous and Discrete Diffusion Models with Soft Value-based Decoding}, author={Xiner Li and Yulai Zhao and Chenyu Wang and Gabriele Scalia and G{\\\"o}kcen Eraslan and Surag Nair and Tommaso Biancalani and Shuiwang Ji and Aviv Regev and Sergey Levine and Masatoshi Uehara}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=6QbbaEGkO7} }",
+    "url": "https://openreview.net/forum?id=6QbbaEGkO7",
+    "pdf_url": "https://openreview.net/pdf?id=6QbbaEGkO7",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "molecule generation",
+      "\\bmolecules?\\b",
+      "\\bproteins?\\b",
+      "\\bdna\\b",
+      "\\brna\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "软值前视解码将不可微奖励直接引入预训练扩散采样，无需生成器微调或可微代理；实证涵盖分子及DNA/RNA序列设计。AI直接按功能/性质奖励优化科学设计对象，不仅图像生成。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "Derivative-Free Guidance in Continuous and Discrete Diffusion Models with Soft Value-based Decoding",
+        "authors": [
+          "Li, Xiner",
+          "Zhao, Yulai",
+          "Wang, Chenyu",
+          "Scalia, Gabriele",
+          "Eraslan, Gokcen",
+          "Nair, Surag",
+          "Biancalani, Tommaso",
+          "Ji, Shuiwang",
+          "Regev, Aviv",
+          "Levine, Sergey",
+          "Uehara, Masatoshi"
+        ],
+        "doi": "10.52202/085713-3194",
+        "volume": "38",
+        "pages": "95507–95545",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/899af0d66d8850318a20781484416152-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/899af0d66d8850318a20781484416152-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Diffusion models excel at capturing the natural design spaces of images, molecules, DNA, RNA, and protein sequences. However, rather than merely generating designs that are natural, we often aim to optimize downstream reward functions while preserving the naturalness of these design spaces. Existing methods for achieving this goal often require differentiable proxy models (e.g., classifier guidance or DPS) or involve computationally expensive fine-tuning of diffusion models (e.g., classifier-free guidance, RL-based fine-tuning). In our work, we propose a new method to address these challenges. Our algorithm is an iterative sampling method that integrates soft value functions, which looks ahead to how intermediate noisy states lead to high rewards in the future, into the standard inference procedure of pre-trained diffusion models. Notably, our approach avoids fine-tuning generative models and eliminates the need to construct differentiable models. This enables us to (1) directly utilize non-differentiable features/reward feedback, commonly used in many scientific domains, and (2) apply our method to recent discrete diffusion models in a principled way. Finally, we demonstrate the effectiveness of our algorithm across several domains, including image generation, molecule generation, and DNA/RNA sequence generation.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/899af0d66d8850318a20781484416152-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于生命科学",
+          "label_en": "AI for life sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "软值前视解码将不可微奖励直接引入预训练扩散采样，无需生成器微调或可微代理；实证涵盖分子及DNA/RNA序列设计。AI直接按功能/性质奖励优化科学设计对象，不仅图像生成。"
+        },
+        {
+          "axis": "method",
+          "label": "扩散模型",
+          "label_en": "Diffusion model",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "软值前视解码将不可微奖励直接引入预训练扩散采样，无需生成器微调或可微代理；实证涵盖分子及DNA/RNA序列设计。AI直接按功能/性质奖励优化科学设计对象，不仅图像生成。"
+        },
+        {
+          "axis": "task",
+          "label": "基因组序列建模",
+          "label_en": "Genomic sequence modeling",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "软值前视解码将不可微奖励直接引入预训练扩散采样，无需生成器微调或可微代理；实证涵盖分子及DNA/RNA序列设计。AI直接按功能/性质奖励优化科学设计对象，不仅图像生成。"
+        },
+        {
+          "axis": "task",
+          "label": "分子生成",
+          "label_en": "Molecule generation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "软值前视解码将不可微奖励直接引入预训练扩散采样，无需生成器微调或可微代理；实证涵盖分子及DNA/RNA序列设计。AI直接按功能/性质奖励优化科学设计对象，不仅图像生成。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6QJZDAIhfk",
+    "venue": "neurips",
+    "year": 2025,
+    "track": "main",
+    "title": "F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning",
+    "authors": [
+      "Hangwei Zhang",
+      "KangChun",
+      "Yan Wang",
+      "Difan Zou"
+    ],
+    "author_ids": [
+      "~Hangwei_Zhang2",
+      "~KangChun1",
+      "~Yan_Wang12",
+      "~Difan_Zou1"
+    ],
+    "abstract": "Parameter-efficient fine-tuning (PEFT) powerful pre-trained models for complex downstream tasks has proven effective in vision and language processing, yet this paradigm remains unexplored in scientific machine learning, where the objective is to model complex physical systems. We conduct the first systematic study of PEFT for pre-trained Large Operator Models (LOMs) obtained by scaling variants of Fourier Neural Operator. We observe that the widely used Low-Rank Adaptation (LoRA) yields markedly poorer performance on LOMs than Adapter tuning. We further theoretically establish that stacked LoRA incurs a depth-amplified lower bound on approximation error within Fourier layers, whereas adapters retain universal approximation capacity and, by concentrating parameters on energy-dominant low-frequency modes, attain exponentially decaying error with bottleneck width in the Fourier domain. Motivated by the robust empirical gains of adapters and by our theoretical characterization of PDE solutions as spectrally sparse, we introduce Frequency-Adaptive Adapter (F-Adapter). F-Adapter allocates adapter capacity based on spectral complexity, assigning higher-dimension modules to low-frequency components and lower-dimension modules to high-frequency components. Our F-Adapters establish state-of-the-art results on multiple challenging 3D Navier–Stokes benchmarks, markedly enhancing both generalization and spectral fidelity over LoRA and other PEFT techniques commonly used in LLMs. To the best of our knowledge, this work is the first to explore PEFT for scientific machine-learning and establishes F-Adapter as an effective paradigm for this domain. The code will be made publicly available upon acceptance.",
+    "keywords": [
+      "Scientifc Machine Learning"
+    ],
+    "tldr": "This work is the first to explore PEFT for scientific machine-learning and establishes F-Adapter as an effective paradigm for this domain.",
+    "primary_area": "machine_learning_for_sciences",
+    "presentation": "poster",
+    "doi": null,
+    "pages": null,
+    "bibtex": "@inproceedings{ zhang2025fadapter, title={F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning}, author={Hangwei Zhang and KangChun and Yan Wang and Difan Zou}, booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}, year={2025}, url={https://openreview.net/forum?id=6QJZDAIhfk} }",
+    "url": "https://openreview.net/forum?id=6QJZDAIhfk",
+    "pdf_url": "https://openreview.net/pdf?id=6QJZDAIhfk",
+    "code_url": null,
+    "project_url": null,
+    "published": "2025-09-18",
+    "source": "openreview",
+    "ai4s_hits": [
+      "scientific machine learning",
+      "neural operator",
+      "fourier neural operator",
+      "\\bpdes?\\b"
+    ],
+    "ai4s_reason": "keyword",
+    "ai4s_review": {
+      "schema_version": 2,
+      "batch_id": "lixueting-2025-continuous-root-twenty7-plans",
+      "owner": "李雪婷",
+      "snapshot_at": "2026-11-09T10:51:18+08:00",
+      "decision": "include",
+      "rationale": "F-Adapter按谱复杂度对FNO科学算子分配适配容量，并在多套三维Navier–Stokes基准验证外推与谱保真，结合LoRA误差及适配器逼近理论。AI方法专门改善物理场科学模型迁移。",
+      "evidence_location": "输入摘要；正式论文集Abstract",
+      "verified_metadata": {
+        "title": "F-Adapter: Frequency-Adaptive Parameter-Efficient Fine-Tuning in Scientific Machine Learning",
+        "authors": [
+          "Zhang, Hangwei",
+          "Kang, Chun",
+          "Wang, Yan",
+          "Zou, Difan"
+        ],
+        "doi": "10.52202/085713-3710",
+        "volume": "38",
+        "pages": "111120–111162",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a12e362d89d4e0b40760f839f91550ee-Abstract-Conference.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a12e362d89d4e0b40760f839f91550ee-Paper-Conference.pdf",
+        "publication_date": "2026-04-23",
+        "formal_conference_year": 2025,
+        "abstract": "Parameter-efficient fine-tuning (PEFT) powerful pre-trained models for complex downstream tasks has proven effective in vision and language processing, yet this paradigm remains unexplored in scientific machine learning, where the objective is to model complex physical systems. We conduct the first systematic study of PEFT for pre-trained Large Operator Models (LOMs) obtained by scaling variants of Fourier Neural Operator. We observe that the widely used Low-Rank Adaptation (LoRA) yields markedly poorer performance on LOMs than Adapter tuning.  We further theoretically establish that stacked LoRA incurs a depth-amplified lower bound on approximation error within Fourier layers, whereas adapters retain universal approximation capacity and, by concentrating parameters on energy-dominant low-frequency modes, attain exponentially decaying error with bottleneck width in the Fourier domain. Motivated by the robust empirical gains of adapters and by our theoretical characterization of PDE solutions as spectrally sparse, we introduce Frequency-Adaptive Adapter (F-Adapter). F-Adapter allocates adapter capacity based on spectral complexity, assigning higher-dimension modules to low-frequency components and lower-dimension modules to high-frequency components. Our F-Adapters establish state-of-the-art results on multiple challenging 3D Navier–Stokes benchmarks, markedly enhancing both generalization and spectral fidelity over LoRA and other PEFT techniques commonly used in LLMs. To the best of our knowledge, this work is the first to explore PEFT for scientific machine-learning and establishes F-Adapter as an effective paradigm for this domain. The code will be made publicly available upon acceptance.",
+        "evidence_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a12e362d89d4e0b40760f839f91550ee-Abstract-Conference.html"
+        ],
+        "abstract_provenance": "原始正式论文集Abstract，未生成摘要。"
+      },
+      "checked_at": "2026-11-19T07:34:09.083045+00:00",
+      "scope_note": "正式论文集卷38对应NeurIPS2025；另存官网上网日期，保留原始年份字段。",
+      "tags": [
+        {
+          "axis": "domain",
+          "label": "AI 用于数理科学",
+          "label_en": "AI for mathematical and physical sciences",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "F-Adapter按谱复杂度对FNO科学算子分配适配容量，并在多套三维Navier–Stokes基准验证外推与谱保真，结合LoRA误差及适配器逼近理论。AI方法专门改善物理场科学模型迁移。"
+        },
+        {
+          "axis": "training_stage",
+          "label": "微调",
+          "label_en": "Fine-tuning",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "F-Adapter按谱复杂度对FNO科学算子分配适配容量，并在多套三维Navier–Stokes基准验证外推与谱保真，结合LoRA误差及适配器逼近理论。AI方法专门改善物理场科学模型迁移。"
+        },
+        {
+          "axis": "method",
+          "label": "神经算子",
+          "label_en": "Neural operator",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "F-Adapter按谱复杂度对FNO科学算子分配适配容量，并在多套三维Navier–Stokes基准验证外推与谱保真，结合LoRA误差及适配器逼近理论。AI方法专门改善物理场科学模型迁移。"
+        },
+        {
+          "axis": "task",
+          "label": "流体动力学模拟",
+          "label_en": "Fluid dynamics simulation",
+          "evidence_location": "输入摘要；正式论文集Abstract",
+          "rationale": "F-Adapter按谱复杂度对FNO科学算子分配适配容量，并在多套三维Navier–Stokes基准验证外推与谱保真，结合LoRA误差及适配器逼近理论。AI方法专门改善物理场科学模型迁移。"
+        }
+      ]
+    }
   }
 ]
