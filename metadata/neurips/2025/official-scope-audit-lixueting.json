@@ -11,28 +11,27 @@
     "snapshot_at": "2026-11-09T10:51:18+08:00",
     "official_total": null,
     "official_scope": "2025完整正式论文集各分轨，原始仅Main Conference，正在核Datasets and Benchmarks/Position/CreativeAI；不把Main子集总量当全年全轨总量。",
-    "coverage_note": "Main Conference官方5286与原5286标题逐一规范匹配，尚需全目录召回；其他正式分轨目录与范围尚在核实。已逐篇核175/351初候选原摘要，136纳入、26排除、13实际方法/科学作用疑点待补证，余176未审；本反馈不声明整源完成。",
+    "coverage_note": "当前已逐篇审核195/351初候选，166纳入、29排除、0待定。必要疑点按正式公开全文核实，不将领域愿景或物理比喻当科学作用。其余156初候选、Main全目录召回及其他正式分轨覆盖仍未完成。",
     "candidate_total": 351,
     "candidate_missing_abstracts": 0,
     "review_counts": {
-      "include": 136,
-      "exclude": 26,
-      "pending": 13,
-      "unreviewed": 176
+      "include": 166,
+      "exclude": 29,
+      "pending": 0,
+      "unreviewed": 156
     },
     "completion_status": "in_progress",
     "work_status": "in_progress",
     "issues": [
-      "13篇已审候选的具体方法/科学贡献仍待必要正文补证。",
-      "176篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
+      "156篇初候选尚未精筛；Main全目录召回与其他正式分轨覆盖尚未完成。"
     ],
     "next_actions": [
-      "继续逐篇审核176初候选，按需补证13个实际疑点；核全Main及其他正式分轨漏采漏筛。"
+      "继续逐篇审核余156初候选；核全Main及其他正式分轨漏采漏筛。"
     ],
     "evidence_urls": [
       "https://proceedings.neurips.cc/paper_files/paper/2025"
     ],
-    "checked_at": "2026-11-19T07:05:12.717587+00:00"
+    "checked_at": "2026-11-19T07:17:51.197141+00:00"
   },
   "catalogue_main_track": {
     "official_count": 5286,
@@ -1451,5 +1450,359 @@
       "rationale": "UGM2N学习无监督节点重定位并以M-Uniform物理约束适配PDE网格，跨方程与复杂几何提高数值解精度。"
     }
   ],
-  "scope_note": "Main5286 fully title-matched to official formal track. Official other tracks remain in progress; no complete-source claim."
+  "scope_note": "Main5286 fully title-matched to official formal track. Official other tracks remain in progress; no complete-source claim.",
+  "necessary_full_text_resolutions": [
+    {
+      "id": "vZfqDwF09z",
+      "title": "Let Brain Rhythm Shape Machine Intelligence for Connecting Dots on Graphs",
+      "decision": "include",
+      "rationale": "正式全文§4.1–4.2（PDF pp7–9）明确用HCP-A/HCP-YA/HCP-WM真实fMRI与结构连接，BRICK学习振荡同步以解码认知状态，并无监督划分功能脑区；结果讨论任务特异网络及跨被试同步。虽另有通用GNN实验，实际脑科学建模已核实。",
+      "evidence_location": "§4.1–4.2, PDF pp7–9, Figures 3–4",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1130af851aa296ac3764686c22e4b98a-Paper-Conference.pdf",
+      "pdf_sha256": "1e0ce072aeff4bbf6a3d6f7a41e122d4d24f7d6a86ecbc839f952ca80feaa345",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "vN3ZRS7L3I",
+      "title": "Causal Spatio-Temporal Prediction: An Effective and Efficient Multi-Modal Approach",
+      "decision": "include",
+      "rationale": "正式全文§5.1–5.2及Table1核实E²-CSTP在GreenEarthNet多模态卫星植被时序预测上实际评测，整合图卷积、Mamba时序与跨模态因果干预；并有Terra、交通及单车流实验。存在明确地球环境预测任务，不只在引言罗列气象动机。",
+      "evidence_location": "§5.1–5.2, PDF pp7–8, Table1",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b71169b4db5448c494c91db848f060be-Paper-Conference.pdf",
+      "pdf_sha256": "c0bec2467b52c9415cdb476eff8911e4877cbc7f5a3750718012bd03a89c9f5b",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "v6kyF3S7dM",
+      "title": "Flex-Judge: Text-Only Reasoning Unleashes Zero-Shot Multimodal Evaluators",
+      "decision": "include",
+      "rationale": "正式全文§4（PDF pp7–8）实际建立FLEX-Mol-LLaMA分子评判器，以PAMPA膜通透性任务验证化学性质判断，用best-of-N及4000组分子偏好训练DPO，将相应预测准确率提升至77.49%/80.10%。分子科学作用有具体对象和结果，非仅泛称多模态评判器可用于科学。",
+      "evidence_location": "§4 Broader Impact: Case Study on Molecule Evaluator, PDF pp7–8, Figure4",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9c7eeda2dc98e61baa9a5884afd231bc-Paper-Conference.pdf",
+      "pdf_sha256": "ea238389aa92f147bb8f2dcb1f2a7f1523835982cd868bf42602879178bc6dad",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "tv2McpEdyH",
+      "title": "Dynamic and Chemical Constraints to Enhance the Molecular Masked Graph Autoencoders",
+      "decision": "include",
+      "rationale": "正式全文§4.1–4.3（PDF pp7–9）用ZINC15预训练、MoleculeNet八个毒性/药效/血脑屏障等分子性质预测数据集进行scaffold划分评测，另分析MUTAG致突变基团重要性；DyCC学习化学核心子图并动态掩码，实质改善分子表征与性质预测。",
+      "evidence_location": "§4.1–4.3, PDF pp7–9, Table1 and Figure4",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/fe692980c5d9732cf153ce27947653a7-Paper-Conference.pdf",
+      "pdf_sha256": "e86a62275fbe0b98975ac3e4e2fecba36deacdfbd08dbad7681cf46f7ecbe3cd",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "s14pdQgoLb",
+      "title": "Greed is Good: A Unifying Perspective on Guided Generation",
+      "decision": "include",
+      "rationale": "正式全文§7.2（PDF p9及后续结果）实际在QM9进行受控分子生成，目标为极化率、HOMO/LUMO能级及能隙、偶极矩和热容；以目标性质误差及原子/分子稳定性评估扩散/流引导。虽主贡献含统一理论，明确开展量子化学性质约束分子设计。",
+      "evidence_location": "§7.2 Molecule generation for QM9, PDF pp9–10, Figure4",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a565741b6a2b152323452215bd1f4185-Paper-Conference.pdf",
+      "pdf_sha256": "76b9c9a7bd57981c3989da641be348f106f6594f2186ab84bd43f90495aba57b",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "oQbTbio99T",
+      "title": "Understanding and Enhancing Mask-Based Pretraining towards Universal Representations",
+      "decision": "include",
+      "rationale": "正式全文§4.2（PDF pp8–10）在GPN-MSA DNA模型及单细胞模型实施R²MAE，实际用ClinVar/OMIM错义和调控变异效应预测，以及肺/脑图谱跨供者细胞类型、疾病、年龄预测验证。随机范围掩码改进生物功能表征，不是只报告一般重建或ImageNet指标。",
+      "evidence_location": "§4.2, PDF pp8–10, Tables3–4 and6",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d202099e9d671859246a0a78b66117d7-Paper-Conference.pdf",
+      "pdf_sha256": "02c4a678f4eb374fc8141a7c10bc255040a36fa3bc29e497f9990e2fc49e5c6e",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "nFc38gSYze",
+      "title": "Active Measurement: Efficient Estimation at Scale",
+      "decision": "include",
+      "rationale": "正式全文§6（PDF pp6–8）实测燕群照片与2015–2019年五大湖11个天气雷达站的栖息鸟数量，使用Faster R-CNN和主动重要性抽样、人工反馈形成有统计保障的总体计数，并扩展疟疾细胞计数。AI实际辅助生态科学测量且量化估计误差，非泛化估计示例。",
+      "evidence_location": "§6 Experiments, PDF pp6–8; bird photos and weather-radar counts",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d6adf82fa531dcb8bfa53c224ce5e466-Paper-Conference.pdf",
+      "pdf_sha256": "33f116ce870959a63c0b84241590f5856530142a9648be866b8764df4cbcc066",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "ls5L4IMEwt",
+      "title": "E2Former: An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products",
+      "decision": "include",
+      "rationale": "正式全文§4.2及§5（PDF pp7–10）核实E2Former在OC20/OC22催化体系和SPICE分子上预测能量与原子力，并用于分子动力学模拟；Wigner6j等变卷积实现可扩展学习势。是实际化学/材料能量力与动力学建模，不只是通用张量积提速。",
+      "evidence_location": "§4.2 and§5, PDF pp7–10, Tables1–3",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/21f7b745f73ce0d1f9bcea7f40b1388e-Paper-Conference.pdf",
+      "pdf_sha256": "c9e46f6d060c6d051d4f89abb35b8d1296ae89a7a8ac713f73e603ccc7a0d167",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "fPPfFMVTZo",
+      "title": "Continuous Simplicial Neural Networks",
+      "decision": "include",
+      "rationale": "正式全文§6.1（PDF p8）以ocean-drifts真实海洋漂流轨迹作预测实验，连续单纯神经网络利用高阶耦合提高下一步路径预测；同时有形状回归与一般图分类。实际地球系统运动轨迹预测已核实，不能仅因其另含通用图网络理论而排除。",
+      "evidence_location": "§6.1 Real-world Applications, PDF p8, Table1",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/55c944c9d908af245fa658b0e02b9003-Paper-Conference.pdf",
+      "pdf_sha256": "4616849c76957da0569aec065c1c503926c02b6072658a1a0cfe4b41d58fed87",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "at87L8EuzR",
+      "title": "PCA++: How Uniformity Induces Robustness to Background Noise in Contrastive Learning",
+      "decision": "include",
+      "rationale": "正式全文PDF pp9–10的single-cell实验以IFN-β刺激/对照PBMC真实转录组作配对对比学习，显式均匀性约束抑制背景变异、分离稳定细胞结构，同时保留单核细胞响应差异。研究的PCA++是学习对比信号子空间的方法，非将普通PCA可视化视为AI；实际用于单细胞生物结构解析。",
+      "evidence_location": "Single-cell RNA sequencing data, PDF pp9–10, Figure5; AppendixI",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/be134d48940cb057bed598ea0b14fe20-Paper-Conference.pdf",
+      "pdf_sha256": "f4878b3467feedc69f8aa5eca001b7b15c82e7f6273d2c72013eaaaf71683358",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "XQIa0vGIum",
+      "title": "Explore In-Context Message Passing Operator for Graph Neural Networks in A Mean Field Game",
+      "decision": "include",
+      "rationale": "正式全文§3（PDF pp8–9）核实Game-of-GNN在ABIDE自闭症、ADNI/OASIS阿尔茨海默病及PPMI帕金森病真实脑功能连接图上做疾病判别，使用BOLD时序及116脑区功能连接；均场博弈/PDE用于学习消息传递。存在实质医学脑影像分析，不只是连接组作为泛图演示或仅物理术语。",
+      "evidence_location": "§3 Experiments, PDF pp8–9, Figure2",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a7ca0195a6b7f16ca23aecd0b92c8a6a-Paper-Conference.pdf",
+      "pdf_sha256": "e3765ec003ca8458e22bd469cd11ddedcf6fbd830dc43510c18adf218f50940b",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "Wlw8jkGscY",
+      "title": "Unleashing Foundation Vision Models: Adaptive Transfer for Diverse Data-Limited Scientific Domains",
+      "decision": "include",
+      "rationale": "正式全文§4.1–4.2（PDF pp6–7）明确CLAdapter在BreakHis/HCRF病理分类、苹果叶病识别和InsPLAD工业缺陷检测等实际任务评测，使用可学习聚类适配与分阶段迁移训练，Table2给出独立任务结果。科学医学任务已有可核证据，非仅10领域清单。",
+      "evidence_location": "§4.1–4.2, PDF pp6–7, Table2",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/de37d92651d269a10e3925e109a67ed3-Paper-Conference.pdf",
+      "pdf_sha256": "7e65ff8e99645f5a905044e8f406f00059e11f21f1b3fa215959f9a79814285f",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    },
+    {
+      "id": "WYSCCw7mCe",
+      "title": "Energy Matching: Unifying Flow Matching and Energy-Based Models for Generative Modeling",
+      "decision": "include",
+      "rationale": "正式全文§3.2（PDF pp8–9）实际进行AAV衣壳蛋白逆向设计，以预测病毒包装效率为适应度目标、Levenshtein距离度量序列多样性，在medium/hard分割比较。Energy Matching的学习势与可控排斥项用于生成高适应度、多样蛋白序列，具有实质蛋白设计任务，不只通用图像生成。",
+      "evidence_location": "§3.2 Protein inverse design, PDF pp8–9, Figure3",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0cbbdfb0a4098af8dc7a497a5e59aff7-Paper-Conference.pdf",
+      "pdf_sha256": "bb0ad9829f829dde0c685058f8d96eb2889c1d48ffdf4f146cedc3b0d8f7fc34",
+      "checked_at": "2026-11-19T07:14:55.260238+00:00"
+    }
+  ],
+  "root_scientific_review_batches": [
+    {
+      "batch_id": "lixueting-2025-continuous-root-neurips20",
+      "checked_at": "2026-11-19T07:17:51.197141+00:00",
+      "count": 20,
+      "decisions": {
+        "include": 17,
+        "exclude": 3
+      },
+      "records": [
+        {
+          "id": "UoKt9B1aY8",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "图神经网络",
+            "单细胞表征学习"
+          ],
+          "rationale": "HiPoNet针对高维单细胞与空间转录组队列构建多视角高阶单纯复形，利用可微网络与单纯小波学习局部/全局拓扑，实际进行队列点云分类和回归、空间转录组分析。AI直接参与细胞组学表征研究。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "UCloKhbOvP",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "Transformer 架构",
+            "偏微分方程求解"
+          ],
+          "rationale": "球面注意力引入数值求积权重与测地邻域，保持球面几何/近似旋转等变，并实际学习旋转球面浅水方程模拟。该物理方程代理任务明确，不只一般球面视觉分割与深度估计。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "U87XyMPrZp",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "分子构象生成"
+          ],
+          "rationale": "ConforMix在推理时结合分类器引导、过滤和自由能估计，增强扩散模型对生物分子构象分布的采样，实测结构域运动、隐蔽口袋灵活性与转运体循环并避免非物理状态。直接研究蛋白功能相关构象景观。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "U7ab14f4YQ",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "扩散模型",
+            "基因组序列建模"
+          ],
+          "rationale": "SGDD将split Gibbs后验采样用于离散扩散模型，在实际评测中包含DNA序列设计，不仅给出采样收敛理论；AI直接用于生命科学序列的奖励约束设计，同时保留其图像和音乐等一般任务的事实。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "U5w9l0yQdo",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "神经算子",
+            "因果发现"
+          ],
+          "rationale": "必要全文§4.2核实Sachs流式细胞术7466个单细胞的8蛋白测量用于因果结构学习，另有明确标注为模拟的生物网络/水蒸发数据。SciNO稳定估计得分Hessian并改进因果排序，存在真实细胞信号关系研究任务；不把所有BNLearn模拟样本称作真实实验。",
+          "location": "正式全文§4.2, PDF p8, Table2；§3.2–3.3"
+        },
+        {
+          "id": "Tk5nQnTGmP",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "研究对象是神经网络grokking与通用优化器：将参数/训练损失类比玻璃自由度/能量，并在算术Transformer任务检验泛化。物理比喻和Wang–Landau启发用于解释/改进AI训练，未构成AI参与独立物理研究任务。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "TUh4GDposM",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "对比学习",
+            "药物虚拟筛选"
+          ],
+          "rationale": "AANet通过配体、holo口袋及检测腔体的三模态对比学习与交叉注意力聚合，在apo/预测结构及缺口袋信息条件下实际开展药物虚拟筛选，blind-apo早期富集从11.75提高至37.19。AI直接支持有结构不确定性的药物发现。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "T3DF4yxcPz",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生物分子复合物结构预测"
+          ],
+          "rationale": "CryoBoltz用异质cryo-EM密度图的全局/局部约束，引导预训练结构预测模型采样，与实验数据一致地重建动态转运体和抗体等原子模型。AI直接融合实验成像与序列/生物物理先验解释结构异质性。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Swik6KVV4u",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "分子表征学习",
+            "分子性质预测"
+          ],
+          "rationale": "LigoSpace学习蛋白–配体结合空腔与多口袋联合表示，并使用成对损失以预测多类生物活性。方法针对口袋剩余空间影响功能这一药物科学问题，实际在多数据集改善活性建模。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "SvopaNxYWt",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "机器学习原子势",
+            "科学基础模型"
+          ],
+          "rationale": "UMA在五亿三维原子结构上训练跨分子、材料、催化域的通用原子模型，并以线性专家混合兼顾速度、准确性和跨域泛化，实际预测原子模拟性质。属于用于化学和材料模拟的科学基础模型。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "SurremoXPu",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "药物靶点相互作用预测"
+          ],
+          "rationale": "BioCG将生化相互作用预测改为受限序列生成，量化编码生化实体、以trie约束有效伙伴，在药物–靶点、药物–药物、酶–反应任务及未见蛋白冷启动条件实际验证。AI直接预测生化作用关系。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "SkAY3KHKn2",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "Transformer 架构",
+            "偏微分方程求解"
+          ],
+          "rationale": "GyroSwin构建五维非线性回旋动理学神经代理，预测聚变等离子湍流分布和热输运，捕捉湍流能量级联并降低高保真模拟成本三个数量级。明确为物理动力学/反应堆相关科学模拟，不是一般视觉模型。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "SXxlb1miXS",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "语言模型",
+            "分子性质优化",
+            "蛋白质序列优化"
+          ],
+          "rationale": "ERA基于可评估连续奖励构造能量排序对齐目标，实际对齐分子Transformer与蛋白语言模型，生成具有外部指定性质的分子和蛋白序列。AI直接实施化学空间及蛋白性质搜索，非仅一般LLM对齐。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "STsjfx2cee",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "扩散模型",
+            "光谱分析"
+          ],
+          "rationale": "ChefNMR根据一维NMR谱及分子式，以条件原子扩散模型预测未知小分子结构；构建11.1万余天然产物模拟谱并达到超过65%的结构准确率。直接自动化化学结构解析。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "SLDYuNGwvU",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "PDE为通用单目深度模型构建程序化三维场景扰动鲁棒性基准，评估对象、相机、材质和光照变化下的视觉性能。摘要未显示独立科学对象或具体工程研究任务，场景生成本身不足以支持AI4S纳入。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "SAlCQdk5lx",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "生成建模",
+            "分子构象生成"
+          ],
+          "rationale": "RCM在黎曼流形上开展少步一致性生成，保持球面、环面及SO(3)等几何约束，并明确包含RNA与蛋白生成的实际应用实验。AI方法直接用于生物分子受几何约束生成，不只形式几何理论。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "S9Y89poypx",
+          "decision": "include",
+          "labels": [
+            "AI 用于生命科学",
+            "循环神经网络",
+            "脑功能网络建模"
+          ],
+          "rationale": "e-nmRNN由神经调质释放的生物物理速率约化推导，将容积传递、连接动力学及突触可塑性统一为可解释计算神经科学模型；分析神经调质浓度门控、细胞特异性和RPE信用分配机制。实际研究神经调节计算功能，非只借脑名义改进通用网络。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "Rz9ISbLxf0",
+          "decision": "include",
+          "labels": [
+            "AI 用于物质科学",
+            "等变神经网络",
+            "电子结构预测"
+          ],
+          "rationale": "ELECTRA学习自由浮动轨道的位置、系数、权重与协方差，保持电荷密度旋转等变并预测电子电荷分布；以预测密度初始化未见分子DFT，使SCF迭代平均减少50.72%。直接辅助量子化学电子结构计算。",
+          "location": "输入摘要；正式论文集Abstract"
+        },
+        {
+          "id": "RxkCwOKVKa",
+          "decision": "exclude",
+          "labels": [],
+          "rationale": "必要全文§4（PDF pp6–9）显示17项实验为RWARE、StarCraft和Connector多智能体基准，用于比较通用RL推理搜索预算。引言的电网/蛋白设计没有实际实验；Connector虽用抽象网格模拟连线，但本文未开展具体电路设计或物理工程验证，主要贡献仍为通用RL推理性能。",
+          "location": "正式全文§4, PDF pp6–9, Figures3–7"
+        },
+        {
+          "id": "RnByxq9toW",
+          "decision": "include",
+          "labels": [
+            "AI 用于数理科学",
+            "物理信息学习",
+            "数据驱动降阶学习",
+            "偏微分方程求解"
+          ],
+          "rationale": "Φ-ROM将可微PDE求解器直接纳入潜空间动力学训练，用物理约束保持高低维系统一致，并在未见参数、超训练时域长期预测及稀疏不规则观测下重建/同化物理场。AI实质用于时变参数化微分方程的降阶科学模拟。",
+          "location": "输入摘要；正式论文集Abstract"
+        }
+      ]
+    }
+  ]
 }
